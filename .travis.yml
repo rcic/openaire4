@@ -1,0 +1,17 @@
+# Travis build file for building the documentation and checking for errors.
+
+sudo: false
+
+language: python
+# language: java
+
+python:
+    - "3.6"
+
+# install: true
+install:
+    - pip install -r requirements.txt
+
+script:
+    - "sphinx-build -qnN docs docs/_build/html"
+#    - travis_wait mvn test -B
