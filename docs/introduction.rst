@@ -1,6 +1,6 @@
 .. _literature_intro:
 
-1. Presentación
+Presentación
 ===============
 
 Aim
