@@ -8,7 +8,7 @@ Directrices de interoperabilidad de metadatos de la Red Colombiana de Informaci√
 ====
 .. toctree::
    :maxdepth: 1
-	.. py:function:: enumerate(sequence[, start=1])
+.. py:function:: enumerate(sequence[, start=1])
 
    introduction
    use_of_oai_pmh
