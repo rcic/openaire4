@@ -10,7 +10,7 @@ Directrices de interoperabilidad de metadatos de la Red Colombiana de Informaci√
    :maxdepth: 1
 .. py:function:: enumerate(sequence[, start=1])
 
-   1.introduction
-   2.use_of_oai_pmh
-   3.application_profile
+   1. introduction
+   2. use_of_oai_pmh
+   3. application_profile
 
