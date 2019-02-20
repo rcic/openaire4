@@ -8,7 +8,7 @@ Directrices de interoperabilidad de metadatos de la Red Colombiana de Informaci√
 ====
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    introduction
    use_of_oai_pmh
