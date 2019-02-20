@@ -1,9 +1,11 @@
-##########################################
-Bienbenidos a Metabiblioteca - OpenAire v4
-##########################################
+###################################################################################################
+Directrices de interoperabilidad de metadatos de la Red Colombiana de Información Científica (RCIC)
+###################################################################################################
 
-These guidelines describe the application profile v4 for Literature Repository managers to be compatible with OpenAIRE.
 
+
+2019
+====
 .. toctree::
    :maxdepth: 1
 
