@@ -8,7 +8,6 @@ Directrices de interoperabilidad de metadatos de la Red Colombiana de Informaci√
 ====
 
 .. toctree::
-   :caption:
    :numbered:
    :maxdepth: 1
 
