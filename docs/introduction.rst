@@ -3,115 +3,22 @@
 Presentación
 ===============
 
-Aim
----
-The OpenAIRE Guidelines for Literature Repository Managers 4.0 provide
-orientation for repository managers to define and implement their local data
-management policies according to the requirements of the `OpenAIRE - Open Access
-Infrastructure for Research in Europe <http://www.openaire.eu>`_.
+La Red Colombiana de Información Científica (RCIC) es una iniciativa que busca proveer al país de una estructura que articule los esfuerzos que los actores del Sistema Nacional de Ciencia, Tecnología e Innovación desarrollan en el ámbito de gestión de la información científica, como insumo para fortalecer el desarrollo científico - tecnológico, la apropiación social del conocimiento y la articulación con redes internacionales para gestión de la información científica. Entre sus objetivos primordiales, se encuentra promover lineamientos en el área de la información científica, fortaleciendo las condiciones y capacidades para su producción, articulación y organización.
+ 
+Tal como lo explica el documento marco del Sistema Nacional de Acceso Abierto al Conocimiento SNAAC (2015): Colombia debe establecer las condiciones para promover la consolidación y fortalecimiento de las condiciones para la producción, gestión y visibilidad del conocimiento propio, ya que este factor se constituye en un importante impulso para:
 
-The OpenAIRE Guidelines were established to support the `Open Access strategy of the European Commission <http://ec.europa.eu/research/openscience/index.cfm?pg=openaccess>`_
-and to meet requirements of the OpenAIRE infrastructure.
-This new version of the Guidelines, according to the expansion of the aims of the
-OpenAIRE initiative and its infrastructure, has a broader scope. In fact, these
-Guidelines are intended to guide repository manager to expose to the OpenAIRE
-infrastructure **open access and non-open access publications** together with **funding information**, where applicable.
+* Disminución de la brecha de acceso a la información y el conocimiento para todos los colombianos. Aspecto que apalanca transformaciones significativas en campo, como el fortalecimiento de la educación y la innovación.
 
-By implementing these Guidelines, repository managers will not only be
-enabling authors who deposit publications in their repository to fulfill the EC
-Open Access requirements, and eventually also the requirements of other
-(national or international) funders with whom OpenAIRE cooperates,
-but also incorporating their publications into the OpenAIRE infrastructure for
-discoverability and utilizing value-added services provided by the OpenAIRE portal.
+* Impulso de la producción de acceso abierto, principalmente la que se realiza con fondos públicos. 
 
-The OpenAIRE Guidelines for Literature Repository Managers 4.0 are 
-part of a set of OpenAIRE Guidelines that also include the OpenAIRE Guidelines
-for Data Archive Managers, the OpenAIRE Guidelines for CRIS managers, the OpenAIRE Guidelines for Software Repository Managers, and the Guidelines for Other Research Products Repository Managers.
+* Visibilidad del conocimiento producido en Colombia, como una forma de respaldar y promocionar nuestra investigación y el trabajo que llevan a cabo nuestras comunidades científicas y académicas.
 
-What's new
-----------
-In comparison with previous versions of the Guidelines, this version introduces
-the following major changes:
+Adicionalmente, es indispensable fomentar la ciencia abierta en Colombia a través de la coordinación de todos los recursos y programas de los repositorios nacionales e institucionales con este objetivo.
+ 
+Se propone entonces una estructura en tres niveles: institucional, nacional e internacional para promover y fomentar una mayor disponibilidad de datos e información científica, con nuevas formas de acceso y difusión, para lograr un aumento de la circulación, uso y apropiación del conocimiento para diferentes públicos, especialmente usuarios del sistema Nacional de Ciencia Tecnología e Innovación:
 
-* an application profile and schema based on Dublin Core and DataCite incl. a new OAI-metadataPrefix
-* support of identifier schemes for authors, organizations, funders, scholarly resources
-* introduction of COAR Controlled Vocabularies
-* compliance with the `OpenAIRE Content Acquisition Policy <https://doi.org/10.5281/zenodo.1446407>`_, published on 05-Oct-2018.
+* **Nivel Institucional:** implementar, adecuar o revisar los repositorios institucionales tanto de Colciencias como de las entidades miembros del Sistema Nacional de Ciencia, Tecnología e innovación, de acuerdo con los parámetros específicos para repositorios institucionales de productos de investigación.
 
-How this document is structured
--------------------------------
+* **Nivel Nacional:** conectar los Repositorios Institucionales a partir del relacionamiento de infraestructuras y plataformas tecnológicas intercomunicadas a través del protocolo OAI-PMH, para el intercambio y distribución de metadatos que permiten a la plataforma prestar el servicio de búsqueda y recuperación de información entre todos los repositorios institucionales que se encuentran conectados a la Red Colombiana de Información Científica.
 
-Chapter two provides a brief overview of how to configure and use OAI-PMH for OpenAIRE metadata harvesting.
-Chapter three describes the application profile.
-It assignes properties from Dublin Core and DataCite metadata schemes to OpenAIRE fields.
-Each OpenAIRE field is described in detail by
-
-* the name of the field
-* how it is mapped to an element in such metadata schemes
-* the cardinality of the field
-* definition and usage instructions with regard to allowed values in properties, sub-properties and attributes
-* example(s)
-
-Acknowledgements & Contributors
--------------------------------
-
-**Editors**
-
-* Jochen Schirrwagen (Bielefeld University, Germany)
-* Miriam Baglioni (CNR, Italy)
-
-**Experts & Reviewers**
-
-*OpenAIRE*
-
-* Pedro Principe (University of Minho, Portugal)
-* Paolo Manghi (CNR, Italy)
-* Aenne Loehden (Bielefeld University, Germany)
-* Andreas Czerniak (Bielefeld University, Germany)
-* Amelie Bäcker (Bielefeld University, Germany)
-
-*LA Referencia*
-
-* Alberto Cabezas (LA Referencia, Chile)
-* Paola Azrilevich (MinCyT, Argentina)
-
-*JPCOAR*
-
-* Tomoko Kataoka (Ochanomizu University, Japan)
-
-*Antleaf*
-
-* Paul Walk (Antleaf, UK)
-
-*University of Alberta Libraries*
-
-* Sharon Farnel (University of Alberta Libraries, CA)
-
-*CARL Open Repositories Working Group*
-
-* Pierre Lasou (Université Laval, CA)
-
-Versions
---------
-* 4.0, November 2018 `doi:10.5281/zenodo.1299203 <http://dx.doi.org/10.5281/zenodo.1299203>`_
-
-* 4.0 draft, November 2017
-
-* 3.0, April 2013 `doi:10.5281/zenodo.1487968 <http://dx.doi.org/10.5281/zenodo.1487968>`_
-
-* 3.0, beta December 2012
-
-  * The OpenAIRE OAI set has been renamed from ``ec_fundedresources`` to ``openaire``.
-  * New relation elements for indicating external identifiers, references and connections to datasets.
-
-* 2.0, October 2012 `doi:10.5281/zenodo.59208 <http://dx.doi.org/10.5281/zenodo.59208>`_
-
-  * Compatibility for aggregators; extended Namespace for Project Identification
-
-* 1.1, November 2010 `doi:10.5281/zenodo.59206 <http://dx.doi.org/10.5281/zenodo.59206>`_
-
-  * Correction of names and references; addition of license and version statement
-
-* 1.0, July 2010 `doi:10.5281/zenodo.59204 <http://dx.doi.org/10.5281/zenodo.59204>`_
-
-  * Initial document
+* **Nivel Internacional:** cosechar la producción científica nacional para La Red Federada Latinoamericana de Repositorios Institucionales de Documentación Científica (LA Referencia).
