@@ -8,7 +8,9 @@ Directrices de interoperabilidad de metadatos de la Red Colombiana de Informaci√
 ====
 
 .. toctree::
-  :numbered:
+   :numbered:
 
-  foo
-  bar
+   introduction
+   use_of_oai_pmh
+   application_profile
+
