@@ -7,8 +7,7 @@ Directrices de interoperabilidad de metadatos de la Red Colombiana de Informaci√
 2019
 ====
 .. toctree::
-   :maxdepth: 1
-   
+
 .. py:function:: enumerate(sequence[, start=1])
 
    introduction
