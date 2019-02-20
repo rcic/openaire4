@@ -1,5 +1,4 @@
 .. image:: https://raw.githubusercontent.com/rcic/openaire4/master/docs/colgob_color-01.png
-===========================================================================================
 
 ###################################################################################################
 Directrices de interoperabilidad de metadatos de la Red Colombiana de Información Científica (RCIC)
@@ -8,7 +7,9 @@ Directrices de interoperabilidad de metadatos de la Red Colombiana de Informaci�
 2019
 ====
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+   
+.. py:function:: enumerate(sequence[, start=1])
 
    introduction
    use_of_oai_pmh
