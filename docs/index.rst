@@ -6,11 +6,12 @@ Directrices de interoperabilidad de metadatos de la Red Colombiana de Informaci√
 
 2019
 ====
+
 .. toctree::
    :maxdepth: 1
-.. py:function:: enumerate(sequence[, start=1])
 
-   1. introduction
-   2. use_of_oai_pmh
-   3. application_profile
+
+   introduction
+   use_of_oai_pmh
+   application_profile
 
