@@ -7,12 +7,5 @@ Directrices de interoperabilidad de metadatos de la Red Colombiana de Informaci√
 2019
 ====
 
-.. index::
-   :numbered:
-   :maxdepth: 1
-
-
-   introduction
-   use_of_oai_pmh
-   application_profile
+.. index:: introduction: use_of_oai_pmh: application_profile
 
