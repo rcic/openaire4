@@ -1,4 +1,4 @@
-1... _literature_intro:
+.. _literature_intro:
 
 Presentación
 ===============
