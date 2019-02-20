@@ -7,8 +7,7 @@ Directrices de interoperabilidad de metadatos de la Red Colombiana de Informaci√
 2019
 ====
 
-.. toctree::
-   :index:
+.. index::
    :numbered:
    :maxdepth: 1
 
