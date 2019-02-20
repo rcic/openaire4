@@ -7,11 +7,11 @@ La Red Colombiana de Información Científica (RCIC) es una iniciativa que busca
  
 Tal como lo explica el documento marco del Sistema Nacional de Acceso Abierto al Conocimiento SNAAC (2015): Colombia debe establecer las condiciones para promover la consolidación y fortalecimiento de las condiciones para la producción, gestión y visibilidad del conocimiento propio, ya que este factor se constituye en un importante impulso para:
 
-| * Disminución de la brecha de acceso a la información y el conocimiento para todos los colombianos. Aspecto que apalanca transformaciones significativas en campo, como el fortalecimiento de la educación y la innovación.
+|  * Disminución de la brecha de acceso a la información y el conocimiento para todos los colombianos. Aspecto que apalanca transformaciones significativas en campo, como el fortalecimiento de la educación y la innovación.
 |
-| * Impulso de la producción de acceso abierto, principalmente la que se realiza con fondos públicos. 
+|  * Impulso de la producción de acceso abierto, principalmente la que se realiza con fondos públicos. 
 |
-| * Visibilidad del conocimiento producido en Colombia, como una forma de respaldar y promocionar nuestra investigación y el trabajo que llevan a cabo nuestras comunidades científicas y académicas.
+|  * Visibilidad del conocimiento producido en Colombia, como una forma de respaldar y promocionar nuestra investigación y el trabajo que llevan a cabo nuestras comunidades científicas y académicas.
 
 Adicionalmente, es indispensable fomentar la ciencia abierta en Colombia a través de la coordinación de todos los recursos y programas de los repositorios nacionales e institucionales con este objetivo.
  
