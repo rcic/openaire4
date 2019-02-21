@@ -230,8 +230,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'OpenAIREGuidelines.tex', u'OpenAIRE Interoperability Guidelines for Literature Repository Managers',
-   u'OpenAIRE Guidelines Team', 'manual', True),
+  (master_doc, 'OpenAIREGuidelines.tex', u'Directrices de interoperabilidad de metadatos de la Red Colombiana de Información Científica (RCIC)',
+   u'Equipo de directrices', 'manual', True),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
