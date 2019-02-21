@@ -1,4 +1,4 @@
-.. _application_profile:
+.. _descGenPer:
 
 Descripción general del perfil de aplicación 
 ============================================

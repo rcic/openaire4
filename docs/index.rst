@@ -18,6 +18,6 @@ Directrices de interoperabilidad de metadatos de la Red Colombiana de Informaci√
    acercaDir
    tiposProd
    interoperabilidad
-   application_profile
+   descGenPer
 
 
