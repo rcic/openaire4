@@ -57,7 +57,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'OpenAIRE Guidelines for Literature Repository Managers'
+project = u'Directrices de interoperabilidad de metadatos de la Red Colombiana de Información Científica (RCIC)'
 copyright = u'2018, OpenAIRE. This work is licensed under Creative Commons Attribution 4.0 International'
 
 # The version info for the project you're documenting, acts as replacement for
