@@ -1,24 +1,23 @@
 .. _application_profile:
 
-Application Profile Overview
-============================
+Descripción general del perfil de aplicación 
+============================================
 
-The properties of the Application Profile for OpenAIRE Literature Repository Guidelines are listed in this section.
-The following requirement levels for the metadata properties are used:
+Las propiedades del perfil de aplicación para pautas de repositorios de literatura de OpenAire son listadas en esta sección. Los niveles de requerimientos siguientes para las propiedades de metadata usadas son:
 
-Mandatory (M)
-  The property must always be present in the metadata. An empty value for the property is not allowed.
+Obligatorio (M)
+  La propiedad siempre debe estar presente en los metadatos. No se permite un valor vacío para la propiedad.
 
-Mandatory if Applicable (MA)
-  When the property value can be obtained it must be present in the metadata
+Obligatorio si es aplicable (MA)
+  Cuando se puede obtener el valor de la propiedad, debe estar presente en los metadatos.
 
-Recommended (R)
-  The use of the property is recommended
+Recomendado (R)
+  Se recomienda el uso de la propiedad.
 
-Optional (O)
-  It is not important whether the property is used or not, but if used it may provide complementary information about the resource
+Opcional (O)
+  No es importante si la propiedad se usa o no, pero si se usa puede proporcionar información complementaria sobre el recurso.
 
-This documentation uses the following namespace abbreviations:
+Esta documentación utiliza las siguientes abreviaturas de espacio de nombres:
 
 * ``dc``: http://purl.org/dc/elements/1.1/
 * ``dcterms``: http://purl.org/dc/terms/
@@ -26,9 +25,9 @@ This documentation uses the following namespace abbreviations:
 * ``oaire``: http://namespace.openaire.eu/schema/oaire/
 
 ======================================== ============================= ========================================================================================
-OpenAIRE-Field                           Metadata Element              Refinement by Vocabulary
+Campo-OpenAIRE                           Elemento Metadata              Refinamiento por vocabulario
 ======================================== ============================= ========================================================================================
-:ref:`dci:title`                         datacite:title                :ref:`title type <vocab:titletype_titletype>`
+:ref:`dci:titulo`                        datacite:title                :ref:`tipo titulo <vocab:titletype_titletype>`
 :ref:`dci:creator`                       datacite:creator              :ref:`name type <vocab:nametype_nametype>`
 :ref:`dci:contributor`                   datacite:contributor          | :ref:`name type <vocab:nametype_nametype>`
                                                                        | :ref:`contributor type <vocab:contributortype_contributortype>`
