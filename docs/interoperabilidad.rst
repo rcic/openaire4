@@ -18,8 +18,8 @@ Los metadatos que estarán asociados a la Red, deben estar de acuerdo al esquema
 
 .. toctree::
    :numbered:
-   :includehidden:
    :maxdepth: 1
+   :includehidden:
    :hidden:
 
    formatoMeta
