@@ -5,43 +5,42 @@ Autor (M)
 
 ``datacite:autor``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Mandatory*
+*Obligatoria*
 
-*Occurrence: 1-n*
+*Ocurrencia: 1-n*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición y instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The authors of the publication in priority order. May be a corporate/institutional or personal name.
+Los autores de la publicación en orden de prioridad. Puede ser un nombre corporativo / institucional o personal.
 
-**Do Not Confuse With**
+**No confundir con**
 
-* :ref:`dci:contributor`
-* :ref:`dc:publisher`
+* :ref:`dci:contribuidor`
+* :ref:`dc:editor`
 
-**Remarks**
+**Observaciones**
 
-* adapted from `DataCite MetadataKernel`_ v4.1
+* adaptado desde `DataCite MetadataKernel`_ v4.1
 
-Property creator (M, 1-n)
--------------------------
+Propiedades de autor (M, 1-n)
+-----------------------------
 
+.. _dci:autor_nombreAutor:
 
-.. _dci:creator_creatorName:
-
-Subproperty creatorName (M)
+Subpropiedad nombreAutor (M)
 ---------------------------
 
-The name of the author (occurrence: 1). The format should be: family, given. Non-roman names may be transliterated according to the
-`ALA-LC <http://www.loc.gov/catdir/cpso/roman.html>`_ schemas.
+El nombre del autor (ocurrencia: 1). El formato debe ser: familiar, dado. Los nombres no romanos pueden ser transcritos de acuerdo con el
+`ALA-LC <http://www.loc.gov/catdir/cpso/roman.html>`_ esquemas.
 
-.. _dci:creator_nameType:
+.. _dci:autor_nombreTipo:
 
-Attribute nameType (R)
-**********************
+Atributo nombreTipo (R)
+***********************
 
 The type of name (occurrence: 0-1).
 
