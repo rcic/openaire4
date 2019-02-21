@@ -16,6 +16,7 @@ Directrices de interoperabilidad de metadatos de la Red Colombiana de Informaci√
    objetivos
    estructuraDoc
    acercaDir
+   interoperabilidad
    application_profile
 
 
