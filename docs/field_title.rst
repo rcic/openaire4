@@ -7,50 +7,50 @@ Título (M)
 
 ``datacite:título``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Mandatory*
+*Obligatoria*
 
-*Occurrence: 1-n*
+*Ocurrencia: 1-n*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición y instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A name or title by which a resource is known.
+Un nombre o título por el cual se conoce un recurso.
 
-**Allowed values, examples, other constraints**
+**Valores permitidos, ejemplos, otras restricciones**
 
-Free text.
+Texto libre.
 
-**Remarks**
+**Observaciones**
 
-* adapted from `DataCite MetadataKernel`_ v4.1
+* adaptado desde `DataCite MetadataKernel`_ v4.1
 
-Property title (M, 1-n)
------------------------
+Propiedades de título (M, 1-n)
+------------------------------
 
-Use the title name as value. Repeat this property for different title types or title languages.
+Utilice el nombre del título como valor. Repita esta propiedad para diferentes tipos de títulos o idiomas de títulos.
 
-Attribute lang (O)
-------------------
+Lenguaje de atributos (O)
+-------------------------
 
-The language of the title (occurrence: 0-1)
+El idioma del título (ocurrencia: 0-1)
 
-Use the ``xml:lang`` attribute to indicate the language of the title. The value of the attribute should be chosen from IETF BCP 47, the `IANA Language Subtag Registry <http://www.iana.org/assignments/language-subtag-registry>`_.
+Use el atributo ``xml:lang`` para indicar el idioma del título. El valor del atributo debe elegirse de IETF BCP 47, el `IANA Language Subtag Registry <http://www.iana.org/assignments/language-subtag-registry>`_.
 
 
-Attribute titleType (O)
------------------------
+Atributo título tipo (O)
+------------------------
 
-The type of Title (occurrences: 0-1).
+El tipo de Título (occurrences: 0-1).
 
-**Allowed values, examples, other constraints**
+**Valores permitidos, ejemplos, otras restricciones**
 
 .. include:: vocabularies/titletype.rst
 
 
-Example
+Ejemplo
 ~~~~~~~
 .. code-block:: xml
    :linenos:
