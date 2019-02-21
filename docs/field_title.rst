@@ -1,11 +1,11 @@
-.. _dci:title:
+.. _dci:título:
 
-.. _dci:title_title:
+.. _dci:título_título:
 
-Title (M)
+Título (M)
 =========
 
-``datacite:title``
+``datacite:título``
 
 Cardinality
 ~~~~~~~~~~~
