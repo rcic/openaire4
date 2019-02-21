@@ -10,27 +10,9 @@ De acuerdo con el modelo de medición de Grupos de Investigación, Desarrollo Te
 * Productos resultados de actividades de apropiación social del conocimiento.
 * Productos de actividades relacionadas con la Formación de Recurso Humano en CTeI.
 
-Productos resultados de actividades de generación de nuevo conocimiento
------------------------------------------------------------------------
+.. toctree::
+   :numbered:
+   :maxdepth: 1
+   :hidden:
 
-+-----------------------------------+---------------------------------------------+
-| Publicaciones                     | Artículos de investigación                  |
-|                                   +---------------------------------------------+
-|                                   | Libro resultado de investigación            |
-|                                   +---------------------------------------------+
-|                                   | Capítulo Libro resultado de investigación   |
-+-----------------------------------+---------------------------------------------+
-| Productos tecnológicos patentados | Patentes                                    |
-| o en proceso de concesión de la   +---------------------------------------------+
-| patente                           | Patente de modelo de utilidad               |
-+-----------------------------------+---------------------------------------------+
-| Variedades vegetales y animales   | Variedades vegetales                        |
-|                                   +---------------------------------------------+
-|                                   | Nueva raza animal                           |
-+-----------------------------------+---------------------------------------------+
-| Productos resultados de creación  | Obra de creación efímera                    |
-| e investigación creación en Artes,+---------------------------------------------+
-| Arquitectura y Diseño             | Obra de creación permanente                 |
-|                                   +---------------------------------------------+
-|                                   | Obra de creación procesual            	  |
-+-----------------------------------+---------------------------------------------+
+   prodResAct
