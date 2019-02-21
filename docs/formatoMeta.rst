@@ -1,4 +1,4 @@
 .. _formatoMeta:
 
-a. Formato de metadatos
-=======================
+Formato de metadatos
+====================
