@@ -16,7 +16,7 @@ Los metadatos que estarán asociados a la Red, deben estar de acuerdo al esquema
 * En caso de objetos bajo período de embargo o protegidos, se debe incluir la descripción de los metadatos y proporcionar el acceso al documento completo a partir de la fecha de su liberación. 
 
 .. toctree::
-   :maxdepth: 1
    :hidden:
+   :maxdepth: 1
 
    formatoMeta
