@@ -15,5 +15,7 @@ Directrices de interoperabilidad de metadatos de la Red Colombiana de Informaci√
    use_of_oai_pmh
    objetivos
    estructuraDoc
+   acercaDir
    application_profile
+
 
