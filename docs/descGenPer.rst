@@ -92,6 +92,7 @@ In the XML metadata documents the schema must be declared as follows:
    :maxdepth: 1
    :hidden:
 
+   field_title
    field_creator
    field_contributor
    field_projectid
