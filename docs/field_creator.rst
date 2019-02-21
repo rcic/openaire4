@@ -1,9 +1,9 @@
-.. _dci:creator:
+.. _dci:autor:
 
-Creator (M)
+Autor (M)
 ===========
 
-``datacite:creator``
+``datacite:autor``
 
 Cardinality
 ~~~~~~~~~~~
