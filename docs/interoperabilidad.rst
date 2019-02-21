@@ -20,6 +20,6 @@ Los metadatos que estarán asociados a la Red, deben estar de acuerdo al esquema
    :numbered:
    :includehidden:
    :maxdepth: 1
-   
+   :hidden:
 
    formatoMeta
