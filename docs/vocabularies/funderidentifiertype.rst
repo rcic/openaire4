@@ -1,6 +1,6 @@
 
-*Controlled list values*
+*Lista de valores controlados*
 
 * ISNI
 * GRID
-* Crossref Funder
+* Financiador Crossref

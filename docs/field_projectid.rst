@@ -1,81 +1,81 @@
-.. _aire:fundingReference:
+.. _aire:referenciaFinanciacion:
 
-Funding Reference (MA)
-======================
+Referencia de financiación (MA)
+===============================
 
-``oaire:fundingReference``
+``oaire:referenciaFinanciación``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Mandatory if applicable*
+*Obligatoria si aplica*
 
-*Occurrence: 0-n*
+*Ocurrencia: 0-n*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición y instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Information about financial support (funding) for the resource being registered.
+Información sobre el apoyo financiero (financiación) para el recurso que se está registrando.
 
-**Usage Instruction**
+**Instrucciones de uso**
 
 .. include:: projectid.rst
 
-**Remarks**
+**Observaciones**
 
-* introduced as ``info:eu-repo/grantAgreement`` in previous versions of the OpenAIRE Guidelines
-* adopting fundingReference element and subproperties from DataCite MetadataKernel v4.1 which replaces the ``info:eu-repo/grantAgreement`` syntax.
-* adding subproperty fundingStream to this application profile
+* introducido como ``info:eu-repo/grantAgreement`` en versiones anteriores de las pautas o directrices de OpenAIRE
+* adoptando elementos y subpropiedades de referenciaFiananciación desde DataCite MetadataKernel v4.1 que reemplaza la sintaxis de ``info:eu-repo/grantAgreement``.
+* agregar subpropiedad flujoFinanciación a este perfil de aplicación.
 
-Property fundingReference (MA, 0-n)
------------------------------------
+Propiedad referenciaFinanciación (MA, 0-n)
+-------------------------------------------
 
-Repeat this property to indicate several different funders and projects.
+Repita esta propiedad para indicar varios financiadores y proyectos diferentes.
 
-Subproperty funderName (M)
---------------------------
+Subpropiedad nombreFundador (M)
+-------------------------------
 
-Name of the funding provider (occurrence: 1). Mandatory if *FundingReference* is used.
+Nombre del proveedor del financiamiento (ocurrencia: 1). Obligatoria si *referenciaFinanciación* es usada.
 
-Subproperty funderIdentifier (R)
---------------------------------
+Subpropiedad identificadorFondos (R)
+------------------------------------
 
-Unique identifier of the funding entity (occurrence: 0-1).
+Identificador unico de la entidad financiadora (ocurrencia: 0-1).
 
-Attribute funderIdentifiertype (R)
-**********************************
+Atributo tipoIdentificadorfondo (R)
+***********************************
 
-Type of the unique identifier of the funding entity (occurrence: 0-1).
+Tipo de identificador único de la entidad financiadora (ocurrencia: 0-1).
 
 .. include:: vocabularies/funderidentifiertype.rst
 
-see also `Crossref Funder Registry`_
+además ver `Crossref Funder Registry`_
 
-Subproperty fundingStream (O)
------------------------------
+Subpropiedad flujoFinanciación (O)
+----------------------------------
 
-Name of the funding stream (optional) (occurrence: 0-1).
+Nombre del flujo de financiación (opcional) (ocurrencia: 0-1).
 
-Subproperty awardNumber (MA)
-----------------------------
+Subpropiedad númeroAdjudicación (MA)
+------------------------------------
 
-Project grantId or awardNumber (occurrence: 1).
+Proyecto idSubvención or númeroAdjudicación (ocurrencia: 1).
 
-Attribute awardURI (R)
-**********************
+Atributo URIadjudicación (R)
+****************************
 
-URI of the project landing page provided by the funder for more information about the award (grant) (occurrence: 0-1). 
+URI de la página de inicio del proyecto proporcionada por el financiador para obtener más información sobre la adjudicación (subvención) (ocurrencia: 0-1). 
 
-Subproperty awardTitle (R)
---------------------------
+Subpropiedad títuloAdjudicación (R)
+-----------------------------------
 
-Title of the project, award or grant (occurrence: 0-1).
+Título del proyecto, adjudicación o subvención (ocurrencia: 0-1).
 
 
-Example
+Ejemplo
 ~~~~~~~
 
-An example utilizing all fields:
+Un ejemplo utilizando todos los campos:
 
 .. code-block:: xml
    :linenos:

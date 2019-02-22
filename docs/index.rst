@@ -17,6 +17,7 @@ Directrices de interoperabilidad de metadatos de la Red Colombiana de Informaci√
    estructuraDoc
    acercaDir
    tiposProd
+   normatividadInter
    interoperabilidad
    descGenPer
    vocabulario
