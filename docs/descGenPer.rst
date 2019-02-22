@@ -1,7 +1,7 @@
 .. _descGenPer:
 
-Descripción de los metadatos 
-============================
+Descripción de los campos de metadatos 
+======================================
 
 Las propiedades del perfil de aplicación para pautas de repositorios de literatura de OpenAire son listadas en esta sección. Los niveles de requerimientos siguientes para las propiedades de metadata usadas son:
 
