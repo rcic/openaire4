@@ -32,7 +32,7 @@ Propiedades de autor (M, 1-n)
 .. _dci:autor_nombreAutor:
 
 Subpropiedad nombreAutor (M)
----------------------------
+----------------------------
 
 El nombre del autor (ocurrencia: 1). El formato debe ser: familiar, dado. Los nombres no romanos pueden ser transcritos de acuerdo con el
 `ALA-LC <http://www.loc.gov/catdir/cpso/roman.html>`_ esquemas.
@@ -42,59 +42,59 @@ El nombre del autor (ocurrencia: 1). El formato debe ser: familiar, dado. Los no
 Atributo nombreTipo (R)
 ***********************
 
-The type of name (occurrence: 0-1).
+El tipo de nombre (ocurrencia: 0-1).
 
 .. include:: vocabularies/nametype.rst
 
 .. _dci:creator_givenName:
 
-Subproperty givenName (R)
--------------------------
+Subpropiedad nombreDado (R)
+---------------------------
 
-The personal or first name of the author.
+El primer o nombre personal del autor.
 
 .. _dci:creator_familyName:
 
-Subproperty familyName (R)
---------------------------
+Subpropiedad nombreFamilia (R)
+------------------------------
 
-The surname or last name of the author.
+El apellido del autor.
 
 .. _dci:creator_nameIdentifier:
 
-Subproperty nameIdentifier (R)
-------------------------------
+Subpropiedad identificadorNombre (R)
+------------------------------------
 
-Uniquely identifies an individual or legal entity, according to various schemes (occurrences: 0-n).
-The format is dependent upon scheme.
+Identifica de forma única a una persona física o jurídica, de acuerdo con varios esquemas (ocurrencias: 0-n).
+El formato depende del esquema.
 
-.. note::
-   OpenAIRE recommends including a nameIdentifier such as an ORCID or a ISNI if available.
+.. note:: 
+   OpenAIRE recomienda incluir un identificadorNombre, como ORCID o ISNI, si está disponible.
 
 
 .. _dci:creator_nameIdentifier_nameIdentifierScheme:
 
-Attribute nameIdentifierScheme (M)
-**********************************
+Atributo esquemaIdentificadorNombre (M)
+***************************************
 
-The name of the name identifier scheme (occurrence: 1).
-Mandatory if nameIdentifier is used.
+El nombre de los esquemas de identificador de nombre (ocurrencia: 1).
+Obligatorio si se usa identificadorNombre.
 
 .. _dci:creator_nameIdentifier_schemeURI:
 
-Attribute schemeURI (R)
+Atributo URIesquema (R)
 ***********************
 
-The URI of the name identifier scheme (occurrence: 0-1).
+La URI de los esquemas de identificador de nombre (ocurrencia: 0-1).
 
 .. _dci:creator_affiliation:
 
-Subproperty affiliation (R)
----------------------------
+Subpropiedad de afiliación (R)
+------------------------------
 
-The organizational or institutional affiliation of the creator (occurrence: 0-n).
+La afiliación organizacional o institucional del autor (ocurrencia: 0-n).
 
-Example
+Ejemplo
 ~~~~~~~
 .. code-block:: xml
    :linenos:
