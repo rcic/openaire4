@@ -1,105 +1,104 @@
 .. _dci:contributor:
 
-Contributor (MA)
-================
+Contribuidor (MA)
+=================
 
-``datacite:contributor``
+``datacite:contribuidor``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Mandatory if applicable*
+*Obligatoria si aplica*
 
-*Occurrence: 0-n*
+*Ocurrencia: 0-n*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición y instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The institution or person responsible for collecting, managing, distributing, or otherwise contributing to the development of the resource.
+La institución o persona responsable de recolectar, administrar, distribuir o contribuir de otra manera al desarrollo del recurso.
 
-**Do Not Confuse With**
+**No confundir con**
 
-* :ref:`dc:publisher`
-* :ref:`dci:creator`
-* :ref:`aire:fundingReference`
+* :ref:`dc:editor`
+* :ref:`dci:autor`
+* :ref:`aire:referenciaFinanciación`
 
-**Remarks**
+**Observaciones**
 
-* adapted from `DataCite MetadataKernel`_ v4.1
+* adaptado desde `DataCite MetadataKernel`_ v4.1
 
-Property contributor (MA, 0-n)
-------------------------------
-
+Propiedad de contribuidor (MA, 0-n)
+----------------------------------
 
 .. _dci:contributor_contributorType:
 
-Attribute contributorType (M)
------------------------------
+Atributo de tipoContribuidor (M)
+--------------------------------
 
-The type of contributor of the resource (occurrence: 1). Mandatory if *contributor* is used.
+El tipo de contribuidor del recurso (ocurrencia: 1). Obligatorio si se utiliza *contribuidor*.
 
 .. include:: vocabularies/contributortype.rst
 
 .. _dci:contributor_contributorName:
 
-Subproperty contributorName (M)
--------------------------------
+Subpropiedad nombreContribuidor (M)
+-----------------------------------
 
-The name of the contributor (occurrence: 1). Mandatory if *Contributor* is used.
+El nombre del contribuidor (ocurrencia: 1). Obligatorio si se utiliza *Contribuidor*.
 
 .. _dci:contributor_nameType:
 
-Attribute nameType (R)
-**********************
+Atributo tipoNombre (R)
+***********************
 
-The type of name (occurrence: 0-1).
+El tipo de nombre (ocurrencia: 0-1).
 
 .. include:: vocabularies/nametype.rst
 
 .. _dci:contributor_familyName:
 
-Subproperty familyName (O)
---------------------------
+Subpropiedad nombreFamilia (O)
+------------------------------
 
-The surname or last name of the contributor (occurrence: 0-1).
+El apellido del contribuidor (ocurrencia: 0-1).
 
 .. _dci:contributor_givenName:
 
-Subproperty givenName (O)
--------------------------
+Subpropiedad nombreDado (O)
+---------------------------
 
-The personal or first name of the contributor (occurrence: 0-1).
+El primer o nombre personal del contribuidor (ocurrencia: 0-1).
 
 
 .. _dci:contributor_nameIdentifier:
 
-Subproperty nameIdentifier (R)
-------------------------------
+Subpropiedad identificadorNombre (R)
+------------------------------------
 
-Uniquely identifies an individual or legal entity, according to various schemes (occurrence: 0-n).
+Identifica de forma única a una persona física o jurídica, de acuerdo con varios esquemas (occurrence: 0-n).
 
 .. _dci:contributor_nameIdentifierScheme:
 
-Attribute nameIdentifierScheme (M)
-**********************************
+Atributo esquemaIdentificadorNombre (M)
+***************************************
 
-The name of the name identifier scheme (occurrence: 1). Mandatory if *nameIdentifier* is used.
+El nombre de los esquemas de identificador de nombre (ocurrencia: 1). Obligatoria si *identificadorNombre* es usada.
 
 .. _dci:contributor_schemeURI:
 
-Attribute schemeURI (R)
+Atributo URIesquema (R)
 ***********************
 
-The URI of the name identifier scheme (occurrence: 0-1).
+La URI de los esquemas de identificador de nombre (ocurrencia: 0-1).
 
 .. _dci:contributor_affiliation:
 
-Subproperty affiliation (R)
----------------------------
+Subpropiedad de afiliación (R)
+------------------------------
 
-The organisational or institutional affiliation of the contributor.
+La afiliación organizacional o institucional del contribuidor.
 
-Example
+Ejemplo
 ~~~~~~~
 
 .. code-block:: xml

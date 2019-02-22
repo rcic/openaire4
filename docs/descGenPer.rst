@@ -29,7 +29,7 @@ Campo-OpenAIRE                           Elemento Metadata              Refinami
 ======================================== ============================= ========================================================================================
 :ref:`dci:título`                        datacite:title                :ref:`tipo título <vocab:titletype_titletype>`
 :ref:`dci:autor`                         datacite:creator              :ref:`tipo autor <vocab:nametype_nametype>`
-:ref:`dci:contributor`                   datacite:contributor          | :ref:`name type <vocab:nametype_nametype>`
+:ref:`dci:contribuidor`                   datacite:contribuidor          | :ref:`tipo nombre <vocab:nametype_nametype>`
                                                                        | :ref:`contributor type <vocab:contributortype_contributortype>`
 :ref:`aire:fundingReference`             oaire:fundingReference        :ref:`funderIdentifier type <vocab:funderIdentifiertype_identifiertype>`
 :ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier  :ref:`alternateIdentifier type <vocab:alternateIdentifiertype_identifiertype>`

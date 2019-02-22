@@ -1,24 +1,24 @@
 
-*Controlled list values*
+*Valores de lista controlados*
 
-* ContactPerson
-* DataCollector
-* DataCurator
-* DataManager
-* Distributor
+* PersonaContacto
+* RecolectorDatos
+* CuradorDatos
+* AdministradorDatos
+* Distribuidor
 * Editor
-* HostingInstitution
-* Producer
-* ProjectLeader
-* ProjectManager
-* ProjectMember
-* RegistrationAgency
-* RegistrationAuthority
-* RelatedPerson
-* Researcher
-* ResearchGroup
-* RightsHolder
-* Sponsor
+* InstituciónAnfitriona
+* Productor
+* LiderProyecto
+* LiderAdministrativo
+* MiembroProyecto
+* AgenciaRegistro
+* AutoridadRegistro
+* PersonaRelacionada
+* Investigador
+* GrupoInvestigación
+* DerechosTitular
+* Patrocinador
 * Supervisor
-* WorkPackageLeader
-* Other
+* LíderPaqueteTrabajo
+* Otro
