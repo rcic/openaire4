@@ -1,91 +1,74 @@
 .. _dci:relatedIdentifier:
 
-Related Identifier (R)
-======================
+Identificador relacionado (R)
+=============================
 
 ``datacite:relatedIdentifier``
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Recommended*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 0-n*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-An identifier of a related resource other than the primary Identifier applied to the resource being registered. 
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-**Remarks**
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-* adapted from `DataCite MetadataKernel`_ v4.1
+Definición y Alcance del campo
+------------------------------
 
-Property relatedIdentifier (R, 0-n)
------------------------------------
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-Use the related identifier as value. Repeat this property for each related identifier.
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Attribute relatedIdentifierType (M)
------------------------------------
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The type of the RelatedIdentifier (occurrence: 1). Mandatory if *RelatedIdentifier* is used.
+Restricciones
+~~~~~~~~~~~~~
 
-.. include:: vocabularies/relatedidentifiertype.rst
+Ejemplos
+~~~~~~~~
 
-Attribute relationType (M)
---------------------------
+Atributos de Campo
+------------------
 
-Description of the relationship of the resource being registered (A) and the related resource (B) (occurrence: 1). Mandatory if *RelatedIdentifier* is used.
-
-.. include:: vocabularies/relationtype.rst
-
-Attribute relatedMetadataScheme (O)
------------------------------------
-
-The name of the scheme (occurrences: 0-1).
-
-**Allowed values, examples, other constraints**
-
-Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
-
-
-Attribute schemeURI (O)
------------------------
-
-The URI of the relatedMetadataScheme (occurrences: 0-1).
-
-**Allowed values, examples, other constraints**
-
-Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
-
-
-Attribute schemeType (O)
+Especificadores de Campo
 ------------------------
 
-The type of the relatedMetadataScheme, linked with the schemeURI (occurrences: 0-1).
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
 
-**Allowed values, examples, other constraints**
+Observaciones del Campo
+-----------------------
 
-Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
+Adaptado de..
+~~~~~~~~~~~~~
 
-Examples: ``XSD``, ``DDT``, ``Turtle``
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Attribute resourceTypeGeneral (O)
----------------------------------
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
 
-The general type of the related resource (occurrences: 0-1).
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. include:: vocabularies/resourcetypegeneral.rst
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Example
-~~~~~~~
-
-.. code-block:: xml
-   :linenos:
-
-   <datacite:relatedIdentifiers>
-      <datacite:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">http://someUrl</datacite:relatedIdentifier>
-   </datacite:relatedIdentifiers>
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
