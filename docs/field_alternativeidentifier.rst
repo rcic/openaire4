@@ -1,7 +1,7 @@
 .. _dci:alternativeIdentifier:
 
-Referencia de financiación (MA)
-===============================
+Identificador alternativo (R)
+=============================
 
 ``datacite:alternateIdentifier``
 
