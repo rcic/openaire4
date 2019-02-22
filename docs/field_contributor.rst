@@ -1,4 +1,4 @@
-.. _dci:contributor:
+.. _dci:contribuidor:
 
 Contribuidor (MA)
 =================
