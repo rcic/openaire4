@@ -12,13 +12,13 @@ Productos resultados de actividades de apropiación social del conocimiento
 | Estrategias pedagógicas para el fomento de la CTeI y la creación                       |
 +----------------------------------------------------------------------------------------+
 | Estrategias de comunicación del conocimiento                                           |
-+------------------------------+---------------------------------------------------------+
++------------------------------+---------------+-----------------------------------------+
 | Circulación de conocimiento  | Generación    | Libros, artículos, manuales de difusión |
 | especializado                + de contenidos +-----------------------------------------+
 |                              |               | Contenido multimedia                    |
 |                              +               +-----------------------------------------+
 |                              |               | Contenidos virtuales                    |
-|                              +---------------------------------------------------------+
+|                              +---------------+-----------------------------------------+
 |                              | Evento científico                                       |
 |                              +---------------------------------------------------------+
 |                              | ed de conocimiento especializado                        |
@@ -33,7 +33,7 @@ Productos resultados de actividades de apropiación social del conocimiento
 |                              | Investigación                                           |
 |                              +---------------------------------------------------------+
 |                              | Informe final de investigación                          |
-+-----------------------------------+----------------------------------------------------+      
++------------------------------+---------------------------------------------------------+      
 |  Reconocimientos nacionales o internacionales por procesos de apropiación social del   |
 |  conocimiento                                                                          |
 +-----------------------------------+----------------------------------------------------+

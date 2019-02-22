@@ -1,48 +1,74 @@
 .. _dci:alternativeIdentifier:
 
-Alternate Identifier (R)
-========================
+Referencia de financiación (MA)
+===============================
 
 ``datacite:alternateIdentifier``
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Recommended*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 0-n*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-An identifier or identifiers other than the primary Identifier applied to the resource being registered. This may be any alphanumeric string which is unique within its domain of issue. May be used for local identifiers. AlternateIdentifier should be used for another identifier of the same instance (same location, same file).
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-**Remarks**
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-* adapted from `DataCite MetadataKernel`_ v4.1
+Definición y Alcance del campo
+------------------------------
 
-Property alternateIdentifier (R, 0-n)
--------------------------------------
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-Value of the atlernate identifier.
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Attribute alternateIdentifierType (M)
--------------------------------------
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The type of the AlternateIdentifier (occurrence: 1). Mandatory if *AlternateIdentifier* is used.
+Restricciones
+~~~~~~~~~~~~~
 
-The type value is *suggested* in the following list:
+Ejemplos
+~~~~~~~~
 
-.. include:: vocabularies/relatedidentifiertype.rst
+Atributos de Campo
+------------------
 
-Example
-~~~~~~~
+Especificadores de Campo
+------------------------
 
-.. code-block:: xml
-   :linenos:
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
 
-   <datacite:alternateIdentifiers>
-      <datacite:alternateIdentifier alternateIdentifierType="URL">http://someUrl</datacite:alternateIdentifier>
-   </datacite:alternateIdentifiers>
+Observaciones del Campo
+-----------------------
+
+Adaptado de..
+~~~~~~~~~~~~~
+
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
+
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
