@@ -1,57 +1,74 @@
 .. _dc:publisher:
 
-Publisher (MA)
-==============
+Editor (MA)
+===========
 
 ``dc:publisher``
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Mandatory if applicable*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 0-n*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-**DCMI Definition**
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-An entity responsible for making the resource available. Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity.
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-**Usage Instruction**
+Definición y Alcance del campo
+------------------------------
 
-The (commercial or non-commercial) publisher of the resource; not the (sub)institution the author is affiliated with. Publisher is used only in the bibliographic / functional sense, not an organisational one. Use only the full name of the given (commercial) publisher, not the name of an organization or institute that is otherwise [in a broader sense] associated with the creator.
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-With university publications place the name of the faculty and/or research group or research school after the name of the university. In the case of organizations where there is clearly a hierarchy present, list the parts of the hierarchy from largest to smallest, separated by full stops. If it is not clear whether there is a hierarchy present, or unclear which is the larger or smaller portion of the body, give the name as it appears in the eprint.
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The use of publisher names from authority lists constructed according to local or national thesaurus files is optional.
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Do Not Confuse With**
+Restricciones
+~~~~~~~~~~~~~
 
-* :ref:`dci:contributor`
-* :ref:`dci:creator`
+Ejemplos
+~~~~~~~~
 
-In most cases the publisher and the creator are not the same.
+Atributos de Campo
+------------------
 
-**Remarks**
+Especificadores de Campo
+------------------------
 
-* introduced in `DRIVER Guidelines v2 element publisher`_
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
 
-Property publisher (MA, 0-n)
-----------------------------
+Observaciones del Campo
+-----------------------
 
-Use the name of the publisher as value.
+Adaptado de..
+~~~~~~~~~~~~~
 
-Example
-~~~~~~~
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code-block:: xml
-   :linenos:
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
 
-   <dc:publisher>
-     Loughborough University. Department of Computer Science
-   </dc:publisher>
-   <dc:publisher>John Wiley &amp; Sons, Inc. (US)</dc:publisher>
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~
 
 .. _DRIVER Guidelines v2 element publisher: https://wiki.surfnet.nl/display/DRIVERguidelines/Publisher
