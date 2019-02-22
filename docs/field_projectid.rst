@@ -5,89 +5,71 @@ Referencia de financiación (MA)
 
 ``oaire:referenciaFinanciación``
 
-Cardinalidad
-~~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Obligatoria si aplica*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Ocurrencia: 0-n*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definición y instrucciones de uso
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-Información sobre el apoyo financiero (financiación) para el recurso que se está registrando.
-
-**Instrucciones de uso**
-
-.. include:: projectid.rst
-
-**Observaciones**
-
-* introducido como ``info:eu-repo/grantAgreement`` en versiones anteriores de las pautas o directrices de OpenAIRE
-* adoptando elementos y subpropiedades de referenciaFiananciación desde DataCite MetadataKernel v4.1 que reemplaza la sintaxis de ``info:eu-repo/grantAgreement``.
-* agregar subpropiedad flujoFinanciación a este perfil de aplicación.
-
-Propiedad referenciaFinanciación (MA, 0-n)
--------------------------------------------
-
-Repita esta propiedad para indicar varios financiadores y proyectos diferentes.
-
-Subpropiedad nombreFundador (M)
--------------------------------
-
-Nombre del proveedor del financiamiento (ocurrencia: 1). Obligatoria si *referenciaFinanciación* es usada.
-
-Subpropiedad identificadorFondos (R)
+Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
 
-Identificador unico de la entidad financiadora (ocurrencia: 0-1).
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-Atributo tipoIdentificadorfondo (R)
-***********************************
+Definición y Alcance del campo
+------------------------------
 
-Tipo de identificador único de la entidad financiadora (ocurrencia: 0-1).
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-.. include:: vocabularies/funderidentifiertype.rst
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-además ver `Crossref Funder Registry`_
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Subpropiedad flujoFinanciación (O)
-----------------------------------
+Restricciones
+~~~~~~~~~~~~~
 
-Nombre del flujo de financiación (opcional) (ocurrencia: 0-1).
+Ejemplos
+~~~~~~~~
 
-Subpropiedad númeroAdjudicación (MA)
-------------------------------------
+Atributos de Campo
+------------------
 
-Proyecto idSubvención or númeroAdjudicación (ocurrencia: 1).
+Especificadores de Campo
+------------------------
 
-Atributo URIadjudicación (R)
-****************************
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
 
-URI de la página de inicio del proyecto proporcionada por el financiador para obtener más información sobre la adjudicación (subvención) (ocurrencia: 0-1). 
+Observaciones del Campo
+-----------------------
 
-Subpropiedad títuloAdjudicación (R)
------------------------------------
+Adaptado de..
+~~~~~~~~~~~~~
 
-Título del proyecto, adjudicación o subvención (ocurrencia: 0-1).
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
 
-Ejemplo
-~~~~~~~
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Un ejemplo utilizando todos los campos:
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code-block:: xml
-   :linenos:
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~
 
-   <oaire:fundingReferences>
-    <oaire:fundingReference>
-     <oaire:funderName>European Commission</datacite:funderName>
-     <oaire:funderIdentifier funderIdentifierType="Crossref Funder ID">http://doi.org/10.13039/100010661</oaire:funderIdentifier>
-     <oaire:fundingStream>Horizon 2020 Framework Programme</oaire:fundingStream>
-     <oaire:awardNumber awardURI="http://cordis.europa.eu/project/rcn/194062_en.html">643410</oaire:awardNumber>
-     <oaire:awardTitle>Open Access Infrastructure for Research in Europe 2020</oaire:awardTitle>
-    </oaire:fundingReference>
-   </oaire:fundingReferences>
 
 .. _Crossref Funder Registry: http://fundref.org/services/funder-registry
