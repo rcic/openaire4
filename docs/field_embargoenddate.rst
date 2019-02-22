@@ -1,52 +1,72 @@
 .. _dci:dateEmbargo:
 
-Embargo Period Date (MA)
-========================
+Fecha de Periodo de Embargo (MA)
+================================
 
 ``datacite:date``
 
+Nombre del campo
+----------------
 
-Cardinality
-~~~~~~~~~~~
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Mandatory if applicable*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 2*
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-Dates relevant to describe an embargo period.
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-A date associated with an event in the life cycle of the resource. Typically, Date will be associated with the creation or availability of the resource. Recommended best practice for encoding the date value is defined in a profile of ISO 8601 [W3CDTF] and follows the ``YYYY-MM-DD`` format.
+Definición y Alcance del campo
+------------------------------
 
-**Remarks**
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-* introduced as `info:eu-repo/date/embargoEnd/[YYYY-MM-DD] <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-DateTypesandvalue>`_ in previous versions of the OpenAIRE Guidelines
-* this version of the application profile adopts the *Date* element in combination with *dateType* attributes from DataCite MetadataKernel v4.1 which replaces the ``info:eu-repo/date/EmbargoEnd`` syntax.
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When :ref:`dci:accessrights` is set to::
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    <datacite:rights uri="http://purl.org/coar/access_right/c_f1cf">embargoed access</<datacite:rights>
+Restricciones
+~~~~~~~~~~~~~
 
-the start and end date of the embargo period must be provided.
+Ejemplos
+~~~~~~~~
 
-Property date (MA, 2)
+Atributos de Campo
+------------------
+
+Especificadores de Campo
+------------------------
+
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
+
+Observaciones del Campo
 -----------------------
 
-Use the date of the embargo start as value in one property and the date of the embargo end in the other property.
+Adaptado de..
+~~~~~~~~~~~~~
 
-Attribute dateType (M)
-----------------------
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The type of date. Choose from the :ref:`date type <vocab:datetype_datetype>` vocabulary the controlled term ``Accepted`` to indicate the start and the term ``Available`` to indicate the end of an embargo period.
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
 
-Example
-~~~~~~~
-.. code-block:: xml
-   :linenos:
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   <datacite:dates>
-     <datacite:date dateType="Accepted">2011-12-01</datacite:date>
-     <datacite:date dateType="Available">2012-12-01</datacite:date>
-   </datacite:dates>
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~

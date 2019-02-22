@@ -1,58 +1,74 @@
 .. _dc:language:
 
-Language (MA)
-=============
+Idioma (MA)
+============
 
 ``dc:language``
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Mandatory if applicable*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 0-n*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-**DCMI Definition**
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-A language of the intellectual content of the resource.
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-**Usage Instruction**
+Definición y Alcance del campo
+------------------------------
 
-A specific resource (an instance of scientific output) is either written in one human language or more. In these cases all used languages are used in the DC element ``language``. If a specific resource (an instance of scientific output) is written in one human language and is translated into other human languages, each translation does have its own record.
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-Recommendation: take values from one of the following lists: 
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* IETF BCP 47, the `IANA Language Subtag Registry <http://www.iana.org/assignments/language-subtag-registry>`_
-* ISO 639-x, where x can be 1,2 or 3. Best Practice: we use ISO 639-3 and by doing so we follow: http://www.sil.org/iso639-3/
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If necessary, repeat this element to indicate multiple languages.
+Restricciones
+~~~~~~~~~~~~~
 
-If ISO 639-2 and 639-1 are sufficient for the contents of a repository they can be used alternatively. Since there is a unique mapping this can be done during an aggregation process.
+Ejemplos
+~~~~~~~~
 
-**Remarks**
+Atributos de Campo
+------------------
 
-* introduced in `DRIVER Guidelines v2 element language`_
+Especificadores de Campo
+------------------------
 
-Property language (MA, 0-n)
----------------------------
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
 
-Use the language code as value.
+Observaciones del Campo
+-----------------------
 
-Example
-~~~~~~~
+Adaptado de..
+~~~~~~~~~~~~~
 
-.. code-block:: xml
-   :linenos:
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
 
-   <dc:language>eng</dc:language>
-   <dc:language>deu</dc:language>
-   <dc:language>nld</dc:language>
-   <dc:language>nld/dut</dc:language>
-   <dc:language>dut</dc:language>
-   <dc:language>nl</dc:language>
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~
 
 .. _DRIVER Guidelines v2 element language: https://wiki.surfnet.nl/display/DRIVERguidelines/Language
