@@ -7,6 +7,7 @@ El documento proporciona una descripción general de cómo configurar y utilizar
 
 - **Descripción del campo:** Son aquellas etiquetas definidas dentro del esquema de metadatos para la descripción de los recursos. 
 ..
+
 - Campo normalizado
 - Campo con esquema de metadatos
 - Traducción al español
