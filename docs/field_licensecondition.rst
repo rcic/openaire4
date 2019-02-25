@@ -1,52 +1,72 @@
 .. _aire:licenseCondition:
 
-License Condition (R)
-=====================
+Condición de la licencia (R)
+============================
 
 ``oaire:licenseCondition``
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Recommended*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 1*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-**DCMI Definition**
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-Information about license rights held in and over the resource.
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-**Usage Instruction**
+Definición y Alcance del campo
+------------------------------
 
-Typically, a rights element will contain a rights management statement for the access or use of the object, or reference a service providing such information. Rights information often encompasses Intellectual Property Rights (IPR), Copyright, and various Property Rights. It is preferred to refer to a rights service where the reuse rights are made clear to the end-user by using a URL. For example the Creative Commons organisation has created URIs for their different licences in the different jurisdictions. This can be applied to create machine readable usage licenses.
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-Property licenseCondition (R, 1)
---------------------------------
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Use the name of the license as value.
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Attribute uri (MA)
+Restricciones
+~~~~~~~~~~~~~
+
+Ejemplos
+~~~~~~~~
+
+Atributos de Campo
 ------------------
 
-The URL provides the location where the license can be read. With creative common licenses the type of license can be recognized in the URL name itself. A pro for having the license point to an URL in this way, is that this is machine readable.
-
-Attribute startDate (MA)
+Especificadores de Campo
 ------------------------
 
-This attribute indicates the date when the license comes into effect.
-Recommended best practice for encoding the date value is defined in a profile of ISO 8601 [W3CDTF] and follows the ``YYYY-MM-DD`` format.
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
 
+Observaciones del Campo
+-----------------------
 
+Adaptado de..
+~~~~~~~~~~~~~
 
-Example
-~~~~~~~
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code-block:: xml
-   :linenos:
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
 
-   <!-- example 1 -->
-   <oaire:licenseCondition startDate="2019-02-01" uri="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial</oaire:licenseCondition>
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~
