@@ -1,64 +1,76 @@
-.. _dci:título:
+.. _dci:title:
 
-.. _dci:título_título:
+.. _dci:title_title:
 
 Título (M)
-=========
+==========
 
-``datacite:título``
+``datacite:title``
 
-Cardinalidad
-~~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Obligatoria*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Ocurrencia: 1-n*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definición y instrucciones de uso
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-Un nombre o título por el cual se conoce un recurso.
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-**Valores permitidos, ejemplos, otras restricciones**
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-Texto libre.
-
-**Observaciones**
-
-* adaptado desde `DataCite MetadataKernel`_ v4.1
-
-Propiedades de título (M, 1-n)
+Definición y Alcance del campo
 ------------------------------
 
-Utilice el nombre del título como valor. Repita esta propiedad para diferentes tipos de títulos o idiomas de títulos.
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-Lenguaje de atributos (O)
--------------------------
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-El idioma del título (ocurrencia: 0-1)
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Use el atributo ``xml:lang`` para indicar el idioma del título. El valor del atributo debe elegirse de IETF BCP 47, el `IANA Language Subtag Registry <http://www.iana.org/assignments/language-subtag-registry>`_.
+Restricciones
+~~~~~~~~~~~~~
 
+Ejemplos
+~~~~~~~~
 
-Atributo título tipo (O)
+Atributos de Campo
+------------------
+
+Especificadores de Campo
 ------------------------
 
-El tipo de Título (occurrences: 0-1).
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
 
-**Valores permitidos, ejemplos, otras restricciones**
+Observaciones del Campo
+-----------------------
 
-.. include:: vocabularies/titletype.rst
+Adaptado de..
+~~~~~~~~~~~~~
 
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ejemplo
-~~~~~~~
-.. code-block:: xml
-   :linenos:
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
 
-    <datacite:title xml:lang="en-US">
-     National Institute for Environmental Studies and Center
-     for Climate System Research Japan
-    </datacite:title>
-    <datacite:title xml:lang="en-US" titleType="Subtitle">A survey</datacite:title>
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/

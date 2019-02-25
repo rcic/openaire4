@@ -27,11 +27,11 @@ Esta documentación utiliza las siguientes abreviaturas de espacio de nombres:
 ======================================== ============================= ========================================================================================
 Campo-OpenAIRE                           Elemento Metadata              Refinamiento por vocabulario
 ======================================== ============================= ========================================================================================
-:ref:`dci:título`                        datacite:title                :ref:`tipo título <vocab:titletype_titletype>`
-:ref:`dci:autor`                         datacite:creator              :ref:`tipo autor <vocab:nametype_nametype>`
-:ref:`dci:contribuidor`                  datacite:contributor          | :ref:`tipo nombre <vocab:nametype_nametype>`
+:ref:`dci:title`                         datacite:title                :ref:`title type <vocab:titletype_titletype>`
+:ref:`dci:creator`                       datacite:creator              :ref:`name type <vocab:nametype_nametype>`
+:ref:`dci:contributor`                   datacite:contributor          | :ref:`name type <vocab:nametype_nametype>`
                                                                        | :ref:`tipo contribuidor <vocab:contributortype_contributortype>`
-:ref:`aire:referenciaFinanciacion`       oaire:fundingReference        :ref:`tipo identificadorFondos <vocab:funderIdentifiertype_identifiertype>`
+:ref:`aire:fundingReference`             oaire:fundingReference        :ref:`funderIdentifier type <vocab:funderIdentifiertype_identifiertype>`
 :ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier  :ref:`alternateIdentifier type <vocab:alternateIdentifiertype_identifiertype>`
 :ref:`dci:relatedIdentifier`             datacite:relatedIdentifier    | :ref:`relatedIdentifier type <vocab:relatedIdentifiertype_identifiertype>`
                                                                        | :ref:`relation type <vocab:relationtype_relationtype>`
