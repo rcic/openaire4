@@ -6,8 +6,7 @@ Estructura del Perfil de Aplicación (Campos de Metadatos)
 El documento proporciona una descripción general de cómo configurar y utilizar el protocolo OAI-PMH para la recolección de metadatos. Los campo mínimos a trabajar en el perfil de aplicación son los siguientes: 
 
 - **Descripción del campo:** Son aquellas etiquetas definidas dentro del esquema de metadatos para la descripción de los recursos. 
-..
-
+::
 - Campo normalizado
 - Campo con esquema de metadatos
 - Traducción al español
