@@ -1,69 +1,75 @@
 .. _aire:version:
 
-Resource Version (R)
-====================
+Versión del recurso (R)
+=======================
 
 ``oaire:version``
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Recommended*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 1*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-Depening on the resource type this property is used to indicate
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-* the version number of a dataset or software
-* the status in the publication process of journal articles.
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-**Usage**
+Definición y Alcance del campo
+------------------------------
 
-For *software* and *dataset* resources any string will be accepted, but a semantically-versioned tag is recommended.
-See <https://semver.org> for more information on semantic versioning.
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-For *preprints* and *articles* in the journal publishing process a controlled term must be used from the  "Journal Article Versions (JAV): Recommendations of the NISO/ALPSP JAV Technical Working Group" (`JAV`_). In tis case the property *must* include the attribute 'uri'.
-The value of the property is the corresponding label of the HTTP URI.
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Property version (R, 1)
-------------------------
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Use either a version number or the label of the vocabulary term as value.
+Restricciones
+~~~~~~~~~~~~~
 
-Attribute uri (MA)
+Ejemplos
+~~~~~~~~
+
+Atributos de Campo
 ------------------
 
-Allowed HTTP URI are from the `COAR Version Types Vocabulary`_.
+Especificadores de Campo
+------------------------
 
-**Version (controlled):**
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
 
-=============================================== ========== =================================
-conceptURI                                      label      comment
-=============================================== ========== =================================
-http://purl.org/coar/version/c_b1a7d7d4d402bcce ``AO``     Author's Original
-http://purl.org/coar/version/c_71e4c1898caa6e32 ``SMUR``   Submitted Manuscript Under Review
-http://purl.org/coar/version/c_ab4af688f83e57aa ``AM``     Accepted Manuscript
-http://purl.org/coar/version/c_fa2ee174bc00049f ``P``      Proof
-http://purl.org/coar/version/c_970fb48d4fbd8a85 ``VoR``    Version of Record
-http://purl.org/coar/version/c_e19f295774971610 ``CVoR``   Corrected Version of Record
-http://purl.org/coar/version/c_dc82b40f9837b551 ``EVoR``   Enhanced Version of Record
-http://purl.org/coar/version/c_be7fb7dd8ff6fe43 ``NA``     Not Applicable (or Unknown)
-=============================================== ========== =================================
+Observaciones del Campo
+-----------------------
 
-Example
-~~~~~~~
-.. code-block:: xml
-   :linenos:
+Adaptado de..
+~~~~~~~~~~~~~
 
-   <oaire:version>1.0.3</oaire:version>
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code-block:: xml
-   :linenos:
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
 
-   <oaire:version uri="http://purl.org/coar/version/c_be7fb7dd8ff6fe43">AM</oaire:version>
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~
 
 
 .. _COAR Version Types Vocabulary: http://vocabularies.coar-repositories.org/documentation/version_types/

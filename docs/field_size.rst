@@ -1,45 +1,74 @@
 .. _dci:size:
 
-Size (O)
-========
+Tamaño (O)
+==========
 
 ``datacite:size``
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Optional*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 0-n*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-Unstructured size information about the resource.
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-**Allowed values, examples, other constraints**
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-Free text.
+Definición y Alcance del campo
+------------------------------
 
-Examples: "15 pages", "6 MB"
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-**Remarks**
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* adapted from `DataCite MetadataKernel`_ v4.1
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Property size (O, 0-n)
-----------------------
+Restricciones
+~~~~~~~~~~~~~
 
-Use size information as value. Repeat the property for different size information domains.
+Ejemplos
+~~~~~~~~
 
-Example
-~~~~~~~
-.. code-block:: xml
-   :linenos:
+Atributos de Campo
+------------------
 
-     <datacite.sizes>
-	     <datacite:size>15 pages</datacite:size>
-	     <datacite:size>6 MB</datacite:size>
-     </datacite.sizes>
+Especificadores de Campo
+------------------------
+
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
+
+Observaciones del Campo
+-----------------------
+
+Adaptado de..
+~~~~~~~~~~~~~
+
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
+
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/

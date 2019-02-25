@@ -1,53 +1,74 @@
 .. _dc:coverage:
 
-Coverage (R)
-============
+Cobertura (R)
+=============
 
 ``dc:coverage``
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Recommended*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 0-n*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-The extent or scope of the content of the resource. Coverage will typically include temporal period (a period label, date, or date range) or jurisdiction (such as a named administrative entity).
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-**Usage Instruction**
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-It is recommended to use literal or non-literal values. If necessary, repeat this element to encode multiple periods.
+Definición y Alcance del campo
+------------------------------
 
-**Remarks**
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-* introduced in `DRIVER Guidelines v2 element coverage`_
-* to describe spatial location information (a place name or geographic coordinates) use the property :ref:`dci:geolocation`
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Property coverage (R, 0-n)
---------------------------
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Use temporal period or jurisdiction information as value.
+Restricciones
+~~~~~~~~~~~~~
 
-Example
-~~~~~~~
+Ejemplos
+~~~~~~~~
 
-Example Spatial: temporal topic:
+Atributos de Campo
+------------------
 
-.. code-block:: xml
-   :linenos:
+Especificadores de Campo
+------------------------
 
-   <dc:coverage>2000-2010</dc:coverage>
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
 
-Example Spatial: BOX:
+Observaciones del Campo
+-----------------------
 
-.. code-block:: xml
-   :linenos:
+Adaptado de..
+~~~~~~~~~~~~~
 
-   <dc:coverage>
-     scheme=historic; content=Ming Dynasty
-   </dc:coverage>
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
+
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~
 
 .. _DRIVER Guidelines v2 element coverage: https://wiki.surfnet.nl/display/DRIVERguidelines/Coverage

@@ -1,62 +1,74 @@
 .. _aire:file:
 
-File Location (MA)
-==================
+Ubicación del archivo (MA)
+==========================
 
 ``oaire:file``
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Recommended*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 0-n*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-An unambiguous reference to the files, e.g. fulltext, the resource is associated with. Repeat the property for each associated file.
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-Property file (MA, 0-n)
------------------------
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-Use the HTTP URI of the file as value.
+Definición y Alcance del campo
+------------------------------
 
-Attribute accessRightsURI (R)
------------------------------
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-Use terms from the `COAR Access Right Vocabulary`_.
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-======================================== ========================
-conceptURI                               label
-======================================== ========================
-http://purl.org/coar/access_right/c_abf2 ``open access``
-http://purl.org/coar/access_right/c_f1cf ``embargoed access``
-http://purl.org/coar/access_right/c_16ec ``restricted access``
-http://purl.org/coar/access_right/c_14cb ``metadata only access``
-======================================== ========================
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Attribute mimeType (R)
-----------------------
+Restricciones
+~~~~~~~~~~~~~
 
-Specify the file format. It is recommended to select it from the MIME media type which is registered in IANA. For the full list see http://www.iana.org/assignments/media-types
+Ejemplos
+~~~~~~~~
 
-Attribute objectType (R)
+Atributos de Campo
+------------------
+
+Especificadores de Campo
 ------------------------
 
-Specify the type of object the file represents. Select it from the following controlled list:
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
 
-* ``fulltext``
-* ``dataset``
-* ``software``
-* ``other``
+Observaciones del Campo
+-----------------------
 
-Example
-~~~~~~~
+Adaptado de..
+~~~~~~~~~~~~~
 
-.. code-block:: xml
-   :linenos:
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   <oaire:file accessRightsURI="http://purl.org/coar/access_right/c_abf2" mimeType="application/pdf" objectType="fulltext">http://link-to-the-fulltext.org</oaire:file>
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
+
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~
 
 .. _COAR Access Right Vocabulary: http://vocabularies.coar-repositories.org/documentation/access_rights/
