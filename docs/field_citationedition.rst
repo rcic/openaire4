@@ -1,32 +1,72 @@
 .. _aire:citationEdition:
 
-Citation Edition (R)
+Edición de citas (R)
 ====================
 
 ``oaire:citationEdition``
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Recommended*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 0-1*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-The edition the work was published in (e.g. book edition). This property is considered to be part of the bibliographic citation.
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-Property citationEdition (R, 0-1)
----------------------------------
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-Use the edition number as value.
+Definición y Alcance del campo
+------------------------------
 
-Example
-~~~~~~~
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-.. code-block:: xml
-   :linenos:
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   <oaire:citationEdition>2</oaire:citationEdition>
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Restricciones
+~~~~~~~~~~~~~
+
+Ejemplos
+~~~~~~~~
+
+Atributos de Campo
+------------------
+
+Especificadores de Campo
+------------------------
+
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
+
+Observaciones del Campo
+-----------------------
+
+Adaptado de..
+~~~~~~~~~~~~~
+
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
+
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~

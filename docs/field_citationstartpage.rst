@@ -1,31 +1,72 @@
 .. _aire:citationStartPage:
 
-Citation Start Page (R)
-=======================
+Página de inicio de citas (R)
+=============================
 
 ``oaire:citationStartPage``
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Recommended*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 0-1*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-The start page is part of the pagination information of the work published in a container (e.g. journal issue). This property is considered to be part of the bibliographic citation.
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-Property citationStartPage (R, 0-1)
------------------------------------
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-Use the start page number as value.
+Definición y Alcance del campo
+------------------------------
 
-Example
-~~~~~~~
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-.. code-block:: xml
-   :linenos:
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   <oaire:citationStartPage>100</oaire:citationStartPage>
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Restricciones
+~~~~~~~~~~~~~
+
+Ejemplos
+~~~~~~~~
+
+Atributos de Campo
+------------------
+
+Especificadores de Campo
+------------------------
+
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
+
+Observaciones del Campo
+-----------------------
+
+Adaptado de..
+~~~~~~~~~~~~~
+
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
+
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~

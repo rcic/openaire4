@@ -1,53 +1,72 @@
 .. _aire:citationConferenceDate:
 
-Citation Conference Date (R)
-============================
+Cita de fecha de conferencia (R)
+================================
 
 ``oaire:citationConferenceDate``
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Recommended*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 0-1*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-The date when the conference took place. This property is considered to be part of the bibliographic citation. Recommended best practice for encoding the date value is defined in a profile of `ISO 8601 [W3CDTF] <https://www.iso.org/iso-8601-date-and-time-format.html>`_ and follows the ``YYYY-MM-DD`` format.
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-**Usage Instruction**
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-The date should be formatted according to the W3C encoding rules for dates and times:
+Definición y Alcance del campo
+------------------------------
 
-**Complete date:**
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-``YYYY-MM-DD`` (e.g. 1997-07-16)
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-where:
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* ``YYYY`` [four-digit year]
-* ``MM`` [two-digit month (01=January, etc.)]
-* ``DD`` [two-digit day of month (01 through 31)]
+Restricciones
+~~~~~~~~~~~~~
 
-Property citationConferenceDate (R, 0-1)
-----------------------------------------
+Ejemplos
+~~~~~~~~
 
-Use the *single date* or *start date* and *end date* as values following these patterns:
+Atributos de Campo
+------------------
 
-* ``YYYY-MM-DD`` [*single date*]
-* ``YYYY-MM-DD - YYYY-MM-DD`` [*start date* - *end date*]
+Especificadores de Campo
+------------------------
 
-Example
-~~~~~~~
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
 
-.. code-block:: xml
-   :linenos:
+Observaciones del Campo
+-----------------------
 
-   <oaire:citationConferenceDate>2013-10-22</oaire:citationConferenceDate>
+Adaptado de..
+~~~~~~~~~~~~~
 
-.. code-block:: xml
-   :linenos:
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   <oaire:citationConferenceDate>2013-09-22 - 2013-09-26</oaire:citationConferenceDate>
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
+
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~

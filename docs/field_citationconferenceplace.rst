@@ -1,32 +1,72 @@
 .. _aire:citationConferencePlace:
 
-Citation Conference Place (R)
-=============================
+Lugar de conferencia de citas (R)
+=================================
 
 ``oaire:citationConferencePlace``
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Recommended*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 0-1*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-The place where the conference took place. This property is considered to be part of the bibliographic citation.
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-Property citationConferencePlace (R, 0-1)
------------------------------------------
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-Use the name of the place as value.
+Definición y Alcance del campo
+------------------------------
 
-Example
-~~~~~~~
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-.. code-block:: xml
-   :linenos:
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   <oaire:citationConferencePlace>Berlin</oaire:citationConferencePlace>
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Restricciones
+~~~~~~~~~~~~~
+
+Ejemplos
+~~~~~~~~
+
+Atributos de Campo
+------------------
+
+Especificadores de Campo
+------------------------
+
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
+
+Observaciones del Campo
+-----------------------
+
+Adaptado de..
+~~~~~~~~~~~~~
+
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
+
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~

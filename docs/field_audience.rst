@@ -1,59 +1,75 @@
 .. _dct:audience:
 
-Audience (O)
-============
+Audiencia (O)
+=============
 
 ``dcterms:audience``
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Optional*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 0-n*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-**DCMI Definition**
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-A class of entity for whom the resource is intended or useful.
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-**Usage Instruction**
+Definición y Alcance del campo
+------------------------------
 
-A class of entity may be determined by the creator or the publisher or by a third party. An example of audiences given is derived from the `Common Education Data Standards vocabulary`_. Please note the list is not exhaustive.
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-* Administrators
-* Community Groups
-* Counsellors
-* Federal Funds Recipients and Applicants
-* Librarians
-* News Media
-* Other
-* Parents and Families
-* Policymakers
-* Researchers
-* School Support Staff
-* Student Financial Aid Providers
-* Students
-* Teachers
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Remarks**
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* introduced in `DRIVER Guidelines v2 element audience`_
+Restricciones
+~~~~~~~~~~~~~
 
-Property audience (O, 0-n)
---------------------------
+Ejemplos
+~~~~~~~~
 
-Use the class of entity as value.
+Atributos de Campo
+------------------
 
-Example
-~~~~~~~
-.. code-block:: xml
-   :linenos:
+Especificadores de Campo
+------------------------
 
-   <dcterms:audience>Researchers</dcterms:audience>
-   <dcterms:audience>Students</dcterms:audience>
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
+
+Observaciones del Campo
+-----------------------
+
+Adaptado de..
+~~~~~~~~~~~~~
+
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
+
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~
 
 .. _Common Education Data Standards vocabulary: https://ceds.ed.gov/element/001492
 .. _DRIVER Guidelines v2 element audience: https://wiki.surfnet.nl/display/DRIVERguidelines/Audience
