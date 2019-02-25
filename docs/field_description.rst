@@ -1,60 +1,75 @@
 .. _dc:description:
 
-Description (MA)
+Descripción (MA)
 ================
 
 ``dc:description``
 
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Mandatory if applicable*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 0-n*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-**DCMI Definition**
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-An account of the content of the resource. Description may include but is not limited to: an abstract, table of contents, reference to a graphical representation of content or a free-text account of the content.
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-**Usage Instruction**
-
-This element is used for a textual description of the content. When a resource consists of several separate physical object files, do not use ``dc:description`` to list the URLs of these files.
-
-**Remarks**
-
-* introduced in `DRIVER Guidelines v2 element description`_
-
-Property description (MA, 0-n)
+Definición y Alcance del campo
 ------------------------------
 
-Use the textual description as value.
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-.. _dc:description_lang:
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Attribute lang (O)
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Restricciones
+~~~~~~~~~~~~~
+
+Ejemplos
+~~~~~~~~
+
+Atributos de Campo
 ------------------
 
-The language of the description (occurrence: 0-1).
+Especificadores de Campo
+------------------------
 
-Use the ``xml:lang`` attribute to indicate the language of the description.
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
 
-Example
-~~~~~~~
-.. code-block:: xml
-   :linenos:
+Observaciones del Campo
+-----------------------
 
-   <dc:description>
-     Foreword [by] Hazel Anderson; Introduction; The scientific heresy:
-     transformation of a society; Consciousness as causal reality [etc]
-   </dc:description>
+Adaptado de..
+~~~~~~~~~~~~~
 
-   <dc:description xml:lang="en-US">
-     A number of problems in quantum state and system identification are
-     addressed.
-   </dc:description>
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
+
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~
 
 .. _DRIVER Guidelines v2 element description: https://wiki.surfnet.nl/display/DRIVERguidelines/Description

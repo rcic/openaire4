@@ -1,68 +1,74 @@
 .. _aire:resourceType:
 
-Resource Type (M)
-=================
+Tipo de recurso (M) 
+===================
 
 ``oaire:resourceType``
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Mandatory*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 1*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-The type of scientific output the resource is a manifestation of. It describes the genre of the resource.
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-**Usage**
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-The attribute *resourceTypeGeneral* is used to categorize the resource to belong to a main class of research outputs.
-The attribute *uri* holds an HTTP URI of a resource type concept and indicates the sub-property of *resourceTypeGeneral*.
-The label of this concept is used as value for the *ResourceType* element.
+Definición y Alcance del campo
+------------------------------
 
-**Do Not Confuse With**
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-* :ref:`dc:format` which describes the media type of this resource.
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Remarks**
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* former versions of the OpenAIRE Guidelines used the `info:eu-repo vocabulary for publication types <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-Publicationtypes>`_.
-* adopting *resourceType* element from DataCite MetadataKernel v4.1.
-* adding the *uri* attribute for resource type concept URI to this application profile
+Restricciones
+~~~~~~~~~~~~~
 
-Property resourceType (M, 1)
-----------------------------
+Ejemplos
+~~~~~~~~
 
-Use the label of the resource type term as value. In the below table the preferred english labels are listed, but labels (preferred or alternative) in other languages can be chosen from the COAR Resource Type Vocabulary.
+Atributos de Campo
+------------------
 
-Attribute resourceTypeGeneral (M)
----------------------------------
+Especificadores de Campo
+------------------------
 
-The general type of a resource.
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
 
-*Controlled list values*
+Observaciones del Campo
+-----------------------
 
-* ``literature``
-* ``dataset``
-* ``software``
-* ``other research product``
+Adaptado de..
+~~~~~~~~~~~~~
 
-Attribute uri (M)
------------------
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Use terms from the `COAR Resource Type Vocabulary`_ (occurrence: 1).
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
 
-.. include:: vocabularies/resourcetype.rst
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Example
-~~~~~~~
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code-block:: xml
-   :linenos:
-
-   <oaire:resourceType resourceTypeGeneral="literature" uri="http://purl.org/coar/resource_type/c_6501">journal article</oaire:resourceType>
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~
 
 .. _COAR Resource Type Vocabulary: http://vocabularies.coar-repositories.org/documentation/resource_types/

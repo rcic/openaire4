@@ -1,61 +1,74 @@
 .. _dc:format:
 
-Format (R)
-==========
+Formato (R)
+===========
 
 ``dc:format``
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Recommended*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 0-n*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-**DCMI Definition**
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-The physical or digital manifestation of the resource. Typically, Format may include the media-type or dimensions of the resource. Format may be used to determine the software, hardware or other equipment needed to display or operate the resource. Examples of dimensions include size and duration. Recommended best practice is to select a value from a controlled vocabulary (for example, the list of Internet Media Types [MIME] defining computer media formats).
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-**Usage Instruction**
+Definición y Alcance del campo
+------------------------------
 
-Based on best practice, the IANA registered list of Internet Media Types (MIME types) is used to select a term from. For the full list see http://www.iana.org/assignments/media-types
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-If one specific resource (an instance of scientific output) has more than one physical formats (e.g. postscript and pdf) stored as different object files, all formats are mentioned in the DC element format, for example:
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* ``<dc:format>application/pdf</dc:format>``
-* ``<dc:format>application/postscript</dc:format>``
-* ``<dc:format>application/vnd.oasis.opendocument.text</dc:format>``
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Do Not Confuse With**
+Restricciones
+~~~~~~~~~~~~~
 
-* :ref:`aire:resourceType`
-* :ref:`dci:identifier`
+Ejemplos
+~~~~~~~~
 
-DC element ``format`` describes the media type of this resource. ``oaire:resourceType`` describes the kind of academic output the resource is a representation of. ``datacite:identifier`` is used to represent the manifestation of the digital resource.
+Atributos de Campo
+------------------
 
-**Remarks**
-
-* introduced in `DRIVER Guidelines v2 element format`_
-
-Property format (R, 0-n)
+Especificadores de Campo
 ------------------------
 
-Use the media type of the resource as value.
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
 
-Example
-~~~~~~~
+Observaciones del Campo
+-----------------------
 
-.. code-block:: xml
-   :linenos:
+Adaptado de..
+~~~~~~~~~~~~~
 
-   <dc:format>video/quicktime</dc:format>
-   <dc:format>application/pdf</dc:format>
-   <dc:format>application/xml</dc:format>
-   <dc:format>application/xhtml+xml</dc:format>
-   <dc:format>application/html</dc:format>
-   <dc:format>application/vnd.oasis.opendocument.text</dc:format>
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
+
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~
 
 .. _DRIVER Guidelines v2 element format: https://wiki.surfnet.nl/display/DRIVERguidelines/Format

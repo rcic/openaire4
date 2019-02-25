@@ -1,62 +1,72 @@
 .. _dci:identifier:
 
-Resource Identifier (M)
-=======================
+Identificador de recursos (M)
+=============================
 
 ``datacite:identifier``
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Mandatory*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 1*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-The Identifier is a unique string that identifies a resource.
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-**Usage Instruction**
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-Recommended best practice is to identify the resource by means of a string or number conforming to a formal identification system. Example formal identification systems include the Uniform Resource Identifier (URI), the Uniform Resource Locator (URL), the Digital Object Identifier (DOI), and the ``URN:NBN``. Also this can be a direct URL, or a redirection URL, like PURL, HANDLE or other international resolution mechanisms.
+Definición y Alcance del campo
+------------------------------
 
-The ideal use of this element is to use a direct link or a link to a jump-off page (persistent URL) from ``identifier`` in the metadata record to the digital resource or a jump-off page.
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-Smart practice:
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* use a stable URL
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Do Not Confuse With**
+Restricciones
+~~~~~~~~~~~~~
 
-* :ref:`dci:alternativeIdentifier` (Use ``datacite:alternativeIdentifier`` to list other identifiers than the primary identifier applied to the same resource.)
-* :ref:`dci:relatedIdentifier` (Use ``datacite:relatedIdentifier`` to refer to related resources.)
-* :ref:`aire:file` (Use ``oaire:file`` to point to the resource being desccribed by this metadata, e.g. the fulltext file.)
-* :ref:`dc:source` (Use ``dc:source`` for bibliographic citation of the originating resource.)
+Ejemplos
+~~~~~~~~
 
-Property identifier (M, 1)
---------------------------
+Atributos de Campo
+------------------
 
-Use the identifier link as value.
+Especificadores de Campo
+------------------------
 
-Attribute identifierType (M)
-----------------------------
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
 
-The type of the Identifier (occurrences: 1).
+Observaciones del Campo
+-----------------------
 
-**Allowed values, examples, other constraints**
+Adaptado de..
+~~~~~~~~~~~~~
 
-.. include:: vocabularies/identifiertype.rst
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. note::
-   Unlike DataCite, OpenAIRE allows for DOIs and other types of identifiers.
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
 
-Example
-~~~~~~~
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In this example the handle redirects to the jump-off page. A jump-off page is a good way to refer to. The end-user has the opportunity to see more information about the object(s) he has found, see the context and enjoy the other services a local repository has to offer:
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code-block:: xml
-   :linenos:
-
-   <datacite:identifier identifierType="Handle">http://hdl.handle.net/1234/5628</datacite:identifier>
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~
