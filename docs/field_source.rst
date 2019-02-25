@@ -1,50 +1,74 @@
 .. _dc:source:
 
-Source (R)
+Fuente (R)
 ==========
 
 ``dc:source``
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Recommended*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 0-n*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-**DCMI Definition**
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-A reference to a resource from which the present resource is derived.
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-**Usage Instruction**
+Definición y Alcance del campo
+------------------------------
 
-The present resource may be derived from the *Source* resource in whole or in part. Recommended best practice is to reference the resource by means of a string or number conforming to a formal identification system.
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-Best practice: Use only when the described resource is the result of digitization of non-digital originals. Otherwise, use *:ref:`dci:relatedIdentifier`*. Optionally metadata about the current location and call number of the digitized publication can be added.
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Use: Guidelines for Encoding Bibliographic Citation Information in Dublin Core Metadata (http://dublincore.org/documents/dc-citation-guidelines/).
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Do Not Confuse With**
+Restricciones
+~~~~~~~~~~~~~
 
-* :ref:`dci:identifier`
+Ejemplos
+~~~~~~~~
 
-**Remarks**
+Atributos de Campo
+------------------
 
-* introduced in `DRIVER Guidelines v2 element source`_
-
-Property source (R, 0-n)
+Especificadores de Campo
 ------------------------
 
-Use source information as value.
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
 
-Example
-~~~~~~~
-.. code-block:: xml
-   :linenos:
+Observaciones del Campo
+-----------------------
 
-   <dc:source>Ecology  Letters (1461023X)  vol.4 (2001)</dc:source>
+Adaptado de..
+~~~~~~~~~~~~~
+
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
+
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~
 
 .. _DRIVER Guidelines v2 element source: https://wiki.surfnet.nl/display/DRIVERguidelines/Source

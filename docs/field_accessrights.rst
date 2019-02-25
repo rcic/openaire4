@@ -1,64 +1,74 @@
 .. _dci:accessrights:
 
-Access Rights (M)
-=================
+Derechos de acceso (M)
+======================
 
 ``datacite:rights``
 
-Cardinality
-~~~~~~~~~~~
+Nombre del campo
+----------------
 
-*Mandatory*
+Campo normalizado:
+~~~~~~~~~~~~~~~~~~
 
-*Occurrence: 1*
+Campo con esquema de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traducción al español:
+~~~~~~~~~~~~~~~~~~~~~~
 
-Access right of the resource.
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
 
-Information about the right or mode the resource can be accessed.
-If the metadata describe more than one resource, e.g. fulltext and supplementary material, the access right of the main resource should be provided.
+Niveles de Ocurrencia (R/NR - Cantidad Veces)
+---------------------------------------------
 
-Use terms from the `COAR Access Right Vocabulary`_ (occurrence: 1).
+Definición y Alcance del campo
+------------------------------
 
-======================================== ========================
-conceptURI                               label
-======================================== ========================
-http://purl.org/coar/access_right/c_abf2 ``open access``
-http://purl.org/coar/access_right/c_f1cf ``embargoed access``
-http://purl.org/coar/access_right/c_16ec ``restricted access``
-http://purl.org/coar/access_right/c_14cb ``metadata only access``
-======================================== ========================
+Forma de Descripción Normalizada (RDA/RCAAA/..)
+-----------------------------------------------
 
-.. note::
-   Unlike DataCite, OpenAIRE restricts the use of this property to indicate the access right. 
+Valores permitidos (Vocabularios Controlados)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Do Not Confuse With**
+Relaciones con otros campos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* :ref:`aire:licenseCondition` (Use ``oaire:licenseCondition`` for license information related to the resource.)
+Restricciones
+~~~~~~~~~~~~~
 
-**Remarks**
+Ejemplos
+~~~~~~~~
 
-* former versions of the OpenAIRE Guidelines used the `info:eu-repo-Access-Terms vocabulary <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-AccessRights>`_.
+Atributos de Campo
+------------------
 
+Especificadores de Campo
+------------------------
 
-Property accessRights (M, 1)
-----------------------------
+Niveles de Aplicación - Productos de Colciencias
+------------------------------------------------
 
-Use the label of the vocabulary term as value.
+Observaciones del Campo
+-----------------------
 
-Attribute uri (M)
------------------
+Adaptado de..
+~~~~~~~~~~~~~
 
-Use the conceptURI of the vocabulary term.
+Relaciones con otros modelos de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Example
-~~~~~~~
+Niveles Semánticos
+~~~~~~~~~~~~~~~~~~
 
-.. code-block:: xml
-   :linenos:
+Recomendación de Campos de aplicación en DSPACE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   <datacite:rights rightsURI="http://purl.org/coar/access_right/c_abf2">open access</datacite:rights>
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otras Observaciones
+~~~~~~~~~~~~~~~~~~~
 
 .. _COAR Access Right Vocabulary: http://vocabularies.coar-repositories.org/documentation/access_rights/
