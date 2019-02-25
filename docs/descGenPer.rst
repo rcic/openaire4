@@ -64,11 +64,12 @@ Campo-OpenAIRE                           Elemento Metadata              Refinami
 :ref:`dct:audience`                      dcterms:audience
 ======================================== ============================= ========================================================================================
 
-The application profile is implemented in XML Schema.
-`The files <https://github.com/openaire/guidelines-literature-repositories/tree/master/schemas>`_ 
-for the application profile and `sample XML files <https://github.com/openaire/guidelines-literature-repositories/tree/master/samples>`_ are part of these Guidelines and also available on the `GitHub repository <https://github.com/openaire/guidelines-literature-repositories>`_.
 
-In the XML metadata documents the schema must be declared as follows:
+El perfil de aplicación es implementado en el esquema XML.
+`Los archivos <https://github.com/openaire/guidelines-literature-repositories/tree/master/schemas>`_ 
+para el perfil de aplicación y `archivos XML de ejemplo <https://github.com/openaire/guidelines-literature-repositories/tree/master/samples>`_ son parte de estas Directrices o pautas y también están disponibles en el `repositorio de GitHub <https://github.com/openaire/guidelines-literature-repositories>`_.
+
+En los documentos de metadatos de XML, el esquema se debe declarar de la siguiente manera:
 
 .. code-block:: xml
    :linenos:
