@@ -1,7 +1,7 @@
 .. _estructuraDoc:
 
-Estructura del documento
-========================
+Estructura del Perfil de Aplicación (Campos de Metadatos)
+=========================================================
 
 El documento proporciona una descripción general de cómo configurar y utilizar el protocolo OAI-PMH para la recolección de metadatos de OpenAIRE brindando el detalle del:
 
