@@ -54,7 +54,7 @@ Observatorio Colombiano de Ciencia y Tecnología (OCyT).
 
 Atributos de Campo
 ------------------
-funderIdentifier type 
+funderIdentifier type
 
 Especificadores de Campo
 ------------------------
