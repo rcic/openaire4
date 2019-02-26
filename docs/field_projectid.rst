@@ -38,12 +38,12 @@ RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-funderIdentifier type
+funderIdentifier  
 
 Relaciones con otros campos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Creador
-Editor
+Creador 
+Editor 
 
 Restricciones
 ~~~~~~~~~~~~~
@@ -54,7 +54,7 @@ Observatorio Colombiano de Ciencia y Tecnología (OCyT).
 
 Atributos de Campo
 ------------------
-funderIdentifier type
+funderIdentifier type 
 
 Especificadores de Campo
 ------------------------
