@@ -66,8 +66,8 @@ Se aplica a todos los productos de Colciencias.
 Observaciones del Campo
 -----------------------
 
-Adaptado 
-~~~~~~~~~
+Adaptado de
+~~~~~~~~~~~
 
 Relaciones con otros modelos de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
