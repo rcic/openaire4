@@ -38,12 +38,12 @@ RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-funderIdentifier  
+funderIdentifier 
 
 Relaciones con otros campos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Creador 
-Editor 
+Creador
+Editor
 
 Restricciones
 ~~~~~~~~~~~~~
@@ -83,5 +83,7 @@ Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA,
 
 Otras Observaciones
 ~~~~~~~~~~~~~~~~~~~
+
+
 
 .. _Crossref Funder Registry: http://fundref.org/services/funder-registry
