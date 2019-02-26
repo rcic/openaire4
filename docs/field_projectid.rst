@@ -84,5 +84,4 @@ Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA,
 Otras Observaciones
 ~~~~~~~~~~~~~~~~~~~
 
-
 .. _Crossref Funder Registry: http://fundref.org/services/funder-registry
