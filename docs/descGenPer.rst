@@ -24,6 +24,7 @@ Esta documentación utiliza las siguientes abreviaturas de espacio de nombres:
 * ``datacite``: http://datacite.org/schema/kernel-4
 * ``oaire``: http://namespace.openaire.eu/schema/oaire/
 
+
 ======================================== ============================= ========================================================================================
 Campo-OpenAIRE                           Elemento Metadata              Refinamiento por vocabulario
 ======================================== ============================= ========================================================================================
