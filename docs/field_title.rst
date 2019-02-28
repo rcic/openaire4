@@ -59,7 +59,18 @@ Restricciones
 
 Ejemplos
 ~~~~~~~~
-Estudio para identificar conocimientos, capacidades, percepciones y experiencias de los investigadores del país frente a la ciencia abierta
+Estudio para identificar conocimientos, capacidades, percepciones y experiencias de los investigadores del país frente a la ciencia abierta.
+
+.. code-block:: xml
+   :linenos:
+
+    <datacite:title xml:lang="en-US">
+     National Institute for Environmental Studies and Center
+     for Climate System Research Japan
+    </datacite:title>
+    <datacite:title xml:lang="en-US" titleType="Subtitle">A survey</datacite:title>
+
+.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
 
 Atributos de Campo
 ------------------
