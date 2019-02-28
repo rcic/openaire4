@@ -52,6 +52,21 @@ Ejemplos
 ~~~~~~~~
 Observatorio Colombiano de Ciencia y Tecnología (OCyT).
 
+.. code-block:: xml
+   :linenos:
+
+   <oaire:fundingReferences>
+    <oaire:fundingReference>
+     <oaire:funderName>European Commission</datacite:funderName>
+     <oaire:funderIdentifier funderIdentifierType="Crossref Funder ID">http://doi.org/10.13039/100010661</oaire:funderIdentifier>
+     <oaire:fundingStream>Horizon 2020 Framework Programme</oaire:fundingStream>
+     <oaire:awardNumber awardURI="http://cordis.europa.eu/project/rcn/194062_en.html">643410</oaire:awardNumber>
+     <oaire:awardTitle>Open Access Infrastructure for Research in Europe 2020</oaire:awardTitle>
+    </oaire:fundingReference>
+   </oaire:fundingReferences>
+
+.. _Crossref Funder Registry: http://fundref.org/services/funder-registry
+
 Atributos de Campo
 ------------------
 funderIdentifier type 

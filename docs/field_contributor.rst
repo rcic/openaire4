@@ -54,6 +54,20 @@ Ejemplos
 ~~~~~~~~
 Observatorio Colombiano de Ciencia y Tecnología (OCyT).
 
+.. code-block:: xml
+   :linenos:
+
+   <datacite:contributors>
+	   <datacite:contributor>
+	     <datacite:contributorName>Evans, R. J.</datacite:contributorName>
+	   <datacite:contributor>
+	   <datacite:contributor>
+	     <datacite:contributorName>International Human Genome Sequencing Consortium</datacite:contributorName>
+	   </datacite:contributor>
+   </datacite:contributors>
+
+.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
+
 Atributos de Campo
 ------------------
 name type

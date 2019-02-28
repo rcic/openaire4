@@ -53,6 +53,22 @@ Ejemplos
 ~~~~~~~~
 Observatorio Colombiano de Ciencia y Tecnología (OCyT).
 
+.. code-block:: xml
+   :linenos:
+
+   <datacite:creators>
+     <datacite:creator>
+       <datacite:creatorName>Evans, R.J.</datacite:creatorName>
+       <datacite:affiliation>Institute of Science and Technology</datacite:affiliation>
+       <datacite:nameIdentifier nameIdentifierScheme="ORCID"
+                       schemeURI="http://orcid.org">
+         1234-1234-1234-1234
+       </datacite:nameIdentifier>
+     </datacite:creator>
+   </datacite:creators>
+
+.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
+
 Atributos de Campo
 ------------------
 name type
