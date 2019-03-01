@@ -94,5 +94,3 @@ OpenAIRE 3: dc:language
 
 Otras Observaciones
 ~~~~~~~~~~~~~~~~~~~
-
-.. _DRIVER Guidelines v2 element language: https://wiki.surfnet.nl/display/DRIVERguidelines/Language
