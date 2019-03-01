@@ -1,4 +1,4 @@
-.. _dc:language:
+.. _dci:language:
 
 Idioma (MA)
 ============
