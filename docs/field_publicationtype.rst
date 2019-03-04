@@ -57,6 +57,7 @@ Ejemplos
 
 .. _COAR Resource Type Vocabulary: http://vocabularies.coar-repositories.org/documentation/resource_types/
 
+
 Atributos de Campo
 ------------------
 
