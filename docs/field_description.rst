@@ -62,6 +62,7 @@ Ejemplos
 
 .. _DRIVER Guidelines v2 element description: https://wiki.surfnet.nl/display/DRIVERguidelines/Description
 
+
 Atributos de Campo
 ------------------
 xml:lang → se utiliza este atributo para indicar el idioma de la descripción.

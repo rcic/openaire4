@@ -61,6 +61,7 @@ Ejemplos
 
 .. _DRIVER Guidelines v2 element format: https://wiki.surfnet.nl/display/DRIVERguidelines/Format
 
+
 Atributos de Campo
 ------------------
 De acuerdo con las mejores prácticas, se pueden seleccionar los tipos de medio de la siguiente lista: http://www.iana.org/assignments/media-types/media-types.xhtml
