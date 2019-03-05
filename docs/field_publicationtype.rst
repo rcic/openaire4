@@ -61,7 +61,7 @@ Atributos de Campo
 ------------------
 
 +-----------------------------------------------+-------------------------+
-| ConceptURI		                              | Etiqueta		           |
+| ConceptURI		                            | Etiqueta		          |
 +===============================================+=========================+
 | http://purl.org/coar/resource_type/c_1162     | annotation              |
 +-----------------------------------------------+-------------------------+
@@ -120,7 +120,7 @@ Atributos de Campo
 | http://purl.org/coar/resource_type/c_15cd     | patent                  |
 +-----------------------------------------------+-------------------------+
 | http://purl.org/coar/resource_type/c_18co     | conference poster not   |
-|						                              | in proceedings          |
+|						                        | in proceedings          |
 +-----------------------------------------------+-------------------------+
 | http://purl.org/coar/resource_type/c_18cp     | conference paper not    |
 |                                               | in proceedings          |

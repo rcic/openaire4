@@ -5,7 +5,6 @@ Descripción (MA)
 
 ``dc:description``
 
-
 Nombre del campo
 ----------------
 
@@ -49,6 +48,7 @@ Restricciones
 
 Ejemplos
 ~~~~~~~~
+
 .. code-block:: xml
    :linenos:
 
@@ -61,7 +61,6 @@ Ejemplos
    </dc:description>
 
 .. _DRIVER Guidelines v2 element description: https://wiki.surfnet.nl/display/DRIVERguidelines/Description
-
 
 Atributos de Campo
 ------------------
