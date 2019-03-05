@@ -118,6 +118,5 @@ Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA,
 Otras Observaciones
 ~~~~~~~~~~~~~~~~~~~
 
-
 .. _COAR Version Types Vocabulary: http://vocabularies.coar-repositories.org/documentation/version_types/
 .. _JAV: https://www.niso.org/publications/niso-rp-8-2008-jav
