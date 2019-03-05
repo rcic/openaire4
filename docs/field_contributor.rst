@@ -59,10 +59,10 @@ Observatorio Colombiano de Ciencia y Tecnología (OCyT).
 
    <datacite:contributors>
 	   <datacite:contributor>
-	     <datacite:contributorName>Evans, R. J.</datacite:contributorName>
+	     <datacite:contributorName>Ramírez, Carlos.</datacite:contributorName>
 	   <datacite:contributor>
 	   <datacite:contributor>
-	     <datacite:contributorName>International Human Genome Sequencing Consortium</datacite:contributorName>
+	     <datacite:contributorName>Departamento Administrativo de Ciencia, Tecnología e Innovación (Colciencias)</datacite:contributorName>
 	   </datacite:contributor>
    </datacite:contributors>
 

@@ -53,9 +53,9 @@ Ejemplos
    :linenos:
 
    <dc:publisher>
-     Loughborough University. Department of Computer Science
+     Universidad Nacional de Colombia. Departamento de Investigaciones.
    </dc:publisher>
-   <dc:publisher>John Wiley &amp; Sons, Inc. (US)</dc:publisher>
+   <dc:publisher>John Campos. (US)</dc:publisher>
 
 .. _DRIVER Guidelines v2 element publisher: https://wiki.surfnet.nl/display/DRIVERguidelines/Publisher
 

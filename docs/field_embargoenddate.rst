@@ -54,8 +54,8 @@ Ejemplos
    :linenos:
 
    <datacite:dates>
-     <datacite:date dateType="Accepted">2011-12-01</datacite:date>
-     <datacite:date dateType="Available">2012-12-01</datacite:date>
+     <datacite:date dateType="Accepted">2017-11-01</datacite:date>
+     <datacite:date dateType="Available">2017-12-01</datacite:date>
    </datacite:dates>
 
 

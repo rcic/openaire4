@@ -54,8 +54,8 @@ Ejemplos
 
 
    <dc:language>eng</dc:language>
-   <dc:language>deu</dc:language>
-   <dc:language>nld</dc:language>
+   <dc:language>spa</dc:language>
+   <dc:language>ita</dc:language>
    <dc:language>nld/dut</dc:language>
    <dc:language>dut</dc:language>
    <dc:language>nl</dc:language>

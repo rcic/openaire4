@@ -58,8 +58,8 @@ Observatorio Colombiano de Ciencia y Tecnología (OCyT).
 
    <datacite:creators>
      <datacite:creator>
-       <datacite:creatorName>Evans, R.J.</datacite:creatorName>
-       <datacite:affiliation>Institute of Science and Technology</datacite:affiliation>
+       <datacite:creatorName>Ramírez, Carlos.</datacite:creatorName>
+       <datacite:affiliation>Observatorio Colombiano de Ciencia y Tecnología</datacite:affiliation>
        <datacite:nameIdentifier nameIdentifierScheme="ORCID"
                        schemeURI="http://orcid.org">
          1234-1234-1234-1234
