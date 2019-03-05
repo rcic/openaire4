@@ -32,7 +32,7 @@ Definición y Alcance del campo
 ------------------------------
 Es un código local, nacional o internacional que se le otorga al recurso, puede ser una cadena alfanumérica para identificar su ubicación o puede ser un código normalizado según el tipo de recurso. 
 
-Forma de Descripción Normalizada (RDA/RCAA2/)
+Forma de Descripción Normalizada (RDA/RCAA2)
 -----------------------------------------------
 RDA (Recursos: descripción y acceso)
 

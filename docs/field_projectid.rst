@@ -32,7 +32,7 @@ Definición y Alcance del campo
 ------------------------------
 Información relacionada con el apoyo financiero o la financiación del proyecto y del producto que se está registrando.  
 
-Forma de Descripción Normalizada (RDA/RCAAA/..)
+Forma de Descripción Normalizada (RDA/RCAA2)
 -----------------------------------------------
 RDA (Recursos: descripción y acceso)
 

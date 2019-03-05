@@ -32,7 +32,7 @@ Definición y Alcance del campo
 ------------------------------
 Es la entrada secundaria, puede ser nombre de persona o corporativo/institucional. 
 
-Forma de Descripción Normalizada (RDA/RCAAA/..)
+Forma de Descripción Normalizada (RDA/RCAA2)
 -----------------------------------------------
 RDA (Recursos: descripción y acceso)
 

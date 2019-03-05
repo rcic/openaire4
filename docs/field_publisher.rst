@@ -32,8 +32,8 @@ Definición y Alcance del campo
 ------------------------------
 Entidad responsable de hacer que el recurso esté disponible. Los editores pueden ser personas, organizaciones o servicios.  
 
-Forma de Descripción Normalizada (RDA/RCAA2/)
------------------------------------------------
+Forma de Descripción Normalizada (RDA/RCAA2)
+--------------------------------------------
 RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)

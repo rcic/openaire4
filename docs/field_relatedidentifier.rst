@@ -31,7 +31,7 @@ Repetible (R)
 Definición y Alcance del campo
 ------------------------------
 
-Forma de Descripción Normalizada (RDA/RCAAA/..)
+Forma de Descripción Normalizada (RDA/RCAA2)
 -----------------------------------------------
 RDA (Recursos: descripción y acceso)
 

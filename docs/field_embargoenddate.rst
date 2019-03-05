@@ -32,7 +32,7 @@ Definición y Alcance del campo
 ------------------------------
 Fecha asociada a la disponibilidad del recurso. 
 
-Forma de Descripción Normalizada (RDA/RCAA2/)
+Forma de Descripción Normalizada (RDA/RCAA2)
 ---------------------------------------------
 RDA (Recursos: descripción y acceso)
 

@@ -32,7 +32,7 @@ Definición y Alcance del campo
 ------------------------------
 Lenguaje del contenido del recurso de investigación
 
-Forma de Descripción Normalizada (RDA/RCAA2/)
+Forma de Descripción Normalizada (RDA/RCAA2)
 -----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
