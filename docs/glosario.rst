@@ -24,7 +24,8 @@ Glosario
 * **Protocolo de Iniciativa de Archivos Abiertos para la Recolección de Metadatos (OAI-PMH):** Protocolo de recolección de registros de metadatos entre servicios y repositorios.
 ..
 * **Protocolo:** Conjunto de normas que definen la comunicación entre sistemas. FTP (Protocolo de Transferencia de Ficheros) y HTTP (Protocolo de Transferencia de Hipertexto) son ejemplos de otros protocolos. 
-RDA (Recursos : descripción y acceso): Es la nueva norma de catalogación que reemplazará a la AACR2. La RDA ofrece a las bibliotecas la posibilidad de cambiar en gran medida la manera en que se crean y utilizan los datos bibliográficos.
+..
+* **RDA (Recursos : descripción y acceso):** Es la nueva norma de catalogación que reemplazará a la AACR2. La RDA ofrece a las bibliotecas la posibilidad de cambiar en gran medida la manera en que se crean y utilizan los datos bibliográficos.
 ..
 * **Recolección:** En relación con la OAI, es la actividad de recolectar los metadatos de una serie de repositorios en un almacén de datos centralizado. 
 ..
