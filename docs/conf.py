@@ -224,6 +224,7 @@ latex_elements = {
 # Additional stuff for the LaTeX preamble.
 #'preamble': '',
 'extraclassoptions': 'openany',
+'font-family':'Arial',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
