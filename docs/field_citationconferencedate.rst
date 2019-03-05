@@ -49,6 +49,16 @@ Restricciones
 Ejemplos
 ~~~~~~~~
 
+.. code-block:: xml
+   :linenos:
+
+   <oaire:citationConferenceDate>2018-10-22</oaire:citationConferenceDate>
+
+.. code-block:: xml
+   :linenos:
+
+   <oaire:citationConferenceDate>2013-09-22 - 2013-09-26</oaire:citationConferenceDate>
+
 Atributos de Campo
 ------------------
 
