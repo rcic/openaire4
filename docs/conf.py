@@ -209,12 +209,13 @@ custom_latex_preamble = r"""
 latex_elements = {
         'preamble': '''
            \usepackage[none]{hyphenat}
+           \usepackage{xcolor}
           % \usepackage{fancyhdr}
           % \pagestyle{fancy}
           % \makeatletter
           % \\fancypagestyle{normal}{
           % \\fancyhf{}
-          % \\fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
+          % \\fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}{OliveGreen}}
           % \\fancyfoot[L]{ \\thepage}
           % \\fancyfoot[R]{ % right
      			% \includegraphics[height=0.3in]{../../_static/by.png}
