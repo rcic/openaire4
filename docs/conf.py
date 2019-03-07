@@ -224,7 +224,6 @@ latex_elements = {
 # Additional stuff for the LaTeX preamble.
 #'preamble': '',
 'extraclassoptions': 'openany',
-'font-family':'Arial',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
@@ -232,7 +231,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   (master_doc, 'OpenAIREGuidelines.tex', u'Directrices de interoperabilidad de metadatos de la Red Colombiana de Información Científica (RCIC)',
-   u'Directrices', 'manual', True),
+   u'En construcción...', 'manual', True),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
