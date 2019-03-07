@@ -201,7 +201,6 @@ latex_elements = {
            \usepackage[utf8]{inputenc}
            \usepackage[T1]{fontenc}
            \usepackage{helvet}
-           \renewcommand{\familydefault}{\sfdefault}
            \usepackage[none]{hyphenat}
           % \usepackage{fancyhdr}
           % \pagestyle{fancy}
