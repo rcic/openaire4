@@ -199,12 +199,12 @@ htmlhelp_basename = 'OpenAIREGuidelinesdoc'
 
 latex_elements = {
         'preamble': '''
-           \usepackage[none]{hyphenat}
-          % \usepackage{fontspec}
-          % \setmainfont{Arial}
+           \usepackage[none]{fontspec}
+           \setmainfont{Arial}
+          % \usepackage{fancyhdr}
           % \pagestyle{fancy}
           % \makeatletter
-          % \\fancypagestyle{Arial}{
+          % \\fancypagestyle{normal}{
           % \\fancyhf{}
           % \\fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
           % \\fancyfoot[L]{ \\thepage}
