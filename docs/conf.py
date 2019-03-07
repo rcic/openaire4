@@ -206,6 +206,7 @@ latex_elements = {
           % \pagestyle{fancy}
           % \makeatletter
           % \\fancypagestyle{normal}{
+          % \\fancyfont{Arial}
           % \\fancyhf{}
           % \\fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
           % \\fancyfoot[L]{ \\thepage}
