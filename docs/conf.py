@@ -208,7 +208,7 @@ custom_latex_preamble = r"""
 
 latex_elements = {
         'preamble': '''
-           \usepackage[custom_latex_preamble]{hyphenat}
+           \usepackage[none]{hyphenat}
           % \usepackage{fancyhdr}
           % \pagestyle{fancy}
           % \makeatletter
@@ -233,6 +233,7 @@ latex_elements = {
 # Additional stuff for the LaTeX preamble.
 #'preamble': '',
 'extraclassoptions': 'openany',
+'preamble': custom_latex_preamble
 
 }
 
