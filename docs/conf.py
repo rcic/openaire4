@@ -201,7 +201,7 @@ latex_elements = {
         'preamble': '''
            \usepackage[none]{hyphenat}
           % \usepackage{fontspec}
-          % \\setmainfont{Arial}
+          % \setmainfont{Arial}
           % \usepackage{fancyhdr}
           % \pagestyle{fancy}
           % \makeatletter
