@@ -194,17 +194,14 @@ html_static_path = ['_static']
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'OpenAIREGuidelinesdoc'
 
-custom_latex_preamble = r"""
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{helvet}
-\renewcommand{\familydefault}{\sfdefault}
-\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
-"""
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_elements = {
         'preamble': '''
+           \usepackage[utf8]{inputenc}
+           \usepackage[T1]{fontenc}
+           \usepackage{helvet}
+           \renewcommand{\familydefault}{\sfdefault}
            \usepackage[none]{hyphenat}
           % \usepackage{fancyhdr}
           % \pagestyle{fancy}
