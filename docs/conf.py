@@ -197,6 +197,8 @@ htmlhelp_basename = 'OpenAIREGuidelinesdoc'
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_elements = {
+\usepackage{fontspec}
+\setmainfont{Arial}
         'preamble': '''
            \usepackage[none]{hyphenat}
           % \usepackage{fancyhdr}
