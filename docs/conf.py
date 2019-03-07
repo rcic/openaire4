@@ -200,8 +200,8 @@ htmlhelp_basename = 'OpenAIREGuidelinesdoc'
 latex_elements = {
         'preamble': '''
            \usepackage[none]{hyphenat}
-          % \usepackage{helvet}
-          % \renewcommand{\familydefault}{\sfdefault}
+           \usepackage{fontspec}
+           \setmainfont{Arial}
           % \usepackage{fancyhdr}
           % \pagestyle{fancy}
           % \makeatletter
@@ -226,6 +226,7 @@ latex_elements = {
 # Additional stuff for the LaTeX preamble.
 #'preamble': '',
 'extraclassoptions': 'openany',
+
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
