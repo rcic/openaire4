@@ -200,7 +200,7 @@ htmlhelp_basename = 'OpenAIREGuidelinesdoc'
 latex_elements = {
         'preamble': '''
            \usepackage[none]{hyphenat}
-          % \usepackage{fancyhdr}
+          % \usepackage{fontspec}
           % \setmainfont{Arial}
           % \pagestyle{fancy}
           % \makeatletter
