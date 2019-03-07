@@ -49,6 +49,12 @@ Restricciones
 Ejemplos
 ~~~~~~~~
 
+.. block-code:: xml
+   :linenos:
+
+   	<dcterms:audience>Investigadores</dcterms:audience>
+	<dcterms:audience>Público general</dcterms:audience>
+
 Atributos de Campo
 ------------------
 
