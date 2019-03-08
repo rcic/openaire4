@@ -40,9 +40,9 @@ if not on_rtd:
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-        ...
+
         'sphinxcontrib.excel',
-        ...
+
     ]
 extensions = [
     'sphinx.ext.intersphinx',
