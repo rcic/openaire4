@@ -1,4 +1,7 @@
 .. _anexo3:
 
-.. csv-table:: Productos resultados de actividades de Apropiación Social
+Anexo 3. Productos resultados de actividades de Apropiación Social
+==================================================================
+
+.. csv-table::
    :file: Anexo3.csv

@@ -1,4 +1,7 @@
 .. _anexo1:
 
-.. csv-table:: Productos que resultan de actividades de Generación de Nuevo Conocimiento
+Anexo 1. Productos que resultan de actividades de Generación de Nuevo Conocimiento
+==================================================================================
+
+.. csv-table::
    :file: Anexo1.csv
