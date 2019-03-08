@@ -38,13 +38,13 @@ RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-name type
-contributor type
+- name type
+- contributor type
 
 Relaciones con otros campos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Creador
-Editor
+- Creador
+- Editor
 
 Restricciones
 ~~~~~~~~~~~~~
@@ -70,8 +70,8 @@ Observatorio Colombiano de Ciencia y Tecnología (OCyT).
 
 Atributos de Campo
 ------------------
-name type
-contributor type
+- name type
+- contributor type
 
 Especificadores de Campo
 ------------------------
