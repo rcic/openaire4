@@ -26,7 +26,7 @@ Obligatorio (M)
 
 Niveles de Ocurrencia (R/NR - Cantidad Veces)
 ---------------------------------------------
-No repetible (NR)
+Repetible (R)
 
 Definición y Alcance del campo
 ------------------------------
@@ -43,6 +43,7 @@ name type
 Relaciones con otros campos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Colaborador
+
 Editor
 
 Restricciones
@@ -98,6 +99,7 @@ Recomendación de Campos de aplicación en DSPACE
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 OpenAire 3: dc:creator
+
 BDCOL: dc.creator.corporativo
 
 Otras Observaciones
