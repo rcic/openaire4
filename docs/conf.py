@@ -197,9 +197,8 @@ htmlhelp_basename = 'OpenAIREGuidelinesdoc'
 # Latex directives to be included directly in the latex/pdf docs. Se agregan algunas propiedades extras para el pdf
 custom_latex_preamble = r"""
 \usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[scaled]{uarial}
-\renewcommand{\familydefault}{\sfdefault}
+\usepackage{fontspec}
+\setmainfont{Arial}
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 """
 
