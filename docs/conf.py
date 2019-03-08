@@ -39,9 +39,13 @@ if not on_rtd:
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-
 extensions = [
-    'sphinx.ext.sphinxcontrib.excel',
+        ...
+        'sphinxcontrib.excel',
+        ...
+    ]
+extensions = [
+    'sphinxcontrib.excel',
     'sphinx.ext.intersphinx',
     'sphinx.ext.ifconfig',
 ]
