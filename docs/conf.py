@@ -198,11 +198,7 @@ htmlhelp_basename = 'OpenAIREGuidelinesdoc'
 custom_latex_preamble = r"""
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{helvet}
-\usepackage{xcolor}
-\definecolor{hblue}{rgb}{0.133,0.184,0.337}
-\definecolor{htext1}{rgb}{0.0314,0.294,0.510}
-\textcolor{htext1}
+\usepackage{uarial}
 \renewcommand{\familydefault}{\sfdefault}
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 """
