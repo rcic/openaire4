@@ -3,5 +3,5 @@
 Anexos
 ======
 
-.. excel-table:: The contents of my xlsx sheet exported to mytable Anexo1.xls
-   :file: Anexo1.xls
+.. excel-table:: The contents of my xlsx sheet exported to mytable Anexo1.csv
+   :file: Anexo1.csv
