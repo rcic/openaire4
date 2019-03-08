@@ -11,6 +11,7 @@ A continuación, se presentan los metadatos asociados al tipo de producto de inv
 - **Anexo 4.** Productos de actividades relacionadas con la Formación de Recurso Humano para CTeI.
 
 .. toctree::
+   :numbered:
    :maxdepth: 1
 
    anexo1
