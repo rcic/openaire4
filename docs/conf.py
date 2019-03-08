@@ -45,7 +45,6 @@ extensions = [
         ...
     ]
 extensions = [
-    'sphinxcontrib.excel',
     'sphinx.ext.intersphinx',
     'sphinx.ext.ifconfig',
 ]
