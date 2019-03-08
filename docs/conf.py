@@ -198,10 +198,11 @@ htmlhelp_basename = 'OpenAIREGuidelinesdoc'
 custom_latex_preamble = r"""
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{uarial}
+\usepackage[scaled]{uarial}
 \renewcommand{\familydefault}{\sfdefault}
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 """
+
 
 # -- Options for LaTeX output ---------------------------------------------
 
