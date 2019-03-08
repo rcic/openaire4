@@ -194,7 +194,7 @@ html_static_path = ['_static']
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'OpenAIREGuidelinesdoc'
 
-# Latex directives to be included directly in the latex/pdf docs.
+# Latex directives to be included directly in the latex/pdf docs. Se agregan algunas propiedades extras para el pdf
 custom_latex_preamble = r"""
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -202,7 +202,6 @@ custom_latex_preamble = r"""
 \renewcommand{\familydefault}{\sfdefault}
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 """
-
 
 # -- Options for LaTeX output ---------------------------------------------
 
