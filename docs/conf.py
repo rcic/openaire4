@@ -201,6 +201,8 @@ custom_latex_preamble = r"""
 \usepackage{helvet}
 \usepackage{xcolor}
 \definecolor{hblue}{rgb}{0.133,0.184,0.337}
+\definecolor{htext1}{rgb}{0.0314,0.294,0.510}
+\textcolor{htext1}
 \renewcommand{\familydefault}{\sfdefault}
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 """
