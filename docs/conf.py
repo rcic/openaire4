@@ -199,6 +199,7 @@ custom_latex_preamble = r"""
 \usepackage[utf8]{inputenc}
 \usepackage{fontspec}
 \setmainfont{Arial}
+\renewcommand{\familydefault}{\sfdefault}
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 """
 
