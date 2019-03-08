@@ -3,5 +3,5 @@
 Anexos
 ======
 
-.. excel-table:: Table caption
+.. excel-table::
    :file: Anexo1.xls
