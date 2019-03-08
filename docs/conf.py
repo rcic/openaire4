@@ -40,9 +40,9 @@ if not on_rtd:
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinxcontrib.excel',
     'sphinx.ext.intersphinx',
     'sphinx.ext.ifconfig',
-    'sphinxcontrib.excel',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
