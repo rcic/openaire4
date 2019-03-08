@@ -12,7 +12,6 @@ A continuación, se presentan los metadatos asociados al tipo de producto de inv
 
 .. toctree::
    :maxdepth: 1
-   :hidden:
 
    anexo1
    anexo2
