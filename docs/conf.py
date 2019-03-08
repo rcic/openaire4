@@ -199,6 +199,7 @@ custom_latex_preamble = r"""
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{helvet}
+\usepackage{xcolor}
 \renewcommand{\familydefault}{\sfdefault}
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 """
@@ -209,7 +210,6 @@ custom_latex_preamble = r"""
 latex_elements = {
         'preamble': '''
            \usepackage[none]{hyphenat}
-           \usepackage{xcolor}
           % \usepackage{fancyhdr}
           % \pagestyle{fancy}
           % \makeatletter
