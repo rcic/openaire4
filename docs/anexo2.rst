@@ -5,3 +5,5 @@ Anexo 2. Productos resultados de actividades de Desarrollo Tecnológico e Innova
 
 .. csv-table::
    :file: Anexo2.csv
+
+Descargar archivo excel :download:`xlsx <Anexo2DTI.xlsx>`
