@@ -1,7 +1,7 @@
 .. _aire:citationVolume:
 
-Volumen de citación (R)
-=======================
+Cita del volumen (R)
+====================
 
 ``oaire:citationVolume``
 
@@ -18,7 +18,7 @@ oaire:citationVolume
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
-Resumen de citación 
+Cita del volumen
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------

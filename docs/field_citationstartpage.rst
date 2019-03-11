@@ -1,6 +1,6 @@
 .. _aire:citationStartPage:
 
-Página de inicio de citas (R)
+Cita de página de inicio (R)
 =============================
 
 ``oaire:citationStartPage``
@@ -18,7 +18,7 @@ oaire:citationStartPage
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
-Página de inicio de cita
+ Cita de página de inicio
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------

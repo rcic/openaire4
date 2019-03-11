@@ -1,6 +1,6 @@
 .. _aire:citationEndPage:
 
-Página final de citas (R)
+Cita de página final (R)
 =========================
 
 ``oaire:citationEndPage``
@@ -18,7 +18,7 @@ oaire:citationEndPage
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
-Derechos de acceso
+Cita de página final
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------

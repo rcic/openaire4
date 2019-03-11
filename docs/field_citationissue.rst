@@ -1,7 +1,7 @@
 .. _aire:citationIssue:
 
-Citación del tema (R)
-=====================
+Cita del tema (R)
+=================
 
 ``oaire:citationIssue``
 
@@ -18,7 +18,7 @@ oaire:citationIssue
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
-Citación del tema
+Cita del tema
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------

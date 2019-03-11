@@ -1,7 +1,7 @@
 .. _aire:citationTitle:
 
-Título de la cita (R)
-=====================
+Cita de título (R)
+==================
 
 ``oaire:citationTitle``
 
@@ -18,7 +18,7 @@ oaire:citationTitle
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
-Título de cita
+Cita de título
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
