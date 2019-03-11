@@ -42,6 +42,7 @@ Campo-OpenAIRE                           Elemento Metadata              Refinami
 :ref:`dc:language`                       dc:language                   `IETF BCP 47`_, `ISO 639-3`_
 :ref:`dc:publisher`                      dc:publisher
 :ref:`dc:creator.degree`                 dc:creator.degree
+:ref:`dc:cpublisher.program`             dc:cpublisher.program            
 :ref:`dci:datePublication`               datacite:date                 :ref:`date type <vocab:datetype_datetype>`
 :ref:`aire:resourceType`                 oaire:resourceType            `COAR Resource Type Vocabulary`_
 :ref:`dc:description`                    dc:description
@@ -106,6 +107,8 @@ En los documentos de metadatos de XML, el esquema se debe declarar de la siguien
    field_embargoenddate
    field_language
    field_publisher
+   field_creatorDegree
+   field_publisherprogram
    field_publicationdate
    field_publicationtype
    field_description

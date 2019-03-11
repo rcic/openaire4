@@ -1,25 +1,25 @@
-.. _dc:creator.degree:
+.. _dc:publisher.program:
 
 
-Título obtenido (MA)
-====================
+Programa (MA)
+=============
 
-``dc:creator.degree``
+``dc:cpublisher.program``
 
 Nombre del campo
 ----------------
 
 Campo normalizado:
 ~~~~~~~~~~~~~~~~~~
-creatorDegree
+publisherprogram
 
 Campo con esquema de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-dc:creator.degree
+dc:publisher.program
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
-Título obtenido
+Programa
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
@@ -31,7 +31,7 @@ Repetible (R)
 
 Definición y Alcance del campo
 ------------------------------
-Titulación obtenida por el estudio realizado. 
+Hace referencia al programa estudiado.
 
 Forma de Descripción Normalizada (RDA/RCAA2)
 -----------------------------------------------
@@ -39,7 +39,7 @@ RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- Creator degree
+- Publisher.program
 
 Relaciones con otros campos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -53,23 +53,24 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-   <dc:creator.degree>Administradora de Empresar</dc:creator.degree>
+   <dc:publisher.program>Ingeniería de Sistemas</dc:publisher.program>
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
 
 Atributos de Campo
 ------------------
-- Creator degree
+- No aplica
 
 Especificadores de Campo
 ------------------------
 
 Niveles de Aplicación - Productos de Colciencias
 ------------------------------------------------
-Se aplica a los productos de tesis de doctorado, trabajo de grado de maestría y trabajo de pregrado. 
+Se aplica a todos los productos de Colciencias. 
 
 Observaciones del Campo
 -----------------------
+No confundir con colaborador (MA) y creador (M). En la mayoría de los caros el colaborador y el editor no son los mismos.
 
 Adaptado de
 ~~~~~~~~~~~
@@ -85,6 +86,7 @@ Recomendación de Campos de aplicación en DSPACE
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+OpenAIRE 3: dc:publisher
 
 Otras Observaciones
 ~~~~~~~~~~~~~~~~~~~
