@@ -4,7 +4,7 @@
 Rol del colaborador (MA)
 ========================
 
-``dc:contributorRol``
+``dc:contributor.rol``
 
 Nombre del campo
 ----------------
