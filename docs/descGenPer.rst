@@ -64,6 +64,7 @@ Campo-OpenAIRE                           Elemento Metadata              Refinami
 :ref:`aire:citationStartPage`            oaire:citationStartPage
 :ref:`aire:citationEndPage`              oaire:citationEndPage
 :ref:`aire:citationEdition`              oaire:citationEdition
+:ref:`dc:source.bibliographicCitation`   dc:source.bibliographicCitation
 :ref:`aire:citationConferencePlace`      oaire:citationConferencePlace
 :ref:`aire:citationConferenceDate`       oaire:citationConferenceDate
 :ref:`dct:audience`                      dcterms:audience
@@ -131,6 +132,7 @@ En los documentos de metadatos de XML, el esquema se debe declarar de la siguien
    field_citationstartpage
    field_citationendpage
    field_citationedition
+   field_sourcebibliographicCitation
    field_citationconferenceplace
    field_citationconferencedate
    field_audience
