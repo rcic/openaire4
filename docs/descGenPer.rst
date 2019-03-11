@@ -32,6 +32,7 @@ Campo-OpenAIRE                           Elemento Metadata              Refinami
 :ref:`dci:creator`                       datacite:creator              :ref:`name type <vocab:nametype_nametype>`
 :ref:`dci:contributor`                   datacite:contributor          | :ref:`name type <vocab:nametype_nametype>`
                                                                        | :ref:`tipo contribuidor <vocab:contributortype_contributortype>`
+:ref:`dc:contributor.rol`                dc:contributorRol              
 :ref:`aire:fundingReference`             oaire:fundingReference        :ref:`funderIdentifier type <vocab:funderIdentifiertype_identifiertype>`
 :ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier  :ref:`alternateIdentifier type <vocab:alternateIdentifiertype_identifiertype>`
 :ref:`dci:relatedIdentifier`             datacite:relatedIdentifier    | :ref:`relatedIdentifier type <vocab:relatedIdentifiertype_identifiertype>`
@@ -97,6 +98,7 @@ En los documentos de metadatos de XML, el esquema se debe declarar de la siguien
    field_title
    field_creator
    field_contributor
+   field_contributorRol
    field_projectid
    field_alternativeidentifier
    field_relatedidentifier
