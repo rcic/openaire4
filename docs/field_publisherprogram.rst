@@ -4,7 +4,7 @@
 Programa (MA)
 =============
 
-``dc:cpublisher.program``
+``dc:publisher.program``
 
 Nombre del campo
 ----------------
