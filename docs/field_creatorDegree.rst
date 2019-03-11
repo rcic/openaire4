@@ -53,7 +53,7 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-   <dc.creator.degree creatordegree>Administradora de Empresar</dc.creator.degree>
+   <dc.creator.degree>Administradora de Empresar</dc.creator.degree>
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
 
