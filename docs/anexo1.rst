@@ -6,6 +6,6 @@ Anexo 1. Productos que resultan de actividades de Generación de Nuevo Conocimie
 .. csv-table::
    :file: Anexo1.csv
    :class: longtable 
-   :widths: 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+   :depth: 2
 
 Descargar archivo excel :download:`xlsx <Anexo1GNC.xlsx>`
