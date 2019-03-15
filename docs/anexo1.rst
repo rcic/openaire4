@@ -7,7 +7,7 @@ Anexo 1. Productos que resultan de actividades de Generación de Nuevo Conocimie
    :file: Anexo1.csv
    :class: longtable 
 
- .. raw:: latex
+.. raw:: latex
 
    \setlength{\parindent}{0pt}
 
