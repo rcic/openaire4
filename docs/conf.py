@@ -206,7 +206,6 @@ custom_latex_preamble = r"""
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
-\begin{longtable}{|*{8}{\X{1}{8}|}}
 """
 
 
@@ -215,6 +214,7 @@ custom_latex_preamble = r"""
 latex_elements = {
         'preamble': '''
            \usepackage[none]{hyphenat}
+           \begin{longtable}{|*{19}{\X{1}{19}|}}
           % \usepackage{fancyhdr}
           % \pagestyle{fancy}
           % \makeatletter
