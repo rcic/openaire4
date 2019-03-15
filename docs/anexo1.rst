@@ -3,7 +3,7 @@
 Anexo 1. Productos que resultan de actividades de Generación de Nuevo Conocimiento
 ==================================================================================
 
-.. tabularcolumns:: |\Y{0.05}|\Y{0.1}|\Y{0.1}|\Y{0.05}|\Y{0.05}|\Y{0.05}|\Y{0.05}|\Y{0.05}|\Y{0.05}|\Y{0.05}|\Y{0.05}|\Y{0.05}|\Y{0.05}|\Y{0.05}|\Y{0.04}|\Y{0.04}|\Y{0.04}|\Y{0.04}|\Y{0.04}|
+.. tabularcolumns::  |p{0.84cm}|p{0.84cm}|p{0.84cm}|p{0.84cm}|p{0.84cm}|p{0.84cm}|p{0.84cm}|p{0.84cm}|p{0.84cm}|p{0.84cm}|p{0.84cm}|p{0.84cm}|p{0.84cm}|p{0.84cm}|p{0.84cm}|p{0.84cm}|p{0.84cm}|p{0.84cm}|p{0.84cm}|
 
 .. csv-table::
    :file: Anexo1.csv
