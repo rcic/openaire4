@@ -3,12 +3,12 @@
 Anexo 1. Productos que resultan de actividades de Generación de Nuevo Conocimiento
 ==================================================================================
 
+.. raw:: latex
+
+    \newpage
+
 .. csv-table::
    :file: Anexo1.csv
    :class: longtable 
 
-.. raw:: latex
-
-    \newpage
-    
 Descargar archivo excel :download:`xlsx <Anexo1GNC.xlsx>`
