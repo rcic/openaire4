@@ -212,7 +212,7 @@ custom_latex_preamble = r"""
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_elements = {
-        'preamble': r'\let\oldmultirow\multirow\def\multirow#1#2{\oldmultirow{#1}{=}}','''
+        'preamble': '''
            \usepackage[none]{hyphenat}
           % \usepackage{fancyhdr}
           % \pagestyle{fancy}
