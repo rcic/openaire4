@@ -1,9 +1,9 @@
-.. _dc:language:
+.. _dc.language:
 
 Idioma (MA)
 ============
 
-``dc:language``
+``dc.language``
 
 Nombre del campo
 ----------------
@@ -14,7 +14,7 @@ language
 
 Campo con esquema de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-dc:language
+dc.language
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -53,12 +53,12 @@ Ejemplos
    :linenos:
 
 
-   <dc:language>eng</dc:language>
-   <dc:language>spa</dc:language>
-   <dc:language>ita</dc:language>
-   <dc:language>nld/dut</dc:language>
-   <dc:language>dut</dc:language>
-   <dc:language>nl</dc:language>
+   <dc.language>eng</dc.language>
+   <dc.language>spa</dc.language>
+   <dc.language>ita</dc.language>
+   <dc.language>nld/dut</dc.language>
+   <dc.language>dut</dc.language>
+   <dc.language>nl</dc.language>
 
 .. _DRIVER Guidelines v2 element language: https://wiki.surfnet.nl/display/DRIVERguidelines/Language
 
