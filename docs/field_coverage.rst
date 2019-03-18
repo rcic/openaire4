@@ -1,9 +1,9 @@
-.. _dc:coverage:
+.. _dc.coverage:
 
 Cobertura (R)
 =============
 
-``dc:coverage``
+``dc.coverage``
 
 Nombre del campo
 ----------------
@@ -14,7 +14,7 @@ coverage
 
 Campo con esquema de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-dc:coverage
+dc.coverage
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -38,7 +38,7 @@ RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-dc:coverage
+dc.coverage
 
 Relaciones con otros campos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -52,9 +52,9 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-  	<dc:coverage>2000-2010</dc:coverage>
-	<dc:coverage>Siglo XX</dc:coverage>
-	<dc:coverage>Colombia</dc:coverage>
+  	<dc.coverage>2000-2010</dc.coverage>
+	<dc.coverage>Siglo XX</dc.coverage>
+	<dc.coverage>Colombia</dc.coverage>
 
 Atributos de Campo
 ------------------
@@ -73,8 +73,8 @@ Se aplica a todos los productos de Colciencias.
 Observaciones del Campo
 -----------------------
 
-Adaptado de..
-~~~~~~~~~~~~~
+Adaptado de
+~~~~~~~~~~~
 
 Relaciones con otros modelos de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

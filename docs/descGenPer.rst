@@ -53,7 +53,7 @@ Campo-OpenAIRE                           Elemento Metadata              Refinami
 :ref:`dc.source`                         dc.source
 :ref:`dci:subject`                       datacite:subject              
 :ref:`aire:licenseCondition`             oaire:licenseCondition
-:ref:`dc:coverage`                       dc:coverage
+:ref:`dc.coverage`                       dc.coverage
 :ref:`dci:size`                          datacite:size
 :ref:`dci:geolocation`                   datacite:geoLocation
 :ref:`aire:version`                      oaire:version                 `COAR Version Vocabulary`_ 
