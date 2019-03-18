@@ -1,5 +1,5 @@
 
 *Valores de lista controlados*
 
-* Organizacional
-* Personal
+- Nombre personal
+- Nombre corporativo

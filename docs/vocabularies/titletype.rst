@@ -1,7 +1,8 @@
 
 *Valores de lista controlados:*
 
-* TítuloAlternativo
-* Subtítulo
-* TítuloTraducido
-* Otro
+- Otro título
+- Subtítulo
+- Título alternativo
+- Título traducido
+- Variante del título
