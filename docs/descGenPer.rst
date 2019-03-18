@@ -47,7 +47,7 @@ Campo-OpenAIRE                           Elemento Metadata              Refinami
 :ref:`dci:datePublication`               datacite:date                 :ref:`date type <vocab:datetype_datetype>`
 :ref:`aire:resourceType`                 oaire:resourceType            `COAR Resource Type Vocabulary`_
 :ref:`dc.description`                    dc.description
-:ref:`dc.format`                         dc.format
+:ref:`dc.format`                         dc.format                     :ref:`format type <vocab:formattype_fromattype>`
 :ref:`dci:identifier`                    datacite:identifier           :ref:`identifier type <vocab:identifiertype_identifiertype>`
 :ref:`dci:accessrights`                  datacite:rights               `COAR Access Right Vocabulary`_
 :ref:`dc.source`                         dc.source
