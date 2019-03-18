@@ -1,21 +1,23 @@
 
-* ``ARK``: Clave de recursos de archivo
-* ``ArXiv``: Identificador
-* ``Bibcode``: Códigos bibliográficos del Sistema de Datos Astrofísicos. Revisar:  http://adsabs.harvard.edu/abs/bibcode
-* ``DOI``: Identificador de Objeto Digital
-* ``EAN13``: Número de Artículo Europeo. Es un estándar de código de barras de 13 dígitos que es un conjunto del sistema Código de Producto Universal (UPC) original de 12 dígitos.
-* ``EISSN``: Número Internacional Normalizado de Serie (versión electrónica)
-* ``HANDLE``: Handle
-* ``IGSN: Número de Muestra Internacional de Geo. Código alfanumérico de 9 dígitos que identifica de forma exclusiva muestras del entorno natural y funciones de muestreo relacionadas.
-* ``ISBN``: Número Internacional Normalizado del Libro.
-* ``ISSN``: Número Internacional Normalizado de Publicaciones Seriadas.
-* ``ISTC``: Código de texto Internacional Normalizado.
-* ``LISSN``: Enlace ISSN o ISSN-L que permite la colocación o el enlace entre diferentes versiones de medios de un recurso continuo.
-* ``LSID``: Identificadores de ciencias de la vida; un identificador único para los datos en el dominio de las ciencias de la vida. Formato: urn:lsid:authority:namespace:identifier:revision
-* ``PISSN``: Número Internacional Normalizado de Publicaciones Seriadas (versión impresa)
-* ``PMID``: PubMed ID
-* ``PURL``: Localizador de recursos uniforme y persistente
-* ``UPC``: Código de producto universal es una simbología de código de barras utilizada para rastrear artículos comerciales en tiendas. Su forma más común es la UPC-A, consta de 12 dígitos numéricos.
-* ``URL``: Localizador Uniforme de Recursos
-* ``URN``: Nombre de recurso uniforme
-* ``WOS``: Número de acceso a la Web of Science
+*Controlled list values*
+
+* ``ARK`` – Archival Resource Key
+* ``arXiv`` – arXiv.org identifier
+* ``bibcode`` – Astrophysics Data System bibliographic codes;  bibcodes can be resolved via http://adsabs.harvard.edu/abs/bibcode
+* ``DOI`` – Digital Object Identifier
+* ``EAN13`` – European Article Number, now renamed International Article Number, but retaining the original acronym, is a 13-digit barcoding standard which is a superset of the original 12-digit Universal Product Code (UPC) system.
+* ``EISSN`` – International Standard Serial Number (electronic Version)
+* ``Handle`` – Handle
+* ``IGSN`` – International Geo Sample Number; a 9-digit alphanumeric code that uniquely identifies samples from our natural environment and related sampling features.
+* ``ISBN`` – International Standard Book Number
+* ``ISSN`` – International Standard Serial Number; a unique 8-digit number used to identify a print or electronic periodical publication.
+* ``ISTC`` – International Standard Text Code; a unique “number” assigned to a textual work. An ISTC consists of 16 numbers and/or letters.
+* ``LISSN`` – The linking ISSN or ISSN-L enables collocation or linking among different media versions of a continuing resource.
+* ``LSID`` – Life Science Identifiers; a unique identifier for data in the Life Science domain. Format: urn:lsid:authority:namespace:identifier:revision
+* ``PISSN`` – International Standard Serial Number (print version)
+* ``PMID`` – PubMed ID
+* ``PURL`` – Persistent Uniform Resource Locator
+* ``UPC`` – Universal Product Code is a barcode symbology used for tracking trade items in stores. Its most common form, the UPC-A, consists of 12 numerical digits.
+* ``URL`` – Uniform Resource Locator
+* ``URN`` – Uniform Resource Name
+* ``WOS`` – Web of Science accession number
