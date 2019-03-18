@@ -102,16 +102,12 @@ En los documentos de metadatos de XML, el esquema se debe declarar de la siguien
    field_title
    field_creator
    field_contributor
-   field_contributorRol
    field_projectid
    field_alternativeidentifier
    field_relatedidentifier
    field_embargoenddate
    field_language
    field_publisher
-   field_creatorDegree
-   field_publisherprogram
-   field_publisherdepartment
    field_publicationdate
    field_publicationtype
    field_description
@@ -132,7 +128,11 @@ En los documentos de metadatos de XML, el esquema se debe declarar de la siguien
    field_citationstartpage
    field_citationendpage
    field_citationedition
-   field_sourcebibliographicCitation
    field_citationconferenceplace
    field_citationconferencedate
    field_audience
+   field_contributorRol
+   field_creatorDegree
+   field_publisherprogram
+   field_publisherdepartment
+   field_sourcebibliographicCitation
