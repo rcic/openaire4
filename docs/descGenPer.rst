@@ -50,7 +50,7 @@ Campo-OpenAIRE                           Elemento Metadata              Refinami
 :ref:`dc.format`                         dc.format
 :ref:`dci:identifier`                    datacite:identifier           :ref:`identifier type <vocab:identifiertype_identifiertype>`
 :ref:`dci:accessrights`                  datacite:rights               `COAR Access Right Vocabulary`_
-:ref:`dc:source`                         dc:source
+:ref:`dc.source`                         dc.source
 :ref:`dci:subject`                       datacite:subject              
 :ref:`aire:licenseCondition`             oaire:licenseCondition
 :ref:`dc:coverage`                       dc:coverage

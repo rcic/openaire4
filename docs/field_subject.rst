@@ -67,13 +67,13 @@ Ejemplos
 
 Atributos de Campo
 ------------------
-Puede utilizar los siguientes recursos de apoyo:
-OCLC: https://www.oclc.org/en/dewey/resources.html 
-Web Dewey: http://dewey.org/webdewey/login/login.html;jsessionid=C0A03467C7163D3F5BA72035654B8AA3 
-Armarc en línea: http://www.armarcenlinea.com/web/pages/publico/index.php 
-Lemb digital: http://www.lembdigital.com/new/es/home_es/ 
-Tesauro Unesco: http://vocabularies.unesco.org/browser/thesaurus/es/ 
-Skos tesauro: https://skos.um.es/unescothes/?l=es 
+- Puede utilizar los siguientes recursos de apoyo:
+- OCLC: https://www.oclc.org/en/dewey/resources.html 
+- Web Dewey: http://dewey.org/webdewey/login/login.html;jsessionid=C0A03467C7163D3F5BA72035654B8AA3 
+- Armarc en línea: http://www.armarcenlinea.com/web/pages/publico/index.php 
+- Lemb digital: http://www.lembdigital.com/new/es/home_es/ 
+- Tesauro Unesco: http://vocabularies.unesco.org/browser/thesaurus/es/ 
+- Skos tesauro: https://skos.um.es/unescothes/?l=es 
 
 Especificadores de Campo
 ------------------------

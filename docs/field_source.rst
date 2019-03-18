@@ -1,9 +1,9 @@
-.. _dc:source:
+.. _dc.source:
 
 Fuente (R)
 ==========
 
-``dc:source``
+``dc.source``
 
 Nombre del campo
 ----------------
@@ -14,7 +14,7 @@ source
 
 Campo con esquema de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-dc:source
+dc.source
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -38,7 +38,7 @@ RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-dc:source
+dc.source
 
 Relaciones con otros campos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -52,7 +52,7 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-   <dc:source>Cuadernos de ecología volumen 4 (2001)</dc:source>
+   <dc.source>Cuadernos de ecología volumen 4 (2001)</dc.source>
 
 .. _DRIVER Guidelines v2 element source: https://wiki.surfnet.nl/display/DRIVERguidelines/Source
 
