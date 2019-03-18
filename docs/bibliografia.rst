@@ -2,6 +2,20 @@
 
 Bibliografía
 ============
+
+| Consejo Nacional de Ciencia y Tecnología. (21 de Noviembre de 2014). *Lineamientos Generales para* 
+|         *el Repositorio Nacional y los Repositorios*. Obtenido de http://www.conacyt.mx/siicyt/
+|         index.php/centros-de-investigacion-conacyt/2393- 
+|
+| DRIVER Project. (2008). Directrices DRIVER 2.0. *Directrices para proveedores de contenido* - 
+|        *Exposición de recursos textuales con el protocolo OAI-PMH*. Obtenido de http://recolecta.fecyt.es
+|        /sites/default/files/contenido/documentos/DRIVER_2_1_Gui 
+|
+| Join Steering Commitee. (2013). *RDA*. Obtenido de http://www.rda-jsc.org/archivedsite/rda.html 
+|
+| Ministerio de Educación Nacional. (2015). *Documento Marco: Sistema Nacional de Acceso Abierto* 
+|         *al Conocimiento*. Bogotá.
+|
 | OpenAIRE. (30 de Abril de 2013). *OpenAIRE Interoperability Guidelines for Literature Repository*
 |		*Managers*. doi:doi:10.5281/zenodo.1487968 
 |
