@@ -1,9 +1,11 @@
 
-*Controlled list values*
-
 * ARK
 * DOI
 * Handle
+* ISBN
+* ISSN
+* ORCID
 * PURL
+* URI
 * URL
 * URN
