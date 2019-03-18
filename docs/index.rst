@@ -1,7 +1,7 @@
 .. image:: https://raw.githubusercontent.com/rcic/openaire4/master/docs/colgob_color-01.png
 
 ###################################################################################################
-Directrices de interoperabilidad de metadatos de la Red Colombiana de Información Científica (RCIC)
+Directrices de interoperabilidad de metadatos para productos de investigación de la Red Colombiana de Información Científica (RCIC)
 ###################################################################################################
 ..
 En construcción...
