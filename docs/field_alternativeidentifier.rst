@@ -49,16 +49,16 @@ Restricciones
 
 Ejemplos
 ~~~~~~~~
-ark: Clave de recursos de archivo
-arxiv: identificador arXiv.org
-doi: Identificador de Objeto Digital
-isbn: Número Internacional Estandarizado para Libros 
-pissn: Número de serie estándar internacional (versión impresa)
-eissn: Número de serie estándar internacional (versión electrónica)
-pmid: ID de PubMed
-purl: Localizador de recursos uniforme y persistente
-urn: Nombre del recurso uniforme
-wos: Número de acceso a la Web of Science
+**ark:** Clave de recursos de archivo
+**arxiv:** identificador arXiv.org
+**doi:** Identificador de Objeto Digital
+**isbn:** Número Internacional Estandarizado para Libros 
+**pissn:** Número de serie estándar internacional (versión impresa)
+**eissn:** Número de serie estándar internacional (versión electrónica)
+**pmid:** ID de PubMed
+**purl:** Localizador de recursos uniforme y persistente
+**urn:** Nombre del recurso uniforme
+**wos:** Número de acceso a la Web of Science
 
 .. code-block:: xml
    :linenos:
@@ -98,7 +98,7 @@ Recomendación de Campos de aplicación en DSPACE
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-OpenAIRE 3: dc:relation
+- **OpenAIRE 3:** dc:relation
 
 Otras Observaciones
 ~~~~~~~~~~~~~~~~~~~
