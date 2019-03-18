@@ -29,6 +29,3 @@
 * ``IsSourceOf`` (indica que A es una fuente en la que se basa B)
 * ``IsRequiredBy`` (indica que A es requerido por B)
 * ``Requires`` (indica que A requiere B)
-
-
-* ``Requires`` (indicates A requires B)
