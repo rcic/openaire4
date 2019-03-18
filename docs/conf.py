@@ -62,7 +62,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Directrices de interoperabilidad de metadatos de la Red Colombiana de Información Científica (RCIC)'
+project = u'Directrices de interoperabilidad de metadatos para productos de investigación de la Red Colombiana de Información Científica (RCIC)'
 copyright = u'COLCIENCIAS Y METABIBLIOTECA'
 
 # The version info for the project you're documenting, acts as replacement for
