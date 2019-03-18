@@ -96,6 +96,8 @@ Recomendación de Campos de aplicación en DSPACE
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+- **OpenAIRE 3:** dc:relation
+
 Otras Observaciones
 ~~~~~~~~~~~~~~~~~~~
 
