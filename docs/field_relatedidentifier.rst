@@ -37,9 +37,9 @@ RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-relatedIdentifier type
-relation type
-resourcetype general
+- relatedIdentifier type
+- relation type
+- resourcetype general
 
 Relaciones con otros campos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -49,18 +49,18 @@ Restricciones
 
 Ejemplos
 ~~~~~~~~
-ark: Clave de recursos de archivo
-arxiv: identificador arXiv.org
-bibcode: Códigos bibliográficos del Sistema de Datos Astrofísicos; bibcodes se pueden resolver a través de http://adsabs.harvard.edu/abs/bibcode
-doi: Identificador de Objeto Digital
-isgn: Número de muestra internacional de Geo; un código alfanumérico de 9 dígitos que identifica de forma exclusiva muestras de nuestro entorno natural y características de muestreo relacionadas.
-isbn: Número Internacional Estandarizado para Libros 
-issn: Número de serie estándar internacional; un número único de 8 dígitos que se utiliza para identificar una publicación periódica impresa o electrónica.
-pmid: ID de PubMed
-purl: Localizador de recursos uniforme y persistente
-url: Localizador uniforme de recursos 
-urn: Nombre del recurso uniforme
-wos: Número de acceso a la Web of Science
+- **ark:** Clave de recursos de archivo
+- **arxiv:** identificador arXiv.org
+- **bibcode:** Códigos bibliográficos del Sistema de Datos Astrofísicos; bibcodes se pueden resolver a través de http://adsabs.harvard.edu/abs/bibcode
+- **doi:** Identificador de Objeto Digital
+- **isgn:** Número de muestra internacional de Geo; un código alfanumérico de 9 dígitos que identifica de forma exclusiva muestras de nuestro entorno natural y características de muestreo relacionadas.
+- **isbn:** Número Internacional Estandarizado para Libros 
+- **issn:** Número de serie estándar internacional; un número único de 8 dígitos que se utiliza para identificar una publicación periódica impresa o electrónica.
+- **pmid:** ID de PubMed
+- **purl:** Localizador de recursos uniforme y persistente
+- **url:** Localizador uniforme de recursos 
+- **urn:** Nombre del recurso uniforme
+- **wos:** Número de acceso a la Web of Science
 
 .. code-block:: xml
    :linenos:
@@ -99,7 +99,7 @@ Recomendación de Campos de aplicación en DSPACE
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-OpenAIRE 3: dc:relation
+- **OpenAIRE 3:** dc.relation
 
 Otras Observaciones
 ~~~~~~~~~~~~~~~~~~~
