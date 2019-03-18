@@ -1,10 +1,10 @@
-.. _dc:contributor.rol:
+.. _dc.contributor.rol:
 
 
 Rol del colaborador (MA)
 ========================
 
-``dc:contributor.rol``
+``dc.contributor.rol``
 
 Nombre del campo
 ----------------
@@ -15,7 +15,7 @@ contributorRol
 
 Campo con esquema de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-dc:contributor.rol
+dc.contributor.rol
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -57,7 +57,7 @@ Observatorio Colombiano de Ciencia y Tecnología (OCyT).
 .. code-block:: xml
    :linenos:
 
-   <dc:contributor.rol>asesor</dc:contributor.rol>
+   <dc.contributor.rol>asesor</dc.contributor.rol>
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
 
