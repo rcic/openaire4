@@ -28,7 +28,7 @@ Esta documentación utiliza las siguientes abreviaturas de espacio de nombres:
 ======================================== ============================= ========================================================================================
 Campo-OpenAIRE                           Elemento Metadata              Refinamiento por vocabulario
 ======================================== ============================= ========================================================================================
-:ref:`dci.title`                         datacite:title                :ref:`title type <vocab:titletype_titletype>`
+:ref:`dci:title`                         datacite:title                :ref:`title type <vocab:titletype_titletype>`
 :ref:`dci:creator`                       datacite:creator              :ref:`name type <vocab:nametype_nametype>`
 :ref:`dci:contributor`                   datacite:contributor          | :ref:`name type <vocab:nametype_nametype>`
                                                                        | :ref:`tipo contribuidor <vocab:contributortype_contributortype>`
