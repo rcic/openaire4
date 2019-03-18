@@ -6,7 +6,7 @@
 * ``EAN13``: Número de Artículo Europeo. Es un estándar de código de barras de 13 dígitos que es un conjunto del sistema Código de Producto Universal (UPC) original de 12 dígitos.
 * ``EISSN``: Número Internacional Normalizado de Serie (versión electrónica)
 * ``HANDLE``: Handle
-* ``IGSN: Número de Muestra Internacional de Geo. Código alfanumérico de 9 dígitos que identifica de forma exclusiva muestras del entorno natural y funciones de muestreo relacionadas.
+* ``IGSN``: Número de Muestra Internacional de Geo. Código alfanumérico de 9 dígitos que identifica de forma exclusiva muestras del entorno natural y funciones de muestreo relacionadas.
 * ``ISBN``: Número Internacional Normalizado del Libro.
 * ``ISSN``: Número Internacional Normalizado de Publicaciones Seriadas.
 * ``ISTC``: Código de texto Internacional Normalizado.
