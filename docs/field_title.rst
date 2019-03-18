@@ -20,7 +20,7 @@ datacite:title
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
-title/título
+Título
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
@@ -44,15 +44,15 @@ title type
 
 Relaciones con otros campos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Subtítulo	
-Título abreviado
-Título clave
-Título uniforme
-Título uniforme colectivo
-Traducción del título por agencia catalogadora
-Variante del título
-Otro título
-Título anterior
+- Otro título
+- Subtítulo      	
+- Título abreviado
+- Título anterior
+- Título clave
+- Título uniforme
+- Título uniforme colectivo
+- Traducción del título por agencia catalogadora
+- Variante del título
 
 Restricciones
 ~~~~~~~~~~~~~
@@ -101,8 +101,8 @@ Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA,
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Para realizar la migración correcta de metadatos, se deben revisar los siguientes modelos de migración y ajustarlos al nuevo esquema de metadatos Openaire 4. 
 
-OpenAire 3: dc:title
-BDCOL: title, title_short, title_full, title_fullStr, title_full_unstemmed
+OpenAire 3: dc.title
+BDCOL: dc.title, dc.title.short, dc.title.full, dc.title.full.unstemmed
 
 Otras Observaciones
 ~~~~~~~~~~~~~~~~~~~
