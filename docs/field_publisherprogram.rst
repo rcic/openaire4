@@ -1,10 +1,10 @@
-.. _dc:publisher.program:
+.. _dc.publisher.program:
 
 
 Programa (MA)
 =============
 
-``dc:publisher.program``
+``dc.publisher.program``
 
 Nombre del campo
 ----------------
@@ -15,7 +15,7 @@ publisherprogram
 
 Campo con esquema de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-dc:publisher.program
+dc.publisher.program
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -53,7 +53,7 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-   <dc:publisher.program>Ingeniería de Sistemas</dc:publisher.program>
+   <dc.publisher.program>Ingeniería de Sistemas</dc.publisher.program>
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
 
@@ -86,7 +86,7 @@ Recomendación de Campos de aplicación en DSPACE
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-OpenAIRE 3: dc:publisher
+- **OpenAIRE 3:** dc.publisher
 
 Otras Observaciones
 ~~~~~~~~~~~~~~~~~~~
