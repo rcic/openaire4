@@ -97,8 +97,8 @@ Recomendación de Campos de aplicación en DSPACE
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- OpenAIRE 3: dc.creator
-- BDCOL: dc.creator.corporativo
+- **OpenAIRE 3:** dc.creator
+- **BDCOL:** dc.creator.corporativo
 
 Otras Observaciones
 ~~~~~~~~~~~~~~~~~~~

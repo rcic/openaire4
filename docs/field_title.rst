@@ -101,8 +101,8 @@ Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA,
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Para realizar la migración correcta de metadatos, se deben revisar los siguientes modelos de migración y ajustarlos al nuevo esquema de metadatos Openaire 4. 
 
-- OpenAire 3: dc.title
-- BDCOL: dc.title, dc.title.short, dc.title.full, dc.title.full.unstemmed
+- **OpenAire 3:** dc.title
+- **BDCOL:** dc.title, dc.title.short, dc.title.full, dc.title.full.unstemmed
 
 Otras Observaciones
 ~~~~~~~~~~~~~~~~~~~
