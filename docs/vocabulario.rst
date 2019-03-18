@@ -13,3 +13,13 @@ A continuación, se relacionan en la siguiente tabla los vocabularios que deben 
    :maxdepth: 1
 
    vocab_titletype
+   vocab_relatedidentifiertype
+   vocab_audiencetype
+   vocab_contributortype
+   vocab_datetype
+   vocab_formattype
+   vocab_funderidentifiertype
+   vocab_identifiertype
+   vocab_nametype
+   vocab_relationtype
+   vocab_resourcetypegeneral
