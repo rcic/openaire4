@@ -14,7 +14,7 @@ publisher
 
 Campo con esquema de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-dc:publisher
+dc.publisher
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -88,7 +88,7 @@ Recomendación de Campos de aplicación en DSPACE
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-OpenAIRE 3: dc:publisher
+- **OpenAIRE 3:** dc.publisher
 
 Otras Observaciones
 ~~~~~~~~~~~~~~~~~~~
