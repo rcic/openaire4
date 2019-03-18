@@ -63,119 +63,123 @@ Atributos de Campo
 +-----------------------------------------------+-------------------------+
 | ConceptURI                                    | Etiqueta                |
 +===============================================+=========================+
-| http://purl.org/coar/resource_type/c_1162     | annotation              |
+| http://purl.org/coar/resource_type/c_1162     | Anotación               |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_6501     | journal article         |
+| http://purl.org/coar/resource_type/c_6501     | Artículo de revista     |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_545b     | letter to the editor    |
+| http://purl.org/coar/resource_type/c_545b     | Carta al editor         |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_b239     | editorial               |
+| http://purl.org/coar/resource_type/c_b239     | Editorial               |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_2df8fbb1 | research article        |
+| http://purl.org/coar/resource_type/c_2df8fbb1 | Artículo de             |
+|                                               | investigación           |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_dcae04bc | review article          |
+| http://purl.org/coar/resource_type/c_dcae04bc | Artículo de revisión    |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_beb9     | data paper              |
+| http://purl.org/coar/resource_type/c_beb9     | Papel de datos          |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_3e5a     | contribution to journal |
+| http://purl.org/coar/resource_type/c_3e5a     | Contribución a la       |
+|                                               | revista                 |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_ba08     | book review             |
+| http://purl.org/coar/resource_type/c_ba08     | Reseña de libro         |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_3248     | book part               |
+| http://purl.org/coar/resource_type/c_3248     | Parte de libro          |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_2f33     | book                    |
+| http://purl.org/coar/resource_type/c_2f33     | Libro                   |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_86bc     | bibliography            |
+| http://purl.org/coar/resource_type/c_86bc     | Bibliografía            |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_816b     | preprint                |
+| http://purl.org/coar/resource_type/c_816b     | Preimpresión            |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_8042     | working paper           |
+| http://purl.org/coar/resource_type/c_8042     | Documento de trabajo    |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_71bd     | technical documentation |
+| http://purl.org/coar/resource_type/c_71bd     | Documentación técnica   |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_18gh     | technical report        |
+| http://purl.org/coar/resource_type/c_18gh     | Reporte técnico         |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_18ws     | research report         |
+| http://purl.org/coar/resource_type/c_18ws     | Informe de investigación|
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_18hj     | report to funding agency|
+| http://purl.org/coar/resource_type/c_18hj     | Informe agencia de      |
+|                                               | financiamiento          |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_18op     | project deliverable     |
+| http://purl.org/coar/resource_type/c_18op     | Entregable de proyecto  |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_186u     | policy report           |
+| http://purl.org/coar/resource_type/c_186u     | Informe de política     |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_18wq     | other type of report    |
+| http://purl.org/coar/resource_type/c_18wq     | Otro tipo de informe    |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_18wz     | memorandum              |
+| http://purl.org/coar/resource_type/c_18wz     | Memorando               |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_18ww     | internal report         |
+| http://purl.org/coar/resource_type/c_18ww     | Informe interno         |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_efa0     | review                  |
+| http://purl.org/coar/resource_type/c_efa0     | Revisión                |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_baaf     | research proposal       |
+| http://purl.org/coar/resource_type/c_baaf     | Propuesta de            |
+|                                               | investigación           |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_ba1f     | report part             |
+| http://purl.org/coar/resource_type/c_ba1f     | Parte del informe       |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_93fc     | report                  |
+| http://purl.org/coar/resource_type/c_93fc     | Informe                 |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_15cd     | patent                  |
+| http://purl.org/coar/resource_type/c_15cd     | Patente                 |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_18co     | conference poster not   |
-|                                               | in proceedings          |
+| http://purl.org/coar/resource_type/c_18co     | Documento de conferencia|
+|                                               | en proceso              |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_18cp     | conference paper not    |
-|                                               | in proceedings          |
+| http://purl.org/coar/resource_type/c_18cp     | Documento de conferencia|
+|                                               | en no proceso           |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_6670     | conference poster       |
+| http://purl.org/coar/resource_type/c_6670     | Póster de la conferencia|
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_5794     | conference paper        |
+| http://purl.org/coar/resource_type/c_5794     | Documento de sesión     |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_c94f     | conference object       |
+| http://purl.org/coar/resource_type/c_c94f     | Objeto de conferencia   |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_f744     | conference proceedings  |
+| http://purl.org/coar/resource_type/c_f744     | Actas de conferencia    |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_7a1f     | bachelor thesis         |
+| http://purl.org/coar/resource_type/c_7a1f     | Tesis de licenciatura   |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_bdcc     | master thesis           |
+| http://purl.org/coar/resource_type/c_bdcc     | Tesis de maestría       |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_db06     | doctoral thesis         |
+| http://purl.org/coar/resource_type/c_db06     | Tesis doctoral          |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_46ec     | thesis                  |
+| http://purl.org/coar/resource_type/c_46ec     | Tesis                   |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_0857     | letter                  |
+| http://purl.org/coar/resource_type/c_0857     | Carta                   |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_8544     | lecture                 |
+| http://purl.org/coar/resource_type/c_8544     | Conferencia             |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_18cf     | text                    |
+| http://purl.org/coar/resource_type/c_18cf     | Texto                   |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_18cw     | musical notation        |
+| http://purl.org/coar/resource_type/c_18cw     | Notación musical        |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_18cd     | musical composition     |
+| http://purl.org/coar/resource_type/c_18cd     | Composición musical     |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_18cc     | sound                   |
+| http://purl.org/coar/resource_type/c_18cc     | Sonido                  |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_12ce     | video                   |
+| http://purl.org/coar/resource_type/c_12ce     | Video                   |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_8a7e     | moving image            |
+| http://purl.org/coar/resource_type/c_8a7e     | Imagen en movimiento    |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_ecc8     | still image             |
+| http://purl.org/coar/resource_type/c_ecc8     | Imagen fija             |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_c513     | image                   |
+| http://purl.org/coar/resource_type/c_c513     | Imagen                  |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_12cd     | map                     |
+| http://purl.org/coar/resource_type/c_12cd     | Mapa                    |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_12cc     | cartographic material   |
+| http://purl.org/coar/resource_type/c_12cc     | Material cartográfico   |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_5ce6     | software                |
+| http://purl.org/coar/resource_type/c_5ce6     | Software                |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_ddb1     | dataset                 |
+| http://purl.org/coar/resource_type/c_ddb1     | Conjunto de datos       |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_e9a0     | interactive resource    |
+| http://purl.org/coar/resource_type/c_e9a0     | Recurso interactivo     |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_7ad9     | website                 |
+| http://purl.org/coar/resource_type/c_7ad9     | Sitio web               |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_393c     | workflow                |
+| http://purl.org/coar/resource_type/c_393c     | Flujo de trabajo        |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_1843     | other                   |
+| http://purl.org/coar/resource_type/c_1843     | Otro                    |
 +-----------------------------------------------+-------------------------+
 
 Especificadores de Campo
