@@ -9,6 +9,8 @@ Glosario
 ..
 * **COAR (Confederation of Open Access Repositories):** Es la confederación de repositorios de acceso abierto que une y representa a más de 100 instituciones de todo el mundo (Europa, América Latina, Asia, y América del Norte). Su misión es mejorar la visibilidad y lograr una mayor aplicación de los resultados de investigación a través de redes globales de repositorios de acceso digital abierto.
 ..
+* **Creative Commons:** Es una organización sin fines de lucro que permite el intercambio y uso de la creatividad y el conocimiento a través de herramientas legales gratuitos.
+..
 * **Dublin Core:** Modelo de metadato concebido para describir recursos digitales y responder a la necesidad de crear una nomenclatura común de metadatos. Está compuesto de quince elementos de descripción de documentos electrónicos – title, creator, subject, description, publisher, contributor, date, type, format, identifier, language, source, relation, coverage, rights – que facilitan la información básica sobre los mismos. 
 ..
 * **Interoperabilidad:** Es la capacidad de dos o más sistemas de intercambiar datos e información, utilizando un estándar hacia un objetivo común o diferente sin importar su plataforma tecnológica. Los estándares abiertos entre los sistemas permiten la comunicación entre sí para la descripción correcta de los recursos y colecciones bibliográficas.
@@ -35,3 +37,8 @@ Glosario
 ..
 * **URI (Universal Resource Identifier):** Identificador Uniforme de Recursos. Los URIs son cadenas que identifican las cosas en la Web. De modo informal, en algunas ocasiones a las URIs se les denomina URLs (Uniform Resource Locators), aunque URLs son más limitadas que las URIs. Las URIs se usan en un cierto número de esquemas, incluyendo los esquemas URI de HTTP y FTP.
 ..
+* **URL:** Secuencia de caracteres que se usa para nombrar recursos en Internet para su localización o identificación. 
+..
+* **URN:** Sirven identifican recursos en la web, pero a diferencia de los URL, no indican exactamente dónde se encuentra ese objeto. 
+..
+* **UTF-8:** (8-bit Unicode Transformation Format) es un formato de codificación de caracteres Unicode e ISO 10646 utilizando símbolos de longitud variable. 
