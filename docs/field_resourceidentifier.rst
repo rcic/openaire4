@@ -31,11 +31,11 @@ No repetible (NR)
 Definición y Alcance del campo
 ------------------------------
 Es la cadena única para identificar el recurso. Los sistemas de identificación de recursos más comunes son: 
-URI
-URL
-DOI
-PURL
-HANDLE
+- URI
+- URL
+- DOI
+- PURL
+- HANDLE
 
 El uso de este campo es para ingresar un acceso directo al recurso digital.
 

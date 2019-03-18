@@ -63,13 +63,13 @@ Use el siguiente vocabulario de acceso COAR: http://vocabularies.coar-repositori
 +-----------------------------------------------+-------------------------+
 | ConceptURI                                    | Etiqueta                |
 +===============================================+=========================+
-| http://purl.org/coar/access_right/c_abf2      | open access             |
+| http://purl.org/coar/access_right/c_abf2      | Acceso abierto          |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/access_right/c_f1cf      | embargoed access        |
+| http://purl.org/coar/access_right/c_f1cf      | Acceso embargado        |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/access_right/c_16ec      | restricted access       |
+| http://purl.org/coar/access_right/c_16ec      | Acceso restringido      |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/access_right/c_14cb      | metadata only access    |
+| http://purl.org/coar/access_right/c_14cb      | Acceso a solo metadatos |
 +-----------------------------------------------+-------------------------+
 
 Especificadores de Campo

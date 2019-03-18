@@ -1,9 +1,9 @@
-.. _dc:format:
+.. _dc.format:
 
 Formato (R)
 ===========
 
-``dc:format``
+``dc.format``
 
 Nombre del campo
 ----------------
@@ -14,7 +14,7 @@ format
 
 Campo con esquema de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-dc:format
+dc.format
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -52,12 +52,12 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-   <dc:format>video/quicktime</dc:format>
-   <dc:format>application/pdf</dc:format>
-   <dc:format>application/xml</dc:format>
-   <dc:format>application/xhtml+xml</dc:format>
-   <dc:format>application/html</dc:format>
-   <dc:format>application/vnd.oasis.opendocument.text</dc:format>
+   <dc.format>video/quicktime</dc.format>
+   <dc.format>application/pdf</dc.format>
+   <dc.format>application/xml</dc.format>
+   <dc.format>application/xhtml+xml</dc.format>
+   <dc.format>application/html</dc.format>
+   <dc.format>application/vnd.oasis.opendocument.text</dc.format>
 
 .. _DRIVER Guidelines v2 element format: https://wiki.surfnet.nl/display/DRIVERguidelines/Format
 
