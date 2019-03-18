@@ -64,7 +64,7 @@ Campo-OpenAIRE                           Elemento Metadata              Refinami
 :ref:`aire:citationStartPage`            oaire:citationStartPage
 :ref:`aire:citationEndPage`              oaire:citationEndPage
 :ref:`aire:citationEdition`              oaire:citationEdition
-:ref:`dc:source.bibliographicCitation`   
+:ref:`dc.source.bibliographicCitation`   
 :ref:`aire:citationConferencePlace`      oaire:citationConferencePlace
 :ref:`aire:citationConferenceDate`       oaire:citationConferenceDate
 :ref:`dct:audience`                      dcterms:audience
