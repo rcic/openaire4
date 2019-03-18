@@ -72,8 +72,8 @@ Observaciones del Campo
 -----------------------
 La mejor práctica es codificar el valor de la fecha con el perfil que define ISO 8601 [W3CDTF] con formato YYYY-MM-DD
 
-Adaptado de..
-~~~~~~~~~~~~~
+Adaptado de
+~~~~~~~~~~~
 
 Relaciones con otros modelos de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -86,7 +86,7 @@ Recomendación de Campos de aplicación en DSPACE
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-OpenAIRE 3: dc:date
+- **OpenAIRE 3:** dc.date
 
 Otras Observaciones
 ~~~~~~~~~~~~~~~~~~~

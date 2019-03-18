@@ -43,7 +43,7 @@ Campo-OpenAIRE                           Elemento Metadata              Refinami
 :ref:`dc.publisher`                      dc.publisher
 :ref:`dc.creator.degree`                 dc.creator.degree
 :ref:`dc.publisher.program`              dc.publisher.program            
-:ref:`dc:publisher.department`           dc:publisher.department
+:ref:`dc.publisher.department`           dc.publisher.department
 :ref:`dci:datePublication`               datacite:date                 :ref:`date type <vocab:datetype_datetype>`
 :ref:`aire:resourceType`                 oaire:resourceType            `COAR Resource Type Vocabulary`_
 :ref:`dc:description`                    dc:description
