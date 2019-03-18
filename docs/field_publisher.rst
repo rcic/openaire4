@@ -1,9 +1,9 @@
-.. _dc:publisher:
+.. _dc.publisher:
 
 Editor (MA)
 ===========
 
-``dc:publisher``
+``dc.publisher``
 
 Nombre del campo
 ----------------
@@ -52,10 +52,10 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-   <dc:publisher>
+   <dc.publisher>
      Universidad Nacional de Colombia. Departamento de Investigaciones.
-   </dc:publisher>
-   <dc:publisher>John Campos. (US)</dc:publisher>
+   </dc.publisher>
+   <dc.publisher>John Campos. (US)</dc.publisher>
 
 .. _DRIVER Guidelines v2 element publisher: https://wiki.surfnet.nl/display/DRIVERguidelines/Publisher
 

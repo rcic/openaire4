@@ -1,10 +1,10 @@
-.. _dc:creator.degree:
+.. _dc.creator.degree:
 
 
 Título obtenido (MA)
 ====================
 
-``dc:creator.degree``
+``dc.creator.degree``
 
 Nombre del campo
 ----------------
@@ -15,7 +15,7 @@ creatorDegree
 
 Campo con esquema de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-dc:creator.degree
+dc.creator.degree
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -53,7 +53,7 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-   <dc:creator.degree>Administradora de Empresar</dc:creator.degree>
+   <dc.creator.degree>Administradora de Empresar</dc.creator.degree>
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
 
@@ -85,6 +85,7 @@ Recomendación de Campos de aplicación en DSPACE
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- **OpenAIRE 3:** dc.date 
 
 Otras Observaciones
 ~~~~~~~~~~~~~~~~~~~
