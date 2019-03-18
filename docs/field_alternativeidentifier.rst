@@ -49,16 +49,16 @@ Restricciones
 
 Ejemplos
 ~~~~~~~~
-**ark:** Clave de recursos de archivo
-**arxiv:** identificador arXiv.org
-**doi:** Identificador de Objeto Digital
-**isbn:** Número Internacional Estandarizado para Libros 
-**pissn:** Número de serie estándar internacional (versión impresa)
-**eissn:** Número de serie estándar internacional (versión electrónica)
-**pmid:** ID de PubMed
-**purl:** Localizador de recursos uniforme y persistente
-**urn:** Nombre del recurso uniforme
-**wos:** Número de acceso a la Web of Science
+- **ark:** Clave de recursos de archivo
+- **arxiv:** identificador arXiv.org
+- **doi:** Identificador de Objeto Digital
+- **isbn:** Número Internacional Estandarizado para Libros 
+- **pissn:** Número de serie estándar internacional (versión impresa)
+- **eissn:** Número de serie estándar internacional (versión electrónica)
+- **pmid:** ID de PubMed
+- **purl:** Localizador de recursos uniforme y persistente
+- **urn:** Nombre del recurso uniforme
+- **wos:** Número de acceso a la Web of Science
 
 .. code-block:: xml
    :linenos:
