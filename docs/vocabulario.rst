@@ -8,3 +8,8 @@ Son aquellos que permiten representar de manera unívoca un concepto, homogeneiz
 La utilización de los vocabularios controlados permite realizar agrupaciones de sinónimos con un solo término y controlar efectivamente las polisemias, homonimias y demás variantes ortográficas. 
 
 A continuación, se relacionan en la siguiente tabla los vocabularios que deben ser empleados en la descripción de los productos de investigación:
+
+.. toctree::
+   :maxdepth: 1
+
+   vocab_titletype
