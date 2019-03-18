@@ -18,7 +18,7 @@ datacite:contributor
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
-colaborador
+Colaborador
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
@@ -100,5 +100,8 @@ Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA,
 
 Otras Observaciones
 ~~~~~~~~~~~~~~~~~~~
+
+- **OpenAIRE 3:** dc.contributor
+- **BDCOL:** dc.contributor, dc:contributor.advisor
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
