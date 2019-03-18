@@ -1,6 +1,3 @@
-
-*Controlled list values*
-
-* Accepted
-* Available
-* Issued
+* Aceptado
+* Disponible
+* Emitido
