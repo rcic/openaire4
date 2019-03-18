@@ -28,3 +28,6 @@ Bibliografía
 |
 | SNACC. (s.f.). *Sistema Nacional de Acceso Abierto.* Obtenido de 
 |		http://190.242.114.6:8080/web/guest/inicio 
+|
+| The Library of Congress. (2018). *MARC Standards*. Obtenido de MARC Formats: 
+|       https://www.loc.gov/marc/ 
