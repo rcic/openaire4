@@ -220,13 +220,13 @@ latex_elements = {
           % \\fancypagestyle{normal}{
           % \\fancyhf{}
           % \\fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
+          % \\fancyhead{\textcolor{red}}
           % \\fancyfoot[L]{ \\thepage}
           % \\fancyfoot[R]{ % right
      			% \includegraphics[height=0.3in]{../../_static/by.png}
           %}
           %}
-          % \renewcommand\headrule{{\color{blue}}}
-          %\\renewcommand{\headrulewidth}{4pt}
+          %\\renewcommand{\headrulewidth}{0.4pt}
           %\\renewcommand{\\footrulewidth}{0.4pt}
           %\makeatother
            ''',
