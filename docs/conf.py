@@ -215,7 +215,7 @@ latex_elements = {
         'preamble': '''
            \usepackage[none]{hyphenat}
           % \usepackage{fancyhdr}
-          % \usepackage{xcolor}
+          % \usepackage{color}
           % \titleformat{\chapter}[display]
   {\normalfont\huge\bfseries\color{red}}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
           % \usepackage{titlesec}
