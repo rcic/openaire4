@@ -214,10 +214,7 @@ custom_latex_preamble = r"""
 latex_elements = {
         'preamble': '''
            \usepackage[none]{hyphenat}
-           \usepackage{color}
-          % \usepackage{fancyhdr}
-          % \usepackage{xcolor}
-          % \usepackage{titlesec}
+          % \usepackage{color,fancyhdr}
           % \pagestyle{fancy}
           % \makeatletter
           % \\fancypagestyle{normal}{
