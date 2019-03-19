@@ -214,6 +214,7 @@ custom_latex_preamble = r"""
 latex_elements = {
         'preamble': '''
            \usepackage[none]{hyphenat}
+           \usepackage{color}
           % \usepackage{fancyhdr}
           % \usepackage{xcolor}
           % \usepackage{titlesec}
@@ -221,7 +222,7 @@ latex_elements = {
           % \makeatletter
           % \\fancypagestyle{normal}{
           % \\fancyhf{}
-          % \\fancyhead[LE,RO]{\red}}
+          % \\fancyhead{\color{red}}
           % \\fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
           % \\fancyfoot[L]{ \\thepage}
           % \\fancyfoot[R]{ % right
