@@ -204,6 +204,17 @@ custom_latex_preamble = r"""
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{helvet}
+\documentclass{book}
+\usepackage{xcolor}
+\usepackage{sectsty}
+
+\chapterfont{\color{red}}
+
+\begin{OpenAIREGuidelines.tex}
+
+\chapter{OpenAIREGuidelines.tex}
+
+\end{OpenAIREGuidelines.tex}
 \renewcommand{\familydefault}{\sfdefault}
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 """
