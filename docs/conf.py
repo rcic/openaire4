@@ -210,11 +210,12 @@ custom_latex_preamble = r"""
 
 \chapterfont{\color{red}}
 
-\begin{OpenAIREGuidelines.tex}
+\begin{document}
 
-\chapter{OpenAIREGuidelines.tex}
+\chapter{Test Chapter}
+test
 
-\end{OpenAIREGuidelines.tex}
+\end{document}
 \renewcommand{\familydefault}{\sfdefault}
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 """
