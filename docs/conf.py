@@ -220,9 +220,7 @@ latex_elements = {
           % \pagestyle{fancy}
           % \makeatletter
           % \\fancypagestyle{normal}{
-          % \\fancyhf{}
-          % \\titleformat{\chapter}[display]
-  {\normalfont\huge\bfseries\color{red}}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+          % \\fancyhf{\\color{\red}
           % \\fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
           % \\fancyfoot[L]{ \\thepage}
           % \\fancyfoot[R]{ % right
