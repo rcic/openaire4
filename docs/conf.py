@@ -225,7 +225,7 @@ latex_elements = {
      			% \includegraphics[height=0.3in]{../../_static/by.png}
           %}
           %}
-          %\\renewcommand\headrule{{\color{blue}}}
+          % \renewcommand\headrule{{\color{blue}}}
           %\\renewcommand{\headrulewidth}{4pt}
           %\\renewcommand{\\footrulewidth}{0.4pt}
           %\makeatother
