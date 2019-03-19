@@ -214,20 +214,19 @@ custom_latex_preamble = r"""
 latex_elements = {
         'preamble': '''
            \usepackage[none]{hyphenat}
-          % \usepackage{color,fancyhdr}
-          % \pagestyle{fancy}
-          % \makeatletter
-          % \\fancypagestyle{normal}{
-          % \\fancyhf{}
-          % \\fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
-          % \\fancyhead{\textcolor{red}}
-          % \\fancyfoot[L]{ \\thepage}
-          % \\fancyfoot[R]{ % right
-     			% \includegraphics[height=0.3in]{../../_static/by.png}
-          %}
-          %}
-          %\\renewcommand{\headrulewidth}{0.4pt}
-          %\\renewcommand{\\footrulewidth}{0.4pt}
+           \usepackage{color,fancyhdr}
+           \pagestyle{fancy}
+           \makeatletter
+            \fancypagestyle{normal}{
+            \fancyhf{}
+            \fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
+            \fancyfoot[L]{ \\thepage}
+            \fancyfoot[R]{ % right
+     			  \includegraphics[height=0.3in]{../../_static/by.png}
+          }
+          }
+          \renewcommand{\headrulewidth}{4pt}
+          \renewcommand{\\footrulewidth}{0.4pt}
           %\makeatother
            ''',
 # The paper size ('letterpaper' or 'a4paper').
