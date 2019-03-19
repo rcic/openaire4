@@ -220,7 +220,8 @@ latex_elements = {
           % \pagestyle{fancy}
           % \makeatletter
           % \\fancypagestyle{normal}{
-          % \\fancyhf{\\color{\red}
+          % \\fancyhf{}
+          % \\fancyhead[LE,RO]{\\color{\red}
           % \\fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
           % \\fancyfoot[L]{ \\thepage}
           % \\fancyfoot[R]{ % right
