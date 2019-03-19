@@ -215,14 +215,14 @@ latex_elements = {
         'preamble': '''
            \usepackage[none]{hyphenat}
           % \usepackage{fancyhdr}
-          % \usepackage{color}
-          % \titleformat{\chapter}[display]
-  {\normalfont\huge\bfseries\color{red}}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+          % \usepackage{xcolor}
           % \usepackage{titlesec}
           % \pagestyle{fancy}
           % \makeatletter
           % \\fancypagestyle{normal}{
           % \\fancyhf{}
+          % \\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\color{red}}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
           % \\fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
           % \\fancyfoot[L]{ \\thepage}
           % \\fancyfoot[R]{ % right
