@@ -229,7 +229,7 @@ latex_elements = {
      			% \includegraphics[height=0.3in]{../../_static/by.png}
           %}
           %}
-          %\\renewcommand{\headrulewidth}{0.4pt}
+          %\\renewcommand{\color{blue}\headrulewidth}{0.4pt}
           %\\renewcommand{\\footrulewidth}{0.4pt}
           %\makeatother
            ''',
