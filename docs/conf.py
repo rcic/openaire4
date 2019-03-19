@@ -212,8 +212,9 @@ custom_latex_preamble = r"""
 # -- Options for LaTeX output ---------------------------------------------
 latex_engine = 'pdflatex'
 latex_elements = {
-        'preamble': '''
-          
+        'preamble': r'''
+          \usepackage{color}
+          \renewcommand{\headrulewidth}{4pt}
            ''',
 # The paper size ('letterpaper' or 'a4paper').
 'papersize': 'a4paper',
