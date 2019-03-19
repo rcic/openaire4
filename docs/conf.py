@@ -203,31 +203,17 @@ htmlhelp_basename = 'OpenAIREGuidelinesdoc'
 custom_latex_preamble = r"""
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{helvet}
+\usepackage{color, helvet}
 \renewcommand{\familydefault}{\sfdefault}
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 """
 
 
 # -- Options for LaTeX output ---------------------------------------------
-
+latex_engine = 'pdflatex'
 latex_elements = {
         'preamble': '''
-           \usepackage[none]{hyphenat}
-           \usepackage{color,fancyhdr}
-           \pagestyle{fancy}
-           \makeatletter
-            \fancypagestyle{normal}{
-            \fancyhf{}
-            \fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
-            \fancyfoot[L]{ \\thepage}
-            \fancyfoot[R]{ % right
-     			  \includegraphics[height=0.3in]{../../_static/by.png}
-          }
-          }
-          \renewcommand{\headrulewidth}{4pt}
-          \renewcommand{\\footrulewidth}{0.4pt}
-          %\makeatother
+          
            ''',
 # The paper size ('letterpaper' or 'a4paper').
 'papersize': 'a4paper',
