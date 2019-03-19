@@ -205,6 +205,7 @@ custom_latex_preamble = r"""
 \usepackage[T1]{fontenc}
 \usepackage{color, helvet}
 \renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\headrulewidth}{4pt}
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 """
 
@@ -214,7 +215,6 @@ latex_engine = 'pdflatex'
 latex_elements = {
         'preamble': r'''
           \usepackage{color}
-          \renewcommand{\headrulewidth}{4pt}
            ''',
 # The paper size ('letterpaper' or 'a4paper').
 'papersize': 'a4paper',
