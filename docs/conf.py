@@ -207,6 +207,7 @@ custom_latex_preamble = r"""
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \usepackage{xcolor}
+\renewcommand{\headrulewidth}{4pt}
 \renewcommand{\familydefault}{\sfdefault}
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 """
