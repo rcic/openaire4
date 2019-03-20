@@ -215,7 +215,6 @@ latex_elements = {
 #'preamble': '',
 'extraclassoptions': 'openany',
 'preamble': r"""
-\usepackage[letterpaper, left=2cm, right=2cm, top=1.5cm, bindingoffset=0cm]{geometry}
 \usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{tikz}
