@@ -215,15 +215,16 @@ latex_elements = {
 #'preamble': '',
 'extraclassoptions': 'openany',
 'preamble': r"""
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{helvet}
+documentclass[12pt, letterpaper]{article}
+\usepackage[letterpaper, left=2cm, right=2cm, top=1.5cm, bindingoffset=0cm]{geometry}
 \usepackage{fancyhdr}
-\pagestyle{fancy}
+\usepackage{titlesec}
+\usepackage{tikz}
+\usepackage{graphicx}
 \usepackage{xcolor}
-\renewcommand{\headrulewidth}{4pt}
+\usepackage[T1]{fontenc}
+\usepackage{uarial}
 \renewcommand{\familydefault}{\sfdefault}
-\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 """
 
 }
