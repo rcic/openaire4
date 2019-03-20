@@ -223,10 +223,6 @@ latex_elements = {
 \fancyhf{}
 \fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
 \fancyfoot[L]{ \\thepage}
-\fancyfoot[R]{ % right
-\includegraphics[height=0.3in]{../../_static/by.png}
-}
-}
 \renewcommand{\headrulewidth}{0.9pt}
 \renewcommand{\\footrulewidth}{0.9pt}
 """,
