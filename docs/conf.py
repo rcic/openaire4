@@ -223,13 +223,8 @@ latex_elements = {
 \pagestyle{fancy}
 \renewcommand{\familydefault}{\sfdefault} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
-\makeatletter
-\fancypagestyle{normal}{
-\fancyhf{}
-%\fancyhead[R]{
-%\includegraphics[]{../../_static/openaire.png}
-}
-}
+\setlength\headheight{26pt}
+\rhead{\includegraphics[width=1cm]{../../_static/openaire.png}}
 """,
 }
 
