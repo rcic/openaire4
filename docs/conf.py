@@ -204,6 +204,8 @@ custom_latex_preamble = r"""
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{helvet}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
 \usepackage{xcolor}
 \renewcommand{\familydefault}{\sfdefault}
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
