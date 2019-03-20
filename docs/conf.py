@@ -200,21 +200,10 @@ html_static_path = ['_static']
 htmlhelp_basename = 'OpenAIREGuidelinesdoc'
 
 # Latex directives to be included directly in the latex/pdf docs. Se agregan algunas propiedades extras para el pdf
-custom_latex_preamble = r"""
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{helvet}
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\usepackage{xcolor}
-\renewcommand{\headrulewidth}{4pt}
-\renewcommand{\familydefault}{\sfdefault}
-\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
-"""
+#custom_latex_preamble = 
 
 
 # -- Options for LaTeX output ---------------------------------------------
-latex_engine = 'pdflatex'
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 'papersize': 'a4paper',
@@ -225,7 +214,17 @@ latex_elements = {
 # Additional stuff for the LaTeX preamble.
 #'preamble': '',
 'extraclassoptions': 'openany',
-'preamble': custom_latex_preamble
+'preamble': r"""
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{xcolor}
+\renewcommand{\headrulewidth}{4pt}
+\renewcommand{\familydefault}{\sfdefault}
+\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
+"""
 
 }
 
