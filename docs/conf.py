@@ -214,20 +214,31 @@ latex_elements = {
 # Additional stuff for the LaTeX preamble.
 #'preamble': '',
 # r""" \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage{helvet} \renewcommand{\familydefault}{\sfdefault} \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}"""
+#\rhead{\includegraphics[width=1cm]{../../_static/openaire.png}}
 'extraclassoptions': 'openany',
 'preamble': r"""
-\usepackage[utf8]{inputenc} 
-\usepackage[T1]{fontenc} 
-\usepackage{helvet}
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{lipsum}
 \usepackage{graphicx}
+
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\usepackage{xcolor}
-\renewcommand{\familydefault}{\sfdefault} 
-\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
-\usepackage{lipsum}
-\setlength\headheight{26pt}
-\rhead{\includegraphics[width=1cm]{../../_static/openaire.png}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength\headheight{80.0pt}
+\addtolength{\textheight}{-80.0pt}
+\chead{\includegraphics[width=\textwidth]{../../_static/openaire.png}}
+
+\begin{document}
+\title{Title here} 
+\date{September 2013}
+\author{Jesper Jensen}
+\maketitle
+
+\thispagestyle{fancy}
+\lipsum[1-9]
+\end{document}
 """,
 }
 
