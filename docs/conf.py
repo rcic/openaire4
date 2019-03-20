@@ -229,16 +229,6 @@ latex_elements = {
 \setlength\headheight{80.0pt}
 \addtolength{\textheight}{-80.0pt}
 \chead{\includegraphics[width=\textwidth]{../../_static/openaire.png}}
-
-\begin{document}
-\title{Title here} 
-\date{September 2013}
-\author{Jesper Jensen}
-\maketitle
-
-\thispagestyle{fancy}
-\lipsum[1-9]
-\end{document}
 """,
 }
 
