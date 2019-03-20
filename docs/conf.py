@@ -221,6 +221,8 @@ latex_elements = {
 \usepackage{helvet}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
+\renewcommand{\familydefault}{\sfdefault} 
+\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 \makeatletter
 \fancypagestyle{normal}{
 \fancyhf{}
