@@ -223,6 +223,7 @@ latex_elements = {
 \fancyhf{}
 \fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
 \fancyfoot[L]{ \\thepage}
+}
 \renewcommand{\headrulewidth}{0.9pt}
 \renewcommand{\\footrulewidth}{0.9pt}
 """,
