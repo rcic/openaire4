@@ -228,7 +228,7 @@ latex_elements = {
 \renewcommand{\footrulewidth}{0pt}
 \setlength\headheight{80.0pt}
 \addtolength{\textheight}{-80.0pt}
-\chead{\includegraphics[width=\textwidth]{../../_static/openaire.png}}
+\chead{\includegraphics[width=0.5]{../../_static/openaire.png}}
 """,
 }
 
