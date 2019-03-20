@@ -221,12 +221,10 @@ latex_elements = {
 \makeatletter
 \fancypagestyle{normal}{
 \fancyhf{}
-\fancyfoot[R]{
-\includegraphics[height=0.3in]{../../_static/openaire.png}
+\fancyhead[R]{
+\includegraphics[]{../../_static/openaire.png}
 }
 }
-\renewcommand{\headrulewidth}{0.9pt}
-\renewcommand{\\footrulewidth}{0.9pt}
 """,
 
 }
