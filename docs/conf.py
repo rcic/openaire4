@@ -215,12 +215,21 @@ latex_elements = {
 #'preamble': '',
 'extraclassoptions': 'openany',
 'preamble': r"""
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{helvet}
-\renewcommand{\familydefault}{\sfdefault}
-\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
-"""
+\usepackage[none]{hyphenat}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\makeatletter
+\fancypagestyle{normal}{
+\fancyhf{}
+\fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
+\fancyfoot[L]{ \\thepage}
+\fancyfoot[R]{ % right
+\includegraphics[height=0.3in]{../../_static/by.png}
+}
+}
+\renewcommand{\headrulewidth}{0.9pt}
+\renewcommand{\\footrulewidth}{0.9pt}
+""",
 
 }
 
