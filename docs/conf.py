@@ -213,20 +213,23 @@ latex_elements = {
 
 # Additional stuff for the LaTeX preamble.
 #'preamble': '',
+# r""" \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage{helvet} \renewcommand{\familydefault}{\sfdefault} \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}"""
 'extraclassoptions': 'openany',
 'preamble': r"""
 \usepackage[none]{hyphenat}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc} 
+\usepackage{helvet}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \makeatletter
 \fancypagestyle{normal}{
 \fancyhf{}
-\fancyhead[R]{
-\includegraphics[]{../../_static/openaire.png}
+%\fancyhead[R]{
+%\includegraphics[]{../../_static/openaire.png}
 }
 }
 """,
-
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
