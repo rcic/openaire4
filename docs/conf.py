@@ -215,14 +215,11 @@ latex_elements = {
 #'preamble': '',
 'extraclassoptions': 'openany',
 'preamble': r"""
-\usepackage{fancyhdr}
-\usepackage{titlesec}
-\usepackage{tikz}
-\usepackage{graphicx}
-\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{uarial}
+\usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
+\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 """
 
 }
