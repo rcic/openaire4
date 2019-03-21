@@ -29,7 +29,10 @@ Tesis de doctorado           2090      Patentes                                 
 Trabajo de pregrado          99575     Consultoría científicas-tecnologías          7939
 Proyectos de Investigación   17919     Proyectos (ID+I) con formación               2625
 y Desarrollo
+===========================  =======  ===========================================  =======
+
+
+
 Apoyo a cursos de formación  13646     Boletín divulgativo de resultado de 
 									   investigación
 de investigadores
-===========================  =======  ===========================================  =======
