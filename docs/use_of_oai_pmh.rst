@@ -23,13 +23,13 @@ Informe técnico final        19389     Productos resultados de creación e     
                                        Arquitectura y Diseño
 Tesis de doctorado           2090      Patentes                                     382
                                        Variedades vegetales                         233
-------------------------------------  ----------------------------------------------------                                       
+                                       
 ===========================  =======  ===========================================  =======
 **Fase III**                               **Fase IV** 
 ------------------------------------  ----------------------------------------------------
 Trabajo de pregrado          99575     Consultoría científicas-tecnologías          7939
 Proyectos de Investigación   17919     Proyectos (ID+I) con formación               2625
-y Desarrollo
+    y Desarrollo
 ===========================  =======  ===========================================  =======
 
 
