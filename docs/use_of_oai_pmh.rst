@@ -13,8 +13,8 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 
 **Tabla 1. FASES POR TIPO DE PRODUCTO [1]**
 
-=================================== ===================================================
-Fase I                              Fase II
+=========================== ======= =========================================== =======
+                         Fase I                                             Fase II                              
 =========================== ======= =========================================== =======
 Artículos de investigación   93896  Capítulo Libro resultado de investigación    9646
 Tesis de maestría            38014  Libro resultado de investigación             8280
