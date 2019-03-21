@@ -29,7 +29,7 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 |                             |        |Variedades vegetales                     |233    |
 +-----------------------------+--------+-----------------------------------------+-------+ 
 |FASE III                              | FASE IV                                         |
-+=============================+========+=========================================+=======+
++-----------------------------+--------+-----------------------------------------+-------+
 |Trabajo de pregrado          |99575   |Consultoría científicas-tecnologías      |7939   | 
 +-----------------------------+--------+-----------------------------------------+-------+
 |Proyectos de Investigación y |17919   |Proyectos (ID+I) con formación           |2625   | 
