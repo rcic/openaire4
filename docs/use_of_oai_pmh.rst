@@ -13,9 +13,6 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 
 **Tabla 1. FASES POR TIPO DE PRODUCTO [1]**
 
-.. table:: 
-   :widths: 35 65
-
 +-----------------------------------+----------------------------------+
 |FASE I                             | FASE II                          |
 +=============================+=====+============================+=====+
@@ -27,7 +24,7 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 +-----------------------------+-----+----------------------------+-----+
 |Informe técnico final        |19389|Productos resultados de     |9646 |
 |                             |     |creación e investigación    |     |
-|                             |     |creación en Artes,          |     |
+|                             |     ||creación en Artes,         |     |
 |                             |     |Arquitectura y Diseño       |     | 
 |                             |     |investigación               |     |
 +-----------------------------+-----+----------------------------+-----+
