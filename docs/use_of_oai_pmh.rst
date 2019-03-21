@@ -13,8 +13,8 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 
 **Tabla 1. FASES POR TIPO DE PRODUCTO [1]**
 
-.. table::
-   :widths: 30 70
+.. tabularcolumns::
+	:width: auto
 
 +-----------------------------------+----------------------------------+
 |FASE I                             | FASE II                          |
