@@ -62,7 +62,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Directrices de interoperabilidad de metadatos para productos de investigación de la Red Colombiana de Información Científica (RCIC)'
+project = u'Directrices de interoperabilidad de metadatos de la Red Colombiana de Información Científica (RedCol)'
 copyright = u'COLCIENCIAS Y METABIBLIOTECA'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -217,18 +217,18 @@ latex_elements = {
 #\rhead{\includegraphics[width=1cm]{../../_static/openaire.png}}
 'extraclassoptions': 'openany',
 'preamble': r"""
-\documentclass[11pt,a4paper]{article}
-
-\usepackage{lipsum}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc} 
+\usepackage{helvet}
 \usepackage{graphicx}
-
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-\setlength\headheight{80.0pt}
-\addtolength{\textheight}{-80.0pt}
-\chead{\includegraphics[width=0.5]{../../_static/openaire.png}}
+\usepackage{xcolor}
+\renewcommand{\familydefault}{\sfdefault} 
+\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
+\usepackage{lipsum}
+\setlength\headheight{26pt}
+\rhead{\includegraphics[width=1cm]{../../_static/openaire.png}}
 """,
 }
 
@@ -236,7 +236,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'OpenAIREGuidelines.tex', u'Directrices de interoperabilidad de metadatos para productos de investigación de la Red Colombiana de Información Científica (RCIC)',
+  (master_doc, 'OpenAIREGuidelines.tex', u'Directrices de interoperabilidad de metadatos de la Red Colombiana de Información Científica (RedCol)',
    u'En construcción...', 'manual', True),
 ]
 
