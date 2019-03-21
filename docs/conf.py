@@ -220,15 +220,8 @@ latex_elements = {
 \usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc} 
 \usepackage{helvet}
-\usepackage{graphicx}
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\usepackage{xcolor}
 \renewcommand{\familydefault}{\sfdefault} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
-\usepackage{lipsum}
-\setlength\headheight{26pt}
-\rhead{\includegraphics[width=1cm]{../../_static/openaire.png}}
 """,
 }
 
