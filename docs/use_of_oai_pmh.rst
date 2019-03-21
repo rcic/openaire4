@@ -11,25 +11,22 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 - Productos resultados de actividades de apropiación social del conocimiento.
 - Productos de actividades relacionadas con la Formación de Recurso Humano en CTeI.
 
-**Tabla 1. FASES POR TIPO DE PRODUCTO [1]**
-
-.. table:: 
-   :header-rows: 1
+.. table:: Tabla 1. FASES POR TIPO DE PRODUCTO [1]
    :class: longtable
    :width: auto
 
 +-----------------------------------+----------------------------------+
 |FASE I                             | FASE II                          |
 +=============================+=====+============================+=====+
-|Artículos de investigación   |93896|Capítulo Libro resultado de |9646 | 
-|                             |     |investigación               |     |
+|Artículos de investigación   |93896||Capítulo Libro resultado de|9646 | 
+|                             |     ||investigación              |     |
 +-----------------------------+-----+----------------------------+-----+
-|Tesis de maestría            |38014|Libro resultado de          |8280 | 
-|                             |     |investigación               |     |
+|Tesis de maestría            |38014||Libro resultado de         |8280 | 
+|                             |     ||investigación              |     |
 +-----------------------------+-----+----------------------------+-----+
-|Informe técnico final        |19389|Productos resultados de     |9646 |
-|                             |     |creación e investigación    |     |
-|                             |     |creación en Artes,          |     |
+|Informe técnico final        |19389||Productos resultados de    |9646 |
+|                             |     ||creación e investigación   |     |
+|                             |     ||creación en Artes,         |     |
 |                             |     |Arquitectura y Diseño       |     | 
 |                             |     |investigación               |     |
 +-----------------------------+-----+----------------------------+-----+
