@@ -3,35 +3,12 @@
 Presentación
 ===============
 
-La Red Colombiana de Información Científica (RCIC) es una iniciativa que busca proveer al país de una estructura que articule los esfuerzos que los actores del Sistema Nacional de Ciencia, Tecnología e Innovación desarrollan en el ámbito de gestión de la información científica, como insumo para fortalecer el desarrollo científico - tecnológico, la apropiación social del conocimiento y la articulación con redes internacionales para gestión de la información científica. Entre sus objetivos primordiales, se encuentra promover lineamientos en el área de la información científica, fortaleciendo las condiciones y capacidades para su producción, articulación y organización.
+Las directrices de interoperabilidad de metadatos de la Red Colombiana de Información Científica, es una orientación para los actores del Sistema Nacional de Ciencia, Tecnología e Innovación para la gestión de productos resultados de investigación científica basados en la Guía para el reconocimiento y medición de grupos de investigación e investigadores de Colciencias.
+
+La aplicación de estas directrices permitirá consolidar una oferta de la producción científica del país para lograr dar visibilidad y acceso a la información científica nacional, facilitando la inclusión en redes internacionales a través de la estandarización e interoperabilidad de los diferentes repositorios de las instituciones miembros.
  
-Tal como lo explica el documento marco del Sistema Nacional de Acceso Abierto al Conocimiento SNAAC (2015): Colombia debe establecer las condiciones para promover la consolidación y fortalecimiento de las condiciones para la producción, gestión y visibilidad del conocimiento propio, ya que este factor se constituye en un importante impulso para:
+Esta propuesta surge dentro de la línea de trabajo políticas y lineamientos técnicos para información científica, que  tiene la responsabilidad de construir escenarios de discusión y construcción de acuerdos nacionales con respecto a la gestión de la información científica del país, de tal manera que se disponga de un marco de estándares que permita la conformación de las colecciones científicas nacionales, el desarrollo de servicios de información científica y la formación de talento humano en documentación científica que atienda las necesidades del desarrollo y la apropiación de la ciencia, la tecnología y la innovación.
 
-..
-
-* Disminución de la brecha de acceso a la información y el conocimiento para todos los colombianos. Aspecto que apalanca transformaciones significativas en campo, como el fortalecimiento de la educación y la innovación.
-
-..
-
-* Impulso de la producción de acceso abierto, principalmente la que se realiza con fondos públicos. 
-
-..
-
-* Visibilidad del conocimiento producido en Colombia, como una forma de respaldar y promocionar nuestra investigación y el trabajo que llevan a cabo nuestras comunidades científicas y académicas.
-
-Adicionalmente, es indispensable fomentar la ciencia abierta en Colombia a través de la coordinación de todos los recursos y programas de los repositorios nacionales e institucionales con este objetivo.
+Estas directrices se se fundamentan en las Directrices Driver 3.0 y OpenAIRE Guidelines for Literature Repository Managers 4.0, manual de metadatos y políticas de cosecha 2015 de la Red Federada de Repositorios de Acceso Abierto a la Ciencia de Latinoamérica LA Referencia y se espera retroalimentarlas con el apoyo de todos los miembros de la Red y los interesados en el tema. 
  
-Se propone entonces una estructura en tres niveles: institucional, nacional e internacional para promover y fomentar una mayor disponibilidad de datos e información científica, con nuevas formas de acceso y difusión, para lograr un aumento de la circulación, uso y apropiación del conocimiento para diferentes públicos, especialmente usuarios del sistema Nacional de Ciencia Tecnología e Innovación:
-
-..
-
-* **Nivel Institucional:** implementar, adecuar o revisar los repositorios institucionales tanto de Colciencias como de las entidades miembros del Sistema Nacional de Ciencia, Tecnología e innovación, de acuerdo con los parámetros específicos para repositorios institucionales de productos de investigación.
-
-..
-
-* **Nivel Nacional:** conectar los Repositorios Institucionales a partir del relacionamiento de infraestructuras y plataformas tecnológicas intercomunicadas a través del protocolo OAI-PMH, para el intercambio y distribución de metadatos que permiten a la plataforma prestar el servicio de búsqueda y recuperación de información entre todos los repositorios institucionales que se encuentran conectados a la Red Colombiana de Información Científica.
-
-..
-
-* **Nivel Internacional:** cosechar la producción científica nacional para La Red Federada Latinoamericana de Repositorios Institucionales de Documentación Científica (LA Referencia).
-
+Se espera que esta propuesta inicial de directrices que Colciencias hace a la comunidad académica sea una invitación para construir escenarios de discusión y lograr acuerdos nacionales con respecto a la gestión de la información científica del país, de tal manera que se disponga de un marco de estándares que permita la conformación de las colecciones científicas nacionales.
