@@ -13,22 +13,22 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 
 **Tabla 1. FASES POR TIPO DE PRODUCTO [1]**
 
-+-------------------------------------+------------------------------------+
-|FASE I                               | FASE II                            |
-+=============================+=======+=============================+======+
-|Artículos de investigación   | 93896 | Capítulo Libro resultado de | 9646 | 
-|                             |       | investigación               |      |
-+-----------------------------+-------+-----------------------------+------+
-|Tesis de maestría            | 38014 | Libro resultado de          | 8280 | 
-|                             |       | investigación               |      |
-+-----------------------------+-------+-----------------------------+------+
-|Informe técnico final        | 19389 | Productos resultados de     | 9646 |
-|                             |       | creación e investigación    |      |
-|                             |       | creación en Artes,          |      |
-|                             |       | Arquitectura y Diseño       |      | 
-|                             |       | investigación               |      |
-+-----------------------------+-------+-----------------------------+------+
-|Tesis de doctorado           | 2090  | Patentes                    | 382  |
-|                             |       +-----------------------------+------+
-|                             |       | Variedades vegetales        | 233  |
-+-----------------------------+-------+-----------------------------+------+
++-----------------------------------+----------------------------------+
+|FASE I                             | FASE II                          |
++=============================+=====+============================+=====+
+|Artículos de investigación   |93896|Capítulo Libro resultado de |9646 | 
+|                             |     |investigación               |     |
++-----------------------------+-----+----------------------------+-----+
+|Tesis de maestría            |38014|Libro resultado de          |8280 | 
+|                             |     |investigación               |     |
++-----------------------------+-----+----------------------------+-----+
+|Informe técnico final        |19389|Productos resultados de     |9646 |
+|                             |     |creación e investigación    |     |
+|                             |     |creación en Artes,          |     |
+|                             |     |Arquitectura y Diseño       |     | 
+|                             |     |investigación               |     |
++-----------------------------+-----+----------------------------+-----+
+|Tesis de doctorado           |2090 |Patentes                    |382  |
+|                             |     +----------------------------+-----+
+|                             |     |Variedades vegetales        |233  |
++-----------------------------+-----+----------------------------+-----+
