@@ -15,6 +15,7 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 
 ===========================  =======  ===========================================  =======
 Fase I                                                Fase II   
+------------------------------------------------------------------------------------------
 ===========================  =======  ===========================================  =======
 Artículos de investigación   93896     Capítulo Libro resultado de investigación    9646
 Tesis de maestría            38014     Libro resultado de investigación             8280
