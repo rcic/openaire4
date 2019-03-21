@@ -27,4 +27,24 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 |Tesis de doctorado           |2090    |Patentes                                 |382    |
 |                             |        +-----------------------------------------+-------+
 |                             |        |Variedades vegetales                     |233    |
-+-----------------------------+--------+-----------------------------------------+-------+  
++-----------------------------+--------+-----------------------------------------+-------+ 
+|FASE III                              | FASE IV                                         |
++=============================+========+=========================================+=======+
+|Trabajo de pregrado          |99575   |Consultoría científicas-tecnologías      |7939   | 
++-----------------------------+--------+-----------------------------------------+-------+
+|Proyectos de Investigación y |17919   |Proyectos (ID+I) con formación           |2625   | 
+|Desarrollo                   |        |                                         |       |
++-----------------------------+--------+-----------------------------------------+-------+
+|Apoyo a cursos de formación  |13646   |Boletín divulgativo de resultado de      |2530   | 
+|de investigadores            |        |investigación                            |       |
++-----------------------------+--------+-----------------------------------------+-------+
+|Apoyo a programas de         |5281    |Software                                 |2301   | 
+|formación de investigadores  |        |                                         |       |
++-----------------------------+--------+-----------------------------------------+-------+
+|Proyecto extensión y de      |3449    |Prototipo industrial                     | 1791  | 
+|responsabilidad social en CTI|        |                                         |       |
++-----------------------------+--------+-----------------------------------------+-------+
+|Acompañamiento y asesorías de|571     |Regulaciones, normas, reglamentos o      | 1140  | 
+|línea temática del Programa  |        |legislaciones                            |       |
+|Ondas                        |        |                                         |       |
++-----------------------------+--------+-----------------------------------------+-------+
