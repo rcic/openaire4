@@ -87,45 +87,16 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 |Eventos artísticos           |822     |                                         |       |
 +-----------------------------+--------+-----------------------------------------+-------+
 
-===========================  =======  ==========================================  =========
-   				          FASE I           									  FASE II 
-===========================  =======  ==========================================  =========
-Artículos de investigación    93896    Capítulo Libro resultado de investigación     9646    
-
-Tesis de maestría             38014    Libro resultado de investigación              8280    
-
-Informe técnico final         19389    Productos resultados de creación e            9646   
-                                       investigación creación en Artes,                
-                                       Arquitectura y Diseño investigación             
-===========================  =======  ==========================================  =========
-
-..
-
-===========================  =======  ==========================================  =========
-   				          FASE I           									  FASE II 
-===========================  =======  ==========================================  =========
-Artículos de investigación    93896    Capítulo Libro resultado de investigación     9646    
-
-Tesis de maestría             38014    Libro resultado de investigación              8280    
-
-Informe técnico final         19389    Productos resultados de creación e            9646   
-                                       investigación creación en Artes,                
-                                       Arquitectura y Diseño investigación             
----------------------------  -------  --------------------------------------------  -------
-
-..
-
-===========================  =======  ==========================================  =========
-   				          FASE I           									  FASE II 
----------------------------  -------  --------------------------------------------  -------
-Artículos de investigación    93896    Capítulo Libro resultado de investigación     9646    
-
-Tesis de maestría             38014    Libro resultado de investigación              8280    
-
-Informe técnico final         19389    Productos resultados de creación e            9646   
-                                       investigación creación en Artes,                
-                                       Arquitectura y Diseño investigación             
----------------------------  -------  --------------------------------------------  -------
+=====  =====  ====== 
+   Inputs     Output 
+------------  ------ 
+  A      B    A or B 
+=====  =====  ====== 
+False  False  False 
+True   False  True 
+False  True   True 
+True   True   True 
+=====  =====  ======
 
 ..
 
