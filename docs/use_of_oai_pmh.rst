@@ -48,7 +48,8 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 |línea temática del Programa  |        |legislaciones                            |       |
 |Ondas                        |        |                                         |       |
 +-----------------------------+--------+-----------------------------------------+-------+
-|FASE V                                | FASE VI                                         |
+|FASE V                                |FASE VI                                          |
+|======                                |=======                                          |
 +-----------------------------+--------+-----------------------------------------+-------+
 |Secreto empresarial          |1006    |Artículos                                |49107  | 
 +-----------------------------+--------+-----------------------------------------+-------+
