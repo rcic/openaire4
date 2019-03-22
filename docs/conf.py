@@ -222,6 +222,7 @@ latex_elements = {
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
+\let\oldmultirow\multirow\def\multirow#1#2{\oldmultirow{#1}{=}}'
 """
 }
 
