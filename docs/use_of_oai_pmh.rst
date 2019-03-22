@@ -88,7 +88,7 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 +-----------------------------+--------+-----------------------------------------+-------+
 
 
-::
+..
 
 
 .. [1] Datos tomados de las estadísticas comparativas de grupos. Tipologías de productos de grupos en: https://www.colciencias.gov.co/la-ciencia-en-cifras/comparativas_grupos
