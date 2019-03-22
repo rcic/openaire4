@@ -11,7 +11,7 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 - Productos resultados de actividades de apropiación social del conocimiento.
 - Productos de actividades relacionadas con la Formación de Recurso Humano en CTeI.
 
-**Tabla 1. FASES POR TIPO DE PRODUCTO [1]**
+**Tabla 1. FASES POR TIPO DE PRODUCTO [1]_**
 
 +--------------------------------------+-------------------------------------------------+
 |FASE I                                | FASE II                                         |
@@ -50,3 +50,47 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 |línea temática del Programa  |        |legislaciones                            |       |
 |Ondas                        |        |                                         |       |
 +-----------------------------+--------+-----------------------------------------+-------+
+
++--------------------------------------+-------------------------------------------------+
+|FASE V                                | FASE VI                                         |
++=============================+========+=========================================+=======+
+|Secreto empresarial          |1006    |Artículos                                |49107  | 
++-----------------------------+--------+-----------------------------------------+-------+
+|Innovación en procedimientos |776     |Documento de trabajo (Working paper)     |14423  | 
+|(procesos y servicios.)      |        |                                         |       |
++-----------------------------+--------+-----------------------------------------+-------+
+|Innovación generada en la    |685     |Generación de contenidos multimedia      |11093  |
+|gestión empresarial          |        |                                         |       |
++-----------------------------+--------+-----------------------------------------+-------+
+|Spin-off                     |542     |Libros, artículos manuales de Difusión   |10624  |
++-----------------------------+--------+-----------------------------------------+-------+
+|Consultoría, arquitectura y  |357     |Capítulo Libro                           |7038   |
+|diseño                       |        |                                         |       |
++-----------------------------+--------+-----------------------------------------+-------+
+|Signos distintivos           |219     |Edición de revista científica o de Libro |7038   |
+|                             |        |Resultado de Investigación               |       |
++-----------------------------+--------+-----------------------------------------+-------+
+
++--------------------------------------+-------------------------------------------------+
+|FASE VII                              | FASE VIII                                       |
++=============================+========+=========================================+=======+
+|Estrategias pedagógicas para |3541    |Participación ciudadana en proyectos de  |531    | 
+|el fomento de la CTeI y la   |        |CTI                                      |       |
+|creación.                    |        |                                         |       |
++-----------------------------+--------+-----------------------------------------+-------+
+|Generación de contenidos     |2767    |Proyectos de Investigación - Creación    |211    | 
+|impresos                     |        |                                         |       |
++-----------------------------+--------+-----------------------------------------+-------+
+|Generación de contenidos     |2108    |Evento científico                        |102959 |
+|virtuales                    |        |                                         |       |
++-----------------------------+--------+-----------------------------------------+-------+
+|Espacios de participación    |1325    |                                         |       |
+|ciudadana en CTI             |        |                                         |       |
++-----------------------------+--------+-----------------------------------------+-------+
+|Estrategias de comunicación  |974     |                                         |       |
+|del conocimiento             |        |                                         |       |
++-----------------------------+--------+-----------------------------------------+-------+
+|Eventos artísticos           |822     |                                         |       |
++-----------------------------+--------+-----------------------------------------+-------+
+
+..[5] Datos tomados de las estadísticas comparativas de grupos. Tipologías de productos de grupos en: https://www.colciencias.gov.co/la-ciencia-en-cifras/comparativas_grupos
