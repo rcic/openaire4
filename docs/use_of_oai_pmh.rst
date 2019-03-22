@@ -92,10 +92,10 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 --------------  ------- 
   A      B    A or B 
 =======  =====  =======
-False  False  False 
-True   False  True 
-False  True   True 
-True   True   True 
+False  	 False  False 
+True   	 False  True 
+False  	 True   True 
+True   	 True   True 
 =======  =====  =======
 
 ..
