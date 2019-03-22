@@ -1,7 +1,7 @@
-.. _datacite:subject.ddc:
+.. _datacite:subject.ocde:
 
-Materia DDC (MA)
-================
+Materia OCDE (MA)
+=================
 
 ``datacite:subject.ddc``
 
@@ -14,11 +14,11 @@ subject
 
 Campo con esquema de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-datacite:subject.ddc
+datacite:subject.ocde
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
-Materia - Sistema de Clasificación Decimal Dewey
+Materia - Organización de Cooperación y Desarrollo Económico
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
@@ -30,7 +30,7 @@ Repetible (R)
 
 Definición y Alcance del campo
 ------------------------------
-Asunto, palabra clave, tema o frase que describe al recurso. Es un punto de acceso normalizado con el Sistema de Clasificación Decimal Dewey que tiene el recurso para ser consultado por el usuario. 
+Asunto, palabra clave, tema o frase que describe al recurso. Es un punto de acceso normalizado según las áreas científicas de la Organización de Cooperación y Desarrollo Económico que tiene el recurso para ser consultado por el usuario. 
 
 Forma de Descripción Normalizada (RDA/RCAA2)
 -----------------------------------------------
@@ -38,13 +38,13 @@ RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-datacite:subject.ddc
+datacite:subject.ocde
 
 Relaciones con otros campos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - datacite:subject.armarc
 - datacite:subject.lemb
-- datacite:subject.ocde
+- datacite:subject.ccd
 - datacite:subject.skos
 
 Restricciones
@@ -56,8 +56,8 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-   <datacite:subject.ddc>Economía</datacite:subject.ddc>
-   <datacite:subject.ddc>Tecnología</datacite:subject.ddc>
+   <datacite:subject.ocde>Economía</datacite:subject.ocde>
+   <datacite:subject.ocde>Tecnología</datacite:subject.ocde>
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
 
@@ -73,14 +73,16 @@ Se aplica a todos los productos de Colciencias.
 
 Observaciones del Campo
 -----------------------
-Consultar Web Dewey: http://dewey.org/webdewey/login/login.html;jsessionid=7080E4FBB6070009BF2F56A64AA5EE0B 
+Ver Anexo 5. Clasificación de áreas científicas según la OCDE 
 
 Adaptado de
 ~~~~~~~~~~~
 
 Relaciones con otros modelos de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-dc.subject.ddc
+- dc.subject.ddc
+- dc.subject.lemb
+- dc.subject.armarc
 
 Niveles Semánticos
 ~~~~~~~~~~~~~~~~~~
