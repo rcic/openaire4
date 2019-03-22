@@ -34,7 +34,7 @@ El documento proporciona una descripción general de cómo configurar y utilizar
 
 - **Atributos de Campo:** son los elementos que debe incluir el campo para su descripción. Ejemplo: atributos de idioma, formato, etc. 
 
-- **Especificadores de Campo:** 
+- **Especificadores de Campo:** hace referencia a la sintaxis que debe tener el campo. 
 
 - **Niveles de Aplicación - Productos de Colciencias:** se especifica a que producto de Colciencias se le aplica el campo. 
 
@@ -44,5 +44,5 @@ El documento proporciona una descripción general de cómo configurar y utilizar
 	- **Relaciones con otros modelos de metadatos:** se relacionan otros modelos y esquemas de metadatos que apliquen. 
 	- **Niveles Semánticos:** permiten asignar significado a la información sobre los atributos que se apliquen al campo. 
 	- **Recomendación de Campos de aplicación en DSPACE:** como se describe un campo específico en el repositorio Dspace. 
-	- **Recomendaciones de migración de Modelos anteriores:** que información se debe tener en cuenta al momento de migrar modelos y esquemas de metadatos anteriores como: BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3.
+	- **Recomendaciones de migración de Modelos anteriores:** que información se debe tener en cuenta al momento de migrar modelos y esquemas de metadatos anteriores como: BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2.0, OPENAIRE 3.0.
 	- **Otras observaciones:** otra información a tener en cuenta en la descripción. 
