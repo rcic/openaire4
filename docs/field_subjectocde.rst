@@ -3,7 +3,7 @@
 Materia OCDE (MA)
 =================
 
-``datacite:subject.ddc``
+``datacite:subject.ocde``
 
 Nombre del campo
 ----------------
