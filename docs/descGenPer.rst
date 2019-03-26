@@ -143,5 +143,5 @@ En los documentos de metadatos de XML, el esquema se debe declarar de la siguien
    field_sourcebibliographicCitation
    field_subjectddc
    field_subjectocde
-   filed_titlealternative
-   filed_sourceevent
+   field_titlealternative
+   field_sourceevent
