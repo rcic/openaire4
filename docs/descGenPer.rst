@@ -71,6 +71,8 @@ Campo-OpenAIRE                           Elemento Metadata               Refinam
 :ref:`dc.source.bibliographicCitation`   dc.source.bibliographicCitation
 :ref:`datacite:subject.ddc`              datacite:subject.ddc
 :red:`datacite:subject.ocde`             datacite:subject.ocde
+:ref:`datacite:title.alternative`        datacite:title.alternative
+:ref:`datacite:source.event`             datacite:source.event
 ======================================== =============================== ========================================================================================
 
 
@@ -141,3 +143,5 @@ En los documentos de metadatos de XML, el esquema se debe declarar de la siguien
    field_sourcebibliographicCitation
    field_subjectddc
    field_subjectocde
+   filed_titlealternative
+   filed_sourceevent
