@@ -87,18 +87,6 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 |Eventos artísticos           |822     |                                         |       |
 +-----------------------------+--------+-----------------------------------------+-------+
 
-=======  =======  ======= 
-      Inputs      Output 
-----------------  ------- 
-   A        B     A or B 
-=======  =======  =======
-False    False     False 
-True     False     True 
-False    True      True 
-True     True      True 
-=======  =======  =======
-
-..
 
 
 .. [1] Datos tomados de las estadísticas comparativas de grupos. Tipologías de productos de grupos en: https://www.colciencias.gov.co/la-ciencia-en-cifras/comparativas_grupos
