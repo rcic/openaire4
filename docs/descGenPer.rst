@@ -70,7 +70,7 @@ Campo-OpenAIRE                           Elemento Metadata               Refinam
 :ref:`dc.publisher.department`           dc.publisher.department
 :ref:`dc.source.bibliographicCitation`   dc.source.bibliographicCitation
 :ref:`datacite:subject.ddc`              datacite:subject.ddc
-:red:`datacite:subject.ocde`             datacite:subject.ocde
+:ref:`datacite:subject.ocde`             datacite:subject.ocde
 :ref:`datacite:title.alternative`        datacite:title.alternative
 :ref:`datacite:source.event`             datacite:source.event
 ======================================== =============================== ========================================================================================
