@@ -1,5 +1,4 @@
 .. image:: _static/encabezado.png
-    scale: 200%
 
 ######################################################################################################
 Directrices de interoperabilidad de metadatos de la Red Colombiana de Información Científica (RedCol)
