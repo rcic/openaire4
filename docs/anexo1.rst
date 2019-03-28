@@ -3,9 +3,7 @@
 Anexo 1. Productos que resultan de actividades de Generación de Nuevo Conocimiento
 ==================================================================================
 
-.. image:: _static/Anexo1test.png
-   :width: 650
-   :align: center
+.. pyexcel-table:: Anexo1.csv
 
 Descargar archivo excel [#]_ :download:`xlsx <Anexo1GNC.xlsx>`
 
