@@ -52,7 +52,7 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-   <datacite:source.event>Memorias Congreso Nacional de Bibliotecología</datacite:title.alternative<datacite:projectidentifier>IP IP 3454-102-001-86</datacite:projectidentifier>
+   <datacite:projectidentifier>IP IP 3454-102-001-86</datacite:projectidentifier>
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
 
