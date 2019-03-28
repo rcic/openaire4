@@ -25,56 +25,57 @@ Esta documentación utiliza las siguientes abreviaturas de espacio de nombres:
 * ``oaire``: http://namespace.openaire.eu/schema/oaire/
 
 
-======================================== =============================== ========================================================================================
-Campo-OpenAIRE                           Elemento Metadata               Refinamiento por vocabulario
-======================================== =============================== ========================================================================================
-:ref:`dci:title`                         datacite:title                  :ref:`title type <vocab:titletype_titletype>`
-:ref:`dci:creator`                       datacite:creator                :ref:`name type <vocab:nametype_nametype>`
-:ref:`dci:contributor`                   datacite:contributor            | :ref:`name type <vocab:nametype_nametype>`
+========================================== =============================== ========================================================================================
+Campo-OpenAIRE                             Elemento Metadata               Refinamiento por vocabulario
+========================================== =============================== ========================================================================================
+:ref:`dci:title`                           datacite:title                  :ref:`title type <vocab:titletype_titletype>`
+:ref:`dci:creator`                         datacite:creator                :ref:`name type <vocab:nametype_nametype>`
+:ref:`dci:contributor`                     datacite:contributor            | :ref:`name type <vocab:nametype_nametype>`
                                                                          | :ref:`tipo contribuidor <vocab:contributortype_contributortype>`              
-:ref:`aire:fundingReference`             oaire:fundingReference          :ref:`funderIdentifier type <vocab:funderIdentifiertype_identifiertype>`
-:ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier    :ref:`alternateIdentifier type <vocab:alternateIdentifiertype_identifiertype>`
-:ref:`dci:relatedIdentifier`             datacite:relatedIdentifier      | :ref:`relatedIdentifier type <vocab:relatedIdentifiertype_identifiertype>`
+:ref:`aire:fundingReference`               oaire:fundingReference          :ref:`funderIdentifier type <vocab:funderIdentifiertype_identifiertype>`
+:ref:`dci:alternativeIdentifier`           datacite:alternateIdentifier    :ref:`alternateIdentifier type <vocab:alternateIdentifiertype_identifiertype>`
+:ref:`dci:relatedIdentifier`               datacite:relatedIdentifier      | :ref:`relatedIdentifier type <vocab:relatedIdentifiertype_identifiertype>`
                                                                          | :ref:`relation type <vocab:relationtype_relationtype>`
                                                                          | :ref:`resourcetype general <vocab:resourcetypegeneral_resourcetypegeneral>`
-:ref:`dci:dateEmbargo`                   datacite:date                   :ref:`date type <vocab:datetype_datetype>`
-:ref:`dc.language`                       dc.language                     `IETF BCP 47`_, `ISO 639-3`_
-:ref:`dc.publisher`                      dc.publisher            
-:ref:`dci:datePublication`               datacite:date                   :ref:`date type <vocab:datetype_datetype>`
-:ref:`aire:resourceType`                 oaire:resourceType              `COAR Resource Type Vocabulary`_
-:ref:`dc.description`                    dc.description
-:ref:`dc.format`                         dc.format                       :ref:`format type <vocab:formattype_formattype>`
-:ref:`dci:identifier`                    datacite:identifier             :ref:`identifier type <vocab:identifiertype_identifiertype>`
-:ref:`dci:accessrights`                  datacite:rights                 `COAR Access Right Vocabulary`_
-:ref:`dc.source`                         dc.source
-:ref:`dci:subject`                       datacite:subject              
-:ref:`aire:licenseCondition`             oaire:licenseCondition
-:ref:`dc.coverage`                       dc.coverage
-:ref:`dci:size`                          datacite:size
-:ref:`dci:geolocation`                   datacite:geoLocation
-:ref:`aire:version`                      oaire:version                   `COAR Version Vocabulary`_ 
-:ref:`aire:file`                         oaire:file                      `COAR Access Right Vocabulary`_
-:ref:`aire:citationTitle`                oaire:citationTitle 	
-:ref:`aire:citationVolume`               oaire:citationVolume
-:ref:`aire:citationIssue`                oaire:citationIssue
-:ref:`aire:citationStartPage`            oaire:citationStartPage
-:ref:`aire:citationEndPage`              oaire:citationEndPage
-:ref:`aire:citationEdition`              oaire:citationEdition
+:ref:`dci:dateEmbargo`                     datacite:date                   :ref:`date type <vocab:datetype_datetype>`
+:ref:`dc.language`                         dc.language                     `IETF BCP 47`_, `ISO 639-3`_
+:ref:`dc.publisher`                        dc.publisher            
+:ref:`dci:datePublication`                 datacite:date                   :ref:`date type <vocab:datetype_datetype>`
+:ref:`aire:resourceType`                   oaire:resourceType              `COAR Resource Type Vocabulary`_
+:ref:`dc.description`                      dc.description
+:ref:`dc.format`                           dc.format                       :ref:`format type <vocab:formattype_formattype>`
+:ref:`dci:identifier`                      datacite:identifier             :ref:`identifier type <vocab:identifiertype_identifiertype>`
+:ref:`dci:accessrights`                    datacite:rights                 `COAR Access Right Vocabulary`_
+:ref:`dc.source`                           dc.source
+:ref:`dci:subject`                         datacite:subject              
+:ref:`aire:licenseCondition`               oaire:licenseCondition
+:ref:`dc.coverage`                         dc.coverage
+:ref:`dci:size`                            datacite:size
+:ref:`dci:geolocation`                     datacite:geoLocation
+:ref:`aire:version`                        oaire:version                   `COAR Version Vocabulary`_ 
+:ref:`aire:file`                           oaire:file                      `COAR Access Right Vocabulary`_
+:ref:`aire:citationTitle`                  oaire:citationTitle 	
+:ref:`aire:citationVolume`                 oaire:citationVolume
+:ref:`aire:citationIssue`                  oaire:citationIssue
+:ref:`aire:citationStartPage`              oaire:citationStartPage
+:ref:`aire:citationEndPage`                oaire:citationEndPage
+:ref:`aire:citationEdition`                oaire:citationEdition
    
-:ref:`aire:citationConferencePlace`      oaire:citationConferencePlace
-:ref:`aire:citationConferenceDate`       oaire:citationConferenceDate
-:ref:`dct:audience`                      dcterms:audience                 :ref:`audience type <vocab:audiencetype_audiencetype>`
-:ref:`dc.contributor.rol`                dc.contributor.rol
-:ref:`dc.creator.degree`                 dc.creator.degree
-:ref:`dc.publisher.program`              dc.publisher.program
-:ref:`dc.publisher.department`           dc.publisher.department
-:ref:`dc.source.bibliographicCitation`   dc.source.bibliographicCitation
-:ref:`datacite:subject.ddc`              datacite:subject.ddc
-:ref:`datacite:subject.ocde`             datacite:subject.ocde
-:ref:`datacite:title.alternative`        datacite:title.alternative
-:ref:`datacite:source.event`             datacite:source.event
-:ref:`datacite:projectidentifier`        datacite:projectidentifier
-======================================== =============================== ========================================================================================
+:ref:`aire:citationConferencePlace`        oaire:citationConferencePlace
+:ref:`aire:citationConferenceDate`         oaire:citationConferenceDate
+:ref:`dct:audience`                        dcterms:audience                 :ref:`audience type <vocab:audiencetype_audiencetype>`
+:ref:`dc.contributor.rol`                  dc.contributor.rol
+:ref:`dc.creator.degree`                   dc.creator.degree
+:ref:`dc.publisher.program`                dc.publisher.program
+:ref:`dc.publisher.department`             dc.publisher.department
+:ref:`dc.source.bibliographicCitation`     dc.source.bibliographicCitation
+:ref:`datacite:subject.ddc`                datacite:subject.ddc
+:ref:`datacite:subject.ocde`               datacite:subject.ocde
+:ref:`datacite:title.alternative`          datacite:title.alternative
+:ref:`datacite:source.event`               datacite:source.event
+:ref:`datacite:projectidentifier`          datacite:projectidentifier
+:ref:`datacite:publisher.nationalprograms`
+========================================== =============================== ========================================================================================
 
 
 El perfil de aplicación es implementado en el esquema XML.
@@ -147,3 +148,4 @@ En los documentos de metadatos de XML, el esquema se debe declarar de la siguien
    field_titlealternative
    field_sourceevent
    field_projectidentifier
+   field_publishernationalprograms
