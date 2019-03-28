@@ -41,10 +41,9 @@ if not on_rtd:
 # ones.
 
 extensions = [
-        ...
+
         'sphinxcontrib.excel',
-        ...
-    ]
+]
 
 extensions = [
     'sphinx.ext.intersphinx',
