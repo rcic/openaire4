@@ -73,6 +73,7 @@ Campo-OpenAIRE                           Elemento Metadata               Refinam
 :ref:`datacite:subject.ocde`             datacite:subject.ocde
 :ref:`datacite:title.alternative`        datacite:title.alternative
 :ref:`datacite:source.event`             datacite:source.event
+:ref:`datacite:projectidentifier`        datacite:projectidentifier
 ======================================== =============================== ========================================================================================
 
 
@@ -145,3 +146,4 @@ En los documentos de metadatos de XML, el esquema se debe declarar de la siguien
    field_subjectocde
    field_titlealternative
    field_sourceevent
+   field_projectidentifier
