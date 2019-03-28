@@ -13,7 +13,7 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 
 
 
-Tabla 1. FASES POR TIPO DE PRODUCTO_ 
+**Tabla 1. FASES POR TIPO DE PRODUCTO** [#]_
 
 .. tabularcolumns:: |p{6cm}|p{1cm}|p{6cm}|p{1.5cm}|
 
@@ -92,5 +92,4 @@ Tabla 1. FASES POR TIPO DE PRODUCTO_
 +-----------------------------+--------+-----------------------------------------+-------+
 
 
-
-.. _Datos tomados de las estadísticas comparativas de grupos. Tipologías de productos de grupos en: https://www.colciencias.gov.co/la-ciencia-en-cifras/comparativas_grupos
+.. [#] Datos tomados de las estadísticas comparativas de grupos. Tipologías de productos de grupos en: https://www.colciencias.gov.co/la-ciencia-en-cifras/comparativas_grupos
