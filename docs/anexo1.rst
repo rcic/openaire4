@@ -3,7 +3,7 @@
 Anexo 1. Productos que resultan de actividades de Generación de Nuevo Conocimiento
 ==================================================================================
 
->>> sheet = pyexcel.get_sheet(file_name='Anexo1.csv')
+.. pyexcel-table:: Anexo1.csv
 
 Descargar archivo excel [#]_ :download:`xlsx <Anexo1GNC.xlsx>`
 
