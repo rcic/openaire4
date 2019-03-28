@@ -1,4 +1,4 @@
-.. image:: https://raw.githubusercontent.com/rcic/openaire4/master/docs/_static/encabezado.png
+.. image:: _static/encabezado.png
     scale: 200%
 
 ######################################################################################################
