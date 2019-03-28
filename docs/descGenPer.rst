@@ -74,7 +74,7 @@ Campo-OpenAIRE                             Elemento Metadata               Refin
 :ref:`datacite:title.alternative`          datacite:title.alternative
 :ref:`datacite:source.event`               datacite:source.event
 :ref:`datacite:projectidentifier`          datacite:projectidentifier
-:ref:`datacite:publisher.nationalprograms`
+:ref:`datacite:publisher.nationalprograms` datacite:publisher.nationalprograms
 ========================================== =============================== ========================================================================================
 
 
