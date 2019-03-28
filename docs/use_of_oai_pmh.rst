@@ -11,7 +11,13 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 - Productos resultados de actividades de apropiación social del conocimiento.
 - Productos de actividades relacionadas con la Formación de Recurso Humano en CTeI.
 
+
+
 **Tabla 1. FASES POR TIPO DE PRODUCTO** [1]_
+
+.. table::
+   :widths: auto
+
 
 +--------------------------------------+-------------------------------------------------+
 |FASE I                                | FASE II                                         |
