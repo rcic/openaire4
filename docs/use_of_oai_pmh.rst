@@ -91,16 +91,11 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 |Eventos artísticos           | 822    |                                         |       |
 +-----------------------------+--------+-----------------------------------------+-------+
 
-.. list-table:: Title
-   :header-rows: 1
-
-   * - FASE I
-
-     - FASE II
-     
-   * - Artículos de investigación
-     - 93896
-     - Capítulo Libro resultado de investigación
-     - 9646
+========================================= ======= ========================================= =======
+FASE I                                            FASE II
+========================================= ======= ========================================= =======
+Artículos de investigación                93896   Capítulo Libro resultado de investigación 9646 
+Tesis de maestría                         38014   Libro resultado de investigación          8280 
+========================================= ======= ========================================= =======
 
 .. [#] Datos tomados de las estadísticas comparativas de grupos. Tipologías de productos de grupos en: https://www.colciencias.gov.co/la-ciencia-en-cifras/comparativas_grupos
