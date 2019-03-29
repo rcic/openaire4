@@ -5,20 +5,6 @@ Perfil de Aplicación de los metadatos
 
 El perfil de aplicación es una descripción detallada de los campos de metadatos recomendados para su implementación en repositorios institucionales de investigación. 
 
-Los niveles de requerimientos siguientes para las propiedades de metadata usadas son:
-
-Obligatorio (M)
-  La propiedad siempre debe estar presente en los metadatos. No se permite un valor vacío para la propiedad.
-
-Obligatorio si es aplicable (MA)
-  Cuando se puede obtener el valor de la propiedad, debe estar presente en los metadatos.
-
-Recomendado (R)
-  Se recomienda el uso de la propiedad.
-
-Opcional (O)
-  No es importante si la propiedad se usa o no, pero si se usa puede proporcionar información complementaria sobre el recurso.
-
 Esta documentación utiliza las siguientes abreviaturas de espacio de nombres:
 
 * ``dc``: http://purl.org/dc/elements/1.1/
