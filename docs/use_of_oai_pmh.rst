@@ -19,7 +19,7 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 
 +--------------------------------------+-------------------------------------------------+
 |FASE I                                | FASE II                                         |
-+=============================+--------+-----------------------------------------+-------+
++=============================+========+-----------------------------------------+-------+
 |Artículos de investigación   | 93896  |Capítulo Libro resultado de investigación| 9646  | 
 +-----------------------------+--------+-----------------------------------------+-------+
 |Tesis de maestría            | 38014  |Libro resultado de investigación         | 8280  | 
@@ -33,7 +33,7 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 |                             |        |Variedades vegetales                     | 233   |
 +-----------------------------+--------+-----------------------------------------+-------+ 
 |FASE III                              | FASE IV                                         |
-+=============================+--------+-----------------------------------------+-------+
++=============================+========+-----------------------------------------+-------+
 |Trabajo de pregrado          | 99575  |Consultoría científicas-tecnologías      | 7939  | 
 +-----------------------------+--------+-----------------------------------------+-------+
 |Proyectos de Investigación y | 17919  |Proyectos (ID+I) con formación           | 2625  | 
@@ -51,9 +51,9 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 |Acompañamiento y asesorías de| 571    |Regulaciones, normas, reglamentos o      | 1140  | 
 |línea temática del Programa  |        |legislaciones                            |       |
 |Ondas                        |        |                                         |       |
-+=============================+--------+-----------------------------------------+-------+
++-----------------------------+--------+-----------------------------------------+-------+
 |FASE V                                | FASE VI                                         |
-+=============================+--------+-----------------------------------------+-------+
++=============================+========+-----------------------------------------+-------+
 |Secreto empresarial          | 1006   |Artículos                                | 49107 | 
 +-----------------------------+--------+-----------------------------------------+-------+
 |Innovación en procedimientos | 776    |Documento de trabajo (Working paper)     | 14423 | 
@@ -71,7 +71,7 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 |                             |        |Resultado de Investigación               |       |
 +-----------------------------+--------+-----------------------------------------+-------+
 |FASE VII                              | FASE VIII                                       |
-+=============================+--------+-----------------------------------------+-------+
++=============================+========+-----------------------------------------+-------+
 |Estrategias pedagógicas para | 354    |Participación ciudadana en proyectos de  | 531   | 
 |el fomento de la CTeI y la   |        |CTI                                      |       |
 |creación.                    |        |                                         |       |
