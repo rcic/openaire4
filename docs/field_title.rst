@@ -32,7 +32,7 @@ Repetible (R)
 
 Definición y Alcance del campo
 ------------------------------
-Nombre del recurso o variantes del mismo. Este campo puede utilizarse para generar puntos de acceso con despliegue a los diversos títulos existentes.
+Nombre del recurso o variantes del mismo. Este campo puede utilizarse para generar puntos de acceso con despliegue a los diversos títulos existentes. prueba
 
 Forma de Descripción Normalizada (RDA/RCAA2)
 -----------------------------------------------
@@ -110,3 +110,4 @@ Otras Observaciones
 ~~~~~~~~~~~~~~~~~~~
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
+~~~~~~~~~~~~~~~~~~~
