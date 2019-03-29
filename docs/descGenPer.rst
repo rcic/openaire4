@@ -137,3 +137,8 @@ En los documentos de metadatos de XML, el esquema se debe declarar de la siguien
    field_sourceevent
    field_projectidentifier
    field_publishernationalprograms
+
+
+
+
+
