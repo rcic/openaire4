@@ -77,6 +77,7 @@ title type
 
 Especificadores de Campo
 ------------------------
+type
 
 Niveles de Aplicación - Productos de Colciencias
 ------------------------------------------------
@@ -90,6 +91,7 @@ Adaptado de
 
 Relaciones con otros modelos de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dc.title
 
 Niveles Semánticos
 ~~~~~~~~~~~~~~~~~~
