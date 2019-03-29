@@ -8,11 +8,12 @@ Anexo 1. Productos que resultan de actividades de Generación de Nuevo Conocimie
 
 .. table:: Table Title
   :class: longtable
-  +--------+--------+---------+
-  |Column 1|Column 2| Column 3|
-  +========+========+=========+
-  |Value   |Value   |Value    |
-  +--------+--------+---------+
+
++--------+--------+---------+
+|Column 1|Column 2| Column 3|
++========+========+=========+
+|Value   |Value   |Value    |
++--------+--------+---------+
 
 Descargar archivo excel [#]_ :download:`xlsx <Anexo1GNC.xlsx>`
 
