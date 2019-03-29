@@ -1,6 +1,5 @@
 .. image:: _static/encabezado.png
 
-
 ######################################################################################################
 Directrices de interoperabilidad de metadatos de la Red Colombiana de Información Científica (RedCol)
 ######################################################################################################
@@ -11,25 +10,11 @@ En construcción...
 2019
 ====
 
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   *
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
 
 .. toctree::
    :numbered:
    :maxdepth: 1
+   :glob:
    
    introduction
    use_of_oai_pmh
@@ -45,3 +30,9 @@ Indices and tables
    bibliografia
    acercaDir
    
+Figuras y Tablas
+================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
