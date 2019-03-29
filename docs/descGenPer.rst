@@ -1,9 +1,11 @@
 .. _descGenPer:
 
-Descripción de los metadatos 
+Perfil de Aplicación de los metadatos 
 ============================
 
-Las propiedades del perfil de aplicación para pautas de repositorios de literatura de OpenAire son listadas en esta sección. Los niveles de requerimientos siguientes para las propiedades de metadata usadas son:
+El perfil de aplicación es una descripción detallada de los campos de metadatos recomendados para su implementación en repositorios institucionales de investigación. 
+
+Los niveles de requerimientos siguientes para las propiedades de metadata usadas son:
 
 Obligatorio (M)
   La propiedad siempre debe estar presente en los metadatos. No se permite un valor vacío para la propiedad.
@@ -60,7 +62,7 @@ Campo-OpenAIRE                             Elemento Metadata                   R
 :ref:`aire:citationStartPage`              oaire:citationStartPage
 :ref:`aire:citationEndPage`                oaire:citationEndPage
 :ref:`aire:citationEdition`                oaire:citationEdition
-   
+
 :ref:`aire:citationConferencePlace`        oaire:citationConferencePlace
 :ref:`aire:citationConferenceDate`         oaire:citationConferenceDate
 :ref:`dct:audience`                        dcterms:audience                     :ref:`audience type <vocab:audiencetype_audiencetype>`
