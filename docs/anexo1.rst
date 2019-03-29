@@ -3,11 +3,10 @@
 Anexo 1. Productos que resultan de actividades de Generación de Nuevo Conocimiento
 ==================================================================================
 
-.. tabularcolumns:: |\Y{0.2}|\Y{0.2}|\Y{0.2}|\Y{0.2}|\Y{0.2}|\Y{0.2}|\Y{0.2}|\Y{0.2}|\Y{0.2}|\Y{0.2}|\Y{0.2}|\Y{0.2}|\Y{0.2}|\Y{0.2}|\Y{0.2}|\Y{0.2}|\Y{0.2}|\Y{0.2}|\Y{0.2}|
-
+.. tabularcolumns:: |\Y{0.142}|\Y{0.142}|\Y{0.142}|\Y{0.142}|\Y{0.142}|\Y{0.142}|\Y{0.142}|
 .. csv-table:: Anexo 1
    :class: longtable
-   :file: Anexo1.csv
+   :file: Anexo1aGNC.csv
 
 Descargar archivo excel [#]_ :download:`xlsx <Anexo1GNC.xlsx>`
 
