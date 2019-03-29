@@ -3,12 +3,16 @@
 Anexo 1. Productos que resultan de actividades de Generación de Nuevo Conocimiento
 ==================================================================================
 
-.. rst-class:: table-myclass
-
 .. csv-table:: Anexo 1
    :file: Anexo1.csv
 
-table.myclass tbody tr {height: 100px;}
+.. table:: Table Title
+  :class: longtable
+  +--------+--------+---------+
+  |Column 1|Column 2| Column 3|
+  +========+========+=========+
+  |Value   |Value   |Value    |
+  +--------+--------+---------+
 
 Descargar archivo excel [#]_ :download:`xlsx <Anexo1GNC.xlsx>`
 
