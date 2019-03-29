@@ -12,6 +12,7 @@ Esta documentación utiliza las siguientes abreviaturas de espacio de nombres:
 * ``datacite``: http://datacite.org/schema/kernel-4
 * ``oaire``: http://namespace.openaire.eu/schema/oaire/
 
+
 ========================================== =================================== ========================================================================================
 Campo-OpenAIRE                             Elemento Metadata                   Refinamiento por vocabulario
 ========================================== =================================== ========================================================================================
@@ -63,16 +64,6 @@ Campo-OpenAIRE                             Elemento Metadata                   R
 :ref:`datacite:projectidentifier`          datacite:projectidentifier
 :ref:`datacite:publisher.nationalprograms` datacite:publisher.nationalprograms
 ========================================== =================================== ========================================================================================
-
-
-
-
-
-| ffdsfds | dfsd  | f      |
-| ------- | ----- | ------ |
-| dfsd    | ddfsf | dfsd   |
-| dsfs    | sdfs  | dsfs   |
-| sdfsdf  | sdfs  | sdfsdf |
 
 
 El perfil de aplicación es implementado en el esquema XML.
