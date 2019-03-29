@@ -118,6 +118,9 @@ pygments_style = 'sphinx'
 def setup(app):
     app.add_javascript('https://hypothes.is/embed.js')
 
+def setup(app):
+    app.add_stylesheet('my_theme.css')
+    
 # -- Options for HTML output ----------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
