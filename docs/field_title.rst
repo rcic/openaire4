@@ -5,7 +5,9 @@
 Título (M)
 ==========
 
-``datacite:title``
+Esquema datacite: ``datacite:title``
+
+Esquema dc: ``dc:title``
 
 Nombre del campo
 ----------------
