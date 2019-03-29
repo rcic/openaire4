@@ -95,9 +95,9 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
    :header-rows: 1
 
    * - FASE I
-     - 
+
      - FASE II
-     - 
+     
    * - Artículos de investigación
      - 93896
      - Capítulo Libro resultado de investigación
