@@ -5,9 +5,7 @@ Anexo 1. Productos que resultan de actividades de Generación de Nuevo Conocimie
 
 .. csv-table:: Anexo 1
    :file: Anexo1.csv
-
-.. table:: Table Title
-  :class: longtable
+   :class: longtable
 
 +--------+--------+---------+
 |Column 1|Column 2| Column 3|
