@@ -88,6 +88,7 @@ Adaptado de
 
 Relaciones con otros modelos de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dc.contributor
 
 Niveles Semánticos
 ~~~~~~~~~~~~~~~~~~
