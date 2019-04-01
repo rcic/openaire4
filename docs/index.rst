@@ -29,3 +29,4 @@ En construcción...
    acercaDir
 
 .. image:: _static/piedepagina.png
+   :scale: 50%
