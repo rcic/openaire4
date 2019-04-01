@@ -14,17 +14,17 @@ En construcción...
 .. toctree::
    :numbered:
    :maxdepth: 1
-
+   
    introduction
    use_of_oai_pmh
    objetivos
-   estructuraDoc
-   acercaDir
    tiposProd
    normatividadInter
    interoperabilidad
+   estructuraDoc   
    descGenPer
    vocabulario
    glosario
    anexos
    bibliografia
+   acercaDir
