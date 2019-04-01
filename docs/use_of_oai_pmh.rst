@@ -95,7 +95,10 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 FASE I                                            FASE II
 ========================================= ======= ========================================= =======
 Artículos de investigación                93896   Capítulo Libro resultado de investigación 9646 
-Tesis de maestría                         38014   Libro resultado de investigación          8280 
+Tesis de maestría                         38014   Libro resultado de investigación          8280
+Informe técnico final                     19389   Productos resultados de creación e
+                                                  investigación creación en Artes,
+                                                  Arquitectura y Diseño investigación
 ========================================= ======= ========================================= =======
 
 .. [#] Datos tomados de las estadísticas comparativas de grupos. Tipologías de productos de grupos en: https://www.colciencias.gov.co/la-ciencia-en-cifras/comparativas_grupos
