@@ -27,3 +27,5 @@ En construcción...
    anexos
    bibliografia
    acercaDir
+
+.. image:: _static/piedepagina.png
