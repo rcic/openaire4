@@ -1,36 +1,29 @@
-.. figure:: C:\Users\Acer\Documents\openaire4\docs\_static\encabezado.png
-   :alt: 
+.. image:: _static/encabezado.png
 
 ######################################################################################################
-Directrices de interoperabilidad de metadatos para productos de
-investigación de la Red Colombiana de Información Científica (RedCol)
+Directrices de interoperabilidad de metadatos de la Red Colombiana de Información Científica (RedCol)
 ######################################################################################################
-.. En construcción... ================== .. 2019 ====
+..
+En construcción...
+==================
+..
+2019
+====
 
-::: {.toctree numbered="" maxdepth="1"} introduction
-
-use\_of\_oai\_pmh
-
-objetivos
-
-acercaDir
-
-tiposProd
-
-normatividadInter
-
-interoperabilidad
-
-estructuraDoc
-
-descGenPer
-
-vocabulario
-
-glosario
-
-anexos
-
-bibliografia
-
-pruebas :::
+.. toctree::
+   :numbered:
+   :maxdepth: 1
+   
+   introduction
+   use_of_oai_pmh
+   objetivos
+   tiposProd
+   normatividadInter
+   interoperabilidad
+   estructuraDoc   
+   descGenPer
+   vocabulario
+   glosario
+   anexos
+   bibliografia
+   acercaDir

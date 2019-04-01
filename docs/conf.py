@@ -65,7 +65,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Directrices de interoperabilidad de metadatos de la Red Colombiana de Información Científica (RedCol)'
+project = u'Directrices de interoperabilidad de metadatos para productos de investigación de la Red Colombiana de Información Científica (RedCol)'
 copyright = u'COLCIENCIAS Y METABIBLIOTECA'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -117,6 +117,9 @@ pygments_style = 'sphinx'
 
 def setup(app):
     app.add_javascript('https://hypothes.is/embed.js')
+
+def setup(app):
+    app.add_stylesheet('my_theme.css')
 
 # -- Options for HTML output ----------------------------------------------
 
@@ -200,7 +203,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'OpenAIREGuidelinesdoc'
+htmlhelp_basename = 'RedColDirecttrices'
 
 # Latex directives to be included directly in the latex/pdf docs. Se agregan algunas propiedades extras para el pdf
 #custom_latex_preamble = 
@@ -232,7 +235,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'OpenAIREGuidelines.tex', u'Directrices de interoperabilidad de metadatos de la Red Colombiana de Información Científica (RedCol)',
+  (master_doc, 'OpenAIREGuidelines.tex', u'Directrices de interoperabilidad de metadatos para productos de investigación de la Red Colombiana de Información Científica (RedCol)',
    u'En construcción...', 'manual', True),
 ]
 
@@ -297,3 +300,4 @@ texinfo_documents = [
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'http://docs.python.org/': None}
+
