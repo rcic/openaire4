@@ -38,7 +38,14 @@ RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-name type
+- creatorName
+- nameType
+- givenName
+- familyName 
+- nameIdentifier 
+- nameIdentifierScheme 
+- schemeURI 
+- affiliation
 
 Relaciones con otros campos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -75,6 +82,14 @@ name type
 
 Especificadores de Campo
 ------------------------
+- creatorName
+- nameType
+- givenName
+- familyName 
+- nameIdentifier 
+- nameIdentifierScheme 
+- schemeURI 
+- affiliation
 
 Niveles de Aplicación - Productos de Colciencias
 ------------------------------------------------
@@ -82,12 +97,17 @@ Se aplica a todos los productos de Colciencias.
 
 Observaciones del Campo
 -----------------------
+Consultar la siguiente información para diligenciar los campos en referencia.
+
+ORCID: http://orcid.org/ 
+Siga las siguientes pautas para el ingreso del ORCID: http://support.orcid.org/knowledgebase/articles/116780-structure-of-the-orcid-identifier ISNI: http://www.isni.org/
 
 Adaptado de
 ~~~~~~~~~~~
 
 Relaciones con otros modelos de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dc.creator
 
 Niveles Semánticos
 ~~~~~~~~~~~~~~~~~~
