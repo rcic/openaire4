@@ -9,8 +9,7 @@ El documento proporciona una descripción general de cómo configurar y utilizar
 
   - Campo normalizado
   - Campo con esquema de metadatos
-  - Traducción al español
-
+  - Traducción al español.
 
 - **Niveles de requerimientos:** Los niveles de requerimientos siguientes para las propiedades de metadatos usados son:
 
