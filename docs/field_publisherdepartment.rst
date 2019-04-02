@@ -1,10 +1,10 @@
-.. _dc.publisher.department:
+.. _redcol:publisher.department:
 
 
 Departamento (MA)
 =================
 
-``dc.publisher.department``
+``redcol:publisher.department``
 
 Nombre del campo
 ----------------
@@ -15,7 +15,7 @@ publisherdepartment
 
 Campo con esquema de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-dc.publisher.department
+redcol:publisher.department
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -53,7 +53,7 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-   <dc.publisher.department>Ciencias básicas e ingenierías </dc.publisher.department>
+   <redcol:publisher.department>Ciencias básicas e ingenierías </redcol:publisher.department>
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
 
