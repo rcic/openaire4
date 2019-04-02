@@ -57,7 +57,7 @@ Campo-OpenAIRE                             Elemento Metadata                   R
 :ref:`redcol.publisher.program`            redcol.publisher.program
 :ref:`redcol:publisher.department`         redcol:publisher.department
 :ref:`redcol.source.bibliographicCitation` redcol.source.bibliographicCitation
-:ref:`redcol:subject.ddc`                  redcol:subject.ddc                   :ref:`WebDewey <http://dewey.org/webdewey/login/login.html>`  
+:ref:`redcol:subject.ddc`                  redcol:subject.ddc                    WebDewey_
 :ref:`redcol.subject.ocde`                 redcol.subject.ocde
 :ref:`redcol.source.event`                 redcol.source.event
 :ref:`redcol.project.identifier`           redcol.project.identifier
@@ -138,5 +138,5 @@ En los documentos de metadatos de XML, el esquema se debe declarar de la siguien
 
 
 
-
+.. _WebDewey: http://dewey.org/webdewey/login/login.html
 
