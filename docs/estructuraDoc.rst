@@ -11,6 +11,7 @@ El documento proporciona una descripción general de cómo configurar y utilizar
   - Campo con esquema de metadatos
   - Traducción al español
 
+
 - **Niveles de requerimientos:** Los niveles de requerimientos siguientes para las propiedades de metadatos usados son:
 
   **Obligatorio (M)**
@@ -22,7 +23,7 @@ El documento proporciona una descripción general de cómo configurar y utilizar
     Cuando se puede obtener el valor de la propiedad, debe estar presente en los metadatos.
 
   **Recomendado (R)**
-  
+
     Se recomienda el uso de la propiedad.
 
   **Opcional (O)**
