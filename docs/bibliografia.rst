@@ -16,8 +16,15 @@ Bibliografía
 |
 | Join Steering Commitee. (2013). *RDA*. Obtenido de http://www.rda-jsc.org/archivedsite/rda.html 
 |
+| La Referencia. (28 de Agosto de 2012). *Acta acuerdo comité técnico: 5ta Reunión La Referencia Plan Piloto Componente III. En:* 
+|         http://lareferencia.redclara.net/rfr/sites/default/files/ActaAcuerdoTecnicoBogota.pdf
+|
 | Ministerio de Educación Nacional. (2015). *Documento Marco: Sistema Nacional de Acceso Abierto* 
 |         *al Conocimiento*. Bogotá.
+|
+| Ministerio de Ciencia, Tecnología e Innovación. (Abril de 2012). Directrices SNRD: *Directrices para proveedores de contenido del Sistema*  
+|          *Nacional de Repositorios Digitales Ministerio de Ciencia, Tecnología e Innovación Productiva. En:*  de
+|           https://www.coar-repositories.org/files/Directrices-SNRD-2012-version-final.pdf 
 |
 | OpenAIRE. (30 de Abril de 2013). *OpenAIRE Interoperability Guidelines for Literature Repository*
 |		*Managers*. doi:doi:10.5281/zenodo.1487968 
