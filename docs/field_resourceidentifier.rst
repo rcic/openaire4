@@ -66,6 +66,7 @@ Atributos de Campo
 ------------------
 
 Valores controlados  permitidos:
+
 - ARCA
 - DOI
 - Encargarse de
