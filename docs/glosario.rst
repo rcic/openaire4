@@ -70,3 +70,7 @@ Glosario
 ..
 
 * **UTF-8:** (8-bit Unicode Transformation Format) es un formato de codificación de caracteres Unicode e ISO 10646 utilizando símbolos de longitud variable. 
+  
+..
+
+* **XML:** es un lenguaje de marcado similar a HTML. is a markup language similar a HTML. Significa Extensible Markup Language (Lenguaje de Marcado Extensible) y es una especificación de W3C como lenguaje de marcado de propósito general.
