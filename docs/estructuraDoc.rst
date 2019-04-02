@@ -33,8 +33,10 @@ El documento proporciona una descripción general de cómo configurar y utilizar
 
   - Repetible (R)
   - No repetible (NR)
+..
 
 - **Definición y alcance del campo:** Se exponen con precisión los conceptos de los campo y se determina de forma clara y sencilla los objetivos que se quieren alcanzar en cada uno.
+..
 
 - **Forma de Descripción Normalizada:** Aquí se indica la forma correcta de la descripción del campo y la normatividad internacional que se aplica. Ejemplo: RDA (Recursos : descripción y acceso) y RCAA2 (Reglas de Catalogación Angloamericanas Segunda Edición):
 
@@ -42,6 +44,7 @@ El documento proporciona una descripción general de cómo configurar y utilizar
   - **Relaciones con otros campos:** aquí deben colocarse los campos a los cuales hace relación. Ejemplo: título, campos relacionados, subtítulo, título alternativo, otro título. 
   - **Restricciones:** información que no debe utilizarse en el campo.
   - **Ejemplos:** se describe la forma correcta para la descripción del campo. 
+..
 
 - **Atributos de Campo:** son los elementos que debe incluir el campo para su descripción. Ejemplo: atributos de idioma, formato, etc. 
 
