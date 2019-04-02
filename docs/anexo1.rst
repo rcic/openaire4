@@ -13,7 +13,7 @@ a. **Hoja de trabajo para Publicaciones**
    :file: anexo1Tabla1.csv
 
 .. image:: _static/anexo1Tabla2.png
-   :scale: 120%
+   :scale: 100%
 
 Descargar archivo excel [#]_ :download:`xlsx <Anexo1GNC.xlsx>`
 
