@@ -52,7 +52,7 @@ Campo-OpenAIRE                             Elemento Metadata                   R
 :ref:`aire:citationConferencePlace`        oaire:citationConferencePlace
 :ref:`aire:citationConferenceDate`         oaire:citationConferenceDate
 :ref:`dct:audience`                        dcterms:audience                     :ref:`audience type <vocab:audiencetype_audiencetype>`
-:ref:`dc.contributor.rol`                  dc.contributor.rol
+:ref:`redcol.contributor.rol`              redcol.contributor.rol
 :ref:`dc.creator.degree`                   dc.creator.degree
 :ref:`dc.publisher.program`                dc.publisher.program
 :ref:`dc.publisher.department`             dc.publisher.department
