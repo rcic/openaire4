@@ -79,6 +79,7 @@ Adaptado de..
 
 Relaciones con otros modelos de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dc.date
 
 Niveles Semánticos
 ~~~~~~~~~~~~~~~~~~
