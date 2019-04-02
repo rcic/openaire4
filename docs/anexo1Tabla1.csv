@@ -1,0 +1,48 @@
+CAMPOS ,ESQUEMA DE METADATOS,NIVEL DE REQUERIMIENTO,,RECURSOS,,
+,,"Repetible 
+(R)",No repetible (NR),a. Publicaciones,,
+,,,,Artículos de investigación,"Libro 
+Resultado de investigación","Capítulo Libro 
+Resultado de investigación"
+Título (M),datacite:title,X,,X,X,X
+Creador (M),datacite:creator,X,,X,X,X
+Colaborador (MA),datacite:contributor,X,,X,X,X
+Referencia de financiación (MA),oaire:referenciaFinanciación,X,,X,X,X
+Identificador alternativo (R),datacite:alternateIdentifier,X,,X,X,X
+Identificador relacionado (R),datacite:relatedIdentifier,X,,X,X,X
+Fecha de periodo de embargo (MA) ,datacite:date,,X,X,X,X
+Idioma (MA) ,dc:language,,X,X,X,X
+Editor (MA),dc:publisher,,X,X,X,X
+Fecha de publicación (M) ,datacite:date,X,,X,X,X
+Tipo de recurso (M) ,oaire:resourceType,,X,X,X,X
+Descripción (MA),dc:description,X,,X,X,X
+Formato (R) ,dc:format,,X,X,X,X
+Identificador de recursos (M),datacite:identifier,,X,X,X,X
+Derechos de acceso (M),datacite:rights,,X,X,X,X
+Fuente (R),dc:source,X,,X,X,X
+Materia (MA),datacite:subject,X,,X,X,X
+Condición de la licencia (R),oaire:licenseCondition,,X,X,X,X
+Cobertura (R),dc:coverage,X,,X,X,X
+Tamaño (O),datacite:size,,X,X,X,X
+Ubicación geográfica (O),datacite:geoLocation,X,,X,X,X
+Versión del recurso (R),oaire:version,,X,X,X,X
+Ubicación del archivo (MA),oaire:file,,X,X,X,X
+Cita de título (R),oaire:citationTitle, ,X,X,X,X
+Cita del volumen (R),oaire:citationVolume,,X,X,X,X
+Cita del tema (R),oaire:citationIssue,,X,X,X,X
+Cita de página de inicio (R),oaire:citationStartPage,,X,X,X,X
+Cita de página final (R),oaire:citationEndPage,,X,X,X,X
+Cita de edición (R),oaire:citationEdition,,X,X,X,X
+Cita de lugar de conferencia (R),oaire:citationConferencePlace,,X,X,X,X
+Cita de fecha de conferencia (R),oaire:citationConferenceDate,,X,X,X,X
+Audiencia (O),dcterms:audience,,X,X,X,X
+Rol del colaborador (MA),redcol.contributor.rol,,,,,
+Título obtenido (MA),redcol.creator.degree,,,,,
+Programa (MA),redcol.publisher.program,,,,,
+Departamento (MA),redcol:publisher.department,,,,,
+Cita bibliográfica (R),redcol.source.bibliographicCitation,X,,X,X,X
+Materia DDC (MA),redcol.subject.ddc,X,,X,X,X
+Materia OCDE (MA),redcol.subject.ocde,X,,X,X,X
+Nombre del evento (MA),redcol.source.event,,X,X,X,X
+Identificador del proyecto (MA),redcol.project.identifier,,X,,,
+Programas nacionales e iniciativas (MA),redcol.publisher.nationalprograms,,X,X,X,X
