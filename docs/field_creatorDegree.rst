@@ -4,7 +4,7 @@
 Título obtenido (MA)
 ====================
 
-``dc.creator.degree``
+``redcol.creator.degree``
 
 Nombre del campo
 ----------------
