@@ -1,9 +1,9 @@
-.. _datacite:projectidentifier:
+.. _redcol.project.identifier:
 
 Identificador del proyecto (MA)
 ===============================
 
-``datacite:projectidentifier``
+``redcol.project.identifier``
 
 Nombre del campo
 ----------------
@@ -14,7 +14,7 @@ Identificador del proyecto
 
 Campo con esquema de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-datacite:projectidentifier
+redcol.project.identifier
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -38,7 +38,7 @@ RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-datacite:projectidentifier
+redcol.project.identifier
 
 Relaciones con otros campos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -52,7 +52,7 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-   <datacite:projectidentifier>IP IP 3454-102-001-86</datacite:projectidentifier>
+   <redcol.project.identifier>IP IP 3454-102-001-86</redcol.project.identifier>
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
 
@@ -61,6 +61,7 @@ Atributos de Campo
 
 Especificadores de Campo
 ------------------------
+project.identifier
 
 Niveles de Aplicación - Productos de Colciencias
 ------------------------------------------------
@@ -74,6 +75,7 @@ Adaptado de
 
 Relaciones con otros modelos de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dc.identifier
 
 Niveles Semánticos
 ~~~~~~~~~~~~~~~~~~
