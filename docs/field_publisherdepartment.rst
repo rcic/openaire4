@@ -76,6 +76,7 @@ Adaptado de
 
 Relaciones con otros modelos de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dc.publisher
 
 Niveles Semánticos
 ~~~~~~~~~~~~~~~~~~
