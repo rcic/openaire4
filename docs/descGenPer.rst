@@ -57,7 +57,7 @@ Campo-OpenAIRE                             Elemento Metadata                   R
 :ref:`redcol.publisher.program`            redcol.publisher.program
 :ref:`redcol:publisher.department`         redcol:publisher.department
 :ref:`redcol.source.bibliographicCitation` redcol.source.bibliographicCitation
-:ref:`datacite:subject.ddc`                datacite:subject.ddc
+:ref:`redcol:subject.ddc`                  redcol:subject.ddc
 :ref:`datacite:subject.ocde`               datacite:subject.ocde
 :ref:`datacite:title.alternative`          datacite:title.alternative
 :ref:`datacite:source.event`               datacite:source.event

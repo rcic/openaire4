@@ -1,9 +1,9 @@
-.. _datacite:subject.ddc:
+.. _redcol:subject.ddc:
 
 Materia DDC (MA)
 ================
 
-``datacite:subject.ddc``
+``redcol:subject.ddc``
 
 Nombre del campo
 ----------------
@@ -14,7 +14,7 @@ subject
 
 Campo con esquema de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-datacite:subject.ddc
+redcol:subject.ddc
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -38,7 +38,7 @@ RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-datacite:subject.ddc
+redcol:subject.ddc
 
 Relaciones con otros campos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -56,8 +56,8 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-   <datacite:subject.ddc>Economía</datacite:subject.ddc>
-   <datacite:subject.ddc>Tecnología</datacite:subject.ddc>
+   <redcol:subject.ddc>Economía</redcol:subject.ddc>
+   <redcol:subject.ddc>Tecnología</redcol:subject.ddc>
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
 
