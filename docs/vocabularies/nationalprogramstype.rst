@@ -1,0 +1,23 @@
+
+- Gestión Territorial
+- Programa a Ciencia Cierta
+- Programa de Cienciometría  (Grupos, Pares y Centros )
+- Programa de Difusión
+- Programa Ideas Para El Cambio
+- Programa Jóvenes Investigadores
+- Programa Nacional de Ciencia y Tecnología en Geociencias
+- Programa Nacional de Ciencias Agropecuarias
+- Programa Nacional de Ciencias del Mar y Recursos Hidrobiológicos
+- Programa Nacional de Ciencias Humanas Sociales y Educación 
+- Programa Nacional de Ciencias y Tecnologías de la Salud
+- Programa Nacional de Energía y Minería
+- Programa Nacional de Formación de Recursos Humanos de Alto Nivel 
+- Programa Nacional de Ingeniería 
+- Programa Nacional en Ciencias Básicas
+- Programa Nacional en Diversidad Medio Ambiente y Hábitat
+- Programa Nacional en Geociencias
+- Programa Nacional en Seguridad y Defensa
+- Programa Nexo Global
+- Programa Ondas
+- Proyecto Colombia Bio
+- Red Nacional de Información Científica 

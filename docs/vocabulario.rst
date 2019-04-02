@@ -23,3 +23,4 @@ A continuación, se relacionan en la siguiente tabla los vocabularios que deben 
    vocab_nametype
    vocab_relationtype
    vocab_resourcetypegeneral
+   vocab_nationalprogramstype
