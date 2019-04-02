@@ -14,23 +14,19 @@ El documento proporciona una descripción general de cómo configurar y utilizar
 - **Niveles de requerimientos:** Los niveles de requerimientos siguientes para las propiedades de metadatos usados son:
 
   **Obligatorio (M)**
+
     La propiedad siempre debe estar presente en los metadatos. No se permite un valor vacío para la propiedad.
 
   **Obligatorio si es aplicable (MA)**
+
     Cuando se puede obtener el valor de la propiedad, debe estar presente en los metadatos.
 
   **Recomendado (R)**
+  
     Se recomienda el uso de la propiedad.
 
   **Opcional (O)**
     No es importante si la propiedad se usa o no, pero si se usa puede proporcionar información complementaria sobre el recurso.
-
-  
-
-- - Obligatorio (M)
-  - Obligatorio si es aplicable (MA)
-  - Recomendado (R)
-  - Opcional (O)
 
 - **Niveles de ocurrencia:** Se especifica la repetibilidad o  no repetibilidad de cada campo según su naturaleza.
 
