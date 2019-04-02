@@ -1,12 +1,15 @@
-.. image:: _static/encabezado.png
+.. image:: _static/piedepagina.png
+   :scale: 50%
 
 ######################################################################################################
 Directrices de interoperabilidad de metadatos de la Red Colombiana de Información Científica (RedCol)
 ######################################################################################################
 ..
+
 En construcción...
 ==================
 ..
+
 2019
 ====
 
@@ -28,5 +31,5 @@ En construcción...
    bibliografia
    acercaDir
 
-.. image:: _static/piedepagina.png
+.. image:: _static/encabezado.png
    :scale: 50%
