@@ -11,6 +11,8 @@ Bibliografía
 |        *Exposición de recursos textuales con el protocolo OAI-PMH*. Obtenido de http://recolecta.fecyt.es
 |        /sites/default/files/contenido/documentos/DRIVER_2_1_Gui 
 |
+| European Commission. *(2013). Fact Sheet: Open Access is Horizon 2020. En:* https://ec.europa.eu/programmes/horizon2020/sites/horizon2020/files/FactSheet_Open_Access.pdf 
+|
 | Join Steering Commitee. (2013). *RDA*. Obtenido de http://www.rda-jsc.org/archivedsite/rda.html 
 |
 | Ministerio de Educación Nacional. (2015). *Documento Marco: Sistema Nacional de Acceso Abierto* 
