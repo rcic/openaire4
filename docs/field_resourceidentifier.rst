@@ -30,7 +30,8 @@ No repetible (NR)
 
 Definición y Alcance del campo
 ------------------------------
-Es la cadena única para identificar el recurso. Los sistemas de identificación de recursos más comunes son: 
+Es la cadena única para identificar el recurso. Los sistemas de identificación de recursos más comunes son:
+
 - URI
 - URL
 - DOI
