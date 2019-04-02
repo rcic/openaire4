@@ -1,9 +1,9 @@
-.. _datacite:source.event:
+.. _redcol.source.event:
 
 Nombre del evento (MA)
 ======================
 
-``datacite:source.event``
+``redcol.source.event``
 
 Nombre del campo
 ----------------
@@ -14,7 +14,7 @@ Nombre del evento
 
 Campo con esquema de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-datacite:source.event
+redcol.source.event
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -38,7 +38,7 @@ RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-datacite:source.event
+redcol.source.event
 
 Relaciones con otros campos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -52,7 +52,7 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-   <datacite:source.event>Memorias Congreso Nacional de Bibliotecología</datacite:title.alternative>
+   <redcol.source.event>Memorias Congreso Nacional de Bibliotecología</redcol.source.event>
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
 
@@ -61,6 +61,7 @@ Atributos de Campo
 
 Especificadores de Campo
 ------------------------
+event
 
 Niveles de Aplicación - Productos de Colciencias
 ------------------------------------------------
