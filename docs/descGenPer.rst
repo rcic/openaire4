@@ -54,7 +54,7 @@ Campo-OpenAIRE                             Elemento Metadata                   R
 :ref:`dct:audience`                        dcterms:audience                     :ref:`audience type <vocab:audiencetype_audiencetype>`
 :ref:`redcol.contributor.rol`              redcol.contributor.rol
 :ref:`redcol.creator.degree`               redcol.creator.degree
-:ref:`dc.publisher.program`                dc.publisher.program
+:ref:`redcol.publisher.program`            redcol.publisher.program
 :ref:`dc.publisher.department`             dc.publisher.department
 :ref:`dc.source.bibliographicCitation`     dc.source.bibliographicCitation
 :ref:`datacite:subject.ddc`                datacite:subject.ddc
