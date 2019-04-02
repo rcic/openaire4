@@ -1,4 +1,4 @@
-.. _dc.creator.degree:
+.. _redcol.creator.degree:
 
 
 Título obtenido (MA)
@@ -15,7 +15,7 @@ creatorDegree
 
 Campo con esquema de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-dc.creator.degree
+redcol.creator.degree
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -53,9 +53,7 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-   <dc.creator.degree>Administradora de Empresar</dc.creator.degree>
-
-.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
+   <redcol.creator.degree>Administradora de Empresar</redcol.creator.degree>
 
 Atributos de Campo
 ------------------
