@@ -61,7 +61,7 @@ Campo-OpenAIRE                             Elemento Metadata                   R
 :ref:`redcol.subject.ocde`                 redcol.subject.ocde
 :ref:`redcol.source.event`                 redcol.source.event
 :ref:`redcol.project.identifier`           redcol.project.identifier
-:ref:`datacite:publisher.nationalprograms` datacite:publisher.nationalprograms
+:ref:`redcol.publisher.nationalprograms`   redcol.publisher.nationalprograms
 ========================================== =================================== ========================================================================================
 
 

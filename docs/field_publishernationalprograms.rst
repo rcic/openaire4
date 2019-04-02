@@ -1,4 +1,4 @@
-.. _datacite:publisher.nationalprograms:
+.. _redcol.publisher.nationalprograms:
 
 Programas nacionales e iniciativas (MA)
 =======================================
@@ -14,7 +14,7 @@ Programas nacionales e iniciativas
 
 Campo con esquema de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-datacite:publisher.nationalprograms
+redcol.publisher.nationalprograms
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -38,7 +38,7 @@ RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-datacite:publisher.nationalprograms
+redcol.publisher.nationalprograms
 
 Relaciones con otros campos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -52,7 +52,7 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-   <datacite:publisher.nationalprograms>Programa Nacional de Ingeniería</datacite:publisher.nationalprograms>
+   <redcol.publisher.nationalprograms>Programa Nacional de Ingeniería</redcol.publisher.nationalprograms>
 
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
@@ -62,6 +62,7 @@ Atributos de Campo
 
 Especificadores de Campo
 ------------------------
+nationalprograms
 
 Niveles de Aplicación - Productos de Colciencias
 ------------------------------------------------
