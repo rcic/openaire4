@@ -32,4 +32,4 @@ En construcción...
    acercaDir
 
 .. image:: _static/encabezado.png
-   :scale: 50%
+   :scale: 75%
