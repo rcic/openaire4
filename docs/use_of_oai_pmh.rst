@@ -15,7 +15,7 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 
 **Tabla 1. FASES POR TIPO DE PRODUCTO** [#]_
 
-.. tabularcolumns:: |\Y{0.35}|\Y{0.125}|\Y{0.35}|\Y{0.125}|
+.. tabularcolumns:: |\Y{0.4}|\Y{0.1}|\Y{0.4}|\Y{0.1}|
 
 +---------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+
 | FASE I                                                                    | FASE II                                                                                     0123   |
