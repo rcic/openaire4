@@ -1,9 +1,9 @@
-.. _dc.source.bibliographicCitation:
+.. _redcol.source.bibliographicCitation:
 
 Cita bibliográfica (R)
 ======================
 
-``dc.source.bibliographicCitation``
+``redcol.source.bibliographicCitation``
 
 Nombre del campo
 ----------------
@@ -14,7 +14,7 @@ source.bibliographicCitation
 
 Campo con esquema de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-dc.source.bibliographicCitation
+redcol.source.bibliographicCitation
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -52,7 +52,7 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-   <dc.source.bibliographicCitation>Bdolah, Y., Karumanchi, S. A., & Sachs, B. P. (2005). Recent advances in understanding of preeclampsia. Croatian Medical Journal, 46(5), 728–736</dc.source.bibliographicCitation>
+   <redcol.source.bibliographicCitation>Bdolah, Y., Karumanchi, S. A., & Sachs, B. P. (2005). Recent advances in understanding of preeclampsia. Croatian Medical Journal, 46(5), 728–736</redcol.source.bibliographicCitation>
 
 Atributos de Campo
 ------------------
@@ -83,6 +83,7 @@ Adaptado de
 
 Relaciones con otros modelos de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dc.source.bibliographicCitation
 
 Niveles Semánticos
 ~~~~~~~~~~~~~~~~~~
