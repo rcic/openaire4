@@ -39,6 +39,7 @@ El documento proporciona una descripción general de cómo configurar y utilizar
 ..
 
 - **Forma de Descripción Normalizada:** Aquí se indica la forma correcta de la descripción del campo y la normatividad internacional que se aplica. Ejemplo: RDA (Recursos : descripción y acceso) y RCAA2 (Reglas de Catalogación Angloamericanas Segunda Edición):
+..
 
   - **Valores permitidos:** en los campos temáticos se deben utilizar vocabularios controlados y/o términos extraídos de tesauros.  
   - **Relaciones con otros campos:** aquí deben colocarse los campos a los cuales hace relación. Ejemplo: título, campos relacionados, subtítulo, título alternativo, otro título. 
@@ -53,6 +54,7 @@ El documento proporciona una descripción general de cómo configurar y utilizar
 - **Niveles de Aplicación - Productos de Colciencias:** se especifica a que producto de Colciencias se le aplica el campo. 
 
 - **Observaciones del Campo:** información para complementar el campo. 
+..
 
   - **Adaptado de:** se se realiza adaptaciones de otros repositorios, etc. 
   - **Relaciones con otros modelos de metadatos:** se relacionan otros modelos y esquemas de metadatos que apliquen. 
