@@ -1,9 +1,9 @@
-.. _datacite:subject.ocde:
+.. _redcol.subject.ocde:
 
 Materia OCDE (MA)
 =================
 
-``datacite:subject.ocde``
+``redcol.subject.ocde``
 
 Nombre del campo
 ----------------
@@ -14,7 +14,7 @@ subject
 
 Campo con esquema de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-datacite:subject.ocde
+redcol.subject.ocde
 
 Traducción al español:
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -38,14 +38,11 @@ RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-datacite:subject.ocde
+redcol.subject.ocde
 
 Relaciones con otros campos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- datacite:subject.armarc
-- datacite:subject.lemb
-- datacite:subject.ccd
-- datacite:subject.skos
+- redcol.subject.ddc
 
 Restricciones
 ~~~~~~~~~~~~~
@@ -56,8 +53,8 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-   <datacite:subject.ocde>Economía</datacite:subject.ocde>
-   <datacite:subject.ocde>Tecnología</datacite:subject.ocde>
+   <redcol.subject.ocde>Economía</redcol.subject.ocde>
+   <redcol.subject.ocde>Tecnología</redcol.subject.ocde>
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
 
@@ -66,6 +63,7 @@ Atributos de Campo
 
 Especificadores de Campo
 ------------------------
+ocde
 
 Niveles de Aplicación - Productos de Colciencias
 ------------------------------------------------
@@ -80,9 +78,7 @@ Adaptado de
 
 Relaciones con otros modelos de metadatos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- dc.subject.ddc
-- dc.subject.lemb
-- dc.subject.armarc
+- dc.subject
 
 Niveles Semánticos
 ~~~~~~~~~~~~~~~~~~
