@@ -20,6 +20,11 @@ c. **Hoja de trabajo para variedades vegetales y animales**
 .. image:: _static/anexo1Tabla3.png
    :scale: 100%
 
+d. **Hoja de trabajo para productos resultados de creación e investigación creación en Artes, Arquitectura y Diseño**
+   
+.. image:: _static/anexo1Tabla4.png
+   :scale: 100%
+
 Descargar archivo excel Anexo 1 [#]_ :download:`xlsx <_static/Anexo1GNC.xlsx>`
 
 .. [#] https://openaire4.readthedocs.io/es/latest/_downloads/4c576e8669542d09eabf68d45734aa7e/Anexo1GNC.xlsx
