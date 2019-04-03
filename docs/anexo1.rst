@@ -1,9 +1,7 @@
 .. _anexo1:
 
-Anexo 1. Productos que resultan de actividades de Generación de Nuevo Conocimiento
-==================================================================================
-
-**Anexo 1.** Hoja de trabajo para productos que resultan de actividades de Generación de Nuevo Conocimiento
+Anexo 1. Hoja de trabajo para productos que resultan de actividades de Generación de Nuevo Conocimiento
+=======================================================================================================
 
 a. **Hoja de trabajo para Publicaciones** 
 
