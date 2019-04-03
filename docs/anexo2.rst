@@ -13,4 +13,4 @@ a. **Hoja de trabajo para producto tecnológico certificado o validado**
 
 Descargar archivo excel Anexo 2 [#]_ :download:`xlsx <_static/Anexo2DTI.xlsx>`
 
-.. [#] 
+.. [#] https://openaire4.readthedocs.io/es/latest/_downloads/32da7fd23bf061ca72f8f7f4f285ead3/Anexo2DTI.xlsx
