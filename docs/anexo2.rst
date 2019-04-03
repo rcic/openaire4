@@ -3,8 +3,14 @@
 Anexo 2. Productos resultados de actividades de Desarrollo Tecnológico e Innovación
 ===================================================================================
 
-.. image:: _static/Anexo2DTI.png
-   :width: 650
-   :align: center
+**Anexo 2.** Hoja de trabajo para productos resultados de actividades de Desarrollo Tecnológico e Innovación
 
-Descargar archivo excel :download:`xlsx <Anexo2DTI.xlsx>`
+a. **Hoja de trabajo para producto tecnológico certificado o validado**
+
+.. image:: _static/anexo2Tabla1.png
+   :scale: 100%
+
+
+Descargar archivo excel Anexo 2 [#]_ :download:`xlsx <_static/Anexo2DTI.xlsx>`
+
+.. [#] 
