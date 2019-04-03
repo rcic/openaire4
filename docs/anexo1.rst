@@ -10,6 +10,8 @@ a. **Hoja de trabajo para Publicaciones**
 .. image:: _static/anexo1Tabla1.png
    :scale: 100%
 
+b. **Hoja de trabajo para productos tecnológicos patentados o en proceso de concesión de la patente**
+
 .. image:: _static/anexo1Tabla2.png
    :scale: 100%
 
