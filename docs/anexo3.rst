@@ -20,6 +20,11 @@ c. **Tabla 3**
 .. image:: _static/anexo3Tabla3.png
    :scale: 100%
 
+d. **Tabla 4**
+
+.. image:: _static/anexo3Tabla4.png
+   :scale: 100%
+
 Descargar archivo excel Anexo 3 [#]_ :download:`xlsx <_static/Anexo3AS.xlsx>`
 
 .. [#] https://openaire4.readthedocs.io/es/latest/_downloads/3577c378965aec17111f406ceb635a7b/Anexo3AS.xlsx
