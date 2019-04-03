@@ -3,8 +3,14 @@
 Anexo 3. Productos resultados de actividades de Apropiación Social
 ==================================================================
 
-.. image:: _static/Anexo3AS.png
-   :width: 650
-   :align: center
+**Anexo 3**
 
-Descargar archivo excel :download:`xlsx <Anexo3AS.xlsx>`
+a. **Tabla 1**
+
+.. image:: _static/anex3Tabla1.png
+   :scale: 100%
+
+Descargar archivo excel Anexo 3 [#]_ :download:`xlsx <_static/Anexo3AS.xlsx>`
+
+.. [#] 
+
