@@ -12,4 +12,4 @@ a. **Hoja de trabajo para Publicaciones**
 
 Descargar archivo excel [#]_ :download:`xlsx <_static/Anexo1GNC.xlsx>`
 
-.. [#] https://openaire4.readthedocs.io/es/latest/_downloads/22257b9d5e03543ec67fdd709bb33ae5/_static/Anexo1GNC.xlsx
+.. [#] https://openaire4.readthedocs.io/es/latest/_downloads/4c576e8669542d09eabf68d45734aa7e/Anexo1GNC.xlsx
