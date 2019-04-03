@@ -7,14 +7,9 @@ Anexo 1. Productos que resultan de actividades de Generación de Nuevo Conocimie
 
 a. **Hoja de trabajo para Publicaciones** 
 
-.. tabularcolumns:: |\Y{0.25}|\Y{0.25}|\Y{0.1}|\Y{0.1}|\Y{0.1}|\Y{0.1}|\Y{0.1}|
-
-.. csv-table:: Anexo 1
-   :file: anexo1Tabla1.csv
-
-.. image:: _static/anexo1Tabla2.png
+.. image:: _static/anexo1Tabla1.png
    :scale: 100%
 
-Descargar archivo excel [#]_ :download:`xlsx <Anexo1GNC.xlsx>`
+Descargar archivo excel [#]_ :download:`xlsx <_static/Anexo1GNC.xlsx>`
 
-.. [#] https://openaire4.readthedocs.io/es/latest/_downloads/22257b9d5e03543ec67fdd709bb33ae5/Anexo1GNC.xlsx
+.. [#] https://openaire4.readthedocs.io/es/latest/_downloads/22257b9d5e03543ec67fdd709bb33ae5/_static/Anexo1GNC.xlsx
