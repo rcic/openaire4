@@ -3,8 +3,11 @@
 Anexo 4. Productos resultados de actividades de Apropiación Social
 ==================================================================
 
-.. image:: _static/Anexo4FRH-CTeL.png
-   :width: 650
-   :align: center
+a. **Tabla 1**
 
-Descargar archivo excel :download:`xlsx <Anexo4FRH-CTeL.xlsx>`
+.. image:: _static/anexo4Tabla1.png
+   :scale: 100%
+
+Descargar archivo excel Anexo 4 [#]_ :download:`xlsx <_static/Anexo4FRH-CTeL.xlsx>`
+
+.. [#] 
