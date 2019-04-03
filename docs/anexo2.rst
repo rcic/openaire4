@@ -15,6 +15,11 @@ b. **Tabla 2**
 .. image:: _static/anexo2Tabla2.png
    :scale: 100%
 
+c. **Tabla 3**
+   
+.. image:: _static/anexo2Tabla3.png
+   :scale: 100%
+
 Descargar archivo excel Anexo 2 [#]_ :download:`xlsx <_static/Anexo2DTI.xlsx>`
 
 .. [#] https://openaire4.readthedocs.io/es/latest/_downloads/32da7fd23bf061ca72f8f7f4f285ead3/Anexo2DTI.xlsx
