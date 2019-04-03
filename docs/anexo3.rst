@@ -1,26 +1,24 @@
 .. _anexo3:
 
-Anexo 3. Productos resultados de actividades de Apropiación Social
-==================================================================
+Anexo 3. Hoja de trabajo para productos resultados de actividades de Apropiación Social
+=======================================================================================
 
-**Anexo 3**
-
-a. **Tabla 1**
+a. **Hoja de trabajo para Participación ciudadana en CTeI - Estrategias pedagógicas para el fomento de la CTeI y la creación - Estrategias de comunicación del conocimiento**
 
 .. image:: _static/anexo3Tabla1.png
    :scale: 100%
 
-b. **Tabla 2**
+b. **Hoja de trabajo para Circulación de conocimiento especializado**
 
 .. image:: _static/anexo3Tabla2.png
    :scale: 100%
 
-c. **Tabla 3**
+c. **Hoja de trabajo para Circulación de conocimiento especializado**
 
 .. image:: _static/anexo3Tabla3.png
    :scale: 100%
 
-d. **Tabla 4**
+d. **Hoja de trabajo para Reconocimientos nacionales o internacionales por procesos de apropiación social del conocimiento**
 
 .. image:: _static/anexo3Tabla4.png
    :scale: 100%
