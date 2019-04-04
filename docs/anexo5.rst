@@ -28,7 +28,7 @@ Anexo 5. Clasificación de áreas científicas según la OCDE
 .. image:: _static/anexo5Tabla5.png
    :scale: 100%
 
-5. Humanidades
+6. Humanidades
    
 .. image:: _static/anexo5Tabla6.png
    :scale: 100%
