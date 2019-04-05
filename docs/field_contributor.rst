@@ -85,5 +85,6 @@ Niveles semánticos
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
-OpenAIRE 3: dc.contributor
-BDCOL: dc.contributor, dc:contributor.advisor
+
+- **OpenAIRE 3:** dc.contributor
+- **BDCOL:** dc.contributor, dc:contributor.advisor
