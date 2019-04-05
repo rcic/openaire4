@@ -5,50 +5,42 @@ Identificador alternativo (R)
 
 ``datacite:alternateIdentifier``
 
-Nombre del campo
-----------------
-
-Campo normalizado:
-~~~~~~~~~~~~~~~~~~
-alternateIdentifier
-
-Campo con esquema de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-datacite:alternateIdentifier
-
-Traducción al español:
-~~~~~~~~~~~~~~~~~~~~~~
-Identificador Alternativo
+Definición y alcance del campo
+------------------------------
+Es un código local, nacional o internacional que se le otorga al recurso, puede ser una cadena alfanumérica para identificar su ubicación o puede ser un código normalizado según el tipo de recurso. 
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
 Recomendado (R)
 
-Niveles de Ocurrencia (R/NR - Cantidad Veces)
----------------------------------------------
+Niveles de ocurrencia (R / NR -  Cantidad Veces)
+------------------------------------------------
 Repetible (R)
 
-Definición y Alcance del campo
+Campo con esquema de metadatos
 ------------------------------
-Es un código local, nacional o internacional que se le otorga al recurso, puede ser una cadena alfanumérica para identificar su ubicación o puede ser un código normalizado según el tipo de recurso. 
+datacite:alternateIdentifier
 
-Forma de Descripción Normalizada (RDA/RCAA2)
------------------------------------------------
+Traducción al español
+---------------------
+Identificador Alternativo
+
+Forma de Descripción Normalizada (RDA / RCAA2)
+----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
-
 Valores permitidos (Vocabularios Controlados)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------
 alternateIdentifier
 
 Relaciones con otros campos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Restricciones
-~~~~~~~~~~~~~
+-------------
 
 Ejemplos
-~~~~~~~~
+--------
 - **ark:** Clave de recursos de archivo
 - **arxiv:** identificador arXiv.org
 - **doi:** Identificador de Objeto Digital
@@ -73,35 +65,23 @@ Atributos de Campo
 ------------------
 alternateIdentifier type
 
-Especificadores de Campo
+Especificadores de campo
 ------------------------
 
-Niveles de Aplicación - Productos de Colciencias
-------------------------------------------------
+Niveles de aplicación para productos de investigación de Colciencias
+--------------------------------------------------------------------
 Aplica para libros, revistas, artículos, documentos de trabajo, proyectos de investigación, norma técnica, proyecto de ley.
 
-
-Observaciones del Campo
------------------------
-
-Adaptado de..
-~~~~~~~~~~~~~
-
 Relaciones con otros modelos de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
 dc.identifier
 
-Niveles Semánticos
-~~~~~~~~~~~~~~~~~~
+Niveles semánticos
+------------------
 
-Recomendación de Campos de aplicación en DSPACE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Recomendación de campos de aplicación en DSPACE
+-----------------------------------------------
 
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- **OpenAIRE 3:** dc:relation
-
-Otras Observaciones
-~~~~~~~~~~~~~~~~~~~
-
-.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------
+OpenAIRE 3: dc:relation
