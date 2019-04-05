@@ -5,52 +5,45 @@ Referencia de financiación (MA)
 
 ``oaire:referenciaFinanciación``
 
-Nombre del campo
-----------------
+Definición y alcance del campo
+------------------------------
+Institución o Entidad relacionada con el apoyo financiero o la cofinanciación del proyecto y del producto de investigación que se está registrando.  
 
-Campo normalizado:
-~~~~~~~~~~~~~~~~~~
-fundingReference
-
-Campo con esquema de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-oaire:fundingReference
-
-Traducción al español:
-~~~~~~~~~~~~~~~~~~~~~~
-Referencia de financiación
+Los nombres de las instituciones y/o entidades financiadoras y cofinanciadoras deben colocarse completos.
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
 Obligatorio si es aplicable (MA)
 
-Niveles de Ocurrencia (R/NR - Cantidad Veces)
----------------------------------------------
+Niveles de ocurrencia (R / NR -  Cantidad Veces)
+------------------------------------------------
 Repetible (R)
 
-Definición y Alcance del campo
+Campo con esquema de metadatos
 ------------------------------
-Información relacionada con el apoyo financiero o la financiación del proyecto y del producto que se está registrando.  
+oaire:fundingReference
 
-Forma de Descripción Normalizada (RDA/RCAA2)
------------------------------------------------
+Traducción al español
+----------------------
+Referencia de financiación
+
+Forma de Descripción Normalizada (RDA / RCAA2)
+----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-funderIdentifier 
+---------------------------------------------
+funderIdentifier type
 
 Relaciones con otros campos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Creador
-Editor
+---------------------------
+Costos de la financiación o cofinanciación 
 
 Restricciones
-~~~~~~~~~~~~~
+-------------
 
 Ejemplos
-~~~~~~~~
-Observatorio Colombiano de Ciencia y Tecnología (OCyT).
+--------
 
 .. code-block:: xml
    :linenos:
@@ -67,40 +60,27 @@ Observatorio Colombiano de Ciencia y Tecnología (OCyT).
 
 .. _Crossref Funder Registry: http://fundref.org/services/funder-registry
 
-Atributos de Campo
+..
+
+Atributos de campo 
 ------------------
-funderIdentifier type 
+funderIdentifier type
 
-Especificadores de Campo
+Especificadores de campo
 ------------------------
-
-Niveles de Aplicación - Productos de Colciencias
-------------------------------------------------
-Se aplica a todos los productos de Colciencias. 
-
-Observaciones del Campo
------------------------
-
-Adaptado de
-~~~~~~~~~~~
+Niveles de aplicación para productos de investigación de Colciencias
+Se aplica a los productos que han sido financiados. 
 
 Relaciones con otros modelos de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
 
-Niveles Semánticos
-~~~~~~~~~~~~~~~~~~
+Niveles semánticos
+------------------
 
-Recomendación de Campos de aplicación en DSPACE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Recomendación de campos de aplicación en DSPACE
+-----------------------------------------------
 
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------
 
 - **OpenAIRE 3:** dc:relation
-
-Otras Observaciones
-~~~~~~~~~~~~~~~~~~~
-
-
-
-.. _Crossref Funder Registry: http://fundref.org/services/funder-registry
