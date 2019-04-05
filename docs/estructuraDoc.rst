@@ -8,16 +8,16 @@ El documento proporciona una descripción general de cómo configurar y utilizar
 
 - **Definición y alcance del campo:** Se exponen con precisión los conceptos de los campo y se determina de forma clara y sencilla los objetivos que se quieren alcanzar en cada uno.
 
-::
+..
 
 - **Niveles de requerimientos:** Son las propiedades de los metadatos definidas así:
 
-::
+..
 
   - **Obligatorio (M)**
     La propiedad siempre debe estar presente en los metadatos. No se permite un valor vacío para la propiedad.
 
-::
+..
 
   - **Obligatorio si es aplicable (MA)**
     Cuando se puede obtener el valor de la propiedad, debe estar presente en los metadatos.
