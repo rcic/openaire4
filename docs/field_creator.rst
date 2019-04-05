@@ -5,39 +5,38 @@ Creador (M)
 
 ``datacite:creator``
 
-Nombre del campo
-----------------
+Definición y alcance del campo
+------------------------------
 
-Campo normalizado:
-~~~~~~~~~~~~~~~~~~
-creator
+Es la entrada principal, puede ser nombre de persona o corporativo/institucional. 
 
-Campo con esquema de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-datacite:creator
+Consultar la siguiente información para diligenciar los campos en referencia.
 
-Traducción al español:
-~~~~~~~~~~~~~~~~~~~~~~
-Creador
+ORCID: http://orcid.org/ 
+Siga las siguientes pautas para el ingreso del ORCID: http://support.orcid.org/knowledgebase/articles/116780-structure-of-the-orcid-identifier ISNI: http://www.isni.org/
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
 Obligatorio (M)
 
-Niveles de Ocurrencia (R/NR - Cantidad Veces)
----------------------------------------------
+Niveles de ocurrencia (R / NR -  Cantidad Veces)
+------------------------------------------------
 Repetible (R)
 
-Definición y Alcance del campo
+Campo con esquema de metadatos
 ------------------------------
-Es la entrada principal, puede ser nombre de personal o corporativo/institucional.
+datacite:creator
 
-Forma de Descripción Normalizada (RDA/RCAA2)
------------------------------------------------
+Traducción al español
+---------------------
+Creador - Autor
+
+Forma de Descripción Normalizada (RDA / RCAA2)
+----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------
 - creatorName
 - nameType
 - givenName
@@ -45,20 +44,20 @@ Valores permitidos (Vocabularios Controlados)
 - nameIdentifier 
 - nameIdentifierScheme 
 - schemeURI 
-- affiliation
+- affiliation 
 
 Relaciones con otros campos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 - Colaborador
 - Editor
 
 Restricciones
-~~~~~~~~~~~~~
+-------------
 No se debe colocar nombres de colaboradores y editores.
 
+
 Ejemplos
-~~~~~~~~
-Observatorio Colombiano de Ciencia y Tecnología (OCyT).
+--------
 
 .. code-block:: xml
    :linenos:
@@ -76,11 +75,13 @@ Observatorio Colombiano de Ciencia y Tecnología (OCyT).
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
 
-Atributos de Campo
+..
+
+Atributos de campo
 ------------------
 name type
 
-Especificadores de Campo
+Especificadores de campo
 ------------------------
 - creatorName
 - nameType
@@ -89,38 +90,27 @@ Especificadores de Campo
 - nameIdentifier 
 - nameIdentifierScheme 
 - schemeURI 
-- affiliation
+- affiliation 
 
-Niveles de Aplicación - Productos de Colciencias
-------------------------------------------------
+Niveles de aplicación para productos de investigación de Colciencias
+--------------------------------------------------------------------
 Se aplica a todos los productos de Colciencias. 
 
-Observaciones del Campo
------------------------
-Consultar la siguiente información para diligenciar los campos en referencia.
-
-ORCID: http://orcid.org/ 
-Siga las siguientes pautas para el ingreso del ORCID: http://support.orcid.org/knowledgebase/articles/116780-structure-of-the-orcid-identifier ISNI: http://www.isni.org/
-
-Adaptado de
-~~~~~~~~~~~
-
 Relaciones con otros modelos de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
 dc.creator
 
-Niveles Semánticos
-~~~~~~~~~~~~~~~~~~
+Niveles semánticos
+------------------
 
-Recomendación de Campos de aplicación en DSPACE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Recomendación de campos de aplicación en DSPACE
+-----------------------------------------------
 
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------
+
 - **OpenAIRE 3:** dc.creator
 - **BDCOL:** dc.creator.corporativo
 
-Otras Observaciones
-~~~~~~~~~~~~~~~~~~~
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
