@@ -5,54 +5,47 @@ Colaborador (MA)
 
 ``datacite:contributor``
 
-Nombre del campo
-----------------
-
-Campo normalizado:
-~~~~~~~~~~~~~~~~~~
-contributor
-
-Campo con esquema de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-datacite:contributor
-
-Traducción al español:
-~~~~~~~~~~~~~~~~~~~~~~
-Colaborador
+Definición y alcance del campo
+------------------------------
+Es la entrada secundaria, puede ser nombre de persona o corporativo/institucional. 
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
 Obligatorio si es aplicable (MA)
 
-Niveles de Ocurrencia (R/NR - Cantidad Veces)
----------------------------------------------
-Repetible (R)
+Niveles de ocurrencia (R / NR -  Cantidad Veces)
+------------------------------------------------
+Repetible (R) 
 
-Definición y Alcance del campo
+Campo con esquema de metadatos
 ------------------------------
-Es la entrada secundaria, puede ser nombre de persona o corporativo/institucional. 
+datacite:contributor
 
-Forma de Descripción Normalizada (RDA/RCAA2)
------------------------------------------------
+Traducción al español
+---------------------
+Colaborador
+
+Forma de Descripción Normalizada (RDA / RCAA2)
+----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------
 - name type
 - contributor type
 
 Relaciones con otros campos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 - Creador
 - Editor
 
 Restricciones
-~~~~~~~~~~~~~
+-------------
 No se debe colocar nombres de creadores y editores. 
+ 
 
 Ejemplos
 ~~~~~~~~
-Observatorio Colombiano de Ciencia y Tecnología (OCyT).
 
 .. code-block:: xml
    :linenos:
@@ -68,41 +61,29 @@ Observatorio Colombiano de Ciencia y Tecnología (OCyT).
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
 
-Atributos de Campo
+..
+
+Atributos de campo 
 ------------------
+
 - name type
 - contributor type
 
-Especificadores de Campo
+Especificadores de campo
 ------------------------
 
-Niveles de Aplicación - Productos de Colciencias
-------------------------------------------------
+Niveles de aplicación para productos de investigación de Colciencias
+--------------------------------------------------------------------
 Se aplica a todos los productos de Colciencias. 
 
-Observaciones del Campo
------------------------
-
-Adaptado de
-~~~~~~~~~~~
-
 Relaciones con otros modelos de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
 dc.contributor
 
-Niveles Semánticos
-~~~~~~~~~~~~~~~~~~
+Niveles semánticos
+------------------
 
-Recomendación de Campos de aplicación en DSPACE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Otras Observaciones
-~~~~~~~~~~~~~~~~~~~
-
-- **OpenAIRE 3:** dc.contributor
-- **BDCOL:** dc.contributor, dc:contributor.advisor
-
-.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------
+OpenAIRE 3: dc.contributor
+BDCOL: dc.contributor, dc:contributor.advisor
