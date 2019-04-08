@@ -5,46 +5,39 @@ Ubicación geográfica (O)
 
 ``datacite:geoLocation``
 
-Nombre del campo
-----------------
-
-Campo normalizado:
-~~~~~~~~~~~~~~~~~~
-geoLocation
-
-Campo con esquema de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-datacite:geoLocation
-
-Traducción al español:
-~~~~~~~~~~~~~~~~~~~~~~
-Ubicación geográfica
+Definición y alcance del campo
+------------------------------
+Lugar donde se recuperaron los datos del recurso. Repita el campo si el recurso cuenta con ubicaciones diferentes.
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
 Opcional (O)
 
-Niveles de Ocurrencia (R/NR - Cantidad Veces)
----------------------------------------------
-Repetible ( R)
+Niveles de ocurrencia (R / NR -  Cantidad Veces)
+------------------------------------------------
+Repetible (R)
 
-Definición y Alcance del campo
+Campo con esquema de metadatos
 ------------------------------
-Lugar donde se recuperaron los datos del recurso. Repita el campo si el recurso cuenta con ubicaciones diferentes.
+datacite:geoLocation
 
-Forma de Descripción Normalizada (RDA/RCAA2)
------------------------------------------------
+Traducción al español
+---------------------
+Ubicación geográfica
+
+Forma de Descripción Normalizada (RDA / RCAA2)
+----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------
 datacite:geoLocation
 
 Relaciones con otros campos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Restricciones
-~~~~~~~~~~~~~
+-------------
 
 Ejemplos
 ~~~~~~~~
@@ -70,35 +63,25 @@ Ejemplos
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
 
-Atributos de Campo
+
+Atributos de campo
 ------------------
 
-Especificadores de Campo
+Especificadores de campo
 ------------------------
 
-Niveles de Aplicación - Productos de Colciencias
-------------------------------------------------
-Se aplica a todos los productos de Colciencias.
-
-Observaciones del Campo
------------------------
-
-Adaptado de
-~~~~~~~~~~~
+Niveles de aplicación para productos de investigación de Colciencias
+--------------------------------------------------------------------
+Se aplica a todos los productos de Colciencias. 
 
 Relaciones con otros modelos de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
 
-Niveles Semánticos
-~~~~~~~~~~~~~~~~~~
+Niveles semánticos
+------------------
 
-Recomendación de Campos de aplicación en DSPACE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Recomendación de campos de aplicación en DSPACE
+-----------------------------------------------
 
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Otras Observaciones
-~~~~~~~~~~~~~~~~~~~
-
-.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------
