@@ -5,67 +5,10 @@ Cita bibliográfica (R)
 
 ``redcol.source.bibliographicCitation``
 
-Nombre del campo
-----------------
-
-Campo normalizado:
-~~~~~~~~~~~~~~~~~~
-source.bibliographicCitation
-
-Campo con esquema de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-redcol.source.bibliographicCitation
-
-Traducción al español:
-~~~~~~~~~~~~~~~~~~~~~~
-Cita bibliográfica
-
-Niveles de requerimientos (M/MA/R/O)
-------------------------------------
-Recomendado (R)
-
-Niveles de Ocurrencia (R/NR - Cantidad Veces)
----------------------------------------------
-Repetible (R)
-
-Definición y Alcance del campo
+Definición y alcance del campo
 ------------------------------
-Hace referencia a la bibliografías que contiene el recurso.
+Hace referencia a la bibliografías que contiene el recurso. 
 
-Forma de Descripción Normalizada (RDA/RCAA2)
---------------------------------------------
-RDA (Recursos: descripción y acceso)
-
-Valores permitidos (Vocabularios Controlados)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-dc:source.bibliographicCitation
-
-Relaciones con otros campos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Restricciones
-~~~~~~~~~~~~~
-
-Ejemplos
-~~~~~~~~
-
-.. code-block:: xml
-   :linenos:
-
-   <redcol.source.bibliographicCitation>Bdolah, Y., Karumanchi, S. A., & Sachs, B. P. (2005). Recent advances in understanding of preeclampsia. Croatian Medical Journal, 46(5), 728–736</redcol.source.bibliographicCitation>
-
-Atributos de Campo
-------------------
-
-Especificadores de Campo
-------------------------
-
-Niveles de Aplicación - Productos de Colciencias
-------------------------------------------------
-Se aplica a todos los productos de Colciencias.
-
-Observaciones del Campo
------------------------
 Se recomienda utilizar los siguientes estilos de citación:
 
 **APA (American Psychological Association):**  Este estilo ya cuenta con seis ediciones y explica cómo se deben presentar artículos científicos: márgenes, fuente, tamaño de letra, uso de color, gráficas, tablas, y citación y referenciación. 
@@ -78,21 +21,64 @@ Se recomienda utilizar los siguientes estilos de citación:
 
 **VANCOUVER:** Este estilo de citación válidas para todo tipo de documentos específico para las áreas de Ciencias de la Salud.
 
-Adaptado de
-~~~~~~~~~~~
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
+Recomendado (R)
+
+Niveles de ocurrencia (R / NR -  Cantidad Veces)
+------------------------------------------------
+Repetible ( R)
+
+Campo con esquema de metadatos
+------------------------------
+redcol.source.bibliographicCitation
+
+Traducción al español
+---------------------
+Cita bibliográfica 
+
+Forma de Descripción Normalizada (RDA / RCAA2)
+----------------------------------------------
+RDA (Recursos: descripción y acceso)
+
+Valores permitidos (Vocabularios Controlados)
+---------------------------------------------
+redcol.source.bibliographicCitation
+
+Relaciones con otros campos
+---------------------------
+
+Restricciones
+-------------
+
+Ejemplos
+--------
+
+.. code-block:: xml
+   :linenos:
+
+   <redcol.source.bibliographicCitation>Bdolah, Y., Karumanchi, S. A., & Sachs, B. P. (2005). Recent advances in understanding of preeclampsia. Croatian Medical Journal, 46(5), 728–736</redcol.source.bibliographicCitation>
+
+Atributos de campo
+------------------
+
+Especificadores de campo
+------------------------
+bibliographicCitation
+
+Niveles de aplicación para productos de investigación de Colciencias
+--------------------------------------------------------------------
+Se aplica a todos los productos de Colciencias. 
 
 Relaciones con otros modelos de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
 dc.source.bibliographicCitation
 
-Niveles Semánticos
-~~~~~~~~~~~~~~~~~~
+Niveles semánticos
+------------------
 
-Recomendación de Campos de aplicación en DSPACE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Recomendación de campos de aplicación en DSPACE
+-----------------------------------------------
 
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Otras Observaciones
-~~~~~~~~~~~~~~~~~~~
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------
