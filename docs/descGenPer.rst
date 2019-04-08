@@ -62,6 +62,7 @@ Campo-OpenAIRE                             Elemento Metadata                   R
 :ref:`redcol.source.event`                 redcol.source.event
 :ref:`redcol.project.identifier`           redcol.project.identifier
 :ref:`redcol.publisher.nationalprograms`   redcol.publisher.nationalprograms    :ref:`national programs type <vocab:nationalprogramstype_nationalprogramstype>`
+:ref:`redcol.publisher.linkedcommunity`    redcol.publisher.linkedcommunity
 ========================================== =================================== ========================================================================================
 
 
@@ -135,6 +136,7 @@ En los documentos de metadatos de XML, el esquema se debe declarar de la siguien
    field_sourceevent
    field_projectidentifier
    field_publishernationalprograms
+   field_publisherlinkedcommunity
 
 
 
