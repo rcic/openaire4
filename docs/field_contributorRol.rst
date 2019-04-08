@@ -6,91 +6,72 @@ Rol del colaborador (MA)
 
 ``redcol.contributor.rol``
 
-Nombre del campo
-----------------
-
-Campo normalizado:
-~~~~~~~~~~~~~~~~~~
-contributorRol
-
-Campo con esquema de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-redcol.contributor.rol
-
-Traducción al español:
-~~~~~~~~~~~~~~~~~~~~~~
-Rol del colaborador
+Definición y alcance del campo
+------------------------------
+Se identifica el rol del colaborador, como entrada secundaria, puede ser nombre de persona o corporativo/institucional.
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
 Obligatorio si es aplicable (MA)
-
-Niveles de Ocurrencia (R/NR - Cantidad Veces)
----------------------------------------------
+ 
+Niveles de ocurrencia (R / NR -  Cantidad Veces)
+------------------------------------------------
 Repetible (R)
 
-Definición y Alcance del campo
+Campo con esquema de metadatos
 ------------------------------
-Se identifica el rol del colaborador, como entrada secundaria, puede ser nombre de persona o corporativo/institucional. 
-
-Forma de Descripción Normalizada (RDA/RCAA2)
------------------------------------------------
+redcol.contributor.rol
+ 
+Traducción al español
+---------------------
+Rol del colaborador
+  
+Forma de Descripción Normalizada (RDA / RCAA2)
+----------------------------------------------
 RDA (Recursos: descripción y acceso)
-
+ 
 Valores permitidos (Vocabularios Controlados)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- contributor role
-
+---------------------------------------------
+contributor role
+ 
 Relaciones con otros campos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 - Creador
 - Editor
-
+ 
 Restricciones
-~~~~~~~~~~~~~
-No se debe colocar nombres de creadores y editores. 
+-------------
 
 Ejemplos
-~~~~~~~~
-Observatorio Colombiano de Ciencia y Tecnología (OCyT).
+--------
 
 .. code-block:: xml
    :linenos:
 
    <redcol:contributor.rol>asesor</redcol:contributor.rol>
 
-.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
 
-Atributos de Campo
+Atributos de campo
 ------------------
-- contributor rol
-
-Especificadores de Campo
+contributor rol
+ 
+Especificadores de campo
 ------------------------
+rol
 
-Niveles de Aplicación - Productos de Colciencias
-------------------------------------------------
-Se aplica a los productos de tesis de doctorado, trabajos de grado de maestría y trabajos de grado de pregrado. 
-
-Observaciones del Campo
------------------------
-
-Adaptado de
-~~~~~~~~~~~
-
+Niveles de aplicación para productos de investigación de Colciencias
+--------------------------------------------------------------------
+Se aplica a los productos de tesis de doctorado, trabajos de grado de maestría y trabajos de grado de pregrado.
+ 
 Relaciones con otros modelos de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
+dc.contributor.rol
 
-Niveles Semánticos
-~~~~~~~~~~~~~~~~~~
+Niveles semánticos
+------------------
 
-Recomendación de Campos de aplicación en DSPACE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Recomendación de campos de aplicación en DSPACE
+-----------------------------------------------
 
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Otras Observaciones
-~~~~~~~~~~~~~~~~~~~
-
-.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------
