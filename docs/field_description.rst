@@ -5,49 +5,44 @@ Descripción (MA)
 
 ``dc.description``
 
-Nombre del campo
-----------------
+Definición y alcance del campo
+------------------------------
+Información general o específica del recurso utilizada para la descripción textual. En la descripción se puede incluir resumen, tabla de contenido, representación gráfica
 
-Campo normalizado:
-~~~~~~~~~~~~~~~~~~
-description
-
-Campo con esquema de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-dc.description
-
-Traducción al español:
-~~~~~~~~~~~~~~~~~~~~~~
-Descripción
+Cuando un recurso consta de varios recursos o anexos en URL, no se debe utilizar este campo para enumerar estos recursos.  
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
 Obligatorio si es aplicable (MA)
 
-Niveles de Ocurrencia (R/NR - Cantidad Veces)
----------------------------------------------
+Niveles de ocurrencia (R / NR -  Cantidad Veces)
+------------------------------------------------
 Repetible (R)
 
-Definición y Alcance del campo
+Campo con esquema de metadatos
 ------------------------------
-Información general o específica del recurso utilizada para la descripción textual. En la descripción se puede incluir resumen, tabla de contenido, representación gráfica
+dc.description 
 
-Forma de Descripción Normalizada (RDA/RCAA2)
------------------------------------------------
+Traducción al español
+---------------------
+Descripción 
+
+Forma de Descripción Normalizada (RDA / RCAA2)
+----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------
 Description
 
 Relaciones con otros campos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Restricciones
-~~~~~~~~~~~~~
+-------------
 
 Ejemplos
-~~~~~~~~
+--------
 
 .. code-block:: xml
    :linenos:
@@ -66,33 +61,21 @@ Atributos de Campo
 ------------------
 xml:lang → se utiliza este atributo para indicar el idioma de la descripción.
 
-Especificadores de Campo
+Especificadores de campo
 ------------------------
 
-Niveles de Aplicación - Productos de Colciencias
-------------------------------------------------
+Niveles de aplicación para productos de investigación de Colciencias
+--------------------------------------------------------------------
 Se aplica a todos los productos de Colciencias. 
 
-Observaciones del Campo
------------------------
-Cuando un recurso consta de varios recursos o anexos en URL, no se debe utilizar este campo para enumerar estos recursos.
-
-Adaptado de
-~~~~~~~~~~~
-
 Relaciones con otros modelos de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
 
-Niveles Semánticos
-~~~~~~~~~~~~~~~~~~
+Niveles semánticos
+------------------
 
-Recomendación de Campos de aplicación en DSPACE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Recomendación de campos de aplicación en DSPACE
+-----------------------------------------------
 
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Otras Observaciones
-~~~~~~~~~~~~~~~~~~~
-
-.. _DRIVER Guidelines v2 element description: https://wiki.surfnet.nl/display/DRIVERguidelines/Description
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------
