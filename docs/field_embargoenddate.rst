@@ -5,50 +5,43 @@ Fecha de Periodo de Embargo (MA)
 
 ``datacite:date``
 
-Nombre del campo
-----------------
-
-Campo normalizado
-~~~~~~~~~~~~~~~~~
-date
-
-Campo con esquema de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-datacite:date
-
-Traducción al español:
-~~~~~~~~~~~~~~~~~~~~~~
-Fecha de periodo de embargo
+Definición y alcance del campo
+------------------------------
+Fecha asociada a la disponibilidad del recurso. 
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
 Obligatorio cuando sea aplicable (MA)
 
-Niveles de Ocurrencia (R/NR - Cantidad Veces)
----------------------------------------------
+Niveles de ocurrencia (R / NR -  Cantidad Veces)
+------------------------------------------------
 No repetible (NR)
 
-Definición y Alcance del campo
+Campo con esquema de metadatos
 ------------------------------
-Fecha asociada a la disponibilidad del recurso. 
+datacite:date
 
-Forma de Descripción Normalizada (RDA/RCAA2)
----------------------------------------------
+Traducción al español
+---------------------
+Fecha de periodo de embargo
+
+Forma de Descripción Normalizada (RDA / RCAA2)
+----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-date type
+---------------------------------------------
+date type 
 
 Relaciones con otros campos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Fecha de finalización de embargo
+---------------------------
+Fecha de finalización de embargo 
 
 Restricciones
-~~~~~~~~~~~~~
+-------------
 
 Ejemplos
-~~~~~~~~
+--------
 
 .. code-block:: xml
    :linenos:
@@ -59,37 +52,27 @@ Ejemplos
    </datacite:dates>
 
 
-Atributos de Campo
+Atributos de campo
 ------------------
 data type
 
-Especificadores de Campo
+Especificadores de campo
 ------------------------
 
-
-Niveles de Aplicación - Productos de Colciencias
-------------------------------------------------
+Niveles de aplicación para productos de investigación de Colciencias
+--------------------------------------------------------------------
 Revistas, artículos, documentos de trabajo.
 
-Observaciones del Campo
------------------------
-
-Adaptado de..
-~~~~~~~~~~~~~
-
 Relaciones con otros modelos de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
 dc.date
 
-Niveles Semánticos
-~~~~~~~~~~~~~~~~~~
+Niveles semánticos
+------------------
 
-Recomendación de Campos de aplicación en DSPACE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Recomendación de campos de aplicación en DSPACE
+------------------------------------------------
 
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- **OpenAIRE 3:** dc.date
-
-Otras Observaciones
-~~~~~~~~~~~~~~~~~~~
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------
+OpenAIRE 3: dc.date
