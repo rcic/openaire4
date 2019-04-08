@@ -3,7 +3,7 @@
 Referencia de financiación (MA)
 ===============================
 
-``oaire:referenciaFinanciación``
+``oaire:fundingReference``
 
 Definición y alcance del campo
 ------------------------------
