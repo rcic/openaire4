@@ -6,49 +6,42 @@ Programa (MA)
 
 ``redcol.publisher.program``
 
-Nombre del campo
-----------------
-
-Campo normalizado:
-~~~~~~~~~~~~~~~~~~
-publisherprogram
-
-Campo con esquema de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-redcol.publisher.program
-
-Traducción al español:
-~~~~~~~~~~~~~~~~~~~~~~
-Programa
-
+Definición y alcance del campo
+------------------------------
+Hace referencia al programa estudiado.
+ 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
 Obligatorio si es aplicable (MA)
-
-Niveles de Ocurrencia (R/NR - Cantidad Veces)
----------------------------------------------
+ 
+Niveles de ocurrencia (R / NR -  Cantidad Veces)
+------------------------------------------------
 Repetible (R)
 
-Definición y Alcance del campo
+Campo con esquema de metadatos
 ------------------------------
-Hace referencia al programa estudiado.
-
-Forma de Descripción Normalizada (RDA/RCAA2)
------------------------------------------------
+redcol.publisher.program
+ 
+Traducción al español
+---------------------
+Programa
+  
+Forma de Descripción Normalizada (RDA / RCAA2)
+----------------------------------------------
 RDA (Recursos: descripción y acceso)
-
+ 
 Valores permitidos (Vocabularios Controlados)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- Publisher.program
-
+---------------------------------------------
+Publisher.program
+ 
 Relaciones con otros campos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Restricciones
-~~~~~~~~~~~~~
+-------------
 
 Ejemplos
-~~~~~~~~
+--------
 
 .. code-block:: xml
    :linenos:
@@ -56,39 +49,27 @@ Ejemplos
    <redcol.publisher.program>Ingeniería de Sistemas</redcol.publisher.program>
 
 
-Atributos de Campo
+Atributos de campo
 ------------------
-- No aplica
-
-Especificadores de Campo
+Program type
+ 
+Especificadores de campo
 ------------------------
-
-Niveles de Aplicación - Productos de Colciencias
-------------------------------------------------
-Se aplica a todos los productos de Colciencias. 
-
-Observaciones del Campo
------------------------
-No confundir con colaborador (MA) y creador (M). En la mayoría de los caros el colaborador y el editor no son los mismos.
-
-Adaptado de
-~~~~~~~~~~~
-
+Program
+ 
+Niveles de aplicación para productos de investigación de Colciencias
+--------------------------------------------------------------------
+Se aplica a los productos de tesis de doctorado, trabajo de grado de maestría y trabajo de pregrado.  
+ 
 Relaciones con otros modelos de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
+dc.publisher
 
-Niveles Semánticos
-~~~~~~~~~~~~~~~~~~
+Niveles semánticos
+------------------
+ 
+Recomendación de campos de aplicación en DSPACE
+-----------------------------------------------
 
-Recomendación de Campos de aplicación en DSPACE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-- **OpenAIRE 3:** dc.publisher
-
-Otras Observaciones
-~~~~~~~~~~~~~~~~~~~
-
-.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------
