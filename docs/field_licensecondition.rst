@@ -5,49 +5,45 @@ Condición de la licencia (R)
 
 ``oaire:licenseCondition``
 
-Nombre del campo
-----------------
+Definición y alcance del campo
+------------------------------
+Información sobre los derechos de la licencia. Está información deberá contener los derechos de autor y de propiedad intelectual definidos por la institución, de igual forma derechos de uso y reutilización del recurso. 
 
-Campo normalizado:
-~~~~~~~~~~~~~~~~~~
-licenseCondition
-
-Campo con esquema de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-oaire:licenseCondition
-
-Traducción al español:
-~~~~~~~~~~~~~~~~~~~~~~
-Condición de la licencia
+Pueden utilizarse las licencias de Creative Commons. 
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
 Recomendado (R)
 
-Niveles de Ocurrencia (R/NR - Cantidad Veces)
----------------------------------------------
+Niveles de ocurrencia (R / NR -  Cantidad Veces)
+------------------------------------------------
 No repetible (NR)
 
-Definición y Alcance del campo
+Campo con esquema de metadatos
 ------------------------------
-Información sobre los derechos de la licencia. Está información deberá contener los derechos de autor y de propiedad intelectual definidos por la institución, de igual forma derechos de uso y reutilización del recurso. 
+oaire:licenseCondition
 
-Forma de Descripción Normalizada (RDA/RCAA2)
---------------------------------------------
+Traducción al español
+---------------------
+Condición de la licencia
+
+Forma de Descripción Normalizada (RDA / RCAA2)
+----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------
 oaire:licenseCondition
 
 Relaciones con otros campos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Restricciones
-~~~~~~~~~~~~~
+-------------
+
 
 Ejemplos
-~~~~~~~~
+--------
 
 .. code-block:: xml
    :linenos:
@@ -60,31 +56,21 @@ Atributos de Campo
 Se recomienda utilizar el atributo de fecha, es la mejor práctica recomendada para codificar según  ISO 8601 [W3CDTF]. Utilizando el formato:
 YYYY-MM-DD
 
-Especificadores de Campo
+Especificadores de campo
 ------------------------
 
-Niveles de Aplicación - Productos de Colciencias
-------------------------------------------------
+Niveles de aplicación para productos de investigación de Colciencias
+--------------------------------------------------------------------
 Se aplica a todos los productos de Colciencias. 
 
-Observaciones del Campo
------------------------
-Pueden utilizarse las licencias de Creative Commons.
-
-Adaptado de..
-~~~~~~~~~~~~~
-
 Relaciones con otros modelos de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
 
-Niveles Semánticos
-~~~~~~~~~~~~~~~~~~
+Niveles semánticos
+------------------
 
-Recomendación de Campos de aplicación en DSPACE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Recomendación de campos de aplicación en DSPACE
+-----------------------------------------------
 
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Otras Observaciones
-~~~~~~~~~~~~~~~~~~~
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------
