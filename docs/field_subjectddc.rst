@@ -5,53 +5,45 @@ Materia DDC (MA)
 
 ``redcol:subject.ddc``
 
-Nombre del campo
-----------------
+Definición y alcance del campo
+------------------------------
+Asunto, palabra clave, tema o frase que describe al recurso. Es un punto de acceso normalizado con el Sistema de Clasificación Decimal Dewey que tiene el recurso para ser consultado por el usuario.
 
-Campo normalizado:
-~~~~~~~~~~~~~~~~~~
-subject
-
-Campo con esquema de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-redcol:subject.ddc
-
-Traducción al español:
-~~~~~~~~~~~~~~~~~~~~~~
-Materia - Sistema de Clasificación Decimal Dewey
+Consultar Web Dewey: http://dewey.org/webdewey/login/login.html;jsessionid=7080E4FBB6070009BF2F56A64AA5EE0B 
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
 Obligatorio si es aplicable (MA)
 
-Niveles de Ocurrencia (R/NR - Cantidad Veces)
----------------------------------------------
+Niveles de ocurrencia (R / NR -  Cantidad Veces)
+------------------------------------------------
 Repetible (R)
 
-Definición y Alcance del campo
+Campo con esquema de metadatos
 ------------------------------
-Asunto, palabra clave, tema o frase que describe al recurso. Es un punto de acceso normalizado con el Sistema de Clasificación Decimal Dewey que tiene el recurso para ser consultado por el usuario. 
+redcol:subject.ddc
 
-Forma de Descripción Normalizada (RDA/RCAA2)
------------------------------------------------
+Traducción al español
+---------------------
+Materia - Sistema de Clasificación Decimal Dewey
+
+Forma de Descripción Normalizada (RDA / RCAA2)
+----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------
 redcol:subject.ddc
 
 Relaciones con otros campos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- datacite:subject.armarc
-- datacite:subject.lemb
-- datacite:subject.ocde
-- datacite:subject.skos
+---------------------------
+datacite:subject
 
 Restricciones
-~~~~~~~~~~~~~
+-------------
 
 Ejemplos
-~~~~~~~~
+--------
 
 .. code-block:: xml
    :linenos:
@@ -61,35 +53,26 @@ Ejemplos
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
 
-Atributos de Campo
+Atributos de campo
 ------------------
 
-Especificadores de Campo
+Especificadores de campo
 ------------------------
+ddc
 
-Niveles de Aplicación - Productos de Colciencias
-------------------------------------------------
-Se aplica a todos los productos de Colciencias.
-
-Observaciones del Campo
------------------------
-Consultar Web Dewey: http://dewey.org/webdewey/login/login.html;jsessionid=7080E4FBB6070009BF2F56A64AA5EE0B 
-
-Adaptado de
-~~~~~~~~~~~
+Niveles de aplicación para productos de investigación de Colciencias
+--------------------------------------------------------------------
+Se aplica a todos los productos de Colciencias. 
 
 Relaciones con otros modelos de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
 dc.subject.ddc
 
-Niveles Semánticos
-~~~~~~~~~~~~~~~~~~
+Niveles semánticos
+------------------
 
-Recomendación de Campos de aplicación en DSPACE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Recomendación de campos de aplicación en DSPACE
+-----------------------------------------------
 
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Otras Observaciones
-~~~~~~~~~~~~~~~~~~~
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------
