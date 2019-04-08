@@ -5,50 +5,45 @@ Tipo de recurso (M)
 
 ``oaire:resourceType``
 
-Nombre del campo
-----------------
+Definición y alcance del campo
+------------------------------
+Hace referencia al tipo de producción científica o contenido intelectual en el que se manifiesta el recurso. Y es utilizado por el usuario para identificar el recurso que está buscando. Ejemplo: Libro, artículo, revista, etc. 
 
-Campo normalizado:
-~~~~~~~~~~~~~~~~~~
-resource type
-
-Campo con esquema de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-oaire:resourcetype
-
-Traducción al español:
-~~~~~~~~~~~~~~~~~~~~~~
-Tipo de recurso
+No confundir con el campo Formato (R), porque hace referencia al tipo de medio en el que está el recurso. 
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
 Obligatorio (M)
 
-Niveles de Ocurrencia (R/NR - Cantidad Veces)
----------------------------------------------
+Niveles de ocurrencia (R / NR -  Cantidad Veces)
+------------------------------------------------
 No repetible (NR)
 
-Definición y Alcance del campo
+Campo con esquema de metadatos
 ------------------------------
-Hace referencia al tipo de producción científica o contenido intelectual en el que se manifiesta el recurso. Y es utilizado por el usuario para identificar el recurso que está buscando. Ejemplo: Libro, artículo, revista, etc. 
+oaire:resourcetype 
 
-Forma de Descripción Normalizada (RDA/RCAA2)
------------------------------------------------
+Traducción al español
+---------------------
+Tipo de recurso
+
+Forma de Descripción Normalizada (RDA / RCAA2)
+----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Ver vocabularios
-http://vocabularies.coar-repositories.org/documentation/resource_types/
+---------------------------------------------
+Ver vocabularios http://vocabularies.coar-repositories.org/documentation/resource_types/ 
 
 Relaciones con otros campos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Restricciones
-~~~~~~~~~~~~~
+-------------
+
 
 Ejemplos
-~~~~~~~~
+--------
 
 .. code-block:: xml
    :linenos:
@@ -182,33 +177,21 @@ Atributos de Campo
 | http://purl.org/coar/resource_type/c_1843     | Otro                    |
 +-----------------------------------------------+-------------------------+
 
-Especificadores de Campo
+Especificadores de campo
 ------------------------
 
-Niveles de Aplicación - Productos de Colciencias
-------------------------------------------------
-Se aplica a todos los productos de Colciencias.
-
-Observaciones del Campo
------------------------
-No confundir con el campo Formato (R ), porque hace referencia al tipo de medio en el que está el recurso. 
-
-Adaptado de
-~~~~~~~~~~~
+Niveles de aplicación para productos de investigación de Colciencias
+--------------------------------------------------------------------
+Se aplica a todos los productos de Colciencias. 
 
 Relaciones con otros modelos de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
 
-Niveles Semánticos
-~~~~~~~~~~~~~~~~~~
+Niveles semánticos
+------------------
 
-Recomendación de Campos de aplicación en DSPACE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Recomendación de campos de aplicación en DSPACE
+-----------------------------------------------
 
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Otras Observaciones
-~~~~~~~~~~~~~~~~~~~
-
-.. _COAR Resource Type Vocabulary: http://vocabularies.coar-repositories.org/documentation/resource_types/
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------
