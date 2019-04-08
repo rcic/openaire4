@@ -5,68 +5,10 @@ Audiencia (O)
 
 ``dcterms:audience``
 
-Nombre del campo
-----------------
-
-Campo normalizado:
-~~~~~~~~~~~~~~~~~~
-audience
-
-Campo con esquema de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-dcterms:audience
-
-Traducción al español:
-~~~~~~~~~~~~~~~~~~~~~~
-Audiencia
-
-Niveles de requerimientos (M/MA/R/O)
-------------------------------------
-Opcional (O)
-
-Niveles de Ocurrencia (R/NR - Cantidad Veces)
----------------------------------------------
-No repetible (NR)
-
-Definición y Alcance del campo
+Definición y alcance del campo
 ------------------------------
 Hace referencia al público a quien va dirigido el recurso o es útil. 
 
-Forma de Descripción Normalizada (RDA/RCAA2)
------------------------------------------------
-RDA (Recursos: descripción y acceso)
-
-Valores permitidos (Vocabularios Controlados)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-datacite:rights
-
-Relaciones con otros campos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Restricciones
-~~~~~~~~~~~~~
-
-Ejemplos
-~~~~~~~~
-
-.. block-code:: xml
-   :linenos:
-
-   	<dcterms:audience>Investigadores</dcterms:audience>
-	<dcterms:audience>Público general</dcterms:audience>
-
-Atributos de Campo
-------------------
-
-Especificadores de Campo
-------------------------
-
-Niveles de Aplicación - Productos de Colciencias
-------------------------------------------------
-Se aplica a todos los productos de Colciencias.
-
-Observaciones del Campo
------------------------
 Ejemplo de audiencias de un vocabulario controlado:
 
 - Administradores
@@ -78,31 +20,73 @@ Ejemplo de audiencias de un vocabulario controlado:
 - Padres y familias
 - Responsables políticos
 - Investigadores
-- Personal de Apoyo Escolar
+- Personal de apoyo escolar
 - Proveedores de ayuda financiera para estudiantes
 - Estudiantes
 - Maestros
+- Público general 
 
-Aquí encuentra más términos controlados: 
+Aquí encuentra más términos controlados:
 Common Education Data Standards: https://ceds.ed.gov/element/001492
 
-Adaptado de
-~~~~~~~~~~~
+Niveles de requerimientos (M/MA/R/O)
+------------------------------------
+Opcional (O)
+
+Niveles de ocurrencia (R / NR -  Cantidad Veces)
+------------------------------------------------
+No repetible (NR)
+
+Campo con esquema de metadatos
+------------------------------
+dcterms:audience
+
+Traducción al español
+---------------------
+Audiencia
+
+Forma de Descripción Normalizada (RDA / RCAA2)
+----------------------------------------------
+RDA (Recursos: descripción y acceso)
+
+Valores permitidos (Vocabularios Controlados)
+---------------------------------------------
+dcterms:audience
+
+Relaciones con otros campos
+---------------------------
+
+Restricciones
+-------------
+
+
+Ejemplos
+--------
+
+.. block-code:: xml
+   :linenos:
+
+   	<dcterms:audience>Investigadores</dcterms:audience>
+	<dcterms:audience>Público general</dcterms:audience>
+
+Atributos de campo 
+------------------
+
+Especificadores de campo
+------------------------
+
+Niveles de aplicación para productos de investigación de Colciencias
+--------------------------------------------------------------------
+Se aplica a todos los productos de Colciencias. 
 
 Relaciones con otros modelos de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
 
-Niveles Semánticos
-~~~~~~~~~~~~~~~~~~
+Niveles semánticos
+------------------
 
-Recomendación de Campos de aplicación en DSPACE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Recomendación de campos de aplicación en DSPACE
+-----------------------------------------------
 
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Otras Observaciones
-~~~~~~~~~~~~~~~~~~~
-
-.. _Common Education Data Standards vocabulary: https://ceds.ed.gov/element/001492
-.. _DRIVER Guidelines v2 element audience: https://wiki.surfnet.nl/display/DRIVERguidelines/Audience
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------
