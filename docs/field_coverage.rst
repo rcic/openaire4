@@ -5,49 +5,42 @@ Cobertura (R)
 
 ``dc.coverage``
 
-Nombre del campo
-----------------
-
-Campo normalizado:
-~~~~~~~~~~~~~~~~~~
-coverage
-
-Campo con esquema de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-dc.coverage
-
-Traducción al español:
-~~~~~~~~~~~~~~~~~~~~~~
-Cobertura
+Definición y alcance del campo
+------------------------------
+La cobertura generalmente incluirá la ubicación espacial (un nombre del lugar o coordenadas geográficas), el período temporal (una etiqueta del período, la fecha o el rango de fechas) o la jurisdicción (como una entidad administrativa nombrada). La mejor práctica recomendada es seleccionar un valor de un vocabulario controlado. 
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
 Recomendado (R)
 
-Niveles de Ocurrencia (R/NR - Cantidad Veces)
----------------------------------------------
+Niveles de ocurrencia (R / NR -  Cantidad Veces)
+------------------------------------------------
 Repetible (R)
 
-Definición y Alcance del campo
+Campo con esquema de metadatos
 ------------------------------
-La cobertura generalmente incluirá la ubicación espacial (un nombre del lugar o coordenadas geográficas), el período temporal (una etiqueta del período, la fecha o el rango de fechas) o la jurisdicción (como una entidad administrativa nombrada). La mejor práctica recomendada es seleccionar un valor de un vocabulario controlado.
+dc:coverage
 
-Forma de Descripción Normalizada (RDA/RCAA2)
---------------------------------------------
+Traducción al español
+---------------------
+Cobertura
+
+Forma de Descripción Normalizada (RDA / RCAA2)
+----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------
 dc.coverage
 
 Relaciones con otros campos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Restricciones
-~~~~~~~~~~~~~
+-------------
 
 Ejemplos
-~~~~~~~~
+--------
 
 .. code-block:: xml
    :linenos:
@@ -63,32 +56,21 @@ Se recomienda utilizar los siguientes vocabularios controlados:
 Getty tesauro geográfico: http://www.getty.edu/research/tools/vocabularies/tgn/ 
 Tesauro geográfico: https://www.vocabularyserver.com/toponimos/ 
 
-Especificadores de Campo
+Especificadores de campo
 ------------------------
 
-Niveles de Aplicación - Productos de Colciencias
-------------------------------------------------
-Se aplica a todos los productos de Colciencias.
-
-Observaciones del Campo
------------------------
-
-Adaptado de
-~~~~~~~~~~~
+Niveles de aplicación para productos de investigación de Colciencias
+--------------------------------------------------------------------
+Se aplica a todos los productos de Colciencias. 
 
 Relaciones con otros modelos de metadatos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
 
-Niveles Semánticos
-~~~~~~~~~~~~~~~~~~
+Niveles semánticos
+------------------
 
-Recomendación de Campos de aplicación en DSPACE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Recomendación de campos de aplicación en DSPACE
+-----------------------------------------------
 
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LAREFERENCIA, OPENAIRE2, OPENAIRE3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Otras Observaciones
-~~~~~~~~~~~~~~~~~~~
-
-.. _DRIVER Guidelines v2 element coverage: https://wiki.surfnet.nl/display/DRIVERguidelines/Coverage
+Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------
