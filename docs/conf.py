@@ -235,7 +235,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   (master_doc, 'OpenAIREGuidelines.tex', u'Directrices de interoperabilidad de metadatos para productos de investigación de la Red Colombiana de Información Científica (RedCol)',
-   u'En construcción...','_static/encabezado.png', 'manual', True),
+   u'En construcción...', 'manual', True),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -244,7 +244,7 @@ latex_documents = [
 latex_logo = '_static/piedepagina.png'
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
-# latex_toplevel_sectioning = 'part'
+latex_toplevel_sectioning = '_static/encabezado.png'
 #latex_use_parts = False
 
 # If true, show page references after internal links.
