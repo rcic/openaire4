@@ -84,5 +84,3 @@ Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA
 --------------------------------------------------------------------------------------------------------
 
 - **OpenAIRE 3:** dc:relation
-
-
