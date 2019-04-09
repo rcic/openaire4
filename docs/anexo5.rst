@@ -16,7 +16,7 @@ Anexo 5. Clasificación de áreas científicas según la OCDE
 3. Ciencias Médicas y de Salud
 
 .. image:: _static/anexo5Tabla3.png
-   :scale: 100%
+   :scale: 140%
 
 4. Ciencias Agrícolas
  
