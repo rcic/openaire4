@@ -5,6 +5,8 @@ bluetext:
   parent: bodytext
   textColor: blue
 
+.. role:: bluetext
+
 ###############################################################################################################################
 :bluetext:`Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica 2019`
 ###############################################################################################################################
