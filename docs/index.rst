@@ -3,7 +3,7 @@
 
 
 ##############################################################################################################################################
-.. role:: rubric  :rubric:`Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica 2019`
+:red:`Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica 2019`
 ##############################################################################################################################################
 ..
 
