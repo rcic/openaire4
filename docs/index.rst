@@ -1,14 +1,11 @@
 .. image:: _static/piedepagina.png
    :scale: 50%
 
-bluetext:
-  parent: bodytext
-  textColor: blue
+.. role:: red
 
-.. role:: bluetext
 
 ###############################################################################################################################
-:bluetext:`Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica 2019`
+:red:`Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica 2019`
 ###############################################################################################################################
 ..
 
