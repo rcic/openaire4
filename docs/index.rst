@@ -1,9 +1,13 @@
 .. image:: _static/piedepagina.png
    :scale: 50%
 
-#####################################################################################################################################
-Directrices de interoperabilidad de metadatos para productos de investigación de la Red Colombiana de Información Científica (RedCol)
-#####################################################################################################################################
+bluetext:
+  parent: bodytext
+  textColor: blue
+
+###############################################################################################################################
+:bluetext:`Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica 2019`
+###############################################################################################################################
 ..
 
 En construcción...
