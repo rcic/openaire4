@@ -1,12 +1,10 @@
 .. image:: _static/piedepagina.png
    :scale: 50%
 
-.. role:: rubric
 
-
-###############################################################################################################################
-:rubric:`Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica 2019`
-###############################################################################################################################
+##############################################################################################################################################
+.. role:: rubric  :rubric:`Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica 2019`
+##############################################################################################################################################
 ..
 
 En construcción...
