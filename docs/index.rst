@@ -20,8 +20,6 @@ En construcción...
    
    introduction
    use_of_oai_pmh
-   objetivos
-   tiposProd
    normatividadInter
    interoperabilidad
    estructuraDoc   
@@ -34,3 +32,5 @@ En construcción...
 
 .. image:: _static/encabezado.png
    :scale: 75%
+
+tiposProd
