@@ -1,5 +1,5 @@
-.. image:: _static/piedepagina.png
-   :scale: 50%
+.. image:: _static/encabezado.png
+   :scale: 75%
 
 .. role:: naranja
 
@@ -29,5 +29,5 @@
    bibliografia
    acercaDir
 
-.. image:: _static/encabezado.png
-   :scale: 75%
+.. image:: _static/piedepagina.png
+   :scale: 50%
