@@ -13,4 +13,9 @@ Por otra parte, estarán enfocados en los productos de investigación propios de
 
 Las directrices de la Red Colombiana de Información Científica que presenta Colciencias son una propuesta en construcción, que se espera sea retroalimentada y ajustada por toda la comunidad académica durante el proceso de consulta pública que se abrirá entre mayo y junio de 2019.
 
+Se espera recibir recomendaciones de diferentes sectores, para lo cual se realizarán mesas técnicas, talleres en siete ciudades del país, y se publicarán en la página de la Red Colombiana de Información Científica para promoción de la participación de los ciudadanos interesados en el diálogo virtual. 
+
+Toda la información recopilada, será analizada y servirá de insumo a Colciencias para definir la primera versión de Directrices para Colombia.
+
+
 .. [#] Recolecta (2017). Guía para la evaluación de repositorios institucionales de investigación. Disponible en:  https://recolecta.fecyt.es/sites/default/files/contenido/documentos/2017GuiaEvaluacionRecolectaFECYT.pdf 

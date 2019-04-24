@@ -3,6 +3,9 @@
 Alcance 
 =======
 
+Las instituciones pueden contar con diferentes infraestructuras de recursos para depositar su producción científica:  sistemas de información de investigación, repositorios institucionales existentes en las bibliotecas y sistemas de acceso abierto para sus revistas. Estas directrices pretenden generar lineamientos para exponer los datos de la producción científica ajustadas 
+a la infraestructura establecida por las instituciones y se fundamentan en  estándares internacionales de calidad de datos tales como Directrices Driver 3.0 y OpenAIRE Guidelines for Literature Repository Managers 4.0, manual de metadatos y políticas de cosecha 2015 de la Red Federada de Repositorios de Acceso Abierto a la Ciencia de Latinoamérica LA Referencia. 
+
 Las directrices se propone implementarlas en diferentes fases, realizar ajustes y actualizaciones permanentes, a partir de los productos que son reconocidos como resultados de las actividades de grupo de investigación que se clasifican en cuatro (4) grandes tipos, según el “Modelo de Medición de Grupos de Investigación, Desarrollo Tecnológico o de Innovación y de Reconocimiento de Investigadores del Sistema Nacional de Ciencia, Tecnología e Innovación, Año 2017” así:
 
 
