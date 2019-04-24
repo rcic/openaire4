@@ -18,7 +18,8 @@
 .. toctree::
    :numbered:
    :maxdepth: 1
-   
+   :naranja:
+
    introduction
    use_of_oai_pmh
    normatividadInter
@@ -27,7 +28,6 @@
    glosario
    anexos
    bibliografia
-   acercaDir
 
 .. image:: _static/piedepagina.png
    :scale: 35%
