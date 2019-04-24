@@ -229,7 +229,7 @@ latex_elements = {
 \renewcommand{\familydefault}{\sfdefault} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 \definecolor{orange}{rgb}{236,115,29}
-\title{orange},
+\title{orange}
 """,
 
 }
