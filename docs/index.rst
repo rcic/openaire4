@@ -30,4 +30,4 @@
    acercaDir
 
 .. image:: _static/piedepagina.png
-   :scale: 50%
+   :scale: 35%
