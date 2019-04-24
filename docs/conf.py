@@ -225,13 +225,11 @@ latex_elements = {
 \usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc} 
 \usepackage{helvet}
+\usepackage{xcolor}
 \renewcommand{\familydefault}{\sfdefault} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
-\sphinxsetup{
-  TitleColor={rgb}{236,115,29,1}
-}
+\color[rgb]{236,115,29,1}
 """
-'passoptionstopackages': r'\PassOptionsToPackage{svgrgb}{xcolor}',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
