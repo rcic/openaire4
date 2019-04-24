@@ -16,11 +16,10 @@
 ===============
 
 .. toctree:: naranja
-   :naranja:
    :numbered:
    :maxdepth: 1
 
-   introduction
+   :naranja:`introduction`
    use_of_oai_pmh
    normatividadInter
    interoperabilidad   
