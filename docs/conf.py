@@ -231,6 +231,7 @@ latex_elements = {
   TitleColor={rgb}{236,115,29,1}
 }
 """
+'passoptionstopackages': r'\PassOptionsToPackage{svgrgb}{xcolor}',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
