@@ -225,7 +225,7 @@ latex_elements = {
 \usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc} 
 \usepackage{helvet}
-\usepackage{xcolor}
+\usepackage{color}
 \renewcommand{\familydefault}{\sfdefault} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 \definecolor{orange}{rgb}{236,115,29}
