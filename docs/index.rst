@@ -15,18 +15,18 @@
 :naranja:`2019`
 ===============
 
-.. toctree::
+.. toctree:: naranja
    :numbered:
    :maxdepth: 1
 
-   :naranja:`introduction`
-   :naranja:`use_of_oai_pmh`
-   :naranja:`normatividadInter`
-   :naranja:`interoperabilidad`   
-   :naranja:`vocabulario`
-   :naranja:`glosario`
-   :naranja:`anexos`
-   :naranja:`bibliografia`
+   introduction
+   use_of_oai_pmh
+   normatividadInter
+   interoperabilidad   
+   vocabulario
+   glosario
+   anexos
+   bibliografia
 
 .. image:: _static/piedepagina.png
    :scale: 35%
