@@ -15,11 +15,12 @@
 :naranja:`2019`
 ===============
 
-.. toctree:: naranja
+.. toctree::
+   :role: naranja
    :numbered:
    :maxdepth: 1
 
-   :naranja:`introduction`
+   introduction
    use_of_oai_pmh
    normatividadInter
    interoperabilidad   
