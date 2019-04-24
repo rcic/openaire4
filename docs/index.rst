@@ -19,9 +19,6 @@
    :numbered:
    :maxdepth: 1
 
-.. role:: naranja
-   :naranja:
-   
    introduction
    use_of_oai_pmh
    normatividadInter
