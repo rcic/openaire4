@@ -16,7 +16,7 @@
 ===============
 
 .. toctree::
-   :numbered:
+   :narnanja:`:numbered:`
    :maxdepth: 1
 
    introduction
