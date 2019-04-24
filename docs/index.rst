@@ -1,9 +1,10 @@
 .. image:: _static/piedepagina.png
    :scale: 50%
 
+.. role:: naranja
 
 ##############################################################################################################################################
-Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica 2019
+:naranja:`Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica 2019`
 ##############################################################################################################################################
 ..
 
