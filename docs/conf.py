@@ -228,7 +228,7 @@ latex_elements = {
 \usepackage{xcolor}
 \renewcommand{\familydefault}{\sfdefault} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
-\color[rgb]{236,115,29,1}
+\definecolor{orange}{rgb}{236,115,29}
 """
 }
 
