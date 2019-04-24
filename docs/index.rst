@@ -18,16 +18,15 @@
 .. toctree::
    :numbered:
    :maxdepth: 1
-   :naranja:
 
-   introduction
-   use_of_oai_pmh
-   normatividadInter
-   interoperabilidad   
-   vocabulario
-   glosario
-   anexos
-   bibliografia
+   :naranja:`introduction`
+   :naranja:`use_of_oai_pmh`
+   :naranja:`normatividadInter`
+   :naranja:`interoperabilidad`   
+   :naranja:`vocabulario`
+   :naranja:`glosario`
+   :naranja:`anexos`
+   :naranja:`bibliografia`
 
 .. image:: _static/piedepagina.png
    :scale: 35%
