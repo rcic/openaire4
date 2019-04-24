@@ -229,7 +229,9 @@ latex_elements = {
 \renewcommand{\familydefault}{\sfdefault} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 \definecolor{orange}{rgb}{236,115,29}
-"""
+""",
+'sphinxsetup': 'TitleColor={rgb}{236,115,29},',
+
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
