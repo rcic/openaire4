@@ -64,7 +64,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Directrices de interoperabilidad de metadatos para productos de investigación de la Red Colombiana de Información Científica (RedCol)'
+project = u'Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica 2019'
 copyright = u'COLCIENCIAS Y METABIBLIOTECA'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -234,7 +234,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'OpenAIREGuidelines.tex', u'Directrices de interoperabilidad de metadatos para productos de investigación de la Red Colombiana de Información Científica (RedCol)',
+  (master_doc, 'OpenAIREGuidelines.tex', u'Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica 2019',
    u'En construcción...', 'manual', True),
 ]
 
