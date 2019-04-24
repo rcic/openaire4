@@ -16,6 +16,7 @@
 ===============
 
 .. toctree:: naranja
+   :naranja:
    :numbered:
    :maxdepth: 1
 
