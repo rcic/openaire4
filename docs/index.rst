@@ -15,6 +15,8 @@
 :naranja:`2019`
 ===============
 
+.. role:: numbered
+
 .. toctree::
    :numbered:
    :maxdepth: 1
