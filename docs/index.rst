@@ -21,9 +21,7 @@ En construcción...
    introduction
    use_of_oai_pmh
    normatividadInter
-   interoperabilidad
-   estructuraDoc   
-   descGenPer
+   interoperabilidad   
    vocabulario
    glosario
    anexos
@@ -32,5 +30,3 @@ En construcción...
 
 .. image:: _static/encabezado.png
    :scale: 75%
-
-tiposProd

@@ -23,6 +23,8 @@ Los metadatos que estarán asociados a la Red, deben estar de acuerdo al esquema
    formatoMeta
    contMeta
    compAgre
+   estructuraDoc
+   descGenPer
 
 
 
