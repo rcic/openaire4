@@ -235,7 +235,9 @@ latex_elements = {
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
 'maketitle': r'''
+\begin{titlepage}
     \definecolor{TitleColor}{rgb}{236,115,29}
+\end{titlepage}
     ''',
 'sphinxsetup': 'TitleColor={rgb}{236,115,29}',
 }
