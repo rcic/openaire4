@@ -235,12 +235,14 @@ latex_elements = {
 \begin{titlepage}
 
     \centering
-            \text{\Huge {Sphinx format for Latex and HTML}}
-            \vspace{0mm}
             \begin{figure}[!h]
                 \centering
                 \includegraphics[scale=0.85]{piedepagina.png}
             \end{figure}
+            \vspace{20mm}
+            \text{\Huge {Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica 2019}}
+            \vspace{20mm}
+            \Large \textbf{{En construcción...}}
 \end{titlepage}
     ''',
 }
