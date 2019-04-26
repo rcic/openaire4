@@ -228,9 +228,8 @@ latex_elements = {
 \usepackage[T1]{fontenc} 
 \usepackage{helvet}
 \usepackage{xcolor}
-\usepackage{titlesec}
 \usepackage{sphinx}
-\definecolor{titlesec}{rgb}{236,115,29} 
+\definecolor{nara}{rgb}{236,115,29} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
 'maketitle': r'''
