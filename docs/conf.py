@@ -230,7 +230,10 @@ latex_elements = {
 \usepackage{color}
 \usepackage{titlesec}
 \usepackage{sphinx}
-\definecolor{TitleColor}{rgb}{236,115,29}
+\definecolor{orange}{rgb}{236,115,29}
+\subsectionfont{\color{orange}}
+\sectionfont{\color{orange}}
+\title{\color{astral} My title}
 \renewcommand{\familydefault}{\sfdefault} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
@@ -238,11 +241,11 @@ latex_elements = {
 \begin{titlepage}
 
     \centering
-            \textbf{\Huge {Sphinx format for Latex and HTML}}
+            \textbf{\Huge {Sphinx format for Latex and HTML} \color={rgb}{236,115,29}}
             \vspace{0mm}
             \begin{figure}[!h]
                 \centering
-                \includegraphics[scale=0.3]{piedepagina.png}
+                \includegraphics[scale=2]{piedepagina.png}
                 \end{figure}
 \end{titlepage}
     ''',
