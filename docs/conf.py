@@ -237,6 +237,13 @@ latex_elements = {
 'maketitle': r'''
 \begin{titlepage}
     \definecolor{TitleColor}{rgb}{236,115,29}
+    \centering
+            \textbf{\Huge {Sphinx format for Latex and HTML}}
+            \vspace{0mm}
+            \begin{figure}[!h]
+                \centering
+                \includegraphics[scale=0.3]{_static/piedepagina.png}
+                \end{figure}
 \end{titlepage}
     ''',
 'sphinxsetup': 'TitleColor={rgb}{236,115,29}',
