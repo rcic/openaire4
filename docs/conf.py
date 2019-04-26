@@ -230,14 +230,14 @@ latex_elements = {
 \usepackage{color}
 \usepackage{titlesec}
 \usepackage{sphinx}
-\definecolor{orange}{rgb}{236,115,29} 
+\definecolor{naran}{rgb}{236,115,29} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
 'maketitle': r'''
 \begin{titlepage}
 
     \centering
-            \textbf{\Huge \color={orange}{Sphinx format for Latex and HTML}}
+            \textbf{\Huge \color={naran}{Sphinx format for Latex and HTML}}
             \vspace{0mm}
             \begin{figure}[!h]
                 \centering
