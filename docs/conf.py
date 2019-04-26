@@ -228,8 +228,6 @@ latex_elements = {
 \usepackage[T1]{fontenc} 
 \usepackage{helvet}
 \usepackage{xcolor}
-\usepackage{titlecolor}
-\usepackage{sphinx}
 \definecolor{naran}{rgb}{236,115,29} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
@@ -245,10 +243,6 @@ latex_elements = {
             \end{figure}
 \end{titlepage}
     ''',
- 'sphinxsetup': \
-        'hmargin={0.7in,0.7in}, vmargin={1in,1in}, \
-        verbatimwithframe=true, \
-        TitleColor={rgb}{236,115,29}',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
