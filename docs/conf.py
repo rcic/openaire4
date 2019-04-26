@@ -233,6 +233,7 @@ latex_elements = {
 """,
 'sphinxsetup':'''
 \TitleColor={rgb}{236,115,29}
+''',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
