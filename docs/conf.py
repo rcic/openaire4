@@ -236,7 +236,7 @@ latex_elements = {
 
     \centering
             \begin{figure}[!h]
-                \centering
+                \left
                 \includegraphics[scale=0.85]{encabezado.png}
             \end{figure}
 
