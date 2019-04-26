@@ -234,7 +234,9 @@ latex_elements = {
 \renewcommand{\familydefault}{\sfdefault} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
-
+'maketitle': r'''
+    \definecolor{TitleColor}{rgb}{236,115,29}
+    ''',
 'sphinxsetup': 'TitleColor={rgb}{236,115,29}',
 }
 
