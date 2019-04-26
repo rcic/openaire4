@@ -236,7 +236,7 @@ latex_elements = {
 ''',
 'maketitle': r'''
 \begin{titlepage}
-    \definecolor{TitleColor}{rgb}{236,115,29}
+
     \centering
             \textbf{\Huge {Sphinx format for Latex and HTML}}
             \vspace{0mm}
