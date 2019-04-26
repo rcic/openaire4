@@ -242,11 +242,17 @@ latex_elements = {
             \vspace{0mm}
             \begin{figure}[!h]
                 \centering
-                \includegraphics[scale=0.3]{_static/piedepagina.png}
+                \includegraphics[scale=0.3]{piedepagina.png}
                 \end{figure}
 \end{titlepage}
     ''',
-'sphinxsetup': 'TitleColor={rgb}{236,115,29}',
+ 'sphinxsetup': \
+        'hmargin={0.7in,0.7in}, vmargin={1in,1in}, \
+        verbatimwithframe=true, \
+        TitleColor={rgb}{236,115,29}, \
+        HeaderFamily=\\rmfamily\\bfseries, \
+        InnerLinkColor={rgb}{0,0,1}, \
+        OuterLinkColor={rgb}{0,0,1}',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
