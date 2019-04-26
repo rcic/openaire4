@@ -47,6 +47,8 @@ extensions = [
 
 extensions = [
     'sphinx.ext.intersphinx',
+    'sphinx.ext.coverage',
+    'sphinx.ext.autodoc',
     'sphinx.ext.ifconfig',
     'recommonmark'
 ]
@@ -221,7 +223,7 @@ latex_elements = {
 # r""" \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage{helvet} \renewcommand{\familydefault}{\sfdefault} \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}"""
 #\rhead{\includegraphics[width=1cm]{../../_static/openaire.png}}
 'extraclassoptions': 'openany',
-'preamble': r"""
+'preamble': r'''
 \usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc} 
 \usepackage{helvet}
@@ -230,12 +232,12 @@ latex_elements = {
 \definecolor{TitleColor}{rgb}{236,115,29}
 \renewcommand{\familydefault}{\sfdefault} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
-""",
+''',
 
 'sphinxsetup': \
         'hmargin={0.7in,0.7in}, vmargin={1in,1in}, \
         verbatimwithframe=true, \
-        TitleColor=[rgb]{236,115,29}',
+        TitleColor={rgb}{236,115,29}',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
