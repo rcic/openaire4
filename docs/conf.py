@@ -226,6 +226,8 @@ latex_elements = {
 \usepackage[T1]{fontenc} 
 \usepackage{helvet}
 \usepackage{color}
+\usepackage{titlesec}
+\definecolor{TitleColor}{rgb}{236,115,29}
 \renewcommand{\familydefault}{\sfdefault} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 """,
