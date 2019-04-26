@@ -236,7 +236,7 @@ latex_elements = {
 
 'sphinxsetup': \
         'hmargin={0.7in,0.7in}, vmargin={1in,1in}, \
-        TitleColor={rgb}{236,115,29}, \
+        TitleColor={rgb}{0,0,0}, \
         verbatimwithframe=true',
 }
 
