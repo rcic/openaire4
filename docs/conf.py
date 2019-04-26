@@ -50,7 +50,6 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.autodoc',
     'sphinx.ext.ifconfig',
-    'sphinx.ext.githubpages',
     'recommonmark'
 ]
 
@@ -235,10 +234,7 @@ latex_elements = {
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
 
-'sphinxsetup': \
-        'hmargin={0.7in,0.7in}, vmargin={1in,1in}, \
-        TitleColor={rgb}{0,0,29,0.5}, \
-        verbatimwithframe=true',
+'sphinxsetup': r'TitleColor={named}{Red}',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
