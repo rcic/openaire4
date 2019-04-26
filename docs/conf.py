@@ -229,12 +229,13 @@ latex_elements = {
 \usepackage{helvet}
 \usepackage{color}
 \usepackage{titlesec}
+\usepackage{sphinx}
 \definecolor{TitleColor}{rgb}{236,115,29}
 \renewcommand{\familydefault}{\sfdefault} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
 
-'sphinxsetup': 'TitleColor=[rgb]{236,115,29}',
+'sphinxsetup': 'TitleColor={rgb}{236,115,29}',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
