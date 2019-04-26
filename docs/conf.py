@@ -237,7 +237,7 @@ latex_elements = {
 \begin{titlepage}
 
     \centering
-            \textbf{\Huge \color={naran}{Sphinx format for Latex and HTML}}
+            \textbf{\Huge \color={red}{Sphinx format for Latex and HTML}}
             \vspace{0mm}
             \begin{figure}[!h]
                 \centering
