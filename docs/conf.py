@@ -227,17 +227,18 @@ latex_elements = {
 \usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc} 
 \usepackage{helvet}
-\usepackage{color}
+\usepackage{xcolor}
 \usepackage{titlesec}
+\usepackage{titlecolor}
 \usepackage{sphinx}
-\definecolor{naran}{rgb}{236,115,29} 
+\definecolor{titlesec}{rgb}{236,115,29} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
 'maketitle': r'''
 \begin{titlepage}
 
     \centering
-            \textbf{\Huge \color={red}{Sphinx format for Latex and HTML}}
+            \textbf[red]{\Huge {Sphinx format for Latex and HTML}}
             \vspace{0mm}
             \begin{figure}[!h]
                 \centering
