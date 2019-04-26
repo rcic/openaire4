@@ -245,7 +245,7 @@ latex_elements = {
             \vspace{0mm}
             \begin{figure}[!h]
                 \centering
-                \includegraphics[scale=2]{piedepagina.png}
+                \includegraphics[scale=0.85]{piedepagina.png}
                 \end{figure}
 \end{titlepage}
     ''',
