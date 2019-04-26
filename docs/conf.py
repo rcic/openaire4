@@ -237,8 +237,6 @@ latex_elements = {
         HeaderFamily=\\rmfamily\\bfseries, \
         InnerLinkColor={rgb}{0,0,1}, \
         OuterLinkColor={rgb}{0,0,1}',
-
-        'tableofcontents':' ',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
