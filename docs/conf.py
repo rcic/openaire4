@@ -237,14 +237,19 @@ latex_elements = {
     \centering
             \begin{figure}[!h]
                 \centering
-                \includegraphics[scale=0.85]{piedepagina.png}
+                \includegraphics[scale=0.85]{encabezado.png}
             \end{figure}
 
             \vspace*{20mm}
             \textbf{\Huge {Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica 2019}}
-            
+
             \vspace*{50mm}
             \Large \textbf{{En construcción...}}
+
+            \begin{figure}[!h]
+                \centering
+                \includegraphics[scale=0.85]{piedepagina.png}
+            \end{figure}
 \end{titlepage}
 \clearpage
     ''',
