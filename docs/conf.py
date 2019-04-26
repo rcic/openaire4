@@ -230,7 +230,7 @@ latex_elements = {
 \usepackage{color}
 \usepackage{titlesec}
 \usepackage{sphinx}
-\sphinxsetup[rgb]{236,115,29}
+\sphinxsetup{rgb}{236,115,29}
 \definecolor{TitleColor}{rgb}{236,115,29}
 \renewcommand{\familydefault}{\sfdefault} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
