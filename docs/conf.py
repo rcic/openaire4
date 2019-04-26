@@ -233,10 +233,7 @@ latex_elements = {
 'sphinxsetup': \
         'hmargin={0.7in,0.7in}, vmargin={1in,1in}, \
         verbatimwithframe=true, \
-        TitleColor={rgb}{236,115,29}, \
-        HeaderFamily=\\rmfamily\\bfseries, \
-        InnerLinkColor={rgb}{0,0,1}, \
-        OuterLinkColor={rgb}{0,0,1}',
+        TitleColor={rgb}{236,115,29}',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
