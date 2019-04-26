@@ -229,7 +229,6 @@ latex_elements = {
 \usepackage{helvet}
 \usepackage{xcolor}
 \usepackage{titlesec}
-\usepackage{titlecolor}
 \usepackage{sphinx}
 \definecolor{titlesec}{rgb}{236,115,29} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
