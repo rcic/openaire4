@@ -50,6 +50,7 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.autodoc',
     'sphinx.ext.ifconfig',
+    'sphinx.ext.githubpages',
     'recommonmark'
 ]
 
@@ -233,15 +234,10 @@ latex_elements = {
 \renewcommand{\familydefault}{\sfdefault} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
-'maketitle': r'''
-     \begin{titlepage}
-        \definecolor{TitleColor}{rgb}{236,115,29}
-     \end{titlepage}
 
-     ''',
 'sphinxsetup': \
         'hmargin={0.7in,0.7in}, vmargin={1in,1in}, \
-        TitleColor={rgb}{0,0,0}, \
+        TitleColor={rgb}{0,0,29,0.5}, \
         verbatimwithframe=true',
 }
 
