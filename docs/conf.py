@@ -208,7 +208,7 @@ htmlhelp_basename = 'RedColDirecttrices'
 
 
 # -- Options for LaTeX output ---------------------------------------------
-latex_engine = 'xelatex'
+latex_engine = 'lualatex'
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 'papersize': 'a4paper',
