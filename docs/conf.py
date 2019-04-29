@@ -215,7 +215,6 @@ htmlhelp_basename = 'RedColDirecttrices'
 
 
 # -- Options for LaTeX output ---------------------------------------------
-latex_engine = 'pdflatex'
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 'papersize': 'a4paper',
@@ -227,7 +226,6 @@ latex_elements = {
 #'preamble': '',
 # r""" \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage{helvet} \renewcommand{\familydefault}{\sfdefault} \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}"""
 #\rhead{\includegraphics[width=1cm]{../../_static/openaire.png}}
-'extraclassoptions': 'openany',
 'preamble': r'''
 \usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc} 
@@ -236,9 +234,7 @@ latex_elements = {
 \definecolor{naran}{rgb}{236,115,29} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
-'fontpkg':'',
 'maketitle': r'''
-\\makeatletter\\py@HeaderFamily\\makeatother\\maketitle\\normalfont
 \begin{titlepage}
 
     \centering
@@ -273,7 +269,7 @@ latex_documents = [
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
 #latex_logo = None
-latex_logo1 = '_static/encabezado.png'
+latex_image = '_static/encabezado.png'
 latex_logo = '_static/piedepagina.png'
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
