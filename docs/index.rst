@@ -25,6 +25,7 @@
    use_of_oai_pmh
    normatividadInter
    interoperabilidad
+   vocabulario
    glosario
    anexos
    bibliografia
