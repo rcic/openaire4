@@ -222,9 +222,6 @@ latex_elements = {
 #\rhead{\includegraphics[width=1cm]{../../_static/openaire.png}} \usepackage{color}\usepackage{titlesec}\definecolor{naran}{rgb}{236,115,29}
 'preamble': r'''
 \usepackage{fontspec}
-\setsansfont{Arial}
-\setromanfont{Arial}
-\setmonofont{DejaVu Sans Mono}
 ''',
 }
 
