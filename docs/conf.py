@@ -227,14 +227,11 @@ latex_elements = {
 # r""" \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage{helvet} \renewcommand{\familydefault}{\sfdefault} \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}"""
 #\rhead{\includegraphics[width=1cm]{../../_static/openaire.png}}
 'preamble': r'''
+\usepackage{color}
+\usepackage{titlesec}
 \usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc} 
 \usepackage{helvet}
-\usepackage{color}
-\usepackage{titlesec}
-\titleformat{\section}
-  {\normalfont\sffamily\Large\bfseries\color{red}}
-  {\thesection}{1em}{}
 \definecolor{naran}{rgb}{236,115,29} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
