@@ -208,8 +208,14 @@ htmlhelp_basename = 'RedColDirecttrices'
 
 
 # -- Options for LaTeX output ---------------------------------------------
-latex_engine = 'lualatex'
+latex_engine = 'xelatex'
 latex_elements = {
+'fontpkg': r'''
+\usepackage{fontspec}
+\setsansfont{Arial}
+\setromanfont{Arial}
+\setmonofont{DejaVu Sans Mono}
+''',
 # The paper size ('letterpaper' or 'a4paper').
 'papersize': 'a4paper',
 
@@ -221,7 +227,7 @@ latex_elements = {
 # r""" \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage{helvet} \renewcommand{\familydefault}{\sfdefault} \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}"""
 #\rhead{\includegraphics[width=1cm]{../../_static/openaire.png}} \usepackage{color}\usepackage{titlesec}\definecolor{naran}{rgb}{236,115,29}
 'preamble': r'''
-\usepackage{fontspec}
+
 ''',
 }
 
