@@ -233,8 +233,8 @@ latex_elements = {
 \usepackage{color}
 \usepackage{titlesec}
 \titleformat{\section}
-{\color{red}\normalfont\Large\bfseries}
-{\color{red}\thesection}{1em}{}
+  {\normalfont\sffamily\Large\bfseries\color{red}}
+  {\thesection}{1em}{}
 \definecolor{naran}{rgb}{236,115,29} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
