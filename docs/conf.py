@@ -227,7 +227,7 @@ latex_elements = {
       \usepackage{helvet}
       \renewcommand{\familydefault}{\sfdefault}
       \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
-      \usepackage{titlesec}
+      \usepackage[naranja]{titlesec}
 '''
 }
 
