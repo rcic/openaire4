@@ -235,7 +235,10 @@ latex_elements = {
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
 'maketitle': r'''
-\titleformat*{\section}{\normalfont\Large\bfseries\color{red}}
+\usepackage{titlesec}
+\titleformat{\section}
+{\color{red}\normalfont\Large\bfseries}
+{\color{red}\thesection}{1em}{}
 \begin{titlepage}
     \centering
             \begin{figure}[!h]
@@ -268,7 +271,7 @@ latex_documents = [
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
 #latex_logo = None
-latex_image = '_static/encabezado.png'
+latex_logo = '_static/encabezado.png'
 latex_logo = '_static/piedepagina.png'
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
