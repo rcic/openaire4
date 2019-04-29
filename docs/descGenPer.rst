@@ -1,7 +1,7 @@
 .. _descGenPer:
 
 Perfil de Aplicación de los metadatos 
-============================
+======================================
 
 El perfil de aplicación es una descripción detallada de los campos de metadatos recomendados para su implementación en repositorios institucionales de investigación. 
 
