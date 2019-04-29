@@ -227,7 +227,7 @@ latex_elements = {
 # r""" \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage{helvet} \renewcommand{\familydefault}{\sfdefault} \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}"""
 #\rhead{\includegraphics[width=1cm]{../../_static/openaire.png}}
 'fontpkg': r'''
-\\usepackage{helvet}
+\usepackage{helvet}
 ''',
 'preamble': r'''
 \usepackage[utf8]{inputenc} 
@@ -239,7 +239,7 @@ latex_elements = {
 ''',
 'maketitle': r'''
 \begin{titlepage}
-
+\titleformat*{\section}{\normalfont\Large\bfseries\color{red}}
     \centering
             \begin{figure}[!h]
                 \left
