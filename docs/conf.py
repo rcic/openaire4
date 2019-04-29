@@ -254,7 +254,6 @@ latex_elements = {
                 \includegraphics[scale=0.85]{piedepagina.png}
             \end{figure}
 \end{titlepage}
-\clearpage
     ''',
 }
 
