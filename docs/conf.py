@@ -238,6 +238,7 @@ latex_elements = {
 ''',
 'fontpkg':'',
 'maketitle': r'''
+\\makeatletter\\py@HeaderFamily\\makeatother\\maketitle\\normalfont
 \begin{titlepage}
 
     \centering
