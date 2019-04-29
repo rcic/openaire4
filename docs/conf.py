@@ -46,8 +46,6 @@ extensions = [
 ]
 
 extensions = [
-    'sphinx.ext.intersphinx',
-    'sphinx.ext.coverage',
     'sphinx.ext.autodoc',
     'sphinx.ext.ifconfig',
 ]
