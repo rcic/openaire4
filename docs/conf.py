@@ -223,12 +223,9 @@ latex_elements = {
 'preamble': r'''
       \usepackage[utf8]{inputenc}
       \usepackage[T1]{fontenc}
-      \usepackage{color}
       \usepackage{helvet}
       \renewcommand{\familydefault}{\sfdefault}
       \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
-      \definecolor{naranja}{rgb}{236,115,29}
-      \usepackage[naranja]{titlesec}
 '''
 }
 
