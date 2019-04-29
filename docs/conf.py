@@ -212,25 +212,7 @@ htmlhelp_basename = 'RedColDirecttrices'
 
 # -- Options for LaTeX output ---------------------------------------------
 latex_elements = {
-# The paper size ('letterpaper' or 'a4paper').
-'papersize': 'a4paper',
 
-# The font size ('10pt', '11pt' or '12pt').
-'pointsize': '11pt',
-
-# Additional stuff for the LaTeX preamble.
-#'preamble': '',
-# r""" \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage{helvet} \renewcommand{\familydefault}{\sfdefault} \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}"""
-#\rhead{\includegraphics[width=1cm]{../../_static/openaire.png}}
-'extraclassoptions': 'openany',
-'preamble': r'''
-\usepackage[utf8]{inputenc} 
-\usepackage[T1]{fontenc} 
-\usepackage{helvet}
-\usepackage{xcolor}
-\definecolor{naran}{rgb}{236,115,29} 
-\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
-''',
 'maketitle': r'''
 \begin{titlepage}
 
@@ -253,6 +235,27 @@ latex_elements = {
 \end{titlepage}
 \clearpage
     ''',
+    
+# The paper size ('letterpaper' or 'a4paper').
+'papersize': 'a4paper',
+
+# The font size ('10pt', '11pt' or '12pt').
+'pointsize': '11pt',
+
+# Additional stuff for the LaTeX preamble.
+#'preamble': '',
+# r""" \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage{helvet} \renewcommand{\familydefault}{\sfdefault} \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}"""
+#\rhead{\includegraphics[width=1cm]{../../_static/openaire.png}}
+'extraclassoptions': 'openany',
+'preamble': r'''
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc} 
+\usepackage{helvet}
+\usepackage{xcolor}
+\definecolor{naran}{rgb}{236,115,29} 
+\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
+''',
+
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
