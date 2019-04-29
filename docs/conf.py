@@ -226,7 +226,7 @@ latex_elements = {
       \usepackage{helvet}
       \renewcommand{\familydefault}{\sfdefault}
       \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
-''',
+'''
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
