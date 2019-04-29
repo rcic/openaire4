@@ -228,8 +228,8 @@ latex_elements = {
       \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
 'fncychap': r'''
-      \usapackage{xcolor}
-      \definecolor{rgb}{236,115,29}
+      \usapackage{color}
+      \definecolor[rgb]{236,115,29}
 ''',
 }
 
