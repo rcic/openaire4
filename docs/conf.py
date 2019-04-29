@@ -235,8 +235,8 @@ latex_elements = {
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
 'maketitle': r'''
-\begin{titlepage}
 \titleformat*{\section}{\normalfont\Large\bfseries\color{red}}
+\begin{titlepage}
     \centering
             \begin{figure}[!h]
                 \left
