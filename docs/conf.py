@@ -208,14 +208,8 @@ htmlhelp_basename = 'RedColDirecttrices'
 
 
 # -- Options for LaTeX output ---------------------------------------------
-latex_engine = 'xelatex'
 latex_elements = {
-'fontpkg': r'''
-\usepackage{fontspec}
-\setsansfont{Arial}
-\setromanfont{Arial}
-\setmonofont{DejaVu Sans Mono}
-''',
+
 # The paper size ('letterpaper' or 'a4paper').
 'papersize': 'a4paper',
 
