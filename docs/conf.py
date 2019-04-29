@@ -226,9 +226,6 @@ latex_elements = {
 #'preamble': '',
 # r""" \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage{helvet} \renewcommand{\familydefault}{\sfdefault} \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}"""
 #\rhead{\includegraphics[width=1cm]{../../_static/openaire.png}}
-'fontpkg': r'''
-\usepackage{helvetica}
-''',
 'preamble': r'''
 \usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc} 
