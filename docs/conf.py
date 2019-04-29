@@ -227,10 +227,7 @@ latex_elements = {
       \renewcommand{\familydefault}{\sfdefault}
       \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
-'fncychap': r'''
-      \usapackage{color}
-      \definecolor[rgb]{236,115,29}
-''',
+'fncychap': '\\usapackage{color}\\definecolor[rgb]{236,115,29}',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
