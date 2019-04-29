@@ -50,6 +50,10 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.autodoc',
     'sphinx.ext.ifconfig',
+    'sphinx.ext.doctest',
+    'sphinx.ext.todo',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.githubpages'
     'recommonmark'
 ]
 
@@ -232,12 +236,8 @@ latex_elements = {
 \definecolor{naran}{rgb}{236,115,29} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 ''',
+'fontpkg':'',
 'maketitle': r'''
-\usepackage[utf8]{inputenc} 
-\usepackage[T1]{fontenc} 
-\usepackage{helvet}
-\usepackage{color}
-\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 \begin{titlepage}
 
     \centering
