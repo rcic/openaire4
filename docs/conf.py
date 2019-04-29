@@ -218,15 +218,12 @@ latex_elements = {
 # Additional stuff for the LaTeX preamble.
 #'preamble': '',
 # r""" \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage{helvet} \renewcommand{\familydefault}{\sfdefault} \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}"""
-#\rhead{\includegraphics[width=1cm]{../../_static/openaire.png}}
+#\rhead{\includegraphics[width=1cm]{../../_static/openaire.png}} \usepackage{color}\usepackage{titlesec}\definecolor{naran}{rgb}{236,115,29}
 'preamble': r'''
 \usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc} 
 \usepackage{helvet} 
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
-\usepackage{color}
-\usepackage{titlesec}
-\definecolor{naran}{rgb}{236,115,29}
 ''',
 }
 
