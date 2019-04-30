@@ -61,17 +61,6 @@ Se recomienda incluir un identificador de nombre como:
 **affiliation - Afiliación institucional (R):** Afiliación a la que pertenece el autor. 
 
 
-Valores permitidos (Vocabularios Controlados)
----------------------------------------------
-- creatorName
-- nameType
-- givenName
-- familyName 
-- nameIdentifier 
-- nameIdentifierScheme 
-- schemeURI 
-- affiliation 
-
 Relaciones con otros campos
 ---------------------------
 - Colaborador
