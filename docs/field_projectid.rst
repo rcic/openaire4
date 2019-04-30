@@ -88,17 +88,40 @@ funderIdentifier type
 
 Especificadores de campo
 ------------------------
-Niveles de aplicación para productos de investigación de Colciencias
-Se aplica a los productos que han sido financiados. 
+
+- oaire:fundingReference
+- oaire:funderName  
+- oaire:funderIdentifier  
+- oaire:fundingReference.funderIdentifier-isni 
+- oaire:fundingReference.funderIdentifier-grid
+- oaire:fundingReference.funderIdentifier-crossrefFunderID
+- oaire:fundingReference.funderIdentifier-others
+- oaire:fundingStream
+- oaire:awardNumber 
+- oaire:awardTitle
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
+Se aplica a los productos que han sido financiados. 
 
 Niveles semánticos
 ------------------
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
+Se recomienda crear en Dspace los siguientes campos:
+
+- oaire:fundingReference
+- oaire:funderName  
+- oaire:funderIdentifier  
+- oaire:fundingReference.funderIdentifier-isni 
+- oaire:fundingReference.funderIdentifier-grid
+- oaire:fundingReference.funderIdentifier-crossrefFunderID
+- oaire:fundingReference.funderIdentifier-others
+- oaire:fundingStream
+- oaire:awardNumber 
+- oaire:awardTitle 
+
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
