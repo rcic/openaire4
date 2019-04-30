@@ -31,8 +31,28 @@ RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
-- name type
-- contributor type
+**creatorName - Nombre del autor (R):** El formato utilizado debe ser el familiar, los nombres no romanos deben seguir el esquema de la ALA-LC.
+
+**nameType - Tipo de nombre (O):** Hace referencia al nombre personal o de una institución.
+
+**givenName - Nombre personal (O):** Nombre del autor.
+
+**familyName - Apellido del autor (R):** Apellido del autor.
+
+**nameIdentifier - Identificador de nombre (R):** Identifica la forma única de una persona natural o jurídica, según diversos esquemas. 
+
+Se recomienda incluir un identificador de nombre como: 
+
+- ORCID -  Código alfanumérico, no comercial, que identifica de manera única a científicos y otros autores académicos.
+
+- ISNI (International Standard Name Identifier) - Identificador internacional estandarizado de nombre.
+
+**nameIdentifierScheme - Esquema del identificador de nombre (M):** Nombre del esquema identificador. 
+
+**schemeURI - Esquema del identificador de nombre (R):** URI del esquema de identificador de nombre.
+
+**affiliation - Afiliación institucional (R):** Afiliación a la que pertenece el autor. 
+
 
 Relaciones con otros campos
 ---------------------------
@@ -72,6 +92,16 @@ Atributos de campo
 Especificadores de campo
 ------------------------
 
+- datacite:creatorName
+- datacite:nameType
+- datacite:givenName
+- datacite:familyName 
+- datacite:nameIdentifier 
+- datacite:nameIdentifierScheme 
+- datacite:schemeURI 
+- datacite:affiliation 
+
+
 Niveles de aplicación para productos de investigación de Colciencias
 --------------------------------------------------------------------
 Se aplica a todos los productos de Colciencias. 
@@ -82,6 +112,20 @@ dc.contributor
 
 Niveles semánticos
 ------------------
+
+Recomendación de campos de aplicación en DSPACE
+-----------------------------------------------
+Se recomienda crear en Dspace los siguientes campos:
+	
+- datacite:creatorName
+- datacite:nameType
+- datacite:givenName
+- datacite:familyName 
+- datacite:nameIdentifier 
+- datacite:nameIdentifierScheme 
+- datacite:schemeURI 
+- datacite:affiliation 
+
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
