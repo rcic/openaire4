@@ -33,7 +33,27 @@ RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
-funderIdentifier type
+**funderName - Nombre del financiador (M):** Nombre del proveedor de financiamiento.
+
+**funderIdentifier - Identificador único de la entidad financiadora (R):** Número de identificación único de la entidad financiadora. 
+
+**funderIdentifiertype - Tipo de identificador único de la entidad financiadora (R):** Tipo de identificador de la entidad financiadora. 
+
+Se recomienda incluir los siguientes identificadores:
+
+- ISNI (International Standard Name Identifier) - Identificador internacional estandarizado de nombre.
+
+- GRID (Global Research Identifier Database) - Base de datos de identificadores de investigación global.
+
+- Crossref Funder - Registro de financiadores https://www.crossref.org/services/funder-registry/
+
+**fundingStream - Nombre del flujo de financiación (O):** Hace referencia al nombre que se le ha otorgado al flujo de financiación.
+
+**awardNumber - Número de adjudicación (MA):** Hace referencia al número de adjudicación que se le ha otorgado a la financiación.
+
+**awardURI - URI del proyecto proporcionada por el patrocinador (R):** La URI de la página de inicio del proyecto proporcionada por el patrocinador para obtener más información sobre el concesión. 
+
+**awardTitle - Título del proyecto (R):** Título del proyecto, adjudicación o subvención.
 
 Relaciones con otros campos
 ---------------------------
