@@ -132,6 +132,21 @@ Niveles semánticos
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 
+Se recomienda crear en Dspace los siguientes campos:
+  
+datacite:creatorName
+datacite:nameType
+datacite:givenName
+datacite:familyName 
+datacite:nameIdentifier 
+datacite:nameIdentifierScheme 
+datacite:schemeURI 
+datacite:affiliation 
+
+
+Recomendación de campos de aplicación en DSPACE
+-----------------------------------------------
+
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
 
