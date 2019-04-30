@@ -37,6 +37,32 @@ RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
+
+**creatorName - Nombre del autor (M):** El formato utilizado debe ser el familiar, los nombres no romanos deben seguir el esquema de la ALA-LC.
+
+**nameType - Tipo de nombre (R):** Hace referencia al nombre personal o de una institución.
+
+**givenName - Nombre personal (R):** Nombre del autor.
+
+**familyName - Apellido del autor (R):** Apellido del autor.
+
+**nameIdentifier - Identificador de nombre (R):** Identifica la forma única de una persona natural o jurídica, según diversos esquemas. 
+
+Se recomienda incluir un identificador de nombre como: 
+
+- ORCID -  Código alfanumérico, no comercial, que identifica de manera única a científicos y otros autores académicos.
+
+- ISNI (International Standard Name Identifier) - Identificador internacional estandarizado de nombre.
+
+**nameIdentifierScheme - Esquema del identificador de nombre (M):** Nombre del esquema identificador. 
+
+**schemeURI - Esquema del identificador de nombre (R):** URI del esquema de identificador de nombre.
+
+**affiliation - Afiliación institucional (R):** Afiliación a la que pertenece el autor. 
+
+
+Valores permitidos (Vocabularios Controlados)
+---------------------------------------------
 - creatorName
 - nameType
 - givenName
