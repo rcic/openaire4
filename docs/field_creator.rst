@@ -123,14 +123,14 @@ Recomendación de campos de aplicación en DSPACE
 
 Se recomienda crear en Dspace los siguientes campos:
   
-datacite:creatorName
-datacite:nameType
-datacite:givenName
-datacite:familyName 
-datacite:nameIdentifier 
-datacite:nameIdentifierScheme 
-datacite:schemeURI 
-datacite:affiliation 
+- datacite:creatorName
+- datacite:nameType
+- datacite:givenName
+- datacite:familyName 
+- datacite:nameIdentifier 
+- datacite:nameIdentifierScheme 
+- datacite:schemeURI 
+- datacite:affiliation 
 
 
 Recomendación de campos de aplicación en DSPACE
