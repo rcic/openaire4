@@ -31,7 +31,7 @@ RDA (Recursos: descripción y acceso)
 
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
-**creatorName - Nombre del autor (R):** El formato utilizado debe ser el familiar, los nombres no romanos deben seguir el esquema de la `ALA-LC`<http://www.loc.gov/catdir/cpso/roman.html>.
+**creatorName - Nombre del autor (R):** El formato utilizado debe ser el familiar, los nombres no romanos deben seguir el esquema de la `ALA-LC<http://www.loc.gov/catdir/cpso/roman.html>`_.
 
 **nameType - Tipo de nombre (O):** Hace referencia al nombre personal o de una institución.
 
