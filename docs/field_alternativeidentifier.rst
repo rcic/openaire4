@@ -68,6 +68,15 @@ alternateIdentifier type
 Especificadores de campo
 ------------------------
 
+- datacite:alternateIdentifier
+- datacite:alternateIdentifier-doi
+- datacite:alternateIdentifier-isbn
+- datacite:alternateIdentifier-pisbn
+- datacite:alternateIdentifier-eissn
+- datacite:alternateIdentifier-purl
+- datacite:alternateIdentifier-urn
+- datacite:alternateIdentifier-wos
+
 Niveles de aplicación para productos de investigación de Colciencias
 --------------------------------------------------------------------
 Aplica para libros, revistas, artículos, documentos de trabajo, proyectos de investigación, norma técnica, proyecto de ley.
@@ -81,6 +90,20 @@ Niveles semánticos
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
+
+Se recomienda crear en Dspace los siguientes campos:
+
+- datacite:alternateIdentifier
+- datacite:alternateIdentifier-doi
+- datacite:alternateIdentifier-isbn
+- datacite:alternateIdentifier-pisbn
+- datacite:alternateIdentifier-eissn
+- datacite:alternateIdentifier-purl
+- datacite:alternateIdentifier-urn
+- datacite:alternateIdentifier-wos
+
+Si necesita crear otro tipo de identificadores, siga la misma estructura utilizada anteriormente. 
+
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
