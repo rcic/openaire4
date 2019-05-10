@@ -38,6 +38,10 @@ oaire:licenseCondition
 Relaciones con otros campos
 ---------------------------
 
+dc.rights
+dc.rights.uri
+dc.rights.accessrights
+
 Restricciones
 -------------
 
@@ -48,7 +52,6 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-   <!-- example 1 -->
    <oaire:licenseCondition startDate="2019-02-01" uri="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial</oaire:licenseCondition>
 
 Atributos de Campo
@@ -66,11 +69,19 @@ Se aplica a todos los productos de Colciencias.
 Relaciones con otros modelos de metadatos
 -----------------------------------------
 
+- dc.rights
+- dc.rights.uri
+- dc.rights.accessrights
+
 Niveles semánticos
 ------------------
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
+
+Se recomienda crear los siguientes campos en Dspace:
+
+- oaire:licenseCondition
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
