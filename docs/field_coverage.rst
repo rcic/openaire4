@@ -1,6 +1,6 @@
 .. _dc.coverage:
 
-Cobertura (R)
+Cobertura (M)
 =============
 
 ``dc.coverage``
@@ -11,7 +11,7 @@ La cobertura generalmente incluirá la ubicación espacial (un nombre del lugar 
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
-Recomendado (R)
+Obligatorio (M)
 
 Niveles de ocurrencia (R / NR -  Cantidad Veces)
 ------------------------------------------------
@@ -28,6 +28,23 @@ Cobertura
 Forma de Descripción Normalizada (RDA / RCAA2)
 ----------------------------------------------
 RDA (Recursos: descripción y acceso)
+
+Revise la forma adecuada para ingresar la cobertura geográfica del recurso:
+
+- **dc:coverage:** El campo de cobertura geográfica es obligatorio. Y permitirá conocer los lugares geográficos donde se llevaron a cabo las investigaciones o el lugar de referencia dentro del recurso. Está información delimitará a cada producto o recurso de investigación y se podrán obtener con precisión la cantidad de investigaciones realizadas. 
+
+Para el caso de colocar ciudades y países separe con una como (,). Y siga la misma estructura para demás delimitaciones geográficas. 
+
+- Ej: Bogotá, Colombia
+- Ej: Aguachica, Cesar, Colombia 
+- Ej: Aguacatico, Medio Baudó, Chocó, Colombia
+
+También puede incluir subdivisiones geográficas cronológicas (años, siglos, décadas, etc.)
+
+- Ej: Siglo XIV
+- Ej: China - Siglo XX
+- Ej: Tolima, Colombia - 1950-2000
+
 
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
@@ -71,6 +88,10 @@ Niveles semánticos
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
+
+Se recomienda crear los siguientes campos en Dspace:
+
+- dc.coverage
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
