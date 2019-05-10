@@ -29,30 +29,42 @@ Forma de Descripción Normalizada (RDA / RCAA2)
 ----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
-Valores permitidos (Vocabularios Controlados)
----------------------------------------------
-**creatorName - Nombre del autor (R):** El formato utilizado debe ser el familiar, los nombres no romanos deben seguir el esquema de la `ALA-LC
-<http://www.loc.gov/catdir/cpso/roman.html>`_.
+Revise la forma adecuada para ingresar el nombre del colaborador con su debida puntuación:
 
-**nameType - Tipo de nombre (O):** Hace referencia al nombre personal o de una institución.
+- **creatorName - Nombre del autor (R):** El formato utilizado debe ser el familiar, los nombres no romanos deben seguir el esquema de la ALA-LC.
 
-**givenName - Nombre personal (O):** Nombre del autor.
+- **nameType - Tipo de nombre (O):** Hace referencia al nombre personal o de una institución.
 
-**familyName - Apellido del autor (R):** Apellido del autor.
+- **givenName - Nombre personal (O):** Nombre del autor. Ej: Dueñas Gómez
 
-**nameIdentifier - Identificador de nombre (R):** Identifica la forma única de una persona natural o jurídica, según diversos esquemas. 
+- **familyName - Apellido del autor (R):** Apellido del autor. Ej: Laureano Felipe
+
+- **nameIdentifier - Identificador de nombre (R):** Identifica la forma única de una persona natural o jurídica, según diversos esquemas. Ej: 0000-0003-3580-8766
 
 Se recomienda incluir un identificador de nombre como: 
 
-- ORCID -  Código alfanumérico, no comercial, que identifica de manera única a científicos y otros autores académicos.
+		- ORCID -  Código alfanumérico, no comercial, que identifica de manera única a científicos y otros autores académicos.
 
-- ISNI (International Standard Name Identifier) - Identificador internacional estandarizado de nombre.
+		- ISNI (International Standard Name Identifier) - Identificador internacional estandarizado de nombre.
 
-**nameIdentifierScheme - Esquema del identificador de nombre (M):** Nombre del esquema identificador. 
+- **nameIdentifierScheme - Esquema del identificador de nombre (M):** Nombre del esquema identificador. Ej: ORCID
 
-**schemeURI - Esquema del identificador de nombre (R):** URI del esquema de identificador de nombre.
+- **schemeURI - Esquema del identificador de nombre (R):** URI del esquema de identificador de nombre. Ej: https://orcid.org/0000-0003-3580-8766
 
-**affiliation - Afiliación institucional (R):** Afiliación a la que pertenece el autor. 
+- **affiliation - Afiliación institucional (R):** Afiliación a la que pertenece el autor. Ej: Universidad Nacional de Colombia. Departamento de Investigaciones.
+
+
+Valores permitidos (Vocabularios Controlados)
+---------------------------------------------
+
+- creatorName 
+- nameType 
+- givenName 
+- familyName 
+- nameIdentifier 
+- nameIdentifierScheme 
+- schemeURI
+- affiliation  
 
 
 Relaciones con otros campos
