@@ -29,6 +29,13 @@ Forma de Descripción Normalizada (RDA / RCAA2)
 ----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
+Para el tipo de recurso, seleccione los siguientes atributos de la lista controlada:
+
+- Full Text - Texto completo
+- Dataset - Conjunto de datos
+- Software - Software
+- Other - Otro
+
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
 oaire:file
@@ -89,8 +96,19 @@ Relaciones con otros modelos de metadatos
 Niveles semánticos
 ------------------
 
+.. image:: _static/restrictedAccess.png
+	:scale: 75%
+
+Tomado de: Vocabularios controlados Coar [#]_
+
+.. [#] http://vocabularies.coar-repositories.org/access_right/c_16ec.html
+
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
+
+Se recomienda crear los siguientes campos en Dspace:
+
+- oaire:file
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
