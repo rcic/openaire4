@@ -31,21 +31,39 @@ Forma de Descripción Normalizada (RDA / RCAA2)
 ----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
+Revise la forma adecuada para ingresar la información de título con su debida puntuación:
+
+- **Título:** Ingrese el título del recurso, la primera letra en mayúscula y finalice con punto. Ej: Acuerdos de paz en Colombia.
+
+- **Otro título:** Ingrese un título adicional del recurso. Ejemplo: Políticas de los acuerdos de paz en Colombia. 
+
+- **Subtítulo:** Seguido del título principal del recurso colo espacio : espacio e ingrese el subtítulo. Ejemplo: Acuerdos de paz en Colombia : una mirada al conflicto armado.
+
+- **Título alternativo:** Coloque el título alternativo del recurso si lo tiene. Ej: Paz en Colombia. 
+
+- **Título traducido:** Coloque la traducción del título del recurso. Ej: Peace agreements in Colombia.
+
+- **Variante del título:** Es la forma de un título que aparece en diferentes partes del recurso y es diferente al título registrado en el campo datacite:title. Ej: Colombia y sus acuerdos de paz. 
+	
+
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
-title type
+
+- title type
+- title.othertitle
+- title.alternative
+- title.translated
+- title.variant
 
 Relaciones con otros campos
 ---------------------------
+
 - Otro título
-- Subtítulo      	
-- Título abreviado
-- Título anterior
-- Título clave
-- Título uniforme
-- Título uniforme colectivo
-- Traducción del título por agencia catalogadora
+- Subtítulo
+- Título alternativo
+- Título traducido
 - Variante del título
+
 
 Restricciones
 -------------
@@ -88,6 +106,14 @@ Niveles semánticos
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
+
+Se recomienda crear en Dspace los siguientes campos:
+
+- dc.title.othertitle
+- dc.title.alternative
+- dc.title.translated
+- dc.title.variant
+
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
