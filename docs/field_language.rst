@@ -29,6 +29,19 @@ Forma de Descripción Normalizada (RDA / RCAA2)
 ----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
+Revise la forma adecuada para ingresar los códigos referentes al idioma:
+
+=====  ============
+spa    Spanish     
+eng    English     
+por    portuguese  
+fre    french      
+ger    Germanic    
+=====  ============
+
+Consulte más códigos de idioma en la siguiente lista: https://www.loc.gov/marc/languages/language_code.html#s
+
+
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
 IETF BCP 47, ISO 639-3
@@ -75,6 +88,9 @@ Niveles semánticos
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
+Se recomienda crear en Dspace los siguientes campos:
+
+- dc:language
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
