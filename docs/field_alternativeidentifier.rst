@@ -29,6 +29,10 @@ Forma de Descripción Normalizada (RDA / RCAA2)
 ----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
+Revise la forma adecuada para ingresar el identificador alternativo con su debida puntuación:
+
+-	**datacite:alternateIdentifier-doi:** hace referencia al identificador del objeto digital. Ej: http://dx.doi.org/10.1145/1067268.1067287
+
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
 alternateIdentifier
