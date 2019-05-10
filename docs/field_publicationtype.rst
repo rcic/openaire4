@@ -204,5 +204,9 @@ Tomado de: Vocabularios controlados - COAR [#]_
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 
+Se recomienda crear los siguientes campos en Dspace:
+
+- oaire:resourceType
+
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
