@@ -31,6 +31,10 @@ Forma de Descripción Normalizada (RDA / RCAA2)
 ----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
+Revise la forma adecuada para ingresar el editor:
+
+- **dc.publisher:** Nombre del editor, distribuidor, etc. Ej: Metabiblioteca. Si hay más de dos editores se registra en un nuevo campo.
+
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
 No aplica
@@ -74,6 +78,9 @@ Niveles semánticos
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
+Se recomienda crear en Dspace los siguientes campos:
+
+- dc.publisher
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
