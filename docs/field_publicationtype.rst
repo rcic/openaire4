@@ -29,7 +29,9 @@ Tipo de recurso
 
 Forma de Descripción Normalizada (RDA / RCAA2)
 ----------------------------------------------
-RDA (Recursos: descripción y acceso)
+Revise la forma adecuada para seleccionar el tipo de recurso:
+
+- **oaire:resourceType:** Se debe seleccionar el tipo de recurso que debe estar debidamente relacionado con una uri definido con el vocabulario controlado de Coar, lo que permite tener una relación semántica. Ej: uri= http://vocabularies.coar-repositories.org/pubby/resource_type/c_2df8fbb1.html Artículo de investigación.
 
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
@@ -37,6 +39,8 @@ Ver vocabularios http://vocabularies.coar-repositories.org/documentation/resourc
 
 Relaciones con otros campos
 ---------------------------
+
+- dc.type
 
 Restricciones
 -------------
@@ -189,6 +193,13 @@ Relaciones con otros modelos de metadatos
 
 Niveles semánticos
 ------------------
+
+.. image:: _static/coar.jpg
+	:scale: 70%
+
+Tomado de: Vocabularios controlados - COAR [#]_
+
+.. [#] http://vocabularies.coar-repositories.org/pubby/resource_type/c_2df8fbb1.html
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
