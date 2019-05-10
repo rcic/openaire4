@@ -29,6 +29,13 @@ Forma de Descripción Normalizada (RDA / RCAA2)
 ----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
+Revise la forma adecuada para ingresar la versión del recurso:
+
+**oaire:version:** Se puede colocar la información con letras o números. 
+
+- Ej: 1.0.1 
+- Ej: Segunda versión
+
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
 oaire:version 
@@ -96,8 +103,19 @@ Relaciones con otros modelos de metadatos
 Niveles semánticos
 ------------------
 
+.. image:: _static/ao.png
+	:scale: 75%
+
+Tomado de: Vocabularios controlados Coar [#]_
+
+.. [#] http://vocabularies.coar-repositories.org/version/c_b1a7d7d4d402bcce.html
+
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
+
+Se recomienda crear los siguientes campos en Dspace:
+
+- oaire:version
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
