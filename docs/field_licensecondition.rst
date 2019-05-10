@@ -38,9 +38,9 @@ oaire:licenseCondition
 Relaciones con otros campos
 ---------------------------
 
-dc.rights
-dc.rights.uri
-dc.rights.accessrights
+- dc.rights
+- dc.rights.uri
+- dc.rights.accessrights
 
 Restricciones
 -------------
