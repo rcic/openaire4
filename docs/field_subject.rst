@@ -29,11 +29,35 @@ datacite:subject
 
 Traducción al español
 ---------------------
-Materia
+
+- Materia
+- Punto de acceso
 
 Forma de Descripción Normalizada (RDA / RCAA2)
 ----------------------------------------------
 RDA (Recursos: descripción y acceso)
+
+Revise la forma adecuada para ingresar las materias o puntos de acceso del recurso:
+
+- **datacite:subject-ocde:** Términos controlados del tesauro de la OCDE. Ej: Cooperación internacional
+
+- **datacite:subject-skos:** Términos controlados del tesauro Skos. Ej: Cooperación internacional - uri: http://skos.um.es/unescothes/C02067
+  
+.. image:: _static/skos.png
+	:scale: 75%
+
+Tomado de: Skos Tesauro de la UNESCO [#]_
+
+.. [#] http://skos.um.es/unescothes/C02067/html
+
+- **datacite:subject-dewey:** Registre el número de clasificación según la temática del recurso. Ej: 327.17
+  
+.. image:: _static/intCooperation.jpg
+	:scale: 100%
+
+Tomado de: Web Dewey [#]_
+
+.. [#] http://dewey.org/webdewey/index_11.html?recordId=ddc:327.17
 
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
@@ -74,6 +98,13 @@ Atributos de Campo
 Especificadores de campo
 ------------------------
 
+- datacite:subject-ocde
+- datacite:subject-skos
+- datacite:subject-armarc
+- datacite:subject-lemb
+- datacite:subject-dewey
+- datacite:subject-oclc
+
 Niveles de aplicación para productos de investigación de Colciencias
 --------------------------------------------------------------------
 Se aplica a todos los productos de Colciencias. 
@@ -89,6 +120,18 @@ Niveles semánticos
 
 Recomendación de Campos de aplicación en DSPACE
 -----------------------------------------------
+
+Se recomienda crear los siguientes campos en Dspace:
+
+- datacite:subject-ocde
+- datacite:subject-skos
+- datacite:subject-armarc
+- datacite:subject-lemb
+- datacite:subject-dewey
+- datacite:subject-oclc
+
+Y otros que la institución considere pertinentes.
+
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
