@@ -64,6 +64,8 @@ De acuerdo con las mejores prácticas, se pueden seleccionar los tipos de medio 
 Especificadores de campo
 ------------------------
 
+- dc:format.mimetype
+
 Niveles de aplicación para productos de investigación de Colciencias
 --------------------------------------------------------------------
 Se aplica a todos los productos de Colciencias. 
@@ -76,6 +78,12 @@ Niveles semánticos
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
+
+Se recomienda crear los siguientes campos en Dspace:
+
+- dc:format
+- dc:format.mimetype
+
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
