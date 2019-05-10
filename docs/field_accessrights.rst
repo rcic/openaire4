@@ -31,12 +31,18 @@ Forma de Descripción Normalizada (RDA / RCAA2)
 ----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
+Revise la forma adecuada para seleccionar el tipo de recurso:
+
+- **datacite:rights:** Se debe de seleccionar las condiciones de acceso que se le van a dar al recurso definidas previamente en los atributos del campo con la definición previa del vocabulario controlado de Coar. Ej: uri: http://vocabularies.coar-repositories.org/access_right/c_abf2.html Acceso Abierto
+
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
 datacite:rights
 
 Relaciones con otros campos
 ---------------------------
+
+- dc.rights.accessrights
 
 Restricciones
 -------------
@@ -81,8 +87,18 @@ Relaciones con otros modelos de metadatos
 Niveles semánticos
 ------------------
 
+.. image:: _static/openAccess.jpg
+	:scale: 70%
+
+Tomado de: Vocabularios controlados - COAR [#]_
+
+.. [#] http://vocabularies.coar-repositories.org/access_right/c_abf2.html
+
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
+Se recomienda crear los siguientes campos en Dspace:
+
+- dc.rights.accessrights
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
