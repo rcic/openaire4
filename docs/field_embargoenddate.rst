@@ -29,6 +29,12 @@ Forma de Descripción Normalizada (RDA / RCAA2)
 ----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
+Revise la forma adecuada para ingresar la fecha con su debida puntuación:
+
+- **datacite:date-Accepted:** Fecha de aceptación. Ej: 2019-02-01
+- **datacite:date-Available:** Fecha de disponibilidad. Ej: 2019-04-01
+
+
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
 date type 
@@ -59,6 +65,9 @@ data type
 Especificadores de campo
 ------------------------
 
+- datacite:date-Accepted
+- datacite:date-Available
+
 Niveles de aplicación para productos de investigación de Colciencias
 --------------------------------------------------------------------
 Revistas, artículos, documentos de trabajo.
@@ -72,6 +81,12 @@ Niveles semánticos
 
 Recomendación de campos de aplicación en DSPACE
 ------------------------------------------------
+
+Se recomienda crear en Dspace los siguientes campos:
+
+- datacite:date-Accepted
+- datacite:date-Available
+
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
