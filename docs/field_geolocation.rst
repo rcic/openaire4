@@ -70,6 +70,15 @@ Atributos de campo
 Especificadores de campo
 ------------------------
 
+- datacite:pointLongitude
+- datacite:pointLatitude   
+- datacite:geoLocationBox
+- datacite:westBoundLongitude
+- datacite:eastBoundLongitude
+- datacite:southBoundLongitude         
+- datacite:northBoundLongitude
+
+
 Niveles de aplicación para productos de investigación de Colciencias
 --------------------------------------------------------------------
 Se aplica a todos los productos de Colciencias. 
@@ -82,6 +91,17 @@ Niveles semánticos
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
+Se recomienda crear los siguientes campos en Dspace:
+
+- datacite:geoLocation
+- datacite:pointLongitude
+- datacite:pointLatitude   
+- datacite:geoLocationBox
+- datacite:westBoundLongitude
+- datacite:eastBoundLongitude
+- datacite:southBoundLongitude         
+- datacite:northBoundLongitude
+
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------

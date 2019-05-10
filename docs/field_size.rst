@@ -29,6 +29,12 @@ Forma de Descripción Normalizada (RDA / RCAA2)
 ----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
+datacite.sizes: Descripción del recurso, incluyendo su extensión y materiales acompañantes. 
+
+- Ej: 65 páginas + 45 fotografías a color. 
+- Ej: 20 diapositivas. 
+- Ej: 5 GB
+
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
 datacite:size
@@ -64,11 +70,17 @@ Se aplica a todos los productos de Colciencias.
 Relaciones con otros modelos de metadatos
 -----------------------------------------
 
+- dc.description
+
 Niveles semánticos
 ------------------
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
+
+Se recomienda crear los siguientes campos en Dspace:
+
+- datacite.sizes
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
