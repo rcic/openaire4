@@ -1,7 +1,5 @@
-.. image:: _static/encabezado.png
-   :scale: 75%
-
-.. role:: naranja
+.. image:: _static/piedepagina.png
+   :scale: 35%
 
 ##############################################################################################################################################
 :naranja:`Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica 2019`
@@ -15,7 +13,6 @@
 :naranja:`2019`
 ===============
 
-.. role:: numbered
 
 .. toctree::
    :numbered:
@@ -30,5 +27,5 @@
    anexos
    bibliografia
 
-.. image:: _static/piedepagina.png
-   :scale: 35%
+.. image:: _static/encabezado.png
+   :scale: 60%
