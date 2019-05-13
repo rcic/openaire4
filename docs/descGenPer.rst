@@ -67,7 +67,8 @@ Campo-OpenAIRE                             Elemento Metadata                   R
 :ref:`redcol.project.identifier`           redcol.project.identifier
 :ref:`redcol.publisher.nationalprograms`   redcol.publisher.nationalprograms    :ref:`national programs type <vocab:nationalprogramstype_nationalprogramstype>`
 :ref:`redcol.publisher.linkedcommunity`    redcol.publisher.linkedcommunity
-:ref:`redcol.financingcosts`               redcol.financingcosts
+:ref:`redcol.financingcosts`               * redcol.financingcosts
+                                           * redcol.totalcost
 ========================================== =================================== ========================================================================================
 
 
