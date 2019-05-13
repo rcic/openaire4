@@ -52,6 +52,8 @@ Se recomienda incluir un identificador de nombre como:
 - **schemeURI - Esquema del identificador de nombre (R):** URI del esquema de identificador de nombre. Ej: https://orcid.org/0000-0003-3580-8766
 
 - **affiliation - Afiliación institucional (R):** Afiliación a la que pertenece el autor. Ej: Universidad Nacional de Colombia. Departamento de Investigaciones.
+  
+- **datacite:contributorRole (R):** Se define el rol del contribuidor. Ej: Editor, asesor, ilustrador, revisor 
 
 
 Valores permitidos (Vocabularios Controlados)
@@ -89,6 +91,7 @@ Ejemplos
 	   <datacite:contributor>
 	   <datacite:contributor>
 	     <datacite:contributorName>Departamento Administrativo de Ciencia, Tecnología e Innovación (Colciencias)</datacite:contributorName>
+	     <datacite:contributorRole>Co-autor</datacite:contributorRole>
 	   </datacite:contributor>
    </datacite:contributors>
 
@@ -112,7 +115,10 @@ Especificadores de campo
 - datacite:nameIdentifier 
 - datacite:nameIdentifierScheme 
 - datacite:schemeURI 
-- datacite:affiliation 
+- datacite:affiliation
+- datacite:contributorName
+- datacite:contributorRole
+
 
 
 Niveles de aplicación para productos de investigación de Colciencias
@@ -137,8 +143,9 @@ Se recomienda crear en Dspace los siguientes campos:
 - datacite:nameIdentifier 
 - datacite:nameIdentifierScheme 
 - datacite:schemeURI 
-- datacite:affiliation 
-
+- datacite:affiliation
+- datacite:contributorName
+- datacite:contributorRole
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
