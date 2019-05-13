@@ -56,15 +56,7 @@ Campo-OpenAIRE                             Elemento Metadata                   R
                                            * thesis.degree.level
                                            * thesis.degree.discipline
                                            * thesis.degree.grantor
-:ref:`redcol.contributor.rol`              redcol.contributor.rol
-:ref:`redcol.creator.degree`               redcol.creator.degree
-:ref:`redcol.publisher.program`            redcol.publisher.program
-:ref:`redcol:publisher.department`         redcol:publisher.department
-:ref:`redcol.source.bibliographicCitation` redcol.source.bibliographicCitation
-:ref:`redcol:subject.ddc`                  redcol:subject.ddc                    WebDewey_
-:ref:`redcol.subject.ocde`                 redcol.subject.ocde                   :ref:`Clasificación de áreas científicas según la OCDE <anexo5>`
 :ref:`dc.source.event`                     dc.source.event
-:ref:`redcol.project.identifier`           redcol.project.identifier
 :ref:`redcol.publisher.nationalprograms`   redcol.publisher.nationalprograms    :ref:`national programs type <vocab:nationalprogramstype_nationalprogramstype>`
 :ref:`redcol.publisher.linkedcommunity`    redcol.publisher.linkedcommunity
 :ref:`redcol.financingcosts`               * redcol.financingcosts
@@ -133,15 +125,7 @@ En los documentos de metadatos de XML, el esquema se debe declarar de la siguien
    field_citationconferencedate
    field_audience
    field_thesis
-   field_contributorRol
-   field_creatorDegree
-   field_publisherprogram
-   field_publisherdepartment
-   field_sourcebibliographicCitation
-   field_subjectddc
-   field_subjectocde
    field_sourceevent
-   field_projectidentifier
    field_publishernationalprograms
    field_publisherlinkedcommunity
    field_costs
