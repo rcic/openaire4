@@ -3,7 +3,7 @@
 Comunidad vinculada (MA)
 ========================
 
-``Comunidad vinculada``
+``redcol.publisher.linkedcommunity``
 
 Definición y alcance del campo
 ------------------------------
@@ -28,6 +28,13 @@ Comunidad vinculada
 Forma de Descripción Normalizada (RDA / RCAA2)
 ----------------------------------------------
 RDA (Recursos: descripción y acceso)
+
+Revise la forma adecuada para ingresar el programa nacional que se referencia en el recurso:
+
+- redcol.publisher.linkedcommunity: Coloque la comunidad vinculada que ha promovido los proyectos de investigación.
+
+	Ej: Comunidad Científica Colombiana
+
 
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
@@ -68,6 +75,10 @@ Niveles semánticos
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
+
+Se recomienda crear los siguientes campos en Dspace:
+
+- redcol.publisher.linkedcommunity
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
