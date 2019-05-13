@@ -48,6 +48,9 @@ Glosario
 * **Protocolo:** Conjunto de normas que definen la comunicación entre sistemas. FTP (Protocolo de Transferencia de Ficheros) y HTTP (Protocolo de Transferencia de Hipertexto) son ejemplos de otros protocolos. 
 ..
 
+* **Puntos de acceso:** Hace referencia al término normalizado por el que puede ser buscado un recurso de información. 
+..
+
 * **RDA (Recursos : descripción y acceso):** Es la nueva norma de catalogación que reemplazará a la AACR2. La RDA ofrece a las bibliotecas la posibilidad de cambiar en gran medida la manera en que se crean y utilizan los datos bibliográficos.
 ..
 

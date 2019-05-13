@@ -39,6 +39,12 @@ Revise la forma adecuada para ingresar la descripción del recurso:
 
 Ej: En la presente edición, producto del trabajo colectivo del programa, han sido sometidos a la metodología de validación científica TRAMIL, 399 usos significativos de partes de 130 especies reportadas en 11.004 encuestas etnofarmacológicas, llevadas a cabo en 64 comunidades incluyendo la mayor parte de los países de la cuenca del Caribe. De los usos sometidos a validación, 393 han sido clasificados en la categoría REC y 6 en TOX. Además, se han realizado 529 ensayos de laboratorio: fitoquímicos (49), de actividad biológica (213) y evaluación de toxicidad (267). Más del 90% de estos ensayos se han realizado en laboratorios universitarios de los países participantes de la cuenca del Caribe. (Apartes del texto)
 
+- **dc.description.notes:** Coloque notas generales de interés al público relacionadas con el recurso. 
+
+	Ej: Convenio Interadministrativo No. 271 de 2015.
+
+	Ej: El proyecto de investigación se elaboró en el marco del desarrollo de la política institucional de cadenas productivas del sector artesanal. 
+
 
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
@@ -63,6 +69,11 @@ Ejemplos
    <dc.description abstract xml:lang="en-US">
      En la presente edición, producto del trabajo colectivo del programa, han sido sometidos a la metodología de validación científica TRAMIL, 399 usos significativos de partes de 130 especies reportadas en 11.004 encuestas etnofarmacológicas, llevadas a cabo en 64 comunidades incluyendo la mayor parte de los países de la cuenca del Caribe. De los usos sometidos a validación, 393 han sido clasificados en la categoría REC y 6 en TOX. Además, se han realizado 529 ensayos de laboratorio: fitoquímicos (49), de actividad biológica (213) y evaluación de toxicidad (267). Más del 90% de estos ensayos se han realizado en laboratorios universitarios de los países participantes de la cuenca del Caribe.
    </dc.description abstract>
+
+   <dc.description notes>
+  		Convenio Interadministrativo No. 271 de 2015. 
+   </dc.description notes>
+
 
 .. _DRIVER Guidelines v2 element description: https://wiki.surfnet.nl/display/DRIVERguidelines/Description
 
@@ -91,6 +102,7 @@ Se recomienda crear los siguientes campos en Dspace:
 
 - dc.description 
 - dc.description.abstract
+- dc.description.notes
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
