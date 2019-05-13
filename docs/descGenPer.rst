@@ -52,6 +52,10 @@ Campo-OpenAIRE                             Elemento Metadata                   R
 :ref:`aire:citationConferencePlace`        oaire:citationConferencePlace
 :ref:`aire:citationConferenceDate`         oaire:citationConferenceDate
 :ref:`dct:audience`                        dcterms:audience                     :ref:`audience type <vocab:audiencetype_audiencetype>`
+:ref:`_thesis.degree`                      thesis.degree.name
+                                           thesis.degree.level
+                                           thesis.degree.discipline
+                                           thesis.degree.grantor
 :ref:`redcol.contributor.rol`              redcol.contributor.rol
 :ref:`redcol.creator.degree`               redcol.creator.degree
 :ref:`redcol.publisher.program`            redcol.publisher.program
@@ -125,6 +129,7 @@ En los documentos de metadatos de XML, el esquema se debe declarar de la siguien
    field_citationconferenceplace
    field_citationconferencedate
    field_audience
+   field_thesis
    field_contributorRol
    field_creatorDegree
    field_publisherprogram
