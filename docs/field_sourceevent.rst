@@ -3,7 +3,7 @@
 Nombre del evento (MA)
 ======================
 
-``redcol.source.event``
+``dc.source.event``
 
 Definición y alcance del campo
 ------------------------------
@@ -29,9 +29,18 @@ Forma de Descripción Normalizada (RDA / RCAA2)
 ----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
+Revise la forma adecuada para ingresar el nombre de evento relacionado en el recurso:
+
+- dc.source.event: Puede colocarse el nombre del evento, reunión, conferencia a la que hace referencia el recurso con la fecha y lugar respectivo de su realización.
+
+	Ej: Conferencia Internacional BIREDIAL - ISTEC. 30, 31 y 1 de agosto de 2018 : São Paulo, Brasil. 
+
+	Ej: Encuentro Nacional de Investigadores. 2019 : Bogotá, Colombia. 
+
+
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
-redcol.source.event
+dc.source.event
 
 Relaciones con otros campos
 ---------------------------
@@ -45,16 +54,14 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-   <redcol.source.event>Memorias Congreso Nacional de Bibliotecología</redcol.source.event>
-
-.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
+   <dc.source.event>Memorias Congreso Nacional de Bibliotecología. 2010 : Bogotá, Colombia. <dc.source.event>
 
 Atributos de campo
 ------------------
 
 Especificadores de campo
 ------------------------
-event
+dc.source.event
 
 Niveles de aplicación para productos de investigación de Colciencias
 --------------------------------------------------------------------
@@ -69,6 +76,9 @@ Niveles semánticos
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
+Se recomienda crear los siguientes campos en Dspace:
+
+- dc.source.event
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------

@@ -63,7 +63,7 @@ Campo-OpenAIRE                             Elemento Metadata                   R
 :ref:`redcol.source.bibliographicCitation` redcol.source.bibliographicCitation
 :ref:`redcol:subject.ddc`                  redcol:subject.ddc                    WebDewey_
 :ref:`redcol.subject.ocde`                 redcol.subject.ocde                   :ref:`Clasificación de áreas científicas según la OCDE <anexo5>`
-:ref:`redcol.source.event`                 redcol.source.event
+:ref:`dc.source.event`                     dc.source.event
 :ref:`redcol.project.identifier`           redcol.project.identifier
 :ref:`redcol.publisher.nationalprograms`   redcol.publisher.nationalprograms    :ref:`national programs type <vocab:nationalprogramstype_nationalprogramstype>`
 ========================================== =================================== ========================================================================================
