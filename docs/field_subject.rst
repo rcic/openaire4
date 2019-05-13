@@ -53,7 +53,7 @@ Tomado de: Skos Tesauro de la UNESCO [#]_
 - **datacite:subject-dewey:** Registre el número de clasificación según la temática del recurso. Ej: 327.17
   
 .. image:: _static/intCooperation.png
-	:scale: 100%
+	:scale: 80%
 
 Tomado de: Web Dewey [#]_
 
