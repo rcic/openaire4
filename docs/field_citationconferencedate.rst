@@ -71,5 +71,9 @@ Niveles semánticos
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 
+Se recomienda crear los siguientes campos en Dspace:
+
+- oaire:citationConferenceDate
+
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
