@@ -52,10 +52,10 @@ Campo-OpenAIRE                             Elemento Metadata                   R
 :ref:`aire:citationConferencePlace`        oaire:citationConferencePlace
 :ref:`aire:citationConferenceDate`         oaire:citationConferenceDate
 :ref:`dct:audience`                        dcterms:audience                     :ref:`audience type <vocab:audiencetype_audiencetype>`
-:ref:`_thesis.degree`                      thesis.degree.name
-                                           thesis.degree.level
-                                           thesis.degree.discipline
-                                           thesis.degree.grantor
+:ref:`thesis.degree`                       * thesis.degree.name
+                                           * thesis.degree.level
+                                           * thesis.degree.discipline
+                                           * thesis.degree.grantor
 :ref:`redcol.contributor.rol`              redcol.contributor.rol
 :ref:`redcol.creator.degree`               redcol.creator.degree
 :ref:`redcol.publisher.program`            redcol.publisher.program
