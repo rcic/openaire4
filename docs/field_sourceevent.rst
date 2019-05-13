@@ -1,4 +1,4 @@
-.. _redcol.source.event:
+.. _dc.source.event:
 
 Nombre del evento (MA)
 ======================
