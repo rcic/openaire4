@@ -3,10 +3,10 @@
 Tesis (MA)
 ==========
 
-``thesis.degree.name``
-``thesis.degree.level``
-``thesis.degree.discipline``
-``thesis.degree.grantor``
+- ``thesis.degree.name``
+- ``thesis.degree.level``
+- ``thesis.degree.discipline``
+- ``thesis.degree.grantor``
 
 Definición y alcance del campo
 ------------------------------
