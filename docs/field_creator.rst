@@ -41,9 +41,15 @@ Revise la forma adecuada para ingresar el nombre de autor con su debida puntuaci
 
 - **nameType - Tipo de nombre (R):** Hace referencia al nombre personal o de una institución.
 
-- **givenName - Nombre personal (R):** Nombre del autor.
+- **givenName - Nombre personal (R):** Nombre del autor o de la institución.
+
+    Ej: Andres Camilo
+    Ej: Universidad Nacional de Colombia
+
 
 - **familyName - Apellido del autor (R):** Apellido del autor.
+
+    Ej: Ortiz Valencia 
 
 - **nameIdentifier - Identificador de nombre (R):** Identifica la forma única de una persona natural o jurídica, según diversos esquemas. 
 
@@ -88,8 +94,9 @@ Se recomienda incluir un identificador de nombre como:
 
 Relaciones con otros campos
 ---------------------------
-- Colaborador
-- Editor
+
+- dc.creator
+- dc.contributor.corpauthor
 
 Restricciones
 -------------
