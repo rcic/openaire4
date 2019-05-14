@@ -10,12 +10,12 @@ body,
 html {
   background: var(--blanco);
 }
-.wy-breadcrumbs > a,
+.wy-breadcrumbs li a,
 .fa-github {
   color: var(--naranja);
   text-decoration: none;
 }
-.wy-breadcrumbs > a:hover,
+.wy-breadcrumbs li a:hover,
 .fa-github:hover {
   color: var(--gris);
 }
@@ -54,7 +54,7 @@ html {
 .naranja {
   color: var(--naranja);
 }
-.rst-versions .rst-current-versionn {
+.rst-versions .rst-current-version {
   background: var(--naranja);
   color: var(--blanco);
 }
