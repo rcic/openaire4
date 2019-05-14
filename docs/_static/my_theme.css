@@ -10,6 +10,14 @@ body,
 html {
   background: var(--blanco);
 }
+a,
+.fn-backref {
+  color: var(--naranja);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--gris);
+}
 .wy-breadcrumbs li a,
 .fa-github {
   color: var(--naranja);
