@@ -20,4 +20,4 @@ Para la construcción de servicios y productos de información digital, la Red C
 	- Aportar una URI accesible tanto al sistema de información como a la interfaz (OAI-PMH) (enlace de forma directa al producto científico descrito y/o a la ficha de acceso)
 	- Incluir los valores de las listas controladas definidas en los distintos esquemas de metadatos (dc:type, dc:rights).
 	- Respetar los esquemas de codificación definidos en estas directrices, en especial campos como fechas, derechos e idioma (dc:date, dc:rights, dc:language).
-	- En caso de objetos bajo período de embargo o protegidos, se debe incluir la descripción de los metadatos y proporcionar el acceso al documento completo a partir de la fecha de su liberación. 
+	- En caso de objetos bajo período de embargo o protegidos, se debe incluir la fecha de liberación de contenido en la descripción de los metadatos y proporcionar el acceso al documento completo a partir de esta fecha. 
