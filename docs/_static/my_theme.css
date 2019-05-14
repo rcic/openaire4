@@ -29,6 +29,9 @@ html {
 .naranja {
   color: var(--naranja);
 }
+.rst-current-version {
+  background: var(--naranja);
+}
 /*Estilos 14052019 - Carlos Pachón */
 /*-Sidebar izq-*/
 .wy-nav-side {
@@ -99,5 +102,9 @@ p {
 .toctree-l1 {
 }
 /*|--Componentes footer*/
-.rst-footer-buttons .btn {
+.rst-footer-buttons a.btn {
+  box-shadow: none;
+  color: var(--naranja) !important;
+  background: transparent !important;
+  border-color: var(--naranja);
 }
