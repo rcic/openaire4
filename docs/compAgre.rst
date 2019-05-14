@@ -25,5 +25,3 @@ Adicionalmente las instituciones miembro podrán optar por suministrar unicament
         </originDescription>
       </provenance>
     </about>
-
-.. _políticas:
