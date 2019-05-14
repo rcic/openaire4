@@ -34,7 +34,8 @@ Campo-OpenAIRE                             Elemento Metadata                   R
 :ref:`dc.format`                           dc.format                           :ref:`format type <vocab:formattype_formattype>`
 :ref:`dci:identifier`                      datacite:identifier                 :ref:`identifier type <vocab:identifiertype_identifiertype>`
 :ref:`dci:accessrights`                    datacite:rights                     `COAR Access Right Vocabulary`_
-:ref:`dc.source`                           dc.source
+:ref:`dc.source`                           * dc.source
+                                           * dc.source.bibliographicCitation
 :ref:`dci:subject`                         datacite:subject              
 :ref:`aire:licenseCondition`               oaire:licenseCondition
 :ref:`dc.coverage`                         dc.coverage
