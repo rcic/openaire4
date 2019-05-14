@@ -1,9 +1,80 @@
-.wy-nav-content {
-    padding: 1.618em 3.236em;
-    height: 100%;
-     max-width: 100%;
-    margin: auto;
+/*Variables*/
+:root {
+  --blanco: #fcfcfc;
+  --naranja: #ec731d;
+  --gris: #404040;
 }
-.naranja{
-	color: #EC731D;
+/*Variables*/
+/*Reset*/
+body,
+html {
+  background: var(--blanco);
+}
+/*Reset*/
+.wy-nav-content {
+  padding: 2em 7em;
+  height: 100%;
+  max-width: 100vw;
+  margin: auto;
+}
+.naranja {
+  color: var(--naranja);
+}
+/*Estilos 14052019 - Carlos Pachón */
+/*-Sidebar izq-*/
+.wy-nav-side {
+  background: var(--blanco);
+  border-right: thin solid rgba(3, 3, 3, 0.1);
+}
+.wy-side-nav-search {
+  background: transparent;
+  border-top: 4px solid var(--naranja);
+}
+.wy-side-nav-search a {
+  color: var(--gris);
+}
+.wy-side-nav-search form input {
+  color: var(--gris);
+  border: thin solid rgba(3, 3, 3, 0.2);
+  box-shadow: none;
+}
+.wy-menu-vertical li.toctree-l1 > a {
+  color: var(--gris);
+  font-weight: 600;
+  text-align: left;
+  padding: 1em;
+  line-height: 1.2em;
+}
+.wy-menu-vertical li.toctree-l1.current > a {
+  color: var(--naranja);
+  border-bottom: none;
+  border-top: none;
+  border-left: 5px solid var(--naranja);
+}
+/*|--ads*/
+.ethical-rtd,
+.ethical-dark-theme {
+  display: none;
+}
+/*-Contenido-*/
+.wy-nav-content {
+}
+.document {
+}
+/*|--Estilos de texto*/
+h1 {
+}
+h2 {
+}
+p {
+}
+.footnote-reference {
+}
+/*|--Tabla de contenido*/
+.toctree-wrapper {
+}
+.toctree-l1 {
+}
+/*|--Componentes footer*/
+.rst-footer-buttons .btn {
 }
