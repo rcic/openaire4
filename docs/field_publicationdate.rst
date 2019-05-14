@@ -71,6 +71,9 @@ Niveles semánticos
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
+Se recomienda crear en Dspace los siguientes campos:
+
+- datacite:date
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
