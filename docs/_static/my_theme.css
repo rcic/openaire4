@@ -85,7 +85,13 @@ h2 {
 }
 p {
 }
-.footnote-reference {
+.footnote-reference,
+.footnote-reference:hover {
+  color: var(--naranja);
+}
+.head {
+  background: var(--gris);
+  color: var(--blanco);
 }
 /*|--Tabla de contenido*/
 .toctree-wrapper {
