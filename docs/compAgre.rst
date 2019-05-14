@@ -3,7 +3,9 @@
 Compatibilidad de los agregadores
 =================================
 
-Además de los repositorios institucionales y de investigación, están los agregadores que también pueden ser compatibles con estas directrices. Para este caso, es importante conocer la procedencia de los proveedores de contenido original que serán recolectados por los agregadores y que deben ser codificados por OpenAIRE, siguiendo las políticas de OAI-PMH para la interoperabilidad. A continuación, se muestra un ejemplo para su codificación:
+La Red Colombiana de Información Científica (RedCol) recolectará los metadatos de los distintos sistemas de información que posean las instituciones miembro (Repositorios / Bibliotecas Digitales, Sistema de Publicación, Sistemas de Investigación) que cumplan las directrices propuestas y provean los protocolos de interoperabilidad requeridos (OAI-PMH).
+
+Adicionalmente las instituciones miembro podrán optar por suministrar unicamente los datos de acceso de un sistema del tipo Integrador/Recolector/Agregador institucional que también sea compatible con estas directrices. Para este caso, es importante conocer la procedencia de los proveedores de contenido original que serán recolectados por los el sistema de información y que deben ser codificados por RedCol, siguiendo las políticas_ de OAI-PMH para la interoperabilidad (Utilizando el campo “provenance” en los metadatos recolectados) . A continuación, se muestra un ejemplo para su codificación:
 
 .. code-block:: xml
    :linenos:
@@ -23,3 +25,6 @@ Además de los repositorios institucionales y de investigación, están los agre
         </originDescription>
       </provenance>
     </about>
+
+
+.. _políticas:http://www.openarchives.org/OAI/2.0/guidelines-provenance.htm
