@@ -136,7 +136,8 @@ Atributos de Campo
 +-----------------------------------------------+-------------------------+
 | http://purl.org/coar/resource_type/c_f744     | Actas de conferencia    |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_7a1f     | Tesis de licenciatura   |
+| http://purl.org/coar/resource_type/c_7a1f     | Trabajo de grado de     |
+|                                               | pregrado                |
 +-----------------------------------------------+-------------------------+
 | http://purl.org/coar/resource_type/c_bdcc     | Tesis de maestría       |
 +-----------------------------------------------+-------------------------+
@@ -186,7 +187,35 @@ Especificadores de campo
 
 Niveles de aplicación para productos de investigación de Colciencias
 --------------------------------------------------------------------
-Se aplica a todos los productos de Colciencias. 
+REDCOL ha desarrollado el siguiente vocabulario controlado acorde con los productos de investigación reconocidos y avalados por Colciencias y que se ciñe a los modelos semánticos provistos por DATACITE y OPENAIRE.  
+
+Los sistemas de información deben utilizar estos nuevos elementos para describir tipologías documentales que no se encuentran descritas en el Vocabulario normalizado de Tipos Documentales OPENAIRE-COAR. En este contexto, para describir estos tipos documentales asociados a los productos específicos de Colciencias,  para el campo anterior  se debe utilizar  el valor “other - http://purl.org/coar/resource_type/c_1843”  y posteriromente seleccionar el tipo documental específico que se muestra a continuación:Colciencias.
+
+- Productos resultados de actividades de generación de nuevo conocimiento:
+
++---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+| Tipo Documental Específico Colciencias                        | Notas                                                                                                                              | Valor Autorizado                                                                                  |
++===============================================================+====================================================================================================================================+===================================================================================================+
+| Artículos de investigación                                    | Campo ya descrito en Vocabulario COAR/OPENAIRE. http://purl.org/coar/resource_type/c_2f33                                          | Se genera equivalencia semántica (de uso opcional): https://purl.org/redcol/resource_type/ART     |
++---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+| Notas Científicas                                             |                                                                                                                                    |                                                                                                   |
++---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+| Libros resultado de investigación                             | Campo ya descrito en Vocabulario COAR/OPENAIRE                                                                                     | Se genera equivalencia semántica (de uso opcional): https://purl.org/redcol/resource_type/LIB     |
++---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+| Capítulos en libro resultado de investigación                 | Campo ya descrito en Vocabulario COAR                                                                                              | Se genera equivalencia semántica (de uso opcional): https://purl.org/redcol/resource_type/CAP_LIB |
++---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+| Patente de invención                                          | Selecionar del Vocabulario COAR/OPENAIRE “Patente” y utilizar el siguiente elemento semántico para especificar el tipo de Patente: | https://purl.org/redcol/resource_type/PA                                                          |
++---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+| Patente de modelo de utilidad                                 | Selecionar del Vocabulario COAR/OPENAIRE “Patente” y utilizar el siguiente elemento semántico para especificar el tipo de Patente: | https://purl.org/redcol/resource_type/MA                                                          |
++---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+| Variedad vegetal y variedad animal                            | Campo ya descrito en Vocabulario COAR                                                                                              | https://purl.org/redcol/resource_type/VV                                                          |
++---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+| Nueva raza animal                                             |                                                                                                                                    |                                                                                                   |
++---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+| Poblaciones mejoradas de razas pecuarias                      |                                                                                                                                    |                                                                                                   |
++---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+| Obras o Productos de creación en artes, arquitectura y diseño | Campo ya descrito en Vocabulario COAR                                                                                              | https://purl.org/redcol/resource_type/AAD                                                         |
++---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
