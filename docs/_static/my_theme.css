@@ -10,8 +10,12 @@ body,
 html {
   background: var(--blanco);
 }
-.wy-breadcrumbs>a,
-.fa-github{
+.wy-breadcrumbs > a,
+.fa-github:hover {
+  color: var(--gris);
+}
+.wy-breadcrumbs>a:hover,
+.fa-github: {
   color: var(--naranja);
   text-decoration: none;
 }
@@ -37,6 +41,8 @@ html {
 }
 .wy-side-nav-search a {
   color: var(--gris);
+  text-align: left;
+  font-weight: 600;
 }
 .wy-side-nav-search form > input {
   color: var(--gris);
@@ -50,8 +56,8 @@ html {
   padding: 1em;
   line-height: 1.2em;
 }
-.wy-menu-vertical li.toctree-l1 > a:hover{
-  background-color: transparent !important;  
+.wy-menu-vertical li.toctree-l1 > a:hover {
+  background-color: transparent !important;
   border-left: 5px solid var(--naranja);
 }
 .wy-menu-vertical li.toctree-l1.current > a {
@@ -73,8 +79,7 @@ html {
 /*|--Estilos de texto*/
 h1 {
   border-left: 4px solid orange;
-    padding-left: 20px;
-}
+  padding-left: 20px;
 }
 h2 {
 }
