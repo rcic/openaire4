@@ -10,11 +10,7 @@ body,
 html {
   background: var(--blanco);
 }
-.wy-breadcrumbs > a,
-.fa-github:hover {
-  color: var(--gris);
-}
-.wy-breadcrumbs>a:hover,
+.wy-breadcrumbs>a,
 .fa-github: {
   color: var(--naranja);
   text-decoration: none;
