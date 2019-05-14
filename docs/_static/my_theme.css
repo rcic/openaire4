@@ -97,9 +97,15 @@ p {
   color: var(--blanco);
 }
 /*|--Tabla de contenido*/
-.toctree-wrapper {
+#directrices-para-repositorios-institucionales-de-investigacion-de-la-red-colombiana-de-informacion-cientifica-2019
+  .toctree-l1 {
+  list-style-type: none;
 }
-.toctree-l1 {
+#directrices-para-repositorios-institucionales-de-investigacion-de-la-red-colombiana-de-informacion-cientifica-2019
+  .toctree-l1
+  a {
+  color: var(--naranja);
+  text-decoration: none;
 }
 /*|--Componentes footer*/
 .rst-footer-buttons a.btn {
