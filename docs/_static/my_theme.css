@@ -1,7 +1,7 @@
 /*Variables*/
 :root {
   --blanco: #fcfcfc;
-  --naranja: #ec731d;
+  --naranja: #eb721c;
   --gris: #404040;
 }
 /*Variables*/
@@ -81,7 +81,7 @@ html {
 }
 /*|--Estilos de texto*/
 h1 {
-  border-left: 4px solid orange;
+  border-left: 4px solid var(--naranja);
   padding-left: 20px;
 }
 h2 {
