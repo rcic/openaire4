@@ -10,6 +10,11 @@ body,
 html {
   background: var(--blanco);
 }
+.wy-breadcrumbs>a,
+.fa-github{
+  color: var(--naranja);
+  text-decoration: none;
+}
 /*Reset*/
 .wy-nav-content {
   padding: 2em 7em;
@@ -33,7 +38,7 @@ html {
 .wy-side-nav-search a {
   color: var(--gris);
 }
-.wy-side-nav-search form input {
+.wy-side-nav-search form > input {
   color: var(--gris);
   border: thin solid rgba(3, 3, 3, 0.2);
   box-shadow: none;
