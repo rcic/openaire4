@@ -13,7 +13,7 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 - Productos resultados de actividades de apropiación social del conocimiento.
 - Productos de actividades relacionadas con la Formación de Recurso Humano en CTeI.
 
-**Los productos de investigación reconocidos en cada tipo según el modelo de medición de grupos de investigación , desarrollo tecnológico o innovación son** [#]_ :
+**Los productos de investigación reconocidos en cada tipo según el modelo de medición de grupos de investigación , desarrollo tecnológico o innovación son** [#]_:
 
 - Productos resultados de actividades de generación de nuevo conocimiento: 
 
@@ -74,7 +74,7 @@ Para el proceso de evaluación, análisis e incorporación  de los productos de 
 .. tabularcolumns:: |\Y{0.4}|\Y{0.1}|\Y{0.4}|\Y{0.1}|
 
 +---------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+
-| FASE I                                                                    | FASE II                                                                                     0123   |
+| FASE I                                                                    | FASE II                                                                                            |
 +===================================================================+=======+===========================================================================================+========+
 | Artículos de investigación                                        | 93896 | Capítulo Libro resultado de investigación                                                 | 9646   |
 +-------------------------------------------------------------------+-------+-------------------------------------------------------------------------------------------+--------+
