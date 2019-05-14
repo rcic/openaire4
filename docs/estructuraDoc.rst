@@ -43,6 +43,26 @@ El documento proporciona una descripción general de cómo configurar y utilizar
 
 ..
 
+- **Esquema de metadatos:** Determina el modelo de metadatos aplicado para la definición y utilización del campo. Estas directrices contemplan la utilización de los siguientes modelos de metadatos:
+
++-------------------------------------------------------------+---------------------+
+| Modelo de Metadatos                                         | Codificación REDCOL |
++=============================================================+=====================+
+| Simple DC XML Schema                                        | dc                  |
++-------------------------------------------------------------+---------------------+
+| DCMI Metadata Terms Schema                                  | dcterms             |
++-------------------------------------------------------------+---------------------+
+| Learning Object Metadata Schema definition (LOM)            | lom                 |
++-------------------------------------------------------------+---------------------+
+| Electronic Theses and Dissertation Metadata Schema (ETD-MS) | thesis              |
++-------------------------------------------------------------+---------------------+
+| DataCite Metadata Schema                                    | datacite            |
++-------------------------------------------------------------+---------------------+
+| OpenAire Specification Schema                               | oaire               |
++-------------------------------------------------------------+---------------------+
+
+..
+
 - **Campo con esquema de metadatos:** Se detalla la estructura del campo del metadato para la descripción del recurso. 
 
 ..
