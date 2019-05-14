@@ -19,6 +19,31 @@ html {
   color: var(--naranja);
   text-decoration: none;
 }
+.wy-nav-top {
+  background: var(--gris);
+  line-height: 1.2em;
+  height: 200px;
+  border-top: 5px solid var(--naranja);
+}
+.wy-nav-top i {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  color: var(--naranja);
+  z-index: 10;
+}
+.wy-nav-top a {
+  position: absolute;
+  display: inherit;
+  color: #fff;
+  font-weight: 600;
+  z-index: 1;
+  width: 80%;
+  height: auto;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 /*Reset*/
 .wy-nav-content {
   padding: 2em 7em;
