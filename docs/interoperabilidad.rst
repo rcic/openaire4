@@ -3,17 +3,15 @@
 Interoperabilidad
 =================
 
-Para llevar a cabo el proceso de recolección de registros es necesario tener en cuenta las siguientes indicaciones:
+Un componente vital que debe ser tenido en cuenta en todas las las políticas y/o directrices de gestión de los proyectos institucionales de Repositorios / Bibliotecas Digitales/ Portales de Revistas es la **Interoperabilidad del sistema de información** [#]_, entendiendo esta como “La capacidad de un sistema de información para comunicarse y compartir datos, información, documentos y objetos digitales de forma efectiva, con uno o varios sistemas de información (siendo generalmente estos sistemas completamente heterogéneos, distribuidos y geográficamente distantes), mediante una interconexión libre, automática y transparente, sin dejar de utilizar en ningún momento la interfaz del sistema propio”. De esta forma aunque los sistemas de información sean totalmente funcionales en  el ámbito de aplicación y uso de los usuarios (Interfaces de Usuario). Para muchos proyectos, no es claro cómo estos sistemas de información se pueden articular con otros sistemas y redes de información y participar en la creación de productos y servicios distribuidos.
+ 
+Hay tres elementos claves que se deben tener en cuenta como parte importante del componente de interoperabilidad en estos sistemas de Información y que actualmente presentan algunos problemas que se detallan a continuación:
 
-* Cada repositorio debe manejar el protocolo OAI-PMH (Protocolo de Iniciativa de Archivos Abiertos para la Recolección de Metadatos)
-* Las instituciones que se vinculen a la Red Colombiana de Información Científica deben definir previamente las colecciones que se encontrarán al interior del repositorio institucional, con el fin de ofrecer su cosecha. 
+	- **La estructura de los metadatos utilizados (Interoperabilidad Sintáctica):** Respecto a la estructura de los metadatos, aunque actualmente existe un consenso generalizado en la utilización del estándar Dublin Core para recursos de información Monográficos/Seriadas y el estándar LOM para Objetos de Aprendizaje (Llamados en Colombia REDA), en la práctica se evidencia que cada institución ha modificado y ajustado sus distintos sistemas de información creando campos de metadatos ajustados a sus recursos de información propios y que no necesariamente están ajustados a algún estándar. Por ejemplo para almacenar la tipología documental asociada, se ha encontrado gran disparidad de campos entre los que se encuentran: “dc.type”, “dc.type.local”, “dc.type.tipologia”, “dc.type.tipolocal”, etc.  El problema de no tener claridad en la correcta gestión de estos campos “propios” se traduce básicamente en la pérdida total o parcial de estos datos al ser integrados/recolectados/cosechados por otros sistemas intermediarios y/o agregadores.  
 
-Los metadatos que estarán asociados a la Red, deben estar de acuerdo al esquema de metadatos que se presenta en estas directrices. Por esta razón, se debe tener en cuenta lo siguiente:
+	- **La forma y valores de los contenidos (Interoperabilidad Semántica):** Respecto a la forma y valores de los contenidos presentes en los metadatos utilizados, se evidencia que el aseguramiento de la calidad en los metadatos sigue siendo un gran desafío para las instituciones que gestionan los distintos sistemas de información (Repositorios Institucionales / Bibliotecas Digitales / Portales de Revistas), esto apoyado en muchos resultados de las investigaciones presentadas para determinar el estado y calidad de los Metadatos en Colombia, entre los que se destacan (Tabares Morales,2013)[#]_ y (Ruíz Jaramillo, 2015)[#]_ que indican como parte de sus conclusiones que “se presenta algunos problemas de calidad de metadatos de los OAs, principalmente respecto a la completitud y coherencia de los mismos”. Dicho de otro modo, falta mejorar y normalizar aún  más los contenidos presentes en los esquemas de metadatos. Se debe tener en cuenta que para este punto, existen múltiples manuales y guías que se han publicado y presentado para normalizar metadatos como la Guía de Metadatos del Proyecto Biblioteca Digital Colombiana[#]_,  El Manual de Metadatos e Interoperabilidad del Sistema Nacional de Acceso Abierto al Conocimiento – SNAAC[#]_, la guía de Metadatos y políticas de cosecha de la Red Latinoamericana de Repositorios y Biblioteca Digitales - LAReferencia[#]_ y las Directrices DRIVER 2.0 - Directrices para proveedores de contenido que han evolucionado a las OpenAIRE Guidelines for Literature Repositories V3/4[#]_.
 
-* Aportar una URI accesible (enlace de forma directa al producto científico descrito y/o a la ficha de acceso)
-* Incluir sólo valores de las listas controladas definidas en el esquema de metadatos (dc:type, dc:rights).
-* Respetar los esquemas de codificación definidos en estas directrices, en especial campos como fechas, derechos e idioma (dc:date, dc:Rights, dc:language).
-* En caso de objetos bajo período de embargo o protegidos, se debe incluir la descripción de los metadatos y proporcionar el acceso al documento completo a partir de la fecha de su liberación.
+	- **Los protocolos para compartir los metadatos (y Contenidos) (Interoperabilidad Estructural):** Respecto a los protocolos para compartir los metadatos, básicamente todos los sistemas de información poseen interfaces nativas que están íntimamente ligados al uso del protocolo OAI-PMH v2 (Un  protocolo de intercambio de datos sobre el protocolo HTTP que tiene su origen en la ciudad de Nuevo México en el año de 1999 y cuya primera versión se hizo pública en enero de 2001). Sin embargo, pese a cumplir más de veinte años aún no se ha explotado todo su potencial de intercambio sobre formatos de metadatos siendo generalmente utilizado asociado al formato de metadatos más simple de todos (oai_dc), el cual solo permite compartir los quince (15) campos básicos asociados al estándar dublin core[#]_. Por fortuna, los principales sistemas de información para Repositorio y Bibliotecas Digitales (DSPACE, EPRINTS,  OJC, OMP, etc..), tienen incorporados múltiples formatos de intercambio de metadatos en su protocolo OAI-PMH brindando una mayor flexibilidad para evaluar el estado y calidad de los metadatos. Adicionalmente, se debe tener en cuenta que en los últimos años han surgido nuevos protocolos y componentes que pueden perfectamente reemplazar el uso del protocolo OAI-PMH, entre ellos tenemos ResourceSync[#]_ y REST-FULL[#]_.
 
 .. toctree::
    :numbered:
@@ -27,6 +25,14 @@ Los metadatos que estarán asociados a la Red, deben estar de acuerdo al esquema
    descGenPer
 
 
-
-
-
+.. [#] Gómez-Dueñas, L.-F. (2009). Puntos Técnicos para la Validación y Verificación de una Nueva Institución en la Biblioteca Digital Colombiana-BDCOL
+.. [#] Tabares Morales, Valentina, Duque Méndez, Néstor Darío, Moreno Cadavid, Julián, Ovalle Carranza, Demetrio Arturo, Vicari, Rosa Maria, Evaluación de la calidad de metadatos en repositorios digitales de objetos de aprendizaje. Revista Interamericana de Bibliotecología [en linea] 2013, 36 (Septiembre-Diciembre).Disponible en:<http://www.redalyc.org/articulo.oa?id=179029141004 > ISSN 0120-0976
+.. [#] Ruíz Jaramillo, Cesar Augusto. Diagnóstico de la calidad en los metadatos de los repositorios colombianos. Trabajo de Grado Maestría. Repositorio Institucional Universidad Eafit. 2015. Disponible en: <https://core.ac.uk/download/pdf/47252746.pdf>
+.. [#] URL
+.. [#] URL
+.. [#] URL
+.. [#] URL
+.. [#] URL
+.. [#] http://dublincore.org/specifications/dublin-core/
+.. [#] Van de Sompel H., Nelson M.L., Klein M., Sanderson R. (2013) ResourceSync: The NISO/OAI Resource Synchronization Framework. In: Aalberg T., Papatheodorou C., Dobreva M., Tsakonas G., Farrugia C.J. (eds) Research and Advanced Technology for Digital Libraries. TPDL 2013. Lecture Notes in Computer Science, vol 8092. Springer, Berlin, Heidelberg
+.. [#] World Wide Web Consortium. "Web Services Architecture, 3.1.3 Relationship to the World Wide Web and REST Architectures". 11 February 2004. <https://www.w3.org/TR/2004/NOTE-ws-arch-20040211/#relwwwrest>
