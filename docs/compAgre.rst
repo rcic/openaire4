@@ -26,5 +26,4 @@ Adicionalmente las instituciones miembro podrán optar por suministrar unicament
       </provenance>
     </about>
 
-
 .. _políticas:http://www.openarchives.org/OAI/2.0/guidelines-provenance.htm
