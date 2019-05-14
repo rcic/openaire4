@@ -46,7 +46,7 @@ html {
   line-height: 1.2em;
 }
 .wy-menu-vertical li.toctree-l1 > a:hover{
-  background-color: none;  
+  background-color: transparent !important;  
   border-left: 5px solid var(--naranja);
 }
 .wy-menu-vertical li.toctree-l1.current > a {
