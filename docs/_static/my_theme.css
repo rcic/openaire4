@@ -47,7 +47,7 @@ html {
   text-align: left;
   font-weight: 600;
 }
-.wy-side-nav-search form > input {
+.wy-side-nav-search input[type='text'] {
   color: var(--gris);
   border: thin solid rgba(3, 3, 3, 0.2);
   box-shadow: none;
