@@ -70,4 +70,3 @@ Generación de espacios para asesorar y desarrollar actividades implicadas en la
 
 .. [#] Colciencias (2018). Modelo de Medición de Grupos de Investigación, Desarrollo Tecnológico o de Innovación y de Reconocimiento de Investigadores del Sistema Nacional de Ciencia, Tecnología e Innovación, Año 2018. En: https://www.colciencias.gov.co/sistemas-informacion/modelo-medicion-grupos
 .. [#] Colciencias (2015). Modelo de medición de grupos de investigación, desarrollo tecnológico o de innovación y de reconocimiento de investigadores del Sistema Nacional de Ciencia, Tecnología e Innovación. Disponible en: https://www.colciencias.gov.co/sites/default/files/upload/noticias/mediciondegrupos-actene2015.pdf
-.. [#] Datos tomados de las estadísticas comparativas de grupos. Tipologías de productos de grupos en: https://www.colciencias.gov.co/la-ciencia-en-cifras/comparativas_grupos
