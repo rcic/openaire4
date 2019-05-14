@@ -45,6 +45,10 @@ html {
   padding: 1em;
   line-height: 1.2em;
 }
+.wy-menu-vertical li.toctree-l1 > a:hover{
+  background-color: none;  
+  border-left: 5px solid var(--naranja);
+}
 .wy-menu-vertical li.toctree-l1.current > a {
   color: var(--naranja);
   border-bottom: none;
@@ -63,6 +67,9 @@ html {
 }
 /*|--Estilos de texto*/
 h1 {
+  border-left: 4px solid orange;
+    padding-left: 20px;
+}
 }
 h2 {
 }
