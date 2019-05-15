@@ -15,7 +15,9 @@ a,
   color: var(--naranja);
   text-decoration: none;
 }
-a:hover {
+a:hover,
+a:focus,
+a:active{
   color: var(--gris);
 }
 .wy-breadcrumbs li a,
@@ -140,6 +142,11 @@ p {
   a {
   color: var(--naranja);
   text-decoration: none;
+}
+.toctree-expand{
+	color: var(--naranja);
+	margin-left: 2px;
+	margin-right: 10px;
 }
 /*|--Componentes footer*/
 .rst-footer-buttons a.btn {
