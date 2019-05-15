@@ -5,7 +5,7 @@ Alcance
 
 Las instituciones pueden contar con diferentes infraestructuras de recursos para depositar su producción científica:  sistemas de información de investigación, repositorios institucionales existentes en las bibliotecas y sistemas de acceso abierto para sus revistas. Estas directrices pretenden generar lineamientos para exponer los datos de la producción científica ajustadas  a la infraestructura establecida por las instituciones y se fundamentan en estándares internacionales de calidad de datos tales como Directrices Driver,  OpenAIRE Guidelines for Literature Repository Managers (Versiones 3.0 y 4.0), manual de metadatos y políticas de cosecha 2015 de la Red Federada de Repositorios de Acceso Abierto a la Ciencia de Latinoamérica LA Referencia, entre otros. 
 
-Las directrices se propone implementarlas en diferentes fases, realizar ajustes y actualizaciones permanentes, a partir de los productos que son reconocidos como resultados de las actividades de grupo de investigación que se clasifican en cuatro (4) grandes tipos, según el “Modelo de Medición de Grupos de Investigación, Desarrollo Tecnológico o de Innovación y de Reconocimiento de Investigadores del Sistema Nacional de Ciencia, Tecnología e Innovación, Año 2018”[#]_ así:
+Las directrices se propone implementarlas en diferentes fases, realizar ajustes y actualizaciones permanentes, a partir de los productos que son reconocidos como resultados de las actividades de grupo de investigación que se clasifican en cuatro (4) grandes tipos, según el “Modelo de Medición de Grupos de Investigación, Desarrollo Tecnológico o de Innovación y de Reconocimiento de Investigadores del Sistema Nacional de Ciencia, Tecnología e Innovación” (2018)”[#]_ así:
 
 
 - Productos resultados de actividades de generación de nuevo conocimiento.
@@ -17,7 +17,7 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 
 - **Productos resultados de actividades de generación de nuevo conocimiento:** 
 
-Se consideran productos resultados de actividades de generación de nuevo conocimiento aquellos aportes significativos al estado del arte de un área de conocimiento, que han sido discutidos y validados para llegar a ser incorporados a la discusión científica, al desarrollo de las actividades de investigación, al desarrollo tecnológico, y que puede ser fuente de innovaciones (Colciencias, 2015):
+Se consideran productos resultados de actividades de generación de nuevo conocimiento aquellos aportes significativos al estado del arte de un área de conocimiento, que han sido discutidos y validados para llegar a ser incorporados a la discusión científica, al desarrollo de las actividades de investigación, al desarrollo tecnológico, y que puede ser fuente de innovaciones (Colciencias, 2018):
 
 	- **Artículos de investigación:** Producción original e inédita publicada en una revista de contenido científico, tecnológico o académico, producto de procesos de investigación y reflexión, objeto de evaluación por pares y avalado como un aporte significativo. 
 	- **Libros resultado de investigación:** Publicación original e inédita, cuyo contenido es el resultado de un proceso de investigación, evaluado por dos o más pares académicos con aportes significativos al conocimiento en su área. 
@@ -26,7 +26,9 @@ Se consideran productos resultados de actividades de generación de nuevo conoci
 		- **Patente de invención (PA):** Derecho exclusivo que confiere al estado sobre una invención.
 		- **Patente de modelo de utilidad (MA):** Derecho exclusivo que confiere el estado para proteger toda nueva forma, configuración o disposición de elementos.
 	- **Variedad vegetal y variedad animal:** Son organismos vivos cuyas características han sido cambiadas , usando técnicas de ingeniería genética, para introducir genes que proceden de otras especies. 
-	- **Variedad animal**
+    	- **Variedad vegetal:** Se refiere a las variedades vegetales cuando sean nuevas, homogéneas, distinguibles y estables, y se les hubiese asignado una denominación que constituya su designación genérica. 
+		- **Nueva raza animal:** La nueva raza animal se reconoce como la escala más baja de la clasificación taxonómica y hace referencia a todo aquel que tenga incorporado en el genoma de sus células germinativas o somáticas.
+		- **Poblaciones mejoradas de razas pecuarias:** Grupo de animales de la misma especie, que expresan un mayor desempeño en una o varias características con respecto a la población de origen.
 	- **Productos resultados de la creación o investigación - creación en artes, arquitectura y diseño:** Obras, diseños y procesos de nuevo conocimiento, provenientes de la creación en artes, arquitectura y diseño resultantes de procesos de creación. 
 
 
@@ -41,7 +43,7 @@ Estos productos dan cuenta de la generación de ideas , métodos y herramientas 
 
 - Productos resultados de actividades de apro**piación social del conocimiento.
 
-La apropiación social se entiende como un proceso y práctica social de construcción colectiva de conocimiento, que se involucran con interacciones tendientes a intercambiar saberes y experiencias (Colciencias, 2015): 
+La apropiación social se entiende como un proceso y práctica social de construcción colectiva de conocimiento, que se involucran con interacciones tendientes a intercambiar saberes y experiencias (Colciencias, 2018): 
 
 	- **Participación ciudadana en CTeI:** Productos que evidencian actividad del grupo de investigación en procesos que involucren la participación ciudadana.
 	- **Estrategias pedagógicas para el fomento de la CTeI:** Se reconocerán como produtos aquellos que evidencien procesos de intercambio y transferencia del conocimiento entre los grupos de investigación, ciudadanos y comunidades para la formación de capacidades y el fomento de la cultura científica y creativa. 
