@@ -339,6 +339,26 @@ Los sistemas de información deben utilizar estos nuevos elementos para describi
 | Asesoría al programa Ondas                                                       | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
 
+..
+
+- Productos de actividades relacionadas con la Formación de Recurso Humano en CTeI.
+
+..
+
++-----------------------------------------------------------------+-------+------------------+
+| Tipo Documental Específico Colciencias                          | Notas | Valor Autorizado |
++=================================================================+=======+==================+
+| Proyectos de investigación-creación                             |       |                  |
++-----------------------------------------------------------------+-------+------------------+
+| Proyectos de investigación, Desarrollo e Innovación (ID+I)      |       |                  |
++-----------------------------------------------------------------+-------+------------------+
+| Proyectos de extensión y responsabilidad social en CTI          |       |                  |
++-----------------------------------------------------------------+-------+------------------+
+| Apoyo a programas de formación                                  |       |                  |
++-----------------------------------------------------------------+-------+------------------+
+| Acompañamiento y asesorías de línea temática del Programa Ondas |       |                  |
++-----------------------------------------------------------------+-------+------------------+
+
 Relaciones con otros modelos de metadatos
 -----------------------------------------
 
