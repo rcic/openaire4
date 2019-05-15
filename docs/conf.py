@@ -59,7 +59,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica 2019'
-copyright = u'Colciencias Y Metabiblioteca'
+copyright = u'Colciencias y Metabiblioteca'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
