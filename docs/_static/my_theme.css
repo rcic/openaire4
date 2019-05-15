@@ -131,7 +131,7 @@ p {
 }
 .wy-table-responsive {
   border-radius: 5px;
-  margin: 50px;
+  margin: 50px 10px;
 }
 .docutils {
   width: 100%;
@@ -157,10 +157,9 @@ p {
   color: var(--naranja);
   text-decoration: none;
 }
-span.toctree-expand {
+.wy-menu-vertical li span.toctree-expand {
   color: var(--naranja);
-  margin-left: 2px;
-  margin-right: 10px;
+  float: right;
 }
 .wy-menu-vertical li.current > a:hover span.toctree-expand {
   color: var(--naranja);
