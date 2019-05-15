@@ -30,6 +30,22 @@ a:active {
 .fa-github:hover {
   color: var(--gris);
 }
+@media only screen and (min-width: 1200px) {
+  .wy-breadcrumbs {
+    display: flex;
+    align-items: center;
+  }
+  .wy-breadcrumbs li {
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 10px;
+  }
+  .wy-breadcrumbs li:nth-child(2) {
+    max-width: 600px;
+  }
+}
 .wy-nav-top {
   background: var(--gris);
   line-height: 1.2em;
