@@ -3,6 +3,7 @@
   --blanco: #fcfcfc;
   --naranja: #eb721c;
   --gris: #404040;
+  --grisrgba: #404040da;
 }
 /*Variables*/
 /*Reset*/
@@ -17,7 +18,7 @@ a,
 }
 a:hover,
 a:focus,
-a:active{
+a:active {
   color: var(--gris);
 }
 .wy-breadcrumbs li a,
@@ -128,8 +129,21 @@ p {
 .footnote-reference:hover {
   color: var(--naranja);
 }
+.wy-table-responsive {
+  border-radius: 5px;
+  margin: 50px;
+}
+.docutils {
+  width: 100%;
+  color: #404040da;
+  border-collapse: collapse;
+}
+.docutils td {
+  background: transparent;
+}
+
 .head {
-  background: var(--gris);
+  background: var(--grisrgba);
   color: var(--blanco);
 }
 /*|--Tabla de contenido*/
@@ -143,10 +157,13 @@ p {
   color: var(--naranja);
   text-decoration: none;
 }
-.toctree-expand{
-	color: var(--naranja);
-	margin-left: 2px;
-	margin-right: 10px;
+span.toctree-expand {
+  color: var(--naranja);
+  margin-left: 2px;
+  margin-right: 10px;
+}
+.wy-menu-vertical li.current > a:hover span.toctree-expand {
+  color: var(--naranja);
 }
 /*|--Componentes footer*/
 .rst-footer-buttons a.btn {
