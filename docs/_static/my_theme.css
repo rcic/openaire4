@@ -157,11 +157,11 @@ p {
   color: var(--naranja);
   text-decoration: none;
 }
-.wy-menu-vertical li span.toctree-expand {
+.wy-menu-vertical li a span.toctree-expand {
   color: var(--naranja);
   float: right;
 }
-.wy-menu-vertical li.current > a:hover span.toctree-expand {
+.wy-menu-vertical li a:hover span.toctree-expand {
   color: var(--naranja);
 }
 /*|--Componentes footer*/
