@@ -3,7 +3,7 @@
   --blanco: #fcfcfc;
   --naranja: #eb721c;
   --gris: #404040;
-  --grisrgba: #404040da;
+  --grisrgba: #40404090;
 }
 /*Variables*/
 /*Reset*/
@@ -154,11 +154,12 @@ p {
 }
 .docutils {
   width: 100%;
-  color: #404040da;
+  color: var(--grisrgba);
   border-collapse: collapse;
 }
-.rst-content table.docutils:not(.field-list) tr {
-  background: transparent;
+.rst-content table.docutils:not(.field-list) tr td {
+  background: transparent !important;
+  font-size: 0.9em;
 }
 .head {
   background: var(--grisrgba);
