@@ -5,7 +5,7 @@ Alcance
 
 Las instituciones pueden contar con diferentes infraestructuras de recursos para depositar su producción científica:  sistemas de información de investigación, repositorios institucionales existentes en las bibliotecas y sistemas de acceso abierto para sus revistas. Estas directrices pretenden generar lineamientos para exponer los datos de la producción científica ajustadas  a la infraestructura establecida por las instituciones y se fundamentan en estándares internacionales de calidad de datos tales como Directrices Driver,  OpenAIRE Guidelines for Literature Repository Managers (Versiones 3.0 y 4.0), manual de metadatos y políticas de cosecha 2015 de la Red Federada de Repositorios de Acceso Abierto a la Ciencia de Latinoamérica LA Referencia, entre otros. 
 
-Las directrices se propone implementarlas en diferentes fases, realizar ajustes y actualizaciones permanentes, a partir de los productos que son reconocidos como resultados de las actividades de grupo de investigación que se clasifican en cuatro (4) grandes tipos, según el “Modelo de Medición de Grupos de Investigación, Desarrollo Tecnológico o de Innovación y de Reconocimiento de Investigadores del Sistema Nacional de Ciencia, Tecnología e Innovación” (2018)”[#]_ así:
+Las directrices se propone implementarlas en diferentes fases, realizar ajustes y actualizaciones permanentes, a partir de los productos que son reconocidos como resultados de las actividades de grupo de investigación que se clasifican en cuatro (4) grandes tipos, según el “Modelo de Medición de Grupos de Investigación, Desarrollo Tecnológico o de Innovación y de Reconocimiento de Investigadores del Sistema Nacional de Ciencia, Tecnología e Innovación” (2018) así:
 
 
 - Productos resultados de actividades de generación de nuevo conocimiento.
@@ -13,7 +13,7 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 - Productos resultados de actividades de apropiación social del conocimiento.
 - Productos de actividades relacionadas con la Formación de Recurso Humano en CTeI.
 
-**Los productos de investigación reconocidos en cada tipo según el modelo de medición de grupos de investigación , desarrollo tecnológico o innovación son** [#]_:
+**Los productos de investigación reconocidos en cada tipo según el modelo de medición de grupos de investigación , desarrollo tecnológico o innovación son**:
 
 - **Productos resultados de actividades de generación de nuevo conocimiento:** 
 
@@ -68,7 +68,3 @@ Generación de espacios para asesorar y desarrollar actividades implicadas en la
 .. **Tabla 1. FASES POR TIPO DE PRODUCTO** [#]_
 
 .. .. tabularcolumns:: |\Y{0.4}|\Y{0.1}|\Y{0.4}|\Y{0.1}|
-
-
-.. [#] Colciencias (2018). Modelo de Medición de Grupos de Investigación, Desarrollo Tecnológico o de Innovación y de Reconocimiento de Investigadores del Sistema Nacional de Ciencia, Tecnología e Innovación, Año 2018. En: https://www.colciencias.gov.co/sistemas-informacion/modelo-medicion-grupos
-.. [#] Colciencias (2015). Modelo de medición de grupos de investigación, desarrollo tecnológico o de innovación y de reconocimiento de investigadores del Sistema Nacional de Ciencia, Tecnología e Innovación. Disponible en: https://www.colciencias.gov.co/sites/default/files/upload/noticias/mediciondegrupos-actene2015.pdf
