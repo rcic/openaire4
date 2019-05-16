@@ -15,8 +15,8 @@ COAR. (2019). Controlled Vocabulary for Access Rights. Obtenido de
 Commission, E. (2013). Fact Sheet: Open Access is Horizon 2020. Obtenido de 
 	https://ec.europa.eu/programmes/horizon2020/sites/horizon2020/ 
 
-Consejo Nacional de Ciencia y Tecnología. (21 de Noviembre de 2014). Lineamientos Generales para el Repositorio Nacional y los 
-	Repositorios. Obtenido de http://www.conacyt.mx/siicyt/index.php/centros-de-investigacion-conacyt/2393- 
+Consejo Nacional de Ciencia y Tecnología. (21 de Noviembre de 2014). Lineamientos 
+	Generales para el Repositorio Nacional y los Repositorios. Obtenido de http://www.conacyt.mx/siicyt/index.php/centros-de-investigacion-conacyt/2393- 
 
 DRIVER Project. (2008). Directrices DRIVER 2.0. Directrices para proveedores de contenido - Exposición de recursos textuales con 
 	el protocolo OAI-PMH. Obtenido de http://recolecta.fecyt.es/sites/default/files/contenido/documentos/DRIVER_2_1_Gui 
