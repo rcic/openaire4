@@ -8,7 +8,7 @@ Costos de financiación (MA)
 
 Definición y alcance del campo
 ------------------------------
-Hace referencia al factor económico o a los recursos económicos utilización para llevar a cabo el proyecto de investigación.
+Hace referencia al factor económico o a los recursos económicos utilizados para llevar a cabo el proyecto de investigación.
 
 Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
