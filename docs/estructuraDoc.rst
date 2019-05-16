@@ -15,7 +15,7 @@ El documento proporciona una descripción general de cómo configurar y utilizar
 ..
 
   - **Obligatorio = Mandatory (M)**
-      La propiedad siempre debe estar presente en los metadatos. No se permite un valor vacío para la propiedad.
+    La propiedad siempre debe estar presente en los metadatos. No se permite un valor vacío para la propiedad.
 
 ..
 
@@ -44,6 +44,8 @@ El documento proporciona una descripción general de cómo configurar y utilizar
 ..
 
 - **Esquema de metadatos:** Determina el modelo de metadatos aplicado para la definición y utilización del campo. Estas directrices contemplan la utilización de los siguientes modelos de metadatos:
+
+..
 
 +-------------------------------------------------------------+---------------------+
 | Modelo de Metadatos                                         | Codificación REDCOL |
