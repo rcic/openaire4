@@ -8,9 +8,13 @@
 /*Variables*/
 /*Reset*/
 .wy-body-for-nav {
-  background: var(--blanco) url(../logo-grafica-rcic.png) no-repeat top
-    right/cover;
+  background: var(--blanco) url(logo-grafica-rcic.png) no-repeat top right/cover !important;
 }
+.wy-nav-content-wrap,
+.wy-nav-content {
+  background: transparent !important;
+}
+
 a,
 .fn-backref {
   color: var(--naranja);
