@@ -30,7 +30,7 @@ a:active {
 .fa-github:hover {
   color: var(--gris);
 }
-@media only screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
   .wy-breadcrumbs {
     display: flex;
     align-items: center;
