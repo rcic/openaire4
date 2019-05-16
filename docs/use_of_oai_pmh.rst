@@ -47,7 +47,7 @@ Estos productos dan cuenta de la generación de ideas , métodos y herramientas 
 	- **Regulaciones, normas, reglamentos o legislaciones:** Aquellas que han sido emitidas por una entidad competente, adaptadas por una comunidad específica y cuya generación se apoyó en la actividad científica o tecnológica. 
 	- **Consultorías científico-tecnológicas e informes técnicos finales:** Servicio profesional o método para presentar asesoramiento y ayuda práctica por un grupo de investigadores o expertos en las diversas disciplinas. 
 
-- Productos resultados de actividades de apro**piación social del conocimiento.
+- Productos resultados de actividades de apropiación social del conocimiento.
 
 La apropiación social se entiende como un proceso y práctica social de construcción colectiva de conocimiento, que se involucran con interacciones tendientes a intercambiar saberes y experiencias (Colciencias, 2018): 
 

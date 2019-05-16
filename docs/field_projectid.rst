@@ -114,7 +114,7 @@ Especificadores de campo
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
-Se aplica a los productos que han sido financiados. 
+dc:creator.grantor. 
 
 Niveles semánticos
 ------------------
@@ -139,3 +139,4 @@ Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA
 --------------------------------------------------------------------------------------------------------
 
 - **OpenAIRE 3:** dc:relation
+- **Bdcol:** dc:creator.grantor
