@@ -23,12 +23,16 @@ Se consideran productos resultados de actividades de generación de nuevo conoci
 	- **Libros resultado de investigación:** Publicación original e inédita, cuyo contenido es el resultado de un proceso de investigación, evaluado por dos o más pares académicos con aportes significativos al conocimiento en su área. 
 	- **Capítulos en libro resultado de investigación:** Publicación original e inédita, cuyo contenido es el resultado de un proceso de investigación y que forma parte de un libro de colaboración conjunta. 
 	- **Productos tecnológicos patentados o en proceso de concesión de la patente:** La patente es un título de propiedad otorgado por el gobierno de un país, que da a su titular el derecho a impedir temporalmente a otros la fabricación, venta o utilización comercial. 
+
 		- **Patente de invención (PA):** Derecho exclusivo que confiere al estado sobre una invención.
 		- **Patente de modelo de utilidad (MA):** Derecho exclusivo que confiere el estado para proteger toda nueva forma, configuración o disposición de elementos.
-	- **Variedad vegetal y variedad animal:** Son organismos vivos cuyas características han sido cambiadas , usando técnicas de ingeniería genética, para introducir genes que proceden de otras especies. 
+		
+	- **Variedad vegetal y variedad animal:** Son organismos vivos cuyas características han sido cambiadas , usando técnicas de ingeniería genética, para introducir genes que proceden de otras especies.
+	
     	- **Variedad vegetal:** Se refiere a las variedades vegetales cuando sean nuevas, homogéneas, distinguibles y estables, y se les hubiese asignado una denominación que constituya su designación genérica. 
 		- **Nueva raza animal:** La nueva raza animal se reconoce como la escala más baja de la clasificación taxonómica y hace referencia a todo aquel que tenga incorporado en el genoma de sus células germinativas o somáticas.
 		- **Poblaciones mejoradas de razas pecuarias:** Grupo de animales de la misma especie, que expresan un mayor desempeño en una o varias características con respecto a la población de origen.
+	
 	- **Productos resultados de la creación o investigación - creación en artes, arquitectura y diseño:** Obras, diseños y procesos de nuevo conocimiento, provenientes de la creación en artes, arquitectura y diseño resultantes de procesos de creación. 
 
 
