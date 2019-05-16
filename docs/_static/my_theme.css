@@ -12,7 +12,7 @@
   background: var(--blanco) url("http://redcol.colciencias.gov.co/images/fondo.png") !important;
 }
 .wy-nav-content-wrap {
-  background: var(-blancorgba);
+  background: var(--blancorgba);
 }
 .wy-nav-content {
   background: transparent !important;
