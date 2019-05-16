@@ -7,9 +7,9 @@
 }
 /*Variables*/
 /*Reset*/
-body,
-html {
-  background: var(--blanco);
+body {
+  background: var(--blanco) url(../logo-grafica-rcic.png) no-repeat top
+    right/cover;
 }
 a,
 .fn-backref {
