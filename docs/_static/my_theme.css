@@ -1,5 +1,6 @@
 /*Variables*/
 :root {
+  --blancorgba: #fcfcfc23;
   --blanco: #fcfcfc;
   --naranja: #eb721c;
   --gris: #404040;
@@ -10,11 +11,12 @@
 .wy-body-for-nav {
   background: var(--blanco) url(logo-grafica-rcic.png) no-repeat top right/cover !important;
 }
-.wy-nav-content-wrap,
+.wy-nav-content-wrap {
+  background: var(-blancorgba);
+}
 .wy-nav-content {
   background: transparent !important;
 }
-
 a,
 .fn-backref {
   color: var(--naranja);
