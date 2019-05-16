@@ -30,13 +30,11 @@ Se consideran productos resultados de actividades de generación de nuevo conoci
 	- **Variedad vegetal y variedad animal:** Son organismos vivos cuyas características han sido cambiadas, usando técnicas de ingeniería genética, para introducir genes que proceden de otras especies.
 
 ..
-
     	- **Variedad vegetal:** Se refiere a las variedades vegetales cuando sean nuevas, homogéneas, distinguibles y estables, y se les hubiese asignado una denominación que constituya su designación genérica. 
 		- **Nueva raza animal:** La nueva raza animal se reconoce como la escala más baja de la clasificación taxonómica y hace referencia a todo aquel que tenga incorporado en el genoma de sus células germinativas o somáticas.
 		- **Poblaciones mejoradas de razas pecuarias:** Grupo de animales de la misma especie, que expresan un mayor desempeño en una o varias características con respecto a la población de origen.
 
 ..
-
 	- **Productos resultados de la creación o investigación - creación en artes, arquitectura y diseño:** Obras, diseños y procesos de nuevo conocimiento, provenientes de la creación en artes, arquitectura y diseño resultantes de procesos de creación. 
 
 
