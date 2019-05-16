@@ -31,7 +31,21 @@ RDA (Recursos: descripción y acceso)
 
 Revise la forma adecuada para ingresar el identificador alternativo con su debida puntuación:
 
--	**datacite:alternateIdentifier-doi:** hace referencia al identificador del objeto digital. Ej: http://dx.doi.org/10.1145/1067268.1067287
+- **datacite:alternateIdentifier-doi:** Hace referencia al identificador del objeto digital. Ej: http://dx.doi.org/10.1145/1067268.1067287
+
+- **datacite:alternateIdentifier-isbn:** Número Internacional Estandarizado para Libros. Se recomienda diligenciar el isbn sin guiones. Ej: 97857821345
+
+- **datacite:alternateIdentifier-pisbn:** Número de serie estándar internacional (versión impresa). Se recomienda diligenciar el pisbn sin guiones. Ej: 101350768
+
+- **datacite:alternateIdentifier-eissn:** Número de serie estándar internacional (versión electrónica). Ej. 4567-7789
+
+- **datacite:alternateIdentifier-pmid:** ID de PubMed. Ej: 235749
+
+- **datacite:alternateIdentifier-purl:** Localizador de recursos uniforme y persistente. Ej: http://purl.oclc.org/OCLC/
+
+- **datacite:alternateIdentifier-urn:** Nombre del recurso uniforme. Son unas cadenas de texto que se usan para nombrar recursos en Internet para su identificación. Ej: urn:isbn:0451450523
+
+- **datacite:alternateIdentifier-wos:** Número de acceso a la Web of Science. Ej:  WOS:000465252900002
 
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
@@ -77,6 +91,7 @@ Especificadores de campo
 - datacite:alternateIdentifier-isbn
 - datacite:alternateIdentifier-pisbn
 - datacite:alternateIdentifier-eissn
+- datacite:alternateIdentifier-pmid
 - datacite:alternateIdentifier-purl
 - datacite:alternateIdentifier-urn
 - datacite:alternateIdentifier-wos
@@ -102,6 +117,7 @@ Se recomienda crear en Dspace los siguientes campos:
 - datacite:alternateIdentifier-isbn
 - datacite:alternateIdentifier-pisbn
 - datacite:alternateIdentifier-eissn
+- datacite:alternateIdentifier-pmid
 - datacite:alternateIdentifier-purl
 - datacite:alternateIdentifier-urn
 - datacite:alternateIdentifier-wos

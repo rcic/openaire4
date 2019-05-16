@@ -14,22 +14,22 @@ El documento proporciona una descripción general de cómo configurar y utilizar
 
 ..
 
-  - **Obligatorio (M)**
+  - **Obligatorio = Mandatory (M)**
     La propiedad siempre debe estar presente en los metadatos. No se permite un valor vacío para la propiedad.
 
 ..
 
-  - **Obligatorio si es aplicable (MA)**
+  - **Obligatorio si es aplicable = Mandatory if Applicable (MA)**
     Cuando se puede obtener el valor de la propiedad, debe estar presente en los metadatos.
 
 ..
 
-  - **Recomendado (R )**
+  - **Recomendado = Recommended (R)**
     Se recomienda el uso de la propiedad.
 
 ..
 
-  - **Opcional (O)**
+  - **Opcional = Optional (O)**
     No es importante si la propiedad se usa o no, pero si se usa puede proporcionar información complementaria sobre el recurso.
 
 ..
@@ -44,6 +44,8 @@ El documento proporciona una descripción general de cómo configurar y utilizar
 ..
 
 - **Esquema de metadatos:** Determina el modelo de metadatos aplicado para la definición y utilización del campo. Estas directrices contemplan la utilización de los siguientes modelos de metadatos:
+
+..
 
 +-------------------------------------------------------------+---------------------+
 | Modelo de Metadatos                                         | Codificación REDCOL |
@@ -71,7 +73,7 @@ El documento proporciona una descripción general de cómo configurar y utilizar
 
 ..
 
-- **Forma de descripción normalizada:** Aquí se indica la forma correcta de la descripción del campo y la normatividad internacional que se aplica. Ejemplo: RDA (Recursos : descripción y acceso) y RCAA2 (Reglas de Catalogación Angloamericanas Segunda Edición).
+- **Forma de descripción normalizada:** Aquí se indica la forma correcta de la descripción del campo según la normatividad internacional aplicada. Ejemplo: RDA (Recursos : descripción y acceso) - RCAA2 (Reglas de Catalogación Angloamericanas 2).
 
 ..
 

@@ -5,7 +5,7 @@ Alcance
 
 Las instituciones pueden contar con diferentes infraestructuras de recursos para depositar su producción científica:  sistemas de información de investigación, repositorios institucionales existentes en las bibliotecas y sistemas de acceso abierto para sus revistas. Estas directrices pretenden generar lineamientos para exponer los datos de la producción científica ajustadas  a la infraestructura establecida por las instituciones y se fundamentan en estándares internacionales de calidad de datos tales como Directrices Driver,  OpenAIRE Guidelines for Literature Repository Managers (Versiones 3.0 y 4.0), manual de metadatos y políticas de cosecha 2015 de la Red Federada de Repositorios de Acceso Abierto a la Ciencia de Latinoamérica LA Referencia, entre otros. 
 
-Las directrices se propone implementarlas en diferentes fases, realizar ajustes y actualizaciones permanentes, a partir de los productos que son reconocidos como resultados de las actividades de grupo de investigación que se clasifican en cuatro (4) grandes tipos, según el “Modelo de Medición de Grupos de Investigación, Desarrollo Tecnológico o de Innovación y de Reconocimiento de Investigadores del Sistema Nacional de Ciencia, Tecnología e Innovación” (2018)”[#]_ así:
+Las directrices se propone implementarlas en diferentes fases, realizar ajustes y actualizaciones permanentes, a partir de los productos que son reconocidos como resultados de las actividades de grupo de investigación que se clasifican en cuatro (4) grandes tipos, según el “Modelo de Medición de Grupos de Investigación, Desarrollo Tecnológico o de Innovación y de Reconocimiento de Investigadores del Sistema Nacional de Ciencia, Tecnología e Innovación” (2018) así:
 
 
 - Productos resultados de actividades de generación de nuevo conocimiento.
@@ -13,7 +13,7 @@ Las directrices se propone implementarlas en diferentes fases, realizar ajustes 
 - Productos resultados de actividades de apropiación social del conocimiento.
 - Productos de actividades relacionadas con la Formación de Recurso Humano en CTeI.
 
-**Los productos de investigación reconocidos en cada tipo según el modelo de medición de grupos de investigación , desarrollo tecnológico o innovación son** [#]_:
+**Los productos de investigación reconocidos en cada tipo según el modelo de medición de grupos de investigación , desarrollo tecnológico o innovación son**:
 
 - **Productos resultados de actividades de generación de nuevo conocimiento:** 
 
@@ -23,12 +23,18 @@ Se consideran productos resultados de actividades de generación de nuevo conoci
 	- **Libros resultado de investigación:** Publicación original e inédita, cuyo contenido es el resultado de un proceso de investigación, evaluado por dos o más pares académicos con aportes significativos al conocimiento en su área. 
 	- **Capítulos en libro resultado de investigación:** Publicación original e inédita, cuyo contenido es el resultado de un proceso de investigación y que forma parte de un libro de colaboración conjunta. 
 	- **Productos tecnológicos patentados o en proceso de concesión de la patente:** La patente es un título de propiedad otorgado por el gobierno de un país, que da a su titular el derecho a impedir temporalmente a otros la fabricación, venta o utilización comercial. 
+
 		- **Patente de invención (PA):** Derecho exclusivo que confiere al estado sobre una invención.
 		- **Patente de modelo de utilidad (MA):** Derecho exclusivo que confiere el estado para proteger toda nueva forma, configuración o disposición de elementos.
-	- **Variedad vegetal y variedad animal:** Son organismos vivos cuyas características han sido cambiadas , usando técnicas de ingeniería genética, para introducir genes que proceden de otras especies. 
+		
+	- **Variedad vegetal y variedad animal:** Son organismos vivos cuyas características han sido cambiadas, usando técnicas de ingeniería genética, para introducir genes que proceden de otras especies.
+
+..
     	- **Variedad vegetal:** Se refiere a las variedades vegetales cuando sean nuevas, homogéneas, distinguibles y estables, y se les hubiese asignado una denominación que constituya su designación genérica. 
 		- **Nueva raza animal:** La nueva raza animal se reconoce como la escala más baja de la clasificación taxonómica y hace referencia a todo aquel que tenga incorporado en el genoma de sus células germinativas o somáticas.
 		- **Poblaciones mejoradas de razas pecuarias:** Grupo de animales de la misma especie, que expresan un mayor desempeño en una o varias características con respecto a la población de origen.
+
+..
 	- **Productos resultados de la creación o investigación - creación en artes, arquitectura y diseño:** Obras, diseños y procesos de nuevo conocimiento, provenientes de la creación en artes, arquitectura y diseño resultantes de procesos de creación. 
 
 
@@ -41,7 +47,7 @@ Estos productos dan cuenta de la generación de ideas , métodos y herramientas 
 	- **Regulaciones, normas, reglamentos o legislaciones:** Aquellas que han sido emitidas por una entidad competente, adaptadas por una comunidad específica y cuya generación se apoyó en la actividad científica o tecnológica. 
 	- **Consultorías científico-tecnológicas e informes técnicos finales:** Servicio profesional o método para presentar asesoramiento y ayuda práctica por un grupo de investigadores o expertos en las diversas disciplinas. 
 
-- Productos resultados de actividades de apro**piación social del conocimiento.
+- Productos resultados de actividades de apropiación social del conocimiento.
 
 La apropiación social se entiende como un proceso y práctica social de construcción colectiva de conocimiento, que se involucran con interacciones tendientes a intercambiar saberes y experiencias (Colciencias, 2018): 
 
@@ -68,7 +74,3 @@ Generación de espacios para asesorar y desarrollar actividades implicadas en la
 .. **Tabla 1. FASES POR TIPO DE PRODUCTO** [#]_
 
 .. .. tabularcolumns:: |\Y{0.4}|\Y{0.1}|\Y{0.4}|\Y{0.1}|
-
-
-.. [#] Colciencias (2018). Modelo de Medición de Grupos de Investigación, Desarrollo Tecnológico o de Innovación y de Reconocimiento de Investigadores del Sistema Nacional de Ciencia, Tecnología e Innovación, Año 2018. En: https://www.colciencias.gov.co/sistemas-informacion/modelo-medicion-grupos
-.. [#] Colciencias (2015). Modelo de medición de grupos de investigación, desarrollo tecnológico o de innovación y de reconocimiento de investigadores del Sistema Nacional de Ciencia, Tecnología e Innovación. Disponible en: https://www.colciencias.gov.co/sites/default/files/upload/noticias/mediciondegrupos-actene2015.pdf
