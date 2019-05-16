@@ -7,7 +7,7 @@
 }
 /*Variables*/
 /*Reset*/
-body {
+.wy-body-for-nav {
   background: var(--blanco) url(../logo-grafica-rcic.png) no-repeat top
     right/cover;
 }
