@@ -46,18 +46,14 @@ Revise la forma adecuada para ingresar las materias o puntos de acceso del recur
 .. image:: _static/skos.png
 	:scale: 75%
 
-Tomado de: Skos Tesauro de la UNESCO [#]_
-
-.. [#] http://skos.um.es/unescothes/C02067/html
+Tomado de: `Skos Tesauro de la UNESCO <http://skos.um.es/unescothes/C02067/html>`_
 
 - **datacite:subject-dewey:** Registre el número de clasificación según la temática del recurso. Ej: 327.17
   
 .. image:: _static/intCooperation.png
 	:scale: 80%
 
-Tomado de: Web Dewey [#]_
-
-.. [#] http://dewey.org/webdewey/index_11.html?recordId=ddc:327.17
+Tomado de: `Web Dewey <http://dewey.org/webdewey/index_11.html?recordId=ddc:327.17>`_
 
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------

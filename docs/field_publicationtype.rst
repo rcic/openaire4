@@ -368,9 +368,7 @@ Niveles semánticos
 .. image:: _static/coar.jpg
 	:scale: 70%
 
-Tomado de: Vocabularios controlados - COAR [#]_
-
-.. [#] http://vocabularies.coar-repositories.org/pubby/resource_type/c_2df8fbb1.html
+Tomado de: `Vocabularios controlados - COAR <http://vocabularies.coar-repositories.org/pubby/resource_type/c_2df8fbb1.html>`_
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------

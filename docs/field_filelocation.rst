@@ -99,9 +99,7 @@ Niveles semánticos
 .. image:: _static/restrictedAccess.png
 	:scale: 75%
 
-Tomado de: Vocabularios controlados Coar [#]_
-
-.. [#] http://vocabularies.coar-repositories.org/access_right/c_16ec.html
+Tomado de: `Vocabularios controlados Coar <http://vocabularies.coar-repositories.org/access_right/c_16ec.html>`_
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
