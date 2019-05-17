@@ -74,3 +74,4 @@ Generación de espacios para asesorar y desarrollar actividades implicadas en la
 .. **Tabla 1. FASES POR TIPO DE PRODUCTO** [#]_
 
 .. .. tabularcolumns:: |\Y{0.4}|\Y{0.1}|\Y{0.4}|\Y{0.1}|
+

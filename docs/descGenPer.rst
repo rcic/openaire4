@@ -12,6 +12,7 @@ Esta documentación utiliza las siguientes abreviaturas de espacio de nombres:
 * ``datacite``: http://datacite.org/schema/kernel-4
 * ``oaire``: http://namespace.openaire.eu/schema/oaire/
 
+.. tabularcolumns:: |\Y{0.3}|\Y{0.4}|\Y{0.3}|
 
 ========================================== =================================== ========================================================================================
 Campo-OpenAIRE                             Elemento Metadata                   Refinamiento por vocabulario
