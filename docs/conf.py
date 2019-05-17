@@ -14,7 +14,6 @@
 
 import sys
 import os
-import csv
 
 # on_rtd is whether we are on readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
@@ -110,9 +109,8 @@ pygments_style = 'sphinx'
 
 def setup(app):
     app.add_javascript('https://hypothes.is/embed.js')
-
-def setup(app):
     app.add_stylesheet('my_theme.css')
+    
 
 # -- Options for HTML output ----------------------------------------------
 
