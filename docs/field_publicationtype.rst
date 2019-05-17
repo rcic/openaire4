@@ -285,6 +285,7 @@ Los sistemas de información deben utilizar estos nuevos elementos para describi
 
 - Productos resultados de actividades de apropiación social del conocimiento.
 
+
 .. tabularcolumns:: |\Y{0.3}|\Y{0.3}|\Y{0.4}|
 
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
