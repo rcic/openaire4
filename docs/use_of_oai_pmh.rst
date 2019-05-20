@@ -144,7 +144,7 @@ Los productos de investigación reconocidos en cada tipo según el modelo de med
 
 	- **Edición de revista científica o de libros resultado de investigación (ERL):** Esta actividad será contemplada si alguno de los integrantes del grupo de investigación es editor de una revista o libro de divulgación científica.
 
-	- **Informe finales de investigación (IFI): **Es un documento que presenta los resultados finales de investigación en los cuales se presentan los datos y organizados y clasificados que fueron analizados y trabajados durante la investigación.
+	- **Informe finales de investigación (IFI):** Es un documento que presenta los resultados finales de investigación en los cuales se presentan los datos y organizados y clasificados que fueron analizados y trabajados durante la investigación.
 
 	- **Consultoría científicas-tecnologías (CON_CT):** Se entenderá como consultoría científica y tecnológica, estudios requeridos para la ejecución de un proyecto de inversión o para el diseño de planes y políticas de ciencia o tecnología, a estudios de diagnóstico, prefactibilidad y factibilidad para programas o proyectos científicos o tecnológicos, a la evaluación de proyectos de ciencia o tecnología, así como el diseño de sistemas de información y servicios de procesamiento de datos de ciencia o tecnología y las asesorías técnicas y de coordinación de proyectos y programas de ciencia y tecnología.
 
