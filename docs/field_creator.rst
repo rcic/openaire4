@@ -140,6 +140,8 @@ Ejemplos y ayudas
   - Ej (WIKIDATA): https://www.wikidata.org/wiki/Q5878 
   - Ej (ISNI): 0000 0001 2133 3785
 
+..
+
   - Ej: Gómez Dueñas, Laureano Felipe
   - Ej (EMAIL): felipe.gomez3@gmail.com
   - Ej (ORCID): https://orcid.org/0000-0003-3580-8766
@@ -150,6 +152,8 @@ Ejemplos y ayudas
   - Ej (LINKEDIN): https://co.linkedin.com/in/laureanofg
   - Ej (MENDELEY): https://www.mendeley.com/profiles/laureano-gomez3/
   - Ej (SCHOLAR): https://scholar.google.com/citations?user=OtnBIDYAAAAJ 
+
+..
 
   - Ej: Frías Montoya, José Antonio
   - Ej (EMAIL): frias@usal.es
