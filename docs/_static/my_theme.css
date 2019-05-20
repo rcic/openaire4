@@ -99,7 +99,7 @@ h5 {
 .highlight .s {
   color: var(--blanco);
 }
-.rst-content img {
+.reference img {
   width: 80% !important;
   height: auto !important;
   margin-left: 50%;
