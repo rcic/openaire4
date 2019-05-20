@@ -1,102 +1,120 @@
 .. _dci:creator:
 
-Creador (M)
-===========
+Creator (Creador) (M)
+=====================
 
 ``datacite:creator``
 
 Definición y alcance del campo
 ------------------------------
 
-Es la entrada principal, puede ser nombre de persona o corporativo/institucional. 
+Es la entrada principal, que describe a la entidad(es) responsables por la creación del contenido del recurso. Esta entidad puede ser nombre de persona o corporativo/institucional o evento (Conferencia, reunión, etc.).
 
-Consultar la siguiente información para diligenciar los campos en referencia.
+En caso de múltiples entidades responsables de la creación del recurso, se debe repetir el elemento tantas veces como sea necesario
 
-ORCID: http://orcid.org/ 
-Siga las siguientes pautas para el ingreso del ORCID: http://support.orcid.org/knowledgebase/articles/116780-structure-of-the-orcid-identifier ISNI: http://www.isni.org/
 
-Niveles de requerimientos (M/MA/R/O)
+Niveles de persistencia (M/MA/R/O)
 ------------------------------------
 Obligatorio (M)
 
 Niveles de ocurrencia (R / NR -  Cantidad Veces)
 ------------------------------------------------
-Repetible (R)
+Repetible (R): **1-n veces**
+Repita este campo para describir todas las entidades responsables de la creación del recurso en **orden prioritario.**
 
 Campo con esquema de metadatos
 ------------------------------
 datacite:creator
+**Nota:** Este campo se ha adaptado del esquema de metadatos DATACITE MetadataKernel versión 4.1 (http://doi.org/10.5438/0014) , el cual es utilizado ampliamente para la gestión de documentos y datos.
 
 Traducción al español
 ---------------------
-Creador - Autor
+Creador - Autor (Personal, Corporativo ó Conferencia/Evento)
 
-Forma de Descripción Normalizada (RDA / RCAA2)
-----------------------------------------------
+Forma de Descripción Normalizada (RDA / RCAA2 / ISBD)
+-----------------------------------------------------
+
 RDA (Recursos: descripción y acceso)
-
 Revise la forma adecuada para ingresar el nombre de autor con su debida puntuación:
 
-- **creatorName - Nombre del autor (M):** El formato utilizado debe ser el familiar, los nombres no romanos deben seguir el esquema de la ALA-LC. Ej: Gómez Dueñas, Laureano Felipe 
+- Para nombres personales utilizar el formato invertido de tal forma que la sintaxis sea: “Apellido” + “, “ + “Nombre”. De manera complementaria, los nombres personales se pueden codificar utilizando los siguientes formatos:
+  
+  - APA (American Psychological Association)
+  - MLA (Modern Language Association of America)
+  - Vancouver 
+  - Chicago
 
-- **nameType - Tipo de nombre (R):** Hace referencia al nombre personal o de una institución.
+- Para nombre de autores corporativos, donde exista una jerarquía institucional clara, enumerar las partes de la jerarquía de mayor a menor y separarlas con puntos seguidos de un espacio. Si no queda clara la existencia de una jerarquía, o si se desconoce cuál es la parte más grande y más pequeña del cuerpo, facilitar el nombre tal como aparece en la copia electrónica
 
-- **givenName - Nombre personal (R):** Nombre del autor o de la institución.
+Propiedades, atributos y especificadores de campo
+-------------------------------------------------
 
-    Ej: Andres Camilo
-    Ej: Universidad Nacional de Colombia
+**Clase Principal Autores (creators) (M, 1-n):** Entidad que agrupa todos los autores del recurso.
 
+**Propiedad: Autor (creator) (M, 1-n):** Entidad que identifica cada uno de los autores del recurso.
 
-- **familyName - Apellido del autor (R):** Apellido del autor.
+**Sub-Propiedad: Nombre Completo del Autor (creatorName) (M, 1):** Esta propiedad incluye el texto asociado al autor del recurso en cualquiera de los formas de descripción propuestas. Los nombres de autores que contienen caracteres no romanos deben seguir el esquema de codificación propuesto por  ALA-LC. 
 
-    Ej: Ortiz Valencia 
+**Atributo: Tipo de Autor (nameType) (O, 0-1):** Este atributo permite especificar el tipo de autor que se describe en el campo de metadatos. Se debe tener en cuenta los siguientes tipos de autores y su codificación normalizada según el vocabulario controlado propuesto: 
 
-- **nameIdentifier - Identificador de nombre (R):** Identifica la forma única de una persona natural o jurídica, según diversos esquemas. 
++-------------------------+----------------------------+------------------------+
+| Vocabulario Normalizado | Descripción del Atributo   | Dominio de Vocabulario |
++=========================+============================+========================+
+| Organizational          | Autor Corporativo          | datacite               |
++-------------------------+----------------------------+------------------------+
+| Personal                | Autor Personal             | datacite               |
++-------------------------+----------------------------+------------------------+
+| Event                   | Autor Conferencia - Evento | redcol                 |
++-------------------------+----------------------------+------------------------+
 
-Se recomienda incluir un identificador de nombre como: 
+**Sub-Propiedad: Nombres (givenName) (O, 0-1):** Esta propiedad de uso opcional, incluye el texto asociado exclusivamente a los nombres (primer y segundo nombres) del autor personal. Esta propiedad está pensada como un complemento aclaratorio a la propiedad creatorName.
 
-    - ORCID -  Código alfanumérico, no comercial, que identifica de manera única a científicos y otros autores académicos.
+**Sub-Propiedad: Apellidos (familyName) (O, 0-1):** Esta propiedad de uso opcional, incluye el texto asociado exclusivamente a los apellidos (primer y segundo apellidos) del autor personal. Esta propiedad está pensada como un complemento aclaratorio a la propiedad creatorName.
 
-    - ISNI (International Standard Name Identifier) - Identificador internacional estandarizado de nombre.
+**Sub-Propiedad: Afiliación institucional (affiliation) (O, 0-n):** Esta propiedad de uso opcional, incluye el texto asociado a las distintas afiliación institucionales a las que pertenece el autor. 
 
-- **nameIdentifierScheme - Esquema del identificador de nombre (M): ** Nombre del esquema identificador. 
+**Sub-Propiedad: Identificador de Nombre (nameIdentifier) (O, 0-n):** Esta propiedad de uso opcional, incluye el texto asociado que permite identificar de manera unívoca una persona natural o corporativa a partir del uso de diversos esquemas de identificación. El formato de texto asociado depende de cada esquema de identificación utilizado. Se debe tener en cuenta los siguientes tipos de identificadores existentes y su codificación normalizada en los atributos de esta propiedad (nameIdentifierScheme,  según el vocabulario controlado propuesto (Uso Opcional): 
 
-- **schemeURI - Esquema del identificador de nombre (R):** URI del esquema de identificador de nombre.
++------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+| Vocabulario Normalizado (nameIdentifierScheme) | Descripción del Elemento                           | Esquema de Dominio del Vocabulario (schemeURI)    |
++================================================+====================================================+===================================================+
+| EMAIL                                          | Dirección principal de correo electrónico          | https://schema.org/email                          |
++------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+| ORCID                                          | Open Researcher and Contributor ID                 | https://orcid.org                                 |
++------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+| ISNI                                           | International Standard Name Identifier (ISO 27729) | http://www.isni.org/                              |
++------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+| PUBLONS                                        | Clarivate Analytics Publons ID                     | https://publons.com                               |
++------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+| RESEARCHID                                     | Web of Science ResearcherID                        | https://www.researcherid.com                      |
++------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+| SCOPUS                                         | Author ID SCOPUS                                   | https://www.scopus.com/freelookup/form/author.uri |
++------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+| IRALISID                                       | IRA-LIS                                            | https://www.iralis.org/                           |
++------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+| VIAF                                           | Virtual International Authority File               | https://viaf.org/                                 |
++------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+| LCNAF                                          | Library of Congress authority ID                   | http://id.loc.gov/authorities/names.html          |
++------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+| OCLC                                           | OCLC FAST Authority File                           | http://experimental.worldcat.org/fast/            |
++------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+| WIKIDATA                                       | Wikidata databse                                   | https://www.wikidata.org                          |
++------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+| SCHOLAR                                        | Google Scholar Profile ID                          | https://scholar.google.com                        |
++------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+| OTHERS                                         | Incluye:                                           |                                                   |           
+|                                                |    * Facebook                                      |                                                   |   
+|                                                |    * Twitter                                       |                                                   |    
+|                                                |    * Mendeley                                      |                                                   |  
+|                                                |    * LinkedIn                                      |                                                   |   
+|                                                |    * BNE                                           |                                                   |   
+|                                                |    * BNC                                           |                                                   |  
+|                                                |    * ResearchGate                                  |                                                   |
++------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
 
-- **affiliation - Afiliación institucional (R):** Afiliación a la que pertenece el autor. 
+**Atributo Nombre del esquema del identificador (nameIdentifierScheme) (M, 1, si es utilizada la propiedad nameIdentifier):** Este atributo permite especificar el nombre del esquema identificador utilizado para describir al autor en el campo de metadatos. Se debe tener en cuenta el vocabulario controlado propuesto en la propiedad nameIdentifier
 
-
-Valores permitidos (Vocabularios Controlados)
----------------------------------------------
-
-**creatorName - Nombre del autor (M):** El formato utilizado debe ser el familiar, los nombres no romanos deben seguir el esquema de la ALA-LC.
-
-**nameType - Tipo de nombre (R):** Hace referencia al nombre personal o de una institución.
-
-**givenName - Nombre personal (R):** Nombre del autor.
-
-**familyName - Apellido del autor (R):** Apellido del autor.
-
-**nameIdentifier - Identificador de nombre (R):** Identifica la forma única de una persona natural o jurídica, según diversos esquemas. 
-
-Se recomienda incluir un identificador de nombre como: 
-
-- ORCID -  Código alfanumérico, no comercial, que identifica de manera única a científicos y otros autores académicos.
-
-- ISNI (International Standard Name Identifier) - Identificador internacional estandarizado de nombre.
-
-**nameIdentifierScheme - Esquema del identificador de nombre (M):** Nombre del esquema identificador. 
-
-**schemeURI - Esquema del identificador de nombre (R):** URI del esquema de identificador de nombre.
-
-**affiliation - Afiliación institucional (R):** Afiliación a la que pertenece el autor. 
-
-
-Relaciones con otros campos
----------------------------
-
-- dc.creator
-- dc.contributor.corpauthor
+**Atributo URI del esquema del identificador (schemeURI) (M, 1, si es utilizada la propiedad nameIdentifier):** Este atributo permite especificar la URI del nombre del esquema identificador utilizado para describir al autor en el campo de metadatos. Se debe tener en cuenta el vocabulario controlado propuesto en la propiedad nameIdentifier
 
 Restricciones
 -------------
