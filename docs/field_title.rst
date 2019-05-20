@@ -51,7 +51,7 @@ Propiedades, atributos y especificadores de campo
 +-------------------------+--------------------------------------------------------------------+------------------------+
 | Vocabulario Normalizado | Descripción del Atributo                                           | Dominio de Vocabulario |
 +=========================+====================================================================+========================+
-| AlternativeTitle        | Título Alternativo / Variantes del Título                          | datacite[#]_           |
+| AlternativeTitle        | Título Alternativo / Variantes del Título                          | datacite [#]_          |
 +-------------------------+--------------------------------------------------------------------+------------------------+
 | TranslatedTitle         | Título Traducido                                                   | datacite               |
 +-------------------------+--------------------------------------------------------------------+------------------------+
