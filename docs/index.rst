@@ -21,6 +21,7 @@ En construcción...
    use_of_oai_pmh
    normatividadInter
    interoperabilidad
+   descGenPer
    vocabulario
    glosario
    anexos
