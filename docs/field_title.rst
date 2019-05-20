@@ -11,7 +11,7 @@ Definición y alcance del campo
 ------------------------------
 Texto libre que contiene el nombre(s) del recurso o variantes del mismo con el que es conocido/utilizado. Este campo puede utilizarse para generar puntos de acceso con despliegue a los diversos títulos existentes. Se debe transcribir el título del recurso original, en orden y ortografía presente. Los subtítulos deben separarse del título mediante dos puntos, precedidos y seguidos por un espacio.
 
-Niveles de requerimientos (M/MA/R/O)
+Niveles de persistencia (M/MA/R/O)
 ------------------------------------
 Obligatorio (M)
 
@@ -21,7 +21,7 @@ Repetible (R): **1-n veces**
 Repita este campo utilizando los distintos atributos de idioma o tipo de título según se considere
 
 
-Campo con esquema de metadatos
+Esquema de metadatos
 ------------------------------
 datacite:title
 **Nota:** Este campo se ha adaptado del esquema de metadatos DATACITE MetadataKernel versión 4.1 (http://doi.org/10.5438/0014), el cual es utilizado ampliamente para la gestión de documentos y datos. 
@@ -30,8 +30,8 @@ Traducción al español
 ---------------------
 Título (Título propiamente dicho)
 
-Forma de Descripción Normalizada (RDA / RCAA2)
-----------------------------------------------
+Forma de Descripción Normalizada (RDA / RCAA2 / ISBD)
+-----------------------------------------------------
 RDA (Recursos: descripción y acceso): Revise la forma adecuada para ingresar la información de título con su debida puntuación:
 
 Revise la forma adecuada para ingresar la información de título con su debida puntuación:
