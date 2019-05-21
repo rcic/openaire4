@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:700,700i&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700,700i&display=swap');
 /*Variables*/
 :root {
   --blancorgba: #fcfcfc23;
@@ -11,7 +11,7 @@
 /*Reset*/
 .wy-body-for-nav {
   background: var(--blanco)
-    url("http://redcol.colciencias.gov.co/images/fondo.png") !important;
+    url('http://redcol.colciencias.gov.co/images/fondo.png') !important;
 }
 .wy-nav-content-wrap {
   background: var(--blancorgba);
@@ -84,7 +84,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
 }
 .highlight {
   background: var(--gris);
@@ -104,6 +104,23 @@ h5 {
   height: auto !important;
   margin-left: 50%;
   transform: translateX(-50%);
+}
+img#img-header,
+img#img-footer {
+  margin-left: 0;
+  transform: unset;
+}
+img#img-header {
+  width: 50% !important;
+  height: auto !important;
+  margin-bottom: 20px;
+}
+img#img-footer {
+  width: 50% !important;
+  height: auto !important;
+}
+.toctree-wrapper ul li {
+  list-style: none !important;
 }
 /*Reset*/
 .wy-nav-content {
@@ -134,7 +151,7 @@ h5 {
   text-align: left;
   font-weight: 600;
 }
-.wy-side-nav-search input[type="text"] {
+.wy-side-nav-search input[type='text'] {
   color: var(--gris);
   border: thin solid rgba(3, 3, 3, 0.2);
   box-shadow: none;
