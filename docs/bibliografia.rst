@@ -4,7 +4,7 @@ Bibliografía
 ============
 
 COAR. (2015). COAR Vocabularies. Obtenido de 
-						https://www.coar-repositories.org/activities/repository-interoperability/coar-vocabularies/ 
+	-- https://www.coar-repositories.org/activities/repository-interoperability/coar-vocabularies/ 
 
 COAR. (2018). Controlled Vocabulary for Resource Type Genres. Obtenido de 
 		http://vocabularies.coar-repositories.org/documentation/resource_types/2.0.draft/ 
