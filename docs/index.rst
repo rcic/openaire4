@@ -1,6 +1,6 @@
 .. image:: _static/piedepagina.png
    :scale: 35%
-   :class: img_header
+   :name: img_header
 
 ###########################################################################################################################
 Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica (RedCol) 2019
@@ -30,4 +30,4 @@ En construcción...
 
 .. image:: _static/encabezado.png
    :scale: 60%
-   :class: img_footer
+   :name: img_footer
