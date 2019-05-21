@@ -58,6 +58,8 @@ Propiedades, atributos y especificadores de campo
 
 - **Atributo: Tipo de identificador alternativo (AlternateIdentifier) (O, 0-1):** Este atributo permite especificar el tipo de identificador alternativo que se le ha otorgado al recurso. Se debe tener en cuenta los siguientes tipos de identificador y su codificación normalizada según el vocabulario controlado propuesto:
 
+.. tabularcolumns:: |\Y{0.15}|\Y{0.7}|\Y{0.15}|
+
 +-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------+
 | Vocabulario Normalizado | Descripción del Atributo                                                                                                                                                                                                                                                        | Descripción del Atributo |
 +=========================+=================================================================================================================================================================================================================================================================================+==========================+
