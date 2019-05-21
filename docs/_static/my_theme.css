@@ -182,10 +182,6 @@ img#img-footer {
   display: none;
 }
 /*-Contenido-*/
-.wy-nav-content {
-}
-.document {
-}
 /*|--Estilos de texto*/
 h1 {
   border-left: 4px solid var(--naranja);
