@@ -19,6 +19,8 @@ Campo-OpenAIRE                             Elemento Metadata                   R
 ========================================== =================================== ========================================================================================
 :ref:`dci:title`                           datacite:title                      :ref:`title type <vocab:titletype_titletype>`
 :ref:`dci:creator`                         datacite:creator                    Tipo de Autor: :ref:`name type <vocab:nametype_nametype>`
+                                                                               Tipo de Identificador: nameIdentifierScheme  
+                                                                               Esquema de Identificador: schemeURI  
 :ref:`dci:contributor`                     datacite:contributor                | :ref:`name type <vocab:nametype_nametype>`
                                                                                | :ref:`tipo contribuidor <vocab:contributortype_contributortype>`              
 :ref:`aire:fundingReference`               oaire:fundingReference              :ref:`funderIdentifier type <vocab:funderIdentifiertype_identifiertype>`
