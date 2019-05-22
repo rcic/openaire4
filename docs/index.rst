@@ -8,7 +8,7 @@ Directrices para repositorios institucionales de investigación de la Red Colomb
 
 ..
 
-En construcción...
+En consulta pública desde el 22 de Mayo hasta 31 de Julio de 2019
 ==================
 
 ..
