@@ -172,6 +172,8 @@ Recomendación de campos de aplicación en DSPACE
 
 Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas **DSPACE** basados en los siguientes elementos:
 
+.. tabularcolumns:: |\Y{0.3}|\Y{0.2}|\Y{0.2}|\Y{0.3}|
+
 +----------------------------------------+-----------------------+-------------+--------------------------------------------------------------------+
 | Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Cualificar  | Nota de alcance                                                    |
 +========================================+=======================+=============+====================================================================+
