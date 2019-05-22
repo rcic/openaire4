@@ -10,8 +10,8 @@ El perfil de aplicación es una descripción detallada de los campos de metadato
 ========================================== =================================== ========================================================================================
 Campo-OpenAIRE                             Elemento Metadata                   Refinamiento por vocabulario
 ========================================== =================================== ========================================================================================
-:ref:`dci:title`                           datacite:title                      Idioma: `ISO 639-3`_
-                                                                               Tipo de Título: :ref:`title type <vocab:titletype_titletype>`
+:ref:`dci:title`                           datacite:title                      * Idioma: `ISO 639-3`_
+                                                                               * Tipo de Título: :ref:`title type <vocab:titletype_titletype>`
 :ref:`dci:creator`                         datacite:creator                     * Tipo de Autor: :ref:`name type <vocab:nametype_nametype>`
                                                                                 * Tipo de Identificador: nameIdentifierScheme  
                                                                                 * Esquema de Identificador: schemeURI  
