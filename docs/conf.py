@@ -227,7 +227,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   (master_doc, 'OpenAIREGuidelines.tex', u'Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica (RedCol) 2019',
-   u'En consulta pública desde el 22 de Mayo hasta 31 de Julio de 2019', 'manual', True),
+   u'', 'manual', True),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
