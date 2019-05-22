@@ -9,10 +9,10 @@
 }
 /*Variables*/
 /*Reset*/
-.wy-body-for-nav {
+/*.wy-body-for-nav {      Se quito el fondo por sugerencia de colciencias
   background: var(--blanco)
     url('http://redcol.colciencias.gov.co/images/fondo.png') !important;
-}
+}*/
 .wy-nav-content-wrap {
   background: var(--blancorgba);
 }
