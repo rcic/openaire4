@@ -18,6 +18,7 @@ Obligatorio (M)
 Niveles de ocurrencia (R / NR)
 ------------------------------
 Repetible (R): **1-n veces**
+..
 Repita este campo utilizando los distintos atributos de idioma o tipo de título según se considere
 
 
