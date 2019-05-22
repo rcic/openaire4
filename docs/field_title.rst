@@ -18,12 +18,18 @@ Obligatorio (M)
 Niveles de ocurrencia (R / NR)
 ------------------------------
 Repetible (R): **1-n veces**.
-Repita este campo utilizando los distintos atributos de idioma o tipo de título según se considere
+
+..
+
+Repita este campo utilizando los distintos atributos de idioma o tipo de título según se considere.
 
 
 Esquema de metadatos
 ------------------------------
 datacite:title
+
+..
+
 **Nota:** Este campo se ha adaptado del esquema de metadatos DATACITE MetadataKernel versión 4.1 (http://doi.org/10.5438/0014), el cual es utilizado ampliamente para la gestión de documentos y datos. 
 
 Traducción al español
@@ -34,15 +40,14 @@ Forma de Descripción Normalizada (RDA / RCAA2 / ISBD)
 -----------------------------------------------------
 RDA (Recursos: descripción y acceso): Revise la forma adecuada para ingresar la información de título con su debida puntuación:
 
-Revise la forma adecuada para ingresar la información de título con su debida puntuación:
-
 	- **Título:** Ingrese el título del recurso, la primera letra en mayúscula y finalice con punto. Ej: Acuerdos de paz en Colombia.
 	- **Subtítulo:** Seguido del título principal del recurso colo espacio : espacio e ingrese el subtítulo. Ejemplo: Acuerdos de paz en Colombia : una mirada al conflicto armado 
 	
 Propiedades, atributos y especificadores de campo
 -------------------------------------------------
 
-**Propiedad Título (title) (M, 1-n): Utilice el nombre del título como valor.**
+Propiedad Título (title) (M, 1-n): Utilice el nombre del título como valor
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 	- **Atributo IDIOMA (xml:lang) (O, 0-1):** Este atributo especifica el idioma asociado al tipo de título que se describe. Se debe tener en cuenta su codificación normalizada según el vocabulario propuesto por el estándar ISO 639-3 utilizando carácteres en UTF-8 (https://iso639-3.sil.org/code_tables/download_tables)
 
@@ -52,6 +57,8 @@ Propiedades, atributos y especificadores de campo
 | Vocabulario Normalizado | Descripción del Atributo                                           | Dominio de Vocabulario |
 +=========================+====================================================================+========================+
 | AlternativeTitle        | Título Alternativo / Variantes del Título                          | datacite [#]_          |
++-------------------------+--------------------------------------------------------------------+------------------------+
+| Subtitle                | Subtítulo (Recomendado unificar en Título: Subtítulo)              | datacite               |
 +-------------------------+--------------------------------------------------------------------+------------------------+
 | TranslatedTitle         | Título Traducido                                                   | datacite               |
 +-------------------------+--------------------------------------------------------------------+------------------------+
@@ -124,7 +131,7 @@ Ejemplos y ayudas
     </element>
 	</element>
 
-- Esquema xoai
+- Esquema dim
 
 .. code-block:: xml
    :linenos:
@@ -135,13 +142,6 @@ Ejemplos y ayudas
 
 ..
 
-Atributos de campo
-------------------
-title type
-
-Especificadores de campo
-------------------------
-type
 
 Niveles de aplicación para  productos de investigación de Colciencias
 ---------------------------------------------------------------------
@@ -149,7 +149,7 @@ Se aplica a todos los productos de investigación reconocidos por Colciencias.
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
-El campo Título es utilizado por los siguientes esquemas de metadatos y puede intercambiarse su uso de manera indistinta mientras se conserven sus distintos niveles de atributos y especificadores de campo:
+El campo **Título** es utilizado por los siguientes esquemas de metadatos y puede intercambiarse su uso de manera indistinta mientras se conserven sus distintos niveles de atributos y especificadores de campo:
 
 +----------------------+-------------------+
 | Esquema de Metadatos | Campo Relacionado |
@@ -170,26 +170,26 @@ No Aplica
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 
-Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
+Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas **DSPACE** basados en los siguientes elementos:
 
 +----------------------------------------+-----------------------+-------------+--------------------------------------------------------------------+
 | Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Cualificar  | Nota de alcance                                                    |
 +========================================+=======================+=============+====================================================================+
-| Title                                  | title                 |             |                                                                    |
+| Title                                  | dc.title              |             |                                                                    |
 +----------------------------------------+-----------------------+-------------+--------------------------------------------------------------------+
-| AlternativeTitle                       | title                 | alternative | Título Alternativo / Variantes del Título                          |
+| AlternativeTitle                       | dc.title              | alternative | Título Alternativo / Variantes del Título                          |
 +----------------------------------------+-----------------------+-------------+--------------------------------------------------------------------+
-| Subtitle                               | title                 |             | Integrado en el campo Título                                       |
+| Subtitle                               | dc.title              |             | Integrado en el campo Título (No separar de DSPACE)                |
 +----------------------------------------+-----------------------+-------------+--------------------------------------------------------------------+
-| TranslatedTitle                        | title                 | translated  | Título Traducido                                                   |
+| TranslatedTitle                        | dc.title              | translated  | Título Traducido                                                   |
 +----------------------------------------+-----------------------+-------------+--------------------------------------------------------------------+
-| AnalyticalTitle                        | title                 | analytical  | Título del documento anfitrión (Aplica para documentos analíticos) |
+| AnalyticalTitle                        | dc.title              | analytical  | Título del documento anfitrión (Aplica para documentos analíticos) |
 +----------------------------------------+-----------------------+-------------+--------------------------------------------------------------------+
-| AbbreviatedTitle                       | title                 | abbreviated | Título Abreviado                                                   |
+| AbbreviatedTitle                       | dc.title              | abbreviated | Título Abreviado                                                   |
 +----------------------------------------+-----------------------+-------------+--------------------------------------------------------------------+
-| FormerTitle                            | title                 | former      | Título Anterior                                                    |
+| FormerTitle                            | dc.title              | former      | Título Anterior                                                    |
 +----------------------------------------+-----------------------+-------------+--------------------------------------------------------------------+
-| Other                                  | title                 | other       | Otros Títulos                                                      |
+| Other                                  | dc.title              | other       | Otros Títulos                                                      |
 +----------------------------------------+-----------------------+-------------+--------------------------------------------------------------------+
 
 
