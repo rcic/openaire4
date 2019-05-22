@@ -17,12 +17,12 @@ Niveles de persistencia (M/MA/R/O)
 ------------------------------------
 Obligatorio (M)
 
-Niveles de ocurrencia (R / NR -  Cantidad Veces)
+Niveles de ocurrencia (R / NR)
 ------------------------------------------------
-Repetible (R): **1-n veces**
+Repetible (R): **1-n veces**.
 Repita este campo para describir todas las entidades responsables de la creación del recurso en **orden prioritario.**
 
-Campo con esquema de metadatos
+Esquema de metadatos
 ------------------------------
 datacite:creator
 **Nota:** Este campo se ha adaptado del esquema de metadatos DATACITE MetadataKernel versión 4.1 (http://doi.org/10.5438/0014) , el cual es utilizado ampliamente para la gestión de documentos y datos.
@@ -49,13 +49,19 @@ Revise la forma adecuada para ingresar el nombre de autor con su debida puntuaci
 Propiedades, atributos y especificadores de campo
 -------------------------------------------------
 
-**Clase Principal Autores (creators) (M, 1-n):** Entidad que agrupa todos los autores del recurso.
+Clase Principal Autores (creators) (M, 1-n): 
+++++++++++++++++++++++++++++++++++++++++++++
 
-**Propiedad: Autor (creator) (M, 1-n):** Entidad que identifica cada uno de los autores del recurso.
+Entidad que agrupa todos los autores del recurso.
 
-**Sub-Propiedad: Nombre Completo del Autor (creatorName) (M, 1):** Esta propiedad incluye el texto asociado al autor del recurso en cualquiera de los formas de descripción propuestas. Los nombres de autores que contienen caracteres no romanos deben seguir el esquema de codificación propuesto por  ALA-LC. 
+Propiedad: Autor (creator) (M, 1-n):
+++++++++++++++++++++++++++++++++++++
 
-**Atributo: Tipo de Autor (nameType) (O, 0-1):** Este atributo permite especificar el tipo de autor que se describe en el campo de metadatos. Se debe tener en cuenta los siguientes tipos de autores y su codificación normalizada según el vocabulario controlado propuesto: 
+Entidad que identifica cada uno de los autores del recurso.
+
+**Sub-Propiedad: Nombre Completo del Autor (creatorName) (M, 1):** Esta propiedad incluye el texto asociado al autor del recurso en cualquiera de los formas de descripción propuestas. Los nombres de autores que contienen caracteres no romanos deben seguir el esquema de codificación propuesto por  `ALA-LC <http://www.loc.gov/catdir/cpso/roman.html>`_. 
+
+    **Atributo: Tipo de Autor (nameType) (O, 0-1):** Este atributo permite especificar el tipo de autor que se describe en el campo de metadatos. Se debe tener en cuenta los siguientes tipos de autores y su codificación normalizada según el vocabulario controlado propuesto: 
 
 +-------------------------+----------------------------+------------------------+
 | Vocabulario Normalizado | Descripción del Atributo   | Dominio de Vocabulario |
@@ -67,13 +73,13 @@ Propiedades, atributos y especificadores de campo
 | Event                   | Autor Conferencia - Evento | redcol                 |
 +-------------------------+----------------------------+------------------------+
 
-**Sub-Propiedad: Nombres (givenName) (O, 0-1):** Esta propiedad de uso opcional, incluye el texto asociado exclusivamente a los nombres (primer y segundo nombres) del autor personal. Esta propiedad está pensada como un complemento aclaratorio a la propiedad creatorName.
+    **Sub-Propiedad: Nombres (givenName) (O, 0-1):** Esta propiedad de uso opcional, incluye el texto asociado exclusivamente a los nombres (primer y segundo nombres) del autor personal. Esta propiedad está pensada como un complemento aclaratorio a la propiedad creatorName.
 
-**Sub-Propiedad: Apellidos (familyName) (O, 0-1):** Esta propiedad de uso opcional, incluye el texto asociado exclusivamente a los apellidos (primer y segundo apellidos) del autor personal. Esta propiedad está pensada como un complemento aclaratorio a la propiedad creatorName.
+    **Sub-Propiedad: Apellidos (familyName) (O, 0-1):** Esta propiedad de uso opcional, incluye el texto asociado exclusivamente a los apellidos (primer y segundo apellidos) del autor personal. Esta propiedad está pensada como un complemento aclaratorio a la propiedad creatorName.
 
-**Sub-Propiedad: Afiliación institucional (affiliation) (O, 0-n):** Esta propiedad de uso opcional, incluye el texto asociado a las distintas afiliación institucionales a las que pertenece el autor. 
+    **Sub-Propiedad: Afiliación institucional (affiliation) (O, 0-n):** Esta propiedad de uso opcional, incluye el texto asociado a las distintas afiliación institucionales a las que pertenece el autor. 
 
-**Sub-Propiedad: Identificador de Nombre (nameIdentifier) (O, 0-n):** Esta propiedad de uso opcional, incluye el texto asociado que permite identificar de manera unívoca una persona natural o corporativa a partir del uso de diversos esquemas de identificación. El formato de texto asociado depende de cada esquema de identificación utilizado. Se debe tener en cuenta los siguientes tipos de identificadores existentes y su codificación normalizada en los atributos de esta propiedad (nameIdentifierScheme,  según el vocabulario controlado propuesto (Uso Opcional): 
+    **Sub-Propiedad: Identificador de Nombre (nameIdentifier) (O, 0-n):** Esta propiedad de uso opcional, incluye el texto asociado que permite identificar de manera unívoca una persona natural o corporativa a partir del uso de diversos esquemas de identificación. El formato de texto asociado depende de cada esquema de identificación utilizado. Se debe tener en cuenta los siguientes tipos de identificadores existentes y su codificación normalizada en los atributos de esta propiedad (nameIdentifierScheme,  según el vocabulario controlado propuesto (Uso Opcional): 
 
 +------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
 | Vocabulario Normalizado (nameIdentifierScheme) | Descripción del Elemento                           | Esquema de Dominio del Vocabulario (schemeURI)    |
@@ -112,9 +118,9 @@ Propiedades, atributos y especificadores de campo
 |                                                |    * ResearchGate                                  |                                                   |
 +------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
 
-**Atributo Nombre del esquema del identificador (nameIdentifierScheme) (M, 1, si es utilizada la propiedad nameIdentifier):** Este atributo permite especificar el nombre del esquema identificador utilizado para describir al autor en el campo de metadatos. Se debe tener en cuenta el vocabulario controlado propuesto en la propiedad nameIdentifier
+        **Atributo Nombre del esquema del identificador (nameIdentifierScheme) (M, 1, si es utilizada la propiedad nameIdentifier):** Este atributo permite especificar el nombre del esquema identificador utilizado para describir al autor en el campo de metadatos. Se debe tener en cuenta el vocabulario controlado propuesto en la propiedad nameIdentifier
 
-**Atributo URI del esquema del identificador (schemeURI) (M, 1, si es utilizada la propiedad nameIdentifier):** Este atributo permite especificar la URI del nombre del esquema identificador utilizado para describir al autor en el campo de metadatos. Se debe tener en cuenta el vocabulario controlado propuesto en la propiedad nameIdentifier
+        **Atributo URI del esquema del identificador (schemeURI) (M, 1, si es utilizada la propiedad nameIdentifier):** Este atributo permite especificar la URI del nombre del esquema identificador utilizado para describir al autor en el campo de metadatos. Se debe tener en cuenta el vocabulario controlado propuesto en la propiedad nameIdentifier
 
 Relaciones con otros campos
 ---------------------------
@@ -131,7 +137,9 @@ No Aplica
 Ejemplos y ayudas
 -----------------
 
-**Ayudas**
+Ayudas
+++++++
+
 - **Autor Personal:** Entidad o persona colaboradora del contenido del objeto.  (Apellidos , Nombre)
   - Ej: García Márquez, Gabriel
   - Ej (VIAF): https://viaf.org/viaf/54147956 
@@ -175,11 +183,14 @@ Ejemplos y ayudas
   - Ej: MetaBiblioteca SAS
 
 Ejemplo en XML (Interoperabilidad OAI-PMH)
+++++++++++++++++++++++++++++++++++++++++++
 
 - Esquema oai_dc
 
 .. code-block:: xml
    :linenos:
+
+   <dc:creator>Universidad Nacional de Colombia. Biblioteca</dc:creator>
 
 - Esquema DataCite
 
@@ -202,10 +213,26 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 .. code-block:: xml
    :linenos:
 
-- Esquema xoai
+    <element name="dc">
+      <element name="contributor">
+        <element name="author">
+          <element name="none">
+            <field name="value">Ruiz Muñoz, Francisco</field>
+            <field name="authority">755</field>
+            <field name="confidence">500</field>
+            <field name="orcid_id">0000-0002-7110-3133</field>
+          </element>
+        </element>
+      </element>
+    </element>
+
+
+- Esquema dim
 
 .. code-block:: xml
    :linenos:
+
+   <dim:field mdschema="dc" element="contributor" qualifier="author" authority="755" confidence="500" orcid_id="0000-0002-7110-3133">Ruiz Muñoz, Francisco</dim:field>
 
 .. 
 
@@ -232,16 +259,16 @@ El campo **Autor (datacite:creator)** es utilizado por los siguientes esquemas d
 +----------------------+--------------------------------------+
 | lom                  | lom.lifecycle.contribute             |
 +----------------------+--------------------------------------+
-| marcxml              | field:100, 110,111, 700,710,711      |
+| marcxml              | field:100, 110,111                   |
 +----------------------+--------------------------------------+
 
 
 Niveles semánticos
 ------------------
-- Este campo contempla la utilización de distintos sistemas de gestión de autoridades de nombre que normalizan semánticamente los autores. 
-- Cada registro presente en estos sistemas de gestión de autoridades de nombre provee una Identificación persistente.
-- Adicionalmente dichos sistemas proveen una URI única que debe ser enlazada y utilizada en el campo de metadatos asociado.
-- En su mayoría, los sistemas de gestión de autoridades de nombre contemplan la exportación de registros en representaciones semánticas MADS/SKOS a través de formatos MARCXML, RDF, XML, N3, Turtle, JSON. 
+- Este campo contempla la utilización de distintos **sistemas de gestión de autoridades de nombre** que normalizan semánticamente los autores. 
+- Cada registro presente en estos **sistemas de gestión de autoridades de nombre provee una Identificación persistente.**
+- **Adicionalmente dichos sistemas proveen una URI única que debe ser enlazada y utilizada en el campo de metadatos asociado.**
+- **En su mayoría, los sistemas de gestión de autoridades de nombre** contemplan la exportación de registros en representaciones semánticas MADS/SKOS a través de formatos MARCXML, RDF, XML, N3, Turtle, JSON. 
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
@@ -251,14 +278,14 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +----------------------------------------+-----------------------+----------------+-----------------------+
 | Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Cualificar     | Nota de alcance       |
 +========================================+=======================+================+=======================+
-| Organizational                         | contributor           | corporatename  | corporate (MODS)      |
+| Organizational                         | dc.contributor        | corporatename  | corporate (MODS)      |
 |                                        |                       |                | corpauthor (MARC)     | 
 |                                        |                       |                | CorporateName (MADS)  | 
 +----------------------------------------+-----------------------+----------------+-----------------------+
-| Personal                               | contributor           | author         | PersonalName (MADS)   |
+| Personal                               | dc.contributor        | author         | PersonalName (MADS)   |
 |                                        |                       |                | personalname (MARC)   |
 +----------------------------------------+-----------------------+----------------+-----------------------+
-| Event                                  | contributor           | conferencename | meetingname (MARC)    |
+| Event                                  | dc.contributor        | conferencename | meetingname (MARC)    |
 |                                        |                       |                | conference (MODS)     |
 |                                        |                       |                | ConferenceName (MADS) |  
 +----------------------------------------+-----------------------+----------------+-----------------------+
@@ -267,7 +294,7 @@ NOTAS:
 
   - Los nombre de los cualificadores/especificadores de campos asociados a autor corporativo (dc.contributor.CorporateName) y autor de evento/conferencia (dc.contributor.ConferenceName) han sido tomados de la ontología MADS provista por la Biblioteca del Congreso de los Estados Unidos (MADS/RDF Ontology - Metadata Authority Description Schema in RDF )
   - DSPACE utiliza por defecto el campo “dc.contributor.author” en reemplazo de “dc.creator”  y todas sus funcionalidades se encuentran asociados a este primer campo.
-  - El uso del campo “dc.creator” (no es recomendado) ya que este campo se utiliza principalmente en procesos de cosecha por el protocolo OAI-PMH y cuando es requerido, es automáticamente convertido desde el campo dc.contributor.author)
+  - El uso del campo “dc.creator” (no es recomendado) ya que este campo se utiliza principalmente en procesos de cosecha por el protocolo OAI-PMH y cuando es requerido, es automáticamente convertido desde el campo dc.contributor.author.
   - En DSPACE en la definición de las hojas de entrada que viene por defecto, se utiliza específicamente el campo “dc.contributor.author” y en registro de metadatos se muestra el siguiente mensaje asociado al campo “dc.creator”: Do not use; only for harvested [#]_
   - Si desea utilizar en DSPACE por defecto el campo “dc.creator” se debe la configuración en el software empleado, para que no haya ningún problema durante el proceso de cosecha de metadatos. “Este es un problema muy común que genera rechazos cuando se deben cosechar registros y la transformación se puede hacer a varios niveles: Local, nacional regional” (LaReferencia, 2015).
   - Con el fin de tener un alcance normalizado de las distintas propiedades y atributos (correos, afiliaciones, identificadores, etc..) asociadas a los autores, se recomienda utilizar la configuración de control de autoridades provista por DSPACE ó en su defecto incorporar características de sistema CRIS en DSPACE.
