@@ -22,6 +22,7 @@ Para el análisis de cada uno de los campo de metadatos que son utilizados por e
     - **Opcional = Optional (O):** No es importante si la propiedad se usa o no, pero si se usa puede proporcionar información complementaria sobre el recurso.
 
   - **Niveles de ocurrencia:** Se especifica la repetibilidad o  no repetibilidad de cada campo según su naturaleza.
+
     - **Repetible (R):** El campo de metadatos puede utilizarse 1 o más veces (1-n)
     - **No repetible (NR):** El campo de metadatos debe utilizarse solamente una vez. (1)
 
