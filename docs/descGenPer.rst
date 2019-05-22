@@ -3,21 +3,15 @@
 Perfil de Aplicación de los metadatos 
 ======================================
 
-El perfil de aplicación es una descripción detallada de los campos de metadatos recomendados para su implementación en repositorios institucionales de investigación. 
-
-Esta documentación utiliza las siguientes abreviaturas de espacio de nombres:
-
-* ``dc``: http://purl.org/dc/elements/1.1/
-* ``dcterms``: http://purl.org/dc/terms/
-* ``datacite``: http://datacite.org/schema/kernel-4
-* ``oaire``: http://namespace.openaire.eu/schema/oaire/
+El perfil de aplicación es una descripción detallada de los campos de metadatos recomendados para su implementación en repositorios institucionales de investigación. Para el caso de este conjunto de directrices se han creado los siguientes campos de elementos con su correspondiente descripción detallada:
 
 .. tabularcolumns:: |\Y{0.3}|\Y{0.4}|\Y{0.3}|
 
 ========================================== =================================== ========================================================================================
 Campo-OpenAIRE                             Elemento Metadata                   Refinamiento por vocabulario
 ========================================== =================================== ========================================================================================
-:ref:`dci:title`                           datacite:title                      :ref:`title type <vocab:titletype_titletype>`
+:ref:`dci:title`                           datacite:title                      Idioma: `ISO 639-3`_
+                                                                               Tipo de Título: :ref:`title type <vocab:titletype_titletype>`
 :ref:`dci:creator`                         datacite:creator                     * Tipo de Autor: :ref:`name type <vocab:nametype_nametype>`
                                                                                 * Tipo de Identificador: nameIdentifierScheme  
                                                                                 * Esquema de Identificador: schemeURI  
@@ -67,23 +61,6 @@ Campo-OpenAIRE                             Elemento Metadata                   R
                                            * redcol.totalcost
 ========================================== =================================== ========================================================================================
 
-
-El perfil de aplicación es implementado en el esquema XML.
-`Los archivos <https://github.com/openaire/guidelines-literature-repositories/tree/master/schemas>`_ 
-para el perfil de aplicación y `archivos XML de ejemplo <https://github.com/openaire/guidelines-literature-repositories/tree/master/samples>`_ son parte de estas Directrices o pautas y también están disponibles en el `repositorio de GitHub <https://github.com/openaire/guidelines-literature-repositories>`_.
-
-En los documentos de metadatos de XML, el esquema se debe declarar de la siguiente manera:
-
-.. code-block:: xml
-   :linenos:
-
-   <resource xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:datacite="http://datacite.org/schema/kernel-4"
-     xmlns="http://namespace.openaire.eu/schema/oaire/"
-     xsi:schemaLocation="http://namespace.openaire.eu/schema/oaire/ https://www.openaire.eu/schema/repo-lit/4.0/openaire.xsd">
 
 .. _COAR Resource Type Vocabulary: http://vocabularies.coar-repositories.org/documentation/resource_types/
 .. _COAR Access Right Vocabulary: http://vocabularies.coar-repositories.org/documentation/access_rights/
