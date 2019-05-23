@@ -7,17 +7,18 @@ Fecha de Periodo de Embargo (MA)
 
 Definición y alcance del campo
 ------------------------------
-Fecha asociada a la disponibilidad del recurso. 
+Fecha asociada a la disponibilidad del recurso de información cuando este posee algún tipo de restricción de acceso.
 
-Niveles de requerimientos (M/MA/R/O)
+
+Niveles de persistencia (M/MA/R/O)
 ------------------------------------
 Obligatorio cuando sea aplicable (MA)
 
-Niveles de ocurrencia (R / NR -  Cantidad Veces)
+Niveles de ocurrencia (R / NR)
 ------------------------------------------------
 No repetible (NR)
 
-Campo con esquema de metadatos
+Esquema de metadatos
 ------------------------------
 datacite:date
 
@@ -25,7 +26,7 @@ Traducción al español
 ---------------------
 Fecha de periodo de embargo
 
-Forma de Descripción Normalizada (RDA / RCAA2)
+Forma de Descripción Normalizada (RDA / RCAA2/ ISBD)
 ----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
@@ -34,20 +35,36 @@ Revise la forma adecuada para ingresar la fecha con su debida puntuación:
 - **datacite:date-Accepted:** Fecha de aceptación. Ej: 2019-02-01
 - **datacite:date-Available:** Fecha de disponibilidad. Ej: 2019-04-01
 
+Propiedades, atributos y especificadores de campo
+-------------------------------------------------
 
-Valores permitidos (Vocabularios Controlados)
----------------------------------------------
-date type 
+Clase Principal Autores (creators) (M, 1-n):
+++++++++++++++++++++++++++++++++++++++++++++
+
+- **Sub-Propiedad: Autor (creator) (M, 1-n):**
 
 Relaciones con otros campos
 ---------------------------
-Fecha de finalización de embargo 
 
 Restricciones
 -------------
 
-Ejemplos
---------
+
+Ejemplos y ayudas
+-----------------
+
+Ayudas
+++++++
+
+Ejemplo en XML (Interoperabilidad OAI-PMH)
+++++++++++++++++++++++++++++++++++++++++++
+
+**Esquema oai_dc**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema DataCite**
 
 .. code-block:: xml
    :linenos:
@@ -57,37 +74,27 @@ Ejemplos
      <datacite:date dateType="Available">2017-12-01</datacite:date>
    </datacite:dates>
 
+**Esquema xoai**
 
-Atributos de campo
-------------------
-data type
+.. code-block:: xml
+   :linenos:
 
-Especificadores de campo
-------------------------
+**Esquema xoai**
 
-- datacite:date-Accepted
-- datacite:date-Available
+.. code-block:: xml
+   :linenos:
 
-Niveles de aplicación para productos de investigación de Colciencias
---------------------------------------------------------------------
-Revistas, artículos, documentos de trabajo.
+Niveles de aplicación para  productos de investigación de Colciencias
+---------------------------------------------------------------------
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
-dc.date
 
 Niveles semánticos
 ------------------
 
 Recomendación de campos de aplicación en DSPACE
-------------------------------------------------
+-----------------------------------------------
 
-Se recomienda crear en Dspace los siguientes campos:
-
-- datacite:date-Accepted
-- datacite:date-Available
-
-
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
---------------------------------------------------------------------------------------------------------
-OpenAIRE 3: dc.date
+Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------------------
