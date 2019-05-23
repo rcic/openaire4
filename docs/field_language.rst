@@ -1,25 +1,31 @@
 .. _dc.language:
 
-Idioma (MA)
-============
+Language (Idioma) (MA)
+======================
 
 ``dc.language``
 
 Definición y alcance del campo
 ------------------------------
-Lenguaje del contenido del recurso de investigación. 
+Lenguaje del contenido del recurso de investigación, caracterizado por un código normalizado de tres caracteres.  
 
-Niveles de requerimientos (M/MA/R/O)
+Niveles de persistencia (M/MA/R/O)
 ------------------------------------
 Obligatorio (M)
 
-Niveles de ocurrencia (R / NR -  Cantidad Veces)
+Niveles de ocurrencia (R / NR)
 ------------------------------------------------
-No repetible (NR)
+Repetible (R): **1-n veces**.
 
-Campo con esquema de metadatos
+- Repita este campo utilizando otros códigos de idioma según se considere.
+
+
+Esquema de metadatos
 ------------------------------
-dc:language 
+dc:language
+
+- **Nota:** Este campo se ha adaptado del esquema de metadatos DUBLIN CORE (http://dublincore.org/schemas/), e introducido de DRIVER Guidelines - elementos del idioma versión 2.
+
 
 Traducción al español
 ---------------------
@@ -29,36 +35,59 @@ Forma de Descripción Normalizada (RDA / RCAA2)
 ----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
-Revise la forma adecuada para ingresar los códigos referentes al idioma:
+Revise la forma adecuada para ingresar los códigos referentes al idioma. Tome los valores de una de las siguientes listas:
 
-=====  ============
-spa    Spanish     
-eng    English     
-por    portuguese  
-fre    french      
-ger    Germanic    
-=====  ============
-
-Consulte más códigos de idioma en la siguiente lista: https://www.loc.gov/marc/languages/language_code.html#s
++-----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+| ETF BCP 47                                                                                    | Registro de subetiquetas de idioma de IANA. Ver en: https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry |
++===============================================================================================+========================================================================================================================================+
+| ISO 639-x, donde x puede ser 1,2 o 3. Mejor práctica: usamos ISO 639-3 y al hacerlo seguimos: | http://www.sil.org/iso639-3/                                                                                                           |
++-----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+| Códigos MARC para idioma                                                                      | https://www.loc.gov/marc/languages/language_code.html#s                                                                                |
++-----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
 
 
-Valores permitidos (Vocabularios Controlados)
----------------------------------------------
-IETF BCP 47, ISO 639-3
+Propiedades, atributos y especificadores de campo
+-------------------------------------------------
+No aplica
 
 Relaciones con otros campos
 ---------------------------
+No aplica
 
 Restricciones
 -------------
+No aplica
 
 
-Ejemplos
---------
+Ejemplos y ayudas
+------------------
+
+Ayudas 
+++++++
+
+- Idiomas
+
+	+--------+------------+
+	| Código | Idioma     |
+	+========+============+
+	| spa    | Spanish    |
+	+--------+------------+
+	| eng    | English    |
+	+--------+------------+
+	| por    | portuguese |
+	+--------+------------+
+	| fre    | french     |
+	+--------+------------+
+	| ger    | Germanic   |
+	+--------+------------+
+
+Ejemplo en XML  (Interoperabilidad OAI-PMH)
++++++++++++++++++++++++++++++++++++++++++++
+
+Esquema oai_dc
 
 .. code-block:: xml
    :linenos:
-
 
    <dc.language>eng</dc.language>
    <dc.language>spa</dc.language>
@@ -67,14 +96,21 @@ Ejemplos
    <dc.language>dut</dc.language>
    <dc.language>nl</dc.language>
 
-.. _DRIVER Guidelines v2 element language: https://wiki.surfnet.nl/display/DRIVERguidelines/Language
+Esquema DataCite
 
-Atributos de campo
-------------------
-IETF BCP 47, ISO 639-3
+.. code-block:: xml
+   :linenos:
 
-Especificadores de campo
-------------------------
+
+Esquema xoai
+
+.. code-block:: xml
+   :linenos:
+
+Esquema dim
+
+.. code-block:: xml
+   :linenos:
 
 Niveles de aplicación para productos de investigación de Colciencias
 --------------------------------------------------------------------
@@ -82,16 +118,24 @@ Se aplica a todos los productos de Colciencias.
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
+El campo **idioma (dc.lenguaje)** es utilizado por los siguientes esquemas:
+
++----------------------+-------------------+
+| Esquema de Metadatos | Campo Relacionado |
++======================+===================+
+| marcxml              | field:041         |
++----------------------+-------------------+
+
 
 Niveles semánticos
 ------------------
+No aplica
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
-Se recomienda crear en Dspace los siguientes campos:
-
-- dc:language
+No aplica
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
-OpenAIRE 3: dc.language 
+No aplica
+ 
