@@ -1,7 +1,7 @@
 .. _dc.publisher:
 
-Editor (MA)
-===========
+Publisher (Editor) (MA)
+=======================
 
 ``dc.publisher``
 
@@ -15,39 +15,55 @@ Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
 Obligatorio cuando sea aplicable (MA)
 
-Niveles de ocurrencia (R / NR -  Cantidad Veces)
-------------------------------------------------
+Niveles de ocurrencia (R / NR)
+------------------------------
 Repetible ( R)
 
-Campo con esquema de metadatos
-------------------------------
+Esquema de metadatos
+--------------------
 dc.publisher
+
+- **Nota:** Este campo se ha adaptado del esquema de metadatos DUBLIN CORE (http://dublincore.org/schemas/), e introducido de DRIVER Guidelines - elementos del idioma versión 2.
 
 Traducción al español
 ---------------------
-Editor
+Editor, distribuidor, editorial
 
-Forma de Descripción Normalizada (RDA / RCAA2)
-----------------------------------------------
-RDA (Recursos: descripción y acceso)
+Forma de Descripción Normalizada (RDA / RCAA2/ ISBD)
+----------------------------------------------------
+RDA (Recursos: descripción y acceso): Revise la forma adecuada para ingresar el editor:
 
-Revise la forma adecuada para ingresar el editor:
+En el caso de que sea una publicación universitaria, es importante colocar el nombre de la facultad, departamento, área o grupo que corresponda después del nombre de la Universidad. En el caso de identificar un nivel jerárquico utilice “ . ”, si son editores diferentes, registre en un nuevo campo.
 
-- **dc.publisher:** Nombre del editor, distribuidor, etc. Ej: Metabiblioteca. Si hay más de dos editores se registra en un nuevo campo.
+Propiedades, atributos y especificadores de campo
+-------------------------------------------------
 
-Valores permitidos (Vocabularios Controlados)
----------------------------------------------
-No aplica
+Propiedad de editor (publisher) (MA, 0-n): 
+++++++++++++++++++++++++++++++++++++++++++
+
+Utilice el nombre del editor como un valor.
 
 Relaciones con otros campos
 ---------------------------
+No aplica
 
 Restricciones
 -------------
+No aplica
 
+Ejemplos y ayudas
+-----------------
 
-Ejemplos
---------
+Ayudas
+++++++
+
+- **dc.publisher:** Nombre del editor, distribuidor, etc. 
+	- Ej: Metabiblioteca. Si hay más de dos editores se registra en un nuevo campo.
+
+Ejemplo en XML  (Interoperabilidad OAI-PMH)
+-------------------------------------------
+
+**Esquema oai_dc**
 
 .. code-block:: xml
    :linenos:
@@ -57,31 +73,46 @@ Ejemplos
    </dc.publisher>
    <dc.publisher>John Campos. (US)</dc.publisher>
 
-.. _DRIVER Guidelines v2 element publisher: https://wiki.surfnet.nl/display/DRIVERguidelines/Publisher
+**Esquema DataCite**
 
-Atributos de campo
-------------------
-No aplica
+.. code-block:: xml
+   :linenos:
 
-Especificadores de campo
-------------------------
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
 
 Niveles de aplicación para productos de investigación de Colciencias
 --------------------------------------------------------------------
-Se aplica a todos los productos de Colciencias. 
+Se aplica a todos los productos de Colciencias.
+
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
+No aplica
+
 
 Niveles semánticos
 ------------------
+No aplica
+
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 Se recomienda crear en Dspace los siguientes campos:
 
-- dc.publisher
++----------------------------------------+-----------------------+------------+-----------------+
+| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Cualificar | Nota de alcance |
++========================================+=======================+============+=================+
+| publisher                              | dc.publisher          |            |                 |
++----------------------------------------+-----------------------+------------+-----------------+
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
-OpenAIRE 3: dc.publisher
+No aplica
