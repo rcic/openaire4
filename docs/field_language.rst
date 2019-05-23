@@ -84,7 +84,7 @@ Ayudas
 Ejemplo en XML  (Interoperabilidad OAI-PMH)
 +++++++++++++++++++++++++++++++++++++++++++
 
-Esquema oai_dc
+**Esquema oai_dc**
 
 .. code-block:: xml
    :linenos:
@@ -96,18 +96,18 @@ Esquema oai_dc
    <dc.language>dut</dc.language>
    <dc.language>nl</dc.language>
 
-Esquema DataCite
+**Esquema DataCite**
 
 .. code-block:: xml
    :linenos:
 
 
-Esquema xoai
+**Esquema xoai**
 
 .. code-block:: xml
    :linenos:
 
-Esquema dim
+**Esquema dim**
 
 .. code-block:: xml
    :linenos:
