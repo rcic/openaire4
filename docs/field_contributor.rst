@@ -1,25 +1,29 @@
 .. _dci:contributor:
 
-Colaborador (MA)
-================
+Colaborator (Colaborador) (MA)
+==============================
 
 ``datacite:contributor``
 
 Definición y alcance del campo
 ------------------------------
-Es la entrada secundaria, puede ser nombre de persona o corporativo/institucional. 
+Es la entrada secundaria. El campo “Colaborador” define las entidades responsables de contribuir a la creación, desarrollo, gestión y publicación del contenido del recurso.  Esta entidad puede ser una persona, una organización o un servicio (máquina).
 
-Niveles de requerimientos (M/MA/R/O)
+
+Niveles de persistencia (M/MA/R/O)
 ------------------------------------
-Obligatorio si es aplicable (MA)
+Obligatorio si es aplicable ó si está definido explícitamente en el recurso de información (MA)
 
 Niveles de ocurrencia (R / NR -  Cantidad Veces)
 ------------------------------------------------
-Repetible (R) 
 
-Campo con esquema de metadatos
+Repetible (R): **0-n veces**.
+Repita este campo para describir todas las entidades responsables de la creación del recurso en **orden prioritario** ó de presentación
+
+Esquema de metadatos
 ------------------------------
 datacite:contributor
+**Nota:** Este campo se ha adaptado del esquema de metadatos DATACITE MetadataKernel versión 4.1 (http://doi.org/10.5438/0014), el cual es utilizado ampliamente para la gestión de documentos y datos.
 
 Traducción al español
 ---------------------
@@ -31,94 +35,243 @@ RDA (Recursos: descripción y acceso)
 
 Revise la forma adecuada para ingresar el nombre del colaborador con su debida puntuación:
 
-- **creatorName - Nombre del autor (R):** El formato utilizado debe ser el familiar, los nombres no romanos deben seguir el esquema de la ALA-LC.
+- Para nombres personales utilizar el formato invertido de tal forma que la sintaxis sea: “Apellido” + “, “ + “Nombre”. De manera complementaria, los nombres personales se pueden codificar utilizando los siguientes formatos:
+ 
+		- APA (American Psychological Association)
+		- MLA (Modern Language Association of America)
+		- Vancouver 
+		- Chicago
 
-- **nameType - Tipo de nombre (O):** Hace referencia al nombre personal o de una institución.
+- Para nombre de autores corporativos, donde exista una jerarquía institucional clara, enumerar las partes de la jerarquía de mayor a menor y separarlas con puntos seguidos de un espacio. Si no queda clara la existencia de una jerarquía, o si se desconoce cuál es la parte más grande y más pequeña del cuerpo, facilitar el nombre tal como aparece en la copia electrónica.
 
-- **givenName - Nombre personal (O):** Nombre del autor. Ej: Dueñas Gómez
+- Para el caso que la colaboración se haya realizado a través de un servicio, se debe describir el nombre del servicio, la versión del servicio, la URL del servicio, el método utilizado y demás elementos que se consideren importantes.
 
-- **familyName - Apellido del autor (R):** Apellido del autor. Ej: Laureano Felipe
+- Registrar el nombre de cada colaborador en instancias separadas. Para el caso de los trabajos de grado y tesis de maestría/doctorado, se debe registrar en la primera instancia al director (a).
 
-- **nameIdentifier - Identificador de nombre (R):** Identifica la forma única de una persona natural o jurídica, según diversos esquemas. Ej: 0000-0003-3580-8766
 
-Se recomienda incluir un identificador de nombre como: 
+Propiedades, atributos y especificadores de campo
+-------------------------------------------------
 
-		- ORCID -  Código alfanumérico, no comercial, que identifica de manera única a científicos y otros autores académicos.
+Clase Principal Colaboradores(contributors) (MA, 0-n):
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Entidad que agrupa todos los colaboradores del recurso.
 
-		- ISNI (International Standard Name Identifier) - Identificador internacional estandarizado de nombre.
+Sub-Propiedad: Colaborador (contributor) (MA, 0-n):
++++++++++++++++++++++++++++++++++++++++++++++++++++
+Entidad que identifica cada uno de los colaboradores del recurso.
 
-- **nameIdentifierScheme - Esquema del identificador de nombre (M):** Nombre del esquema identificador. Ej: ORCID
+- **Atributo: Tipo de Autor (contributorType) (M, 1):** Este atributo, define el rol del colaborador durante el ciclo de vida del mismo. Este campo es obligatorio cuando se define la propiedad “contributor”. Se debe tener en cuenta los siguientes tipos de colaboradores y su codificación normalizada según el vocabulario controlado propuesto:
 
-- **schemeURI - Esquema del identificador de nombre (R):** URI del esquema de identificador de nombre. Ej: https://orcid.org/0000-0003-3580-8766
++-------------------------+----------------------------------------------------------+------------------------+
+| Vocabulario Normalizado | Descripción del Atributo                                 | Dominio de Vocabulario |
++=========================+==========================================================+========================+
+| Advisor                 | Director de trabajo de grado tesis de maestría/doctorado | redcol                 |
++-------------------------+----------------------------------------------------------+------------------------+
+| AudiovisualDesigner     | Diseñador Audiovisual                                    | redcol                 |
++-------------------------+----------------------------------------------------------+------------------------+
+| AudiovisualDirector     | Director Audiovisual                                     | redcol                 |
++-------------------------+----------------------------------------------------------+------------------------+
+| ContactPerson           | Persona de contacto                                      | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
+| ContentProvider         | Proveedor de Contenidos                                  | redcol/lom             |
++-------------------------+----------------------------------------------------------+------------------------+
+| DataCollector           | Recolector de datos                                      | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
+| DataCurator             | Curador de datos                                         | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
+| DataManager             | Administrador de datos                                   | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
+| Distributor             | Distribuidor                                             | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
+| Editor                  | Editor                                                   | datacite/redcol/lom    |
++-------------------------+----------------------------------------------------------+------------------------+
+| EducationalValidator    |                                                          | redcol                 |
++-------------------------+----------------------------------------------------------+------------------------+
+| ExecutiveProducer       | Productor Ejecutivo                                      | redcol                 |
++-------------------------+----------------------------------------------------------+------------------------+
+| HostingInstitution      | Institución anfitriona                                   | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
+| Financer                | Financista                                               | redcol                 |
++-------------------------+----------------------------------------------------------+------------------------+
+| GraphicalDesigner       | Diseñador Gráfico                                        | redcol/lom             |
++-------------------------+----------------------------------------------------------+------------------------+
+| Illustrator             | Ilustrador                                               | redcol                 |
++-------------------------+----------------------------------------------------------+------------------------+
+| Initiator               | Iniciador                                                | redcol/lom             |
++-------------------------+----------------------------------------------------------+------------------------+
+| InstructionalDesigner   | Diseñador Instruccional                                  | redcol/lom             |
++-------------------------+----------------------------------------------------------+------------------------+
+| Photographer            | Fotografo                                                | redcol                 |
++-------------------------+----------------------------------------------------------+------------------------+
+| Producer                | Productor                                                | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
+| ProjectLeader           | Lider de Proyecto                                        | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
+| ProjectManager          | Jefe de Proyecto                                         | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
+| ProjectMember           | Miembro de Proyecto                                      | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
+| Referee                 | Par Evaluador                                            | redcol                 |
++-------------------------+----------------------------------------------------------+------------------------+
+| RegistrationAgency      | Agencia de registro                                      | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
+| RegistrationAuthority   | Autoridad de registro                                    | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
+| RelatedPerson           | Persona Relacionada                                      | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
+| Researcher              | Investigador                                             | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
+| ResearchGroup           | Grupo de investigación                                   | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
+| RightsHolder            | Titular de derechos                                      | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
+| ScriptWriter            | Guionista                                                | redcol/lom             |
++-------------------------+----------------------------------------------------------+------------------------+
+| SoftwareDeveloper       | Desarrollador - Programador - Integrador de software -   | redcol                 |
++-------------------------+----------------------------------------------------------+------------------------+
+| Sponsor                 | Patrocinador                                             | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
+| SubjectMatterExpert     | experto en la materia                                    | redcol/lom             |
++-------------------------+----------------------------------------------------------+------------------------+
+| Supervisor              | Supervisor                                               | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
+| TechnicalImplementer    | Implementador técnico                                    | redcol/lom             |
++-------------------------+----------------------------------------------------------+------------------------+
+| TechnicalValidator      | Validador Técnico                                        | redcol/lom             |
++-------------------------+----------------------------------------------------------+------------------------+
+| Terminator              | Terminador / Corrector de Pruebas                        | redcol/lom             |
++-------------------------+----------------------------------------------------------+------------------------+
+| Translator              | Traductor                                                | redcol                 |
++-------------------------+----------------------------------------------------------+------------------------+
+| Validator               | Validador                                                | redcol/lom             |
++-------------------------+----------------------------------------------------------+------------------------+
+| WebDeveloper            | Desarrollador Web                                        | redcol                 |
++-------------------------+----------------------------------------------------------+------------------------+
+| WorkPackageLeader       | Líder de paquete de trabajo                              | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
+| Other                   | Otros                                                    | datacite               |
++-------------------------+----------------------------------------------------------+------------------------+
 
-- **affiliation - Afiliación institucional (R):** Afiliación a la que pertenece el autor. Ej: Universidad Nacional de Colombia. Departamento de Investigaciones.
+	Notas: La definición de cada uno de los tipos de colaboración se basa principalmente en los siguientes esquema de metadatos:
+
+	- DATACITE (https://schema.datacite.org/meta/kernel-4.1/doc/DataCite-MetadataKernel_v4.1.pdf) 
+	- LOM (http://tvdi.det.uvigo.es/proyectos/t-learning/SCORM_ontology/LOM_Contributor.html)
+
+- **Sub-Propiedad: Nombre Completo del Colaborador (contributorName) (M, 1):** Esta propiedad incluye el texto asociado al colaborador del recurso que debe ser descrito en cualquiera de los formas de descripción propuestas para el campo authorName.
+
+	- **Atributo: Tipo de Colaborador (nameType) (O, 0-1):** Este atributo permite especificar el tipo de colaborador que se describe en el campo de metadatos. Se debe tener en cuenta los siguientes tipos de colaboradores y su codificación normalizada según el vocabulario controlado propuesto:
+	
+	+-------------------------+----------------------------+------------------------+
+	| Vocabulario Normalizado | Descripción del Atributo   | Dominio de Vocabulario |
+	+=========================+============================+========================+
+	| Organizational          | Autor Corporativo          | datacite               |
+	+-------------------------+----------------------------+------------------------+
+	| Personal                | Autor Personal             | datacite               |
+	+-------------------------+----------------------------+------------------------+
+	| Event                   | Autor Conferencia - Evento | redcol                 |
+	+-------------------------+----------------------------+------------------------+
+	| Service                 | Servicio                   | redcol                 |
+	+-------------------------+----------------------------+------------------------+
   
-- **datacite:contributorRole (R):** Se define el rol del contribuidor. Ej: Editor, asesor, ilustrador, revisor 
+	- **Sub-Propiedad: Nombres (givenName) (O, 0-1):** Esta propiedad de uso opcional, incluye el texto asociado exclusivamente a los nombres (primer y segundo nombres) del colaborador cuando este se trate de una persona.
 
+	- **Sub-Propiedad: Apellidos (familyName) (O, 0-1):** Esta propiedad de uso opcional, incluye el texto asociado exclusivamente a los apellidos (primer y segundo apellidos) del colaborador cuando este se trate de una persona. 
 
-Valores permitidos (Vocabularios Controlados)
----------------------------------------------
+	- **Sub-Propiedad: Afiliación institucional (affiliation) (O, 0-n):** Esta propiedad de uso opcional, incluye el texto asociado a las distintas afiliación institucionales a las que pertenece el colaborador. 
 
-- creatorName 
-- nameType 
-- givenName 
-- familyName 
-- nameIdentifier 
-- nameIdentifierScheme 
-- schemeURI
-- affiliation  
+	- **Sub-Propiedad: Identificador de Nombre (nameIdentifier) (O, 0-n):** Esta propiedad de uso opcional, incluye el texto asociado que permite identificar de manera unívoca un colaborador como persona natural o corporativa a partir del uso de diversos esquemas de identificación. El formato de texto asociado depende de cada esquema de identificación utilizado. Se debe tener en cuenta los siguientes tipos de identificadores existentes y su codificación normalizada en los atributos de esta propiedad (nameIdentifierScheme),  según el vocabulario controlado propuesto (Uso Opcional):
+	
+	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+	| Vocabulario Normalizado (nameIdentifierScheme) | Descripción del Elemento                           | Esquema de Dominio del Vocabulario (schemeURI)    |
+	+================================================+====================================================+===================================================+
+	| EMAIL                                          | Dirección principal de correo electrónico          | https://schema.org/email                          |
+	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+	| ORCID                                          | Open Researcher and Contributor ID                 | https://orcid.org                                 |
+	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+	| ISNI                                           | International Standard Name Identifier (ISO 27729) | http://www.isni.org/                              |
+	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+	| PUBLONS                                        | Clarivate Analytics Publons ID                     | https://publons.com                               |
+	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+	| RESEARCHID                                     | Web of Science ResearcherID                        | https://www.researcherid.com                      |
+	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+	| SCOPUS                                         | Author ID SCOPUS                                   | https://www.scopus.com/freelookup/form/author.uri |
+	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+	| IRALISID                                       | IRA-LIS                                            | https://www.iralis.org/                           |
+	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+	| VIAF                                           | Virtual International Authority File               | https://viaf.org/                                 |
+	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+	| LCNAF                                          | Library of Congress authority ID                   | http://id.loc.gov/authorities/names.html          |
+	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+	| OCLC                                           | OCLC FAST Authority File                           | http://experimental.worldcat.org/fast/            |
+	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+	| WIKIDATA                                       | Wikidata databse                                   | https://www.wikidata.org                          |
+	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+	| SCHOLAR                                        | Google Scholar Profile ID                          | https://scholar.google.com                        |
+	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
+	| OTHERS                                         | Incluye:                                           |					                                  |                 
+	|												 |	* Facebook										  |					                                  |
+	|												 |	* Twitter                                         |					                                  |
+	|												 |	* Mendeley                                        |					                                  |
+	|												 |	* LinkedIn                                        |					                                  |
+	|												 |	* BNE                                             |					                                  |
+	|												 |	* BNC                                             |					                                  |
+	|												 |	* ResearchGate	                                  |					                                  |
+	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
 
+	- **Atributo Nombre del esquema del identificador (nameIdentifierScheme) (M, 1, si es utilizada la propiedad nameIdentifier):** Este atributo permite especificar el nombre del esquema identificador utilizado para describir al colaborador en el campo de metadatos. Se debe tener en cuenta el vocabulario controlado propuesto en la propiedad nameIdentifier.
+
+	- **Atributo URI del esquema del identificador (schemeURI) (M, 1, si es utilizada la propiedad nameIdentifier):** Este atributo permite especificar la URI del nombre del esquema identificador utilizado para describir al colaborador en el campo de metadatos. Se debe tener en cuenta el vocabulario controlado propuesto en la propiedad **nameIdentifier**
 
 Relaciones con otros campos
 ---------------------------
-- Creador
-- Editor
+
+- No debe confundirse al **colaborador (dc.colaborator)** del recurso  con el autor del recurso **(dc.creator) incluidas sus especificadores de campo.**
+- No debe confundirse al **colaborador (dc.colaborator)** del recurso  con la entidad responsable de la **publicación (dc.publisher)** del mismo.
+- Cuando se trate de describir a una entidad que patrocina el desarrollo de un recurso de información  de debe utilizar el campo dc.contributor.sponsor y no los campos dc.description.sponsorship ó  dc.description.funder.
+- Cuando se describe al director de un trabajo de grado ó tesis de maestría ó doctorado se debe utilizar dc.contributor.advisor.
+La institución que dá el grado de un trabajo de grado ó tesis de maestría ó doctorado debe utilizarse degree.grantor.
+
 
 Restricciones
 -------------
-No se debe colocar nombres de creadores y editores. 
+Ninguna 
  
 
-Ejemplos
-~~~~~~~~
+Ejemplos y ayudas
+-----------------
+
+Ayudas
+++++++
+
+- Colaborador Editor:
+- Colaborador Traductor:
+
+Ejemplo en XML (Interoperabilidad OAI-PMH)
+++++++++++++++++++++++++++++++++++++++++++
+
+**Esquema oai_dc**
+
+.. code.block:: xml
+	:linenos:
+
+**Esquema DataCite**
+
+.. code.block:: xml
+	:linenos:
+
+
+**Esquema xoai**
+
+.. code.block:: xml
+	:linenos:
+
+
+**Esquema xoai**
 
 .. code-block:: xml
    :linenos:
 
-   <datacite:contributors>
-	   <datacite:contributor>
-	     <datacite:contributorName>Ramírez, Carlos.</datacite:contributorName>
-	   <datacite:contributor>
-	   <datacite:contributor>
-	     <datacite:contributorName>Departamento Administrativo de Ciencia, Tecnología e Innovación (Colciencias)</datacite:contributorName>
-	     <datacite:contributorRole>Co-autor</datacite:contributorRole>
-	   </datacite:contributor>
-   </datacite:contributors>
-
-.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
-
 ..
-
-Atributos de campo 
-------------------
-
-- name type
-- contributor type
-
-Especificadores de campo
-------------------------
-
-- datacite:creatorName
-- datacite:nameType
-- datacite:givenName
-- datacite:familyName 
-- datacite:nameIdentifier 
-- datacite:nameIdentifierScheme 
-- datacite:schemeURI 
-- datacite:affiliation
-- datacite:contributorName
-- datacite:contributorRole
-
 
 
 Niveles de aplicación para productos de investigación de Colciencias
@@ -127,28 +280,145 @@ Se aplica a todos los productos de Colciencias.
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
-dc.contributor
+El campo **Colaborador (datacite:contributor)** es utilizado por los siguientes esquemas de metadatos y puede intercambiarse su uso de manera indistinta mientras se conserven sus distintos niveles de atributos y especificadores de campo:
+
++----------------------+-----------------------------------+
+| Esquema de Metadatos | Campo Relacionado                 |
++======================+===================================+
+| dc                   | * dc.contributor                  |
+|		         	   | * dc.contributor.advisor          |
+|  					   | * dc.contributor.editor, etc..    |
++----------------------+-----------------------------------+
+| dcterms              |* dcterms.contributor              |
+|                      |* dcterms.contributor.advisor      |
+|                      |* dcterms.contributor.editor, etc..|
++----------------------+-----------------------------------+
+| lom                  | lom.lifecycle.contribute          |
++----------------------+-----------------------------------+
+| marcxml              | field:700,710,711                 |
++----------------------+-----------------------------------+
+
 
 Niveles semánticos
 ------------------
 
+- Para la gestión normalizada de roles de usuario, se está tomando como base las siguientes ontologías:
+
+	- LOM Ontologiy (http://tvdi.det.uvigo.es/proyectos/t-learning/SCORM_ontology/index.html):
+	- Datacite Ontology (https://sparontologies.github.io/datacite/current/datacite.html)
+	- FOAF Ontology (http://xmlns.com/foaf/spec/)
+	- CERIF Ontology (https://www.eurocris.org/ontologies/semcerif/)
+
+- Este campo contempla la utilización de distintos **sistemas de gestión de autoridades de nombre** que normalizan semánticamente los colaboradores.
+
+- Cada registro presente en estos **sistemas de gestión de autoridades de nombre provee una Identificación persistente.**
+
+- **Adicionalmente dichos sistemas proveen una URI única que debe ser enlazada y utilizada en el campo de metadatos asociado.**
+
+- **En su mayoría, los sistemas de gestión de autoridades de nombre** contemplan la exportación de registros en representaciones semánticas MADS/SKOS a través de formatos MARCXML, RDF, XML, N3, Turtle, JSON.
+
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
-Se recomienda crear en Dspace los siguientes campos:
-	
-- datacite:creatorName
-- datacite:nameType
-- datacite:givenName
-- datacite:familyName 
-- datacite:nameIdentifier 
-- datacite:nameIdentifierScheme 
-- datacite:schemeURI 
-- datacite:affiliation
-- datacite:contributorName
-- datacite:contributorRole
+Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
 
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
---------------------------------------------------------------------------------------------------------
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Cualificar            | Nota de alcance |
++========================================+=======================+=======================+=================+
+| Advisor                                | dc.contributor        | advisor               |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| AudiovisualDesigner                    | dc.contributor        | audiovisualdesigner   |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| AudiovisualDirector                    | dc.contributor        | audiovisualdirector   |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| ContactPerson                          | dc.contributor        | contactperson         |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| ContentProvider                        | dc.contributor        | contentprovider       |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| DataCollector                          | dc.contributor        | datacollector         |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| DataCurator                            | dc.contributor        | datacurator           |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| DataManager                            | dc.contributor        | datamanager           |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| Distributor                            | dc.contributor        | distributor           |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| Editor                                 | dc.contributor        | editor                |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| EducationalValidator                   | dc.contributor        | educationalvalidator  |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| ExecutiveProducer                      | dc.contributor        | executiveproducer     |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| HostingInstitution                     | dc.contributor        | hostinginstitution    |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| Financer                               | dc.contributor        | financer              |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| GraphicalDesigner                      | dc.contributor        | graphicaldesigner     |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| Illustrator                            | dc.contributor        | illustrator           |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| Initiator                              | dc.contributor        | initiator             |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| InstructionalDesigner                  | dc.contributor        | instructionaldesigner |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| Photographer                           | dc.contributor        | photographer          |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| Producer                               | dc.contributor        | producer              |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| ProjectLeader                          | dc.contributor        | projectleader         |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| ProjectManager                         | dc.contributor        | projectmanager        |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| ProjectMember                          | dc.contributor        | projectmember         |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| Referee                                | dc.contributor        | referee               |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| RegistrationAgency                     | dc.contributor        | registrationagency    |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| RegistrationAuthority                  | dc.contributor        | registrationauthority |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| RelatedPerson                          | dc.contributor        | relatedperson         |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| Researcher                             | dc.contributor        | researcher            |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| ResearchGroup                          | dc.contributor        | researchgroup         |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| RightsHolder                           | dc.contributor        | rightsholder          |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| ScriptWriter                           | dc.contributor        | scriptwriter          |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| SoftwareDeveloper                      | dc.contributor        | softwaredeveloper     |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| Sponsor                                | dc.contributor        | sponsor               |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| SubjectMatterExpert                    | dc.contributor        | subjectmatterexpert   |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| Supervisor                             | dc.contributor        | supervisor            |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| TechnicalImplementer                   | dc.contributor        | technicalimplementer  |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| TechnicalValidator                     | dc.contributor        | technicalvalidator    |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| Terminator                             | dc.contributor        | terminator            |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| Translator                             | dc.contributor        | translator            |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| Validator                              | dc.contributor        | validator             |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| WebDeveloper                           | dc.contributor        | webdeveloper          |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| WorkPackageLeader                      | dc.contributor        | workpackageleader     |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
+| Other                                  | dc.contributor        | other                 |                 |
++----------------------------------------+-----------------------+-----------------------+-----------------+
 
-- **OpenAIRE 3:** dc.contributor
-- **BDCOL:** dc.contributor, dc:contributor.advisor
+**Notas:**
+
+	- Con el fin de tener un alcance normalizado de las distintas propiedades y atributos (correos, afiliaciones, identificadores, etc..) asociadas a los autores, se recomienda utilizar la configuración de control de autoridades provista por DSPACE ó en su defecto incorporar características de sistema CRIS en DSPACE.
+
+
+Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------------------
+
+	- En las distintas directrices que han existido, siempre ha sido obligatorio el uso del campo colaborador aunque no se hace explícito contemplar las diferencias de los distintos tipos y características de los autores.
+	- En el sistema DSPACE en su instalación por defecto el campo autor viene con los campos dc.contributor y dc.contributor.advisor 
+	- Se recomienda específicamente crear los nuevos atributos/especificadores del campo de autor según la codificación propuesta.
