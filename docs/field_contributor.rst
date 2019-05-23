@@ -29,8 +29,8 @@ Traducción al español
 ---------------------
 Colaborador
 
-Forma de Descripción Normalizada (RDA / RCAA2)
-----------------------------------------------
+Forma de Descripción Normalizada (RDA / RCAA2 / ISBD)
+-----------------------------------------------------
 RDA (Recursos: descripción y acceso)
 
 Revise la forma adecuada para ingresar el nombre del colaborador con su debida puntuación:
