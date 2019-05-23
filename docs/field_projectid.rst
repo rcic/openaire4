@@ -44,40 +44,39 @@ Revise la forma adecuada para ingresar el financiador con su debida puntuación:
 Propiedades, atributos y especificadores de campo
 -------------------------------------------------
 
-**funderName - Nombre del financiador (M) (M, 1-n):** Nombre del proveedor de financiamiento. Ej: Departamento Administrativo de Ciencia, Tecnología e Innovación, Colciencias.
+Clase Principal Referencias de Financiación (fundingReferences) (M, 1-n): 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-**funderIdentifier - Identificador único de la entidad financiadora (R) (M, 1-n):** Número de identificación único de la entidad financiadora. Ej: 0000 0001 2222 4476
+Entidad que agrupa todas las entidades que financian proyectos de investigación.
 
-**funderIdentifiertype - Tipo de identificador único de la entidad financiadora (R) (M, 1-n):** Tipo de identificador de la entidad financiadora. Ej: ISNI
+Sub-Propiedad: Referencia de Financiación(fundingReference) (MA, 0-n): 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-**fundingStream - Nombre del flujo de financiación (O) (M, 1-n):** Hace referencia al nombre que se le ha otorgado al flujo de financiación.
+Entidad que identifica  entidades que financian proyectos de investigación.
 
-**awardNumber - Número de adjudicación (MA) (M, 1-n):** Hace referencia al número de adjudicación que se le ha otorgado a la financiación.
+  - **Sub-Propiedad: Nombre del financiador (funderName) - (M) (O, 1-n):** Nombre del proveedor de financiamiento. Ej: Departamento Administrativo de Ciencia, Tecnología e Innovación, Colciencias.
 
-**awardURI - URI del proyecto proporcionada por el patrocinador (R) (M, 1-n):** La URI de la página de inicio del proyecto proporcionada por el patrocinador para obtener más información sobre la concesión.
+  - **Sub-Propiedad: Identificador único de la entidad financiadora (funderIdentifier)  (R) (O, 1-n):** Número de identificación único de la entidad financiadora. Ej: 0000 0001 2222 4476
 
-**awardTitle - Título del proyecto (R) (M, 1-n):** Título del proyecto, adjudicación o subvención. Ej: Investigación y desplazamiento forzado: reflexiones éticas y metodológicas.
+      - **Atributo: Tipo de identificador único de la entidad financiadora (funderIdentifiertype) (O, 0-1):** Este atributo permite especificar el número estandarizado de la entidad financiadora. Se debe tener en cuenta los siguientes tipos de identificador y su codificación normalizada según el vocabulario controlado propuesto:
+
+          +-------------------------+----------------------------------------------------------+------------------------+
+          | Vocabulario Normalizado | Descripción del Atributo                                 | Dominio de Vocabulario |
+          +=========================+==========================================================+========================+
+          | ISNI                    | Identificador internacional estandarizado de nombre      | oaire                  |
+          +-------------------------+----------------------------------------------------------+------------------------+
+          | GRID                    | Base de datos de identificadores de investigación global | oaire                  |
+          +-------------------------+----------------------------------------------------------+------------------------+
+          | Crossref Funder         | Registro de financiadores                                | oaire                  |
+          +-------------------------+----------------------------------------------------------+------------------------+
+
+  - **Sub-Propiedad: Nombre del flujo de financiación (fundingStream) (O) (O, 1-n):** Esta propiedad de uso opcional, incluye el nombre del flujo o sub-propiedad de financiación. Esta propiedad está pensada como un complemento aclaratorio a la propiedad funderName.
+
+  - **Sub-Propiedad: Número de adjudicación (awardNumber) (O, 0-1):** Esta propiedad de uso opcional, incluye el número de adjudicación exclusivamente al nombre de la entidad. Esta propiedad está pensada como un complemento aclaratorio a la propiedad funderName.
  
-**Atributo: Tipo de identificador único de la entidad financiadora (funderIdentifiertype) (O, 0-1):** Este atributo permite especificar el número estandarizado de la entidad financiadora. Se debe tener en cuenta los siguientes tipos de identificador y su codificación normalizada según el vocabulario controlado propuesto:
-
-+-------------------------+----------------------------------------------------------+------------------------+
-| Vocabulario Normalizado | Descripción del Atributo                                 | Dominio de Vocabulario |
-+=========================+==========================================================+========================+
-| ISNI                    | Identificador internacional estandarizado de nombre      | oaire                  |
-+-------------------------+----------------------------------------------------------+------------------------+
-| GRID                    | Base de datos de identificadores de investigación global | oaire                  |
-+-------------------------+----------------------------------------------------------+------------------------+
-| Crossref Funder         | Registro de financiadores                                | oaire                  |
-+-------------------------+----------------------------------------------------------+------------------------+
-
-**Sub-Propiedad: Financiamiento (Funding stream) (O, 0-1):** Esta propiedad de uso opcional, incluye el nombre del flujo o sub-propiedad de financiación.
-Esta propiedad está pensada como un complemento aclaratorio a la propiedad funderName.
+  - **Atributo: URI de adjudicación (arwardURI) (O, 0-1):** Este atributo permite especificar la URI de la página del proyecto proporcionada por el patrocinador para obtener más información de la adjudicación o concesión.
  
-**Sub-Propiedad: Número de adjudicación (awardNumber) (O, 0-1):** Esta propiedad de uso opcional, incluye el número de adjudicación exclusivamente al nombre de la entidad. Esta propiedad está pensada como un complemento aclaratorio a la propiedad funderName.
- 
-**Atributo: URI de adjudicación (arwardURI) (O, 0-1):** Este atributo permite especificar la URI de la página de inicio del proyecto proporcionada por el patrocinador para obtener más información de la adjudicación o concesión.
- 
-**Sub-Propiedad: Título de adjudicación (awardTitle) (O, 0-n):** Esta propiedad de uso opcional, incluye el título del proyecto, adjudicación o subvención.
+  - **Sub-Propiedad: Título de adjudicación (awardTitle) (O, 0-n):** Esta propiedad de uso opcional, incluye el título del proyecto, adjudicación o subvención.
 
 
 Relaciones con otros campos
@@ -92,7 +91,8 @@ No Aplica
 Ejemplos y ayudas
 -----------------
 
-**Ayudas**
+Ayudas
+++++++
 
   - **Nombre del Financiador:** Entidad financiadora del proyecto de investigación.  
   - Ej: Departamento Administrativo de Ciencia, Tecnología e Innovación – Colciencias.
@@ -100,7 +100,8 @@ Ejemplos y ayudas
   - Ej: (Crossref Funder): http://doi.org/10.1023/a:1010537606969
   - Ej: (fundingStream): Programa Nacional de Ciencia, Tecnología e Innovación Agropecuaria
 
-**Ejemplo en XML (Interoperabilidad OAI-PMH)**
+Ejemplo en XML (Interoperabilidad OAI-PMH)
+++++++++++++++++++++++++++++++++++++++++++
  
 **Esquema oai_dc**
 
@@ -142,7 +143,7 @@ Se aplica a todos los productos de investigación reconocidos por Colciencias.
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
-El campo Referencia de Financiación (oaire:fundingReference) es utilizado por los siguientes esquemas de metadatos y puede intercambiarse su uso de manera indistinta mientras se conserven sus distintos niveles de atributos y especificadores de campo:
+El campo Referencia de Financiación **(oaire:fundingReference)** es utilizado por los siguientes esquemas de metadatos y puede intercambiarse su uso de manera indistinta mientras se conserven sus distintos niveles de atributos y especificadores de campo:
 
 +----------------------+----------------------------+
 | Esquema de Metadatos | Campo Relacionado          |
@@ -155,10 +156,6 @@ El campo Referencia de Financiación (oaire:fundingReference) es utilizado por l
 
 Niveles semánticos
 ------------------
-  - Este campo contempla la utilización de distintos **sistemas de gestión de autoridades de nombre** que normalizan semánticamente los autores.
-  - Cada registro presente en estos **sistemas de gestión de autoridades de nombre provee una Identificación persistente.**
-  - Adicionalmente dichos sistemas proveen una URI única que debe ser enlazada y utilizada en el campo de metadatos asociado.
-  - En su mayoría, los sistemas de gestión de autoridades de nombre contemplan la exportación de registros en representaciones semánticas MADS/SKOS a través de formatos MARCXML, RDF, XML, N3, Turtle, JSON.
 
 
 Recomendación de campos de aplicación en DSPACE
@@ -168,17 +165,14 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +----------------------------------------+-----------------------+-------------+--------------------------------+
 | Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Cualificar  | Nota de alcance                |
 +========================================+=======================+=============+================================+
-| Nombre del financiador                 | description           | sponsorship | funderNameCorporateName (MADS) |
+| Nombre del financiador                 | description           | sponsorship |                                |
 +----------------------------------------+-----------------------+-------------+--------------------------------+
 
-NOTAS:
 
-- Los nombre de los cualificadores/especificadores de campos asociados a la Referencia de Financiación (oaire:fundingReference) y Nombre del Financiador (funderName) han sido tomados de la ontología MADS provista por la Biblioteca del Congreso de los Estados Unidos (MADS/RDF Ontology - Metadata Authority Description Schema in RDF)
-- Si desea utilizar en DSPACE por defecto el campo “dc. description.sponsorship” se debe la configuración en el software empleado, para que no haya ningún problema durante el proceso de cosecha de metadatos. “Este es un problema muy común que genera rechazos cuando se deben cosechar registros y la transformación se puede hacer a varios niveles: Local, nacional regional” (LaReferencia, 2015).
-- Con el fin de tener un alcance normalizado de las distintas propiedades y atributos (correos, afiliaciones, identificadores, etc.) asociadas a las entidades, se recomienda utilizar la configuración de control de autoridades provista por DSPACE o en su defecto incorporar características de sistema CRIS en DSPACE.
-
-
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
---------------------------------------------------------------------------------------------------------
+Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------------------
 
 - Se recomienda específicamente crear los nuevos atributos/especificadores del campo de referencia de financiación según la codificación propuesta.
+- En las directrices Driver 2.0 y Open Aire 3.0 fue introducido el campo con información info:eu-repo/grantAgreement 
+- Esta directriz deja obsoleto este campo en favor de la utilización del campo y las subpropiedades denominada  **FinanceReference que está definido en el esquema de metadatos** de DataCite MetadataKernel
+- Adicionalmente se agrega la propiedad **fundingStream** a este perfil de aplicación.
