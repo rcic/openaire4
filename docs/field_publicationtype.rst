@@ -206,9 +206,9 @@ Los sistemas de información deben utilizar estos nuevos elementos para describi
 +---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
 | Tipo Documental Específico Colciencias                        | Notas                                                                                                                              | Valor Autorizado                                                                                  |
 +===============================================================+====================================================================================================================================+===================================================================================================+
-| Artículos de investigación                                    | Campo ya descrito en Vocabulario COAR/OPENAIRE. http://purl.org/coar/resource_type/c_2f33                                          | Se genera equivalencia semántica (de uso opcional): https://purl.org/redcol/resource_type/ART     |
+| Artículos de investigación                                    | Campo ya descrito en Vocabulario COAR/OPENAIRE. http://purl.org/coar/resource_type/c_2f33                                          | Se genera equivalencia semántica (de uso opcional):https://purl.org/redcol/resource_type/ART      |
 +---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
-| Notas Científicas                                             |                                                                                                                                    |                                                                                                   |
+| Notas Científicas                                             | x                                                                                                                                  | https://purl.org/redcol/resource_type/N                                                           |
 +---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
 | Libros resultado de investigación                             | Campo ya descrito en Vocabulario COAR/OPENAIRE                                                                                     | Se genera equivalencia semántica (de uso opcional): https://purl.org/redcol/resource_type/LIB     |
 +---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
@@ -218,14 +218,18 @@ Los sistemas de información deben utilizar estos nuevos elementos para describi
 +---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
 | Patente de modelo de utilidad                                 | Selecionar del Vocabulario COAR/OPENAIRE “Patente” y utilizar el siguiente elemento semántico para especificar el tipo de Patente: | https://purl.org/redcol/resource_type/MA                                                          |
 +---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
-| Variedad vegetal y variedad animal                            | Campo ya descrito en Vocabulario COAR                                                                                              | https://purl.org/redcol/resource_type/VV                                                          |
+| Variedad vegetal                                              | x                                                                                                                                  | https://purl.org/redcol/resource_type/VV                                                          |
 +---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
-| Nueva raza animal                                             |                                                                                                                                    |                                                                                                   |
+| Variedad animal                                               | x                                                                                                                                  | x                                                                                                 |
 +---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
-| Poblaciones mejoradas de razas pecuarias                      |                                                                                                                                    |                                                                                                   |
+| Nueva raza animal                                             | x                                                                                                                                  | https://purl.org/redcol/resource_type/VA                                                          |
 +---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
-| Obras o Productos de creación en artes, arquitectura y diseño | Campo ya descrito en Vocabulario COAR                                                                                              | https://purl.org/redcol/resource_type/AAD                                                         |
+| Poblaciones mejoradas de razas pecuarias                      | x                                                                                                                                  | https://purl.org/redcol/resource_type/VA_B                                                        |
 +---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+| Obras o Productos de creación en artes, arquitectura y diseño | x                                                                                                                                  | https://purl.org/redcol/resource_type/AAD                                                         |
++---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+
+
 
 - Productos resultados de actividades de desarrollo tecnológico e innovación.
 
@@ -239,57 +243,57 @@ Los sistemas de información deben utilizar estos nuevos elementos para describi
 +==================================================================================+=======================================+========================================+
 |                                **Productos Tecnológicos Certificados o Validados**                                                                                |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Diseño industrial                                                                | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Diseño industrial                                                                |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Esquema de trazado de circuito integrado                                         | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Esquema de trazado de circuito integrado                                         |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Software                                                                         | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Software                                                                         |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Planta piloto                                                                    | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Planta piloto                                                                    |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Prototipo industrial                                                             | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Prototipo industrial                                                             |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Signos distintivos                                                               | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Signos distintivos                                                               |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Productos nutraceúticos                                                          | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Productos nutraceúticos                                                          |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Colección científica                                                             | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Colección científica                                                             |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Nuevo registro científico                                                        | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Nuevo registro científico                                                        |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
 |                                    **Productos Empresariales**                                                                                                    |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Secreto empresarial                                                              | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Secreto empresarial                                                              |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Empresas de base tecnológica (Spin-off y Start-up)                               | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Empresas de base tecnológica (Spin-off y Start-up)                               |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Empresas creativas y culturales                                                  | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Empresas creativas y culturales                                                  |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Innovación generada en la gestión empresarial                                    | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Innovación generada en la gestión empresarial                                    |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Innovación en procedimiento y servicio                                           | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Innovación en procedimiento y servicio                                           |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Regulación Norma o Reglamento                                                    | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Regulación Norma o Reglamento                                                    |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Guía de Práctica Clínica                                                         | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Guía de Práctica Clínica                                                         |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Guía de Manejo Clínico Forense                                                   | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Guía de Manejo Clínico Forense                                                   |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Manuales y Modelos de atención diferencial a víctimas                            | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Manuales y Modelos de atención diferencial a víctimas                            |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Protocolos de atención a usuarios                                                | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Protocolos de atención a usuarios                                                |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Acto legislativo                                                                 | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Acto legislativo                                                                 |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Proyecto de Ley                                                                  | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Proyecto de Ley                                                                  |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
 |                                      **Conceptos técnicos**                                                                                                       |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Conceptos técnicos                                                               | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Conceptos técnicos                                                               |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Informe final de investigación                                                   | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Informe final de investigación                                                   |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Acuerdo de licencia para la explotación de obras protegidas por derecho de autor | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Acuerdo de licencia para la explotación de obras protegidas por derecho de autor |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
 
 
@@ -306,78 +310,60 @@ Los sistemas de información deben utilizar estos nuevos elementos para describi
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
 | Tipo Documental Específico Colciencias                                           | Notas                                 | Valor Autorizado                       |
 +==================================================================================+=======================================+========================================+
-| Participación ciudadana en proyectos de CTI                                      | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Participación ciudadana en proyectos de CTI                                      |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Espacios de participación ciudadana en CTI                                       | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Espacios de participación ciudadana en CTI                                       |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Estrategia pedagógicas para el fomento a la CTI                                  | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Estrategia pedagógicas para el fomento a la CTI                                  |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Estrategia de comunicación del conocimiento                                      | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Estrategia de comunicación del conocimiento                                      |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Generación de contenido                                                          | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Generación de contenido                                                          |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Evento científico                                                                | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Evento científico                                                                |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Red de conocimiento especializado                                                | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Red de conocimiento especializado                                                |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Taller de Creación                                                               | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Taller de Creación                                                               |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Eventos culturales y artísticos                                                  | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Eventos culturales y artísticos                                                  |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Documento de trabajo                                                             | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Documento de trabajo                                                             |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Nueva Secuencia Genética                                                         | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Nueva Secuencia Genética                                                         |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Boletín divulgativo de resultado de investigación                                | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Boletín divulgativo de resultado de investigación                                |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Edición                                                                          | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Edición                                                                          |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Informe de investigación                                                         | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Informe de investigación                                                         |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Consultoría científicas-tecnologías                                              | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Consultoría científicas-tecnologías                                              |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Consultoría de procesos en investigación-creación en arte, arquitectura y diseño | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Consultoría de procesos en investigación-creación en arte, arquitectura y diseño |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Dirección de Tesis de doctorado                                                  | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Dirección de Tesis de doctorado                                                  |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Dirección de Trabajo de grado de maestría                                        | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Dirección de Trabajo de grado de maestría                                        |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Dirección de Trabajos de grado de pregrado                                       | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Dirección de Trabajos de grado de pregrado                                       |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Proyecto de investigación y Desarrollo                                           | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Proyecto de investigación y Desarrollo                                           |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Proyecto de investigación-Creación                                               | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Proyecto de investigación-Creación                                               |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Proyecto ID+I con formación                                                      | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Proyecto ID+I con formación                                                      |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Proyecto de extensión y responsabilidad social en CTI                            | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Proyecto de extensión y responsabilidad social en CTI                            |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Apoyo de programas                                                               | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Apoyo de programas                                                               |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Apoyo creación de cursos                                                         | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Apoyo creación de cursos                                                         |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
-| Asesoría al programa Ondas                                                       | Campo ya descrito en Vocabulario COAR | https://purl.org/redcol/resource_type/ |
+| Asesoría al programa Ondas                                                       |                                       | https://purl.org/redcol/resource_type/ |
 +----------------------------------------------------------------------------------+---------------------------------------+----------------------------------------+
 
 ..
-
-- Productos de actividades relacionadas con la Formación de Recurso Humano en CTeI.
-
-..
-
-+-----------------------------------------------------------------+-------+------------------+
-| Tipo Documental Específico Colciencias                          | Notas | Valor Autorizado |
-+=================================================================+=======+==================+
-| Proyectos de investigación-creación                             |       |                  |
-+-----------------------------------------------------------------+-------+------------------+
-| Proyectos de investigación, Desarrollo e Innovación (ID+I)      |       |                  |
-+-----------------------------------------------------------------+-------+------------------+
-| Proyectos de extensión y responsabilidad social en CTI          |       |                  |
-+-----------------------------------------------------------------+-------+------------------+
-| Apoyo a programas de formación                                  |       |                  |
-+-----------------------------------------------------------------+-------+------------------+
-| Acompañamiento y asesorías de línea temática del Programa Ondas |       |                  |
-+-----------------------------------------------------------------+-------+------------------+
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
