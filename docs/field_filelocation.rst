@@ -1,7 +1,7 @@
 .. _aire:file:
 
-Ubicación del archivo (MA)
-==========================
+File Location (Ubicación del archivo) (MA)
+==========================================
 
 ``oaire:file``
 
@@ -50,6 +50,27 @@ Restricciones
 Ejemplos
 --------
 
+**Esquema oai_dc**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema DataCite**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
+
+
 .. code-block:: xml
    :linenos:
 
@@ -75,13 +96,6 @@ Use los términos del vocabulario controlado:
 +------------------------------------------+---------------------+
 
 Especifique el el formato del archivo, se recomienda seleccionar los tributos de tipo de medio: http://www.iana.org/assignments/media-types 
-
-Para el tipo de objeto, seleccione los siguientes atributos de la lista controlada:
-
-- fulltext
-- dataset
-- software
-- other
 
 Especificadores de campo
 ------------------------
