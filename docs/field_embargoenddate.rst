@@ -86,15 +86,23 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 
 Niveles de aplicación para  productos de investigación de Colciencias
 ---------------------------------------------------------------------
+Revistas, artículos, documentos de trabajo.
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
+dc.date
 
 Niveles semánticos
 ------------------
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
+Se recomienda crear en Dspace los siguientes campos:
+
+- datacite:date-Accepted
+- datacite:date-Available
+
 
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------------------
+OpenAIRE 3: dc.date
