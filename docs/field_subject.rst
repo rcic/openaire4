@@ -1,7 +1,7 @@
 .. _dci:subject:
 
-Materia (MA)
-============
+Subject (Materia) (MA)
+======================
 
 ``datacite:subject``
 
@@ -69,6 +69,13 @@ Restricciones
 Ejemplos
 --------
 
+**Esquema oai_dc**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema DataCite**
+
 .. code-block:: xml
    :linenos:
 
@@ -80,6 +87,16 @@ Ejemplos
    </datacite:subjects>
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
 
 Atributos de Campo
 ------------------
