@@ -1,7 +1,7 @@
 .. _aire:citationTitle:
 
-Cita de título (R)
-==================
+Citation Title (Cita de título) (R)
+===================================
 
 ``oaire:citationTitle``
 
@@ -42,6 +42,26 @@ Restricciones
 
 Ejemplos
 ~~~~~~~~
+
+**Esquema oai_dc**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema DataCite**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
 
 .. code-block:: xml
    :linenos:
