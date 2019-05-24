@@ -1,7 +1,7 @@
 .. _aire:version:
 
-Versión del recurso (R)
-=======================
+Resource Version (Versión del recurso) (R)
+==========================================
 
 ``oaire:version``
 
@@ -49,6 +49,28 @@ Restricciones
 
 Ejemplos
 --------
+
+**Esquema oai_dc**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema DataCite**
+
+.. code-block:: xml
+   :linenos:
+
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
+
 
 .. code-block:: xml
    :linenos:
