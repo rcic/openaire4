@@ -1,7 +1,7 @@
 .. _dc.format:
 
-Formato (R)
-===========
+Format (Formato) (R)
+====================
 
 ``dc.format``
 
@@ -11,29 +11,28 @@ Hace referencia a la manifestación física o digital del recurso, se puede incl
 
 No confundir con el tipo de recurso (M) y el identificador del recurso (M).
 
-Niveles de requerimientos (M/MA/R/O)
-------------------------------------
+Niveles de persistencia (M/MA/R/O)
+-----------------------------------
 Recomendado (R)
 
-Niveles de ocurrencia (R / NR -  Cantidad Veces)
-------------------------------------------------
+Niveles de ocurrencia (R / NR)
+------------------------------
 No repetible (NR)
 
-Campo con esquema de metadatos
-------------------------------
+Esquema de metadatos
+--------------------
 dc:format
 
 Traducción al español
 ---------------------
 Formato
 
-Forma de Descripción Normalizada (RDA / RCAA2)
-----------------------------------------------
+Forma de Descripción Normalizada (RDA / RCAA2/ ISBD)
+----------------------------------------------------
 RDA (Recursos: descripción y acceso)
 
-Valores permitidos (Vocabularios Controlados)
----------------------------------------------
-Format
+Propiedades, atributos y especificadores de campo
+-------------------------------------------------
 
 Relaciones con otros campos
 ---------------------------
@@ -41,9 +40,10 @@ Relaciones con otros campos
 Restricciones
 -------------
 
+Ejemplos y ayudas
+------------------
 
-Ejemplos
---------
+**Esquema oai_dc**
 
 .. code-block:: xml
    :linenos:
@@ -55,16 +55,21 @@ Ejemplos
    <dc.format>application/html</dc.format>
    <dc.format>application/vnd.oasis.opendocument.text</dc.format>
 
-.. _DRIVER Guidelines v2 element format: https://wiki.surfnet.nl/display/DRIVERguidelines/Format
+**Esquema DataCite**
 
-Atributos de campo 
-------------------
-De acuerdo con las mejores prácticas, se pueden seleccionar los tipos de medio de la siguiente lista: http://www.iana.org/assignments/media-types/media-types.xhtml 
+.. code-block:: xml
+   :linenos:
 
-Especificadores de campo
-------------------------
+**Esquema xoai**
 
-- dc:format.mimetype
+.. code-block:: xml
+   :linenos:
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
+
 
 Niveles de aplicación para productos de investigación de Colciencias
 --------------------------------------------------------------------
