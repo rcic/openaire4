@@ -1,7 +1,7 @@
 .. _dci:dateEmbargo:
 
-Fecha de Periodo de Embargo (MA)
-================================
+Embargo Period Date (Fecha de Periodo de Embargo)  (MA)
+=======================================================
 
 ``datacite:date``
 

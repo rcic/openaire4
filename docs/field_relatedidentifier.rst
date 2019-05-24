@@ -1,7 +1,7 @@
 .. _dci:relatedIdentifier:
 
-Identificador relacionado (R)
-=============================
+Related Identifier (Identificador relacionado) (R)
+==================================================
 
 ``datacite:relatedIdentifier``
 
@@ -14,7 +14,7 @@ Niveles de persistencia (M/MA/R/O)
 Recomendado (R)
 
 Niveles de ocurrencia (R / NR )
-------------------------------------------------
+-------------------------------
 Repetible (R) **1-n veces**.
 Repita este campo para colocar cada uno de los identificadores relacionados necesarios en orden prioritario.
 

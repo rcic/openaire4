@@ -1,7 +1,7 @@
 .. _dci:alternativeIdentifier:
 
-Identificador alternativo (R)
-=============================
+Alternate Identifier (Identificador alternativo) (R)
+====================================================
 
 ``datacite:alternateIdentifier``
 
@@ -13,8 +13,8 @@ Niveles de persistencia (M/MA/R/O)
 ------------------------------------
 Recomendado (R)
 
-Niveles de ocurrencia (R / NR -  Cantidad Veces)
-------------------------------------------------
+Niveles de ocurrencia (R / NR)
+-------------------------------
 Repetible (R): **1-n veces**
 Repita este campo para colocar  cada uno de los identificadores alternativos necesarios en **orden prioritario.**
 
