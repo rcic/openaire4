@@ -1,7 +1,7 @@
 .. _dci:size:
 
-Tamaño (O)
-==========
+Size (Tamaño) (O)
+=================
 
 ``datacite:size``
 
@@ -48,13 +48,32 @@ Restricciones
 Ejemplos
 --------
 
+**Esquema oai_dc**
+
 .. code-block:: xml
    :linenos:
 
-  	<datacite.sizes>
+**Esquema DataCite**
+
+.. code-block:: xml
+   :linenos:
+
+	<datacite.sizes>
           <datacite:size>15 páginas</datacite:size>
           <datacite:size>6 MB</datacite:size>
  	</datacite.sizes>
+
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
+
 
 
 Atributos de campo 
