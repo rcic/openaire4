@@ -1,7 +1,7 @@
 .. _dc.source:
 
-Fuente (R)
-==========
+Source (Fuente) (R) 
+===================
 
 ``dc.source``
 
@@ -64,6 +64,8 @@ Restricciones
 Ejemplos
 --------
 
+**Esquema oai_dc**
+
 .. code-block:: xml
    :linenos:
 
@@ -72,6 +74,21 @@ Ejemplos
    <dc.source.bibliographicCitation>CEPAL. (2017). Panorama fiscal de américa latina. La movilización de recursos para el financiamiento del desarrollo sostenible </dc.source.bibliographicCitation>
 
 .. _DRIVER Guidelines v2 element source: https://wiki.surfnet.nl/display/DRIVERguidelines/Source
+
+**Esquema DataCite**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
 
 Atributos de campo 
 ------------------
