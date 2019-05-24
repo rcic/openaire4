@@ -1,7 +1,7 @@
 .. _dci:identifier:
 
-Identificador de recursos (M)
-=============================
+Resource Identifier (Identificador de recursos) (M)
+===================================================
 
 ``datacite:identifier``
 
@@ -21,24 +21,24 @@ También hace referencia el número de identificación del proyecto ante los ent
 
 No confundir con Identificador alternativo (R), Identificador relacionado (R), Ubicación del archivo (MA) y Fuente (R).
 
-Niveles de requerimientos (M/MA/R/O)
--------------------------------------
+Niveles de persistencia (M/MA/R/O)
+----------------------------------
 Obligatorio (M)
 
-Niveles de ocurrencia (R / NR -  Cantidad Veces)
-------------------------------------------------
+Niveles de ocurrencia (R / NR)
+------------------------------
 No repetible (NR)
 
-Campo con esquema de metadatos
-------------------------------
+Esquema de metadatos
+--------------------
 datacite:identifier
 
 Traducción al español
 ---------------------
 Identificador de recursos
 
-Forma de Descripción Normalizada (RDA / RCAA2)
-----------------------------------------------
+Forma de Descripción Normalizada (RDA / RCAA2/ ISBD)
+----------------------------------------------------
 RDA (Recursos: descripción y acceso)
 
 Revise la forma adecuada para ingresar el identificador del recurso:
@@ -53,9 +53,8 @@ Revise la forma adecuada para ingresar el identificador del recurso:
 - **datacite:identifier-projectid:** Se debe ingresar el número de identificación del proyecto establecido por la institución. Ej: 1101-586-35778.
 
 
-Valores permitidos (Vocabularios Controlados)
----------------------------------------------
-Identifier type
+Propiedades, atributos y especificadores de campo
+-------------------------------------------------
 
 Relaciones con otros campos
 ---------------------------
@@ -64,8 +63,15 @@ Restricciones
 -------------
 
 
-Ejemplos
---------
+Ejemplos y ayudas
+-----------------
+
+**Esquema oai_dc**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema DataCite**
 
 .. code-block:: xml
    :linenos:
@@ -73,6 +79,16 @@ Ejemplos
    <datacite:identifier identifierType="Handle">http://hdl.handle.net/1234/5628</datacite:identifier>
 
    <datacite:identifier-projectid>3454-102-001-86</<datacite:identifier-projectid>
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
 
 Atributos de campo 
 ------------------
@@ -90,6 +106,13 @@ Especificadores de campo
 ------------------------
 
 - datacite:identifier-projectid
+  
+Campo con esquema de metadatos
+------------------------------
+
+- datacite:identifier
+- datacite:identifier-projectid
+
 
 Niveles de aplicación para productos de investigación de Colciencias
 --------------------------------------------------------------------
@@ -97,9 +120,6 @@ Se aplica a todos los productos de Colciencias.
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
-
-- datacite:identifier
-- datacite:identifier-projectid
 
 Niveles semánticos
 ------------------
