@@ -1,7 +1,7 @@
 .. _dc.description:
 
-Descripción (MA)
-================
+Description (Descripción) (MA)
+==============================
 
 ``dc.description``
 
@@ -11,15 +11,15 @@ Información general o específica del recurso utilizada para la descripción te
 
 Cuando un recurso consta de varios recursos o anexos en URL, no se debe utilizar este campo para enumerar estos recursos.  
 
-Niveles de requerimientos (M/MA/R/O)
-------------------------------------
+Niveles de persistencia (M/MA/R/O)
+----------------------------------
 Obligatorio si es aplicable (MA)
 
-Niveles de ocurrencia (R / NR -  Cantidad Veces)
-------------------------------------------------
+Niveles de ocurrencia (R / NR)
+------------------------------
 Repetible (R)
 
-Campo con esquema de metadatos
+Esquema de metadatos
 ------------------------------
 dc.description 
 
@@ -27,8 +27,8 @@ Traducción al español
 ---------------------
 Descripción 
 
-Forma de Descripción Normalizada (RDA / RCAA2)
-----------------------------------------------
+Forma de Descripción Normalizada (RDA / RCAA2/ ISBD)
+----------------------------------------------------
 RDA (Recursos: descripción y acceso)
 
 Revise la forma adecuada para ingresar la descripción del recurso:
@@ -46,8 +46,8 @@ Ej: En la presente edición, producto del trabajo colectivo del programa, han si
 	Ej: El proyecto de investigación se elaboró en el marco del desarrollo de la política institucional de cadenas productivas del sector artesanal. 
 
 
-Valores permitidos (Vocabularios Controlados)
----------------------------------------------
+Propiedades, atributos y especificadores de campo
+-------------------------------------------------
 Description
 
 Relaciones con otros campos
@@ -56,8 +56,10 @@ Relaciones con otros campos
 Restricciones
 -------------
 
-Ejemplos
---------
+Ejemplos y ayudas
+-----------------
+
+**Esquema oai_dc**
 
 .. code-block:: xml
    :linenos:
@@ -74,17 +76,21 @@ Ejemplos
   		Convenio Interadministrativo No. 271 de 2015. 
    </dc.description notes>
 
+**Esquema DataCite**
 
-.. _DRIVER Guidelines v2 element description: https://wiki.surfnet.nl/display/DRIVERguidelines/Description
+.. code-block:: xml
+   :linenos:
 
-Atributos de Campo
-------------------
-xml:lang → se utiliza este atributo para indicar el idioma de la descripción.
+**Esquema xoai**
 
-Especificadores de campo
-------------------------
+.. code-block:: xml
+   :linenos:
 
-- dc.description.abstract
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
+
 
 Niveles de aplicación para productos de investigación de Colciencias
 --------------------------------------------------------------------
@@ -104,5 +110,5 @@ Se recomienda crear los siguientes campos en Dspace:
 - dc.description.abstract
 - dc.description.notes
 
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
---------------------------------------------------------------------------------------------------------
+Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------------------
