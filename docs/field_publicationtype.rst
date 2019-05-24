@@ -1,25 +1,27 @@
 .. _aire:resourceType:
 
-Tipo de recurso (M) 
-===================
+Resource Type (Tipo de recurso) (M)  
+===================================
 
 ``oaire:resourceType``
 
 Definición y alcance del campo
 ------------------------------
-Hace referencia al tipo de producción científica o contenido intelectual en el que se manifiesta el recurso. Y es utilizado por el usuario para identificar el recurso que está buscando. Ejemplo: Libro, artículo, revista, etc. 
+Hace referencia al tipo de producción científica o contenido intelectual en el que se manifiesta el recurso. Y es utilizado por el usuario para identificar el recurso que está buscando. 
+
+- Ejemplo: Libro, artículo, revista, etc. 
 
 No confundir con el campo Formato (R), porque hace referencia al tipo de medio en el que está el recurso. 
 
-Niveles de requerimientos (M/MA/R/O)
+Niveles de persistencia (M/MA/R/O)
 ------------------------------------
 Obligatorio (M)
 
-Niveles de ocurrencia (R / NR -  Cantidad Veces)
-------------------------------------------------
+Niveles de ocurrencia (R / NR)
+------------------------------
 No repetible (NR)
 
-Campo con esquema de metadatos
+Esquema de metadatos
 ------------------------------
 oaire:resourcetype 
 
@@ -27,37 +29,45 @@ Traducción al español
 ---------------------
 Tipo de recurso
 
-Forma de Descripción Normalizada (RDA / RCAA2)
-----------------------------------------------
-Revise la forma adecuada para seleccionar el tipo de recurso:
+Forma de Descripción Normalizada (RDA / RCAA2/ ISBD)
+----------------------------------------------------
+RDA (Recursos: descripción y acceso)
 
-- **oaire:resourceType:** Se debe seleccionar el tipo de recurso que debe estar debidamente relacionado con una uri definido con el vocabulario controlado de Coar, lo que permite tener una relación semántica. Ej: uri= http://vocabularies.coar-repositories.org/pubby/resource_type/c_2df8fbb1.html Artículo de investigación.
+	Revise la forma adecuada para seleccionar el tipo de recurso:
 
-Valores permitidos (Vocabularios Controlados)
----------------------------------------------
-Ver vocabularios http://vocabularies.coar-repositories.org/documentation/resource_types/ 
+	- **oaire:resourceType:** Se debe seleccionar el tipo de recurso que debe estar debidamente relacionado con una uri definido con el vocabulario controlado de Coar, lo que permite tener una relación semántica. Ej: uri= http://vocabularies.coar-repositories.org/pubby/resource_type/c_2df8fbb1.html Artículo de investigación.
+
+Propiedades, atributos y especificadores de campo
+-------------------------------------------------
 
 Relaciones con otros campos
 ---------------------------
 
-- dc.type
 
-Restricciones
--------------
+Ejemplos y ayudas
+-----------------
 
+**Esquema oai_dc**
 
-Ejemplos
---------
+.. code-block:: xml
+   :linenos:
+
+**Esquema DataCite**
 
 .. code-block:: xml
    :linenos:
 
    <oaire:resourceType resourceTypeGeneral="literature" uri="http://purl.org/coar/resource_type/c_6501">journal article</oaire:resourceType>
 
-.. _COAR Resource Type Vocabulary: http://vocabularies.coar-repositories.org/documentation/resource_types/
+**Esquema xaoi**
+
+.. code-block:: xml
+   :linenos:
  
 Atributos de Campo
 ------------------
+
+**Vocabulario normalizado de Tipos Documentales OPENAIRE-COAR**
 
 +-----------------------------------------------+-------------------------+
 | ConceptURI                                    | Etiqueta                |
@@ -371,6 +381,7 @@ Los sistemas de información deben utilizar estos nuevos elementos para describi
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
+dc.type
 
 Niveles semánticos
 ------------------
@@ -387,5 +398,5 @@ Se recomienda crear los siguientes campos en Dspace:
 
 - oaire:resourceType
 
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
---------------------------------------------------------------------------------------------------------
+Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------------------
