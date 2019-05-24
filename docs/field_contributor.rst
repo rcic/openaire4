@@ -254,22 +254,43 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 .. code-block:: xml
    :linenos:
 
+   <dc:contributor>Vivas Barrera, Tania Giovanna, editora</dc:contributor>
+
 **Esquema DataCite**
 
 .. code-block:: xml
    :linenos:
 
+   	<datacite:contributors>
+        <datacite:contributor>
+          <datacite:contributorName>Evans, R. J.</datacite:contributorName>
+        <datacite:contributor>
+        <datacite:contributor>
+          <datacite:contributorName>International Human Genome Sequencing Consortium</datacite:contributorName>
+        </datacite:contributor>
+	</datacite:contributors>
+
+
+**Esquema dim**
+
+.. code-block:: xml
+   :linenos:
+
+   <dim:field mdschema="dc" element="contributor" qualifier="editor" lang="spa">Vivas Barrera, Tania Giovanna, editora</dim:field>
 
 **Esquema xoai**
 
 .. code-block:: xml
    :linenos:
 
-
-**Esquema xoai**
-
-.. code-block:: xml
-   :linenos:
+   	<element name="dc">
+	<element name="contributor">
+	<element name="editor">
+	<element name="spa">
+	<field name="value">Vivas Barrera, Tania Giovanna, editora</field>
+	</element>
+	</element>
+	</element>
 
 ..
 
