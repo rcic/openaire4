@@ -1,7 +1,7 @@
 .. _dci:datePublication:
 
-Fecha de publicación (M)
-========================
+Publication Date (Fecha de publicación) (M)
+===========================================
 
 ``datacite:date``
 
@@ -19,21 +19,20 @@ Traducción al español
 ---------------------
 Fecha de publicación 
 
-Niveles de requerimientos (M/MA/R/O)
+Niveles de persistencia (M/MA/R/O)
 ------------------------------------
 Obligatorio (M)
 
-Niveles de ocurrencia (R / NR -  Cantidad Veces)
+Niveles de ocurrencia (R / NR)
 ------------------------------------------------
 Repetible (R)
 
-Forma de Descripción Normalizada (RDA / RCAA2)
+Forma de Descripción Normalizada (RDA/ RCAA2/ ISBD)
 ----------------------------------------------
 RDA (Recursos: descripción y acceso)
 
-Valores permitidos (Vocabularios Controlados)
----------------------------------------------
-Data type
+Propiedades, atributos y especificadores de campo
+-------------------------------------------------
 
 Relaciones con otros campos
 ---------------------------
@@ -41,23 +40,31 @@ Relaciones con otros campos
 Restricciones
 -------------
 
-Ejemplos
---------
+Ejemplos y ayudas
+-----------------
+
+**Esquema oai_dc**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema DataCite**
 
 .. code-block:: xml
    :linenos:
 
    <datacite:date dateType="Issued">2010-12-25</datacite:date>
 
-.. _DRIVER Guidelines v2 element date: https://wiki.surfnet.nl/display/DRIVERguidelines/Date
-.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
+**Esquema xaoi**
 
-Atributos de campo
-------------------
-Data type
+.. code-block:: xml
+   :linenos:
 
-Especificadores de campo
-------------------------
+**Esquema xaoi**
+
+.. code-block:: xml
+   :linenos:
+
 
 Niveles de aplicación para productos de investigación de Colciencias
 --------------------------------------------------------------------
