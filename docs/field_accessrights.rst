@@ -1,7 +1,7 @@
 .. _dci:accessrights:
 
-Derechos de acceso (M)
-======================
+Access Rights (Derechos de acceso) (M)
+======================================
 
 ``datacite:rights``
 
@@ -15,8 +15,8 @@ Niveles de requerimientos (M/MA/R/O)
 ------------------------------------
 Obligatorio (M)
 
-Niveles de ocurrencia (R / NR -  Cantidad Veces)
-------------------------------------------------
+Niveles de ocurrencia (R / NR)
+-------------------------------
 No repetible (NR)
 
 Campo con esquema de metadatos
@@ -42,14 +42,19 @@ datacite:rights
 Relaciones con otros campos
 ---------------------------
 
-- dc.rights.accessrights
-
 Restricciones
 -------------
 
 
-Ejemplos
---------
+Ejemplos y ayudas
+-----------------
+
+**Esquema oai_dc**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema DataCite**
 
 .. code-block:: xml
    :linenos:
@@ -57,6 +62,16 @@ Ejemplos
    <datacite:rights rightsURI="http://purl.org/coar/access_right/c_abf2">open access</datacite:rights>
 
 .. _COAR Access Right Vocabulary: http://vocabularies.coar-repositories.org/documentation/access_rights/
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
 
 Atributos de Campo
 ------------------
@@ -83,6 +98,7 @@ Se aplica a todos los productos de Colciencias.
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
+- dc.rights.accessrights
 
 Niveles semánticos
 ------------------
