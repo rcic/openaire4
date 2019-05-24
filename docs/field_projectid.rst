@@ -162,17 +162,31 @@ Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas **DSPACE** basados en los siguientes elementos:
 
-+----------------------------------------+-----------------------+-------------+--------------------------------+
-| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Cualificar  | Nota de alcance                |
-+========================================+=======================+=============+================================+
-| Nombre del financiador                 | description           | sponsorship |                                |
-+----------------------------------------+-----------------------+-------------+--------------------------------+
++-------------------------------------------+-----------------------+------------------+--------------------------------+
+| Vocabulario controlado OpenAire/RedCol    | Campo Elemento DSPACE | Cualificar       | Nota de alcance                |
++===========================================+=======================+==================+================================+
+| Nombre del financiador                    | dc.description        | sponsorship      | campo equivalente a funderName |
++-------------------------------------------+-----------------------+------------------+--------------------------------+
+| Identificador de financiador              | dc.description        | funderIdentifier |                                |
++-------------------------------------------+-----------------------+------------------+--------------------------------+
+| Especificación de la financiación         | dc.description        | fundingStream    |                                |
++-------------------------------------------+-----------------------+------------------+--------------------------------+
+| Identificador de la financiación          | dc.description        | awardNumber      |                                |
++-------------------------------------------+-----------------------+------------------+--------------------------------+
+| Nombre de la convocatoria de financiación | dc.description        | awardTitle       |                                |
++-------------------------------------------+-----------------------+------------------+--------------------------------+
+
+**NOTA:**
+
+- DSPACE en su versión 7.0 permite la gestión avanzada de propiedades, subpropiestades y atributos de campo.
+- DSPACE CRIS  incluye la definición de una entidad llamada FUNDING que es compatible con DATACITE.
+- Para las instituciones que poseen DSPACE en versión 6.X o inferior, se recomienda crear los campos indicados anteriormente y poder ingresar información detallada de la institución patrocinadora. 
 
 
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------------------
 
 - Se recomienda específicamente crear los nuevos atributos/especificadores del campo de referencia de financiación según la codificación propuesta.
-- En las directrices Driver 2.0 y Open Aire 3.0 fue introducido el campo con información info:eu-repo/grantAgreement 
-- Esta directriz deja obsoleto este campo en favor de la utilización del campo y las subpropiedades denominada  **FinanceReference que está definido en el esquema de metadatos** de DataCite MetadataKernel
-- Adicionalmente se agrega la propiedad **fundingStream** a este perfil de aplicación.
+- En las directrices Driver 2.0 y Open Aire 3.0 fue introducido el campo **grantAgreement (Algunos DSPACE almacenan esta información en dc.relation.projectID)** con información asociada al vocabulario info:eu-repo/grantAgreement 
+- Esta directriz deja obsoleto este campo en favor de la utilización del campo y las subpropiedades denominada  FinanceReference que está definido en el esquema de metadatos de DataCite MetadataKernel
+- Adicionalmente se agrega la propiedad fundingStream a este perfil de aplicación.
