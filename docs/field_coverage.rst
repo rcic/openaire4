@@ -1,7 +1,7 @@
 .. _dc.coverage:
 
-Cobertura (M)
-=============
+Coverage (Cobertura) (R)
+========================
 
 ``dc.coverage``
 
@@ -59,12 +59,32 @@ Restricciones
 Ejemplos
 --------
 
+**Esquema oai_dc**
+
 .. code-block:: xml
    :linenos:
 
   	<dc.coverage>2000-2010</dc.coverage>
 	<dc.coverage>Siglo XX</dc.coverage>
 	<dc.coverage>Colombia</dc.coverage>
+
+
+
+**Esquema DataCite**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
+
+**Esquema xoai**
+
+.. code-block:: xml
+   :linenos:
+
 
 Atributos de Campo
 ------------------
