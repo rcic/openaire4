@@ -292,7 +292,7 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 
 NOTAS:
 
-  - Los nombre de los cualificadores/especificadores de campos asociados a autor corporativo (dc.contributor.CorporateName) y autor de evento/conferencia (dc.contributor.ConferenceName) han sido tomados de la ontología MADS provista por la Biblioteca del Congreso de los Estados Unidos (MADS/RDF Ontology - Metadata Authority Description Schema in RDF )
+  - Los nombre de los cualificadores/especificadores de campos asociados a autor corporativo (dc.contributor.corporatename) y autor de evento/conferencia (dc.contributor.conferencename) han sido tomados de la ontología MADS provista por la Biblioteca del Congreso de los Estados Unidos (MADS/RDF Ontology - Metadata Authority Description Schema in RDF)
   - DSPACE utiliza por defecto el campo “dc.contributor.author” en reemplazo de “dc.creator”  y todas sus funcionalidades se encuentran asociados a este primer campo.
   - El uso del campo “dc.creator” (no es recomendado) ya que este campo se utiliza principalmente en procesos de cosecha por el protocolo OAI-PMH y cuando es requerido, es automáticamente convertido desde el campo dc.contributor.author.
   - En DSPACE en la definición de las hojas de entrada que viene por defecto, se utiliza específicamente el campo “dc.contributor.author” y en registro de metadatos se muestra el siguiente mensaje asociado al campo “dc.creator”: Do not use; only for harvested [#]_
