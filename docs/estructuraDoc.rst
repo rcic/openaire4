@@ -23,7 +23,7 @@ Para el análisis de cada uno de los campo de metadatos que son utilizados por e
 		- **Repetible (R):** El campo de metadatos puede utilizarse 1 o más veces (1-n)
 		- **No repetible (NR):** El campo de metadatos debe utilizarse solamente una vez. (1)
 
-	- **Esquema (Modelo) de metadatos (X.4): Determina el modelo de metadatos aplicado para la definición y utilización del campo. Estas directrices contemplan la utilización de los siguientes modelos de metadatos:
+	- **Esquema (Modelo) de metadatos (X.4):** Determina el modelo de metadatos aplicado para la definición y utilización del campo. Estas directrices contemplan la utilización de los siguientes modelos de metadatos:
 
 ..
 
