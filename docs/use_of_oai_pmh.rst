@@ -85,15 +85,19 @@ Los productos de investigación reconocidos en cada tipo según el modelo de med
 - **Regulaciones, normas, reglamentos o legislaciones (RNL):** Aquellas que han sido emitidas por una entidad competente, adaptadas por una comunidad específica y cuya generación se apoyó en la actividad científica o tecnológica.
 
 	- **Norma técnica (RNT):** Documento establecido por consenso y aprobado por un organismo reconocido, que suministra, para uso común y repetido, reglas, directrices y características para las actividades o sus resultados, encaminados al logro del grado óptimo de orden de un contexto dado.
-
-	- **Reglamento técnico:** Reglamento de carácter obligatorio, expedido  por la autoridad competente, con fundamento en la ley, que suministra requisitos técnicos, bien sea directamente o mediante referencia o incorporación del contenido de una norma nacional, regional o internacional, una especificación técnica o un código de un buen procedimiento.
- 
+	
+	- **Reglamento técnico (RTE):** Reglamento de carácter obligatorio, expedido  por la autoridad competente, con fundamento en la ley, que suministra requisitos técnicos, bien sea directamente o mediante referencia o incorporación del contenido de una norma nacional, regional o internacional, una especificación técnica o un código de un buen procedimiento. 
+	
 	- **Guía de Práctica Clínica  (RNP):** Documento informativo que incluye recomendaciones para optimizar el cuidado del paciente, realizada con base en una revisión sistemática de la evidencia y en la evaluación de los beneficios y daños de distintas opciones de la atención en salud.
+
+	- **Protocolo de Atención a Usuario (PAU):**
+
+	- **Manuales y Modelos de atención diferencial a Víctimas (MADV):**
 
 	- **Protocolo de Vigilancia Epidemiológica (PVE):** Documento en el que se establecen los conceptos, definiciones y procedimientos estandarizados que deben aplicar a cada una de las instancias.
 
 	- **Actos legislativos (AL):** Es una norma expedida por el Congreso de la República que tiene por objeto modificar, reformar, adicionar o derogar los textos constitucionales. Se espera que los investigadores o grupos de investigación desarrollen un insumo que sirve de sustentación y aprobación del acto legislativo.
-
+	  
 	- **Proyecto de Ley (RNPL):** Es una propuesta de legislación presentada ante el Senado de la República que contiene una exposición de motivos y que es el resultado del trabajo de investigación. 
 
 - **Consultorías científico-tecnológicas e informes técnicos finales:** Servicio profesional o método para presentar asesoramiento y ayuda práctica por un grupo de investigadores o expertos en las diversas disciplinas.
