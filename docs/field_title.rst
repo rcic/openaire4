@@ -62,8 +62,6 @@ Propiedad Título (title) (M, 1-n): Utilice el nombre del título como valor
 +-------------------------+--------------------------------------------------------------------+------------------------+
 | TranslatedTitle         | Título Traducido                                                   | datacite               |
 +-------------------------+--------------------------------------------------------------------+------------------------+
-| AnalyticalTitle         | Título del documento anfitrión (Aplica para documentos analíticos) | redcol                 |
-+-------------------------+--------------------------------------------------------------------+------------------------+
 | AbbreviatedTitle        | Título Abreviado                                                   | redcol                 |
 +-------------------------+--------------------------------------------------------------------+------------------------+
 | FormerTitle             | Título Anterior                                                    | redcol                 |
@@ -75,8 +73,9 @@ Propiedad Título (title) (M, 1-n): Utilice el nombre del título como valor
 Relaciones con otros campos
 ---------------------------
 
-- El título de una colección o serie se debe ingresar en el campo dc.relation.ispartofseries.
-- El título anterior de un recursos de información se debe ingresar en el campo dc.relation.isversionof.
+- El título de una colección o serie se debe ingresar en el campo dc.relation.ispartofseries
+- El título anterior de un recursos de información se debe ingresar en el campo dc.relation.isversionof
+- Título del documento anfitrión (Aplica para documentos analíticos), recomendado utilizar oaire:citationTitle
 
 Restricciones
 -------------
@@ -177,15 +176,13 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +----------------------------------------+-----------------------+-------------+--------------------------------------------------------------------+
 | Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Cualificar  | Nota de alcance                                                    |
 +========================================+=======================+=============+====================================================================+
-| Title                                  | dc.title              |             |                                                                    |
+| Title                                  | dc.title              |             | Título propiamente dicho                                           |
 +----------------------------------------+-----------------------+-------------+--------------------------------------------------------------------+
 | AlternativeTitle                       | dc.title              | alternative | Título Alternativo / Variantes del Título                          |
 +----------------------------------------+-----------------------+-------------+--------------------------------------------------------------------+
-| Subtitle                               | dc.title              |             | Integrado en el campo Título (No separar de DSPACE)                |
+| Subtitle                               | dc.title              |             | Integrado en el campo Título (Separar con el signo ":")            |
 +----------------------------------------+-----------------------+-------------+--------------------------------------------------------------------+
 | TranslatedTitle                        | dc.title              | translated  | Título Traducido                                                   |
-+----------------------------------------+-----------------------+-------------+--------------------------------------------------------------------+
-| AnalyticalTitle                        | dc.title              | analytical  | Título del documento anfitrión (Aplica para documentos analíticos) |
 +----------------------------------------+-----------------------+-------------+--------------------------------------------------------------------+
 | AbbreviatedTitle                       | dc.title              | abbreviated | Título Abreviado                                                   |
 +----------------------------------------+-----------------------+-------------+--------------------------------------------------------------------+
