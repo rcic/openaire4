@@ -154,7 +154,7 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 	<datacite:alternateIdentifier alternateIdentifierType="ISSN">1433-7851</datacite:alternateIdentifier>
 
 	<datacite:alternateIdentifier alternateIdentifierType="ISSN">1521-3773 electrónico</datacite:alternateIdentifier>
-<	/datacite:alternateIdentifiers>
+	</datacite:alternateIdentifiers>
 
 **Esquema xoai**
 
@@ -183,10 +183,10 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 .. code-block:: xml
    :linenos:
 
-    <dim:field mdschema="dc" element="identifier" qualifier="issn">1433-7851</dim:field>
-	<dim:field mdschema="dc" element="identifier" qualifier="issn">1521-3773 electrónico</dim:field>
-	<dim:field mdschema="dc" element="identifier" qualifier="uri">http://hdl.handle.net/10272/16239</dim:field>
-	<dim:field mdschema="dc" element="identifier" qualifier="doi">10.1002/anie.201601750</dim:field>
+    	<dim:field mdschema="dc" element="identifier" qualifier="issn">1433-7851</dim:field>
+		<dim:field mdschema="dc" element="identifier" qualifier="issn">1521-3773 electrónico</dim:field>
+		<dim:field mdschema="dc" element="identifier" qualifier="uri">http://hdl.handle.net/10272/16239</dim:field>
+		<dim:field mdschema="dc" element="identifier" qualifier="doi">10.1002/anie.201601750</dim:field>
 
 
 Niveles de aplicación para productos de investigación de Colciencias
@@ -208,8 +208,7 @@ El campo Identificador Alternativo **(datacite:alternateIdentifier)** es utiliza
 |                      | * dc.identifier.url                                               |
 |                      | * dc.identifier.other                                             |
 +----------------------+-------------------------------------------------------------------+
-| marcxml              | field: 024, 050, 052, 055, 061, 071, 072, 080, 082, 084, 086,     |
-|					   | 088,090,856													   |
+| marcxml              | field: 024,050,052,055,061,071,072,080,082,084,086,088,090,856    |
 +----------------------+-------------------------------------------------------------------+
 
 
