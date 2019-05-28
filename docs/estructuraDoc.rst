@@ -47,22 +47,40 @@ Para el análisis de cada uno de los campo de metadatos que son utilizados por e
 ..
 
 	- **Traducción al español (X.5):** Nombre del campo de metadato en idioma español. 
+	
+..
 
 	- **Forma de descripción normalizada (X.6):** Aquí se indica la forma correcta de la descripción del campo según la normatividad internacional aplicada. Ejemplo: RDA (Recursos : descripción y acceso) - RCAA2 (Reglas de Catalogación Angloamericanas 2).
+	  
+..
 
-	- **Propiedades, atributos y especificadores de campo (X.7):**  Este apartado muestra las diversos formas de representar los campos a partir de su especificidad y sus características sintácticas. 
+	- **Propiedades, atributos y especificadores de campo (X.7):**  Este apartado muestra las diversos formas de representar los campos a partir de su especificidad y sus características sintácticas.
+	  
+..
 
 	- **Relaciones con otros campos (X.81):** Aquí se describen otros campos relacionados con el tipo de contenido referenciado al describir el recurso
 
+..
+
 	- **Restricciones (X.9):** Información que no debe utilizarse en el campo.
+	  
+..
 
 	- **Ejemplos y ayudas (X.10):** Se describen ejemplos de la forma correcta para la descripción del campo, adicionalmente se muestran ayudas de despliegue de los archivos XML durante transacciones interoperabilidad (Protocolo OAI-PMH)
+	
+..
 
 	- **Niveles de aplicación para productos de investigación de Colciencias (X.11):** Se especifican recomendaciones de uso del campo de metadatos enfocado a los distintos que producto de investigación reconocidos por Colciencias (Tipologías Documentales).
 
-	- **Relaciones con otros modelos de metadatos (X.12):** Se relacionan otros esquemas (Modelos) de metadatos que apliquen. 
+..
+
+	- **Relaciones con otros modelos de metadatos (X.12):** Se relacionan otros esquemas (Modelos) de metadatos que apliquen.
+	  
+..
 
 	- **Niveles semánticos (X.13):** Permiten asignar significado a la información sobre los atributos, lenguajes controlados, vocabularios controlados y/o términos extraídos de tesauros que se apliquen al campo.
+
+..
 
 	- **Recomendación de campos de aplicación en DSPACE (X.14):** Se ofrece una recomendación general de normalización de esquemas de registro de metadatos, Campos/Elementos, Calificadores/Especificadores y Notas de alcance que deben ser configuradas en DSPACE con el fin de obtener campos normalizados en el despliegue y durante el proceso de cosecha (protocolo OAI-PMH) utilizando los distintos modelos de metadatos ofrecidos por DSPACE (uketd_dc, qdc, didl, mods, mets, ore, rdf, marc, oai_dc, xoai, dim, etdms, etc.) que permiten maximizar los procesos de validación sintáctica, semántica y estructural. 
 
