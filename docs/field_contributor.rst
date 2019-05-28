@@ -225,11 +225,11 @@ Entidad que identifica cada uno de los colaboradores del recurso.
 Relaciones con otros campos
 ---------------------------
 
-- No debe confundirse al **colaborador (dc.colaborator)** del recurso  con el autor del recurso **(dc.creator) incluidas sus especificadores de campo.**
-- No debe confundirse al **colaborador (dc.colaborator)** del recurso  con la entidad responsable de la **publicación (dc.publisher)** del mismo.
-- Cuando se trate de describir a una entidad que patrocina el desarrollo de un recurso de información  de debe utilizar el campo dc.contributor.sponsor y no los campos dc.description.sponsorship ó  dc.description.funder.
-- Cuando se describe al director de un trabajo de grado ó tesis de maestría ó doctorado se debe utilizar dc.contributor.advisor.
-La institución que dá el grado de un trabajo de grado ó tesis de maestría ó doctorado debe utilizarse degree.grantor.
+	- No debe confundirse al **colaborador (dc.contributor)** del recurso  con el autor del recurso **(dc.creator) incluidas sus especificadores de campo.**
+	- No debe confundirse al **colaborador (dc.contributor)** del recurso  con la entidad responsable de la **publicación (dc.publisher)** del mismo.
+	- Cuando se trate de describir a una entidad que patrocina el desarrollo de un recurso de información  de debe utilizar el campo dc.contributor.sponsor y no los campos dc.description.sponsorship ó  dc.description.funder.
+	- Cuando se describe al director de un trabajo de grado ó tesis de maestría ó doctorado se debe utilizar dc.contributor.advisor.
+	- Para identificar la institución que certifica el grado de un trabajo de grado ó tesis de maestría / doctorado debe utilizarse **thesis.degree.grantor.**
 
 
 Restricciones
@@ -291,6 +291,36 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 	</element>
 	</element>
 	</element>
+
+.. code-block:: xml
+   :linenos:
+
+    <element name="dc">
+      <element name="contributor">
+         <element name="author">
+            <element name="none">
+               <field name="value">Gasparini, Blaž</field>
+               <field name="authority">a863d05d988bdb56375ccf483f6c2ef3</field>
+               <field name="confidence">600</field>
+               <field name="orcid-id" />
+            </element>
+         </element>
+         <element name="supervisor">
+            <element name="none">
+               <field name="value">Lohmann, Ulrike</field>
+               <field name="authority">895d98a3537122db33165a6db6c0af61</field>
+               <field name="confidence">600</field>
+               <field name="orcid-id" />
+               <field name="value">Peter, Thomas</field>
+               <field name="authority">53688288a3c9335eefa0ddc6b1b85b0c</field>
+               <field name="confidence">600</field>
+               <field name="orcid-id" />
+               <field name="value">Leisner, Thomas</field>
+               <field name="authority">728336b61c3952148ab1b65bdc2a9202</field>
+               <field name="confidence">600</field>
+               <field name="orcid-id" />
+            </element>
+         </element>
 
 ..
 
@@ -434,12 +464,12 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 
 **Notas:**
 
-	- Con el fin de tener un alcance normalizado de las distintas propiedades y atributos (correos, afiliaciones, identificadores, etc..) asociadas a los autores, se recomienda utilizar la configuración de control de autoridades provista por DSPACE ó en su defecto incorporar características de sistema CRIS en DSPACE.
+	- Con el fin de tener un alcance normalizado de las distintas propiedades y atributos (correos, afiliaciones, identificadores, etc..) asociadas a los autores, se recomienda utilizar la configuración de control de autoridades provista por DSPACE ó en su defecto incorporar características de sistema CRIS en DSPACE, en específico activar la entidad CONTRIBUTOR.
 
 
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------------------
 
 	- En las distintas directrices que han existido, siempre ha sido obligatorio el uso del campo colaborador aunque no se hace explícito contemplar las diferencias de los distintos tipos y características de los autores.
-	- En el sistema DSPACE en su instalación por defecto el campo autor viene con los campos dc.contributor y dc.contributor.advisor 
+	- En el sistema DSPACE en su instalación por defecto el campo autor viene con los campos **dc.contributor y dc.contributor.advisor** 
 	- Se recomienda específicamente crear los nuevos atributos/especificadores del campo de autor según la codificación propuesta.
