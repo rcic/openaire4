@@ -182,11 +182,11 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 
 .. code-block:: xml
    :linenos:
-
-    	<dim:field mdschema="dc" element="identifier" qualifier="issn">1433-7851</dim:field>
-		<dim:field mdschema="dc" element="identifier" qualifier="issn">1521-3773 electrónico</dim:field>
-		<dim:field mdschema="dc" element="identifier" qualifier="uri">http://hdl.handle.net/10272/16239</dim:field>
-		<dim:field mdschema="dc" element="identifier" qualifier="doi">10.1002/anie.201601750</dim:field>
+	
+    <dim:field mdschema="dc" element="identifier" qualifier="issn">1433-7851</dim:field>
+	<dim:field mdschema="dc" element="identifier" qualifier="issn">1521-3773 electrónico</dim:field>
+	<dim:field mdschema="dc" element="identifier" qualifier="uri">http://hdl.handle.net/10272/16239</dim:field>
+	<dim:field mdschema="dc" element="identifier" qualifier="doi">10.1002/anie.201601750</dim:field>
 
 
 Niveles de aplicación para productos de investigación de Colciencias
