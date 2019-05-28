@@ -78,6 +78,7 @@ Campo-OpenAIRE                             Elemento Metadata                   R
    field_creator
    field_contributor
    field_projectid
+   field_resourceidentifier
    field_alternativeidentifier
    field_relatedidentifier
    field_embargoenddate
@@ -87,7 +88,6 @@ Campo-OpenAIRE                             Elemento Metadata                   R
    field_publicationtype
    field_description
    field_format
-   field_resourceidentifier
    field_accessrights
    field_source
    field_subject
