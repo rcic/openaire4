@@ -210,13 +210,13 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +----------------------------------------+-----------------------+---------------+-----------------+
 | Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores | Nota de alcance |
 +========================================+=======================+===============+=================+
-| Identificador Principal                | dc.identifier         | doi           |                 |
-|                                        |                       | local         |                 |
-|                                        |                       | isbn          |                 |
-|                                        |                       | issn          |                 |
-|                                        |                       | uri           |                 |
-|                                        |                       | url           |                 |
-|                                        |                       | other         |                 |
+| Identificador Principal                | dc.identifier         | * doi         |                 |
+|                                        |                       | * local       |                 |
+|                                        |                       | * isbn        |                 |
+|                                        |                       | * issn        |                 |
+|                                        |                       | * uri         |                 |
+|                                        |                       | * url         |                 |
+|                                        |                       | * other       |                 |
 +----------------------------------------+-----------------------+---------------+-----------------+
 
 **Nota:**
