@@ -7,7 +7,13 @@ Alternate Identifier (Identificador alternativo) (R)
 
 Definición y alcance del campo
 ------------------------------
-Es un código local, nacional o internacional que se le otorga al recurso, puede ser una cadena alfanumérica para identificar su ubicación o puede ser un código normalizado según el tipo de recurso. 
+Es un código local, nacional o internacional que se le otorga al recurso, puede ser una cadena alfanumérica para identificar su ubicación o puede ser un código normalizado según el tipo de recurso. Este  campo contiene un identificador que no corresponda con el identificador primario aplicado al recurso que se está registrando. Puede ser usado para registrar identificadores locales al recurso de información.
+
+- **Notas:**
+
+	- Esta campo debería ser utilizada para describir otros identificadores que permitan identificar unívocamente el recurso de información  (mismo registro, misma localización, mismo archivo).
+	- Este tipo de identificadores alternativos no necesariamente requieren que contengan un sistema de resolución asociado.
+
 
 Niveles de persistencia (M/MA/R/O)
 ------------------------------------
@@ -15,13 +21,14 @@ Recomendado (R)
 
 Niveles de ocurrencia (R / NR)
 -------------------------------
-Repetible (R): **1-n veces**
-Repita este campo para colocar  cada uno de los identificadores alternativos necesarios en **orden prioritario.**
+Repetible (R): **0-n veces**
+
+- Repita este campo para colocar  cada uno de los identificadores alternativos necesarios en **orden prioritario.**
 
 Esquema de metadatos
 --------------------
 datacite:alternateIdentifier
-**Nota:** Este campo se ha adaptado del esquema de metadatos DATACITE MetadataKernel versión 4.1 (http://doi.org/10.5438/0014), el cual es utilizado ampliamente para la gestión de documentos y datos. 
+**Nota:** Este campo se ha adaptado del esquema de metadatos DATACITE MetadataKernel versión 4.1 (http://doi.org/10.5438/0014), el cual es utilizado ampliamente para la gestión de documentos y datos.
 
 Traducción al español
 ---------------------
@@ -33,16 +40,15 @@ RDA (Recursos: descripción y acceso)
 
 Revise la forma adecuada para ingresar el identificador alternativo con su debida puntuación:
 
-- Para el ingreso de ISBN no incluya guiones (-).
-- Para el caso del PURL, coloque la URL completa.
-
+	- Para el ingreso de ISBN no incluya guiones (-).
+	- Para el caso del PURL, coloque la URL completa.
 
 Propiedades, atributos y especificadores de campo
 -------------------------------------------------
 
-**Propiedad del Identificador Alternativo (alternateIdentifier) (R, 0-1):** Esta propiedad permite especificar el valor del identificador alternativo que se le ha otorgado al recurso.
+- **Propiedad del Identificador Alternativo (alternateIdentifier) (R, 0-n):** Esta propiedad permite especificar el valor del identificador alternativo que se le ha otorgado al recurso.
 
-	**Atributo: Tipo de identificador alternativo (AlternateIdentifier) (M) (O, 0-1):** Este atributo permite especificar el tipo de identificador alternativo que se le ha otorgado al recurso. Se debe tener en cuenta los siguientes tipos de identificadores y su codificación normalizada según el vocabulario controlado propuesto:
+	- **Atributo: Tipo de identificador alternativo (alternateIdentifierType) (M si AlternateIdentifier es utilizado, 1):** Este atributo permite especificar el tipo de identificador alternativo que se le ha otorgado al recurso. Se debe tener en cuenta los siguientes tipos de identificadores y su codificación normalizada según el vocabulario controlado propuesto: 
 
 .. tabularcolumns:: |\Y{0.15}|\Y{0.7}|\Y{0.15}|
 
@@ -51,9 +57,9 @@ Propiedades, atributos y especificadores de campo
 +=========================+=================================================================================================================================================================================================================================================================================+========================+
 | ARK                     | Clave de recursos de archivo                                                                                                                                                                                                                                                    | datacite               |
 +-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+
-| arXiv                   | Identificador de https://arxiv.org/                                                                                                                                                                                                                                             | datacite               |
+| ARXIV                   | Identificador de https://arxiv.org/                                                                                                                                                                                                                                             | datacite               |
 +-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+
-| bibcode                 | Códigos bibliográficos del Sistema de Datos Astrofísicos; bibcodes se pueden resolver a través de http://adsabs.harvard.edu/abs/bibcode                                                                                                                                         | datacite               |
+| BIBCODE                 | Códigos bibliográficos del Sistema de Datos Astrofísicos; bibcodes se pueden resolver a través de http://adsabs.harvard.edu/abs/bibcode                                                                                                                                         | datacite               |
 +-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+
 | DOI                     | Identificador de Objeto Digital. Código alfanumérico que sirva para identificar de forma única un documento digital.                                                                                                                                                            | datacite               |
 +-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+
@@ -61,7 +67,7 @@ Propiedades, atributos y especificadores de campo
 +-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+
 | EISSN                   | Número internacional normalizado de publicaciones seriadas (versión electrónica), permite identificar de manera única una colección seriada evitando posibles errores en la transcripción del título o información bibliográfica.                                               | datacite               |
 +-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+
-| Handle                  | Es un identificador persistente, es decir, un sistema de especificación para nombres e identificación de servicios.                                                                                                                                                             | datacite               |
+| HANDLE                  | Es un identificador persistente, es decir, un sistema de especificación para nombres e identificación de servicios.                                                                                                                                                             | datacite               |
 +-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+
 | IGSN                    | Número de muestra internacional Geo; un código alfanumérico de 9 dígitos que identifica de forma exclusiva muestras de nuestro entorno natural y funciones de muestreo relacionadas.                                                                                            | datacite               |
 +-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+
@@ -106,12 +112,11 @@ Ejemplos y ayudas
 Ayudas
 ++++++
 
-- **Identificador Alternativo:** Identificador del recurso, puede ser una cadena alfanumérica que sea única dentro de su dominio o emisión. También pueden utilizarse identificadores locales.
-
-	- Ej: (ISBN): 9788490299029. La edición universitaria en el contexto de la ciencia abierta. 
-	- Ej: (PISSN): 0121-7550 (impreso). Revista Nómadas. 
-	- Ej: (PURL): http://purl.oclc.org/OCLC/
-	- Ej: (WOS): 000465252900002
+	- **Identificador Alternativo:** Identificador del recurso, puede ser una cadena alfanumérica que sea única dentro de su dominio o emisión. También pueden utilizarse identificadores locales.
+		- Ej: (ISBN): 9788490299029. La edición universitaria en el contexto de la ciencia abierta. 
+		- Ej: (PISSN): 0121-7550 (impreso). Revista Nómadas. 
+		- Ej: (PURL): http://purl.oclc.org/OCLC/
+		- Ej: (WOS): 000465252900002
 
 
 Ejemplo en XML (Interoperabilidad OAI-PMH)
@@ -122,24 +127,66 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 .. code-block:: xml
    :linenos:
 
+   	<dc:identifier>1433-7851</dc:identifier>
+	<dc:identifier>1521-3773 electrónico</dc:identifier>
+	<dc:identifier>http://hdl.handle.net/10272/16239</dc:identifier>
+	<dc:identifier>10.1002/anie.201601750</dc:identifier>
+	<dc:identifier>urn:issn:1668-3501</dc:identifier>
+
+
 **Esquema DataCite**
 
 .. code-block:: xml
    :linenos:
 
-   <datacite:alternateIdentifiers>
-      <datacite:alternateIdentifier alternateIdentifierType="URL">http://someUrl</datacite:alternateIdentifier>
-   </datacite:alternateIdentifiers>
+   	<datacite:alternateIdentifiers>
+   	<datacite:alternateIdentifier alternateIdentifierType="ISBN">978876543213</datacite:alternateIdentifier>
+	</datacite:alternateIdentifiers>
+
+.. code-block:: xml
+   :linenos:
+
+   	<datacite:alternateIdentifier identifierType="HANDLE">http://hdl.handle.net/10272/16239</datacite:alternateIdentifier>
+
+	<datacite:alternateIdentifiers>
+	<datacite:alternateIdentifier alternateIdentifierType="DOI">10.1002/anie.201601750</datacite:alternateIdentifier>
+
+	<datacite:alternateIdentifier alternateIdentifierType="ISSN">1433-7851</datacite:alternateIdentifier>
+
+	<datacite:alternateIdentifier alternateIdentifierType="ISSN">1521-3773 electrónico</datacite:alternateIdentifier>
+<	/datacite:alternateIdentifiers>
 
 **Esquema xoai**
 
 .. code-block:: xml
    :linenos:
 
-**Esquema xoai**
+   	<element name="identifier">
+	<element name="issn">
+	<element name="none">
+	<field name="value">1433-7851</field>
+	<field name="value">1521-3773 electrónico</field>
+	</element>
+	</element>
+	<element name="uri">
+	<element name="none">
+	<field name="value">http://hdl.handle.net/10272/16239</field>
+	</element>
+	</element>
+	<element name="doi">
+	<element name="none">
+	<field name="value">10.1002/anie.201601750</field>
+	</element>
+
+**Esquema dim**
 
 .. code-block:: xml
    :linenos:
+
+    <dim:field mdschema="dc" element="identifier" qualifier="issn">1433-7851</dim:field>
+	<dim:field mdschema="dc" element="identifier" qualifier="issn">1521-3773 electrónico</dim:field>
+	<dim:field mdschema="dc" element="identifier" qualifier="uri">http://hdl.handle.net/10272/16239</dim:field>
+	<dim:field mdschema="dc" element="identifier" qualifier="doi">10.1002/anie.201601750</dim:field>
 
 
 Niveles de aplicación para productos de investigación de Colciencias
@@ -148,7 +195,7 @@ Aplica para libros, revistas, artículos, documentos de trabajo, proyectos de in
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
-El campo Identificador Alternativo (datacite:alternateIdentifier) es utilizado por los siguientes esquemas de metadatos y puede intercambiarse su uso de manera indistinta mientras se conserven sus distintos niveles de atributos y especificadores de campo:
+El campo Identificador Alternativo **(datacite:alternateIdentifier)** es utilizado por los siguientes esquemas de metadatos y puede intercambiarse su uso de manera indistinta mientras se conserven sus distintos niveles de atributos y especificadores de campo:
 
 +----------------------+-------------------------------------------------------------------+
 | Esquema de Metadatos | Campo Relacionado                                                 |
@@ -161,36 +208,32 @@ El campo Identificador Alternativo (datacite:alternateIdentifier) es utilizado p
 |                      | * dc.identifier.url                                               |
 |                      | * dc.identifier.other                                             |
 +----------------------+-------------------------------------------------------------------+
-| marcxml              | field: 050, 052, 055, 061, 071, 072, 080, 082, 084, 086, 088, 090 |
+| marcxml              | field: 024, 050, 052, 055, 061, 071, 072, 080, 082, 084, 086,     |
+|					   | 088,090,856													   |
 +----------------------+-------------------------------------------------------------------+
 
 
 Niveles semánticos
 ------------------
 
-- Este campo contempla la utilización de distintos números internacionales estandarizados para la identificación de un recurso.
-
-- Cada registro presente en estos números internacionales estandarizados un Identificación persistente.
-
-Adicionalmente dichos sistemas proveen una URI única que debe ser enlazada y utilizada en el campo de metadatos asociado.
-
+	- Este campo contempla la utilización de distintos identificadores internacionales estandarizados para la identificación de un recurso.
+	- Cada registro presente en estos identificadores internacionales estandarizados es un identificador persistente.
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
 
-+----------------------------------------+-----------------------+------------+----------------------+
-| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Cualificar | Nota de alcance      |
-+========================================+=======================+============+======================+
-| Identificador Alternativo              | identifier            | * doi      | funderIdentifiertype |
-|                                        |                       | * local    |                      |
-|                                        |                       | * isbn     |                      |
-|                                        |                       | * issn     |                      |
-|                                        |                       | * uri      |                      |
-|                                        |                       | * url      |                      |
-|                                        |                       | * other    |                      |
-+----------------------------------------+-----------------------+------------+----------------------+
-
++----------------------------------------+-----------------------+----------------+----------------------+
+| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificardores | Nota de alcance      |
++========================================+=======================+================+======================+
+| Identificador Alternativo              | identifier            | * doi      	  | funderIdentifiertype |
+|                                        |                       | * local    	  |                      |
+|                                        |                       | * isbn     	  |                      |
+|                                        |                       | * issn     	  |                      |
+|                                        |                       | * uri      	  |                      |
+|                                        |                       | * url      	  |                      |
+|                                        |                       | * other    	  |                      |
++----------------------------------------+-----------------------+----------------+----------------------+
 
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------------------
