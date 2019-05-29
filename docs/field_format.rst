@@ -5,6 +5,7 @@ Format (Formato) (R)
 
 ``dc.format``
 
+
 Definición y alcance del campo
 ------------------------------
 Hace referencia a la manifestación física o digital del recurso, se puede incluir el medio del recurso. El formato es una guía para el usuario que le permite determinar el software o hardware necesario para operar el recurso. 
