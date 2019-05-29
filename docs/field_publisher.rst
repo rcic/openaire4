@@ -17,7 +17,11 @@ Obligatorio cuando sea aplicable (MA)
 
 Niveles de ocurrencia (R / NR)
 ------------------------------
-Repetible ( R)
+Repetible (R): **0-n veces**
+
+..
+
+Repita este campo para describir todas las entidades responsables de la creación del recurso en **orden prioritario** ó de presentación
 
 Esquema de metadatos
 --------------------
@@ -107,11 +111,11 @@ Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 Se recomienda crear en Dspace los siguientes campos:
 
-+----------------------------------------+-----------------------+------------+-----------------+
-| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Cualificar | Nota de alcance |
-+========================================+=======================+============+=================+
-| publisher                              | dc.publisher          |            |                 |
-+----------------------------------------+-----------------------+------------+-----------------+
++----------------------------------------+-----------------------+---------------+-----------------+
+| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores | Nota de alcance |
++========================================+=======================+===============+=================+
+| publisher                              | dc.publisher          |               |                 |
++----------------------------------------+-----------------------+---------------+-----------------+
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
