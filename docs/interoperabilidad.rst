@@ -17,6 +17,7 @@ Hay tres elementos claves que se deben tener en cuenta como parte importante del
 
 	- **Los protocolos para compartir los metadatos (y Contenidos) (Interoperabilidad Estructural):** Respecto a los protocolos para compartir los metadatos, básicamente todos los sistemas de información poseen interfaces nativas que están íntimamente ligados al uso del protocolo OAI-PMH v2 (Un  protocolo de intercambio de datos sobre el protocolo HTTP que tiene su origen en la ciudad de Nuevo México en el año de 1999 y cuya primera versión se hizo pública en enero de 2001). Sin embargo, pese a cumplir más de veinte años aún no se ha explotado todo su potencial de intercambio sobre formatos de metadatos siendo generalmente utilizado asociado al formato de metadatos más simple de todos (oai_dc), el cual solo permite compartir los quince (15) campos básicos asociados al estándar dublin core. Por fortuna, los principales sistemas de información para Repositorio y Bibliotecas Digitales (DSPACE, EPRINTS,  OJC, OMP, etc.), tienen incorporados múltiples formatos de intercambio de metadatos en su protocolo OAI-PMH brindando una mayor flexibilidad para evaluar el estado y calidad de los metadatos. Adicionalmente, se debe tener en cuenta que en los últimos años han surgido nuevos protocolos y componentes que pueden perfectamente reemplazar el uso del protocolo OAI-PMH, entre ellos tenemos ResourceSync y REST-FULL.  
 
+
 .. toctree::
    :numbered:
    :maxdepth: 1
