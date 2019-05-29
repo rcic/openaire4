@@ -25,8 +25,7 @@ Campo-OpenAIRE                             Elemento Metadata                   R
                                                                                | :ref:`resourcetype general <vocab:resourcetypegeneral_resourcetypegeneral>`
 :ref:`dci:dateEmbargo`                     datacite:date                       :ref:`date type <vocab:datetype_datetype>`
 :ref:`dc.language`                         dc.language                         `IETF BCP 47`_, `ISO 639-3`_
-:ref:`dc.publisher`                        dc.publisher            
-:ref:`dci:datePublication`                 datacite:date                       :ref:`date type <vocab:datetype_datetype>`
+:ref:`dc.publisher`                        dc.publisher
 :ref:`aire:resourceType`                   oaire:resourceType                  `COAR Resource Type Vocabulary`_
 :ref:`dc.description`                      dc.description
 :ref:`dc.format`                           dc.format                           :ref:`format type <vocab:formattype_formattype>`
@@ -84,7 +83,6 @@ Campo-OpenAIRE                             Elemento Metadata                   R
    field_embargoenddate
    field_language
    field_publisher
-   field_publicationdate
    field_publicationtype
    field_description
    field_format
