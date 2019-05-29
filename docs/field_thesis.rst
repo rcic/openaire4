@@ -1,7 +1,7 @@
 .. _thesis.degree:
 
-Tesis (MA)
-==========
+Tesis (Thesis, Monographic work) (MA)
+=====================================
 
 - ``thesis.degree.name``
 - ``thesis.degree.level``

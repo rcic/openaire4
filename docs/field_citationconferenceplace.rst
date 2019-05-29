@@ -1,7 +1,7 @@
 .. _aire:citationConferencePlace:
 
-Cita de lugar de conferencia (R)
-=================================
+Citation Conference Place (Citación de lugar de conferencia) (R)
+================================================================
 
 ``oaire:citationConferencePlace``
 

@@ -1,7 +1,7 @@
 .. _redcol.publisher.nationalprograms:
 
-Programas nacionales e iniciativas (MA)
-=======================================
+National Programs (Programas nacionales e iniciativas) (MA)
+===========================================================
 
 ``redcol.publisher.nationalprograms``
 

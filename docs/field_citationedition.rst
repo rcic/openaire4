@@ -1,7 +1,7 @@
 .. _aire:citationEdition:
 
-Cita de edición (R)
-===================
+Citation edition (Citación de edición) (R)
+==========================================
 
 ``oaire:citationEdition``
 

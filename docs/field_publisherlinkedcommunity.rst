@@ -1,7 +1,7 @@
 .. _redcol.publisher.linkedcommunity:
 
-Comunidad vinculada (MA)
-========================
+Community Vinculated (Comunidad vinculada) (MA)
+===============================================
 
 ``redcol.publisher.linkedcommunity``
 

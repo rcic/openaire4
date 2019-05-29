@@ -1,7 +1,7 @@
 .. _dc.source.event:
 
-Nombre del evento (MA)
-======================
+Event Name (Nombre del evento) (MA)
+===================================
 
 ``dc.source.event``
 

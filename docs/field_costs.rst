@@ -1,7 +1,7 @@
 .. _redcol.financingcosts:
 
-Costos de financiación (MA)
-===========================
+Project Costs (Costos de financiación) (MA)
+===========================================
 
 - ``redcol.financingcosts``
 - ``redcol.totalcost``
