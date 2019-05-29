@@ -7,7 +7,9 @@ Related Identifier (Identificador relacionado) (R)
 
 Definición y alcance del campo
 ------------------------------
-Es un identificador de un recurso relacionado que no es el Identificador primario del recurso que se está registrando.
+Este campo contiene uno o varios identificadores de recursos relacionados con el recursos que se está describiendo. Este campo no contiene el Identificador primario del recurso, ni identificadores alternativos del mismo.
+
+Este campo de identificador es utilizado conjuntamente con una propiedad de relación adjunta según corresponda. El uso de este campo es opcional pero recomendada.
 
 Niveles de persistencia (M/MA/R/O)
 ------------------------------------
@@ -15,8 +17,11 @@ Recomendado (R)
 
 Niveles de ocurrencia (R / NR )
 -------------------------------
-Repetible (R) **1-n veces**.
-Repita este campo para colocar cada uno de los identificadores relacionados necesarios en orden prioritario.
+Repetible (R) **0-n veces.**
+
+..
+
+Repita este campo para colocar cada uno de los identificadores relacionados necesarios.
 
 Esquema de metadatos
 --------------------
@@ -30,21 +35,21 @@ Identificador relacionado
 
 Forma de Descripción Normalizada (RDA / RCAA2 / ISBD)
 -----------------------------------------------------
-RDA (Recursos: descripción y acceso).
+RDA (Recursos: descripción y acceso)
 
-Revise la forma adecuada para ingresar el identificador relacionado con su debida puntuación:
+..
 
-	- Para el ingreso de ISBN no incluya guiones (-).
-	- Para el caso del PURL, coloque la URL completa.
+Revise la forma adecuada para ingresar el identificador relacionado con su debida puntuación según el esquema de identificación utilizado.
+
 
 Propiedades, atributos y especificadores de campo
 -------------------------------------------------
  
-Propiedad del Identificador Relacionado (relatedIdentifier) (R, 0-1): 
+Propiedad del Identificador Relacionado (relatedIdentifier) (R, 0-n): 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Esta propiedad permite especificar el valor del identificador relacionado que se le ha otorgado al recurso.
 
-	- **Atributo: Tipo de identificador relacionado (relatedIdentifier) (M) (O, 0-1):** Este atributo permite especificar el tipo de identificador relacionado que se le ha otorgado al recurso. Se debe tener en cuenta los siguientes tipos de identificadores y su codificación normalizada según el vocabulario controlado propuesto: 
+	- **Atributo:** Tipo de identificador relacionado (relatedIdentifierType)  (M, 1 si la propiedad RelatedIdentifier es utilizada): Este atributo permite especificar el tipo de identificador relacionado al recurso. Se debe tener en cuenta los siguientes tipos de identificadores y su codificación normalizada según el vocabulario controlado propuesto: 
 
 	+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+
 	| Vocabulario Normalizado | Descripción del Atributo                                                                                                                                                                                                                                                        | Dominio de Vocabulario |
