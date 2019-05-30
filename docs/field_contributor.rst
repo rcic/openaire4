@@ -160,7 +160,9 @@ Entidad que identifica cada uno de los colaboradores del recurso.
 - **Sub-Propiedad: Nombre Completo del Colaborador (contributorName) (M, 1):** Esta propiedad incluye el texto asociado al colaborador del recurso que debe ser descrito en cualquiera de los formas de descripción propuestas para el campo authorName.
 
 	- **Atributo: Tipo de Colaborador (nameType) (O, 0-1):** Este atributo permite especificar el tipo de colaborador que se describe en el campo de metadatos. Se debe tener en cuenta los siguientes tipos de colaboradores y su codificación normalizada según el vocabulario controlado propuesto:
-	
+
+..
+
 	+-------------------------+----------------------------+------------------------+
 	| Vocabulario Normalizado | Descripción del Atributo   | Dominio de Vocabulario |
 	+=========================+============================+========================+
@@ -172,7 +174,9 @@ Entidad que identifica cada uno de los colaboradores del recurso.
 	+-------------------------+----------------------------+------------------------+
 	| Service                 | Servicio                   | redcol                 |
 	+-------------------------+----------------------------+------------------------+
-  
+
+..
+
 	- **Sub-Propiedad: Nombres (givenName) (O, 0-1):** Esta propiedad de uso opcional, incluye el texto asociado exclusivamente a los nombres (primer y segundo nombres) del colaborador cuando este se trate de una persona.
 
 	- **Sub-Propiedad: Apellidos (familyName) (O, 0-1):** Esta propiedad de uso opcional, incluye el texto asociado exclusivamente a los apellidos (primer y segundo apellidos) del colaborador cuando este se trate de una persona. 
@@ -379,6 +383,8 @@ Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
 
+..
+
 +----------------------------------------+-----------------------+-----------------------+-----------------+
 | Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Cualificar            | Nota de alcance |
 +========================================+=======================+=======================+=================+
@@ -468,6 +474,8 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +----------------------------------------+-----------------------+-----------------------+-----------------+
 | Other                                  | dc.contributor        | other                 |                 |
 +----------------------------------------+-----------------------+-----------------------+-----------------+
+
+..
 
 **Notas:**
 
