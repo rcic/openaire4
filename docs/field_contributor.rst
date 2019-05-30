@@ -213,13 +213,13 @@ Entidad que identifica cada uno de los colaboradores del recurso.
 	| SCHOLAR                                        | Google Scholar Profile ID                          | https://scholar.google.com                        |
 	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
 	| OTHERS                                         | Incluye:                                           |					                                  |
-	|												 |	* Facebook										  |					                                  |
-	|												 |	* Twitter                                         |					                                  |
-	|												 |	* Mendeley                                        |					                                  |
-	|												 |	* LinkedIn                                        |					                                  |
-	|												 |	* BNE                                             |					                                  |
-	|												 |	* BNC                                             |					                                  |
-	|												 |	* ResearchGate	                                  |					                                  |
+	|												 | - Facebook										  |					                                  |
+	|												 | - Twitter                                          |					                                  |
+	|												 | - Mendeley                                         |					                                  |
+	|												 | - LinkedIn                                         |					                                  |
+	|												 | - BNE                                              |					                                  |
+	|												 | - BNC                                              |					                                  |
+	|												 | - ResearchGate	                                  |					                                  |
 	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
 
 
