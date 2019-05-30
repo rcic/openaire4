@@ -449,6 +449,7 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 .. image:: _static/doi2.jpg
    :scale: 80%
 
+..
    			
    		- **Para especificar** recursos relacionados a través de texto libre utilice el campo dc.relation
    		
