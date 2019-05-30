@@ -336,8 +336,8 @@ Se aplica a todos los productos de Colciencias.
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
-El campo **Colaborador (datacite:contributor)** es utilizado por los siguientes esquemas de metadatos y puede intercambiarse su uso de manera indistinta mientras se conserven sus distintos niveles de atributos y especificadores de campo:
 
+El campo **Colaborador (datacite:contributor)** es utilizado por los siguientes esquemas de metadatos y puede intercambiarse su uso de manera indistinta mientras se conserven sus distintos niveles de atributos y especificadores de campo:
 
 +----------------------+-----------------------------------+
 | Esquema de Metadatos | Campo Relacionado                 |
@@ -354,7 +354,6 @@ El campo **Colaborador (datacite:contributor)** es utilizado por los siguientes 
 +----------------------+-----------------------------------+
 | marcxml              | field:700,710,711                 |
 +----------------------+-----------------------------------+
-
 
 Niveles semánticos
 ------------------
