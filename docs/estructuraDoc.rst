@@ -12,6 +12,7 @@ Para el análisis de cada uno de los campo de metadatos que son utilizados por e
 	- **Cardinalidad de Metadatos:** Se especifican propiedades de presencia y ocurrencia de cada campo de metadatos
 
 	- **Niveles de persistencia (X.2):** Son las propiedades de existencia de los metadatos definidas así:
+
 		- **Obligatorio = Mandatory (M):** La propiedad siempre debe estar presente en los metadatos. No se permite un valor vacío para la propiedad.
 		- **Obligatorio si es aplicable = Mandatory if Applicable (MA):** Cuando se puede obtener el valor de la propiedad, debe estar presente en los metadatos.
 		- **Recomendado = Recommended (R):** Aunque su uso no es obligatorio, Se recomienda el uso de la propiedad.
@@ -84,7 +85,11 @@ Para el análisis de cada uno de los campo de metadatos que son utilizados por e
 
 	- **Recomendación de campos de aplicación en DSPACE (X.14):** Se ofrece una recomendación general de normalización de esquemas de registro de metadatos, Campos/Elementos, Calificadores/Especificadores y Notas de alcance que deben ser configuradas en DSPACE con el fin de obtener campos normalizados en el despliegue y durante el proceso de cosecha (protocolo OAI-PMH) utilizando los distintos modelos de metadatos ofrecidos por DSPACE (uketd_dc, qdc, didl, mods, mets, ore, rdf, marc, oai_dc, xoai, dim, etdms, etc.) que permiten maximizar los procesos de validación sintáctica, semántica y estructural. 
 
+..
+
 .. image:: _static/dspace.png
-  :scale: 80%
+   :scale: 80%
+
+..
 
 	- **Recomendaciones de migración de otras directrices de metadatos (X.15):** Información que se debe tener en cuenta al momento de migrar modelos y esquemas de metadatos anteriores como: BDCOL, SNAAC, LA REFERENCIA, DRIVER, OPENAIRE 2.0, OPENAIRE 3.0.

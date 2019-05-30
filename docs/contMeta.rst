@@ -3,7 +3,7 @@
 Contenido de metadatos
 ======================
 
-Para la construcción de servicios y productos de información digital, la Red Colombiana de Información Científica, llevará a cabo el proceso de recolección de registros de metadatos presentes en los distintos sistemas de información institucionales (Repositorios / Bibliotecas Digitales, Sistema de Publicación) que albergan información científica y que cumplan con las directrices de metadatos expuestas en este documento. 
+Para la construcción de servicios y productos de información digital, la Red Colombiana de Información Científica, llevará a cabo el proceso de **recolección de registros de metadatos** presentes en los distintos sistemas de información institucionales (Repositorios / Bibliotecas Digitales, Sistema de Publicación) que albergan información científica y que cumplan con las directrices de metadatos expuestas en este documento. 
 
 Para realizar un proceso de recolección de metadatos exitoso, se debe tener en cuenta las siguientes indicaciones:
 
