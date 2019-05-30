@@ -332,21 +332,25 @@ Relaciones con otros modelos de metadatos
 
 El campo **Colaborador (datacite:contributor)** es utilizado por los siguientes esquemas de metadatos y puede intercambiarse su uso de manera indistinta mientras se conserven sus distintos niveles de atributos y especificadores de campo:
 
-+----------------------+-------------------------------------+
-| Esquema de Metadatos | Campo Relacionado                	 |
-+======================+=====================================+
-| dc                   | dc.contributor                   	 |
-|                      | dc.contributor.advisor           	 |
-|                      | dc.contributor.editor, etc.      	 |
-+----------------------+-------------------------------------+
-| dcterms              | dcterms.contributor              	 |
-|                      | dcterms.contributor.advisor      	 |
-|                      | dcterms.contributor.editor, etc. 	 |
-+----------------------+-------------------------------------+
-| lom                  | lom.lifecycle.contribute         	 |
-+----------------------+-------------------------------------+
-| marcxml              | field:700,710,711                	 |
-+----------------------+-------------------------------------+
++----------------------+------------------------------------+
+| Esquema de Metadatos | Campo Relacionado                  |
++======================+====================================+
+| dc                   | * dc.contributor                   |
++----------------------+------------------------------------+
+| dc                   | * dc.contributor.advisor           |
++----------------------+------------------------------------+
+| dc                   | * dc.contributor.editor, etc.      |
++----------------------+------------------------------------+
+| dcterms              | * dcterms.contributor              |
++----------------------+------------------------------------+
+| dcterms              | * dcterms.contributor.advisor      |
++----------------------+------------------------------------+
+| dcterms              | * dcterms.contributor.editor, etc. |
++----------------------+------------------------------------+
+| lom                  | lom.lifecycle.contribute           |
++----------------------+------------------------------------+
+| marcxml              | field:700,710,711                  |
++----------------------+------------------------------------+
 
 	+----------------------+-------------------------------------+
 	| Esquema de Metadatos | Campo Relacionado                   |
