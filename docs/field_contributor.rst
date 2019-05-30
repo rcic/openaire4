@@ -184,8 +184,6 @@ Entidad que identifica cada uno de los colaboradores del recurso.
 	- **Sub-Propiedad: Afiliación institucional (affiliation) (O, 0-n):** Esta propiedad de uso opcional, incluye el texto asociado a las distintas afiliación institucionales a las que pertenece el colaborador. 
 
 	- **Sub-Propiedad: Identificador de Nombre (nameIdentifier) (O, 0-n):** Esta propiedad de uso opcional, incluye el texto asociado que permite identificar de manera unívoca un colaborador como persona natural o corporativa a partir del uso de diversos esquemas de identificación. El formato de texto asociado depende de cada esquema de identificación utilizado. Se debe tener en cuenta los siguientes tipos de identificadores existentes y su codificación normalizada en los atributos de esta propiedad (nameIdentifierScheme),  según el vocabulario controlado propuesto (Uso Opcional):
-	
-|
 
 	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
 	| Vocabulario Normalizado (nameIdentifierScheme) | Descripción del Elemento                           | Esquema de Dominio del Vocabulario (schemeURI)    |
@@ -214,7 +212,7 @@ Entidad que identifica cada uno de los colaboradores del recurso.
 	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
 	| SCHOLAR                                        | Google Scholar Profile ID                          | https://scholar.google.com                        |
 	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
-	| OTHERS                                         | Incluye:                                           |					                                  |                 
+	| OTHERS                                         | Incluye:                                           |					                                  |
 	|												 |	* Facebook										  |					                                  |
 	|												 |	* Twitter                                         |					                                  |
 	|												 |	* Mendeley                                        |					                                  |
@@ -224,7 +222,6 @@ Entidad que identifica cada uno de los colaboradores del recurso.
 	|												 |	* ResearchGate	                                  |					                                  |
 	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
 
-|
 
 	- **Atributo Nombre del esquema del identificador (nameIdentifierScheme) (M, 1, si es utilizada la propiedad nameIdentifier):** Este atributo permite especificar el nombre del esquema identificador utilizado para describir al colaborador en el campo de metadatos. Se debe tener en cuenta el vocabulario controlado propuesto en la propiedad nameIdentifier.
 
@@ -341,7 +338,6 @@ Relaciones con otros modelos de metadatos
 -----------------------------------------
 El campo **Colaborador (datacite:contributor)** es utilizado por los siguientes esquemas de metadatos y puede intercambiarse su uso de manera indistinta mientras se conserven sus distintos niveles de atributos y especificadores de campo:
 
-|
 
 +----------------------+-----------------------------------+
 | Esquema de Metadatos | Campo Relacionado                 |
@@ -359,7 +355,6 @@ El campo **Colaborador (datacite:contributor)** es utilizado por los siguientes 
 | marcxml              | field:700,710,711                 |
 +----------------------+-----------------------------------+
 
-|
 
 Niveles semánticos
 ------------------
