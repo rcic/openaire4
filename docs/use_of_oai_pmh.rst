@@ -40,7 +40,7 @@ Los productos de investigación reconocidos en cada tipo según el modelo de med
 
 		- **Nueva raza animal (VA):** La nueva raza animal se reconoce como la escala más baja de la clasificación taxonómica y hace referencia a todo aquel que tenga incorporado en el genoma de sus células germinativas o somáticas.
 
-		- **Poblaciones mejoradas de razas pecuarias (VA):** Grupo de animales de la misma especie, que expresan un mayor desempeño en una o varias características con respecto a la población de origen.
+		- **Poblaciones mejoradas de razas pecuarias (VA_B):** Grupo de animales de la misma especie, que expresan un mayor desempeño en una o varias características con respecto a la población de origen.
 
 	- **Productos resultados de la creación o investigación - creación en artes, arquitectura y diseño (AAD):** Obras, diseños y procesos de nuevo conocimiento, provenientes de la creación en artes, arquitectura y diseño resultantes de procesos de creación.
 
