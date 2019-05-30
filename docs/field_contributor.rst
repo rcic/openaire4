@@ -358,9 +358,13 @@ El campo **Colaborador (datacite:contributor)** es utilizado por los siguientes 
 +----------------------+----------------------------------+
 | Esquema de Metadatos | Campo Relacionado                |
 +======================+==================================+
-| dc                   | dc.contributor.editor, etc.      |
+| dc                   | * dc.contributor                 |
+|					   | * dc.contributor.advisor		  |
+|					   | * dc.contributor.editor, etc.    |
 +----------------------+----------------------------------+
-| dcterms              | dcterms.contributor.editor, etc. |
+| dcterms              |* dcterms.contributor             |
+|					   |* dcterms.contributor.advisor     |
+|					   |* dcterms.contributor.editor, etc.|
 +----------------------+----------------------------------+
 | lom                  | lom.lifecycle.contribute         |
 +----------------------+----------------------------------+
