@@ -214,43 +214,6 @@ Entidad que identifica cada uno de los colaboradores del recurso.
 | OTHERS                                         | Incluye: Facebook, Twitter, Mendeley, LinkedIn, BNE, BNC, ResearchGate. |                                                   |
 +------------------------------------------------+-------------------------------------------------------------------------+---------------------------------------------------+
 
-	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
-	| Vocabulario Normalizado (nameIdentifierScheme) | Descripción del Elemento                           | Esquema de Dominio del Vocabulario (schemeURI)    |
-	+================================================+====================================================+===================================================+
-	| EMAIL                                          | Dirección principal de correo electrónico          | https://schema.org/email                          |
-	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
-	| ORCID                                          | Open Researcher and Contributor ID                 | https://orcid.org                                 |
-	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
-	| ISNI                                           | International Standard Name Identifier (ISO 27729) | http://www.isni.org/                              |
-	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
-	| PUBLONS                                        | Clarivate Analytics Publons ID                     | https://publons.com                               |
-	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
-	| RESEARCHID                                     | Web of Science ResearcherID                        | https://www.researcherid.com                      |
-	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
-	| SCOPUS                                         | Author ID SCOPUS                                   | https://www.scopus.com/freelookup/form/author.uri |
-	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
-	| IRALISID                                       | IRA-LIS                                            | https://www.iralis.org/                           |
-	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
-	| VIAF                                           | Virtual International Authority File               | https://viaf.org/                                 |
-	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
-	| LCNAF                                          | Library of Congress authority ID                   | http://id.loc.gov/authorities/names.html          |
-	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
-	| OCLC                                           | OCLC FAST Authority File                           | http://experimental.worldcat.org/fast/            |
-	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
-	| WIKIDATA                                       | Wikidata databse                                   | https://www.wikidata.org                          |
-	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
-	| SCHOLAR                                        | Google Scholar Profile ID                          | https://scholar.google.com                        |
-	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
-	| OTHERS                                         | Incluye:                                           |					                                  |
-	|												 | - Facebook										  |					                                  |
-	|												 | - Twitter                                          |					                                  |
-	|												 | - Mendeley                                         |					                                  |
-	|												 | - LinkedIn                                         |					                                  |
-	|												 | - BNE                                              |					                                  |
-	|												 | - BNC                                              |					                                  |
-	|												 | - ResearchGate	                                  |					                                  |
-	+------------------------------------------------+----------------------------------------------------+---------------------------------------------------+
-
 ..
 
 	- **Atributo Nombre del esquema del identificador (nameIdentifierScheme) (M, 1, si es utilizada la propiedad nameIdentifier):** Este atributo permite especificar el nombre del esquema identificador utilizado para describir al colaborador en el campo de metadatos. Se debe tener en cuenta el vocabulario controlado propuesto en la propiedad nameIdentifier.
