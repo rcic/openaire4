@@ -82,8 +82,6 @@ Clase Principal Fechas (dates) (M, 1):
 Entidad que agrupa todas las fechas relacionadas con el recurso durante su ciclo de vida.
 
 	- **Sub-Propiedad: Fecha (date) (M, 1-n):** Entidad que identifica cada uno de las fechas relacionadas con el recurso durante su ciclo de vida.
-	  
-		- **Atributo: Tipo de Fecha (dateType) (M, 1):**  En el tipo de fecha elija del vocabulario de tipo de fecha y utilice el término controlado para indicar el tipo de fecha asociado al recurso según el vocabulario propuesto:
 		  
 		- **Atributo: Tipo de Fecha (dateType) (M, 1):**  En el tipo de fecha elija del vocabulario de :ref:`tipo de fecha <vocab:datetype_datetype>` y utilice el término controlado para indicar el tipo de fecha asociado al recurso según el vocabulario propuesto:
 
@@ -195,6 +193,23 @@ Se aplica a todos los productos de Colciencias.
 Relaciones con otros modelos de metadatos
 -----------------------------------------
 El campo Fecha de publicación **(datacite:date)** es utilizado por los siguientes esquemas de metadatos y puede intercambiarse su uso de manera indistinta mientras se conserven sus distintos niveles de atributos y especificadores de campo:
+
+..
+
++----------------------+------------------------------------------------+
+| Esquema de Metadatos | Campo Relacionado                              |
++======================+================================================+
+| dc                   | * dc.date                                      |
+|                      | * dc.date.issued                               |
++----------------------+------------------------------------------------+
+| dcterms              | dcterms.date                                   |
++----------------------+------------------------------------------------+
+| lom                  | lom.meta-metadatos.date                        |
++----------------------+------------------------------------------------+
+| marcxml              | field:008 (00-05,06,07-10,11-14) 046, 260, 264 |
++----------------------+------------------------------------------------+
+
+..
 
 +----------------------+------------------------------------------------+
 | Esquema de Metadatos | Campo Relacionado                              |
