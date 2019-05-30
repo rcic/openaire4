@@ -344,7 +344,7 @@ El campo **Colaborador (datacite:contributor)** es utilizado por los siguientes 
 +======================+===================================+
 | dc                   | * dc.contributor                  |
 |		         	   | * dc.contributor.advisor          |
-|  					   | * dc.contributor.editor, etc..    |
+|  					   | * dc.contributor.editor, etc.     |
 +----------------------+-----------------------------------+
 | dcterms              |* dcterms.contributor              |
 |                      |* dcterms.contributor.advisor      |
@@ -354,6 +354,18 @@ El campo **Colaborador (datacite:contributor)** es utilizado por los siguientes 
 +----------------------+-----------------------------------+
 | marcxml              | field:700,710,711                 |
 +----------------------+-----------------------------------+
+
++----------------------+----------------------------------+
+| Esquema de Metadatos | Campo Relacionado                |
++======================+==================================+
+| dc                   | dc.contributor.editor, etc.      |
++----------------------+----------------------------------+
+| dcterms              | dcterms.contributor.editor, etc. |
++----------------------+----------------------------------+
+| lom                  | lom.lifecycle.contribute         |
++----------------------+----------------------------------+
+| marcxml              | field:700,710,711                |
++----------------------+----------------------------------+
 
 Niveles semánticos
 ------------------
