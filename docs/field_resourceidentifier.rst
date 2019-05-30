@@ -183,19 +183,19 @@ Relaciones con otros modelos de metadatos
 -----------------------------------------
 El campo Identificador Primario **(datacite:Identifier)** es utilizado por los siguientes esquemas de metadatos y puede intercambiarse su uso de manera indistinta mientras se conserven sus distintos niveles de atributos y especificadores de campo:
 
-+----------------------+------------------------+
-| Esquema de Metadatos | Campo Relacionado      |
-+======================+========================+
-| dc                   | dc.identifier.doi      |
-|                      | dc.identifier.uri      |
-|                      | dc.identifier.url      |
-+----------------------+------------------------+
-| dcterms              | dcterms.identifier.doi |
-|                      | dcterms.identifier.uri |
-|                      | dcterms.identifier.url |
-+----------------------+------------------------+
-| marcxml              | field: 024, 856        |
-+----------------------+------------------------+
++----------------------+---------------------------+
+| Esquema de Metadatos | Campo Relacionado         |
++======================+===========================+
+| dc                   | * dc.identifier.doi       |
+|                      | * dc.identifier.uri       |
+|                      | * dc.identifier.url       |
++----------------------+---------------------------+
+| dcterms              | * dcterms.identifier.doi  |
+|                      | * dcterms.identifier.uri  |
+|                      | * dcterms.identifier.url  |
++----------------------+---------------------------+
+| marcxml              | field: 024, 856           |
++----------------------+---------------------------+
 
 Niveles semánticos
 ------------------
