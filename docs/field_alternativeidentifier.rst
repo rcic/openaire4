@@ -28,6 +28,9 @@ Repetible (R): **0-n veces**
 Esquema de metadatos
 --------------------
 datacite:alternateIdentifier
+
+..
+
 **Nota:** Este campo se ha adaptado del esquema de metadatos DATACITE MetadataKernel versión 4.1 (http://doi.org/10.5438/0014), el cual es utilizado ampliamente para la gestión de documentos y datos.
 
 Traducción al español

@@ -311,6 +311,29 @@ El campo Identificador Relacionado (datacite:relatedIdentifier) es utilizado por
 | dc                   | dc.relation                                                       |
 +----------------------+-------------------------------------------------------------------+
 | dcterms              | * dcterms.conformsTo                                              |
+|                      | * dcterms.hasFormat                                               |
+|                      | * dcterms.hasPart                                                 |
+|                      | * dcterms.hasVersion                                              |
+|                      | * dcterms.isFormatOf                                              |
+|                      | * dcterms.isPartOf                                                |
+|                      | * dcterms.isReferencedBy                                          |
+|                      | * dcterms.isReplacedBy                                            |
+|                      | * dcterms.isRequiredBy                                            |
+|                      | * dcterms.isVersionOf                                             |
+|                      | * dcterms.references                                              |
+|                      | * dcterms.replaces                                                |
+|                      | * dcterms.requires                                                |
++----------------------+-------------------------------------------------------------------+
+| marcxml              | field: 050, 052, 055, 061, 071, 072, 080, 082, 084, 086, 088, 090 |
++----------------------+-------------------------------------------------------------------+
+
+
++----------------------+-------------------------------------------------------------------+
+| Esquema de Metadatos | Campo Relacionado                                                 |
++======================+===================================================================+
+| dc                   | dc.relation                                                       |
++----------------------+-------------------------------------------------------------------+
+| dcterms              | * dcterms.conformsTo                                              |
 |					   | * dcterms.hasFormat											   |
 |					   | * dcterms.hasPart												   |
 |					   | * dcterms.hasVersion											   |
