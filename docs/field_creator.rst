@@ -178,9 +178,11 @@ Ayudas
   - Ej (FACEBOOK): https://www.facebook.com/jose.a.frias
   - Ej (TWITTER): https://twitter.com/jafrimon
 
-- **Autor Corporativo:** Entidad o Institución responsable del contenido del objeto. 
-  - Ej: Colombia. Departamento Administrativo de Ciencia, Tecnología e Innovación - COLCIENCIAS. 
-  - Ej: MetaBiblioteca SAS
+- **Autor Corporativo:** Entidad o Institución responsable del contenido del objeto.
+
+  - Ej: Colombia. Departamento Administrativo de Ciencia, Tecnología e Innovación - COLCIENCIAS.
+* 
+  - Ej: MetaBibliotea SAS
 
 Ejemplo en XML (Interoperabilidad OAI-PMH)
 ++++++++++++++++++++++++++++++++++++++++++
@@ -275,20 +277,20 @@ Recomendación de campos de aplicación en DSPACE
 
 Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
 
-+----------------------------------------+-----------------------+----------------+-----------------------+
-| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Cualificar     | Nota de alcance       |
-+========================================+=======================+================+=======================+
-| Organizational                         | dc.contributor        | corporatename  | corporate (MODS)      |
-|                                        |                       |                | corpauthor (MARC)     | 
-|                                        |                       |                | CorporateName (MADS)  | 
-+----------------------------------------+-----------------------+----------------+-----------------------+
-| Personal                               | dc.contributor        | author         | PersonalName (MADS)   |
-|                                        |                       |                | personalname (MARC)   |
-+----------------------------------------+-----------------------+----------------+-----------------------+
-| Event                                  | dc.contributor        | conferencename | meetingname (MARC)    |
-|                                        |                       |                | conference (MODS)     |
-|                                        |                       |                | ConferenceName (MADS) |  
-+----------------------------------------+-----------------------+----------------+-----------------------+
++----------------------------------------+-----------------------+----------------+------------------------+
+| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Cualificar     | Nota de alcance        |
++========================================+=======================+================+========================+
+| Organizational                         | dc.contributor        | corporatename  | * corporate (MODS)     |
+|                                        |                       |                | * corpauthor (MARC)    | 
+|                                        |                       |                | * CorporateName (MADS) | 
++----------------------------------------+-----------------------+----------------+------------------------+
+| Personal                               | dc.contributor        | author         | * PersonalName (MADS)  |
+|                                        |                       |                | * personalname (MARC)  |
++----------------------------------------+-----------------------+----------------+------------------------+
+| Event                                  | dc.contributor        | conferencename | * meetingname (MARC)   |
+|                                        |                       |                | * conference (MODS)    |
+|                                        |                       |                | * ConferenceName (MADS)|  
++----------------------------------------+-----------------------+----------------+------------------------+
 
 NOTAS:
 
