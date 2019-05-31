@@ -199,9 +199,11 @@ Niveles de aplicación para productos de investigación de Colciencias
 --------------------------------------------------------------------
 REDCOL ha desarrollado el siguiente vocabulario controlado acorde con los productos de investigación reconocidos y avalados por Colciencias y que se ciñe a los modelos semánticos provistos por DATACITE y OPENAIRE.  
 
-Los sistemas de información deben utilizar estos nuevos elementos para describir tipologías documentales que no se encuentran descritas en el Vocabulario normalizado de Tipos Documentales OPENAIRE-COAR. En este contexto, para describir estos tipos documentales asociados a los productos específicos de Colciencias,  para el campo anterior  se debe utilizar  el valor “other - http://purl.org/coar/resource_type/c_1843”  y posteriromente seleccionar el tipo documental específico que se muestra a continuación:Colciencias.
+Los sistemas de información deben utilizar estos nuevos elementos para describir tipologías documentales que no se encuentran descritas en el **Vocabulario normalizado de Tipos Documentales OPENAIRE-COAR.** En este contexto, para describir estos tipos documentales asociados a los productos específicos de Colciencias,  para el campo anterior  se debe utilizar  el valor “other - http://purl.org/coar/resource_type/c_1843”  y posteriromente seleccionar el tipo documental específico que se muestra a continuación:Colciencias.
 
 - Productos resultados de actividades de generación de nuevo conocimiento:
+
+..
 
 +---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
 | Tipo Documental Específico Colciencias                        | Notas                                                                                                                              | Valor Autorizado                                                                                  |
@@ -229,7 +231,7 @@ Los sistemas de información deben utilizar estos nuevos elementos para describi
 | Obras o Productos de creación en artes, arquitectura y diseño |                                                                                                                                   | https://purl.org/redcol/resource_type/AAD                                                         |
 +---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
 
-
+..
 
 - Productos resultados de actividades de desarrollo tecnológico e innovación.
 
