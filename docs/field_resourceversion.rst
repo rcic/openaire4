@@ -71,15 +71,10 @@ Ejemplos
 .. code-block:: xml
    :linenos:
 
-
 .. code-block:: xml
    :linenos:
 
    <oaire:version>1.0.3</oaire:version>
-
-.. code-block:: xml
-   :linenos:
-
    <oaire:version uri="http://purl.org/coar/version/c_be7fb7dd8ff6fe43">AM</oaire:version>
 
 
