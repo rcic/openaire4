@@ -35,9 +35,11 @@ Revise la forma adecuada para ingresar la descripción del recurso:
 
 - **dc.description:** Descripción general del recurso.
 
+..
+
 - **dc.description.abstract:** Describe el alcance de los contenidos, puede ser un sumario, un resumen, una reseña, una anotación o una frase que describe el recurso. Si la información es tomada textualmente del recurso, se ingresa de la siguiente forma. 
 
-Ej: En la presente edición, producto del trabajo colectivo del programa, han sido sometidos a la metodología de validación científica TRAMIL, 399 usos significativos de partes de 130 especies reportadas en 11.004 encuestas etnofarmacológicas, llevadas a cabo en 64 comunidades incluyendo la mayor parte de los países de la cuenca del Caribe. De los usos sometidos a validación, 393 han sido clasificados en la categoría REC y 6 en TOX. Además, se han realizado 529 ensayos de laboratorio: fitoquímicos (49), de actividad biológica (213) y evaluación de toxicidad (267). Más del 90% de estos ensayos se han realizado en laboratorios universitarios de los países participantes de la cuenca del Caribe. (Apartes del texto)
+  Ej: En la presente edición, producto del trabajo colectivo del programa, han sido sometidos a la metodología de validación científica TRAMIL, 399 usos significativos de partes de 130 especies reportadas en 11.004 encuestas etnofarmacológicas, llevadas a cabo en 64 comunidades incluyendo la mayor parte de los países de la cuenca del Caribe. De los usos sometidos a validación, 393 han sido clasificados en la categoría REC y 6 en TOX. Además, se han realizado 529 ensayos de laboratorio: fitoquímicos (49), de actividad biológica (213) y evaluación de toxicidad (267). Más del 90% de estos ensayos se han realizado en laboratorios universitarios de los países participantes de la cuenca del Caribe. (Apartes del texto)
 
 - **dc.description.notes:** Coloque notas generales de interés al público relacionadas con el recurso. 
 

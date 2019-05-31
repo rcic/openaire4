@@ -52,8 +52,8 @@ Se recomienda utilizar los siguientes estilos de citación:
 Valores permitidos (Vocabularios Controlados)
 ---------------------------------------------
 
-* dc.source
-* dc.source.bibliographicCitation
+- dc.source
+- dc.source.bibliographicCitation
 
 Relaciones con otros campos
 ---------------------------
