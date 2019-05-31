@@ -203,7 +203,7 @@ Los sistemas de información deben utilizar estos nuevos elementos para describi
 
 - Productos resultados de actividades de generación de nuevo conocimiento:
 
-..
+::
 
 +---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
 | Tipo Documental Específico Colciencias                        | Notas                                                                                                                              | Valor Autorizado                                                                                  |
@@ -231,7 +231,7 @@ Los sistemas de información deben utilizar estos nuevos elementos para describi
 | Obras o Productos de creación en artes, arquitectura y diseño |                                                                                                                                   | https://purl.org/redcol/resource_type/AAD                                                         |
 +---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
 
-..
+::
 
 - Productos resultados de actividades de desarrollo tecnológico e innovación.
 
