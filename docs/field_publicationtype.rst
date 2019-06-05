@@ -10,13 +10,13 @@ Definición y alcance del campo
 
 Este campo tiene varios usos dependiendo del contexto general de aplicación, los distintos usos se enumeran a continuación:
 
-	- Tipología Documental Normalizada COAR (M,1): Hace referencia al tipo de publicación basándose en un vocabulario controlado normalizado, el cual es utilizado por el usuario (una máquina) para identificar la categoría asociada al recurso que está mostrando.
+	- **Tipología Documental Normalizada COAR (M,1):** Hace referencia al tipo de publicación basándose en un vocabulario controlado normalizado, el cual es utilizado por el usuario (una máquina) para identificar la categoría asociada al recurso que está mostrando.
 
-	- Tipología Documental Normalizada RedCol (MA,1): Hace referencia al tipo de recurso de investigación reconocido y avalado por Colciencias basándose en un vocabulario controlado normalizado, el cual es utilizado por el usuario (una máquina) para identificar la categoría asociada al recurso que está mostrando.
+	- **Tipología Documental Normalizada RedCol (MA,1):** Hace referencia al tipo de recurso de investigación reconocido y avalado por Colciencias basándose en un vocabulario controlado normalizado, el cual es utilizado por el usuario (una máquina) para identificar la categoría asociada al recurso que está mostrando.
 
-	- Tipología Documental Local (R,1): Hace referencia al tipo de producción científica o contenido intelectual en el que se manifiesta el recurso, el cual es utilizado por el usuario (una persona) para identificar la categoría asociada al recurso que está mostrando.  Ejemplo: Libro, artículo, revista, etc. 
+	- **Tipología Documental Local (R,1):** Hace referencia al tipo de producción científica o contenido intelectual en el que se manifiesta el recurso, el cual es utilizado por el usuario (una persona) para identificar la categoría asociada al recurso que está mostrando.  Ejemplo: Libro, artículo, revista, etc. 
 
-	- Tipología del Contenido del Recurso (O,1): Hace referencia al tipo de contenido interno sobre el cual está construido el documento basándose en un vocabulario controlado normalizado. 
+	- **Tipología del Contenido del Recurso (O,1):** Hace referencia al tipo de contenido interno sobre el cual está construido el documento basándose en un vocabulario controlado normalizado. 
 
 Niveles de persistencia (M/MA/R/O)
 ------------------------------------
@@ -240,7 +240,7 @@ Utilice la etiqueta del término de tipo de recurso como valor. Utilice el **val
 
 - **Tipología Documental Normalizada RedCol:** Se debe seleccionar el tipo de recurso que debe estar debidamente relacionado con una uri definida con el vocabulario controlado de REDCOL:
 
-- Productos resultados de actividades de generación de nuevo conocimiento:
+**Productos resultados de actividades de generación de nuevo conocimiento**
 
 +---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 | Tipo Documental Específico Colciencia                         | Notas                                                                                                                              | Valor Autorizado                                                                                 |
@@ -268,7 +268,7 @@ Utilice la etiqueta del término de tipo de recurso como valor. Utilice el **val
 | Obras o Productos de creación en artes, arquitectura y diseño |                                                                                                                                    | https://purl.org/redcol/resource_type/AAD                                                        |
 +---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 
-- Productos resultados de actividades de desarrollo tecnológico e innovación.
+**Productos resultados de actividades de desarrollo tecnológico e innovación**
 
 ..
 
@@ -335,7 +335,7 @@ Utilice la etiqueta del término de tipo de recurso como valor. Utilice el **val
 
 ..
 
-- Productos resultados de actividades de apropiación social del conocimiento.
+**Productos resultados de actividades de apropiación social del conocimiento**
 
 ..
 
@@ -400,7 +400,7 @@ Utilice la etiqueta del término de tipo de recurso como valor. Utilice el **val
 
 ..
 
-- Productos de actividades relacionadas con la Formación de Recurso Humano en CTeI
+**Productos de actividades relacionadas con la Formación de Recurso Humano en CTeI**
 
 +-------------------------------------------------------+------------------------------------------+-------------------------------------------+
 | Dirección de Tesis de doctorado                       |                                          | https://purl.org/redcol/resource_type/TD  |
