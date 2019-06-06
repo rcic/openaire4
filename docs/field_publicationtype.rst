@@ -335,7 +335,7 @@ Utilice la etiqueta del término de tipo de recurso como valor. Utilice el **val
 +----------------------------------------------------------------------------------+------------------------------+---------------------------------------------+
 | Informe final de investigación                                                   |                              | https://purl.org/redcol/resource_type/INF   |
 +----------------------------------------------------------------------------------+------------------------------+---------------------------------------------+
-| Acncia para la explotación de obras protegidas por derecho de autor              |                              | https://purl.org/redcol/resour |
+| Acuerdo de licencia para la explotación de obras protegidas por derecho de autor |                              | https://purl.org/redcol/resource_type/MR    |
 +----------------------------------------------------------------------------------+------------------------------+---------------------------------------------+
 
 ..
