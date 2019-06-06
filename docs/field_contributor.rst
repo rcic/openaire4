@@ -225,7 +225,7 @@ Relaciones con otros campos
 
 	- No debe confundirse al **colaborador (dc.contributor)** del recurso  con el autor del recurso **(dc.creator) incluidas sus especificadores de campo.**
 	- No debe confundirse al **colaborador (dc.contributor)** del recurso  con la entidad responsable de la **publicación (dc.publisher)** del mismo.
-	- Cuando se trate de describir a una entidad que patrocina el desarrollo de un recurso de información  de debe utilizar el campo dc.contributor.sponsor y no los campos dc.description.sponsorship ó  dc.description.funder.
+	- Cuando se trate de describir a una entidad que patrocina el desarrollo de un recurso de información  de debe utilizar el campo **dc.contributor.sponsor** y no los campos **dc.description.sponsorship** ó  **dc.description.funder.**
 	- Cuando se describe al director de un trabajo de grado ó tesis de maestría ó doctorado se debe utilizar dc.contributor.advisor.
 	- Para identificar la institución que certifica el grado de un trabajo de grado ó tesis de maestría / doctorado debe utilizarse **thesis.degree.grantor.**
 

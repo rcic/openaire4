@@ -78,9 +78,9 @@ Entidad que agrupa todas las entidades que financian proyectos de investigación
 Relaciones con otros campos
 ---------------------------
 
-- No debe confundirse la **referencia de financiación (oaire: fundingReference)** del recurso con la entidad responsable de la **publicación (dc.publisher)** del mismo.
-- No debe confundirse la **referencia de financiación (oaire:fundingReference)** del recurso con el creador (dc.creator) del recurso  y/o **colaborador (dc.contributor) – (dc.contributor.corporatename).**
-- No debe confundirse su utilización con el campo **dc.contributor.funder.**
+  - No debe confundirse la **referencia de financiación (oaire: fundingReference)** del recurso con la entidad responsable de la **publicación (dc.publisher)** del mismo.
+  - No debe confundirse la **referencia de financiación (oaire:fundingReference)** del recurso con el **creador (dc.creator)** del recurso  y/o **colaborador (dc.contributor) – (dc.contributor.corporatename).**
+  - No debe confundirse la **referencia de financiación (oaire:fundingReference)** del recurso con la descripción del patrocinador **(dc.description.sponsorship)** ó las indicaciones detalladas del patrocinio **(dc.description.funder).**
 
 Restricciones
 -------------
@@ -108,13 +108,14 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
    :linenos:
 
     <fundingReferences>
-    <fundingReference>
-      <funderName>Universidad Nacional de Colombia</funderName>
-    <funderIdentifier  funderIdentifiertype="GRID">grid.10689.36</funderIdentifier>
-      <awardNumber>15TET-40582</ awardNumber >
-      <awardTitle>Sistemas de Información</awardTitle>
-    </fundingReference>
+      <fundingReference>
+        <funderName>Universidad Nacional de Colombia</funderName>
+        <funderIdentifier  funderIdentifiertype="GRID">grid.10689.36</funderIdentifier>
+        <awardNumber>15TET-40582</ awardNumber >
+        <awardTitle>Sistemas de Información</awardTitle>
+      </fundingReference>
     </fundingReferences>
+
 
 
 **Esquema DataCite - Oaire**
@@ -122,15 +123,14 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 .. code-block:: xml
    :linenos:
 
-   <oaire:fundingReferences>
+  <oaire:fundingReferences>
     <oaire:fundingReference>
-     <oaire:funderName>Departamento Administrativo de Ciencia, Tecnología e innovación. Colciencias.</datacite:funderName>
-     <oaire:funderIdentifier funderIdentifierType="Crossref Funder ID">http://doi.org/10.13039/100010661</oaire:funderIdentifier>
-     <oaire:fundingStream>Horizon 2020 Framework Programme</oaire:fundingStream>
-     <oaire:awardNumber awardURI="http://cordis.europa.eu/project/rcn/194062_en.html">643410</oaire:awardNumber>
-     <oaire:awardTitle>Open Access Infrastructure for Research in Europe 2020</oaire:awardTitle>
+      <oaire:funderName>Departamento Administrativo de Ciencia, Tecnología e innovación - Colciencias.</datacite:funderName>
+      <oaire:funderIdentifier funderIdentifierType="Crossref Funder ID" > http://doi.org/10.1023/a:1010537606969</oaire:funderIdentifier>
+      <oaire:fundingStream>Programa Nacional de Ciencia, Tecnología e Innovación Agropecuaria</oaire:fundingStream>
     </oaire:fundingReference>
-   </oaire:fundingReferences>
+  </oaire:fundingReferences>
+
 
 **Esquema oai_dc**
 
