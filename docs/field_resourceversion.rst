@@ -111,13 +111,13 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 .. code-block:: xml
    :linenos:
 
-   	<element name="type">
-   	<element name="version">
-          <element name="spa">
-                  <field name="value">http://purl.org/coar/version/c_970fb48d4focketsa85</field>
+   <element name="type">
+   <element name="version">
+        <element name="spa">
+            <field name="value">http://purl.org/coar/version/c_970fb48d4focketsa85</field>
         </element>
-    </element>
-	</element>
+   </element>
+   </element>
 
 **Esquema dim**
 
