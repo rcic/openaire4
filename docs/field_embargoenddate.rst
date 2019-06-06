@@ -131,7 +131,7 @@ Restricciones
 
 	- Si no hay ninguna fecha de publicación disponible, se recomienda utilizar una fecha estimada. Dado que es mejor utilizar una fecha estimada que ninguna, se pueden utilizar la fecha de impresión, la de aceptación del trabajo, la de la década en que se calcula que se editó el documento, etc.
 	- En el ámbito que haya embargo (restricción de acceso), se recomienda especificar las dos fecha (Accepted, Available) con sus respectivos atributos que indican inicio y fin de la restricción.
-	- Cuando el campo asociado a los derechos de acceso (M) se establezca con el valor <datacite:rights uri="http://purl.org/coar/access_right/c_f1cf" >embargoed access</<datacite:rights>. Es obligatorio la inclusión de la fecha de inicio y finalización del período de embargo.
+	- Cuando el campo asociado a los derechos de acceso (M) se establezca con el valor **<datacite:rights uri="http://purl.org/coar/access_right/c_f1cf" >embargoed access</<datacite:rights>.** Es obligatorio la inclusión de la fecha de inicio y finalización del período de embargo.
 
 
 Ejemplos y ayudas
