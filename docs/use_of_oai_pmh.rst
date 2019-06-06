@@ -90,9 +90,9 @@ Los productos de investigación reconocidos en cada tipo según el modelo de med
 	
 	- **Guía de Práctica Clínica  (RNP):** Documento informativo que incluye recomendaciones para optimizar el cuidado del paciente, realizada con base en una revisión sistemática de la evidencia y en la evaluación de los beneficios y daños de distintas opciones de la atención en salud.
 
-	- **Protocolo de Atención a Usuario (PAU):**
+	- **Protocolo de Atención a Usuario (PAU):** Manual de servicio al ciudadano que busca brindarle un mejor servicio y teniendo en cuenta el derecho al que todas las personas tienen de presentar peticiones, quejas, reclamos, sugerencias, etc, de manera respetuosa a las autoridades por motivos de interés general o particular y a obtener pronta respuesta, consideramos pertinente definir algunos conceptos de interés, que los ayudarán a orientarlas de acuerdo a lo que requiere presentar ante la entidad.
 
-	- **Manuales y Modelos de atención diferencial a Víctimas (MADV):**
+	- **Manuales y Modelos de atención diferencial a Víctimas (MADV):** Documento con la definición de protocolos para el reconocimiento de las poblaciones por sus características particulares que están en el derecho de recibir atención tratamiento especial de ayuda humanitaria, atención, asistencia y reparación integral. 
 
 	- **Protocolo de Vigilancia Epidemiológica (PVE):** Documento en el que se establecen los conceptos, definiciones y procedimientos estandarizados que deben aplicar a cada una de las instancias.
 
