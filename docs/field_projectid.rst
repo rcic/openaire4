@@ -212,11 +212,15 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 **NOTA:**
 
 - DSPACE 7.X y superior, permite la gestión avanzada de propiedades, sub-propiedades y atributos de campo asociado a entidades predefinidas.
+
 - DSPACE CRIS  incluye la definición de una entidad llamada FUNDING que es compatible con DATACITE.
-- Para las instituciones que poseen DSPACE en versión 6.X o inferior, se recomienda crear los campos indicados anteriormente y poder ingresar información detallada de la institución patrocinadora. 
+
+- Para las instituciones que poseen DSPACE en versión 6.X o inferior, se recomienda crear los campos indicados anteriormente y poder ingresar información detallada de la institución patrocinadora.
+
 - Adicionalmente a los campos normalizados indicados anteriormente, se recomienda hacer una descripción general de la fuente de financiación a través de los siguientes campos:
-  - **dc.description.sponsorship:** información sobre agencias patrocinadoras 
-  - **dc.description.funder:** Indicaciones del patrocinio y datos específicos de financiación. 
+
+    - **dc.description.sponsorship:** información sobre agencias patrocinadoras 
+    - **dc.description.funder:** Indicaciones del patrocinio y datos específicos de financiación. 
 
 
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
