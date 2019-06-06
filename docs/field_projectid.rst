@@ -123,13 +123,13 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 .. code-block:: xml
    :linenos:
 
-  <oaire:fundingReferences>
+   <oaire:fundingReferences>
     <oaire:fundingReference>
       <oaire:funderName>Departamento Administrativo de Ciencia, Tecnología e innovación - Colciencias.</datacite:funderName>
       <oaire:funderIdentifier funderIdentifierType="Crossref Funder ID" > http://doi.org/10.1023/a:1010537606969</oaire:funderIdentifier>
       <oaire:fundingStream>Programa Nacional de Ciencia, Tecnología e Innovación Agropecuaria</oaire:fundingStream>
     </oaire:fundingReference>
-  </oaire:fundingReferences>
+   </oaire:fundingReferences>
 
 
 **Esquema oai_dc**
