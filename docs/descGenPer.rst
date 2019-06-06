@@ -27,7 +27,7 @@ Campo-OpenAIRE                             Elemento Metadata                   R
 :ref:`dc.language`                         dc.language                         `IETF BCP 47`_, `ISO 639-3`_
 :ref:`dc.publisher`                        dc.publisher
 :ref:`aire:resourceType`                   oaire:resourceType                  `COAR Resource Type Vocabulary`_
-:ref:`dc.description`                      dc.description
+:ref:`aire:version`                        oaire:version                       `COAR Version Vocabulary`_
 :ref:`dc.format`                           dc.format                           :ref:`format type <vocab:formattype_formattype>`
 :ref:`dci:identifier`                      datacite:identifier                 :ref:`identifier type <vocab:identifiertype_identifiertype>`
 :ref:`dci:accessrights`                    datacite:rights                     `COAR Access Right Vocabulary`_
@@ -38,7 +38,7 @@ Campo-OpenAIRE                             Elemento Metadata                   R
 :ref:`dc.coverage`                         dc.coverage
 :ref:`dci:size`                            datacite:size
 :ref:`dci:geolocation`                     datacite:geoLocation
-:ref:`aire:version`                        oaire:version                       `COAR Version Vocabulary`_ 
+:ref:`dc.description`                      dc.description
 :ref:`aire:file`                           oaire:file                          `COAR Access Right Vocabulary`_
 :ref:`aire:citationTitle`                  oaire:citationTitle 	
 :ref:`aire:citationVolume`                 oaire:citationVolume
@@ -84,7 +84,7 @@ Campo-OpenAIRE                             Elemento Metadata                   R
    field_language
    field_publisher
    field_publicationtype
-   field_description
+   field_resourceversion
    field_format
    field_accessrights
    field_source
@@ -93,7 +93,7 @@ Campo-OpenAIRE                             Elemento Metadata                   R
    field_coverage
    field_size
    field_geolocation
-   field_resourceversion
+   field_description
    field_filelocation
    field_citationtitle
    field_citationvolume
