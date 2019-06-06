@@ -7,69 +7,99 @@ Resource Version (Versión del recurso) (R)
 
 Definición y alcance del campo
 ------------------------------
-Dependiendo del tipo de recurso, este campo se utiliza para colocar la versión de un conjunto de datos o software, o del estado del proceso de un artículo de revista. 
 
-Niveles de requerimientos (M/MA/R/O)
+Dependiendo del tipo de recurso, este campo se utiliza para describir los siguientes elementos:
+
+	- La versión de un conjunto de datos o software (Nombre Clave ó Número).
+	- El estado del proceso editorial del recurso basándose en un vocabulario controlado normalizado.
+ 
+
+Niveles de persistencia (M/MA/R/O)
 ------------------------------------
 Recomendado (R)
 
-Niveles de ocurrencia (R / NR -  Cantidad Veces)
+Niveles de ocurrencia (R / NR)
 ------------------------------------------------
-No repetible (NR)
+Repetible (R): 0-n
 
-Campo con esquema de metadatos
+Esquema de metadatos
 ------------------------------
 oaire:version
 
 Traducción al español
 ---------------------
-Versión del recurso 
+(Estado, Nombre Clave ó Número) de la Versión de publicación del recurso 
 
-Forma de Descripción Normalizada (RDA / RCAA2)
-----------------------------------------------
+Forma de Descripción Normalizada (RDA / RCAA2 /ISBD)
+----------------------------------------------------
 RDA (Recursos: descripción y acceso)
 
-Revise la forma adecuada para ingresar la versión del recurso:
+	- Cuando se trate de la versión del estado de publicación, revise la forma adecuada para ingresar la versión del recurso según el vocabulario propuesto.
+	- Cuando se describa la versión (Nombre Clave ó Número) Revise la forma adecuada para ingresar la versión del recurso.
 
-**oaire:version:** Se puede colocar la información con letras o números. 
 
-- Ej: 1.0.1 
-- Ej: Segunda versión
+Propiedades, atributos y especificadores de campo
+-------------------------------------------------
 
-Valores permitidos (Vocabularios Controlados)
----------------------------------------------
-oaire:version 
+Propiedad Principal Versión (version) (R, 0-n):
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Utilice un número de versión o la etiqueta del término de vocabulario como valor.
+
+	- **Atributo: URI (uri) (MA, 1):** Este atributo permite especificar la URI que identifica la versión del estado de publicación. Se debe tener en cuenta los siguientes tipos de URI y su codificación normalizada según el vocabulario controlado propuesto (http://vocabularies.coar-repositories.org/documentation/version_types/):
+
++----------------------------------------------------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
+| ConceptURI                                         | Etiqueta | Comentario                                                                                                                                                        |                             |
++====================================================+==========+===================================================================================================================================================================+=============================+
+| http://purl.org/coar/version/c_b1a7d7d4d402bcce    | AO       | Versión original del autor, Borrador, Manuscrito                                                                                                                  |                             |
++----------------------------------------------------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
+| http://purl.org/coar/version/c_71e4c1898caa6e32    | SMUR     | Versión sometida a revisión, Versión no evaluada por pares, versión enviada a revisión, versión enviada a revisión por pares, versión enviada al editor, preprint |                             |
++----------------------------------------------------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
+| http://purl.org/coar/version/c_ab4af688f83e57aa    | AM       | Versión final del autor, Versión aceptada para publicar, postprint, manuscrito aceptado                                                                           |                             |
++----------------------------------------------------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
+| http://purl.org/coar/version/c_fa2ee174bc00049f    | P        | Prueba de Galera, manuscrito editado, manuscrito aceptado                                                                                                         |                             |
++----------------------------------------------------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
+| http://purl.org/coar/version/c_970fb48d4focketsa85 | VoR      | Versión publicada, Versión de registro, versión final del editor                                                                                                  |                             |
++----------------------------------------------------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
+| http://purl.org/coar/version/c_e19f295774971610    | CVoR     | Versión corregida,                                                                                                                                                | versión publicada corregida |
++----------------------------------------------------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
+| http://purl.org/coar/version/c_dc82b40f9837b551    | EVoR     | Versión mejorada, versión ampliada                                                                                                                                |                             |
++----------------------------------------------------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
+| http://purl.org/coar/version/c_be7fb7dd8ff6fe43    | NA       | Versión desconocida, versión No aplicable (o desconocido)                                                                                                         |                             |
++----------------------------------------------------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
+
 
 Relaciones con otros campos
 ---------------------------
 
+	- No confundir el campo de versión del recurso **(oaire:version)** con con el campo identificador relacionado **(datacite:relatedIdentifier)** en especial con los atributos: IsVersionOf, HasVersion, IsPreviousVersionOf, IsNewVersionOf
+	- No confundir el campo versión del recurso **(oaire:version)** con el campo descripción del recurso **(dc:description)**
+	- El campo de versión del recurso **(oaire:version),** está relacionado directamente con la fecha asociada al estado de publicación del recurso **(datacite:date),** en específico con el atributo dateType
+
 Restricciones
 -------------
+Ninguna
 
+Ejemplos y ayudas
+-----------------
 
-Ejemplos
---------
+Ayudas
+++++++
+
+	- **Versión del Recurso:** DSPACE 6.3
+	- **Versión del estado de Publicación (Borrador):** http://purl.org/coar/version/c_b1a7d7d4d402bcce
+
+Ejemplo en XML (Interoperabilidad OAI-PMH)
+++++++++++++++++++++++++++++++++++++++++++
 
 **Esquema oai_dc**
 
 .. code-block:: xml
    :linenos:
 
+   <dc:type>http://purl.org/coar/version/c_970fb48d4focketsa85</dc:type>
+
 **Esquema DataCite**
-
-.. code-block:: xml
-   :linenos:
-
-
-**Esquema xoai**
-
-.. code-block:: xml
-   :linenos:
-
-**Esquema xoai**
-
-.. code-block:: xml
-   :linenos:
 
 .. code-block:: xml
    :linenos:
@@ -77,60 +107,65 @@ Ejemplos
    <oaire:version>1.0.3</oaire:version>
    <oaire:version uri="http://purl.org/coar/version/c_be7fb7dd8ff6fe43">AM</oaire:version>
 
+**Esquema xoai**
 
-.. _COAR Version Types Vocabulary: http://vocabularies.coar-repositories.org/documentation/version_types/
-.. _JAV: https://www.niso.org/publications/niso-rp-8-2008-jav
+.. code-block:: xml
+   :linenos:
 
-Atributos de Campo
-------------------
-Revise en el siguiente enlace los vocabularios controlados: http://vocabularies.coar-repositories.org/documentation/version_types/
+   	<element name="type">
+   	<element name="version">
+          <element name="spa">
+                  <field name="value">http://purl.org/coar/version/c_970fb48d4focketsa85</field>
+        </element>
+    </element>
+	</element>
 
-Versión controlada
+**Esquema dim**
 
-+---------------------------------------------------+----------+---------------------------------+
-| ConceptURI                                        | Etiqueta | Comentario                      |
-+===================================================+==========+=================================+
-| http://purl.org/coar/version/c_b1a7d7d4d402bcce   | AO       | Original del autor              |
-+---------------------------------------------------+----------+---------------------------------+
-| http://purl.org/coar/version/c_71e4c1898caa6e32   | SMUR     | Manuscrito enviado bajo revisión|
-+---------------------------------------------------+----------+---------------------------------+
-| http://purl.org/coar/version/c_ab4af688f83e57aa   | AM       | Manuscrito aceptado             |
-+---------------------------------------------------+----------+---------------------------------+
-| http://purl.org/coar/version/c_fa2ee174bc00049f   | P        | Prueba                          |
-+---------------------------------------------------+----------+---------------------------------+
-| http://purl.org/coar/version/c_970fb48d4focketsa85| VoR      | Versión de registro             |
-+---------------------------------------------------+----------+---------------------------------+
-| http://purl.org/coar/version/c_e19f295774971610   | CVoR     | Versión corregida del registro  |
-+---------------------------------------------------+----------+---------------------------------+
-| http://purl.org/coar/version/c_dc82b40f9837b551   | EVoR     | Versión mejorada de registro    |
-+---------------------------------------------------+----------+---------------------------------+
-| http://purl.org/coar/version/c_be7fb7dd8ff6fe43   | NA       | No aplicable (o desconocido)    |
-+---------------------------------------------------+----------+---------------------------------+
+.. code-block:: xml
+   :linenos:
 
-Especificadores de campo
-------------------------
+   <dim:field mdschema="dc" element="type" qualifier="version" lang="spa">http://purl.org/coar/version/c_970fb48d4focketsa85</dim:field>
 
-Niveles de aplicación para productos de investigación de Colciencias
---------------------------------------------------------------------
-Se aplica a todos los productos de Colciencias. 
+Niveles de aplicación para  productos de investigación de Colciencias
+---------------------------------------------------------------------
+Se aplica a todos los productos de Colciencias.
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
+El campo **Versión de recurso (oaire:version)** es utilizado por los siguientes esquemas:
+
++----------------------+-----------------------+
+| Esquema de Metadatos | Campo Relacionado     |
++======================+=======================+
+| marcxml              | 250$a (Edición)       |
++----------------------+-----------------------+
+| dc                   | dc.type               |
++----------------------+-----------------------+
+| dcterms              | dcterms.type          |
++----------------------+-----------------------+
+| datacite             | datacite.resourcetype |
++----------------------+-----------------------+
 
 Niveles semánticos
 ------------------
 
-.. image:: _static/ao.png
-	:scale: 75%
-
-Tomado de: `Vocabularios controlados Coar <http://vocabularies.coar-repositories.org/version/c_b1a7d7d4d402bcce.html>`_
+	- Este campo contempla la utilización de distintos calificadores de la versión del estado de publicación como atributos estandarizados según un vocabulario específico COAR que maneja elementos semánticos.
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 
-Se recomienda crear los siguientes campos en Dspace:
+Se recomienda crear en Dspace los siguientes campos:
 
-- oaire:version
++----------------------------------------+-----------------------+---------------+-----------------+
+| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores | Nota de alcance |
++========================================+=======================+===============+=================+
+| Versión (Clave ó Número)               | dc.description        | version       |                 |
++----------------------------------------+-----------------------+---------------+-----------------+
+| Estado de Publicación                  | dc.type               | version       |                 |
++----------------------------------------+-----------------------+---------------+-----------------+
 
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
---------------------------------------------------------------------------------------------------------
+Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------------------
+
+	- Las versiones anteriores de las Directrices de OpenAIRE y Driver utilizaban el vocabulario info: eu-repo para los tipos de publicación. Se recomienda actualizar los valores del vocabulario anterior.
