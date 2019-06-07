@@ -8,9 +8,7 @@ Format (Formato) (R)
 
 Definición y alcance del campo
 ------------------------------
-Hace referencia a la manifestación física o digital del recurso, se puede incluir el medio del recurso. El formato es una guía para el usuario que le permite determinar el software o hardware necesario para operar el recurso. 
-
-No confundir con el tipo de recurso (M) y el identificador del recurso (M).
+Hace referencia a la manifestación física o digital del recurso, se puede incluir el medio del recurso. El formato es una guía para el usuario que le permite determinar el software o hardware necesario para operar el recurso.
 
 Niveles de persistencia (M/MA/R/O)
 -----------------------------------
@@ -18,7 +16,7 @@ Recomendado (R)
 
 Niveles de ocurrencia (R / NR)
 ------------------------------
-No repetible (NR)
+Repetible (R) : 0-n **veces**
 
 Esquema de metadatos
 --------------------
@@ -30,7 +28,10 @@ Formato
 
 Forma de Descripción Normalizada (RDA / RCAA2/ ISBD)
 ----------------------------------------------------
-RDA (Recursos: descripción y acceso)
+RDA (Recursos: descripción y acceso).
+
+   - El campo formato del recurso de información está íntimamente ligado con el contenido y la extensión de los nombres del archivos adjuntos.
+   - La práctica recomendada consiste en seleccionar un valor de la lista registrada de IANA de tipos de medios de Internet (tipos MIME) cuyos valores admitidos están controlados por un vocabulario que se encuentra en: http://www.iana.org/assignments/media-types/media-types.xhtml 
 
 Propiedades, atributos y especificadores de campo
 -------------------------------------------------
@@ -38,11 +39,25 @@ Propiedades, atributos y especificadores de campo
 Relaciones con otros campos
 ---------------------------
 
+   - No confundir el formato del recurso **(dc.format)** con el tipo de recurso (oaire:resourceType)
+   - No confundir el formato del recurso **(dc.format)** con el identificador del recurso (datacite:identifier).
+
 Restricciones
 -------------
+Ninguna
 
 Ejemplos y ayudas
 ------------------
+
+Ayudas
+++++++
+
+   - Ej: Formato PDF: application/pdf
+   - Ej: Formato XML: application/xml
+
+Ejemplo en XML  (Interoperabilidad OAI-PMH)
++++++++++++++++++++++++++++++++++++++++++++
+
 
 **Esquema oai_dc**
 
@@ -61,15 +76,32 @@ Ejemplos y ayudas
 .. code-block:: xml
    :linenos:
 
-**Esquema xoai**
-
-.. code-block:: xml
-   :linenos:
+   <dc:format>application/pdf</dc:format>
 
 **Esquema xoai**
 
 .. code-block:: xml
    :linenos:
+
+   <element name="format">
+      <element name="mimetype">
+           <element name="spa">
+             <field name="value">application/pdf</field>
+          </element>
+     </element>
+   </element>
+
+**Esquema dim**
+
+.. code-block:: xml
+   :linenos:
+
+   <dim:field mdschema="dc" element="format" lang="es">pdf-A/3</dim:field>
+
+.. code-block:: xml
+   :linenos:
+
+   <dim:field mdschema="dc" element="format" qualifier="mimetype" lang="spa">application/pdf</dim:field>
 
 
 Niveles de aplicación para productos de investigación de Colciencias
@@ -81,15 +113,18 @@ Relaciones con otros modelos de metadatos
 
 Niveles semánticos
 ------------------
+No aplica
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 
-Se recomienda crear los siguientes campos en Dspace:
+Se recomienda crear en Dspace los siguientes campos:
 
-- dc:format
-- dc:format.mimetype
-
+Vocabulario controlado OpenAire/RedCol  Campo Elemento DSPACE  Calificadores  Nota de alcance
+zzz  dc.format  zzz  Incluir aquí, Descripción general del formato
+zzz  dc.format  zzz  Incluir aquí el formato codificado IANA
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
+
+No aplica
