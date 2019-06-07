@@ -120,9 +120,13 @@ Recomendación de campos de aplicación en DSPACE
 
 Se recomienda crear en Dspace los siguientes campos:
 
-Vocabulario controlado OpenAire/RedCol  Campo Elemento DSPACE  Calificadores  Nota de alcance
-zzz  dc.format  zzz  Incluir aquí, Descripción general del formato
-zzz  dc.format  zzz  Incluir aquí el formato codificado IANA
++----------------------------------------+-----------------------+---------------+-----------------------------------------------+
+| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores | Nota de alcance                               |
++========================================+=======================+===============+===============================================+
+|                                        | dc.format             |               | Incluir aquí, Descripción general del formato |
++----------------------------------------+-----------------------+---------------+-----------------------------------------------+
+|                                        | dc.format             |               | Incluir aquí el formato codificado IANA       |
++----------------------------------------+-----------------------+---------------+-----------------------------------------------+
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
