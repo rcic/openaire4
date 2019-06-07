@@ -240,6 +240,9 @@ Ayudas
 	- Ej: (schemeType): dc.relatedIdentifier.schemeType	URL	
 	- Ej: (schemeURI): dc.relatedIdentifier.schemeURI	http://uninmar.icmyl.unam.mx/search?query=
 	- Ej: (relatedIdentifier): dc.relatedIdentifier	Macrocallista nimbosa
+	- Ej: (Nombre de la institución que provee el repositorio)(instname). Ej: Universidad de los Andes.
+	- Ej: (Nombre del Repositorio) (reponame). Ej: Séneca.
+	- Ej: (URL  del Repositorio) (repourl). Ej: https://repositorio.uniandes.edu.co 
 
 Ejemplo en XML (Interoperabilidad OAI-PMH)
 ++++++++++++++++++++++++++++++++++++++++++
@@ -535,4 +538,5 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------------------
-Se recomienda específicamente crear los nuevos atributos/especificadores del campo de identificador alternativo según la codificación propuesta.
+
+- Se recomienda específicamente crear los nuevos atributos/especificadores del campo de identificador alternativo según la codificación propuesta.
