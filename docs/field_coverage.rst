@@ -7,43 +7,38 @@ Coverage (Cobertura) (R)
 
 Definición y alcance del campo
 ------------------------------
-La cobertura generalmente incluirá la ubicación espacial (un nombre del lugar o coordenadas geográficas), el período temporal (una etiqueta del período, la fecha o el rango de fechas) o la jurisdicción (como una entidad administrativa nombrada). La mejor práctica recomendada es seleccionar un valor de un vocabulario controlado. 
+Este campo describe la cobertura **espacial ó temporal** sobre el cual trata el recurso de información. La cobertura generalmente incluirá la ubicación espacial (un nombre del lugar o coordenadas geográficas), el período temporal (una etiqueta del período, la fecha o el rango de fechas) o la jurisdicción (como una entidad administrativa nombrada). La mejor práctica recomendada es seleccionar un valor de un vocabulario controlado.  
 
-Niveles de requerimientos (M/MA/R/O)
+Niveles de persitencia (M/MA/R/O)
 ------------------------------------
-Obligatorio (M)
+Obligatorio (MA)
 
-Niveles de ocurrencia (R / NR -  Cantidad Veces)
-------------------------------------------------
-Repetible (R)
+Niveles de ocurrencia (R / NR)
+------------------------------
+Repetible (R): 0-n veces
 
-Campo con esquema de metadatos
+Esquema de metadatos
 ------------------------------
 dc:coverage
 
 Traducción al español
 ---------------------
-Cobertura
+Cobertura Espacial / Cobertura Temporal
 
 Forma de Descripción Normalizada (RDA / RCAA2)
 ----------------------------------------------
-RDA (Recursos: descripción y acceso)
+RDA (Recursos: descripción y acceso): Revise la forma adecuada para ingresar el identificador del recurso:
 
-Revise la forma adecuada para ingresar la cobertura geográfica del recurso:
+	- Para el caso de describir ciudades y países separe con una como (,). Y siga la misma estructura para demás delimitaciones geográficas. 
+		Ej: Bogotá, Colombia
+		Ej: Aguachica, Cesar, Colombia 
+		Ej: Aguacatico, Medio Baudó, Chocó, Colombia
 
-- **dc:coverage:** El campo de cobertura geográfica es obligatorio. Y permitirá conocer los lugares geográficos donde se llevaron a cabo las investigaciones o el lugar de referencia dentro del recurso. Está información delimitará a cada producto o recurso de investigación y se podrán obtener con precisión la cantidad de investigaciones realizadas. 
+	- También puede incluir subdivisiones geográficas cronológicas (años, siglos, décadas, etc.)
+		Ej: Siglo XIV
+		Ej: China - Siglo XX
+		Ej: Tolima, Colombia - 1950-2000
 
-Para el caso de colocar ciudades y países separe con una como (,). Y siga la misma estructura para demás delimitaciones geográficas. 
-
-- Ej: Bogotá, Colombia
-- Ej: Aguachica, Cesar, Colombia 
-- Ej: Aguacatico, Medio Baudó, Chocó, Colombia
-
-También puede incluir subdivisiones geográficas cronológicas (años, siglos, décadas, etc.)
-
-- Ej: Siglo XIV
-- Ej: China - Siglo XX
-- Ej: Tolima, Colombia - 1950-2000
 
 
 Valores permitidos (Vocabularios Controlados)
