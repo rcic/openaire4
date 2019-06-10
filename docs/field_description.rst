@@ -216,7 +216,7 @@ No aplica.
 
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
-Se recomienda crear en Dspace los siguientes campos:
+Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
 
 +-----------------------------------------------------------------+-----------------------+---------------------------+-----------------+
 | Vocabulario controlado OpenAire/RedCol                          | Campo Elemento DSPACE | Calificadores             | Nota de alcance |
