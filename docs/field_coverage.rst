@@ -39,20 +39,41 @@ RDA (Recursos: descripción y acceso): Revise la forma adecuada para ingresar el
 		Ej: China - Siglo XX
 		Ej: Tolima, Colombia - 1950-2000
 
+**NOTAS:**
 
+	- Para el caso de proyectos de investigación asociados a los productos descritos, se recomienda utilizar el campo **(dc.coverage.projectdates)** que contiene un rango de fechas de inicio / finalización del proyecto de investigación en formato normalizado (AAA-MM-DD/AAAA-MM-DD) Ej: **10/02/2013-16/07/2015**
 
-Valores permitidos (Vocabularios Controlados)
----------------------------------------------
-dc.coverage
+Propiedades, atributos y especificadores de campo
+-------------------------------------------------
+
+Propiedad Principal Cobertura (coverage) (O, 0-n):
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Utilice un período temporal o geográfico como valor del campo.
 
 Relaciones con otros campos
 ---------------------------
 
+No confundir la cobertura espacial de la que trata el contenido del recurso de información **(dc.coverage.spatial)** con la localización geográfica/espacial en la cual fue realizada la investigación, creados los documentos, tomados los datos y que deberían ser registrados en el campo **(datacite:geoLocation).** 
+
 Restricciones
 -------------
+Ninguna
 
-Ejemplos
---------
+Ejemplos y ayudas
+-----------------
+
+Ayudas
+++++++
+
+	- Ej: (Cobertura Temporal): 2000-2010
+	- Ej: (Cobertura Espacial): Guaduas, Tolima, Colombia
+	- Ej: (Cobertura Espacial TGN):http://vocab.getty.edu/page/tgn/7005073 
+	- Ej: (Coordenadas): Longitud: O75°33'48.92" Latitud: N6°15'6.62"
+	- Ej: (Rango de Fechas): dc.coverage.temporal	10/02/2013-16/07/2015
+
+Ejemplo en XML (Interoperabilidad OAI-PMH)
+++++++++++++++++++++++++++++++++++++++++++
 
 **Esquema oai_dc**
 
@@ -61,52 +82,89 @@ Ejemplos
 
   	<dc.coverage>2000-2010</dc.coverage>
 	<dc.coverage>Siglo XX</dc.coverage>
-	<dc.coverage>Colombia</dc.coverage>
-
-
+	<dc.coverage>Amazonas, Colombia</dc.coverage>
 
 **Esquema DataCite**
 
 .. code-block:: xml
    :linenos:
 
+   <dc:coverage>Europa</dc:coverage>
+   <dc:coverage>Latinoamérica</dc:coverage>
+   <dc:coverage>Iberoamérica</dc:coverage>
+   <dc:coverage>10/02/2013-16/07/2015</dc:coverage>
+
 **Esquema xoai**
 
 .. code-block:: xml
    :linenos:
 
-**Esquema xoai**
+   <element name="coverage">
+    <element name="spatial">
+        <element name="spa">
+             <fieldname="value">Cali; Lat: 03 24 00 N degrees minutes; Lat: 3.4000 decimal degrees; Long: 076 30 00 W degrees minutes; Long: -76.5000 decimal degrees</field>
+        </element>
+    </element>
+   </element>
+
+**Esquema dim**
 
 .. code-block:: xml
    :linenos:
 
-
-Atributos de Campo
-------------------
-Se recomienda utilizar los siguientes vocabularios controlados:
-
-Getty tesauro geográfico: http://www.getty.edu/research/tools/vocabularies/tgn/ 
-Tesauro geográfico: https://www.vocabularyserver.com/toponimos/ 
-
-Especificadores de campo
-------------------------
+   <dim:field mdschema="dc" element="coverage" element="spatial" lang="spa">Cali; Lat: 03 24 00 N degrees minutes; Lat: 3.4000 decimal degrees; Long: 076 30 00 W degrees minutes; Long: -76.5000 decimal degrees</dim:field>
 
 Niveles de aplicación para productos de investigación de Colciencias
 --------------------------------------------------------------------
 Se aplica a todos los productos de Colciencias. 
 
+
 Relaciones con otros modelos de metadatos
 -----------------------------------------
+
+El campo cobertura **(dc.coverage)** es utilizado por los siguientes esquemas de metadatos y puede intercambiarse su uso de manera indistinta mientras se conserven sus distintos niveles de atributos y especificadores de campo:
+
+======================  ===================
+Esquema de Metadatos    Campo Relacionado  
+======================  ===================
+dc                      dc.coverage        
+dcterms                 dcterms.coverage   
+marcxml                 field: 651         
+======================  ===================
 
 Niveles semánticos
 ------------------
 
+Cuando aplique, se recomienda seleccionar un valor de un vocabulario controlado (por ejemplo, del Thesaurus of Geographic Names (TGN) y especificar la URL del término utilizado (https://www.getty.edu/research/tools/vocabularies/tgn/).
+
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 
-Se recomienda crear los siguientes campos en Dspace:
+Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
 
-- dc.coverage
++----------------------+-----------------------+---------------+------------------------------------------------------------------------------+
+| Esquema de Metadatos | Campo Elemento DSPACE | Calificadores | Nota de alcance                                                              |
++======================+=======================+===============+==============================================================================+
+| dc                   | dc.coverage           |               | Cobertura, texto general                                                     |
++----------------------+-----------------------+---------------+------------------------------------------------------------------------------+
+| dc                   | dc.coverage           | spatial       | Cobertura Espacial Texto General                                             |
++----------------------+-----------------------+---------------+------------------------------------------------------------------------------+
+| dc                   | dc.coverage           | temporal      | Cobertura Temporal Texto General                                             |
++----------------------+-----------------------+---------------+------------------------------------------------------------------------------+
+| dc                   | dc.coverage           | projectdates  | Rango de fechas de ejecución del proyecto asociado al recurso de información |
++----------------------+-----------------------+---------------+------------------------------------------------------------------------------+
+| dc                   | dc.coverage           | tgn           | Cobertura Espacial Tesauro TGN                                               |
++----------------------+-----------------------+---------------+------------------------------------------------------------------------------+
+| dc                   | dc.coverage           | country       | Cobertura Espacial Nombre de País                                            |
++----------------------+-----------------------+---------------+------------------------------------------------------------------------------+
+| OpenAire             | dc.coverage           | city          | Cobertura Espacial Nombre de Ciudad                                          |
++----------------------+-----------------------+---------------+------------------------------------------------------------------------------+
+| OpenAire             | dc.coverage           | region        | Cobertura Espacial Nombre de Región ó municipio relacionado                  |
++----------------------+-----------------------+---------------+------------------------------------------------------------------------------+
+| OpenAire             | dc.coverage           | box           | Cobertura Espacial Coordenadas                                               |
++----------------------+-----------------------+---------------+------------------------------------------------------------------------------+
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
+
+	- Se recomienda específicamente crear los nuevos atributos/especificadores del campo **coverage** según la codificación propuesta.
