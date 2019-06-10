@@ -126,15 +126,18 @@ Relaciones con otros modelos de metadatos
 
 El campo tamaño **(datacite:size)** es utilizado por los siguientes esquemas de metadatos y puede intercambiarse su uso de manera indistinta mientras se conserven sus distintos niveles de atributos y especificadores de campo:
 
-======================  ====================
-Esquema de Metadatos    Campo Relacionado   
-======================  ====================
-dc                      * dc.format  
-						* dc.format.extent
-						* dc.format.size
-dcterms                 dcterms:extent      
-marcxml                 field: 300, 306     
-======================  ====================
++----------------------+--------------------+
+| Esquema de Metadatos | Campo Relacionado  |
++======================+====================+
+| dc                   | * dc.format        |
+|                      | * dc.format.extent |
+|                      | * dc.format.size   |
++----------------------+--------------------+
+| dcterms              | dcterms:extent     |
++----------------------+--------------------+
+| marcxml              | field: 300, 306    |
++----------------------+--------------------+
+
 
 Niveles semánticos
 ------------------
@@ -159,3 +162,4 @@ Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA
 --------------------------------------------------------------------------------------------------------
 
 	- Se recomienda específicamente crear los nuevos atributos/especificadores de campo de tamaño según la codificación propuesta.
+
