@@ -7,9 +7,9 @@ Related Identifier (Identificador relacionado) (R)
 
 Definición y alcance del campo
 ------------------------------
-Este campo contiene uno o varios identificadores de recursos relacionados con el recursos que se está describiendo. Este campo no contiene el Identificador primario del recurso, ni identificadores alternativos del mismo.
+Este campo contiene uno o varios identificadores de recursos relacionados con el recurso que se está describiendo. Este campo no contiene el Identificador primario del recurso, ni identificadores alternativos del mismo.
 
-Este campo de identificador es utilizado conjuntamente con una propiedad de relación adjunta según corresponda. El uso de este campo es opcional pero recomendada.
+Este campo de identificador es utilizado conjuntamente con una propiedad de relación adjunta según corresponda. El uso de este campo es opcional pero recomendado.
 
 Niveles de persistencia (M/MA/R/O)
 ------------------------------------
