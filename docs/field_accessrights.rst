@@ -141,27 +141,13 @@ El campo **Derechos de Acceso** es utilizado por los siguientes esquemas de meta
 ======================  =======================
 Esquema de Metadatos    Campo Relacionado      
 ======================  =======================
-dc                      dc.rights.access
-                        dc.rights       
+dc                      * dc.rights.access
+                        * dc.rights       
 dcterms                 dcterms.rights.access  
 lom                     lom.rights.access      
 marcxml                 field:506              
 ======================  =======================
 
-+----------------------+-----------------------+
-| Esquema de Metadatos | Campo Relacionado     |
-+======================+=======================+
-| dc                   | dc.rights.access      |
-|					             | dc.rights             |
-+----------------------+-----------------------+
-| dcterms              | dcterms.rights.access |
-+----------------------+-----------------------+
-| lom                  | lom.rights.access     |
-+----------------------+-----------------------+
-| marcxml              | field:506             |
-+----------------------+-----------------------+
-
-..
 
 Niveles semánticos
 ------------------
