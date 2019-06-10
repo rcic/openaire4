@@ -138,11 +138,13 @@ Relaciones con otros modelos de metadatos
 -----------------------------------------
 El campo **Derechos de Acceso** es utilizado por los siguientes esquemas de metadatos y puede intercambiarse su uso de manera indistinta mientras se conserven sus distintos niveles de atributos y especificadores de campo:
 
+..
+
 +----------------------+-----------------------+
 | Esquema de Metadatos | Campo Relacionado     |
 +======================+=======================+
-| dc                   | * dc.rights.access    |
-|					             | * dc.rights           |
+| dc                   | dc.rights.access      |
+|					             | dc.rights             |
 +----------------------+-----------------------+
 | dcterms              | dcterms.rights.access |
 +----------------------+-----------------------+
@@ -150,6 +152,8 @@ El campo **Derechos de Acceso** es utilizado por los siguientes esquemas de meta
 +----------------------+-----------------------+
 | marcxml              | field:506             |
 +----------------------+-----------------------+
+
+..
 
 Niveles semánticos
 ------------------
