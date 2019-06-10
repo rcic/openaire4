@@ -154,7 +154,7 @@ Niveles semánticos
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 
-Se recomienda crear en Dspace los siguientes campos:
+Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
 
 +----------------------------------------+-----------------------+---------------+-----------------+
 | Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores | Nota de alcance |
@@ -167,4 +167,4 @@ Se recomienda crear en Dspace los siguientes campos:
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------------------
 
-	- Las versiones anteriores de las Directrices de OpenAIRE y Driver utilizaban el vocabulario info: eu-repo para los tipos de publicación. Se recomienda actualizar los valores del vocabulario anterior.
+	- Las versiones anteriores de las Directrices de OpenAIRE y Driver utilizaban el vocabulario info: eu-repo para los tipos de publicación. Se recomienda actualizar los valores del vocabulario anterior al nuevo vocabulario.
