@@ -110,6 +110,7 @@ Se aplica a todos los productos de Colciencias.
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
+No aplica
 
 Niveles semánticos
 ------------------
@@ -118,17 +119,19 @@ No aplica
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 
+Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
+
 Se recomienda crear en Dspace los siguientes campos:
 
 +----------------------------------------+-----------------------+---------------+-----------------------------------------------+
 | Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores | Nota de alcance                               |
 +========================================+=======================+===============+===============================================+
-|                                        | dc.format             |               | Incluir aquí, Descripción general del formato |
+| OpenAire                               | dc.format             |               | Incluir aquí, Descripción general del formato |
 +----------------------------------------+-----------------------+---------------+-----------------------------------------------+
-|                                        | dc.format             |               | Incluir aquí el formato codificado IANA       |
+| OpenAire                               | dc.format             | mimetype      | Incluir aquí el formato codificado IANA       |
 +----------------------------------------+-----------------------+---------------+-----------------------------------------------+
 
-Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
---------------------------------------------------------------------------------------------------------
+Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
+--------------------------------------------------------------------------------------------------------------------
 
-No aplica
+Se recomienda específicamente crear los nuevos atributos/especificadores de campo de título según la codificación propuesta.
