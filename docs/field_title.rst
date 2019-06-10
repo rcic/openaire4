@@ -73,9 +73,9 @@ Propiedad Título (title) (M, 1-n): Utilice el nombre del título como valor
 Relaciones con otros campos
 ---------------------------
 
-- El título de una colección o serie se debe ingresar en el campo dc.relation.ispartofseries
-- El título anterior de un recursos de información se debe ingresar en el campo dc.relation.isversionof
-- Título del documento anfitrión (Aplica para documentos analíticos), recomendado utilizar oaire:citationTitle
+  - El título de una colección o serie se debe ingresar en el campo dc.relation.ispartofseries
+  - El título anterior de un recursos de información se debe ingresar en el campo dc.relation.isversionof
+  - Título del documento anfitrión (Aplica para documentos analíticos), recomendado utilizar oaire:citationTitle
 
 Restricciones
 -------------
