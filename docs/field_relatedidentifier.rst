@@ -224,10 +224,10 @@ Esta propiedad permite especificar el valor del identificador relacionado que se
 Relaciones con otros campos
 ---------------------------
 
-	- Este campo tiene una estrecha relación con el campo dc.relation, ya que espedifica una relación del recurso con otro recurso a través del uso de identificadores normalizados.
-	- En los campos dc.relation y sus respectivos calificadores, se puede complementar la información de la relación descrita en este campo utilizando texto libre.
+	- Este campo tiene una estrecha relación con el campo **dc.relation,** ya que especifica una relación del recurso con otro recurso a través del uso de identificadores normalizados.
+	- En los campos **dc.relation** y sus respectivos calificadores, se puede complementar la información de la relación descrita en este campo utilizando texto libre.
 	- No debe confundirse el Identificador relacionado **(datacite:relatedIdentifier)** del recurso el identificador alternativo **(datacite:alternativeIdentifier)** del mismo.
-	- No debe confundirse el Identificador Relacionado **(datacite:relatedIdentifier)** del recurso (que contiene solo un identificador) con el  campo **dc:source.bibliographicCitation (dcterms.bibliographicCitation)** que contiene las citas bibliográficas del recurso de origen en un formato normalizado (ISO, APA,IEEE, Vancouver, etc..).
+	- No debe confundirse el Identificador Relacionado **(datacite:relatedIdentifier)** del recurso (que contiene solo un identificador) con el  campo **dc:source.bibliographicCitation (dcterms.bibliographicCitation)** que contiene las citas bibliográficas completa del recurso de origen en un formato normalizado (ISO, APA,IEEE, Vancouver, etc..).
 
 Restricciones
 -------------
@@ -325,6 +325,7 @@ El campo Identificador Relacionado (datacite:relatedIdentifier) es utilizado por
 |                      | * dcterms.hasVersion                                              |
 |                      | * dcterms.isFormatOf                                              |
 |                      | * dcterms.isPartOf                                                |
+|                      | * dcterms.IsPartOfSeries                                          |
 |                      | * dcterms.isReferencedBy                                          |
 |                      | * dcterms.isReplacedBy                                            |
 |                      | * dcterms.isRequiredBy                                            |
@@ -348,6 +349,7 @@ El campo Identificador Relacionado (datacite:relatedIdentifier) es utilizado por
 |					   | * dcterms.hasVersion											   |
 |					   | * dcterms.isFormatOf											   |
 |					   | * dcterms.isPartOf												   |
+|                      | * dcterms.IsPartOfSeries                                          |
 |					   | * dcterms.isReferencedBy										   |
 |					   | * dcterms.isReplacedBy											   |
 |					   | * dcterms.isRequiredBy											   |
@@ -407,6 +409,8 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 	| IsPreviousVersionOf                    | datacite.relatedIdentifier | ispreviousversionof |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
 	| IsPartOf                               | datacite.relatedIdentifier | ispartof            |                 |
+	+----------------------------------------+----------------------------+---------------------+-----------------+
+	| IsPartOfSeries                         | datacite.relatedIdentifier | ispartofSeries      |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
 	| HasPart                                | datacite.relatedIdentifier | haspart             |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
@@ -494,6 +498,8 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
    		| IsPreviousVersionOf                    | dc.relation           | ispreviousversionof |                 |
    		+----------------------------------------+-----------------------+---------------------+-----------------+
    		| IsPartOf                               | dc.relation           | ispartof            |                 |
+   		+----------------------------------------+-----------------------+---------------------+-----------------+
+   		| IsPartOfSeries                         | dc.relation           | ispartofseries      |                 |
    		+----------------------------------------+-----------------------+---------------------+-----------------+
    		| HasPart                                | dc.relation           | haspart             |                 |
    		+----------------------------------------+-----------------------+---------------------+-----------------+
