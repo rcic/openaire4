@@ -142,7 +142,7 @@ El campo **Derechos de Acceso** es utilizado por los siguientes esquemas de meta
 | Esquema de Metadatos | Campo Relacionado     |
 +======================+=======================+
 | dc                   | * dc.rights.access    |
-|					   | * dc.rights           |
+|					             | * dc.rights           |
 +----------------------+-----------------------+
 | dcterms              | dcterms.rights.access |
 +----------------------+-----------------------+
