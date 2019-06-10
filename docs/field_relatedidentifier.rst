@@ -135,7 +135,9 @@ Esta propiedad permite especificar el valor del identificador relacionado que se
 	+---------------------+---------------------------+---------------------------------------------------------------------------------------------------------------------+------------------------+
 	| IsPreviousVersionOf | Es la versión anterior de | (indica que A es una edición previa de B)                                                                           | datacite               |
 	+---------------------+---------------------------+---------------------------------------------------------------------------------------------------------------------+------------------------+
-	| IsPartOf            | Es parte de               | (indica que A es una parte de B; puede usarse para elementos de una serie)                                          | datacite               |
+	| IsPartOf            | Es parte de               | (indica que A es una parte de B; puede usarse para describir documentos fuentes)                                    | datacite               |
+	+---------------------+---------------------------+---------------------------------------------------------------------------------------------------------------------+------------------------+
+	| IsPartOfSeries      | Es parte de la Serie      | (indica que A es una parte de una serie de publicación B; puede usarse para elementos de una serie)                 | datacite               |
 	+---------------------+---------------------------+---------------------------------------------------------------------------------------------------------------------+------------------------+
 	| HasPart             | Tiene parte               | (indica que A incluye la parte B)                                                                                   | datacite               |
 	+---------------------+---------------------------+---------------------------------------------------------------------------------------------------------------------+------------------------+
