@@ -1,7 +1,7 @@
 .. _thesis.degree:
 
-Tesis (Thesis, Monographic work) (MA)
-=====================================
+Thesis, Monographic work (Tesis/Trabajo de grado) (MA)
+======================================================
 
 - ``thesis.degree.name``
 - ``thesis.degree.level``
@@ -10,18 +10,20 @@ Tesis (Thesis, Monographic work) (MA)
 
 Definición y alcance del campo
 ------------------------------
-Hace referencia a la titulación obtenida, nivel de estudio realizado, área o departamento e institución donde se realizó el estudio. 
+Hace referencia a la información específica asociada a un trabajo de grado que incluye: la titulación obtenida, el nivel de estudio realizado, el área o departamento e institución donde se realizó el trabajo de grado. 
 
-Niveles de requerimientos (M/MA/R/O)
-------------------------------------
+Niveles de persistencia (M/MA/R/O)
+----------------------------------
 Obligatorio si es aplicable (MA)
 
-Niveles de ocurrencia (R / NR -  Cantidad Veces)
-------------------------------------------------
-Repetible (R)
-
-Campo con esquema de metadatos
+Niveles de ocurrencia (R / NR)
 ------------------------------
+Repetible (R)  (NR): 0-1
+
+
+Esquema de metadatos
+--------------------
+
 - thesis.degree.name
 - thesis.degree.level
 - thesis.degree.discipline
@@ -29,82 +31,162 @@ Campo con esquema de metadatos
 
 Traducción al español
 ---------------------
-Tesis
+
+Tesis - Disertaciones y/o trabajos de grado
+
+	- **thesis.degree.name:** Título obtenido
+	- **thesis.degree.level:** Nivel del Programa Académico Asociado - Nivel de estudio
+	- **thesis.degree.discipline:** Departamento - Programa Académico
+	- **thesis.degree.grantor:** Institución que otorga el grado académico.
 
 Forma de Descripción Normalizada (RDA / RCAA2)
 ----------------------------------------------
-RDA (Recursos: descripción y acceso)
- 
-Revise la forma adecuada para ingresar el título obtenido con su debida puntuación:
 
-- **thesis.degree.name:** Nombre del grado asociado, debe colocarle tal cual como aparece en el título obtenido o diploma de grado.
+RDA (Recursos: descripción y acceso): Revise la forma adecuada para ingresar los datos de **tesis:**
 
-	Ej: Magistra en Educación Virtual
+	- **thesis.degree.name:** Nombre del grado asociado, debe colocarle tal cual como aparece en el título obtenido o diploma de grado. Ej: Magistra en Educación Virtual
+	- **thesis.degree.level:** Nivel del Programa Académico Asociado - Nivel de estudio. Ej: Tesis de doctorado 
+	
+	**Para este campo se recomienda utilizar el siguiente vocabulario controlado (Niveles Educación Superior MEN):**
+		- Técnica profesional
+		- Tecnológica
+		- Pregrado
+		- Especialización
+		- Maestría
+		- Doctorado
+		- Posdoctorado
 
-- **thesis.degree.level:** Son válidos los siguientes niveles:
+	- **thesis.degree.discipline:** Se debe colocar la facultad, área o departamento de donde es perteneciente el estudio. Si es necesario segregar colocar siempre el área más grande al principio. Ej: Facultad de Ingenierías. Departamento de Ingeniería de Sistemas. Carrera de Ingeniería de Sistemas.
+	- **thesis.degree.grantor:** Institución que otorga el grado asociado al trabajo. Al igual que otros nombres de instituciones y entidades, este campo debe ingresarse en forma de texto libre tal como aparece en la página de título o equivalente, con un enlace a un registro de autoridad, si está disponible.Consulte la sección "Autoridad" para obtener más información. Ej: Universidad Nacional de Colombia
 
-	- Pregrado
-	- Maestría
-	- Doctorado
-	- Postdoctorado
+Propiedades, atributos y especificadores de campo
+-------------------------------------------------
 
-		Ej: Tesis de doctorado
+Atributo de Idioma (lang) (O, 0-n): 
++++++++++++++++++++++++++++++++++++
 
-- **thesis.degree.discipline:** Se debe colocar la facultad, área o departamento de donde es perteneciente el estudio. Si es necesario segregar colocar siempre el área más grande al principio.
+Indicación del idioma en el que se escribe el valor de un campo. Esto es completamente independiente del elemento dc.language, que indica el idioma principal del trabajo.
 
-	Ej: Facultad de Ingenierías. Departamento de Ingeniería de Sistemas. Carrera de Ingeniería de Sistemas.
+Atributo de esquema (scheme) (O, 0-n): 
+++++++++++++++++++++++++++++++++++++++
 
-- **thesis.degree.grantor:** Institución que otorga el grado asociado al trabajo. Al igual que otros nombres de instituciones y entidades, este campo debe ingresarse en forma de texto libre tal como aparece en la página de título o equivalente, con un enlace a un registro de autoridad, si está disponible.Consulte la sección "Autoridad" para obtener más información.
-
-	Ej: Universidad Nacional de Colombia
-
-
-Valores permitidos (Vocabularios Controlados)
----------------------------------------------
-
-- thesis.degree.name
-- thesis.degree.level
-- thesis.degree.discipline
-- thesis.degree.grantor
+Descripción del vocabulario controlado o esquema utilizado para determinar los temas, materias o puntos de acceso. 
 
 Relaciones con otros campos
 ---------------------------
 
-- thesis.degree.name
-- thesis.degree.level
-- thesis.degree.discipline
-- thesis.degree.grantor
+	- No se debe confundir la institución **(thesis.degree.grantor)** que otorga el grado con el autor/colaborador del recurso de información **(datacite.contributor)**
+	- Generalmente el campo editor **(dc.publisher)** es el mismo que la institución que otorga el grado **(thesis.degree.grantor).**
 
 Restricciones
 -------------
+No aplica
 
+Ejemplos y ayudas
+-----------------
 
-Ejemplos
---------
+Ayudas
+++++++
+
+	- **thesis.degree.name:** Coloque el nombre de grado otorgado. Ej: Ingeniero de Sistemas.
+	- **tesis.degree.level:** Coloque el nivel del programa cursado. Ej: Pregrado.
+	- **thesis.degree.discipline:** Coloque la facultad, área, departamento o disciplina donde es perteneciente el estudio. Ej: Departamento de Ciencia de la Información. 
+	- **thesis.degree.grantor:** Coloque el nombre de la institución que otorga el grado. Ej: Universidad de los Andes.
+
+Ejemplo en XML (Interoperabilidad OAI-PMH)
+++++++++++++++++++++++++++++++++++++++++++
+
+**Esquema oai_dc**
 
 .. block-code:: xml
    :linenos:
 
-   	<thesis.degree.name>Administradora de Empresas</thesis.degree.name>
-   	<thesis.degree.level>Tesis de pregrado</thesis.degree.level>
-   	<thesis.degree.discipline>Facultad de Administración y Contaduría</thesis.degree.discipline>
-   	<thesis.degree.grantor>Universidad Nacional de Colombia</thesis.degree.grantor>
+   <dc:desciption>Administrador de Negocios Internacionales</dc:desciption>
+   <dc:publisher>Universidad de La Sabana</dc:publisher>
+   <dc:publisher>Administración de Negocios Internacionales</dc:publisher>
+   <dc:publisher>Escuela Internacional de Ciencias Económicas y Administrativas</dc:publisher>
 
-Atributos de campo 
-------------------
+**Esquema DataCite**
 
-- thesis.degree.name
-- thesis.degree.level
-- thesis.degree.discipline
-- thesis.degree.grantor
+.. block-code:: xml
+   :linenos:
 
-Especificadores de campo
-------------------------
+   No aplica
 
-- thesis.degree.name
-- thesis.degree.level
-- thesis.degree.discipline
-- thesis.degree.grantor
+**Esquema xoai**
+
+.. block-code:: xml
+   :linenos:
+
+   <element name="publisher">
+     <element name="es_CO">
+        <field name="value">Universidad de La Sabana</field>
+   </element>
+
+    <element name="program">
+         <element name="none">
+            <field name="value">Administración de Negocios Internacionales</field>
+        </element>
+    </element>
+
+    <element name="department">
+        <element name="none">
+            <field name="value">Escuela Internacional de Ciencias Económicas y Administrativas</field>
+        </element>
+      </element>
+    </element>
+
+	<element name="description">
+     <element name="degreename">
+          <element name="none">
+                <field name="value">Administrador de Negocios Internacionales</field>
+           </element>
+    </element>
+
+    <element name="degreelevel">
+         <element name="none">
+            <field name="value">Pregrado</field>
+        </element>
+    </element>
+	</element>
+
+.. block-code:: xml
+   :linenos:
+
+   <element name="thesis">
+          <element name="name">
+               <element name="none">
+                    <field name="value">Administrador de Negocios Internacionales</field>
+            </element>
+          </element>
+
+        <element name="discipline">
+          <element name="none">
+              <field name="value">Administración de Negocios Internacionales</field>
+          </element>
+     </element>
+   </element>
+
+
+**Esquema dim**
+
+.. block-code:: xml
+   :linenos:
+
+   <dim:field mdschema="thesis" element="name" qualifier="" lang="spa">Fonoaudiología</dim:field>
+   <dim:field mdschema="thesis" element="level" qualifier="" lang="spa">Pregrado</dim:field>
+   <dim:field mdschema="thesis" element="discipline" qualifier="" lang="spa">Facultad de Ciencias de la Salud - Fonoaudiología</dim:field>
+
+**Esquema ETD-MS**
+
+.. block-code:: xml
+   :linenos:
+
+   <thesis.degree.name>Administradora de Empresas</thesis.degree.name>
+   <thesis.degree.level>Tesis de pregrado</thesis.degree.level>
+   <thesis.degree.discipline>Facultad de Administración y Contaduría</thesis.degree.discipline>
+   <thesis.degree.grantor>Universidad Nacional de Colombia</thesis.degree.grantor>
+
 
 Niveles de aplicación para productos de investigación de Colciencias
 --------------------------------------------------------------------
@@ -113,23 +195,45 @@ Se aplica a los productos de tesis de doctorado, trabajos de grado de maestría 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
 
-- dc.creator.degree
-- dc.publisher.program
-- dc.publisher.department
-- dc.creator.degreetype
+El campo tesis del recurso de información fuente (thesis.degree) es utilizado por los siguientes esquemas de metadatos y puede intercambiarse su uso de manera indistinta mientras se conserven sus distintos niveles de atributos y especificadores de campo:
+
++----------------------+---------------------------------------------------------+
+| Esquema de Metadatos | Campo Relacionado                                       |
++======================+=========================================================+
+| marcxml              | field:502, 710                                          |
++----------------------+---------------------------------------------------------+
+| dc                   | * thesis.degree.name: dc.description.degreename         |
+|                      | * thesis.degree.level: dc.description.degreelevel       |
+|                      | * thesis.degree.discipline: dc.publisher.faculty,       |
+|                      | dc.publisher.department, dc.publisher.program           |
+|                      | * thesis.degree.grantor: dc.publisher                   |
++----------------------+---------------------------------------------------------+
 
 Niveles semánticos
 ------------------
 
+No aplica
+
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 
-Se recomienda crear los siguientes campos en Dspace:
+Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas **DSPACE** basados en los siguientes elementos:
 
-- thesis.degree.name
-- thesis.degree.level
-- thesis.degree.discipline
-- thesis.degree.grantor
++----------------------------------------+------------------------+---------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE  | Calificadores | Nota de alcance                                                                                                                                                                        |
++========================================+========================+===============+========================================================================================================================================================================================+
+| ETD-MS                                 | thesis.degree ó thesis | name          | Título obtenido - Este campo se puede homologar semánticamente con la combinación de los campos: dc.description.degreename                                                             |
++----------------------------------------+------------------------+---------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ETD-MS                                 | thesis.degree ó thesis | level         | Nivel del estudio - Este campo se puede homologar semánticamente con la combinación de los campos: dc.description.degreeleve                                                           |
++----------------------------------------+------------------------+---------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ETD-MS                                 | thesis.degree ó thesis | discipline    | Nombre del programa o departamento. Este campo se puede homologar semánticamente con la combinación de los campos: dc.publisher.faculty, dc.publisher.department, dc.publisher.program |
++----------------------------------------+------------------------+---------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ETD-MS                                 | thesis.degree ó thesis | grantor       | Nombre de la institución que otorga el grado Este campo se puede homologar semánticamente con la combinación de los campos: dc.publisher (Institución)                                 |
++----------------------------------------+------------------------+---------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
+
+- Se recomienda específicamente crear los nuevos atributos/especificadores del campo **Tesis/Trabajo de grado** según la codificación propuesta.
