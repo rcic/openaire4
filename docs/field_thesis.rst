@@ -98,30 +98,30 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 
 **Esquema oai_dc**
 
-.. block-code:: xml
+.. code-block:: xml
    :linenos:
 
-   <dc:desciption>Administrador de Negocios Internacionales</dc:desciption>
-   <dc:publisher>Universidad de La Sabana</dc:publisher>
-   <dc:publisher>Administración de Negocios Internacionales</dc:publisher>
-   <dc:publisher>Escuela Internacional de Ciencias Económicas y Administrativas</dc:publisher>
+    <dc:desciption>Administrador de Negocios Internacionales</dc:desciption>
+    <dc:publisher>Universidad de La Sabana</dc:publisher>
+    <dc:publisher>Administración de Negocios Internacionales</dc:publisher>
+    <dc:publisher>Escuela Internacional de Ciencias Económicas y Administrativas</dc:publisher>
 
 **Esquema DataCite**
 
 .. block-code:: xml
    :linenos:
 
-   No aplica
+    No aplica
 
 **Esquema xoai**
 
 .. block-code:: xml
    :linenos:
 
-   <element name="publisher">
+    <element name="publisher">
      <element name="es_CO">
         <field name="value">Universidad de La Sabana</field>
-   </element>
+    </element>
 
     <element name="program">
          <element name="none">
@@ -153,7 +153,7 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 .. block-code:: xml
    :linenos:
 
-   <element name="thesis">
+    <element name="thesis">
           <element name="name">
                <element name="none">
                     <field name="value">Administrador de Negocios Internacionales</field>
@@ -165,7 +165,7 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
               <field name="value">Administración de Negocios Internacionales</field>
           </element>
      </element>
-   </element>
+    </element>
 
 
 **Esquema dim**
@@ -173,19 +173,19 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 .. block-code:: xml
    :linenos:
 
-   <dim:field mdschema="thesis" element="name" qualifier="" lang="spa">Fonoaudiología</dim:field>
-   <dim:field mdschema="thesis" element="level" qualifier="" lang="spa">Pregrado</dim:field>
-   <dim:field mdschema="thesis" element="discipline" qualifier="" lang="spa">Facultad de Ciencias de la Salud - Fonoaudiología</dim:field>
+    <dim:field mdschema="thesis" element="name" qualifier="" lang="spa">Fonoaudiología</dim:field>
+    <dim:field mdschema="thesis" element="level" qualifier="" lang="spa">Pregrado</dim:field>
+    <dim:field mdschema="thesis" element="discipline" qualifier="" lang="spa">Facultad de Ciencias de la Salud - Fonoaudiología</dim:field>
 
 **Esquema ETD-MS**
 
 .. block-code:: xml
    :linenos:
 
-   <thesis.degree.name>Administradora de Empresas</thesis.degree.name>
-   <thesis.degree.level>Tesis de pregrado</thesis.degree.level>
-   <thesis.degree.discipline>Facultad de Administración y Contaduría</thesis.degree.discipline>
-   <thesis.degree.grantor>Universidad Nacional de Colombia</thesis.degree.grantor>
+    <thesis.degree.name>Administradora de Empresas</thesis.degree.name>
+    <thesis.degree.level>Tesis de pregrado</thesis.degree.level>
+    <thesis.degree.discipline>Facultad de Administración y Contaduría</thesis.degree.discipline>
+    <thesis.degree.grantor>Universidad Nacional de Colombia</thesis.degree.grantor>
 
 
 Niveles de aplicación para productos de investigación de Colciencias
