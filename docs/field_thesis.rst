@@ -99,7 +99,7 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 **Esquema oai_dc**
 
 .. code-block:: xml
-   :linenos:
+	:linenos:
 
     <dc:desciption>Administrador de Negocios Internacionales</dc:desciption>
     <dc:publisher>Universidad de La Sabana</dc:publisher>
@@ -109,16 +109,16 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 **Esquema DataCite**
 
 .. block-code:: xml
-   :linenos:
+	:linenos:
 
-    No aplica
+	No aplica
 
 **Esquema xoai**
 
 .. block-code:: xml
-   :linenos:
+	:linenos:
 
-    <element name="publisher">
+	<element name="publisher">
      <element name="es_CO">
         <field name="value">Universidad de La Sabana</field>
     </element>
@@ -151,9 +151,9 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 	</element>
 
 .. block-code:: xml
-   :linenos:
+	:linenos:
 
-    <element name="thesis">
+	 <element name="thesis">
           <element name="name">
                <element name="none">
                     <field name="value">Administrador de Negocios Internacionales</field>
