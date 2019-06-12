@@ -119,7 +119,7 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 
 **Esquema xoai**
 
-.. block-code:: xml
+.. code-block:: xml
    :linenos:
 
     <element name="publisher">
@@ -156,7 +156,7 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 
 ..
 
-.. block-code:: xml
+.. code-block:: xml
    :linenos:
 
     <element name="thesis">
@@ -177,7 +177,7 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 
 **Esquema dim**
 
-.. block-code:: xml
+.. code-block:: xml
    :linenos:
 
     <dim:field mdschema="thesis" element="name" qualifier="" lang="spa">Fonoaudiología</dim:field>
@@ -188,7 +188,7 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 
 **Esquema ETD-MS**
 
-.. block-code:: xml
+.. code-block:: xml
    :linenos:
 
     <thesis.degree.name>Administradora de Empresas</thesis.degree.name>
