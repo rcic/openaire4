@@ -96,13 +96,37 @@ Entidad que agrupa todas las entidades que financian proyectos de investigación
 +--------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | `Programa Nacional en Seguridad y Defensa <https://www.colciencias.gov.co/node/1130>`_                             | Generar capacidades nacionales para la creación, transferencia y uso de conocimiento en el sector, a partir de la integración de las Fuerzas Armadas y la Sociedad, en la búsqueda del desarrollo de tecnologías duales (civiles y militares) y otras acciones, que contribuyan tanto al desarrollo económico nacional, como a la consolidación de capacidades estratégicas, tácticas y operacionales de actores del sector, encaminadas a proteger la soberanía y la integridad territorial con el fin de establecer un ambiente de seguridad en la sociedad. |
 +--------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+**Tabla tomada de:** https://www.colciencias.gov.co/investigadores/programas-nacionales-ctei
 
++--------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Apropiación social | Descripción                                                                                                                                                                                                                                                                                                                                                                                               |
++====================+===========================================================================================================================================================================================================================================================================================================================================================================================================+
+| A Ciencia cierta   | Es una estrategia de Apropiación Social del Conocimiento en innovación social de Colciencias que reconoce las mejores experiencias desarrolladas por las comunidades haciendo uso de recursos científicos o tecnológicos, para dar solución a un problema o necesidad específica de su entorno, las cuales pueden ser compartidas y replicadas por otros ciudadanos para el beneficio de sus comunidades. |
++--------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+=====================================================
+Otros Programas                                      
+=====================================================
+Programa de Cienciometría (Grupos, Pares y Centros)  
+Programa de Difusión                                 
+Programa Ideas Para El Cambio                        
+Programa Jóvenes Investigadores                      
+Programa Nexo Global                                 
+Programa Ondas                                       
+Proyecto Colombia Bio                                
+Red Nacional de Información Científica               
+=====================================================
 
         - **Sub-Propiedad: Número de adjudicación (awardNumber) (O, 1):** Esta propiedad de uso opcional, incluye el número de adjudicación exclusivamente al nombre de la entidad. Esta propiedad está pensada como un complemento aclaratorio a la propiedad funderName.
+          
+          **NOTAS:**
+            - Para el caso de proyectos financiados por Colciencias, este atributo debe contener el  número de contrato del proyecto de investigación para proyectos financiados.
  
           - **Atributo: URI de adjudicación (arwardURI) (R, 0-1):** Este atributo permite especificar la URI de la página del proyecto proporcionada por el patrocinador para obtener más información de la adjudicación,  concesión ó  financiamiento (grant).
  
         - **Sub-Propiedad: Título de adjudicación (awardTitle) (R, 0-n):** Esta propiedad de uso opcional, incluye el título del proyecto, adjudicación o subvención.
+          
+        - **Sub-Propiedad: Costo del proyecto (awardCost) (R, 0-n):** Esta propiedad de uso opcional, incluye el costo (subvención) del proyecto asociado. Hace referencia al factor económico o a los recursos económicos utilizados para llevar a cabo el proyecto de investigación.
 
 Relaciones con otros campos
 ---------------------------
@@ -121,11 +145,13 @@ Ejemplos y ayudas
 Ayudas
 ++++++
 
-- **Nombre del Financiador:** Entidad financiadora del proyecto de investigación.  
-- Ej: Departamento Administrativo de Ciencia, Tecnología e Innovación – Colciencias.
-- Ej (ISNI): 0000 0001 0130 4813
-- Ej: (CrossrefFunder): http://doi.org/10.1023/a:1010537606969
-- Ej: (fundingStream): Programa Nacional de Ciencia, Tecnología e Innovación Agropecuaria
+- Ej: Departamento Administrativo de Ciencia, Tecnología e Innovación – Colciencias. **Nombre del Financiador:** Entidad financiadora del proyecto de investigación.  
+- Ej: **(fundingStream):** Programa Nacional de Ciencia, Tecnología e Innovación Agropecuaria
+- Ej: **(fundingStream):** Programa Nacional de CTel en Salud.
+- Ej **(ISNI):** 0000 0001 0130 4813
+- Ej: **(CrossrefFunder):** http://doi.org/10.1023/a:1010537606969
+- Ej: **(awardNumber):** 0005-2013. Número del contrato del proyecto. 
+- Ej: **(awardCost):** $50.000.000. Costo del proyecto.
 
 
 Ejemplo en XML (Interoperabilidad OAI-PMH)
@@ -232,6 +258,8 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 | Identificador de la financiación          | oaire.fundingReference | awardnumber      |                 |
 +-------------------------------------------+------------------------+------------------+-----------------+
 | Nombre de la convocatoria de financiación | oaire.fundingReference | awardtitle       |                 |
++-------------------------------------------+------------------------+------------------+-----------------+
+| Costos (subvenciones) del proyecto        | oaire.fundingReference | awardCost        |                 |
 +-------------------------------------------+------------------------+------------------+-----------------+
 
 **DSPACE 7.X o superior**
