@@ -113,10 +113,7 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 .. code-block:: xml
    :linenos:
 
-    <dc:desciption>Administrador de Negocios Internacionales</dc:desciption>
-    <dc:publisher>Universidad de La Sabana</dc:publisher>
-    <dc:publisher>Administración de Negocios Internacionales</dc:publisher>
-    <dc:publisher>Escuela Internacional de Ciencias Económicas y Administrativas</dc:publisher>
+    No aplica
 
 ..
 
