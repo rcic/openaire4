@@ -104,6 +104,8 @@ Entidad que agrupa todas las entidades que financian proyectos de investigación
 | A Ciencia cierta   | Es una estrategia de Apropiación Social del Conocimiento en innovación social de Colciencias que reconoce las mejores experiencias desarrolladas por las comunidades haciendo uso de recursos científicos o tecnológicos, para dar solución a un problema o necesidad específica de su entorno, las cuales pueden ser compartidas y replicadas por otros ciudadanos para el beneficio de sus comunidades. |
 +--------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+..
+
 =====================================================
 Otros Programas                                      
 =====================================================
@@ -116,6 +118,8 @@ Programa Ondas
 Proyecto Colombia Bio                                
 Red Nacional de Información Científica               
 =====================================================
+
+..
 
         - **Sub-Propiedad: Número de adjudicación (awardNumber) (O, 1):** Esta propiedad de uso opcional, incluye el número de adjudicación exclusivamente al nombre de la entidad. Esta propiedad está pensada como un complemento aclaratorio a la propiedad funderName.
           
