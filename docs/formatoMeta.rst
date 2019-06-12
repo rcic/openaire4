@@ -20,8 +20,7 @@ Aunque el modelo de metadatos utilizado de manera predominante hasta el momento 
 +-------------------------------------------------------------+------------------------------------------+--------------------------------------------------------------------------+
 | OpenAire Specification Schema                               | oaire                                    | http://namespace.openaire.eu/schema/oaire/                               |
 +-------------------------------------------------------------+------------------------------------------+--------------------------------------------------------------------------+
-| Red Colombiana de Información científica                    | redcol                                   | http://redcol.colciencias.gov.co                                         |
-+-------------------------------------------------------------+------------------------------------------+--------------------------------------------------------------------------+
+
 
 La Red Colombiana de Información Científica espera que los metadatos utilizados los distintos sistemas de información que se adhieran a la iniciativa y se codifiquen siguiendo el formato de metadatos definido en el **“Perfil de la aplicación REDCOL”** que se presenta en este documento.
 
