@@ -207,17 +207,16 @@ Relaciones con otros modelos de metadatos
 
 El campo tesis del recurso de información fuente (thesis.degree) es utilizado por los siguientes esquemas de metadatos y puede intercambiarse su uso de manera indistinta mientras se conserven sus distintos niveles de atributos y especificadores de campo:
 
-+----------------------+---------------------------------------------------------+
-| Esquema de Metadatos | Campo Relacionado                                       |
-+======================+=========================================================+
-| marcxml              | field:502, 710                                          |
-+----------------------+---------------------------------------------------------+
-| dc                   | * thesis.degree.name: dc.description.degreename         |
-|                      | * thesis.degree.level: dc.description.degreelevel       |
-|                      | * thesis.degree.discipline: dc.publisher.faculty,       |
-|                      | dc.publisher.department, dc.publisher.program           |
-|                      | * thesis.degree.grantor: dc.publisher                   |
-+----------------------+---------------------------------------------------------+
++----------------------+-------------------------------------------------------------------------------------------------+
+| Esquema de Metadatos | Campo Relacionado                                                                               |
++======================+=================================================================================================+
+| marcxml              | field:502, 710                                                                                  |
++----------------------+-------------------------------------------------------------------------------------------------+
+| dc                   | * thesis.degree.name: dc.description.degreename                                                 |
+|                      | * thesis.degree.level: dc.description.degreelevel                                               |
+|                      | * thesis.degree.discipline: dc.publisher.faculty, dc.publisher.department, dc.publisher.program |
+|                      | * thesis.degree.grantor: dc.publisher                                                           |
++----------------------+-------------------------------------------------------------------------------------------------+
 
 Niveles semánticos
 ------------------
