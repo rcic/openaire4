@@ -54,11 +54,6 @@ Campo-OpenAIRE                             Elemento Metadata                   R
                                            * thesis.degree.level
                                            * thesis.degree.discipline
                                            * thesis.degree.grantor
-.. :ref:`dc.source.event`                     dc.source.event
-.. :ref:`redcol.publisher.nationalprograms`   redcol.publisher.nationalprograms    :ref:`national programs type <vocab:nationalprogramstype_nationalprogramstype>`
-.. :ref:`redcol.publisher.linkedcommunity`    redcol.publisher.linkedcommunity
-.. :ref:`redcol.financingcosts`               * redcol.financingcosts
-                                           * redcol.totalcost
 ========================================== =================================== ========================================================================================
 
 
@@ -105,9 +100,6 @@ Campo-OpenAIRE                             Elemento Metadata                   R
    field_citationconferencedate
    field_audience
    field_thesis
-   
-..   field_sourceevent field_publishernationalprograms field_publisherlinkedcommunity field_costs
-
 
 
 .. _WebDewey: http://dewey.org/webdewey/login/login.html
