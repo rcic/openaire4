@@ -106,18 +106,27 @@ Entidad que agrupa todas las entidades que financian proyectos de investigación
 
 ..
 
-=====================================================
-Otros Programas                                      
-=====================================================
-Programa de Cienciometría (Grupos, Pares y Centros)  
-Programa de Difusión                                 
-Programa Ideas Para El Cambio                        
-Programa Jóvenes Investigadores                      
-Programa Nexo Global                                 
-Programa Ondas                                       
-Proyecto Colombia Bio                                
-Red Nacional de Información Científica               
-=====================================================
+
++-----------------------------------------------------+
+| Otros Programas                                     |
++=====================================================+
+| Programa de Cienciometría (Grupos, Pares y Centros) |
++-----------------------------------------------------+
+| Programa de Difusión                                |
++-----------------------------------------------------+
+| Programa Ideas Para El Cambio                       |
++-----------------------------------------------------+
+| Programa Jóvenes Investigadores                     |
++-----------------------------------------------------+
+| Programa Nexo Global                                |
++-----------------------------------------------------+
+| Programa Ondas                                      |
++-----------------------------------------------------+
+| Proyecto Colombia Bio                               |
++-----------------------------------------------------+
+| Red Nacional de Información Científica              |
++-----------------------------------------------------+
+
 
 ..
 
