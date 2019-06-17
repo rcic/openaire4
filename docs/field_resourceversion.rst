@@ -74,6 +74,7 @@ Relaciones con otros campos
 	- No confundir el campo de versión del recurso **(oaire:version)** con con el campo identificador relacionado **(datacite:relatedIdentifier)** en especial con los atributos: IsVersionOf, HasVersion, IsPreviousVersionOf, IsNewVersionOf
 	- No confundir el campo versión del recurso **(oaire:version)** con el campo descripción del recurso **(dc:description)**
 	- El campo de versión del recurso **(oaire:version),** está relacionado directamente con la fecha asociada al estado de publicación del recurso **(datacite:date),** en específico con el atributo dateType
+  - No confundir la versión del recurso de información **(oaire:version)** con la edición de publicación del mismo **(dc.description.edition)**
 
 Restricciones
 -------------
@@ -167,4 +168,9 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------------------
 
-	- Las versiones anteriores de las Directrices de OpenAIRE y Driver utilizaban el vocabulario info: eu-repo para los tipos de publicación. Se recomienda actualizar los valores del vocabulario anterior al nuevo vocabulario.
+	- Las versiones anteriores de las Directrices de OpenAIRE y Driver utilizaban el vocabulario info: eu-repo para los tipos de publicación. Se recomienda actualizar los valores del vocabulario anterior al nuevo vocabulario. Los valores anteriores de este vocabulario (obsoleto) son:
+
+=======================  ===================  ============
+Estado de Publicación    Driver/OpenaireV3    OpenAireV4  
+=======================  ===================  ============
+=======================  ===================  ============
