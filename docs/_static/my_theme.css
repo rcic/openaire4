@@ -239,6 +239,7 @@ h1 {
   border-color: var(--naranja);
 }
 
+/* override table width restrictions (ajustar las tablas y las muestre correctamente*/
 @media screen and (min-width: 767px) {
 
    .wy-table-responsive table td {
