@@ -124,11 +124,14 @@ Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
 
-+----------------------------------------+-----------------------+---------------+-----------------+
-| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores | Nota de alcance |
-+========================================+=======================+===============+=================+
-| publisher                              | dc.publisher          |               |                 |
-+----------------------------------------+-----------------------+---------------+-----------------+
++----------------------------------------+-----------------------+---------------+-------------------------------------------------------------------+
+| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores | Nota de alcance                                                   |
++========================================+=======================+===============+===================================================================+
+| publisher                              | dc.publisher          |               |                                                                   |
++----------------------------------------+-----------------------+---------------+-------------------------------------------------------------------+
+| publisher                              | dc.publisher          | place         | Lugar de producción, publicación, distribución, manufactura, etc. |
++----------------------------------------+-----------------------+---------------+-------------------------------------------------------------------+
+
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
