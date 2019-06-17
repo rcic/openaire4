@@ -611,26 +611,6 @@ Tipología del Contenido del Recurso                  dc.type                  c
 ===================================================  =======================  ====================  ==============================================================================================================
 
 
-+---------------------------------------------------+-----------------------+---------------+-------------------------------------------------------------------------------+
-| Vocabulario controlado OpenAire/RedCol            | Campo Elemento DSPACE | Calificadores | Nota de alcance                                                               |
-+===================================================+=======================+===============+===============================================================================+
-| Tipología Documental Normalizada COAR             | dc.type               | coar          | Incluir la URI                                                                |
-+---------------------------------------------------+-----------------------+---------------+-------------------------------------------------------------------------------+
-| Tipología Documental Normalizada Drive/OpenAireV3 | dc.type               | driver        | Campo Obsoleto, utilizar únicamente con fines de compatibilidad con versiones |
-|													|						|				| anteriores																	|
-+---------------------------------------------------+-----------------------+---------------+-------------------------------------------------------------------------------+
-| Tipología Documental Normalizada RedCol           |   dc.type             | redcol        | Incluir la URI NOTA: Se presenta equivalencia semántica para los campos       |
-|													|   dc.type				| colciencias	| dc.type.redcol y dc.type.colciencias											|
-+---------------------------------------------------+-----------------------+---------------+-------------------------------------------------------------------------------+
-| Tipología Documental Normalizada Local            |   dc.type             | local         | Incluir el Texto para Usuarios. NOTA:                                         |
-|													|   dc.type				|				|  Se presenta equivalencia semántica para los campos dc.type y dc.type.local	|
-|													|						|				|  Para este campo se recomienda utilizar el vocabulario propuesto para		    |
-|													|						|				| tipología documental local													|
-+---------------------------------------------------+-----------------------+---------------+-------------------------------------------------------------------------------+
-| Tipología del Contenido del Recurso               | dc.type               | content       | Utilizar vocabulario controlado                                               |
-+---------------------------------------------------+-----------------------+---------------+-------------------------------------------------------------------------------+
-
-
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------------------
 
