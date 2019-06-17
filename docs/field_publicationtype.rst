@@ -462,15 +462,16 @@ Utilice la etiqueta del término de tipo de recurso como valor. Utilice el **val
 +------+----------------------------------------+-----------------------------------------------------+--------------------------------------------------------------+
 |      |                                        | Revista                                             |                                                              |
 +------+----------------------------------------+-----------------------------------------------------+--------------------------------------------------------------+
-| 4    | Tesis y trabajos de grado              | Trabajo de grado - Monografía - Pregrado            |                                                              |
+| 4    | Tesis y trabajos de grado              | Tesis/Trabajo de grado - Monografía - Pregrado      |                                                              |
 +------+----------------------------------------+-----------------------------------------------------+--------------------------------------------------------------+
-|      |                                        | Trabajo de grado - Monografía - Especialización     |                                                              |
+|      |                                        | Tesis/Trabajo de grado - Monografía -               |                                                              |
+|      |                                        | Especialización                                     |                                                              |
 +------+----------------------------------------+-----------------------------------------------------+--------------------------------------------------------------+
-|      |                                        | Trabajo de grado - Monografía - Maestría            |                                                              |
+|      |                                        | Tesis/Trabajo de grado - Monografía - Maestría      |                                                              |
 +------+----------------------------------------+-----------------------------------------------------+--------------------------------------------------------------+
-|      |                                        | Trabajo de grado - Monografía - Doctorado           |                                                              |
+|      |                                        | Tesis/Trabajo de grado - Monografía - Doctorado     |                                                              |
 +------+----------------------------------------+-----------------------------------------------------+--------------------------------------------------------------+
-|      |                                        | Trabajo de grado - Monografía - PosDoctorado        |                                                              |
+|      |                                        | Tesis/Trabajo de grado - Monografía - PosDoctorado  |                                                              |
 +------+----------------------------------------+-----------------------------------------------------+--------------------------------------------------------------+
 | 5    | Videograbaciones y grabaciones sonoras | Grabaciones sonoras                                 |                                                              |
 +------+----------------------------------------+-----------------------------------------------------+--------------------------------------------------------------+
@@ -595,23 +596,71 @@ Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 
 Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
-  
-+-----------------------------------------+-----------------------+---------------+---------------------------------+
-| Vocabulario controlado OpenAire/RedCol  | Campo Elemento DSPACE | Calificadores | Nota de alcance                 |
-+=========================================+=======================+===============+=================================+
-| Tipología Documental Normalizada COAR   | dc.type               | coar          | Incluir la URI                  |
-+-----------------------------------------+-----------------------+---------------+---------------------------------+
-| Tipología Documental Normalizada RedCol | dc.type               | redcol        | Incluir la URI                  |
-+-----------------------------------------+-----------------------+---------------+---------------------------------+
-| Tipología Documental Normalizada Local  | dc.type               |               | Incluir el Texto para Usuarios  |
-+-----------------------------------------+-----------------------+---------------+---------------------------------+
-| Tipología del Contenido del Recurso     | dc.type               | content       | Utilizar vocabulario controlado |
-+-----------------------------------------+-----------------------+---------------+---------------------------------+
+
+
++---------------------------------------------------+-----------------------+---------------+-------------------------------------------------------------------------------+
+| Vocabulario controlado OpenAire/RedCol            | Campo Elemento DSPACE | Calificadores | Nota de alcance                                                               |
++===================================================+=======================+===============+===============================================================================+
+| Tipología Documental Normalizada COAR             | dc.type               | coar          | Incluir la URI                                                                |
++---------------------------------------------------+-----------------------+---------------+-------------------------------------------------------------------------------+
+| Tipología Documental Normalizada Drive/OpenAireV3 | dc.type               | driver        | Campo Obsoleto, utilizar únicamente con fines de compatibilidad con versiones |
+|													|						|				| anteriores																	|
++---------------------------------------------------+-----------------------+---------------+-------------------------------------------------------------------------------+
+| Tipología Documental Normalizada RedCol           | * dc.type             | redcol        | Incluir la URI NOTA: Se presenta equivalencia semántica para los campos       |
+|													| * dc.type				| colciencias	| dc.type.redcol y dc.type.colciencias											|
++---------------------------------------------------+-----------------------+---------------+-------------------------------------------------------------------------------+
+| Tipología Documental Normalizada Local            | * dc.type             | local         | Incluir el Texto para Usuarios. NOTA:                                         |
+|													| * dc.type				|				| * Se presenta equivalencia semántica para los campos dc.type y dc.type.local	|
+|													|						|				| * Para este campo se recomienda utilizar el vocabulario propuesto para		|
+|													|						|				| tipología documental local													|
++---------------------------------------------------+-----------------------+---------------+-------------------------------------------------------------------------------+
+| Tipología del Contenido del Recurso               | dc.type               | content       | Utilizar vocabulario controlado                                               |
++---------------------------------------------------+-----------------------+---------------+-------------------------------------------------------------------------------+
+
+
 
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------------------
 
 - Las versiones anteriores de las Directrices de OpenAIRE y Driver utilizaban el vocabulario info: eu-repo para los tipos de publicación.
+  
++-----------+-------------------------------------------------+------------+
+| Tipología | Driver/OpenaireV3                               | OpenAireV4 |
++===========+=================================================+============+
+|           | info:eu-repo/semantics/article                  |            |
++-----------+-------------------------------------------------+------------+
+|           | info:eu-repo/semantics/bachelorThesis           |            |
++-----------+-------------------------------------------------+------------+
+|           | info:eu-repo/semantics/masterThesis             |            |
++-----------+-------------------------------------------------+------------+
+|           | info:eu-repo/semantics/doctoralThesis           |            |
++-----------+-------------------------------------------------+------------+
+|           | info:eu-repo/semantics/book                     |            |
++-----------+-------------------------------------------------+------------+
+|           | info:eu-repo/semantics/bookPart                 |            |
++-----------+-------------------------------------------------+------------+
+|           | info:eu-repo/semantics/review                   |            |
++-----------+-------------------------------------------------+------------+
+|           | info:eu-repo/semantics/conferenceObject         |            |
++-----------+-------------------------------------------------+------------+
+|           | info:eu-repo/semantics/lecture                  |            |
++-----------+-------------------------------------------------+------------+
+|           | info:eu-repo/semantics/workingPaper             |            |
++-----------+-------------------------------------------------+------------+
+|           | info:eu-repo/semantics/preprint                 |            |
++-----------+-------------------------------------------------+------------+
+|           | info:eu-repo/semantics/report                   |            |
++-----------+-------------------------------------------------+------------+
+|           | info:eu-repo/semantics/annotation               |            |
++-----------+-------------------------------------------------+------------+
+|           | info:eu-repo/semantics/contributionToPeriodical |            |
++-----------+-------------------------------------------------+------------+
+|           | info:eu-repo/semantics/patent                   |            |
++-----------+-------------------------------------------------+------------+
+|           | info:eu-repo/semantics/other                    |            |
++-----------+-------------------------------------------------+------------+
+
+
 - Este conjunto de directrices está utilizando el elemento **resourceType** del esquema de metadatos DataCite MetadataKernel v4.2.
 - A dicho esquema se le adicionaron dos atributos para refinar el contenido del campo:
   
