@@ -610,8 +610,8 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 |													|   dc.type				| colciencias	| dc.type.redcol y dc.type.colciencias											|
 +---------------------------------------------------+-----------------------+---------------+-------------------------------------------------------------------------------+
 | Tipología Documental Normalizada Local            |   dc.type             | local         | Incluir el Texto para Usuarios. NOTA:                                         |
-|													|   dc.type				|				| * Se presenta equivalencia semántica para los campos dc.type y dc.type.local	|
-|													|						|				| * Para este campo se recomienda utilizar el vocabulario propuesto para		|
+|													|   dc.type				|				|  Se presenta equivalencia semántica para los campos dc.type y dc.type.local	|
+|													|						|				|  Para este campo se recomienda utilizar el vocabulario propuesto para		    |
 |													|						|				| tipología documental local													|
 +---------------------------------------------------+-----------------------+---------------+-------------------------------------------------------------------------------+
 | Tipología del Contenido del Recurso               | dc.type               | content       | Utilizar vocabulario controlado                                               |
