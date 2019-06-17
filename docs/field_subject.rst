@@ -9,7 +9,8 @@ Definición y alcance del campo
 ------------------------------
 Asunto, palabra clave, tema o frase que describe al recurso. Es un punto de acceso que tiene el recurso para ser consultado por el usuario. Puede elegir palabras más significativas evitando que sea demasiado general sino más específica. 
 
-Se recomienda el uso de términos controlados localizados en tesauros o listas de encabezamientos de materias. En caso de que no estén controladas utilice el punto y coma seguido del término y si este se repite debe utilizarse de la misma forma. 
+Se recomienda el uso de términos controlados localizados en tesauros o listas de encabezamientos de materias. En caso de que no estén controladas utilice el calificador de campo especial para registrar esta información.
+ 
 
 
 Niveles de persistencia (M/MA/R/O)
@@ -235,7 +236,7 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +========================================+==========================+===================+===================================================================================+
 |      **Descriptores libres**                                                                                                                                              |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| OpenAire                               | dc.subject               |                   |                                                                                   |
+| OpenAire                               | dc.subject               |                   | Texto Libre                                                                       |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | OpenAire                               | dc.subject               | proposal          | Descriptores no normalizados propuestos por el autor.                             |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
@@ -243,7 +244,7 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
 |             **Descriptores basados en vocabularios controlados**                                                                                                          |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| OpenAire                               | dc.subject               | armarc            |                                                                                   |
+| OpenAire                               | dc.subject               | armarc            | ARMARC                                                                            |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | OpenAire                               |                          | udc               | Clasificación Universal Decimal                                                   |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
@@ -259,11 +260,11 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | OpenAire                               | dc.subject               | ecm               | Encabezamientos de la Biblioteca Universidad Nacional Autónoma de México DGB/UNAM |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| OpenAire                               | dc.subject               | mesh              |                                                                                   |
+| OpenAire                               | dc.subject               | mesh              | Medical Subject Headings                                                          |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| OpenAire                               | dc.subject               | agrovoc           |                                                                                   |
+| OpenAire                               | dc.subject               | agrovoc           | Vocabulario Controlado desarrollado por FAO                                       |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| OpenAire                               | dc.subject               | decs              |                                                                                   |
+| OpenAire                               | dc.subject               | decs              | Descriptores en Ciencias de la salud - Bireme                                     |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | OpenAire                               | dc.subject               | unesco            |                                                                                   |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
