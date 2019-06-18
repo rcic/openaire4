@@ -7,7 +7,7 @@ Geo Location (Ubicación geográfica) (O)
 
 Definición y alcance del campo
 ------------------------------
-Este campo se utiliza para describir los lugares geográficos donde se llevaron a cabo las investigaciones o el lugar de referencia dentro del recurso (Región espacial o lugar con nombre donde se recopilaron los datos o sobre los cuales se enfocaron los datos.). Está información delimitará a cada producto o recurso de investigación y se podrán obtener con precisión la cantidad de investigaciones realizadas en un área geográfica delimitada.
+Este campo se utiliza para describir los lugares geográficos donde se llevaron a cabo las investigaciones o el lugar de referencia dentro del recurso (Región espacial o lugar con nombre donde se recopilaron los datos o sobre los cuales se enfocaron los datos.) ó lugar de publicación del recurso. Está información delimitará a cada producto o recurso de investigación y se podrán obtener con precisión la cantidad de investigaciones realizadas en un área geográfica delimitada.
 
 Niveles de persistencia (M/MA/R/O)
 ------------------------------------
@@ -94,10 +94,10 @@ Ejemplos y ayudas
 Ayudas
 ++++++
 
-  - Ej: dc.geoLocation.geoLocationPlace Frente a Banco Gordo  
-  - Ej: dc.geoLocation.geoLocationPoint -109.4566667 23.14166667
-  - Ej: dc.geoLocation.geoLocationBox -111.9816376 27.91061913 -111.98134240 27.91141073
-  - Ej: datacite.geolocation.geolocationPlace Jasper N.P. (N. Bdry.)
+  - **Ej: dc.geoLocation.geoLocationPlace:**  Frente a Banco Gordo  
+  - **Ej: dc.geoLocation.geoLocationPoint** -109.4566667 23.14166667
+  - **Ej: dc.geoLocation.geoLocationBox** -111.9816376 27.91061913 -111.98134240 27.91141073
+  - **Ej: datacite.geolocation.geolocationPlace** Jasper N.P. (N. Bdry.)
 
 Ejemplo en XML (Interoperabilidad OAI-PMH)
 ++++++++++++++++++++++++++++++++++++++++++
@@ -177,15 +177,15 @@ Relaciones con otros modelos de metadatos
 
 El campo ubicación geográfica **(datacite:geoLocation)** es utilizado por los siguientes esquemas de metadatos y puede intercambiarse su uso de manera indistinta mientras se conserven sus distintos niveles de atributos y especificadores de campo:
 
-+----------------------+-------------------+
-| Esquema de Metadatos | Campo Relacionado |
-+======================+===================+
-| dc                   | dc.               |
-+----------------------+-------------------+
-| dcterms              | dcterms.          |
-+----------------------+-------------------+
-| marcxml              | field:            |
-+----------------------+-------------------+
++----------------------+--------------------------+
+| Esquema de Metadatos | Campo Relacionado        |
++======================+==========================+
+| dc                   | dc.publisher (city)      |
++----------------------+--------------------------+
+| dcterms              | dcterms.publisher (city) |
++----------------------+--------------------------+
+| marcxml              | field: 260$a / 264$a     |
++----------------------+--------------------------+
 
 Niveles semánticos
 ------------------
