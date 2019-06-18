@@ -54,7 +54,8 @@ Utilice un período temporal o geográfico como valor del campo.
 Relaciones con otros campos
 ---------------------------
 
-No confundir la cobertura espacial de la que trata el contenido del recurso de información **(dc.coverage.spatial)** con la localización geográfica/espacial en la cual fue realizada la investigación, creados los documentos, tomados los datos y que deberían ser registrados en el campo **(datacite:geoLocation).** 
+* No confundir la cobertura espacial de la que trata el contenido del recurso de información **(dc.coverage.spatial)** con la localización geográfica/espacial en la cual fue realizada la investigación ó publicado el recurso de información, creados los documentos, tomados los datos y que deberían ser registrados en el campo **(datacite:geoLocation).** 
+* Para indicar el lugar de producción, publicación, distribución, manufactura, etc, utilice el campo **(dc.pubisher.place)**
 
 Restricciones
 -------------
