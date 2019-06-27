@@ -21,7 +21,7 @@ Repetible (R): **1-n veces**.
 
 ..
 
-Repita este campo utilizando los distintos atributos de idioma o tipo de título según se considere.
+Repita este campo utilizando las distintas propiedades/tipo de título con su correspondientes atributos de idioma según se considere.
 
 
 Esquema de metadatos
@@ -74,8 +74,8 @@ Relaciones con otros campos
 ---------------------------
 
   - El título de una colección o serie se debe ingresar en el campo dc.relation.ispartofseries
-  - El título anterior de un recursos de información se debe ingresar en el campo dc.relation.isversionof
-  - Título del documento anfitrión (Aplica para documentos analíticos), recomendado utilizar oaire:citationTitle
+  - El título anterior de un recurso de información se debe ingresar en el campo dc.relation.isversionof
+  - Para describir el título del documento anfitrión (Aplica para documentos analíticos), es recomendado utilizar oaire:citationTitle (https://redcol.readthedocs.io/es/latest/field_citationtitle.html)
 
 Restricciones
 -------------
@@ -86,11 +86,11 @@ Ejemplos y ayudas
 
 **Ayudas**
 
-- Título: Coloque el título del recurso tal como aparece en la obra. Ej: Acuerdos Paz en Colombia
-- Título alternativo: Coloque el título alternativo del recurso si lo tiene. Ej: Paz en Colombia. 
-- Título traducido: Coloque la traducción del título del recurso. Ej: Peace agreements in Colombia.
-- Variante del título: Es la forma de un título que aparece en diferentes partes del recurso y es diferente al título registrado en el campo datacite:title. Ej: Colombia y sus acuerdos de paz. 
-- Otro título: Ingrese un título adicional del recurso si aparece referenciado en el recurso. Ejemplo: Políticas de los acuerdos de paz en Colombia. 
+- **Título:** Coloque el título del recurso tal como aparece en la obra. Ej: Acuerdos Paz en Colombia
+- **Título alternativo:** Coloque el título alternativo del recurso si lo tiene. Ej: Paz en Colombia. 
+- **Título traducido:** Coloque la traducción del título del recurso. Ej: Peace agreements in Colombia.
+- **Variante del título:** Es la forma de un título que aparece en diferentes partes del recurso y es diferente al título registrado en el campo datacite:title. Ej: Colombia y sus acuerdos de paz. 
+- **Otro título:** Ingrese un título adicional del recurso si aparece referenciado en el recurso. Ejemplo: Políticas de los acuerdos de paz en Colombia. 
 
 **Ejemplo en XML  (Interoperabilidad OAI-PMH)**
 
