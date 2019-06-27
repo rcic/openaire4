@@ -8,7 +8,7 @@ Creator (Creador) (M)
 Definición y alcance del campo
 ------------------------------
 
-Es la entrada principal, que describe a la entidad(es) responsables por la creación del contenido del recurso. Esta entidad puede ser nombre de persona o corporativo/institucional o evento (Conferencia, reunión, etc.).
+Es la entrada principal, que describe a la entidad(es) responsable(s) por la creación del contenido del recurso. Esta entidad puede ser nombre de persona o corporativo/institucional o evento (Conferencia, reunión, etc.).
 
 En caso de múltiples entidades responsables de la creación del recurso, se debe repetir el elemento tantas veces como sea necesario
 
@@ -127,7 +127,7 @@ Relaciones con otros campos
 
 - No debe confundirse al creador (dc.creator) del recurso  con el colaborador (dc.contributor) incluidas sus especificadores de campo.
 - No debe confundirse al creador (dc.creator) del recurso  con la entidad responsable de la publicación (dc.publisher) del mismo.
-- Se aplica equivalencia semántica de los campos dc.creator con los campos (dc.contributor.author y dc.contributor.corpauthor / dc.contributor.corporatename)
+- Se aplica equivalencia semántica de los campos dc.creator con los campos (dc.contributor.author, dc.contributor.corporatename, dc.contributor.conferencename)
 
 Restricciones
 -------------
@@ -251,7 +251,7 @@ El campo **Autor (datacite:creator)** es utilizado por los siguientes esquemas d
 +======================+======================================+
 | dc                   | * dc.creator                         |  
 |                      | * dc.contributor.author              |   
-|                      | * dc.contributor.corporatenam        | 
+|                      | * dc.contributor.corporatename       | 
 |                      | * dc.contributor.conferencename      |  
 +----------------------+--------------------------------------+
 | dcterms              | * dcterms.creator                    | 
