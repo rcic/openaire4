@@ -603,8 +603,8 @@ Vocabulario controlado OpenAire/RedCol               Campo Elemento DSPACE    Ca
 ===================================================  =======================  ====================  ==============================================================================================================
 Tipología Documental Normalizada COAR                dc.type                  coar                  Incluir la URI                                                                                                
 Tipología Documental Normalizada Drive/OpenAireV3    dc.type                  driver                Campo Obsoleto, utilizar únicamente con fines de compatibilidad con versiones anteriores                      
-Tipología Documental Normalizada RedCol              dc.type dc.type          redcol colciencias    Incluir la URI NOTA: Se presenta equivalencia semántica para los campos dc.type.redcol y dc.type.colciencias  
-Tipología Documental Normalizada Local               dc.type dc.type          local                 Incluir el Texto para Usuarios. NOTA:
+Tipología Documental Normalizada RedCol              dc.type                  redcol colciencias    Incluir la URI NOTA: Se presenta equivalencia semántica para los campos dc.type.redcol y dc.type.colciencias  
+Tipología Documental Normalizada Local               dc.type                  local                 Incluir el Texto para Usuarios. NOTA:
 																									* Se presenta equivalencia semántica para los campos dc.type y dc.type.local
 																									* Para este campo se recomienda utilizar el vocabulario propuesto para tipología documental local                                                                         
 Tipología del Contenido del Recurso                  dc.type                  content               Utilizar vocabulario controlado                                                                               
