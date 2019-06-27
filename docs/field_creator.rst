@@ -268,7 +268,7 @@ El campo **Autor (datacite:creator)** es utilizado por los siguientes esquemas d
 Niveles semánticos
 ------------------
 - Este campo contempla la utilización de distintos **sistemas de gestión de autoridades de nombre** que normalizan semánticamente los autores. 
-- Cada registro presente en estos **sistemas de gestión de autoridades de nombre provee una Identificación persistente.**
+- Cada registro presente en estos **sistemas de gestión de autoridades de nombre provee una identificación persistente para cada autor.**
 - **Adicionalmente dichos sistemas proveen una URI única que debe ser enlazada y utilizada en el campo de metadatos asociado.**
 - **En su mayoría, los sistemas de gestión de autoridades de nombre** contemplan la exportación de registros en representaciones semánticas MADS/SKOS a través de formatos MARCXML, RDF, XML, N3, Turtle, JSON. 
 
@@ -294,18 +294,20 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 
 NOTAS:
 
-  - Los nombre de los calificadores de campos asociados a autor corporativo (dc.contributor.corporatename) y autor de evento/conferencia (dc.contributor.conferencename) han sido tomados de la ontología MADS provista por la Biblioteca del Congreso de los Estados Unidos (MADS/RDF Ontology - Metadata Authority Description Schema in RDF)
-  - DSPACE utiliza por defecto el campo “dc.contributor.author” en reemplazo de “dc.creator”  y todas sus funcionalidades se encuentran asociados a este primer campo.
-  - El uso del campo “dc.creator” (no es recomendado) ya que este campo se utiliza principalmente en procesos de cosecha por el protocolo OAI-PMH y cuando es requerido, es automáticamente convertido desde el campo dc.contributor.author.
-  - En DSPACE en la definición de las hojas de entrada que viene por defecto, se utiliza específicamente el campo “dc.contributor.author” y en registro de metadatos se muestra el siguiente mensaje asociado al campo “dc.creator”: Do not use; only for harvested [#]_
-  - Si desea utilizar en DSPACE por defecto el campo “dc.creator” se debe la configuración en el software empleado, para que no haya ningún problema durante el proceso de cosecha de metadatos. “Este es un problema muy común que genera rechazos cuando se deben cosechar registros y la transformación se puede hacer a varios niveles: Local, nacional regional” (LaReferencia, 2015).
-  - Con el fin de tener un alcance normalizado de las distintas propiedades y atributos (correos, afiliaciones, identificadores, etc..) asociadas a los autores, se recomienda utilizar la configuración de control de autoridades provista por DSPACE ó en su defecto incorporar características de sistema CRIS en DSPACE.
+  - Los nombre de los calificadores de campos asociados a autor corporativo (**dc.contributor.corporatename**) y autor de evento/conferencia (**dc.contributor.conferencename**) han sido tomados de la ontología MADS provista por la Biblioteca del Congreso de los Estados Unidos (MADS/RDF Ontology - Metadata Authority Description Schema in RDF)
+  - DSPACE utiliza por defecto el campo “**dc.contributor.author**” en reemplazo de “**dc.creator**”  y todas sus funcionalidades internas se encuentran asociados a este primer campo.
+  - Debido a lo anterior, No es recomendado el uso interno en DSPACE del campo “**dc.creator**” en los formularios de ingreso de datos. En DSPACE cuando el uso de este campo es requerido (Este campo se utiliza principalmente en procesos de cosecha por el protocolo OAI-PMH)es automáticamente convertido desde el campo "**dc.contributor.author**".
+  - En DSPACE en la definición de las hojas de entrada que viene por defecto, se utiliza específicamente el campo “**dc.contributor.author**” y en registro de metadatos se muestra el siguiente mensaje asociado al campo “**dc.creator**”: Do not use; only for harvested [#]_
+  - Si desea utilizar en DSPACE por defecto el campo “**dc.creator**” se debe cambiar la configuración y varios elementos del código fuente en el software empleado, para que no haya ningún problema durante el proceso de cosecha de metadatos. “Este es un problema muy común que genera rechazos cuando se deben cosechar registros y la transformación se puede hacer a varios niveles: Local, nacional regional” (LaReferencia, 2015).
+  - Con el fin de tener un alcance normalizado de las distintas propiedades y atributos (correos, afiliaciones, identificadores, etc..) asociadas a los autores, se recomienda utilizar la configuración de control de autoridades provista por DSPACE ó en su defecto incorporar características de sistema CRIS en DSPACE (**author profiles/ perfiles de autor**).
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
 
   - En las distintas directrices que han existido, siempre ha sido obligatorio el uso del campo autor aunque no se hace explícito contemplar las diferencias de los distintos tipos y características de los autores.
-  - En el sistema DSPACE en su instalación por defecto el campo autor viene con los campos dc.creator y dc.contributor.author 
+  - En el sistema DSPACE en su instalación por defecto el campo autor viene con los campos **dc.creator** y **dc.contributor.author** 
+  - Se recomienda implementar módulos de gestión de autoridades ó perfiles de usuario en DSPACE para diferenciar claramente la información que describe al recurso de la información que describe al autor del mismo.
+  - No es recomendable incorporar como metadatos descriptivos del "**recurso de información**", datos sensibles asociados al autor, como correo del autor, teléfonos, direcciones, afiliaciones, etc..
   - Se recomienda específicamente crear los nuevos atributos/especificadores del campo de autor según la codificación propuesta.
 
 
