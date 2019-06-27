@@ -75,7 +75,7 @@ Relaciones con otros campos
 
   - El título de una colección o serie se debe ingresar en el campo dc.relation.ispartofseries
   - El título anterior de un recurso de información se debe ingresar en el campo dc.relation.isversionof
-  - Para describir el título del documento anfitrión (Aplica para documentos analíticos), es recomendado utilizar oaire:citationTitle (https://redcol.readthedocs.io/es/latest/field_citationtitle.html)
+  - Para describir el título del documento anfitrión (Aplica para documentos analíticos), es recomendado utilizar oaire:citationTitle       (https://redcol.readthedocs.io/es/latest/field_citationtitle.html).
 
 Restricciones
 -------------
