@@ -249,6 +249,6 @@ h1 {
    }
 
    .wy-table-responsive {
-      /*overflow: visible !important;*/
+      overflow: visible !important;
    }
 }
