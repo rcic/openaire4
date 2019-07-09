@@ -240,7 +240,7 @@ h1 {
 }
 
 /* override table width restrictions (ajustar las tablas y las muestre correctamente*/
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 600px) {
 
    .wy-table-responsive table td {
       /* !important prevents the common CSS stylesheets from overriding
