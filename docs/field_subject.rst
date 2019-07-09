@@ -73,7 +73,7 @@ Entidad que agrupa todos los descriptores del recurso.
 +-------------------------+------------------------------------------------------------------------------+------------------------+
 | lcc                     | Clasificación de la Biblioteca del Congreso de EE.UU                         | datacite               |
 +-------------------------+------------------------------------------------------------------------------+------------------------+
-| lcsh                    | Listado de encabezamiento de materias de la Biblioteca del Congreso de EE.UU |                        |
+| lcsh                    | Listado de encabezamiento de materias de la Biblioteca del Congreso de EE.UU | datacite               |
 +-------------------------+------------------------------------------------------------------------------+------------------------+
 | lem                     | Lista de encabezamientos de materia de la Biblioteca Nacional de España      | datacite               |
 +-------------------------+------------------------------------------------------------------------------+------------------------+
@@ -244,11 +244,11 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
 |             **Descriptores basados en vocabularios controlados**                                                                                                          |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| OpenAire                               | dc.subject               | armarc            | ARMARC                                                                            |
+| OpenAire                               | dc.subject               | armarc            | Archivo en línea de autoridades de materia en español                             |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| OpenAire                               |                          | udc               | Clasificación Universal Decimal                                                   |
+| OpenAire                               | dc.subject               | udc               | Clasificación Universal Decimal                                                   |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| OpenAire                               | dc.subject               | ddc               | Clasificación Dewey                                                               |
+| OpenAire                               | dc.subject               | ddc               | Clasificación Decimal Dewey                                                       |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | OpenAire                               | dc.subject               | lcc               | Clasificación Biblioteca del Congreso                                             |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
