@@ -141,7 +141,7 @@ El campo Fuente es utilizado por los siguientes esquemas de metadatos y puede in
 | Esquema de Metadatos | Campo Relacionado                    |
 +======================+======================================+
 | dc                   | * dc.source                          |
-|                      | * dc.soruce.bibliographicCitation    |
+|                      | * dc.source.bibliographicCitation    |
 +----------------------+--------------------------------------+
 | dcterms              | * dcterms.source                     |
 |                      | * dcterms.bibliographicCitation      |
