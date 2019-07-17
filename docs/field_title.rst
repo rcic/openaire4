@@ -195,8 +195,8 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
 
-- En las distintas directrices que han existido, siempre ha sido obligatorio el uso del campo título. 
-- En el sistema DSPACE en su instalación por defecto viene con los campo dc.title y dc.title.alternative.
+- En las distintas directrices que han existido, siempre ha sido obligatorio el uso del campo título.
+- En el sistema DSPACE en su instalación por defecto viene con los campo **dc.title** y **dc.title.alternative.** 
 - Se recomienda específicamente crear los nuevos atributos/especificadores de campo de título según la codificación propuesta.
 
 
