@@ -243,7 +243,26 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +----------------------------------------+-----------------------+---------------+--------------------------------------------------------------------------------+
 | Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores | Nota de alcance                                                                |
 +========================================+=======================+===============+================================================================================+
-| Identificador Alternativo Normalizado  | dc.identifier         | ark           |                                                                                |
+| Identificador Alternativo Normalizado  | dc.identifier         | - ark         |                                                                                |
+|                                        |                       | - arxiv       |                                                                                |
+|                                        |                       | - bibcode     |                                                                                |
+|                                        |                       | - doi         |                                                                                |
+|                                        |                       | - ean13       |                                                                                |
+|                                        |                       | - eissn       |                                                                                |
+|                                        |                       | - handle      |                                                                                |
+|                                        |                       | - igsn        |                                                                                |
+|                                        |                       | - isbn        |                                                                                |
+|                                        |                       | - issn        |                                                                                |
+|                                        |                       | - istc        |                                                                                |
+|                                        |                       | - issn-l      |                                                                                |
+|                                        |                       | - lsid        |                                                                                |
+|                                        |                       | - pissn       |                                                                                |
+|                                        |                       | - pmid        |                                                                                |
+|                                        |                       | - purl        |                                                                                |
+|                                        |                       | - upc         |                                                                                |
+|                                        |                       | - url         |                                                                                |
+|                                        |                       | - urn         |                                                                                |
+|                                        |                       | - wos         |                                                                                |
 +----------------------------------------+-----------------------+---------------+--------------------------------------------------------------------------------+
 | Identificador Alternativo, Texto libre | dc.identifier         | citation      | Equivalente a: dc.relation.bibliographicCitation/dcterms.bibliographicCitation |
 +----------------------------------------+-----------------------+---------------+--------------------------------------------------------------------------------+
