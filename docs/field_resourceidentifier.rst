@@ -21,7 +21,7 @@ La mejor práctica recomendada es identificar el recurso por medio de una cadena
 
 **Notas:**
 
-- La resolución del identificador utilizado,  debe permitir dirigirse de manera unívoca al registro digital o una página de salto intermediaria que al final conlleve al registro.
+- La resolución del identificador utilizado debe permitir dirigirse de manera unívoca al registro digital o una página de salto intermediaria que al final conlleve al registro.
 - Este identificador no debe conducir al documento de texto completo asociado al registro.
 - Se recomienda utilizar direcciones URL estables y persistentes.
 - No confundir con Identificador alternativo (R), Identificador relacionado (R), Ubicación del archivo (MA) y Fuente (R).
@@ -96,8 +96,8 @@ Relaciones con otros campos
 - No debe confundirse el Identificador Primario **(datacite:Identifier)** del recurso con el  identificador relacionado **(datacite:relatedIdentifier)** del mismo.
 - No debe confundirse el Identificador Primario **(datacite:Identifier)** del recurso con el  identificador Alternativo **(datacite:alternateIdentifier)** del mismo.
 - No debe confundirse el Identificador Primario **(datacite:Identifier)** del recurso con el  campo **dc:relation** que permite **relacionar una versión del recurso con otra.**
-- No debe confundirse el Identificador Primario **(datacite:Identifier)** del recurso con el  campo **dc:identifier.citation** que permite almacenar la cita única del recursos en un formato de citación específico.
-- No debe confundirse el Identificador Primario **(datacite:Identifier)** del recurso con el  campo **dc:source.bibliographicCitation (dcterms.bibliographicCitation)** que contiene las citas bibliográficas del recurso de origen.
+- No debe confundirse el Identificador Primario **(datacite:Identifier)** del recurso con el  campo **dc:identifier.citation** que permite almacenar la cita única del recurso en un formato de citación específico.
+- No debe confundirse el Identificador Primario **(datacite:Identifier)** del recurso con el  campo **dc:identifier.bibliographicCitation (dcterms.bibliographicCitation)** que en DSPACE es utilizado como (dc.identifier.citation) y que contiene las cita bibliográfica que permite identificar el recurso de origen.
 
 Restricciones
 -------------
