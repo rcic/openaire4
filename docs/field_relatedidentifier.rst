@@ -236,7 +236,9 @@ Relaciones con otros campos
 	- Este campo tiene una estrecha relación con el campo **dc.relation,** ya que especifica una relación del recurso con otro recurso a través del uso de identificadores normalizados.
 	- En los campos **dc.relation** y sus respectivos calificadores, se puede complementar la información de la relación descrita en este campo utilizando texto libre.
 	- No debe confundirse el Identificador relacionado **(datacite:relatedIdentifier)** del recurso el identificador alternativo **(datacite:alternativeIdentifier)** del mismo.
-	- No debe confundirse el Identificador Relacionado **(datacite:relatedIdentifier)** del recurso (que contiene solo un identificador) con el  campo **dc:source.bibliographicCitation (dcterms.bibliographicCitation)** que contiene las citas bibliográficas completa del recurso de origen en un formato normalizado (ISO, APA,IEEE, Vancouver, etc..).
+	- No debe confundirse el Identificador Relacionado **(datacite:relatedIdentifier)** del recurso con el  campo **dc:identifier.bibliographicCitation (dcterms.bibliographicCitation)** que contiene la cita bibliográfica que identifica de manera unívoca al recurso de origen en un formato normalizado (ISO, APA,IEEE, Vancouver, etc..).
+	- Para la gestión de referencias bibliográficas **(dc.relation.references / dcterms.references)** se debe utilizar el atributo: Tipo de Relación **(relationType)** con el valor de vocabulario controlado **“References”.**
+
 
 Restricciones
 -------------
@@ -258,6 +260,12 @@ Ayudas
 	- Ej: (Nombre de la institución que provee el repositorio)(instname). Ej: Universidad de los Andes.
 	- Ej: (Nombre del Repositorio) (reponame). Ej: Séneca.
 	- Ej: (URL  del Repositorio) (repourl). Ej: https://repositorio.uniandes.edu.co 
+	- Ej: Citación bibliográfica (dc.relation.references / dcterms.references): 
+		- Altemeyer, B. (1981). Right-Wing Authoritarianism. Winnipeg: University of Manitoba Press.	
+		- Asún, R. A., Rdz-Navarro, K., & Alvarado, J. M. (2015). Developing Multidimensional Likert Scales Using Item Factor Analysis: The Case of Four-point Items. Sociological Methods & Research, 45(8), 744-749. doi: https://doi.org/10.1177/0049124114566716.
+		- Frank, R. H., & Bernanke, B. (2007). Principios de microeconomía. (3rd ed.). Boston, MA: McGraw-Hill/Irwin. 
+		- Barros, T. S., Torres, A. R. R., & Pereira, C. (2009). Psico-USF (Vol. 14 ). Universidade São Francisco. Recuperado de http://pepsic.bvsalud.org/scielo.php?script=sci_arttext&pid=S1413-82712009000100006.
+
 
 Ejemplo en XML (Interoperabilidad OAI-PMH)
 ++++++++++++++++++++++++++++++++++++++++++
@@ -269,6 +277,11 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 
    	<dc:relation>(BIB LVL) t-PRODUCCIÓN UGR</dc:relation>
    	<dc:relation>(ES-GrU)b13b2009100x-34cbua_ugr</dc:relation>
+
+.. code-block:: xml
+   :linenos:
+
+   <dc.relation.references>CEPAL. (2017). Panorama fiscal de américa latina. La movilización de recursos para el financiamiento del desarrollo sostenible </dc.relation.references>
 
 **Esquema DataCite**
 
@@ -306,6 +319,17 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
         </element>
     </element>
 
+.. code-block:: xml
+   :linenos:
+
+   	<element name="dcterms">
+      <element name="references">
+         <element name="spa">
+                 <field name="value">ABColombia, Corporación SISMA Mujer y The U.S. Office en Colombia (USOC) (2013). Colombia: Women, conflict – related sexual violence and the peace process. Recuperado de https://www.christianaid.org.uk/images/ABColombia-conflict-relatedsexual-violence-report.pdf</field>
+       </element> 
+     </element> 
+	</element>
+
 **Esquema dim**
 
 .. code-block:: xml
@@ -313,6 +337,11 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 
    	<dim:field mdschema="dc" element="relation" qualifier="isreferencedby">(BIB LVL) t-PRODUCCIÓN UGR</dim:field>
    	<dim:field mdschema="dc" element="relation" qualifier="isreferencedby">(ES-GrU)b13b2009100x-34cbua_ugr</dim:field>
+
+.. code-block:: xml
+   :linenos:
+
+   	<dim:field mdschema="dcterms" element="references" lang="spa">Arias, A. (2008). Multiculturalismo y Derechos Indígenas. El caso mexicano. México D.F: Comisión Nacional de los Derechos Humanos.</dim:field>
 
 
 Niveles de aplicación para productos de investigación de Colciencias
@@ -384,87 +413,87 @@ Recomendación de campos de aplicación en DSPACE
 
 Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
 
-	- Para especificar recursos relacionados a través de identificadores normalizados utilice **datacite.relatedIdentifier y los siguientes calificadores de campo**
+	- Para especificar recursos relacionados a través de identificadores normalizados ó utilizando texto libre, utilice el campo **dc.relation** y los siguientes calificadores de campo:
 	
 	+----------------------------------------+----------------------------+---------------------+-----------------+
 	| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE      | Calificadores       | Nota de alcance |
 	+========================================+============================+=====================+=================+
-	| IsCitedBy                              | datacite.relatedIdentifier | iscitedby           |                 |
+	| IsCitedBy                              | dc.relation                | iscitedby           |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsCitedBy                              | datacite.relatedIdentifier | cites               |                 |
+	| Cites                                  | dc.relation                | cites               |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsSupplementTo                         | datacite.relatedIdentifier | issupplementto      |                 |
+	| IsSupplementTo                         | dc.relation                | issupplementto      |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsSupplementedBy                       | datacite.relatedIdentifier | issupplementedby    |                 |
+	| IsSupplementedBy                       | dc.relation                | issupplementedby    |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsContinuedBy                          | datacite.relatedIdentifier | iscontinuedby       |                 |
+	| IsContinuedBy                          | dc.relation                | iscontinuedby       |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| Continues                              | datacite.relatedIdentifier | continues           |                 |
+	| Continues                              | dc.relation                | continues           |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsDescribedBy                          | datacite.relatedIdentifier | isdescribedby       |                 |
+	| IsDescribedBy                          | dc.relation                | isdescribedby       |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| Describes                              | datacite.relatedIdentifier | describes           |                 |
+	| Describes                              | dc.relation                | describes           |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| HasMetadata                            | datacite.relatedIdentifier | hasmetadata         |                 |
+	| HasMetadata                            | dc.relation                | hasmetadata         |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsMetadataFor                          | datacite.relatedIdentifier | ismetadatafor       |                 |
+	| IsMetadataFor                          | dc.relation                | ismetadatafor       |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| HasVersion                             | datacite.relatedIdentifier | hasversion          |                 |
+	| HasVersion                             | dc.relation                | hasversion          |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsVersionOf                            | datacite.relatedIdentifier | isversionof         |                 |
+	| IsVersionOf                            | dc.relation                | isversionof         |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsNewVersionOf                         | datacite.relatedIdentifier | isnewversionof      |                 |
+	| IsNewVersionOf                         | dc.relation                | isnewversionof      |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsPreviousVersionOf                    | datacite.relatedIdentifier | ispreviousversionof |                 |
+	| IsPreviousVersionOf                    | dc.relation                | ispreviousversionof |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsPartOf                               | datacite.relatedIdentifier | ispartof            |                 |
+	| IsPartOf                               | dc.relation                | ispartof            |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsPartOfSeries                         | datacite.relatedIdentifier | ispartofSeries      |                 |
+	| IsPartOfSeries                         | dc.relation                | ispartofSeries      |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| HasPart                                | datacite.relatedIdentifier | haspart             |                 |
+	| HasPart                                | dc.relation                | haspart             |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsReferencedBy                         | datacite.relatedIdentifier | isreferencedby      |                 |
+	| IsReferencedBy                         | dc.relation                | isreferencedby      |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| References                             | datacite.relatedIdentifier | references          |                 |
+	| References                             | dc.relation                | references          |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsDocumentedBy                         | datacite.relatedIdentifier | isdocumentedby      |                 |
+	| IsDocumentedBy                         | dc.relation                | isdocumentedby      |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| Documents                              | datacite.relatedIdentifier | documents           |                 |
+	| Documents                              | dc.relation                | documents           |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsCompiledBy                           | datacite.relatedIdentifier | iscompiledby        |                 |
+	| IsCompiledBy                           | dc.relation                | iscompiledby        |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| Compiles                               | datacite.relatedIdentifier | compiles            |                 |
+	| Compiles                               | dc.relation                | compiles            |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsVariantFormOf                        | datacite.relatedIdentifier | isvariantformof     |                 |
+	| IsVariantFormOf                        | dc.relation                | isvariantformof     |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsOriginalFormOf                       | datacite.relatedIdentifier | isoriginalformof    |                 |
+	| IsOriginalFormOf                       | dc.relation                | isoriginalformof    |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsIdenticalTo                          | datacite.relatedIdentifier | isidenticalto       |                 |
+	| IsIdenticalTo                          | dc.relation                | isidenticalto       |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsReviewedBy                           | datacite.relatedIdentifier | isreviewedby        |                 |
+	| IsReviewedBy                           | dc.relation                | isreviewedby        |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| Reviews                                | datacite.relatedIdentifier | reviews             |                 |
+	| Reviews                                | dc.relation                | reviews             |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsDerivedFrom                          | datacite.relatedIdentifier | isderivedfrom       |                 |
+	| IsDerivedFrom                          | dc.relation                | isderivedfrom       |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsSourceOf                             | datacite.relatedIdentifier | issourceof          |                 |
+	| IsSourceOf                             | dc.relation                | issourceof          |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| IsRequiredBy                           | datacite.relatedIdentifier | isrequiredby        |                 |
+	| IsRequiredBy                           | dc.relation                | isrequiredby        |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
-	| Requires                               | datacite.relatedIdentifier | requires            |                 |
+	| Requires                               | dc.relation                | requires            |                 |
 	+----------------------------------------+----------------------------+---------------------+-----------------+
 
 	**Nota:** 
-		- Para especificar el tipo de identificador utilizado **(relatedIdentifierType)** en el campo de **datacite.relatedIdentifier** el cual tiene asociado un vocabulario controlado (DOI, HANDLE, URI, etc..) se puede realizar por dos vías:
+		- Para especificar el tipo de identificador utilizado **(relatedIdentifierType)** en el campo de datacite.relatedIdentifier **(dc.relation)** el cual tiene asociado un vocabulario controlado (DOI, HANDLE, URI, etc..) se puede realizar por dos vías:
 
-			- Reutilizando el atributo **idioma** para almacenar el valor autorizado del tipo de identificador  que se muestra en DSPACE en el momento que se edita un ítem.
+			- Reutilizando el atributo **idioma** para almacenar el valor autorizado del tipo de identificador que se muestra en DSPACE en el momento que se edita un ítem.
 			
 .. image:: _static/doi1.jpg
    :scale: 80%
 
 ..
 
-   			- Utilizando como **prefijo** asociado al contenido del campo el valor autorizado del tipo de identificador seguido del signo “:”
+   			- Utilizando como **prefijo** asociado al contenido del campo el valor autorizado del tipo de identificador (Vocabulario controlado) seguido del signo “:”. Ejemplo para describir un recurso relacionado mediante un DOI, se escribe: 
 
 ..
 
@@ -473,75 +502,14 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 
 ..
    			
-   		- **Para especificar** recursos relacionados a través de texto libre utilice el campo dc.relation
+   		- **Para gestionar las referencias bibliográficas (bibliografía),** utilice  los campos dc.relation.references y/o dcterms.references
    		
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores       | Nota de alcance |
-   		+========================================+=======================+=====================+=================+
-   		| IsCitedBy                              | dc.relation           | iscitedby           |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| Cites                                  | dc.relation           | cites               |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsSupplementTo                         | dc.relation           | issupplementto      |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsSupplementedBy                       | dc.relation           | issupplementedby    |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsContinuedBy                          | dc.relation           | iscontinuedby       |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| Continues                              | dc.relation           | continues           |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsDescribedBy                          | dc.relation           | isdescribedby       |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| Describes                              | dc.relation           | describes           |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| HasMetadata                            | dc.relation           | hasmetadata         |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsMetadataFor                          | dc.relation           | ismetadatafor       |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| HasVersion                             | dc.relation           | hasversion          |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsVersionOf                            | dc.relation           | isversionof         |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsNewVersionOf                         | dc.relation           | isnewversionof      |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsPreviousVersionOf                    | dc.relation           | ispreviousversionof |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsPartOf                               | dc.relation           | ispartof            |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsPartOfSeries                         | dc.relation           | ispartofseries      |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| HasPart                                | dc.relation           | haspart             |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsReferencedBy                         | dc.relation           | isreferencedby      |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| References                             | dc.relation           | references          |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsDocumentedBy                         | dc.relation           | isdocumentedby      |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| Documents                              | dc.relation           | documents           |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsCompiledBy                           | dc.relation           | iscompiledby        |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| Compiles                               | dc.relation           | compiles            |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsVariantFormOf                        | dc.relation           | isvariantformof     |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsOriginalFormOf                       | dc.relation           | isoriginalformof    |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsIdenticalTo                          | dc.relation           | isidenticalto       |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsReviewedBy                           | dc.relation           | isreviewedby        |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| Reviews                                | dc.relation           | reviews             |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsDerivedFrom                          | dc.relation           | isderivedfrom       |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsSourceOf                             | dc.relation           | issourceof          |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| IsRequiredBy                           | dc.relation           | isrequiredby        |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
-   		| Requires                               | dc.relation           | requires            |                 |
-   		+----------------------------------------+-----------------------+---------------------+-----------------+
++----------------------------------------+-----------------------+---------------+------------------------------------------------------------------------------------------------------------------+
+| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores | Nota de alcance                                                                                                  |
++========================================+=======================+===============+==================================================================================================================+
+| RedCol                                 | dc.relation           | references    | Cita bibliográfica. Se aplica equivalencia semántica para los campos dc.relation.references y dcterms.references |
+|                                        | dcterms               |               |                                                                                                					 |
++----------------------------------------+-----------------------+---------------+------------------------------------------------------------------------------------------------------------------+
 
    		- **Para especificar la relación del recurso de información respecto al repositorio y la institución (utilizado por LaReferencia),** utilice el campo dc.identifier con los siguientes calificadores
 
@@ -554,7 +522,6 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +---------------------------------------+-----------------------+---------------+------------------------------------------------------------------------+
 | repourl                               | dc.identifier         | repourl       | Utilice el prefijo: repourl:repourl: http://www.bdigital.unal.edu.co/  |
 +---------------------------------------+-----------------------+---------------+------------------------------------------------------------------------+
-
 
 
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
