@@ -507,21 +507,23 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +----------------------------------------+-----------------------+---------------+------------------------------------------------------------------------------------------------------------------+
 | Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores | Nota de alcance                                                                                                  |
 +========================================+=======================+===============+==================================================================================================================+
-| RedCol                                 | dc.relation           | references    | Cita bibliográfica. Se aplica equivalencia semántica para los campos dc.relation.references y dcterms.references |
-|                                        | dcterms               |               |                                                                                                					 |
+| RedCol                                 | dc.relation dcterms   | references    | Cita bibliográfica. Se aplica equivalencia semántica para los campos dc.relation.references y dcterms.references |
 +----------------------------------------+-----------------------+---------------+------------------------------------------------------------------------------------------------------------------+
 
    		- **Para especificar la relación del recurso de información respecto al repositorio y la institución (utilizado por LaReferencia),** utilice el campo dc.identifier con los siguientes calificadores
 
-+---------------------------------------+-----------------------+---------------+------------------------------------------------------------------------+
-| Vocabulario controlado OpenAire/RedCo | Campo Elemento DSPACE | Calificadores | Nota de alcance                                                        |
-+=======================================+=======================+===============+========================================================================+
-| instname                              | dc.identifier         | instname      | Utilice el prefijo: instname:instname:Universidad Nacional de Colombia |
-+---------------------------------------+-----------------------+---------------+------------------------------------------------------------------------+
-| reponame                              | dc.identifier         | reponame      | Utilice el prefijo: reponame:reponame:BDigital                         |
-+---------------------------------------+-----------------------+---------------+------------------------------------------------------------------------+
-| repourl                               | dc.identifier         | repourl       | Utilice el prefijo: repourl:repourl: http://www.bdigital.unal.edu.co/  |
-+---------------------------------------+-----------------------+---------------+------------------------------------------------------------------------+
++----------------------------------------+-----------------------+---------------+-------------------------------------------------------+
+| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores | Nota de alcance                                       |
++========================================+=======================+===============+=======================================================+
+| instname                               | dc.identifier         | instname      | Utilice el prefijo: instname:                         |
+|                                        |                       |               | instname:Universidad Nacional de Colombia             | 
++----------------------------------------+-----------------------+---------------+-------------------------------------------------------+
+| reponame                               | dc.identifier         | reponame      | Utilice el prefijo: reponame:                         |
+|                                        |                       |               | reponame:BDigital                                     |
++----------------------------------------+-----------------------+---------------+-------------------------------------------------------+
+| repourl                                | dc.identifier         | repourl       | Utilice el prefijo: repourl:                          |
+|                                        |                       |               | repourl: http://www.bdigital.unal.edu.co/             |
++----------------------------------------+-----------------------+---------------+-------------------------------------------------------+
 
 
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
