@@ -259,21 +259,25 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 
 **DSPACE 6.X o anteriores**
 
-+-------------------------------------------+------------------------+------------------+-----------------+
-| Vocabulario controlado OpenAire/RedCol    | Campo Elemento DSPACE  | Calificadores    | Nota de alcance |
-+===========================================+========================+==================+=================+
-| Nombre del financiador                    | oaire.fundingReference | fundername       |                 |
-+-------------------------------------------+------------------------+------------------+-----------------+
-| Identificador de financiador              | oaire.fundingReference | funderidentifier |                 |
-+-------------------------------------------+------------------------+------------------+-----------------+
-| Especificación de la financiación         | oaire.fundingReference | fundingstream    |                 |
-+-------------------------------------------+------------------------+------------------+-----------------+
-| Identificador de la financiación          | oaire.fundingReference | awardnumber      |                 |
-+-------------------------------------------+------------------------+------------------+-----------------+
-| Nombre de la convocatoria de financiación | oaire.fundingReference | awardtitle       |                 |
-+-------------------------------------------+------------------------+------------------+-----------------+
-| Costos (subvenciones) del proyecto        | oaire.fundingReference | awardCost        |                 |
-+-------------------------------------------+------------------------+------------------+-----------------+
++-------------------------------------------+---------------------+-----------------------+----------------------+-----------------+
+| Vocabulario controlado OpenAire/RedCol    | Modelo de Metadatos | Campo Elemento DSPACE | Calificadores        | Nota de alcance |
++===========================================+=====================+=======================+======================+=================+
+| Nombre del financiador                    | oaire               | fundername            |                      |                 |
++-------------------------------------------+---------------------+-----------------------+----------------------+-----------------+
+| Identificador de financiador              | oaire               | funderidentifier      | - ISNI               |                 |
+|                                           |                     |                       | - GRID               |                 |
+|                                           |                     |                       | - Crossref Funder    |                 |
+|                                           |                     |                       | - Local              |                 |
+|                                           |                     |                       | - Other              |                 |
++-------------------------------------------+---------------------+-----------------------+----------------------+-----------------+
+| Especificación de la financiación         | oaire               | fundingstream         |                      |                 |
++-------------------------------------------+---------------------+-----------------------+----------------------+-----------------+
+| Identificador de la financiación          | oaire               | awardnumber           |                      |                 |
++-------------------------------------------+---------------------+-----------------------+----------------------+-----------------+
+| Nombre de la convocatoria de financiación | oaire               | awardtitle            |                      |                 |
++-------------------------------------------+---------------------+-----------------------+----------------------+-----------------+
+| Costos (subvenciones) del proyecto        | oaire               | awardCost             |                      |                 |
++-------------------------------------------+---------------------+-----------------------+----------------------+-----------------+
 
 **DSPACE 7.X o superior**
 
@@ -309,7 +313,7 @@ Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, L
 +----------------+-------------------------+
 | Funder         | funderName              |
 +----------------+-------------------------+
-| FundingProgram |                         |
+| FundingProgram | fundingStream           |
 +----------------+-------------------------+
 | ProjectNumber  | awardNumber             |
 +----------------+-------------------------+
