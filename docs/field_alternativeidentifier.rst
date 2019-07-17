@@ -148,18 +148,29 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
    	<datacite:alternateIdentifier alternateIdentifierType="ISBN">978876543213</datacite:alternateIdentifier>
 	</datacite:alternateIdentifiers>
 
+.. code-block:: xml
+   :linenos:
+
+   	<datacite:alternateIdentifier identifierType="HANDLE">http://hdl.handle.net/10272/16239
+	</datacite:alternateIdentifier>
 
 .. code-block:: xml
    :linenos:
 
-   	<datacite:alternateIdentifier identifierType="HANDLE">http://hdl.handle.net/10272/16239</datacite:alternateIdentifier>
-
+   	<datacite:alternateIdentifiers>
+   	<datacite:alternateIdentifier alternateIdentifierType="DOI">10.1002/anie.201601750
+   	</datacite:alternateIdentifier>
 	<datacite:alternateIdentifiers>
-	<datacite:alternateIdentifier alternateIdentifierType="DOI">10.1002/anie.201601750</datacite:alternateIdentifier>
 
-	<datacite:alternateIdentifier alternateIdentifierType="ISSN">1433-7851</datacite:alternateIdentifier>
+.. code-block:: xml
+   :linenos:
 
-	<datacite:alternateIdentifier alternateIdentifierType="ISSN">1521-3773 electrónico</datacite:alternateIdentifier>
+   	<datacite:alternateIdentifier alternateIdentifierType="ISSN">1433-7851</datacite:alternateIdentifier>
+
+.. code-block:: xml
+   :linenos:
+
+   	<datacite:alternateIdentifier alternateIdentifierType="ISSN">1521-3773 electrónico</datacite:alternateIdentifier>
 	</datacite:alternateIdentifiers>
 
 **Esquema xoai**
@@ -206,7 +217,8 @@ El campo Identificador Alternativo **(datacite:alternateIdentifier)** es utiliza
 +----------------------+-------------------------------------------------------------------+
 | Esquema de Metadatos | Campo Relacionado                                                 |
 +======================+===================================================================+
-| dc                   | * dc.identifier.doi                                               |
+| dc                   | * dc.identifier                                                   |
+|                      | * dc.identifier.doi                                               |
 |                      | * dc.identifier.local                                             |
 |                      | * dc.identifier.isbn                                              |
 |                      | * dc.identifier.issn                                              |
@@ -228,17 +240,16 @@ Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
 
-+----------------------------------------+-----------------------+----------------+----------------------+
-| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificardores | Nota de alcance      |
-+========================================+=======================+================+======================+
-| Identificador Alternativo              | identifier            | * doi      	  | funderIdentifiertype |
-|                                        |                       | * local    	  |                      |
-|                                        |                       | * isbn     	  |                      |
-|                                        |                       | * issn     	  |                      |
-|                                        |                       | * uri      	  |                      |
-|                                        |                       | * url      	  |                      |
-|                                        |                       | * other    	  |                      |
-+----------------------------------------+-----------------------+----------------+----------------------+
++----------------------------------------+-----------------------+---------------+--------------------------------------------------------------------------------+
+| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores | Nota de alcance                                                                |
++========================================+=======================+===============+================================================================================+
+| Identificador Alternativo Normalizado  | dc.identifier         | ark           |                                                                                |
++----------------------------------------+-----------------------+---------------+--------------------------------------------------------------------------------+
+| Identificador Alternativo, Texto libre | dc.identifier         | citation      | Equivalente a: dc.relation.bibliographicCitation/dcterms.bibliographicCitation |
++----------------------------------------+-----------------------+---------------+--------------------------------------------------------------------------------+
+| Otros Identificadores                  | dc.identifier         | other         | Texto Libre                                                                    |
++----------------------------------------+-----------------------+---------------+--------------------------------------------------------------------------------+
+
 
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------------------
