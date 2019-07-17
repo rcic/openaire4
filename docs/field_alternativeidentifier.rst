@@ -98,7 +98,7 @@ Propiedades, atributos y especificadores de campo
 +-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+
 | WOS                     | Número de acceso a la Web of Science, es una identificación asociada a cada registro del producto, formado por el número de acceso del productor y un número secuencial.                                                                                                        | datacite               |
 +-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+
-| OTHER                   | Otros tipos de identificadores alternativos del recurso.                                                                                                                                                                                                                        | RedCol               |
+| OTHER                   | Otros tipos de identificadores alternativos del recurso.                                                                                                                                                                                                                            | RedCol               |
 +-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+
 
 
@@ -146,6 +146,7 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
    	<datacite:alternateIdentifiers>
    	<datacite:alternateIdentifier alternateIdentifierType="ISBN">978876543213</datacite:alternateIdentifier>
 	</datacite:alternateIdentifiers>
+
 
 .. code-block:: xml
    :linenos:
