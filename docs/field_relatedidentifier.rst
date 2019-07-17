@@ -516,13 +516,13 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 | Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores | Nota de alcance                                       |
 +========================================+=======================+===============+=======================================================+
 | instname                               | dc.identifier         | instname      | Utilice el prefijo: instname:                         |
-|                                        |                       |               | * instname:Universidad Nacional de Colombia           | 
+|                                        |                       |               | - instname:Universidad Nacional de Colombia           | 
 +----------------------------------------+-----------------------+---------------+-------------------------------------------------------+
 | reponame                               | dc.identifier         | reponame      | Utilice el prefijo: reponame:                         |
-|                                        |                       |               | * reponame:BDigital                                   |
+|                                        |                       |               | - reponame:BDigital                                   |
 +----------------------------------------+-----------------------+---------------+-------------------------------------------------------+
 | repourl                                | dc.identifier         | repourl       | Utilice el prefijo: repourl:                          |
-|                                        |                       |               | * repourl: http://www.bdigital.unal.edu.co/           |
+|                                        |                       |               | - repourl: http://www.bdigital.unal.edu.co/           |
 +----------------------------------------+-----------------------+---------------+-------------------------------------------------------+
 
 
