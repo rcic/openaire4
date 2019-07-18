@@ -160,21 +160,10 @@ No aplica
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 
-Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas **DSPACE** basados en los siguientes elementos:
+En DSPACE, los archivos adjuntos al ´tiem que poseen el contenido completo y/o otros recursos anexos se almacena de manera independiente a los metadatos del registro y posee metadatos independientes específicos. Se recomienda utilizar el campo de metadatos asociado a la descripción del formato en DSPACE para almacenar el nivel de acceso a los mismos (Vocabulario Controlado).
 
-+----------------------------------------+-----------------------+--------------------+-------------------------------+
-| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores      | Nota de alcance               |
-+========================================+=======================+====================+===============================+
-| OpenAire                               | oaire:file            |                    | Ubicación del archivo general |
-+----------------------------------------+-----------------------+--------------------+-------------------------------+
-| OpenAire                               | oaire:file            | openaccess         | Acceso abierto                |
-+----------------------------------------+-----------------------+--------------------+-------------------------------+
-| OpenAire                               | oaire:file            | embargoedaccess    | Acceso embargado              |
-+----------------------------------------+-----------------------+--------------------+-------------------------------+
-| OpenAire                               | oaire:file            | restrictedaccess   | Acceso restringido            |
-+----------------------------------------+-----------------------+--------------------+-------------------------------+
-| OpenAire                               | oaire:file            | metadataonlyaccess | Acceso solo a metadatos       |
-+----------------------------------------+-----------------------+--------------------+-------------------------------+
+.. image:: _static/filelocation.png
+   :scale: 80%
 
 
 
