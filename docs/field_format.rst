@@ -39,7 +39,7 @@ Propiedades, atributos y especificadores de campo
 Relaciones con otros campos
 ---------------------------
 
-   - No confundir el formato del recurso **(dc.format)** con el tipo de recurso (oaire:resourceType)
+   - No confundir el formato del recurso **(dc.format)** con el tipo de recurso **(oaire:resourceType)**
    - No confundir el formato del recurso **(dc.format)** con el identificador del recurso (datacite:identifier).
 
 Restricciones
