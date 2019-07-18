@@ -71,10 +71,10 @@ Utilice un número de versión o la etiqueta del término de vocabulario como va
 Relaciones con otros campos
 ---------------------------
 
-  - No confundir el campo de versión del recurso **(oaire:version)** con el campo identificador relacionado **(datacite:relatedIdentifier)** en especial con los atributos: IsVersionOf, HasVersion, IsPreviousVersionOf, IsNewVersionOf
-  - No confundir el campo versión del recurso **(oaire:version)** con el campo descripción del recurso **(dc:description)**
-	- El campo de versión del recurso **(oaire:version),** está relacionado directamente con la fecha asociada al estado de publicación del recurso **(datacite:date),** en específico con el atributo dateType
-  - No confundir la versión del recurso de información **(oaire:version)** con la edición de publicación del mismo **(dc.description.edition)**
+- No confundir el campo de versión del recurso **(oaire:version)** con el campo identificador relacionado **(datacite:relatedIdentifier)** en especial con los atributos: IsVersionOf, HasVersion, IsPreviousVersionOf, IsNewVersionOf
+- No confundir el campo versión del recurso **(oaire:version)** con el campo descripción del recurso **(dc:description)**
+- El campo de versión del recurso **(oaire:version),** está relacionado directamente con la fecha asociada al estado de publicación del recurso **(datacite:date),** en específico con el atributo dateType
+- No confundir la versión del recurso de información **(oaire:version)** con la edición de publicación del mismo **(dc.description.edition)**
 
 Restricciones
 -------------
