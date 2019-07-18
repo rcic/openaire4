@@ -133,8 +133,7 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +========================================+=======================+===============+===================================================================================================+
 | OpenAire                               | dc.relation           | citationissue | Ejemplar de publicación. Se pueden utilizar cualquiera de los dos esquemas provistos (dc, oaire). |
 +----------------------------------------+-----------------------+---------------+---------------------------------------------------------------------------------------------------+
-| zzz                                    | oaire                 | citationIssue | Ejemplar de publicación. Se pueden utilizar cualquiera de los dos esquemas provistos (dc, oaire). |
-+----------------------------------------+-----------------------+---------------+---------------------------------------------------------------------------------------------------+
+
 
 
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
