@@ -135,8 +135,6 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +========================================+=======================+================+======================================================================================+
 | OpenAire                               | dc.relation           | citationvolume | Volumen de publicación. Se pueden utilizar cualquiera de los dos esquemas provistos. |
 +----------------------------------------+-----------------------+----------------+--------------------------------------------------------------------------------------+
-| OpenAire                               | oaire                 | citationVolume | Volumen de publicación. Se pueden utilizar cualquiera de los dos esquemas provistos. |
-+----------------------------------------+-----------------------+----------------+--------------------------------------------------------------------------------------+
 
 
 
