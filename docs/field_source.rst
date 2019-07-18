@@ -19,7 +19,8 @@ Recomendado (R)
 Niveles de ocurrencia (R / NR -  Cantidad Veces)
 ------------------------------------------------
 Repetible (R): **0-n veces**
-**Nota:** Repita este campo utilizando los distintos atributos de fuente según se considere.
+
+- **Nota:** Repita este campo utilizando los distintos atributos de fuente según se considere.
 
 ..
 
@@ -72,8 +73,6 @@ No aplica
 
 Ejemplos y ayudas
 -----------------
-
-**Esquema oai_dc**
 
 Ayudas
 ++++++
