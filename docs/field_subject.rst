@@ -77,7 +77,7 @@ Entidad que agrupa todos los descriptores del recurso.
 +-------------------------+------------------------------------------------------------------------------+------------------------+
 | lem                     | Lista de encabezamientos de materia de la Biblioteca Nacional de España      | datacite               |
 +-------------------------+------------------------------------------------------------------------------+------------------------+
-| lemb                    | Lista de encabezamientos de materia para biblioteca                          | datacite               |
+| lemb                    | Lista de encabezamientos de materia para biblioteca Luis Ángel Arango        | datacite               |
 +-------------------------+------------------------------------------------------------------------------+------------------------+
 | ecm                     | Catálogo de unión de autoridades de materia de México DGB/UNAM               | datacite               |
 +-------------------------+------------------------------------------------------------------------------+------------------------+
