@@ -394,27 +394,29 @@ Utilice la etiqueta del término de tipo de recurso como valor. Utilice el **val
 
 **Productos de actividades relacionadas con la Formación de Recurso Humano en CTeI**
 
-+-------------------------------------------------------+------------------------------------------+-------------------------------------------+
-| Dirección de Tesis de doctorado                       |                                          | https://purl.org/redcol/resource_type/TD  |
-+-------------------------------------------------------+------------------------------------------+-------------------------------------------+
-| Dirección de Trabajo de grado de maestría             |                                          | https://purl.org/redcol/resource_type/TM  |
-+-------------------------------------------------------+------------------------------------------+-------------------------------------------+
-| Dirección de Trabajos de grado de pregrado            |                                          | https://purl.org/redcol/resource_type/TP  |
-+-------------------------------------------------------+------------------------------------------+-------------------------------------------+
-| Proyecto de investigación y Desarrollo                |                                          | https://purl.org/redcol/resource_type/PID |
-+-------------------------------------------------------+------------------------------------------+-------------------------------------------+
-| Proyecto de investigación-Creación                    |                                          | https://purl.org/redcol/resource_type/PIC |
-+-------------------------------------------------------+------------------------------------------+-------------------------------------------+
-| Proyecto de extensión y responsabilidad social en CTI |                                          | https://purl.org/redcol/resource_type/PE  |
-+-------------------------------------------------------+------------------------------------------+-------------------------------------------+
-| Apoyo creación de cursos                              |                                          | https://purl.org/redcol/resource_type/AP  |
-+-------------------------------------------------------+------------------------------------------+-------------------------------------------+
-| Asesoría al programa Ondas                            |                                          | https://purl.org/redcol/resource_type/APO |
-+-------------------------------------------------------+------------------------------------------+-------------------------------------------+
++-------------------------------------------------------+-------------------------------------------+-------------------------------------------+------------------------------------------------------------------------+
+| Tipo Documental Específico Colciencias                | Valor Autorizado                          | Equivalente COAR                          | Notas                                                                  |
++=======================================================+===========================================+===========================================+========================================================================+
+| Dirección de Tesis de doctorado                       | https://purl.org/redcol/resource_type/TD  | http://purl.org/coar/resource_type/c_db06 |                                                                        |
++-------------------------------------------------------+-------------------------------------------+-------------------------------------------+------------------------------------------------------------------------+
+| Dirección de Trabajo de grado de maestría             | https://purl.org/redcol/resource_type/TM  | http://purl.org/coar/resource_type/c_bdcc |                                                                        |
++-------------------------------------------------------+-------------------------------------------+-------------------------------------------+------------------------------------------------------------------------+
+| Dirección de Trabajos de grado de pregrado            | https://purl.org/redcol/resource_type/TP  | http://purl.org/coar/resource_type/c_7a1f | Aplica exclusivamente para trabajos de grado con énfasis Investigativo |
++-------------------------------------------------------+-------------------------------------------+-------------------------------------------+------------------------------------------------------------------------+
+| Proyecto de investigación y Desarrollo                | https://purl.org/redcol/resource_type/PID |                                           |                                                                        |
++-------------------------------------------------------+-------------------------------------------+-------------------------------------------+------------------------------------------------------------------------+
+| Proyecto de investigación-Creación                    | https://purl.org/redcol/resource_type/PIC |                                           |                                                                        |
++-------------------------------------------------------+-------------------------------------------+-------------------------------------------+------------------------------------------------------------------------+
+| Proyecto de extensión y responsabilidad social en CTI | https://purl.org/redcol/resource_type/PE  |                                           |                                                                        |
++-------------------------------------------------------+-------------------------------------------+-------------------------------------------+------------------------------------------------------------------------+
+| Apoyo creación de cursos                              | https://purl.org/redcol/resource_type/AP  |                                           |                                                                        |
++-------------------------------------------------------+-------------------------------------------+-------------------------------------------+------------------------------------------------------------------------+
+| Asesoría al programa Ondas                            | https://purl.org/redcol/resource_type/APO |                                           |                                                                        |
++-------------------------------------------------------+-------------------------------------------+-------------------------------------------+------------------------------------------------------------------------+
 
 ..
 
-- **Tipología Documental Local:** Texto libre. Se sugiere utilizar este atributo como elemento regional/local asociado a la descripción de la tipología documental que indica el texto de despliegue al usuario final (humano). Con el fin de regular la cantidad de tipología documentales locales, se recomienda crear un listado ó vocabulario controlado de tipologías documentales. Se provee un ejemplo de vocabulario de tipologías documentales:
+- **Tipología Documental Local:** Texto libre. Se sugiere utilizar este atributo como elemento regional/local asociado a la descripción de la tipología documental que indica el texto de despliegue al **usuario final (humano).** Con el fin de regular la cantidad de tipología documentales locales, se recomienda crear un listado ó vocabulario controlado de tipologías documentales. Se provee un ejemplo de vocabulario de tipologías documentales:
 
 ..
 
@@ -573,9 +575,11 @@ Ejemplos y ayudas
 
 Niveles de aplicación para productos de investigación de Colciencias
 --------------------------------------------------------------------
-REDCOL ha desarrollado el siguiente vocabulario controlado acorde con los productos de investigación reconocidos y avalados por Colciencias y que se ciñe a los modelos semánticos provistos por DATACITE y OPENAIRE.  
+**REDCOL** ha desarrollado el siguiente vocabulario controlado acorde con los productos de investigación reconocidos y avalados por Colciencias y que se ciñe a los modelos semánticos provistos por **DATACITE y OPENAIRE.**  
 
-Los sistemas de información deben utilizar estos nuevos elementos para describir tipologías documentales que no se encuentran descritas en el **Vocabulario normalizado de Tipos Documentales OPENAIRE-COAR.** En este contexto, para describir estos tipos documentales asociados a los productos específicos de Colciencias,  para el campo anterior  se debe utilizar  el valor “other - http://purl.org/coar/resource_type/c_1843”  y posteriomente seleccionar el tipo documental específico del vocabulario.
+Para describir estos tipos documentales asociados a los productos específicos de Colciencias, los sistemas de información deben utilizar estos nuevos elementos para describir tipologías documentales propuestas para **REDCOL.**
+
+En el caso que no haya equivalencia en los **vocabularios de los productos documentales de REDCOL** con el **Vocabulario normalizado de Tipos Documentales OPENAIRE-COAR,**  se debe utilizar  en  **COAR** el valor “other - http://purl.org/coar/resource_type/c_1843”  y posteriomente seleccionar el tipo documental específico del vocabulario **REDCOL.**
 
 
 Relaciones con otros modelos de metadatos
@@ -607,17 +611,22 @@ Recomendación de campos de aplicación en DSPACE
 Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
 
 
-===================================================  =======================  ====================  ==============================================================================================================
-Vocabulario controlado OpenAire/RedCol               Campo Elemento DSPACE    Calificadores         Nota de alcance                                                                                               
-===================================================  =======================  ====================  ==============================================================================================================
-Tipología Documental Normalizada COAR                dc.type                  coar                  Incluir la URI                                                                                                
-Tipología Documental Normalizada Drive/OpenAireV3    dc.type                  driver                Campo Obsoleto, utilizar únicamente con fines de compatibilidad con versiones anteriores                      
-Tipología Documental Normalizada RedCol              dc.type                  redcol colciencias    Incluir la URI NOTA: Se presenta equivalencia semántica para los campos dc.type.redcol y dc.type.colciencias  
-Tipología Documental Normalizada Local               dc.type                  local                 Incluir el Texto para Usuarios. NOTA:
-																									* Se presenta equivalencia semántica para los campos dc.type y dc.type.local
-																									* Para este campo se recomienda utilizar el vocabulario propuesto para tipología documental local                                                                         
-Tipología del Contenido del Recurso                  dc.type                  content               Utilizar vocabulario controlado                                                                               
-===================================================  =======================  ====================  ==============================================================================================================
++---------------------------------------------------+-----------------------+--------------------+--------------------------------------------------------------------------------------------------------------+
+| Vocabulario controlado OpenAire/RedCol            | Campo Elemento DSPACE | Calificadores      | Nota de alcance                                                                                              |
++===================================================+=======================+====================+==============================================================================================================+
+| Tipología Documental Normalizada COAR             | dc.type               | coar               | Incluir la URI                                                                                               |
++---------------------------------------------------+-----------------------+--------------------+--------------------------------------------------------------------------------------------------------------+
+| Tipología Documental Normalizada Drive/OpenAireV3 | dc.type               | driver             | Campo Obsoleto, utilizar únicamente con fines de compatibilidad con versiones anteriores                     |
++---------------------------------------------------+-----------------------+--------------------+--------------------------------------------------------------------------------------------------------------+
+| Tipología Documental Normalizada RedCol           | dc.type               | redcol colciencias | Incluir la URI NOTA: Se presenta equivalencia semántica para los campos dc.type.redcol y dc.type.colciencias |
++---------------------------------------------------+-----------------------+--------------------+--------------------------------------------------------------------------------------------------------------+
+| Tipología Documental Normalizada Local            | dc.type               | local              | Incluir el Texto para Usuarios.                                                                              |
+|                                                   |                       |                    | - NOTA:                                                                                  |
+|                                                   |                       |                    | - Se presenta equivalencia semántica para los campos dc.type y dc.type.local                                                                          |
++---------------------------------------------------+-----------------------+--------------------+--------------------------------------------------------------------------------------------------------------+
+| Tipología del Contenido del Recurso               | dc.type               | content            | Utilizar vocabulario controlado                                                                              |
++---------------------------------------------------+-----------------------+--------------------+--------------------------------------------------------------------------------------------------------------+
+
 
 
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
