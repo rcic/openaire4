@@ -611,69 +611,74 @@ Recomendación de campos de aplicación en DSPACE
 Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
 
 
-+---------------------------------------------------+-----------------------+--------------------+--------------------------------------------------------------------------------------------------------------+
-| Vocabulario controlado OpenAire/RedCol            | Campo Elemento DSPACE | Calificadores      | Nota de alcance                                                                                              |
-+===================================================+=======================+====================+==============================================================================================================+
-| Tipología Documental Normalizada COAR             | dc.type               | coar               | Incluir la URI                                                                                               |
-+---------------------------------------------------+-----------------------+--------------------+--------------------------------------------------------------------------------------------------------------+
-| Tipología Documental Normalizada Drive/OpenAireV3 | dc.type               | driver             | Campo Obsoleto, utilizar únicamente con fines de compatibilidad con versiones anteriores                     |
-+---------------------------------------------------+-----------------------+--------------------+--------------------------------------------------------------------------------------------------------------+
-| Tipología Documental Normalizada RedCol           | dc.type               | redcol colciencias | Incluir la URI NOTA: Se presenta equivalencia semántica para los campos dc.type.redcol y dc.type.colciencias |
-+---------------------------------------------------+-----------------------+--------------------+--------------------------------------------------------------------------------------------------------------+
-| Tipología Documental Normalizada Local            | dc.type               | local              | Incluir el Texto para Usuarios.                                                                              |
-|                                                   |                       |                    | - NOTA:                                                                                  |
-|                                                   |                       |                    | - Se presenta equivalencia semántica para los campos dc.type y dc.type.local                                                                          |
-+---------------------------------------------------+-----------------------+--------------------+--------------------------------------------------------------------------------------------------------------+
-| Tipología del Contenido del Recurso               | dc.type               | content            | Utilizar vocabulario controlado                                                                              |
-+---------------------------------------------------+-----------------------+--------------------+--------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------+-----------------------+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Vocabulario controlado OpenAire/RedCol            | Campo Elemento DSPACE | Calificadores      | Nota de alcance                                                                                                                                                                                                   |
++===================================================+=======================+====================+===================================================================================================================================================================================================================+
+| Tipología Documental Normalizada COAR             | dc.type               | coar               | Incluir la URI                                                                                                                                                                                                    |
++---------------------------------------------------+-----------------------+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Tipología Documental Normalizada Drive/OpenAireV3 | dc.type               | driver             | Campo Obsoleto, utilizar únicamente con fines de compatibilidad con versiones anteriores                                                                                                                          |
++---------------------------------------------------+-----------------------+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Tipología Documental Normalizada RedCol           | dc.type               | redcol colciencias | Incluir la URI NOTA: Se presenta equivalencia semántica para los campos dc.type.redcol y dc.type.colciencias                                                                                                      |
++---------------------------------------------------+-----------------------+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Tipología Documental Normalizada Local            | dc.type               | local              | Incluir el Texto para Usuarios. NOTA: Se presenta equivalencia semántica para los campos dc.type y dc.type.local. Para este campo se recomienda utilizar el vocabulario propuesto para tipología documental local |
++---------------------------------------------------+-----------------------+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Tipología del Contenido del Recurso               | dc.type               | content            | Utilizar vocabulario controlado                                                                                                                                                                                   |
++---------------------------------------------------+-----------------------+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+**NOTAS:**
+
+- DSPACE utiliza el campo “dc.type” para hacer visibles/ocultos el despliegue  de algunos campos en función de este primer campo.
 
 
 
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------------------
 
-- Las versiones anteriores de las Directrices de OpenAIRE y Driver utilizaban el vocabulario info: eu-repo para los tipos de publicación.
+- Las versiones anteriores de las Directrices de OpenAIRE y Driver utilizaban el vocabulario info: eu-repo para los tipos de publicación. 
+- Por compatibilidad con este vocabulario controlado anterior, si los registros actualmente utilizados contienen dichos vocabularios, se recomienda mantenerlos y agregar los nuevos campos con los nuevos vocabularios propuestos (COAR, REDCOL, etc..). 
+- Los valores de tipologías que se manejaban en este vocabulario **INFO:EU-REPO** (ahora obsoleto) son:
   
-+-----------+-------------------------------------------------+------------+
-| Tipología | Driver/OpenaireV3                               | OpenAireV4 |
-+===========+=================================================+============+
-|           | info:eu-repo/semantics/article                  |            |
-+-----------+-------------------------------------------------+------------+
-|           | info:eu-repo/semantics/bachelorThesis           |            |
-+-----------+-------------------------------------------------+------------+
-|           | info:eu-repo/semantics/masterThesis             |            |
-+-----------+-------------------------------------------------+------------+
-|           | info:eu-repo/semantics/doctoralThesis           |            |
-+-----------+-------------------------------------------------+------------+
-|           | info:eu-repo/semantics/book                     |            |
-+-----------+-------------------------------------------------+------------+
-|           | info:eu-repo/semantics/bookPart                 |            |
-+-----------+-------------------------------------------------+------------+
-|           | info:eu-repo/semantics/review                   |            |
-+-----------+-------------------------------------------------+------------+
-|           | info:eu-repo/semantics/conferenceObject         |            |
-+-----------+-------------------------------------------------+------------+
-|           | info:eu-repo/semantics/lecture                  |            |
-+-----------+-------------------------------------------------+------------+
-|           | info:eu-repo/semantics/workingPaper             |            |
-+-----------+-------------------------------------------------+------------+
-|           | info:eu-repo/semantics/preprint                 |            |
-+-----------+-------------------------------------------------+------------+
-|           | info:eu-repo/semantics/report                   |            |
-+-----------+-------------------------------------------------+------------+
-|           | info:eu-repo/semantics/annotation               |            |
-+-----------+-------------------------------------------------+------------+
-|           | info:eu-repo/semantics/contributionToPeriodical |            |
-+-----------+-------------------------------------------------+------------+
-|           | info:eu-repo/semantics/patent                   |            |
-+-----------+-------------------------------------------------+------------+
-|           | info:eu-repo/semantics/other                    |            |
-+-----------+-------------------------------------------------+------------+
++-------------------------------+-------------------------------------------------+-------------------------------------------+
+| Tipología                     | Driver/OpenaireV3                               | OpenAireV4                                |
++===============================+=================================================+===========================================+
+| artículo científico           | info:eu-repo/semantics/article                  | http://purl.org/coar/resource_type/c_6501 |
++-------------------------------+-------------------------------------------------+-------------------------------------------+
+| proyecto fin de carrera       | info:eu-repo/semantics/bachelorThesis           | http://purl.org/coar/resource_type/c_7a1f |
++-------------------------------+-------------------------------------------------+-------------------------------------------+
+| trabajo final de máster       | info:eu-repo/semantics/masterThesis             | http://purl.org/coar/resource_type/c_bdcc |
++-------------------------------+-------------------------------------------------+-------------------------------------------+
+| tesis de doctorado            | info:eu-repo/semantics/doctoralThesis           | http://purl.org/coar/resource_type/c_db06 |
++-------------------------------+-------------------------------------------------+-------------------------------------------+
+| Libro                         | info:eu-repo/semantics/book                     | http://purl.org/coar/resource_type/c_2f33 |
++-------------------------------+-------------------------------------------------+-------------------------------------------+
+| Capítulo de Libro             | info:eu-repo/semantics/bookPart                 | http://purl.org/coar/resource_type/c_3248 |
++-------------------------------+-------------------------------------------------+-------------------------------------------+
+| Revisión, Crítica, Comentario | info:eu-repo/semantics/review                   | http://purl.org/coar/resource_type/c_efa0 |
++-------------------------------+-------------------------------------------------+-------------------------------------------+
+| Contribución a congreso       | info:eu-repo/semantics/conferenceObject         | http://purl.org/coar/resource_type/c_c94f |
++-------------------------------+-------------------------------------------------+-------------------------------------------+
+| Ponencia                      | info:eu-repo/semantics/lecture                  | http://purl.org/coar/resource_type/c_8544 |
++-------------------------------+-------------------------------------------------+-------------------------------------------+
+| Documento de Trabajo          | info:eu-repo/semantics/workingPaper             | http://purl.org/coar/resource_type/c_8042 |
++-------------------------------+-------------------------------------------------+-------------------------------------------+
+| Pre-Publicación               | info:eu-repo/semantics/preprint                 | http://purl.org/coar/resource_type/c_816b |
++-------------------------------+-------------------------------------------------+-------------------------------------------+
+| Reporte                       | info:eu-repo/semantics/report                   | http://purl.org/coar/resource_type/c_93fc |
++-------------------------------+-------------------------------------------------+-------------------------------------------+
+| Glosa (Nota de Texto)         | info:eu-repo/semantics/annotation               | http://purl.org/coar/resource_type/c_1162 |
++-------------------------------+-------------------------------------------------+-------------------------------------------+
+| Contribución a Revista        | info:eu-repo/semantics/contributionToPeriodical | http://purl.org/coar/resource_type/c_3e5a |
++-------------------------------+-------------------------------------------------+-------------------------------------------+
+| Patente                       | info:eu-repo/semantics/patent                   | http://purl.org/coar/resource_type/c_15cd |
++-------------------------------+-------------------------------------------------+-------------------------------------------+
+| Otros                         | info:eu-repo/semantics/other                    | http://purl.org/coar/resource_type/c_1843 |
++-------------------------------+-------------------------------------------------+-------------------------------------------+
 
 
-- Este conjunto de directrices está utilizando el elemento **resourceType** del esquema de metadatos DataCite MetadataKernel v4.2.
+- Este conjunto de directrices está utilizando el elemento resourceType del esquema de metadatos DataCite MetadataKernel v4.2. [#]_
 - A dicho esquema se le adicionaron dos atributos para refinar el contenido del campo:
-  
-  - El atributo **uri** para el concepto de tipo de recurso URI a este perfil de aplicación
-  - El atributo **resourceTypeContext** para determinar el contexto de aplicación de la tipología documental descrita.
+	- El atributo **uri** para el concepto de tipo de recurso URI a este perfil de aplicación
+	- El atributo **resourceTypeContext** para determinar el contexto de aplicación de la tipología documental descrita.
+
+.. [#] https://schema.datacite.org/meta/kernel-4.2/doc/DataCite-MetadataKernel_v4.2.pdf
 
