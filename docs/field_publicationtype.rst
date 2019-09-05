@@ -552,7 +552,7 @@ Ejemplos y ayudas
 .. code-block:: xml
    :linenos:
 
-   <oaire:resourceType resourceTypeGeneral="literature" resourceTypeContext="coar" uri="http://purl.org/coar/resource_type/c_6501">journal article</oaire:resourceType>
+   <oaire:resourceType resourceTypeGeneral="Text" resourceTypeContext="coar" uri="http://purl.org/coar/resource_type/c_6501">journal article</oaire:resourceType>
 
 **Esquema xaoi**
 
