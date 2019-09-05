@@ -146,7 +146,9 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +----------------------------------------+-----------------------+-----------------+------------------------------------------+
 | OpenAire                               | dc.rights             | creativecommons | URL a Creative Commons                   |
 +----------------------------------------+-----------------------+-----------------+------------------------------------------+
-| OpenAire                               | dc.rights             | license         | URL a un documento de licencia/Copyright |
+| OpenAire                               | dc.rights             | license         | URL a un documento de licencia/Copyright.| 
+|                                        |                       |                 | Se presenta equivalencia semántica con   |
+|                                        |                       |                 | dc.rights.uri                            |
 +----------------------------------------+-----------------------+-----------------+------------------------------------------+
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
