@@ -80,7 +80,7 @@ Entidad que agrupa todos los descriptores del recurso.
 | lemb                    | Lista de encabezamientos de materia para biblioteca Luis Ángel Arango        | datacite               |
 +-------------------------+------------------------------------------------------------------------------+------------------------+
 | ecm                     | Catálogo de unión de autoridades de materia de México DGB/UNAM               | datacite               |
-yt
++-------------------------+------------------------------------------------------------------------------+------------------------+
 | mesh                    | Lista de términos en temas médicos                                           | datacite               |
 +-------------------------+------------------------------------------------------------------------------+------------------------+
 | agrovoc                 | Vocabulario controlado de agricultura                                        | datacite               |
