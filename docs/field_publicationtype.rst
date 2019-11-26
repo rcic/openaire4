@@ -560,7 +560,7 @@ Ejemplos y ayudas
    :linenos:
 
    <element name="type">
-   <element name="es_ES">
+   <element name="spa">
      <field name="value">http://purl.org/coar/resource_type/c_7a1f</field>
    </element>
 	</element>
@@ -570,7 +570,7 @@ Ejemplos y ayudas
 .. code-block:: xml
    :linenos:
 
-   <dim:field mdschema="dc" element="type" lang="es_ES">http://purl.org/coar/resource_type/c_7a1f</dim:field>
+   <dim:field mdschema="dc" element="type"  qualifier="coar" lang="spa">http://purl.org/coar/resource_type/c_7a1f</dim:field>
 
 
 Niveles de aplicación para productos de investigación de Colciencias
