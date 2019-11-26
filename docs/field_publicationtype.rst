@@ -583,6 +583,7 @@ En el caso que no haya equivalencia en los **vocabularios de los productos docum
 
 Para el caso de artículos de revistas científicas, se ha hecho una alineación con las recomendaciones de categorías propuestas y utilizadas por **Publindex** con el fin de describir de manera adecuada las distintas categorías de artículos de revistas.
 
+.. tabularcolumns:: |\Y{0.2}|\Y{0.3}|\Y{0.3}|\Y{0.2}|
 
 +-------------------------------------------------------+--------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------+
 | Publindex                                             | RedCol                                           | OpenAire4                                                                     | OpenAire3                        |
