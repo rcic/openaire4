@@ -575,11 +575,15 @@ Ejemplos y ayudas
 
 Niveles de aplicación para productos de investigación de Colciencias
 --------------------------------------------------------------------
-**REDCOL** ha desarrollado el siguiente vocabulario controlado acorde con los productos de investigación reconocidos y avalados por Colciencias y que se ciñe a los modelos semánticos provistos por **DATACITE y OPENAIRE.**  
+**REDCOL** ha desarrollado un vocabulario controlado acorde con los productos de investigación reconocidos y avalados por Colciencias y que se ciñe a los modelos semánticos provistos por **DATACITE y OPENAIRE.**  
 
-Para describir estos tipos documentales asociados a los productos específicos de Colciencias, los sistemas de información deben utilizar estos nuevos elementos para describir tipologías documentales propuestas para **REDCOL.**
+Para describir estos tipos documentales asociados a los productos resultados de investigación reconocidos por Colciencias, los sistemas de información deben utilizar estos nuevos elementos para describir tipologías documentales propuestas para **REDCOL.**
 
 En el caso que no haya equivalencia en los **vocabularios de los productos documentales de REDCOL** con el **Vocabulario normalizado de Tipos Documentales OPENAIRE-COAR,**  se debe utilizar  en  **COAR** el valor “other - http://purl.org/coar/resource_type/c_1843”  y posteriomente seleccionar el tipo documental específico del vocabulario **REDCOL.**
+
+Para el caso de artículos de revistas científicas, se ha hecho una alineación con las recomendaciones de categorías propuestas y utilizadas por **Publindex** con el fin de describir de manera adecuada las distintas categorías de artículos de revistas.
+
+
 
 
 Relaciones con otros modelos de metadatos
