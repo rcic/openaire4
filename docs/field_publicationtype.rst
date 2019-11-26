@@ -131,7 +131,7 @@ Utilice la etiqueta del término de tipo de recurso como valor. Utilice el **val
 +-----------------------------------------------+-------------------------+
 | http://purl.org/coar/resource_type/c_dcae04bc | Artículo de revisión    |
 +-----------------------------------------------+-------------------------+
-| http://purl.org/coar/resource_type/c_beb9     | Papel de datos          |
+| http://purl.org/coar/resource_type/c_beb9     | Artículo de datos          |
 +-----------------------------------------------+-------------------------+
 | http://purl.org/coar/resource_type/c_3e5a     | Contribución a la       |
 |                                               | revista                 |
