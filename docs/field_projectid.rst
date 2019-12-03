@@ -137,9 +137,21 @@ Entidad que agrupa todas las entidades que financian proyectos de investigación
  
           - **Atributo: URI de adjudicación (arwardURI) (R, 0-1):** Este atributo permite especificar la URI de la página del proyecto proporcionada por el patrocinador para obtener más información de la adjudicación,  concesión ó  financiamiento (grant).
  
-        - **Sub-Propiedad: Título de adjudicación (awardTitle) (R, 0-n):** Esta propiedad de uso opcional, incluye el título del proyecto, adjudicación o subvención.
-          
+        - **Sub-Propiedad: Proyecto de Investigación / Título de adjudicación (awardTitle) (R, 0-n):** Esta propiedad de uso opcional, incluye el nombre del proyecto, adjudicación o subvención.
+ 
+           - **Atributo: ID del Proyecto de Investigación (arwardID) (R, 0-1):** Este atributo permite especificar un identificador normalizado asignado al proyecto de investigación.
+		   
+        - **Sub-Propiedad: Línea de Investigación  (awardArea) (R, 0-n):** Esta propiedad de uso opcional, incluye el nombre de la línea de investigación relacionada.
+ 
+           - **Atributo: ID de la Línea de Investigación (awardAreaID) (R, 0-1):** Este atributo permite especificar un identificador normalizado asignado a la línea de investigación.
+
+        - **Sub-Propiedad: Grupo de Investigación  (awardGroup) (R, 0-n):** Esta propiedad de uso opcional, incluye los nombres de los grupos de investigación relacionados.
+ 
+           - **Atributo: ID de la Línea de Investigación (awardGroupID) (R, 0-1):** Este atributo permite especificar un identificador normalizado asignado a cada grupo de investigación.
+
         - **Sub-Propiedad: Costo del proyecto (awardCost) (R, 0-n):** Esta propiedad de uso opcional, incluye el costo (subvención) del proyecto asociado. Hace referencia al factor económico o a los recursos económicos utilizados para llevar a cabo el proyecto de investigación.
+		
+		
 
 Relaciones con otros campos
 ---------------------------
