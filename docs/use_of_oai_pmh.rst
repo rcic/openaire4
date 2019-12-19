@@ -191,3 +191,12 @@ Los productos de investigación reconocidos en cada tipo según el modelo de med
 
 .. .. tabularcolumns:: |\Y{0.4}|\Y{0.1}|\Y{0.4}|\Y{0.1}|
 
+.. toctree::
+   :numbered:
+   :maxdepth: 1
+   :hidden:
+
+   prodResAct1
+   prodResAct2
+   prodResAct3
+   prodResAct4
