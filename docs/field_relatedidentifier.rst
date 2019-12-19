@@ -45,15 +45,6 @@ Revise la forma adecuada para ingresar el identificador relacionado con su debid
 
 Para la gestión de recursos relacionados se puede utilizar texto libre ó identificadores normalizados según los vocabularios predefinidos.
 
-**Para la gestión de la bibliografía (dc.relation.references)** ingrese las referencias bibliográficas del recurso. Se recomienda tomarlas tal cual como aparecen en el recurso. Ej: Loyola A, Tagami H, Bonaldi T, Roche D, Quivy JP, Imhof A, et al. The HP1alpha-CAF1-SetDB1-containing complex provides H3K9me1 for Suv39-mediated K9me3 in pericentric heterochromatin. EMBO Rep [Internet]. 2009 Jul;10(7):769–75.
-
-Para tener una guía de los estilos de citación, se recomienda revisar las siguientes normas:
-
-- **APA (American Psychological Association):**  Este estilo ya cuenta con seis ediciones y explica cómo se deben presentar artículos científicos: márgenes, fuente, tamaño de letra, uso de color, gráficas, tablas, y citación y referenciación. 
-- **ICONTEC:** Estas normas fueron definidas por el comité técnico del Instituto Colombiano de Normas Técnicas y Certificación, el cual es un organismo multinacional de carácter privado, dedicado a la gestión de la calidad en Colombia, Chile, Ecuador, El Salvador, Guatemala, Honduras y Perú.
-- **IEEE (Institute of Electrical and Electronics Engineers):** Este estilo de citación es definido por la asociación científica internacional de técnicos e ingenieros dedicados a la estandarización y desarrollo, es el más utilizado en áreas de ingeniería para todo tipo de documentos. 
-- **MLA (Modern Language Association):** Es un estilo y formato de citación bibliográfica para revistas, libros y otro tipo de textos académicos. Es utilizado principalmente en áreas de humanidades y artes,​ sobre todo en filosofía, crítica literaria, literatura comparada y en campos interdisciplinarios, como los estudios culturales.
-- **VANCOUVER:** Este estilo de citación válidas para todo tipo de documentos específico para las áreas de Ciencias de la Salud.
 
 Propiedades, atributos y especificadores de campo
 -------------------------------------------------
@@ -236,9 +227,9 @@ Relaciones con otros campos
 	- Este campo tiene una estrecha relación con el campo **dc.relation,** ya que especifica una relación del recurso con otro recurso a través del uso de identificadores normalizados.
 	- En los campos **dc.relation** y sus respectivos calificadores, se puede complementar la información de la relación descrita en este campo utilizando texto libre.
 	- No debe confundirse el Identificador relacionado **(datacite:relatedIdentifier)** del recurso el identificador alternativo **(datacite:alternativeIdentifier)** del mismo.
-	- No debe confundirse el Identificador Relacionado **(datacite:relatedIdentifier)** del recurso con el  campo **dc:identifier.bibliographicCitation (dcterms.bibliographicCitation)** que contiene la cita bibliográfica que identifica de manera unívoca al recurso de origen en un formato normalizado (ISO, APA,IEEE, Vancouver, etc..).
-	- Para la gestión de referencias bibliográficas **(dc.relation.references / dcterms.references)** se debe utilizar el atributo: Tipo de Relación **(relationType)** con el valor de vocabulario controlado **“References”.**
-
+	- Para la gestión de referencias bibliográficas **(dc.relation.references / dcterms.references)** se debe utilizar el atributo: Tipo de Relación **(relationType)** con el valor de vocabulario controlado **“References”.** Se desaconseja la utilización del campo **"dc.source.bibliographicCitation"** ya que no se encuentra normalizado. (https://www.dublincore.org/specifications/dublin-core/dc-citation-guidelines/)
+	- No debe confundirse el uso del campo de gestión de la Bibliografía de un recurso de información (Citas Bibliográficas) que se gestiona como elementos relacionados en el campo (datacite:relatedIdentifier(references) / dc.relation.references ) con el Identificador alternativo del Recurso mostrado como una cita Bibliográfica (dc:identifier.bibliographicCitation / dcterms.bibliographicCitation) y que contiene las cita bibliográfica que permite identificar el recurso de origen (identifica de manera unívoca al recurso de origen en un formato normalizado (ISO, APA,IEEE, Vancouver, etc..)).
+	
 
 Restricciones
 -------------
@@ -409,7 +400,17 @@ Niveles semánticos
 Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 
-**Para DSPACE 6.X y anteriores:**
+Para la gestión de la **bibliografía** se recomienda utilizar el campo **(dc.relation.references)**, allí se puede registrar las referencias bibliográficas del recurso en estilos de citación normalizados. Se recomienda tomarlas tal cual como aparecen en el recurso. Ej: Loyola A, Tagami H, Bonaldi T, Roche D, Quivy JP, Imhof A, et al. The HP1alpha-CAF1-SetDB1-containing complex provides H3K9me1 for Suv39-mediated K9me3 in pericentric heterochromatin. EMBO Rep [Internet]. 2009 Jul;10(7):769–75.
+
+Para tener una guía de los estilos de citación, se recomienda revisar las siguientes normas:
+
+- **APA (American Psychological Association):**  Este estilo ya cuenta con seis ediciones y explica cómo se deben presentar artículos científicos: márgenes, fuente, tamaño de letra, uso de color, gráficas, tablas, y citación y referenciación. 
+- **ICONTEC:** Estas normas fueron definidas por el comité técnico del Instituto Colombiano de Normas Técnicas y Certificación, el cual es un organismo multinacional de carácter privado, dedicado a la gestión de la calidad en Colombia, Chile, Ecuador, El Salvador, Guatemala, Honduras y Perú.
+- **IEEE (Institute of Electrical and Electronics Engineers):** Este estilo de citación es definido por la asociación científica internacional de técnicos e ingenieros dedicados a la estandarización y desarrollo, es el más utilizado en áreas de ingeniería para todo tipo de documentos. 
+- **MLA (Modern Language Association):** Es un estilo y formato de citación bibliográfica para revistas, libros y otro tipo de textos académicos. Es utilizado principalmente en áreas de humanidades y artes,​ sobre todo en filosofía, crítica literaria, literatura comparada y en campos interdisciplinarios, como los estudios culturales.
+- **VANCOUVER:** Este estilo de citación válidas para todo tipo de documentos específico para las áreas de Ciencias de la Salud.
+
+
 
 Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
 
