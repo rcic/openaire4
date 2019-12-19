@@ -226,9 +226,9 @@ Relaciones con otros campos
 
 	- Este campo tiene una estrecha relación con el campo **dc.relation,** ya que especifica una relación del recurso con otro recurso a través del uso de identificadores normalizados.
 	- En los campos **dc.relation** y sus respectivos calificadores, se puede complementar la información de la relación descrita en este campo utilizando texto libre.
-	- No debe confundirse el Identificador relacionado **(datacite:relatedIdentifier)** del recurso el identificador alternativo **(datacite:alternativeIdentifier)** del mismo.
+	- No debe confundirse el Identificador relacionado **(datacite.relatedIdentifier)** del recurso el identificador alternativo **(datacite.alternativeIdentifier)** del mismo.
 	- Para la gestión de referencias bibliográficas **(dc.relation.references / dcterms.references)** se debe utilizar el atributo: Tipo de Relación **(relationType)** con el valor de vocabulario controlado **“References”.** Se desaconseja la utilización del campo **"dc.source.bibliographicCitation"** ya que no se encuentra normalizado. (https://www.dublincore.org/specifications/dublin-core/dc-citation-guidelines/)
-	- No debe confundirse el uso del campo de gestión de la Bibliografía de un recurso de información (Citas Bibliográficas) que se gestiona como elementos relacionados en el campo (datacite:relatedIdentifier(references) / dc.relation.references ) con el Identificador alternativo del Recurso mostrado como una cita Bibliográfica (dc:identifier.bibliographicCitation / dcterms.bibliographicCitation) y que contiene las cita bibliográfica que permite identificar el recurso de origen (identifica de manera unívoca al recurso de origen en un formato normalizado (ISO, APA,IEEE, Vancouver, etc..)).
+	- No debe confundirse el uso del campo de gestión de la Bibliografía de un recurso de información (Citas Bibliográficas) que se gestiona como elementos relacionados en el campo (datacite.relatedIdentifier(references) / dc.relation.references ) con el Identificador alternativo del Recurso mostrado como una cita Bibliográfica (dc.identifier.bibliographicCitation / dcterms.bibliographicCitation / dc.identifier.citation) y que contiene las cita bibliográfica que permite identificar el recurso de origen (Identifica de manera unívoca al recurso de origen en un formato normalizado (ISO, APA,IEEE, Vancouver, etc..)).
 	
 
 Restricciones
