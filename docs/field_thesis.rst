@@ -235,23 +235,23 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +=================+========================+===============+========================================================================+
 | ETD-MS          | thesis.degree ó thesis | name          | Título obtenido -                                                      |
 |                 |                        |               | Este campo se puede homologar semánticamente con la combinación de:    |
-|                 |                        |               | - dc.description.degreename                                             |
+|                 |                        |               | - dc.description.degreename                                            |
 +-----------------+------------------------+---------------+------------------------------------------------------------------------+
 | ETD-MS          | thesis.degree ó thesis | level         | Nivel del estudio -                                                    |
 |                 |                        |               | Este campo se puede homologar semánticamente con la combinación de:    |
-|                 |                        |               | - dc.description.degreelevel                                            |
+|                 |                        |               | - dc.description.degreelevel                                           |
 +-----------------+------------------------+---------------+------------------------------------------------------------------------+
 | ETD-MS          | thesis.degree ó thesis | discipline    | Programa/Departamento/Facultad -                                       |
 |                 |                        |               |   Este campo se puede homologar semánticamente con la combinación de:  |
-|                 |                        |               | - dc.publisher.faculty                                                  |
-|                 |                        |               | - dc.publisher.department                                               |
-|                 |                        |               | - dc.publisher.program                                                  |
+|                 |                        |               | - dc.publisher.faculty                                                 |
+|                 |                        |               | - dc.publisher.department                                              |
+|                 |                        |               | - dc.publisher.program                                                 |
 |                 |                        |               |                                                                        |
 |                 |                        |               |                                                                        |
 +-----------------+------------------------+---------------+------------------------------------------------------------------------+
 | ETD-MS          | thesis.degree ó thesis | grantor       | Institución que otorga el grado -                                      |
 |                 |                        |               | Este campo se puede homologar semánticamente con la combinación de:    |
-|                 |                        |               | - dc.publisher (Institución)                                            |
+|                 |                        |               | - dc.publisher (Institución)                                           |
 +-----------------+------------------------+---------------+------------------------------------------------------------------------+
 
 
