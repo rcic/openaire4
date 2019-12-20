@@ -229,17 +229,30 @@ Recomendación de campos de aplicación en DSPACE
 Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas **DSPACE** basados en los siguientes elementos:
 
 
-+----------------------------------------+------------------------+---------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE  | Calificadores | Nota de alcance                                                                                                                                                                        |
-+========================================+========================+===============+========================================================================================================================================================================================+
-| ETD-MS                                 | thesis.degree ó thesis | name          | Título obtenido - Este campo se puede homologar semánticamente con la combinación de los campos: dc.description.degreename                                                             |
-+----------------------------------------+------------------------+---------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ETD-MS                                 | thesis.degree ó thesis | level         | Nivel del estudio - Este campo se puede homologar semánticamente con la combinación de los campos: dc.description.degreelevel                                                          |
-+----------------------------------------+------------------------+---------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ETD-MS                                 | thesis.degree ó thesis | discipline    | Nombre del programa o departamento. Este campo se puede homologar semánticamente con la combinación de los campos: dc.publisher.faculty, dc.publisher.department, dc.publisher.program |
-+----------------------------------------+------------------------+---------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ETD-MS                                 | thesis.degree ó thesis | grantor       | Nombre de la institución que otorga el grado Este campo se puede homologar semánticamente con la combinación de los campos: dc.publisher (Institución)                                 |
-+----------------------------------------+------------------------+---------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-----------------+------------------------+---------------+------------------------------------------------------------------------+
+| Vocabulario     | Campo Elemento DSPACE  | Calificadores | Nota de alcance                                                        |
+| OpenAire/RedCol |                        |               |                                                                        |
++=================+========================+===============+========================================================================+
+| ETD-MS          | thesis.degree ó thesis | name          | Título obtenido -                                                      |
+|                 |                        |               | Este campo se puede homologar semánticamente con la combinación de:    |
+|                 |                        |               | - dc.description.degreename                                             |
++-----------------+------------------------+---------------+------------------------------------------------------------------------+
+| ETD-MS          | thesis.degree ó thesis | level         | Nivel del estudio -                                                    |
+|                 |                        |               | Este campo se puede homologar semánticamente con la combinación de:    |
+|                 |                        |               | - dc.description.degreelevel                                            |
++-----------------+------------------------+---------------+------------------------------------------------------------------------+
+| ETD-MS          | thesis.degree ó thesis | discipline    | Programa/Departamento/Facultad -                                       |
+|                 |                        |               |   Este campo se puede homologar semánticamente con la combinación de:  |
+|                 |                        |               | - dc.publisher.faculty                                                  |
+|                 |                        |               | - dc.publisher.department                                               |
+|                 |                        |               | - dc.publisher.program                                                  |
+|                 |                        |               |                                                                        |
+|                 |                        |               |                                                                        |
++-----------------+------------------------+---------------+------------------------------------------------------------------------+
+| ETD-MS          | thesis.degree ó thesis | grantor       | Institución que otorga el grado -                                      |
+|                 |                        |               | Este campo se puede homologar semánticamente con la combinación de:    |
+|                 |                        |               | - dc.publisher (Institución)                                            |
++-----------------+------------------------+---------------+------------------------------------------------------------------------+
 
 
 
