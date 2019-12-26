@@ -115,9 +115,9 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 
    <dim:field mdschema="dc" element="coverage" element="spatial" lang="spa">Cali; Lat: 03 24 00 N degrees minutes; Lat: 3.4000 decimal degrees; Long: 076 30 00 W degrees minutes; Long: -76.5000 decimal degrees</dim:field>
 
-Niveles de aplicación para productos de investigación de Colciencias
+Niveles de aplicación para productos de investigación de MinCiencias
 --------------------------------------------------------------------
-Se aplica a todos los productos de Colciencias. 
+Se aplica a todos los productos de MinCiencias. 
 
 
 Relaciones con otros modelos de metadatos
