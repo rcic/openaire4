@@ -3,6 +3,8 @@
 Productos de actividades relacionadas con la Formación de Recurso Humano en CTeI
 --------------------------------------------------------------------------------
 
+
+.. tabularcolumns:: |C|R|
 +----------------------------------------------------------------+      
 | Tesis de doctorado                                             |
 +----------------------------------------------------------------+
@@ -23,16 +25,15 @@ Productos de actividades relacionadas con la Formación de Recurso Humano en CTe
 | Acompañamiento y asesorías de línea temática del Programa Ondas|
 +----------------------------------------------------------------+
 
-.. csv-table:: 
+.. csv-table:: dsfdsf
    :header: "Tipología Documental"
-   :widths: 80%
-
-"Tesis de doctorado"
-"Trabajo de grado de maestría"
-"Trabajo de pregrado"
-"Proyectos de Investigación y Desarrollo"
-"Proyectos de Investigación - Creación2
-"Proyectos (ID+I) con formación"
-"Proyecto extensión y de responsabilidad social en CTI"
-"Apoyo a programas y cursos de formación de investigadores"
-"Acompañamiento y asesorías de línea temática del Programa Ondas"
+   :widths: 80
+   "Tesis de doctorado"
+   "Trabajo de grado de maestría"
+   "Trabajo de pregrado"
+   "Proyectos de Investigación y Desarrollo"
+   "Proyectos de Investigación - Creación2
+   "Proyectos (ID+I) con formación"
+   "Proyecto extensión y de responsabilidad social en CTI"
+   "Apoyo a programas y cursos de formación de investigadores"
+   "Acompañamiento y asesorías de línea temática del Programa Ondas"
