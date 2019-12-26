@@ -3,12 +3,12 @@
    :name: img_header
 
 ###########################################################################################################################
-Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica (RedCol) 2019
+Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica (RedCol) 2020
 ###########################################################################################################################
 
 ..
 
-Documento en análisis de comentarios, consolidación y construcción de la versión oficial.
+Documento Final - Versión oficial. (Actualizado 07-01-2020)
 =================================================================
 
 ..
