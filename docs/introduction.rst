@@ -1,4 +1,4 @@
-.. _literature_intro:
+.. _introduction:
 
 Presentación
 ===============
@@ -10,5 +10,3 @@ Estos estándares permitirán consolidar una oferta de la producción científic
 Por otra parte, estarán enfocados en los productos de investigación propios de la institución, que se encuentren bajo licencia de acceso abierto o sean susceptibles de disponerse en acceso abierto y también de manera referencial teniendo en cuenta la “Guía para el reconocimiento y medición de grupos de investigación e investigadores de MinCiencias”  (MinCiencias, 2018). Esta guía está dirigida a los responsable técnicos de los repositorios institucionales de investigación para la construcción y mejoramiento de la calidad de los datos. 
 
 Este conjunto de directrices creadas por la Red Colombiana de Información Científica (RedCol) y que presenta MinCiencias son una propuesta en constante construcción, que se espera sea retroalimentada y ajustada permanentemente por toda la comunidad académica a medida que se reciban comentarios y aportes.
-
-
