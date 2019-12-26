@@ -4,7 +4,7 @@ Productos de actividades relacionadas con la Formación de Recurso Humano en CTe
 --------------------------------------------------------------------------------
 
 
-.. tabularcolumns:: |C|R|
+.. tabularcolumns:: |C|
 +----------------------------------------------------------------+      
 | Tesis de doctorado                                             |
 +----------------------------------------------------------------+
