@@ -18,15 +18,15 @@ Documento en análisis de comentarios, consolidación y construcción de la vers
    :numbered:
    :maxdepth: 1
 
-   introduction
-   use_of_oai_pmh
-   normatividadInter
-   interoperabilidad
-   descGenPer
-   vocabulario
-   glosario
-   anexos
-   bibliografia
+   introduction.rst
+   use_of_oai_pmh.rst
+   normatividadInter.rst
+   interoperabilidad.rst
+   descGenPer.rst
+   vocabulario.rst
+   glosario.rst
+   anexos.rst
+   bibliografia.rst
 
 .. image:: _static/encabezado.png
    :scale: 60%
