@@ -28,6 +28,6 @@ Documento en análisis de comentarios, consolidación y construcción de la vers
    anexos.rst
    bibliografia.rst
 
-.. image:: _static/encabezado.png
+.. image:: _static/logominciencias.png
    :scale: 60%
    :name: img_footer
