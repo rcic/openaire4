@@ -34,7 +34,7 @@ RDA (Recursos: descripción y acceso):
 	- Texto libre. Se recomienda utilizar un texto normalizado de la entidad que debe ser mostrado para el usuario final como valor.
 	- **Ámbito Profesional:** En este campo se puede utilizar para describir los ámbitos profesionales a los que estaría dirigido el recurso de información. Para este campo se recomienda utilizar el vocabulario propuesto por “Common Education Data Standards”: https://ceds.ed.gov/element/001492 
 	- **Nivel Educativo:** En este campo se puede describir el nivel educativo del usuario al que va dirigido el recurso. Para  definir  este  campo  se  debe  tener  en  cuenta  el  vocabulario  controlado  propuesto  por MinEducación y los atributos que lo componen.
-	- **Comunidad vinculada de Colciencias:** en este campo también hace referencia a las comunidades científicas, académicas, empresariales del país y demás que han estado adscritas o vinculadas a diferentes proyectos con **Colciencias.**
+	- **Comunidad vinculada de MinCiencias:** en este campo también hace referencia a las comunidades científicas, académicas, empresariales del país y demás que han estado adscritas o vinculadas a diferentes proyectos con **MinCiencias.**
 
 Propiedades, atributos y especificadores de campo
 -------------------------------------------------
@@ -88,7 +88,7 @@ Utilice el texto normalizado de la entidad como valor.
 			- Doctorado
 			- Posdoctorado
 
-	- **Comunidad vinculada de Colciencias:** Texto libre. Se recomienda describir en este campo las diversas comunidades científicas y profesionales que se impactan con el uso del recurso de información.
+	- **Comunidad vinculada de MinCiencias:** Texto libre. Se recomienda describir en este campo las diversas comunidades científicas y profesionales que se impactan con el uso del recurso de información.
 
 		- Ej: Comunidad científica colombiana
 		- Ej: Comunidad pesquera y acuícola
@@ -159,9 +159,9 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
    <dim:field mdschema="dcterms" element="audience" lang="eng">Teachers</dim:field>
 
 
-Niveles de aplicación para productos de investigación de Colciencias
+Niveles de aplicación para productos de investigación de MinCiencias
 --------------------------------------------------------------------
-Se aplica a todos los productos de Colciencias. 
+Se aplica a todos los productos de MinCiencias. 
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
@@ -185,7 +185,7 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +-----------------------------------------+-----------------------+-------------------------+------------------------------------------------------------------------------------------------+
 | OpenAire                                | dcterms.audience      | educationalcontext      | Nivel educativo del usuario al que va dirigido el recurso.                                     |
 +-----------------------------------------+-----------------------+-------------------------+------------------------------------------------------------------------------------------------+
-| OpenAire                                | dcterms.audience      | colciencias             | Coloque la comunidad vinculada que ha promovido los proyectos de investigación.                |
+| OpenAire                                | dcterms.audience      | MinCiencias             | Coloque la comunidad vinculada que ha promovido los proyectos de investigación.                |
 +-----------------------------------------+-----------------------+-------------------------+------------------------------------------------------------------------------------------------+
 
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)

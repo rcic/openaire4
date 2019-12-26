@@ -102,9 +102,9 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
    <dim:field mdschema="oaire" element="citationVolume" qualifier="" lang="spa">45</dim:field>
 
 
-Niveles de aplicación para  productos de investigación de Colciencias
+Niveles de aplicación para  productos de investigación de MinCiencias
 ---------------------------------------------------------------------
-Se aplica exclusivamente a todos los productos seriados de Colciencias que utilicen volumen de publicación.
+Se aplica exclusivamente a todos los productos seriados de MinCiencias que utilicen volumen de publicación.
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------

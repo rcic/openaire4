@@ -7,7 +7,7 @@ Para la construcción de servicios y productos de información digital, la Red C
 
 Para realizar un proceso de recolección de metadatos exitoso, se debe tener en cuenta las siguientes indicaciones:
 
-- Se recolectarán exclusivamente registros de metadatos asociados a los productos de información científica reconocidos y avalado por Colciencias.
+- Se recolectarán exclusivamente registros de metadatos asociados a los productos de información científica reconocidos y avalado por MinCiencias.
 
 - Estos productos de investigación deben ser el resultado de un proyecto de investigación financiado e identificado por un identificador de proyecto (Si lo posee).
 

@@ -96,9 +96,9 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
    <dim:field mdschema="oaire" element="citationConferencePlace" qualifier="" lang="spa">Villavicencio, Meta</dim:field>
 
 
-Niveles de aplicación para productos de investigación de Colciencias
+Niveles de aplicación para productos de investigación de MinCiencias
 --------------------------------------------------------------------
-Se aplica exclusivamente a todos los productos de Colciencias que estén relacionados con un **evento/congreso** del que se tenga la ubicación de realización del mismo. 
+Se aplica exclusivamente a todos los productos de MinCiencias que estén relacionados con un **evento/congreso** del que se tenga la ubicación de realización del mismo. 
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------

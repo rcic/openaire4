@@ -142,9 +142,9 @@ Ejemplos y ayudas
 ..
 
 
-Niveles de aplicación para  productos de investigación de Colciencias
+Niveles de aplicación para  productos de investigación de MinCiencias
 ---------------------------------------------------------------------
-Se aplica a todos los productos de investigación reconocidos por Colciencias. 
+Se aplica a todos los productos de investigación reconocidos por MinCiencias. 
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------

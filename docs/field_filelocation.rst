@@ -88,7 +88,7 @@ Ayudas
 ++++++
 
 	- Ej: oaire.file.openaccess: https://revistas.uptc.edu.co/index.php/rastrosyrostros/article/view/9146/7630 
-	- Ej: oaire.file.embargoedaccess: http://repositorio.colciencias.gov.co/bitstream/handle/11146/21811/Pedroza%202%20Desinfestacion%20por%20fotolisis.pdf?sequence=1&isAllowed=n  
+	- Ej: oaire.file.embargoedaccess: http://repositorio.MinCiencias.gov.co/bitstream/handle/11146/21811/Pedroza%202%20Desinfestacion%20por%20fotolisis.pdf?sequence=1&isAllowed=n  
 	- Ej: oaire.file.restrictedaccess: https://repositorio.escuelaing.edu.co/bitstream/001/539/26/Autorizaci%c3%b3n.pdf
 	- Ej: oaire.file.metadataonlyaccess:  https://repositorio.konradlorenz.edu.co/bitstream/001/647/1/nueva-plantilla-ova-136.jpg 
 
@@ -137,9 +137,9 @@ Ejemplo en XML  (Interoperabilidad OAI-PMH)
    <dim:field mdschema ="dc" element ="relation" qualifier ="bitstream">http://link-to-the-fulltext.org</dim:field>
    <dim:field mdschema ="oaire" element ="file" qualifier ="openaccess">http://link-to-the-fulltext.org</dim:field>
 
-Niveles de aplicación para productos de investigación de Colciencias
+Niveles de aplicación para productos de investigación de MinCiencias
 --------------------------------------------------------------------
-Se aplica a todos los productos de Colciencias. 
+Se aplica a todos los productos de MinCiencias. 
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------

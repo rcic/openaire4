@@ -168,9 +168,9 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
    <dim:field mdschema ="datacite" element ="geoLocationPoint" qualifier ="pointLongitude">31.233</dim:field>
    <dim:field mdschema ="datacite" element ="geoLocationPoint" qualifier ="pointLatitude">-67.302</dim:field>
 
-Niveles de aplicación para productos de investigación de Colciencias
+Niveles de aplicación para productos de investigación de MinCiencias
 --------------------------------------------------------------------
-Se aplica a todos los productos de Colciencias. 
+Se aplica a todos los productos de MinCiencias. 
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------

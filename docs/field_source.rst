@@ -123,9 +123,9 @@ Ejemplo en XML  (Interoperabilidad OAI-PMH)
    <dim:field mdschema="dc" element="source" lang="spa">Arias, A. (2008). Multiculturalismo y Derechos Indígenas. El caso mexicano. México D.F: Comisión Nacional de los Derechos Humanos.</dim:field>
 
 
-Niveles de aplicación para productos de investigación de Colciencias
+Niveles de aplicación para productos de investigación de MinCiencias
 --------------------------------------------------------------------
-Se aplica a todos los productos de Colciencias. 
+Se aplica a todos los productos de MinCiencias. 
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------

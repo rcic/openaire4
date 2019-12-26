@@ -11,4 +11,4 @@ La normativa RDA se aplicará tanto en el formato bibliográfico como de autorid
 
 La aplicación de las RDA no sólo será seguir un principio de representación, sino una razón más práctica para fomentar la reutilización de los datos y la descarga de la descripción de los recursos. 
 
-Por esta razón, se hace necesario aplicar las RDA como un componente fundamental de la descripción de los productos de investigación desarrollados por Colciencias, y como lineamiento general para los Sistemas de información de investigación, Repositorios institucionales , Bibliotecas Digitales, y Sistemas de publicación monográficos/seriados.
+Por esta razón, se hace necesario aplicar las RDA como un componente fundamental de la descripción de los productos de investigación desarrollados por MinCiencias, y como lineamiento general para los Sistemas de información de investigación, Repositorios institucionales , Bibliotecas Digitales, y Sistemas de publicación monográficos/seriados.

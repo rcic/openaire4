@@ -25,8 +25,8 @@ A continuación, se muestra un ejemplo de las etiquetas XML que deben venir acom
    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/provenance
    http://www.openarchives.org/OAI/2.0/provenance.xsd">
      <originDescription altered="true" harvestDate="2012-09-17T14:58:36Z">
-       <baseURL>https://repositorio.colciencias.gov.co/oai/request</baseURL>
-       <identifier>oai:repositorio.colciencias.gov.co:1874/218065</identifier>
+       <baseURL>https://repositorio.MinCiencias.gov.co/oai/request</baseURL>
+       <identifier>oai:repositorio.MinCiencias.gov.co:1874/218065</identifier>
        <datestamp>2012-01-19T12:38:56Z</datestamp>
        <metadataNamespace>
          http://www.openarchives.org/OAI/2.0/oai_dc/

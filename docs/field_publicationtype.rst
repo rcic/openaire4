@@ -12,7 +12,7 @@ Este campo tiene varios usos dependiendo del contexto general de aplicación, lo
 
 	- **Tipología Documental Normalizada COAR (M,1):** Hace referencia al tipo de publicación basándose en un vocabulario controlado normalizado, el cual es utilizado por el usuario (una máquina) para identificar la categoría asociada al recurso que está mostrando.
 
-	- **Tipología Documental Normalizada RedCol (MA,1):** Hace referencia al tipo de recurso de investigación reconocido y avalado por Colciencias basándose en un vocabulario controlado normalizado, el cual es utilizado por el usuario (una máquina) para identificar la categoría asociada al recurso que está mostrando.
+	- **Tipología Documental Normalizada RedCol (MA,1):** Hace referencia al tipo de recurso de investigación reconocido y avalado por MinCiencias basándose en un vocabulario controlado normalizado, el cual es utilizado por el usuario (una máquina) para identificar la categoría asociada al recurso que está mostrando.
 
 	- **Tipología Documental Local (R,1):** Hace referencia al tipo de producción científica o contenido intelectual en el que se manifiesta el recurso, el cual es utilizado por el usuario (una persona) para identificar la categoría asociada al recurso que está mostrando.  Ejemplo: Libro, artículo, revista, etc. 
 
@@ -253,7 +253,7 @@ Utilice la etiqueta del término de tipo de recurso como valor. Utilice el **val
 .. tabularcolumns:: |\Y{0.3}|\Y{0.3}|\Y{0.4}|
 
 +---------------------------------------------------------------+-----------------------------------------------+-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| Tipo Documental Específico Colciencias                        | Valor Autorizado REDCOL                       | Equivalente COAR                          | Notas                                                                                                                              |
+| Tipo Documental Específico MinCiencias                        | Valor Autorizado REDCOL                       | Equivalente COAR                          | Notas                                                                                                                              |
 +===============================================================+===============================================+===========================================+====================================================================================================================================+
 | Artículos de investigación                                    | https://purl.org/redcol/resource_type/ART     | http://purl.org/coar/resource_type/c_2f33 |                                                                                                                                    |
 +---------------------------------------------------------------+-----------------------------------------------+-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
@@ -285,7 +285,7 @@ Utilice la etiqueta del término de tipo de recurso como valor. Utilice el **val
 .. tabularcolumns:: |\Y{0.3}|\Y{0.3}|\Y{0.4}|
 
 +----------------------------------------------------------------------------------+-------------------------------------------------+-------------------------------------------+-------+
-| Tipo Documental Específico Colciencias                                           | Valor Autorizado                                | Equivalente COAR                          | Notas |
+| Tipo Documental Específico MinCiencias                                           | Valor Autorizado                                | Equivalente COAR                          | Notas |
 +==================================================================================+=================================================+===========================================+=======+
 |                                                                                    Productos Tecnológicos Certificados o Validados                                                     |
 +----------------------------------------------------------------------------------+-------------------------------------------------+-------------------------------------------+-------+
@@ -351,7 +351,7 @@ Utilice la etiqueta del término de tipo de recurso como valor. Utilice el **val
 **Productos resultados de actividades de apropiación social del conocimiento**
 
 +----------------------------------------------------------------------------------------------------+-----------------------------------------------+--------------------------------------------------+--------------------------------------+
-| Tipo Documental Específico Colciencias                                                             | Valor Autorizado                              | Equivalente COAR                                 | Notas                                |
+| Tipo Documental Específico MinCiencias                                                             | Valor Autorizado                              | Equivalente COAR                                 | Notas                                |
 +====================================================================================================+===============================================+==================================================+======================================+
 | Participación ciudadana en proyectos de CTI                                                        | https://purl.org/redcol/resource_type/PPC     |                                                  |                                      |
 +----------------------------------------------------------------------------------------------------+-----------------------------------------------+--------------------------------------------------+--------------------------------------+
@@ -395,7 +395,7 @@ Utilice la etiqueta del término de tipo de recurso como valor. Utilice el **val
 **Productos de actividades relacionadas con la Formación de Recurso Humano en CTeI**
 
 +-------------------------------------------------------+-------------------------------------------+-------------------------------------------+------------------------------------------------------------------------+
-| Tipo Documental Específico Colciencias                | Valor Autorizado                          | Equivalente COAR                          | Notas                                                                  |
+| Tipo Documental Específico MinCiencias                | Valor Autorizado                          | Equivalente COAR                          | Notas                                                                  |
 +=======================================================+===========================================+===========================================+========================================================================+
 | Dirección de Tesis de doctorado                       | https://purl.org/redcol/resource_type/TD  | http://purl.org/coar/resource_type/c_db06 |                                                                        |
 +-------------------------------------------------------+-------------------------------------------+-------------------------------------------+------------------------------------------------------------------------+
@@ -573,11 +573,11 @@ Ejemplos y ayudas
    <dim:field mdschema="dc" element="type"  qualifier="coar" lang="spa">http://purl.org/coar/resource_type/c_7a1f</dim:field>
 
 
-Niveles de aplicación para productos de investigación de Colciencias
+Niveles de aplicación para productos de investigación de MinCiencias
 --------------------------------------------------------------------
-**REDCOL** ha desarrollado un vocabulario controlado acorde con los productos de investigación reconocidos y avalados por Colciencias y que se ciñe a los modelos semánticos provistos por **DATACITE y OPENAIRE.**  
+**REDCOL** ha desarrollado un vocabulario controlado acorde con los productos de investigación reconocidos y avalados por MinCiencias y que se ciñe a los modelos semánticos provistos por **DATACITE y OPENAIRE.**  
 
-Para describir estos tipos documentales asociados a los productos resultados de investigación reconocidos por Colciencias, los sistemas de información deben utilizar estos nuevos elementos para describir tipologías documentales propuestas para **REDCOL.**
+Para describir estos tipos documentales asociados a los productos resultados de investigación reconocidos por MinCiencias, los sistemas de información deben utilizar estos nuevos elementos para describir tipologías documentales propuestas para **REDCOL.**
 
 En el caso que no haya equivalencia en los **vocabularios de los productos documentales de REDCOL** con el **Vocabulario normalizado de Tipos Documentales OPENAIRE-COAR,**  se debe utilizar  en  **COAR** el valor “other - http://purl.org/coar/resource_type/c_1843”  y posteriomente seleccionar el tipo documental específico del vocabulario **REDCOL.**
 
@@ -654,7 +654,7 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +---------------------------------------------------+-----------------------+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Tipología Documental Normalizada Drive/OpenAireV3 | dc.type               | driver             | Campo Obsoleto, utilizar únicamente con fines de compatibilidad con versiones anteriores                                                                                                                          |
 +---------------------------------------------------+-----------------------+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Tipología Documental Normalizada RedCol           | dc.type               | redcol colciencias | Incluir la URI NOTA: Se presenta equivalencia semántica para los campos dc.type.redcol y dc.type.colciencias                                                                                                      |
+| Tipología Documental Normalizada RedCol           | dc.type               | redcol MinCiencias | Incluir la URI NOTA: Se presenta equivalencia semántica para los campos dc.type.redcol y dc.type.MinCiencias                                                                                                      |
 +---------------------------------------------------+-----------------------+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Tipología Documental Normalizada Local            | dc.type               | local              | Incluir el Texto para Usuarios. NOTA: Se presenta equivalencia semántica para los campos dc.type y dc.type.local. Para este campo se recomienda utilizar el vocabulario propuesto para tipología documental local |
 +---------------------------------------------------+-----------------------+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

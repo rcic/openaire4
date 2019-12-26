@@ -175,9 +175,9 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
       <dim:field mdschema="dc" element="identifier" qualifier="doi">10.1002/anie.201601750</dim:field>
 
 
-Niveles de aplicación para productos de investigación de Colciencias
+Niveles de aplicación para productos de investigación de MinCiencias
 --------------------------------------------------------------------
-Se aplica a todos los productos de Colciencias. 
+Se aplica a todos los productos de MinCiencias. 
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------

@@ -180,7 +180,7 @@ Ayudas
 
 - **Autor Corporativo:** Entidad o Institución responsable del contenido del objeto.
 
-  - Ej: Colombia. Departamento Administrativo de Ciencia, Tecnología e Innovación - COLCIENCIAS.
+  - Ej: Colombia. Departamento Administrativo de Ciencia, Tecnología e Innovación - MinCiencias.
 * 
   - Ej: MetaBibliotea SAS
 
@@ -238,9 +238,9 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 
 .. 
 
-Niveles de aplicación para productos de investigación de Colciencias
+Niveles de aplicación para productos de investigación de MinCiencias
 --------------------------------------------------------------------
-Se aplica a todos los productos de investigación reconocidos por Colciencias. 
+Se aplica a todos los productos de investigación reconocidos por MinCiencias. 
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------

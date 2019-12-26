@@ -198,7 +198,7 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 
 ..
 
-Niveles de aplicación para productos de investigación de Colciencias
+Niveles de aplicación para productos de investigación de MinCiencias
 --------------------------------------------------------------------
 Se aplica a los productos de tesis de doctorado, trabajos de grado de maestría y trabajos de grado de pregrado.
 

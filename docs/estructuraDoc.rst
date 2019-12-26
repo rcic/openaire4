@@ -3,7 +3,7 @@
 Estructura del Perfil de Aplicación REDCOL (Campos de Metadatos)
 ================================================================
 
-Este esquema de aplicación proporciona una descripción detallada del conjunto de campos de metadatos normalizados y adaptados para describir los distintos productos de información científica reconocidos por Colciencias. En este apartado se tuvieron en cuenta los aspectos  e interoperabilidad (sintácticos, semánticos y estructurales) y su forma de aplicación en los sistemas de información más utilizados en la actualidad. 
+Este esquema de aplicación proporciona una descripción detallada del conjunto de campos de metadatos normalizados y adaptados para describir los distintos productos de información científica reconocidos por MinCiencias. En este apartado se tuvieron en cuenta los aspectos  e interoperabilidad (sintácticos, semánticos y estructurales) y su forma de aplicación en los sistemas de información más utilizados en la actualidad. 
 
 Para el análisis de cada uno de los campo de metadatos que son utilizados por este conjunto de directrices para productos de información científica, se tuvo en cuenta los siguientes componentes de evaluación:
 
@@ -71,7 +71,7 @@ Para el análisis de cada uno de los campo de metadatos que son utilizados por e
 	
 ..
 
-	- **Niveles de aplicación para productos de investigación de Colciencias (X.11):** Se especifican recomendaciones de uso del campo de metadatos enfocado a los distintos que producto de investigación reconocidos por Colciencias (Tipologías Documentales).
+	- **Niveles de aplicación para productos de investigación de MinCiencias (X.11):** Se especifican recomendaciones de uso del campo de metadatos enfocado a los distintos que producto de investigación reconocidos por MinCiencias (Tipologías Documentales).
 
 ..
 

@@ -201,9 +201,9 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 	<dim:field mdschema="dc" element="date" qualifier="available">2017-02-10T22:11:00Z</dim:field>
 	<dim:field mdschema="dc" element="date" qualifier="issued">2017</dim:field>
 
-Niveles de aplicación para  productos de investigación de Colciencias
+Niveles de aplicación para  productos de investigación de MinCiencias
 ---------------------------------------------------------------------
-Se aplica a todos los productos de Colciencias.
+Se aplica a todos los productos de MinCiencias.
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------

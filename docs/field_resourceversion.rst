@@ -127,9 +127,9 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 
    <dim:field mdschema="dc" element="type" qualifier="version" lang="spa">http://purl.org/coar/version/c_970fb48d4focketsa85</dim:field>
 
-Niveles de aplicación para  productos de investigación de Colciencias
+Niveles de aplicación para  productos de investigación de MinCiencias
 ---------------------------------------------------------------------
-Se aplica a todos los productos de Colciencias.
+Se aplica a todos los productos de MinCiencias.
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------

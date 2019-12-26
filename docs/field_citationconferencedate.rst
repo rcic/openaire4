@@ -95,9 +95,9 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
    <dim:field mdschema="oaire" element="citationConferenceDate" qualifier="" lang="spa">2013-09-22/2013-09-26</dim:field>
 
 
-Niveles de aplicación para productos de investigación de Colciencias
+Niveles de aplicación para productos de investigación de MinCiencias
 --------------------------------------------------------------------
-Se aplica exclusivamente a todos los productos de Colciencias que estén relacionados con un **evento/congreso** del que se tenga las **fechas** de realización del mismo. 
+Se aplica exclusivamente a todos los productos de MinCiencias que estén relacionados con un **evento/congreso** del que se tenga las **fechas** de realización del mismo. 
 
 Relaciones con otros modelos de metadatos
 -----------------------------------------
