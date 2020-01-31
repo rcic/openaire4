@@ -268,9 +268,9 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | OpenAire                               | dc.subject               | decs              | Descriptores en Ciencias de la salud - Bireme                                     |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| OpenAire                               | dc.subject               | unesco            |                                                                                   |
+| OpenAire                               | dc.subject               | unesco            | Tesauro de la UNESCO  http://vocabularies.unesco.org/                             |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| OpenAire                               | dc.subject               | tee               |                                                                                   |
+| OpenAire                               | dc.subject               | tee               | Tesauro Europeo de la Educación   https://www.vocabularyserver.com/tee/es/        |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | OpenAire                               | dc.subject               | ocde              |                                                                                   |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
@@ -282,13 +282,15 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
 |              **Descriptores con URI relacionada (Ontología, Linked Open Data)**                                                                                           |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| OpenAire lcsh Linked Open Data         | dc.subject               | lcshURI           | Ejemplo: http://id.loc.gov/authorities/subjects/sh85026196.html                   |
+| OpenAire lcsh Linked Open Data         | dc.subject               | lcshuri           | Ejemplo: http://id.loc.gov/authorities/subjects/sh85026196.html                   |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| OpenAire ddc Linked Open Data          | dc.subject               | ddcURI            | Ejemplo: http://dewey.info/class/539.7/e23/2012-06-14/about.en                    |
+| OpenAire ddc Linked Open Data          | dc.subject               | ddcuri            | Ejemplo: http://dewey.info/class/539.7/e23/2012-06-14/about.en                    |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| OpenAire udc Linked Open Data          | dc.subject               | udcURI            | Ejemplo: http://udcdata.info/037278                                               |
+| OpenAire udc Linked Open Data          | dc.subject               | udcuro            | Ejemplo: http://udcdata.info/037278                                               |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| OpenAire Agrovoc Linked Open Data      | dc.subject               | agrovocURI        | Ejemplo: http://aims.fao.org/aos/agrovoc/c_13551                                  |
+| OpenAire Agrovoc Linked Open Data      | dc.subject               | agrovocuri        | Ejemplo: http://aims.fao.org/aos/agrovoc/c_13551                                  |
++----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
+| OpenAire UNESCO Linked Open Data       | dc.subject               | unescouri         | Ejemplo: http://vocabularies.unesco.org/browser/thesaurus/es                      |
 +----------------------------------------+--------------------------+-------------------+-----------------------------------------------------------------------------------+
 
 **NOTAS:**
