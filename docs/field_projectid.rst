@@ -55,7 +55,7 @@ Entidad que agrupa todas las entidades que financian proyectos de investigación
               +-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-------+
               | Vocabulario Normalizado | Descripción del Atributo                                                                                                                  | Dominio de Vocabulario           |       |
               +=========================+===========================================================================================================================================+==================================+=======+
-              | ISNI                    | Identificador internacional estandarizado de nombre (International Standard Name Identifier ) Norma ISO 27729                             | - (http://www.isni.org)          | oaire |
+              | ISNI                    | Identificador internacional estandarizado de nombre (International Standard Name Identifier ) Norma ISO 27729                             |  (http://www.isni.org)           | oaire |
               +-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-------+
               | GRID                    | Base de datos de identificadores de investigación global (Global Research Identifier Database: GRID)                                      | (https://www.grid.ac/institutes) | oaire |
               +-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-------+
@@ -141,15 +141,15 @@ Entidad que agrupa todas las entidades que financian proyectos de investigación
  
            - **Atributo: ID del Proyecto de Investigación (arwardID) (R, 0-1):** Este atributo permite especificar un identificador normalizado asignado al proyecto de investigación.
 		   
-        - **Sub-Propiedad: Línea de Investigación  (awardArea) (R, 0-n):** Esta propiedad de uso opcional, incluye el nombre de la línea de investigación relacionada.
+        - **Sub-Propiedad: Línea de Investigación  (researchArea) (R, 0-n):** Esta propiedad de uso opcional, incluye el nombre de la línea de investigación relacionada.
  
-           - **Atributo: ID de la Línea de Investigación (awardAreaID) (R, 0-1):** Este atributo permite especificar un identificador normalizado asignado a la línea de investigación.
+           - **Atributo: ID de la Línea de Investigación (researchAreaID) (R, 0-1):** Este atributo permite especificar un identificador normalizado asignado a la línea de investigación.
 
-        - **Sub-Propiedad: Grupo de Investigación  (awardGroup) (R, 0-n):** Esta propiedad de uso opcional, incluye los nombres de los grupos de investigación relacionados.
+        - **Sub-Propiedad: Grupo de Investigación  (researchGroup) (R, 0-n):** Esta propiedad de uso opcional, incluye los nombres de los grupos de investigación relacionados.
  
-           - **Atributo: ID de la Línea de Investigación (awardGroupID) (R, 0-1):** Este atributo permite especificar un identificador normalizado asignado a cada grupo de investigación.
+           - **Atributo: ID de la Línea de Investigación (researchGroupID) (R, 0-1):** Este atributo permite especificar un identificador normalizado asignado a cada grupo de investigación.
 
-        - **Sub-Propiedad: Costo del proyecto (awardCost) (R, 0-n):** Esta propiedad de uso opcional, incluye el costo (subvención) del proyecto asociado. Hace referencia al factor económico o a los recursos económicos utilizados para llevar a cabo el proyecto de investigación.
+        - **Sub-Propiedad: Costo del proyecto (researchCost) (R, 0-n):** Esta propiedad de uso opcional, incluye el costo (subvención) del proyecto asociado. Hace referencia al factor económico o a los recursos económicos utilizados para llevar a cabo el proyecto de investigación.
 		
 		
 
@@ -272,7 +272,7 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 **DSPACE 6.X o anteriores**
 
 +-------------------------------------------+---------------------+-----------------------+----------------------+----------------------+
-| Vocabulario controlado OpenAire/RedCol    | Modelo de Metadatos | Campo Elemento DSPACE | Calificadores        | Propiedades          |
+| Descripción                               | Modelo de Metadatos | Campo Elemento DSPACE | Calificadores        | Propiedades          |
 +===========================================+=====================+=======================+======================+======================+
 | Nombre del financiador                    | oaire               | fundername            |                      |                      |
 +-------------------------------------------+---------------------+-----------------------+----------------------+----------------------+
@@ -283,17 +283,18 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 |                                           |                     |                       | - Other              |                      |
 +-------------------------------------------+---------------------+-----------------------+----------------------+----------------------+
 | Especificación de la financiación         | oaire               | fundingstream         |                      |                      |
+| - Programa Nacional de CTel MinCiencias)  |                     |                       |                      |                      |
 +-------------------------------------------+---------------------+-----------------------+----------------------+----------------------+
 | Identificador de la financiación          | oaire               | awardnumber           |                      | arwardURI            |
 +-------------------------------------------+---------------------+-----------------------+----------------------+----------------------+
 | Nombre de la convocatoria de financiación | oaire               | awardtitle            |                      | awardtitleID         |
 | Nombre Proyecto de Investigación          |                     |                       |                      |                      |
 +-------------------------------------------+---------------------+-----------------------+----------------------+----------------------+
-| Línea de Investigación                    | redcol              | awardArea             |                      |  awardAreaID         |
+| Línea de Investigación                    | dc.description      | researcharea          |                      | researchareaID       |
 +-------------------------------------------+---------------------+-----------------------+----------------------+----------------------+
-| Grupo de Investigación                    | redcol              | awardGroup            |                      |  awardGroupID        |
+| Grupo de Investigación                    | dc.description      | researchgroup         |                      | researchGroupID      |
 +-------------------------------------------+---------------------+-----------------------+----------------------+----------------------+
-| Costos (subvenciones) del proyecto        | oaire               | awardCost             |                      |                      |
+| Costos (subvenciones) del proyecto        | dc.description      | researchcost          |                      |                      |
 +-------------------------------------------+---------------------+-----------------------+----------------------+----------------------+
 
 **DSPACE 7.X o superior**
