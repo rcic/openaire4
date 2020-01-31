@@ -282,20 +282,20 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
 |              **Descriptores con URI relacionada (Ontología, Linked Open Data)**                                                  |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| dc.subject               | lcshuri           | LCSH Linked Open Data                                                             | 
-|                          |                   | Ejemplo: http://id.loc.gov/authorities/subjects/sh85026196.html                   |
+| dc.subject               | lcshuri           | Ejemplo: http://id.loc.gov/authorities/subjects/sh85026196.html                   | 
+|                          |                   | LCSH Linked Open Data (http://id.loc.gov/authorities/subjects.html)               |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | dc.subject               | ddcuri            | Ejemplo: http://dewey.info/class/539.7/e23/2012-06-14/about.en                    |
-|                          |                   | DDC Linked Open Data                                                              |
+|                          |                   | DDC Linked Open Data  (http://dewey.info)                                         |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| dc.subject               | udcuro            | Ejemplo: http://udcdata.info/037278                                               |
-|                          |                   | UDC Linked Open Data                                                              |
+| dc.subject               | udcuri            | Ejemplo: http://udcdata.info/037278                                               |
+|                          |                   | UDC Linked Open Data  (http://udcdata.info/078887)                                |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | dc.subject               | agrovocuri        | Ejemplo: http://aims.fao.org/aos/agrovoc/c_13551                                  |
-|                          |                   | AGROVOC Linked Open Data                                                          |
+|                          |                   | AGROVOC Linked Open Data  (http://agrovoc.uniroma2.it/agrovoc/agrovoc/en/)        |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| dc.subject               | unescouri         | Ejemplo: http://vocabularies.unesco.org/browser/thesaurus/es                      |
-|                          |                   | UNESCO Linked Open Data                                                           |
+| dc.subject               | unescouri         | Ejemplo: http://vocabularies.unesco.org/thesaurus/concept985                      |
+|                          |                   | UNESCO Linked Open Data (http://vocabularies.unesco.org/browser/thesaurus/es)     |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
 
 **NOTAS:**
