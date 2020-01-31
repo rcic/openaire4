@@ -300,12 +300,12 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 
 **NOTAS:**
 
-- Se recomienda construir en DSPACE todos nombres de campos que provean una  URI relacionada (Ontología, Linked Open Data) de la siguiente forma: Nombre del Vocabulario + “URI”, por ejemplo:
+- Se recomienda construir en DSPACE todos nombres de campos que provean una  URI relacionada (Ontología, Linked Open Data) de la siguiente forma: Nombre del Vocabulario + “uri”, por ejemplo:
 
     - Vocabulario: AGROVOC
     - Nombre normalizado del vocabulario: agrovoc
     - Campo en DSPACE para agregar los términos relacionados: **dc.subject.agrovoc**
-    - Campo en DSPACE para agregar las URI relacionadas a los término: **dc.subject.agrovocURI**
+    - Campo en DSPACE para agregar las URI relacionadas a los término: **dc.subject.agrovocuri**
 
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
