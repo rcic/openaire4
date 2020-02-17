@@ -156,6 +156,8 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +----------------------+-----------------------+---------------+-------------------------------------------------------------------------------------------+
 | dc                   | dc.format             | size          | Se utiliza para describir Tamaños de objetos físicos, pero en Bytes de Archivos Digitales |
 +----------------------+-----------------------+---------------+-------------------------------------------------------------------------------------------+
+| dc                   | dc.format             | medium        | Se utiliza para describir el soporte/medio en el cual se encuentra registrado el recurso  |
++----------------------+-----------------------+---------------+-------------------------------------------------------------------------------------------+
 
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
