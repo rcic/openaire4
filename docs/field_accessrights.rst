@@ -83,6 +83,7 @@ Ejemplo en XML  (Interoperabilidad OAI-PMH)
    :linenos:
 
    <dc:rights>http://purl.org/coar/access_right/c_16ec</dc:rights>
+   <dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
 
 **Esquema DataCite**
 
@@ -95,14 +96,22 @@ Ejemplo en XML  (Interoperabilidad OAI-PMH)
 
 .. code-block:: xml
    :linenos:
-
-   <element name="rights">
+   <element name="dc">   
+	<element name="rights">
+     <element name="accessrights">
+          <element name="spa">
+             <field name="value">info:eu-repo/semantics/embargoedAccess</field>
+         </element>
+     </element>
+	</element>
+   </element>   
+   <element name="oaire">
      <element name="accessrights">
           <element name="spa">
              <field name="value">http://purl.org/coar/access_right/c_f1cf</field>
          </element>
      </element>
-   </element>
+   </element>   
 
 **Esquema dim**
 
@@ -158,11 +167,14 @@ Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
 
-+----------------------------------------+-----------------------+---------------+--------------------+
-| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores | Nota de alcance    |
-+========================================+=======================+===============+====================+
-| OpenAire                               | dc.rights             | accessrights  | Derechos de acceso |
-+----------------------------------------+-----------------------+---------------+--------------------+
++------------------------+-----------------------+---------------+----------------------------+
+| Vocabulario controlado | Campo elemento DSPACE | Calificadores | Nota de alcance            |
++========================+=======================+===============+============================+
+| Driver / OpenAire 3    | dc.rights             | accessrights  | Derechos de acceso         |
++------------------------+-----------------------+---------------+----------------------------+
+| OpenAire4              | datacite.rights       |               | Equivalencia semántica con |
+|                        |                       |               | **oaire.accessrights**     |
++------------------------+-----------------------+---------------+----------------------------+
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
