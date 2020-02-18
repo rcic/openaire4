@@ -113,6 +113,7 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 
 .. code-block:: xml
    :linenos:
+   
    <element name="dc">
 		<element name="type">
 			<element name="version">
@@ -122,10 +123,6 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 			</element>
 		</element>
    </element>
-
-
-.. code-block:: xml
-   :linenos:
    <element name="oaire">
 		<element name="version">
 			<element name="spa">
