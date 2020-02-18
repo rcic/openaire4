@@ -98,7 +98,9 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
    :linenos:
 
    <dc:type>http://purl.org/coar/version/c_970fb48d4focketsa85</dc:type>
-
+   <dc:type>info:eu-repo/semantics/draft</dc:type>
+	
+	
 **Esquema DataCite**
 
 .. code-block:: xml
@@ -111,21 +113,35 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 
 .. code-block:: xml
    :linenos:
+   <element name="dc">
+		<element name="type">
+			<element name="version">
+				<element name="spa">
+					<field name="value">info:eu-repo/semantics/draft</field>
+				</element>
+			</element>
+		</element>
+   </element>
 
-   <element name="type">
-   <element name="version">
-        <element name="spa">
-            <field name="value">http://purl.org/coar/version/c_970fb48d4focketsa85</field>
-        </element>
-   </element>
-   </element>
+
+.. code-block:: xml
+   :linenos:
+   <element name="oaire">
+		<element name="version">
+			<element name="spa">
+				<field name="value">http://purl.org/coar/version/c_970fb48d4focketsa85</field>
+			</element>
+		</element>
+	</element>
+ 
 
 **Esquema dim**
 
 .. code-block:: xml
    :linenos:
 
-   <dim:field mdschema="dc" element="type" qualifier="version" lang="spa">http://purl.org/coar/version/c_970fb48d4focketsa85</dim:field>
+   <dim:field mdschema="dc" element="type" qualifier="version" lang="spa">info:eu-repo/semantics/publishedVersion</dim:field>
+   <dim:field mdschema="oaire" element="version" qualifier="" lang="spa">http://purl.org/coar/version/c_970fb48d4focketsa85</dim:field>
 
 Niveles de aplicación para  productos de investigación de MinCiencias
 ---------------------------------------------------------------------
@@ -162,7 +178,9 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +========================================+=======================+===============+=================+
 | Versión (Clave ó Número)               | dc.description        | version       |                 |
 +----------------------------------------+-----------------------+---------------+-----------------+
-| Estado de Publicación                  | dc.type               | version       |                 |
+| Estado de Publicación(Driver/OpenAire3)| dc.type               | version       |                 |
++----------------------------------------+-----------------------+---------------+-----------------+
+| Estado de Publicación(OpenAire4)       | oaire.version         |               |                 |
 +----------------------------------------+-----------------------+---------------+-----------------+
 
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
