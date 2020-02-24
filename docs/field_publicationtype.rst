@@ -116,7 +116,7 @@ Utilice la etiqueta del término de tipo de recurso como valor. Utilice el **val
 **Vocabulario normalizado de Tipos Documentales OPENAIRE-COAR**
 
 `versión 2.0 <http://vocabularies.coar-repositories.org/documentation/resource_types/>`_. | July 2019, 
-`Versión SKOS-XL  RDF<https://github.com/coar-repositories/vocabularies/tree/master/resource_types>`_.  
+`Versión SKOS-XL  RDF <https://github.com/coar-repositories/vocabularies/tree/master/resource_types>`_.  
 
 +-----------------------------------------------+-------------------------+
 | ConceptURI                                    | Etiqueta                |
