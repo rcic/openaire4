@@ -247,6 +247,9 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +-----------------------------------------------------------------+-----------------------+---------------------------+-----------------+
 | Indicaciones del patrocinio y datos específicos de financiación | dc.description        | funder                    |                 |
 +-----------------------------------------------------------------+-----------------------+---------------------------+-----------------+
+| Escala (Serie de elementos de la misma especie, ordenados       | dc.description        | scale                     |                 |
+| en función de alguna de sus características o cualidades)       |                       |                           |                 |
++-----------------------------------------------------------------+-----------------------+---------------------------+-----------------+
 | Otros                                                           | dc.description        | other                     |                 |
 +-----------------------------------------------------------------+-----------------------+---------------------------+-----------------+
 
