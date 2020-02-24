@@ -121,13 +121,16 @@ Recomendación de campos de aplicación en DSPACE
 
 Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
 
-+----------------------------------------+-----------------------+---------------+-----------------------------------------------+
-| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores | Nota de alcance                               |
-+========================================+=======================+===============+===============================================+
-| OpenAire                               | dc.format             |               | Incluir aquí, Descripción general del formato |
-+----------------------------------------+-----------------------+---------------+-----------------------------------------------+
-| OpenAire                               | dc.format             | mimetype      | Incluir aquí el formato codificado IANA       |
-+----------------------------------------+-----------------------+---------------+-----------------------------------------------+
++-----------------------+---------------+-----------------------------------------------+
+| Campo Elemento DSPACE | Calificadores | Nota de alcance                               |
++=======================+===============+===============================================+
+| dc.format             |               | Incluir aquí, Descripción general del formato |
++-----------------------+---------------+-----------------------------------------------+
+| dc.format             | mimetype      | Incluir aquí el formato codificado IANA       |
++-----------------------+---------------+-----------------------------------------------+
+| dc.format             | medium        | Incluir aquí el Soporte Físico asociado       |
++-----------------------+---------------+-----------------------------------------------+
+
 
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------------------
