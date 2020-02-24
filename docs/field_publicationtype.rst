@@ -125,6 +125,8 @@ Utilice la etiqueta del término de tipo de recurso como valor. Utilice el **val
 +-----------------------------------------------+-------------------------+
 | http://purl.org/coar/resource_type/c_6501     | Artículo de revista     |
 +-----------------------------------------------+-------------------------+
+| http://purl.org/coar/resource_type/c_0640     | Revista(Número Completo)|
++-----------------------------------------------+-------------------------+
 | http://purl.org/coar/resource_type/c_545b     | Carta al editor         |
 +-----------------------------------------------+-------------------------+
 | http://purl.org/coar/resource_type/c_b239     | Editorial               |
