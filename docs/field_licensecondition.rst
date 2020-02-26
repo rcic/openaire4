@@ -94,14 +94,17 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 
    <element name="rights">
      <element name="spa">
-      <field name="value">Copyright Universidad Católica de Colombia 2016</field>
-    </element>
-   <element name="creativecommons">
+       <field name="value">Copyright Universidad Católica de Colombia 2016</field>
+     </element>
+     <element name="creativecommons">
+         <element name="spa">
+           <field name="value">Attribution 4.0 International (CC BY 4.0)</field>
+     </element>
+     <element name="uri">
          <element name="spa">
            <field name="value">http://creativecommons.org/licenses/by-nc/4.0</field>
-       </element>
-   	</element>
- 	</element>
+     </element>
+  </element>
 
 **Esquema dim**
 
@@ -139,17 +142,20 @@ Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas **DSPACE** basados en los siguientes elementos:
 
-+----------------------------------------+-----------------------+-----------------+------------------------------------------+
-| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores   | Nota de alcance                          |
-+========================================+=======================+=================+==========================================+
-| OpenAire                               | dc.rights             |                 | Texto general de licencia/Copyright      |
-+----------------------------------------+-----------------------+-----------------+------------------------------------------+
-| OpenAire                               | dc.rights             | creativecommons | URL a Creative Commons                   |
-+----------------------------------------+-----------------------+-----------------+------------------------------------------+
-| OpenAire                               | dc.rights             | license         | URL a un documento de licencia/Copyright.| 
-|                                        |                       |                 | Se presenta equivalencia semántica con   |
-|                                        |                       |                 | dc.rights.uri                            |
-+----------------------------------------+-----------------------+-----------------+------------------------------------------+
++----------------------------------------+-----------------------+-----------------+------------------------------------------------+
+| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores   | Nota de alcance                                |
++========================================+=======================+=================+================================================+
+| OpenAire                               | dc.rights             |                 | Texto general de licencia/Copyright            |
++----------------------------------------+-----------------------+-----------------+------------------------------------------------+
+| OpenAire                               | dc.rights             | creativecommons | Licencia Creative Commons                      |
+|                                        |                       |                 | Attribution 4.0 International (CC BY 4.0)      |
++----------------------------------------+-----------------------+-----------------+------------------------------------------------+
+| OpenAire                               | dc.rights             | license         | URL a un documento de licencia/Copyright.      |
+|                                        |                       |                 | Se presenta equivalencia semántica con         |
+|                                        |                       |                 | dc.rights.uri                                  |
+|                                        |                       |                 | Incluye URL de Creative Commons                |
+|                                        |                       |                 | http://creativecommons.org/licenses/by-nc/4.0  |
++----------------------------------------+-----------------------+-----------------+------------------------------------------------+
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
