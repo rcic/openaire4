@@ -248,13 +248,14 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | dc.subject               | armarc            | Archivo en línea de autoridades de materia en español                             |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| dc.subject               | udc               | Clasificación Universal Decimal                                                   |
+| dc.subject               | udc               | Clasificación Universal Decimal   (http://udcc.org/)                              |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| dc.subject               | ddc               | Clasificación Decimal Dewey                                                       |
+| dc.subject               | ddc               | Clasificación Decimal Dewey (https://www.oclc.org/dewey/)                         |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| dc.subject               | lcc               | Clasificación Biblioteca del Congreso                                             |
+| dc.subject               | lcc               | Clasificación Biblioteca del Congreso  (https://www.loc.gov/catdir/cpso/lcco/)    |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | dc.subject               | lcsh              | Encabezamientos de la Biblioteca del Congreso                                     |
+|                          |                   | (https://www.loc.gov/aba/cataloging/subject/)                                     |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | dc.subject               | lem               | Encabezamientos de la Biblioteca Nacional de España                               |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
@@ -262,27 +263,35 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | dc.subject               | ecm               | Encabezamientos de la Biblioteca Universidad Nacional Autónoma de México DGB/UNAM |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| dc.subject               | mesh              | Medical Subject Headings                                                          |
+| dc.subject               | mesh              | Medical Subject Headings (https://www.nlm.nih.gov/mesh/meshhome.html)             |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| dc.subject               | agrovoc           | Vocabulario Controlado desarrollado por FAO                                       |
+| dc.subject               | agrovoc           | FAO AGROVOC (http://agrovoc.uniroma2.it/agrovoc/agrovoc/en/)                      |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| dc.subject               | decs              | Descriptores en Ciencias de la salud - Bireme                                     |
+| dc.subject               | decs              | Descriptores en Ciencias de la salud Bireme (http://decs.bvs.br/E/homepagee.htm)  |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| dc.subject               | unesco            | Tesauro de la UNESCO  http://vocabularies.unesco.org/                             |
+| dc.subject               | unesco            | Tesauro de la UNESCO  (http://vocabularies.unesco.org/)                           |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | dc.subject               | tee               | Tesauro Europeo de la Educación   https://www.vocabularyserver.com/tee/es/        |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| dc.subject               | ocde              |                                                                                   |
+| dc.subject               | ocde              | OECD Macrothesaurus Chapter Headings                                              |
+|                          |                   |(http://bibliotecavirtual.clacso.org.ar/ar/oecd-macroth/es/)                       |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| dc.subject               | jel               |                                                                                   |
+| dc.subject               | jel               | Journal of Economic Literature Classification System                              |
+|                          |                   | (https://www.aeaweb.org/econlit/jelCodes.php)                                     |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | dc.subject               | other             |                                                                                   |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| dc.subject               | spines            |                                                                                   |
+| dc.subject               | spines            | Tesauro SPINES (http://vocabularios.caicyt.gov.ar/spines/)                        |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
-|              **Descriptores con URI relacionada (Ontología, Linked Open Data)**                                                  |
+| dc.subject               | eric              | ERIC - Education Resources Information Center (https://www.eric.ed.gov/)          |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
-| dc.subject               | lcshuri           | Ejemplo: http://id.loc.gov/authorities/subjects/sh85026196.html                   | 
+| dc.subject               | cab               | CAB Thesaurus (https://www.cabi.org/cabthesaurus/)                                |
++--------------------------+-------------------+-----------------------------------------------------------------------------------+
+| dc.subject               | ilo               | ILO (OIT) Thesaurus (https://metadata.ilo.org/thesaurus.html)                     |
++--------------------------+-------------------+-----------------------------------------------------------------------------------+
+|              **Descriptores con URI relacionada (Ontología, Linked Open Data (LOD) )**                                           |
++--------------------------+-------------------+-----------------------------------------------------------------------------------+
+| dc.subject               | lcshuri           | Ejemplo: http://id.loc.gov/authorities/subjects/sh85026196.html                   |
 |                          |                   | LCSH Linked Open Data (http://id.loc.gov/authorities/subjects.html)               |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | dc.subject               | ddcuri            | Ejemplo: http://dewey.info/class/539.7/e23/2012-06-14/about.en                    |
