@@ -122,7 +122,7 @@ Ejemplos y ayudas
      <element name="spa">
           <field name="value">La construcción de la historia subjetiva en la clínica psicológica</field>
      </element>
-     <element name="alternative">
+     <element name="translated">
        <element name="eng">
          <field name="value">The construction of subjective history in the clinical practice of psychology</field>
         <field name="por">Construção da história subjetiva na clínica psicológica</field>
@@ -136,8 +136,14 @@ Ejemplos y ayudas
    :linenos:
 
    <dim:field mdschema="dc" element="title" lang="spa">La construcción de la historia subjetiva en la clínica psicológica</dim:field>
-   <dim:field mdschema="dc" element="title" qualifier="alternative" lang="eng">The construction of subjective history in the clinical practice of psychology</dim:field>
-   <dim:field mdschema="dc" element="title" qualifier="alternative" lang="por">Construção da história subjetiva na clínica psicológica</dim:field> 
+   <dim:field mdschema="dc" element="title" qualifier="translated" lang="eng">The construction of subjective history in the clinical practice of psychology</dim:field>
+   <dim:field mdschema="dc" element="title" qualifier="translated" lang="por">Construção da história subjetiva na clínica psicológica</dim:field> 
+   
+   <dim:field mdschema="dc" element="title" lang="spa">El cantar del Mio Cid</dim:field>
+   <dim:field mdschema="dc" element="title" qualifier="alternative" lang="spa">El Cid campeador</dim:field>
+   <dim:field mdschema="dc" element="title" qualifier="alternative" lang="spa">Poema de Mio Cid</dim:field>
+   <dim:field mdschema="dc" element="title" qualifier="alternative" lang="spa">El cantar de los cantares</dim:field>
+
 
 ..
 
