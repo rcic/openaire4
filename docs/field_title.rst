@@ -41,7 +41,7 @@ Forma de Descripción Normalizada (RDA / RCAA2 / ISBD)
 RDA (Recursos: descripción y acceso): Revise la forma adecuada para ingresar la información de título con su debida puntuación:
 
 	- **Título:** Ingrese el título del recurso, la primera letra en mayúscula y finalice con punto. Ej: Acuerdos de paz en Colombia.
-	- **Subtítulo:** Seguido del título principal del recurso colo espacio : espacio e ingrese el subtítulo. Ejemplo: Acuerdos de paz en Colombia : una mirada al conflicto armado 
+	- **Subtítulo:** Seguido del título principal del recurso colocar "espacio : espacio" e ingrese el subtítulo. Ejemplo: Acuerdos de paz en Colombia : una mirada al conflicto armado 
 	
 Propiedades, atributos y especificadores de campo
 -------------------------------------------------
