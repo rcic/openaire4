@@ -11,7 +11,7 @@ Este campo contiene uno o varios identificadores de recursos relacionados con el
 
 Este campo de identificador es utilizado conjuntamente con una propiedad de relación adjunta según corresponda. El uso de este campo es opcional pero recomendado.
 
-Adicionalmente este campo permite gestionar las referencias bibliográficas (bibliografía) del recurso de información.
+Adicionalmente este campo permite gestionar las referencias bibliográficas (bibliografía) del recurso de información. (https://www.dublincore.org/specifications/dublin-core/dc-citation-guidelines/)
 
 Niveles de persistencia (M/MA/R/O)
 ------------------------------------
@@ -517,7 +517,7 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 | Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores | Nota de alcance                                       |
 +========================================+=======================+===============+=======================================================+
 | instname                               | dc.identifier         | instname      | Utilice el prefijo: instname:                         |
-|                                        |                       |               | - instname:Universidad Nacional de Colombia           | 
+|                                        |                       |               | - instname:Universidad Nacional de Colombia           |
 +----------------------------------------+-----------------------+---------------+-------------------------------------------------------+
 | reponame                               | dc.identifier         | reponame      | Utilice el prefijo: reponame:                         |
 |                                        |                       |               | - reponame:BDigital                                   |
