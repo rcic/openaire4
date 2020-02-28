@@ -97,7 +97,7 @@ Relaciones con otros campos
 - No debe confundirse el Identificador Primario **(datacite:Identifier)** del recurso con el  identificador Alternativo **(datacite:alternateIdentifier)** del mismo.
 - No debe confundirse el Identificador Primario **(datacite:Identifier)** del recurso con el  campo **dc.relation** que permite **relacionar una versión del recurso con otra.**
 - No debe confundirse el Identificador Primario **(datacite:Identifier)** del recurso con el  campo **dc.identifier.citation** que permite almacenar la cita única del recurso en un formato de citación específico.
-- No debe confundirse el Identificador Primario **(datacite:Identifier)** del recurso con el  campo **dc.identifier.bibliographicCitation (dcterms.bibliographicCitation)** que en DSPACE es utilizado como (dc.identifier.citation) y que contiene las cita bibliográfica que permite identificar el recurso de origen.
+- No debe confundirse el Identificador Primario **(datacite:Identifier)** del recurso con el  campo **dc.identifier.bibliographicCitation (dcterms.bibliographicCitation)** que en DSPACE es utilizado como (dc.identifier.citation) y que contiene la cita bibliográfica que permite identificar el recurso de origen.
 
 Restricciones
 -------------
