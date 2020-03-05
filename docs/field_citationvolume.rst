@@ -57,6 +57,7 @@ Ayudas
 	- <citationIssue>31</citationIssue>
 	- <citationStartPage>7444</citationStartPage>
 	- <citationEndPage>7447</citationEndPage>
+    - <citationEdition>Enero - Junio 2018</citationEdition>
 
 Ejemplo en XML (Interoperabilidad OAI-PMH)
 ++++++++++++++++++++++++++++++++++++++++++
@@ -81,7 +82,7 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
    :linenos:
 
    <element name="relation">
-     <element name="citationVolume">
+     <element name="citationvolume">
      <element name="spa">
         <field name="value">34</field>
      </element>
@@ -94,12 +95,12 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 .. code-block:: xml
    :linenos:
 
-   <dim:field mdschema="dc" element="relation" qualifier="citationVolume" lang="spa">45</dim:field>
+   <dim:field mdschema="dc" element="relation" qualifier="citationvolume" lang="spa">45</dim:field>
 
 .. code-block:: xml
    :linenos:
 
-   <dim:field mdschema="oaire" element="citationVolume" qualifier="" lang="spa">45</dim:field>
+   <dim:field mdschema="oaire" element="citationvolume" qualifier="" lang="spa">45</dim:field>
 
 
 Niveles de aplicación para  productos de investigación de MinCiencias
@@ -134,6 +135,7 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 | Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores  | Nota de alcance                                                                      |
 +========================================+=======================+================+======================================================================================+
 | OpenAire                               | dc.relation           | citationvolume | Volumen de publicación. Se pueden utilizar cualquiera de los dos esquemas provistos. |
+|                                        |                       |                | * Equivalencia Semántica: oaire.citationvolume / dc.relation.citationvolume           |
 +----------------------------------------+-----------------------+----------------+--------------------------------------------------------------------------------------+
 
 
