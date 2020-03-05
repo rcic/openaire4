@@ -179,7 +179,7 @@ Ejemplo en XML  (Interoperabilidad OAI-PMH)
 
    <element name="subject">
    <element name="other">
-       <element name="es_ES">
+       <element name="spa">
            <field name="value">Arenes</field>
            <field name="value">Carbene</field>
            <field name="value">C-H activation</field>
@@ -194,11 +194,11 @@ Ejemplo en XML  (Interoperabilidad OAI-PMH)
 .. code-block:: xml
    :linenos:
 
-   <dim:field mdschema="dc" element="subject" qualifier="other" lang="es_ES">Arenes</dim:field>
-   <dim:field mdschema="dc" element="subject" qualifier="other" lang="es_ES">Carbene</dim:field>
-   <dim:field mdschema="dc" element="subject" qualifier="other" lang="es_ES">C-H activation</dim:field>
-   <dim:field mdschema="dc" element="subject" qualifier="other" lang="es_ES">Iron</dim:field>
-   <dim:field mdschema="dc" element="subject" qualifier="other" lang="es_ES">Manganese</dim:field>
+   <dim:field mdschema="dc" element="subject" lang="spa">Sistema de Información</dim:field>
+   <dim:field mdschema="dc" element="subject" qualifier="lemb" lang="spa">Historia</dim:field>
+   <dim:field mdschema="dc" element="subject" qualifier="agrovoc" lang="spa">Tomate</dim:field>
+   <dim:field mdschema="dc" element="subject" qualifier="agrovocuri" lang="spa">http://aims.fao.org/aos/agrovoc/c_7805</dim:field>
+   <dim:field mdschema="dc" element="subject" qualifier="other" lang="spa">Manganese</dim:field>
 
 
 Niveles de aplicación para productos de investigación de MinCiencias
