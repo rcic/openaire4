@@ -8,6 +8,8 @@ Citation Edition (Edición del recurso fuente) (R)
 Definición y alcance del campo
 ------------------------------
 Este campo hace referencia a la designación numérica/secuencial de la edición del recurso fuente. Esta propiedad es parte de la cita bibliográfica.
+Para el caso de artículos de revista, este campo puede contener datos especificos de la publicación : Rangos de Fechas (Enero - Junio), Años no convencionales (año 5) 
+
 
 Niveles de persistencia (M/MA/R/O)
 ----------------------------------
@@ -74,7 +76,7 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
    :linenos:
 
    <element name="relation">
-     <element name="citationEdition">
+     <element name="citationedition">
      <element name="spa">
         <field name="value">4</field>
      </element>
@@ -87,12 +89,12 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 .. code-block:: xml
    :linenos:
 
-   <dim:field mdschema="dc" element="relation" qualifier="citationEdition" lang="spa">5</dim:field>
+   <dim:field mdschema="dc" element="relation" qualifier="citationedition" lang="spa">5</dim:field>
 
 .. code-block:: xml
    :linenos:
 
-   <dim:field mdschema="oaire" element="citationEdition" qualifier="" lang="spa">5</dim:field>
+   <dim:field mdschema="oaire" element="citationedition" qualifier="" lang="spa">5</dim:field>
 
 
 Niveles de aplicación para productos de investigación de MinCiencias
@@ -122,11 +124,11 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +----------------------------------------+-----------------------+---------------------------+------------------------------------------------------------------------------------------------------------+
 | Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores             | Nota de alcance                                                                                            |
 +========================================+=======================+===========================+============================================================================================================+
-| OpenAire                               | dc.relation           | citationedition - edition | Número de edición de publicación. Se pueden utilizar cualquiera de los dos esquemas provistos (dc, oaire). |
+| OpenAire                               | dc.relation           | citationedition           | Número de edición de publicación. Se pueden utilizar cualquiera de los dos esquemas provistos (dc, oaire). |
 +----------------------------------------+-----------------------+---------------------------+------------------------------------------------------------------------------------------------------------+
 | OpenAire                               | dc.description        | edition                   | Número de edición de publicación. Se pueden utilizar cualquiera de los dos esquemas provistos (dc, oaire). |
 +----------------------------------------+-----------------------+---------------------------+------------------------------------------------------------------------------------------------------------+
-| OpenAire                               | oaire                 | citationEdition           | Número de edición de publicación. Se pueden utilizar cualquiera de los dos esquemas provistos (dc, oaire). |
+| OpenAire                               | oaire                 | citationedition           | Número de edición de publicación. Se pueden utilizar cualquiera de los dos esquemas provistos (dc, oaire). |
 +----------------------------------------+-----------------------+---------------------------+------------------------------------------------------------------------------------------------------------+
 
 
