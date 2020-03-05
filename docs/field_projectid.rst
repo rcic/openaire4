@@ -226,13 +226,13 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
    :linenos:
 
     <element name="sponsorship">
-    <element name="es_ES">
+    <element name="spa">
       <field name="value">Support for this work was provided by the MINECO (CTQ2014-52769-C3-R-1, CTQ2014-62234-EXP, CTQ2015-70795-P, CTQ2014-54306-P, and CTQ2014-52525P), and the Junta de Andalucia (P10-FQM-06292). A.C. thanks Junta de Andalucia for a research contract. M.C. acknowledges an ICREA Academia Award, 2014 SGR 862 from Generalitat de Catalunya, and ERC-239910.</field>
     </element>
     </element>
 
     <element name="projectID">
-    <element name="es_ES">
+    <element name="spa">
       <field name="value">info:eu-repo/grantAgreement/MINECO [CTQ2014-52769-C3-R-1, CTQ2014-62234-EXP, CTQ2015-70795-P, CTQ2014-54306-P, CTQ2014-52525P]</field>
     </element>
 
