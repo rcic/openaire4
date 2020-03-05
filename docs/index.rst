@@ -8,7 +8,7 @@ Directrices para repositorios institucionales de investigación de la Red Colomb
 
 ..
 
-Documento Final - Versión oficial. (Actualizado 31-01-2020)
+Documento Final - Versión oficial. (Actualizado 28-02-2020)
 =================================================================
 
 ..
