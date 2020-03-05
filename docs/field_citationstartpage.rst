@@ -81,7 +81,7 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
    :linenos:
 
    <element name="relation">
-     <element name="citationStartPage">
+     <element name="citationstartpage">
      <element name="spa">
         <field name="value">4</field>
      </element>
@@ -94,12 +94,12 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 .. code-block:: xml
    :linenos:
 
-   <dim:field mdschema="dc" element="relation" qualifier="citationStartPage" lang="spa">5</dim:field>
+   <dim:field mdschema="dc" element="relation" qualifier="citationstartpage" lang="spa">5</dim:field>
 
 .. code-block:: xml
    :linenos:
 
-   <dim:field mdschema="oaire" element="citationStartPage" qualifier="" lang="spa">5</dim:field>
+   <dim:field mdschema="oaire" element="citationstartpage" qualifier="" lang="spa">5</dim:field>
 
 
 Niveles de aplicación para productos de investigación de MinCiencias
@@ -133,7 +133,7 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +========================================+=======================+===================+===================================================================================================================+
 | OpenAire                               | dc.relation           | citationstartpage | Número de página inicial de publicación. Se pueden utilizar cualquiera de los dos esquemas provistos (dc, oaire). |
 +----------------------------------------+-----------------------+-------------------+-------------------------------------------------------------------------------------------------------------------+
-| OpenAire                               | oaire                 | citationStartPage | Número de página inicial de publicación. Se pueden utilizar cualquiera de los dos esquemas provistos (dc, oaire). |
+| OpenAire                               | oaire                 | citationstartpage | Número de página inicial de publicación. Se pueden utilizar cualquiera de los dos esquemas provistos (dc, oaire). |
 +----------------------------------------+-----------------------+-------------------+-------------------------------------------------------------------------------------------------------------------+
 
 
