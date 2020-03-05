@@ -81,7 +81,7 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
    :linenos:
 
    <element name="relation">
-     <element name="citationIssue">
+     <element name="citationissue">
      <element name="spa">
         <field name="value">4</field>
      </element>
@@ -94,12 +94,12 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 .. code-block:: xml
    :linenos:
 
-   <dim:field mdschema="dc" element="relation" qualifier="citationIssue" lang="spa">5</dim:field>
+   <dim:field mdschema="dc" element="relation" qualifier="citationissue" lang="spa">5</dim:field>
 
 .. code-block:: xml
    :linenos:
 
-   <dim:field mdschema="oaire" element="citationIssue" qualifier="" lang="spa">5</dim:field>
+   <dim:field mdschema="oaire" element="citationissue" qualifier="" lang="spa">5</dim:field>
 
 
 Niveles de aplicación para productos de investigación de MinCiencias
