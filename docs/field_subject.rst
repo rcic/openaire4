@@ -247,6 +247,7 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 |             **Descriptores basados en vocabularios controlados**                                                                 |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | dc.subject               | armarc            | Archivo en línea de autoridades de materia en español                             |
+|                          |                   | (http://www.armarcenlinea.com/)                                                   |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | dc.subject               | udc               | Clasificación Universal Decimal   (http://udcc.org/)                              |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
@@ -256,12 +257,18 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | dc.subject               | lcsh              | Encabezamientos de la Biblioteca del Congreso                                     |
 |                          |                   | (https://www.loc.gov/aba/cataloging/subject/)                                     |
+|                          |                   | (http://id.loc.gov/authorities/subjects.html)                                     |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | dc.subject               | lem               | Encabezamientos de la Biblioteca Nacional de España                               |
+|                          |                   | (http://id.sgcb.mcu.es/buscar)                                                    |
++--------------------------+-------------------+-----------------------------------------------------------------------------------+
+| dc.subject               | bne               | Catálogo de autoridades de la Biblioteca Nacional de España                       |
+|                          |                   | (http://catalogo.bne.es/uhtbin/authoritybrowse.cgi)                               |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | dc.subject               | lemb              | Encabezamientos de la Biblioteca Luis Ángel Arango                                |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | dc.subject               | ecm               | Encabezamientos de la Biblioteca Universidad Nacional Autónoma de México DGB/UNAM |
+|                          |                   | (http://librunam.dgbiblio.unam.mx:8991/F/?func=find-b-0&local_base=ecm12)         |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
 | dc.subject               | mesh              | Medical Subject Headings (https://www.nlm.nih.gov/mesh/meshhome.html)             |
 +--------------------------+-------------------+-----------------------------------------------------------------------------------+
