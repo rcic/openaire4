@@ -170,15 +170,16 @@ Recomendación de campos de aplicación en DSPACE
 
 Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
 
-+----------------------------------------+-----------------------+---------------+-----------------+
-| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores | Nota de alcance |
-+========================================+=======================+===============+=================+
-| Versión (Clave ó Número)               | dc.description        | version       |                 |
-+----------------------------------------+-----------------------+---------------+-----------------+
-| Estado de Publicación(Driver/OpenAire3)| dc.type               | version       |                 |
-+----------------------------------------+-----------------------+---------------+-----------------+
-| Estado de Publicación(OpenAire4)       | oaire.version         |               |                 |
-+----------------------------------------+-----------------------+---------------+-----------------+
++----------------------------------------+-----------------------+---------------+------------------------+
+| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores | Nota de alcance        |
++========================================+=======================+===============+========================+
+| Versión (Clave ó Número)               | dc.description        | version       |                        |
++----------------------------------------+-----------------------+---------------+------------------------+
+| Estado de Publicación(Driver/OpenAire3)| dc.type               | version       |                        |
++----------------------------------------+-----------------------+---------------+------------------------+
+| Estado de Publicación(OpenAire4)       | oaire.version         |               | equivalencia semántica |
+|                                        |                       |               | dc.type.coarversion    |
++----------------------------------------+-----------------------+---------------+------------------------+
 
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------------------
