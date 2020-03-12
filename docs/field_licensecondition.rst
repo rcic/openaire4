@@ -152,8 +152,8 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +=======================+===================+============================================================================+
 | dc.rights             |                   | Texto general de licencia/Copyright                                        |
 +-----------------------+-------------------+----------------------------------------------------------------------------+
-| dc.rights             |*creativecommons   | Texto indicador del tipo de licencia utilizado                             |
-|                       |*licence           | Para Creative Commons utilice el texto normalizado provisto                |
+| dc.rights             |* creativecommons  | Texto indicador del tipo de licencia utilizado                             |
+|                       |* licence          | Para Creative Commons utilice el texto normalizado provisto                |
 |                       |                   | * Attribution 4.0 International (CC BY 4.0)                                |
 |                       |                   | * Atribución-NoComercial-SinDerivadas 2.5 Colombia (CC BY-NC-ND 2.5 CO)    |
 |                       |                   |                                                                            |
