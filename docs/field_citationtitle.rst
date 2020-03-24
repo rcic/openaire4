@@ -167,6 +167,7 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 | Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores      | Nota de alcance                                         |
 +========================================+=======================+====================+=========================================================+
 | OpenAire                               | dc.relation           | ispartofjournal    | Título de revista como documento anfitrión              |
+|                                        |                       |                    | - Para Título abreviado ver nota asociada.              |
 +----------------------------------------+-----------------------+--------------------+---------------------------------------------------------+
 | OpenAire                               | dc.relation           | ispartofbook       | Título de libro como documento anfitrión                |
 +----------------------------------------+-----------------------+--------------------+---------------------------------------------------------+
@@ -177,3 +178,7 @@ Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, L
 --------------------------------------------------------------------------------------------------------------------
 
 	- Se recomienda específicamente crear los nuevos atributos/especificadores de campo de **título del recurso fuente** según la codificación propuesta.
+	- Se presenta equivalencia semántica de los campos sugeridos para usar en Dspace (dc.relation.ispartofjournal, dc.relation.ispartofbook, dc.relation.ispartofconference**) con el **campo oaire.citationtitle.**
+	- Para registrar el título abreviado del documento anfitrión, se recomienda utilizar el campo **dc.relation.ispartofjournalabbrev**
+	
+	
