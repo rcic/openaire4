@@ -292,7 +292,7 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +-------------------------------------------+---------------------+-----------------------+----------------------+----------------------+
 | Línea de Investigación                    | dc.description      | researcharea          |                      | researchareaID       |
 +-------------------------------------------+---------------------+-----------------------+----------------------+----------------------+
-| Grupo de Investigación                    | dc.description      | researchgroup         |                      | researchGroupID      |
+| Grupo de Investigación                    | dc.contributor      | researchgroup         |                      | researchGroupID      |
 +-------------------------------------------+---------------------+-----------------------+----------------------+----------------------+
 | Costos (subvenciones) del proyecto        | dc.description      | researchcost          |                      |                      |
 +-------------------------------------------+---------------------+-----------------------+----------------------+----------------------+
