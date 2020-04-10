@@ -37,7 +37,7 @@ Para fechas de publicación: No Repetible (R): **1 ocurrencia**
 
 ..
 
-Para periodos de embargo: No Repetible (R): **2 ocurrencias**
+Para periodos de embargo: No Repetible (R): **2 ocurrencias** (Fechas de inicio y finalización del embargo)
 
 Esquema de metadatos
 --------------------
@@ -61,18 +61,18 @@ RDA (Recursos: descripción y acceso)
 
 Revise la forma adecuada para ingresar la fecha en la forma estipulada:
 
-	- **Fecha de publicación completa:**  Información relacionada con la publicación, impresión, distribución, emisión y puesta en circulación del recurso. Debe ingresarse con las reglas de codificación de la W3C para fechas y horas (AAAA-MM-DD) (por ejemplo: 1997-07-16)
+	- **Fecha de publicación completa:**  Información relacionada con la publicación, impresión, distribución, emisión y puesta en circulación del recurso. Debe ingresarse con las reglas de codificación de la W3C / `ISO 8601 <https://www.iso.org/iso-8601-date-and-time-format.html>`_ para fechas y horas (AAAA-MM-DD) (por ejemplo: 1997-07-16)
 	
 		**Notas:** 
-			- AAAA [año de cuatro dígitos] deber ser '' obligatorio ''.
-			- MM [el mes de dos dígitos (01 = enero, 02 = febrero, 03 = marzo, etc.)] es "opcional".
-			- DD [el día del mes de dos dígitos (01 a 31)] es "opcional".
+			- AAAA [año de cuatro dígitos] deber ser  **Obligatorio**.
+			- MM [el mes de dos dígitos (01 = enero, 02 = febrero, 03 = marzo, etc.)] es **Opcional**.
+			- DD [el día del mes de dos dígitos (01 a 31)] es **Opcional**.
 
-	- **Campo de fecha - Fecha de publicación:** Normalmente, los sistemas de repositorio tienen más de un campo de fecha que sirve para diferentes propósitos. Por ejemplo: Fecha de creación, publicación, modificación, promoción, emisión, etc. Preferiblemente, en la perspectiva de los usuarios finales, la fecha más lógica y significativa será la fecha de publicación. YYYY-MM-DD (por ejemplo: 2015-05-15)
+	- **Campo de fecha - Fecha de publicación:** Normalmente, los sistemas de repositorio tienen más de un campo de fecha que sirve para diferentes propósitos. Por ejemplo: Fecha de creación, publicación, modificación, promoción, emisión, etc. Preferiblemente, en la perspectiva de los usuarios finales, la fecha más lógica y significativa será la fecha de publicación (dc.date.issued). **YYYY-MM-DD** (Por ejemplo: 2015-05-15)
 
-	- **Fecha de publicación no disponible o no identificada:** Si no hay una fecha de publicación disponible o identificada, use cualquier otra fecha disponible o una aproximación a la fecha de publicación del recurso según su contenido. No es adecuado dejar el campo sin ninguna fecha ya que para efectos de recuperación es un campo clave que aproxima la cantidad de recursos por periodos de tiempo. Cabe resaltar que no hay necesidad de colocar el mes ni el día, tan solo con el año el recurso no se verá afectado. YYYY (por ejemplo: 2018)
+	- **Fecha de publicación no disponible o no identificada:** Si no hay una fecha de publicación disponible o identificada, use cualquier otra fecha disponible o una aproximación a la fecha de publicación del recurso según su contenido. No colocar fechas que incluyan signos ó símbolos (Por ejemplo: 200?, 19??). No es adecuado dejar el campo sin ninguna fecha ya que para efectos de recuperación es un campo clave que aproxima la cantidad de recursos por periodos de tiempo. Cabe resaltar que en el caso que no se tenga la fecha exacta, no hay necesidad de colocar el mes ni el día, tan solo con el año el recurso no se verá afectado. YYYY (por ejemplo: 2018)
 
-	- **Adiciones de marca de datos:** En ocasiones, existen fechas difusas o borrosas en los recursos, se recomienda no dejar el campo en blanco o utilizar un periodo cronológico cómo: “Siglo XX” - “17th century”. Para expresar ese periodo temporal use el campo (dc:coverage). Por lo tanto, acerque el periodo de fecha del recurso en vez de utilizar una periodo cronológico. YYYY (por ejemplo: 1962)
+	- **Adiciones de marca de datos:** En ocasiones, existen fechas difusas o borrosas en los recursos, se recomienda no dejar el campo de fecha de publicación en blanco (acerque el periodo de fecha del recurso en vez de utilizar una periodo cronológico) y en simultaneo utilizar cicho periodo cronológico (Por Ejemplo: “Siglo XX” - “17th century”) para expresar éste periodo temporal en el campo (**dc:coverage**).  
 
 	**Nota:** Dado que no hay un estándar para fechas difusas o no identificadas para periodos cronológicos o términos como "Renacimiento" o "Siglo XVII", simplemente estos resultados no aparecerán en las consultas realizadas en el campo de fecha.
 
@@ -122,16 +122,17 @@ Entidad que agrupa todas las fechas relacionadas con el recurso durante su ciclo
 Relaciones con otros campos
 ---------------------------
 
-	- No debe confundirse **Publication Date (datacite:date)** con la fecha de embargo **Embargo Period Date (datacite:date)** incluidos sus especificadores de campo.
-	- No debe confundirse  **Embargo Period Date (datacite:date)** con la fecha de publicación del recurso **Publication Date (datacite:date)** incluidos sus especificadores de campo.
+	- No debe confundirse la fecha de embargo del recurso de información **Embargo Period Date (datacite:date)** con la fecha de publicación del recurso **Publication Date (dc.date.issued)** incluidos sus especificadores de campo.
+	- No debe confundirse la fecha de creación del recurso (**dc.date.created**) con la fecha de publicación del mismo **Publication Date (dc.date.issued)**.
+	- No debe confundirse la fecha de disponibilidad del recurso en accceso completo (Full-Text Access  **dc.date.available**) en el repositorio con la fecha de publicación del mismo **Publication Date (dc.date.issued)**.
 
 
 Restricciones
 -------------
 
-	- Si no hay ninguna fecha de publicación disponible, se recomienda utilizar una fecha estimada. Dado que es mejor utilizar una fecha estimada que ninguna, se pueden utilizar la fecha de impresión, la de aceptación del trabajo, la de la década en que se calcula que se editó el documento, etc.
-	- En el ámbito que haya embargo (restricción de acceso), se recomienda especificar las dos fecha (Accepted, Available) con sus respectivos atributos que indican inicio y fin de la restricción.
-	- Cuando el campo asociado a los derechos de acceso (M) se establezca con el valor **<datacite:rights uri="http://purl.org/coar/access_right/c_f1cf" >embargoed access</<datacite:rights>.** Es obligatorio la inclusión de la fecha de inicio y finalización del período de embargo.
+	- Si no hay ninguna fecha de publicación disponible, se recomienda utilizar una fecha estimada. Dado que es mejor utilizar una fecha estimada que ninguna, se pueden utilizar la fecha de impresión, la de aceptación del trabajo, la fecha en que se coloca disponible el recurso para descarga/consulta, etc.
+	- En el ámbito que haya embargo (restricción de acceso), se recomienda especificar las dos fechas (**Accepted, Available**) con sus respectivos atributos que indican inicio y fin de la restricción.
+	- Cuando el campo asociado a los derechos de acceso (M) se establezca con el valor provisto por COAR **embargoed access / `http://purl.org/coar/access_right/c_f1cf`_ ** Es obligatorio la inclusión de la fecha de inicio y finalización del período de embargo.
 
 
 Ejemplos y ayudas
@@ -140,10 +141,10 @@ Ejemplos y ayudas
 Ayudas
 ++++++
 
-	- **Fecha (publicación): datacite:date:** dataType= “Issued” 2019-03-20
-	- **datacite:date-Accepted:** Fecha de aceptación. Ej: 2019-02-01
-	- **datacite:date-Available:** Fecha de disponibilidad. Ej: 2019-04-01
-	- **datacite:date-Issued:** Fecha de publicación. Ej: 2019-05-01
+	- **Fecha de publicación: **   datacite:date  dataType= “Issued”   - 2019-03-20
+	- **Fecha de aceptación:**     datacite:date  dataType="Accepted"  - 2019-02-01
+	- **Fecha de disponibilidad:** datacite:date  dataType="Available  - 2010-04-25
+	- **Fecha de creación:**       datacite:date  dataType="Created"   - 1977-07-11
 
 Ejemplo en XML (Interoperabilidad OAI-PMH)
 ++++++++++++++++++++++++++++++++++++++++++
@@ -175,21 +176,21 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
    :linenos:
 
    	<element name="date">
-	<element name="accessioned">
-	<element name="none">
-	<field name="value">2017-02-10T22:11:00Z</field>
-	</element>
-	</element>
-	<element name="available">
-	<element name="none">
-	<field name="value">2017-02-10T22:11:00Z</field>
-	</element>
-	</element>
-	<element name="issued">
-	<element name="none">
-	<field name="value">2017</field>
-	</element>
-	</element>
+		<element name="accessioned">
+			<element name="none">
+				<field name="value">2017-02-10T22:11:00Z</field>
+			</element>
+		</element>
+		<element name="available">
+			<element name="none">
+				<field name="value">2017-02-10T22:11:00Z</field>
+			</element>
+		</element>
+		<element name="issued">
+			<element name="none">
+				<field name="value">2017</field>
+			</element>
+		</element>
 	</element>
 
 **Esquema dim**
@@ -241,7 +242,7 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +========================================+=======================+===============+=================================================================================================+
 | Fecha de publicación                   | dc.date               | issued        |                                                                                                 |
 +----------------------------------------+-----------------------+---------------+-------------------------------------------------------------------------------------------------+
-| Fecha de disponibilidad                | dc.date               | available     |                                                                                                 |
+| Fecha de disponibilidad                | dc.date               | available     | Utilice este campo para registrar la fecha de finalización de embargo                           |
 +----------------------------------------+-----------------------+---------------+-------------------------------------------------------------------------------------------------+
 | Fecha de aceptación                    | dc.date               | accepted      | Para indicar el inicio de un período de embargo, utilice Enviado o Aceptado, según corresponda. |
 +----------------------------------------+-----------------------+---------------+-------------------------------------------------------------------------------------------------+
