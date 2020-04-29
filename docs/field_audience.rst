@@ -185,7 +185,7 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +-----------------------------------------+-----------------------+-------------------------+------------------------------------------------------------------------------------------------+
 | OpenAire                                | dcterms.audience      | educationalcontext      | Nivel educativo del usuario al que va dirigido el recurso.                                     |
 +-----------------------------------------+-----------------------+-------------------------+------------------------------------------------------------------------------------------------+
-| OpenAire                                | dcterms.audience      | MinCiencias             | Coloque la comunidad vinculada que ha promovido los proyectos de investigación.                |
+| OpenAire                                | dcterms.audience      | redcol                  | Coloque la comunidad vinculada que ha promovido los proyectos de investigación.                |
 +-----------------------------------------+-----------------------+-------------------------+------------------------------------------------------------------------------------------------+
 
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
