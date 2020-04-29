@@ -7,7 +7,8 @@ Citation Edition (Edición del recurso fuente) (R)
 
 Definición y alcance del campo
 ------------------------------
-Este campo hace referencia a la designación numérica/secuencial de la edición del recurso fuente. Esta propiedad es parte de la cita bibliográfica.
+Este campo hace referencia a la designación numérica/secuencial de la edición del recurso fuente generalmente utlizado en recursos monográficos. 
+Esta propiedad es parte de la cita bibliográfica.
 Para el caso de artículos de revista, este campo puede contener datos especificos de la publicación : Rangos de Fechas (Enero - Junio), Años no convencionales (año 5) 
 
 
@@ -121,15 +122,13 @@ Recomendación de campos de aplicación en DSPACE
 
 Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas DSPACE basados en los siguientes elementos:
 
-+----------------------------------------+-----------------------+---------------------------+------------------------------------------------------------------------------------------------------------+
-| Vocabulario controlado OpenAire/RedCol | Campo Elemento DSPACE | Calificadores             | Nota de alcance                                                                                            |
-+========================================+=======================+===========================+============================================================================================================+
-| OpenAire                               | dc.relation           | citationedition           | Número de edición de publicación. Se pueden utilizar cualquiera de los dos esquemas provistos (dc, oaire). |
-+----------------------------------------+-----------------------+---------------------------+------------------------------------------------------------------------------------------------------------+
-| OpenAire                               | dc.description        | edition                   | Número de edición de publicación. Se pueden utilizar cualquiera de los dos esquemas provistos (dc, oaire). |
-+----------------------------------------+-----------------------+---------------------------+------------------------------------------------------------------------------------------------------------+
-| OpenAire                               | oaire                 | citationedition           | Número de edición de publicación. Se pueden utilizar cualquiera de los dos esquemas provistos (dc, oaire). |
-+----------------------------------------+-----------------------+---------------------------+------------------------------------------------------------------------------------------------------------+
++-----------------------+---------------------------+---------------------------------------------------------------+
+| Campo Elemento DSPACE | Calificadores             | Nota de alcance                                               |
++=======================+===========================+===============================================================+
+| dc.description        | edition                   | Número de edición de publicación.                             |
++-----------------------+---------------------------+ Se presenta equivalencia semántica de los dos esquemas        +
+| oaire                 | citationedition           | dc.decription.edition = oaire.citationedition                 |
++-----------------------+---------------------------+---------------------------------------------------------------+
 
 
 Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
