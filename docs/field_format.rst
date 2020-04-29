@@ -37,7 +37,7 @@ RDA (Recursos: descripción y acceso).
 Propiedades, atributos y especificadores de campo
 -------------------------------------------------
 
-Propiedad de Formato (Format) (MA, 1-n):
+Propiedad de Formato (Format) (R, 1-n):
 +++++++++++++++++++++++++++++++++++++++++++++++++
 
 Use la Manifestación física o digital del recurso como un valor.
