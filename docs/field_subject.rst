@@ -58,9 +58,9 @@ Clase Materias (subjects) (MA, 0-n):
 
 Entidad que agrupa todos los descriptores del recurso.
 
-    - Propiedad Materia (subject) (MA, 0-n): Utilice la materia o palabra clave como valor.
+    - **Propiedad Materia (subject) (MA, 0-n):** Utilice la materia o palabra clave como valor.
 
-        - Atributo Nombre del lenguaje documental (subjectScheme) (O, 0-1): Nombre del esquema de materia o código de clasificación o autoridad. Se deben tener en cuenta el siguiente o vocabulario controlado propuesto:
+        - **Atributo Nombre del lenguaje documental (subjectScheme) (O, 0-1):** Nombre del esquema de materia o código de clasificación o autoridad. Se deben tener en cuenta el siguiente o vocabulario controlado propuesto:
 
 +-------------------------+------------------------------------------------------------------------------+------------------------+
 | Vocabulario Normalizado | Descripción del Atributo                                                     | Dominio de Vocabulario |
