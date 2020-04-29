@@ -32,9 +32,16 @@ RDA (Recursos: descripción y acceso).
 
    - El campo formato del recurso de información está íntimamente ligado con el contenido y la extensión de los nombres del archivos adjuntos.
    - La práctica recomendada consiste en seleccionar un valor de la lista registrada de IANA de tipos de medios de Internet (tipos MIME) cuyos valores admitidos están controlados por un vocabulario que se encuentra en: http://www.iana.org/assignments/media-types/media-types.xhtml 
+   - Adicionalmente incluye información del soporte (físico/digital) utilizado y el medio requerido para acceder al recurso (Cloud, CD, DVD, etc..) si aplica.
 
 Propiedades, atributos y especificadores de campo
 -------------------------------------------------
+
+Propiedad de Formato (Format) (MA, 1-n):
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Use la Manifestación física o digital del recurso como un valor.
+
 
 Relaciones con otros campos
 ---------------------------
@@ -136,3 +143,4 @@ Recomendaciones de migración de otras directrices de metadatos (BDCOL, SNAAC, L
 --------------------------------------------------------------------------------------------------------------------
 
 Se recomienda específicamente crear los nuevos atributos/especificadores de campo de título según la codificación propuesta.
+
