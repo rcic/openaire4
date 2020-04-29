@@ -56,11 +56,11 @@ Clase Principal Colaboradores(contributors) (MA, 0-n):
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Entidad que agrupa todos los colaboradores del recurso.
 
-Sub-Propiedad: Colaborador (contributor) (MA, 0-n):
+Propiedad: Colaborador (contributor) (MA, 0-n):
 +++++++++++++++++++++++++++++++++++++++++++++++++++
 Entidad que identifica cada uno de los colaboradores del recurso.
 
-- **Atributo: Tipo de Autor (contributorType) (M, 1):** Este atributo, define el rol del colaborador durante el ciclo de vida del mismo. Este campo es obligatorio cuando se define la propiedad “contributor”. Se debe tener en cuenta los siguientes tipos de colaboradores y su codificación normalizada según el vocabulario controlado propuesto:
+- **Atributo: Tipo de Colaboración (contributorType) (M, 1):** Este atributo, define el rol del colaborador durante el ciclo de vida del mismo. Este campo es obligatorio cuando se define la propiedad “contributor”. Se debe tener en cuenta los siguientes tipos de colaboradores y su codificación normalizada según el vocabulario controlado propuesto:
 
 +-------------------------+----------------------------------------------------------+------------------------+
 | Vocabulario Normalizado | Descripción del Atributo                                 | Dominio de Vocabulario |
@@ -166,11 +166,12 @@ Entidad que identifica cada uno de los colaboradores del recurso.
 	+-------------------------+----------------------------+------------------------+
 	| Vocabulario Normalizado | Descripción del Atributo   | Dominio de Vocabulario |
 	+=========================+============================+========================+
-	| Organizational          | Autor Corporativo          | datacite               |
+	| Organizational          | Colaboración Corporativo   | datacite               |
 	+-------------------------+----------------------------+------------------------+
-	| Personal                | Autor Personal             | datacite               |
+	| Personal                | Colaboración Personal      | datacite               |
 	+-------------------------+----------------------------+------------------------+
-	| Event                   | Autor Conferencia - Evento | redcol                 |
+	| Event                   | Colaboración Conferencia - | redcol                 |
+	|                         | Evento                     |                        |
 	+-------------------------+----------------------------+------------------------+
 	| Service                 | Servicio                   | redcol                 |
 	+-------------------------+----------------------------+------------------------+
