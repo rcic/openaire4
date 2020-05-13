@@ -100,16 +100,19 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
    <element name="rights">
      <element name="spa">
        <field name="value">Copyright Universidad Católica de Colombia 2016</field>
-     </element>
-     <element name="creativecommons">
+     </element> 
+	 <element name="creativecommons">
          <element name="spa">
            <field name="value">Attribution 4.0 International (CC BY 4.0)</field>
-     </element>
-     <element name="uri">
+         </element>
+	</element>	
+    <element name="uri">
          <element name="spa">
            <field name="value">http://creativecommons.org/licenses/by-nc/4.0</field>
-     </element>
-  </element>
+         </element>
+	</element>
+   </element>
+
 
 **Esquema dim**
 
@@ -117,6 +120,7 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
    :linenos:
 
     <dim:field mdschema="dc" element="rights" qualifier="creativecommons" lang="spa">http://creativecommons.org/licenses/by-nc/4.0/</dim:field>
+
 
 Niveles de aplicación para productos de investigación de MinCiencias
 --------------------------------------------------------------------
@@ -147,21 +151,21 @@ Recomendación de campos de aplicación en DSPACE
 -----------------------------------------------
 Se recomienda crear/modificar el componente de registro de metadatos (y sus correspondientes hojas de entrada de datos) de los sistemas **DSPACE** basados en los siguientes elementos:
 
-+-----------------------+-------------------+----------------------------------------------------------------------------+
-| Campo Elemento DSPACE | Calificadores     | Nota de alcance                                                            |
-+=======================+===================+============================================================================+
-| dc.rights             |                   | Texto general de licencia/Copyright                                        |
-+-----------------------+-------------------+----------------------------------------------------------------------------+
-| dc.rights             |* creativecommons  | Texto indicador del tipo de licencia utilizado                             |
-|                       |* licence          | Para Creative Commons utilice el texto normalizado provisto                |
-|                       |                   | * Attribution 4.0 International (CC BY 4.0)                                |
-|                       |                   | * Atribución-NoComercial-SinDerivadas 2.5 Colombia (CC BY-NC-ND 2.5 CO)    |
-|                       |                   |                                                                            |
-+-----------------------+-------------------+----------------------------------------------------------------------------+
-| dc.rights             | uri               | URL a un documento de Licencia/Copyright.                                  |
-|                       |                   | *Incluye URL de Creative Commons                                           |
-|                       |                   | http://creativecommons.org/licenses/by-nc/4.0                              |
-+-----------------------+-------------------+----------------------------------------------------------------------------+
++-----------------------+---------------------+----------------------------------------------------------------------------+
+| Campo Elemento DSPACE | Calificadores       | Nota de alcance                                                            |
++=======================+=====================+============================================================================+
+| dc.rights             |                     | Texto general de licencia/Copyright                                        |
++-----------------------+---------------------+----------------------------------------------------------------------------+
+| dc.rights             |* "creativecommons"  | Texto indicador del tipo de licencia utilizado                             |
+|                       |* "licence"          | Para Creative Commons utilice el texto normalizado provisto                |
+|                       |                     | * Attribution 4.0 International (CC BY 4.0)                                |
+|                       |                     | * Atribución-NoComercial-SinDerivadas 2.5 Colombia (CC BY-NC-ND 2.5 CO)    |
+|                       |                     |                                                                            |
++-----------------------+---------------------+----------------------------------------------------------------------------+
+| dc.rights             |* uri                | URL a un documento de Licencia/Copyright.                                  |
+|                       |                     | *Incluye URL de Creative Commons                                           |
+|                       |                     | http://creativecommons.org/licenses/by-nc/4.0                              |
++-----------------------+---------------------+----------------------------------------------------------------------------+
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
 --------------------------------------------------------------------------------------------------------
