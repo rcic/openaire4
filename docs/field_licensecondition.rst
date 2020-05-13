@@ -107,12 +107,11 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
          </element>
 	</element>	
     <element name="uri">
-         <element name="spa">
-           <field name="value">http://creativecommons.org/licenses/by-nc/4.0</field>
-         </element>
+          <element name="spa">
+            <field name="value">http://creativecommons.org/licenses/by-nc/4.0</field>
+          </element>
 	</element>
    </element>
-
 
 **Esquema dim**
 
