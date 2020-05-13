@@ -170,6 +170,7 @@ Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA
 --------------------------------------------------------------------------------------------------------
 
 	- Se recomienda específicamente crear los nuevos atributos/especificadores de campo de **licenceCondition** según la codificación propuesta.
+	- Se recomienda utilizar conjuntamente una licencia de uso en "texto" para Humanos y una licencia en "URI/URL" para Máquinas.
 
 
 
