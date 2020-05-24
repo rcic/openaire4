@@ -3,7 +3,7 @@
 Coverage (Cobertura) (R)
 ========================
 
-``dc.coverage``
+``dc:coverage``
 
 Definición y alcance del campo
 ------------------------------
