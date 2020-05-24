@@ -3,7 +3,7 @@
 Description (Descripción) (MA)
 ==============================
 
-``dc.description``
+``dc:description``
 
 Definición y alcance del campo
 ------------------------------
