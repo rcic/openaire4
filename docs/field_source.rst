@@ -3,7 +3,7 @@
 Source (Fuente) (R) 
 ===================
 
-``dc.source``
+``dc:source``
 
 Definición y alcance del campo
 ------------------------------
