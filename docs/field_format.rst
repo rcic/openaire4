@@ -3,7 +3,7 @@
 Format (Formato) (R)
 ====================
 
-``dc.format``
+``dc:format``
 
 
 Definición y alcance del campo
