@@ -3,10 +3,7 @@
 Thesis, Monographic work (Tesis/Trabajo de grado) (MA)
 ======================================================
 
-- ``thesis.degree.name``
-- ``thesis.degree.level``
-- ``thesis.degree.discipline``
-- ``thesis.degree.grantor``
+- ``thesis:degree``
 
 Definición y alcance del campo
 ------------------------------
@@ -35,8 +32,8 @@ Traducción al español
 Tesis - Disertaciones y/o trabajos de grado
 
 	- **thesis.degree.name:** Título obtenido
-	- **thesis.degree.level:** Nivel del Programa Académico Asociado - Nivel de estudio
-	- **thesis.degree.discipline:** Departamento - Programa Académico
+	- **thesis.degree.level:** Nivel del programa académico asociado - Nivel de estudio
+	- **thesis.degree.discipline:** Departamento - Programa académico
 	- **thesis.degree.grantor:** Institución que otorga el grado académico.
 
 Forma de Descripción Normalizada (RDA / RCAA2)
@@ -44,10 +41,12 @@ Forma de Descripción Normalizada (RDA / RCAA2)
 
 RDA (Recursos: descripción y acceso): Revise la forma adecuada para ingresar los datos de **tesis:**
 
-	- **thesis.degree.name:** Nombre del grado asociado, debe colocarle tal cual como aparece en el título obtenido o diploma de grado. Ej: Magistra en Educación Virtual
-	- **thesis.degree.level:** Nivel del Programa Académico Asociado - Nivel de estudio. Ej: Tesis de doctorado 
-	
-	**Para este campo se recomienda utilizar el siguiente vocabulario controlado (Niveles Educación Superior MEN):**
+	- **thesis.degree.name:** Nombre del grado asociado, debe colocarle tal cual como aparece en el título obtenido o diploma de grado. Ej: Magister en Educación Virtual
+	- **thesis.degree.level:** Nivel del Programa Académico Asociado - Nivel de estudio. 
+	      - Ej: Doctorado 
+	      - Ej: Pregrado
+	      
+	   **Nota:** Para este campo se recomienda utilizar el siguiente vocabulario controlado (Niveles Educación Superior MEN):
 		- Técnica profesional
 		- Tecnológica
 		- Pregrado
@@ -56,7 +55,9 @@ RDA (Recursos: descripción y acceso): Revise la forma adecuada para ingresar lo
 		- Doctorado
 		- Posdoctorado
 
-	- **thesis.degree.discipline:** Se debe colocar la facultad, área o departamento de donde es perteneciente el estudio. Si es necesario segregar colocar siempre el área más grande al principio. Ej: Facultad de Ingenierías. Departamento de Ingeniería de Sistemas. Carrera de Ingeniería de Sistemas.
+	- **thesis.degree.discipline:** Se debe colocar la facultad, área o departamento relacionado con la unidad organizacional que otorga el grado. Si es necesario detallar ó especificar, se debe colocar siempre el área más grande al principio. 
+	     Ej: Facultad de Ingenierías. Departamento de Ingeniería de Sistemas. Carrera de Ingeniería de Sistemas.
+	     
 	- **thesis.degree.grantor:** Institución que otorga el grado asociado al trabajo. Al igual que otros nombres de instituciones y entidades, este campo debe ingresarse en forma de texto libre tal como aparece en la página de título o equivalente, con un enlace a un registro de autoridad, si está disponible.Consulte la sección "Autoridad" para obtener más información. Ej: Universidad Nacional de Colombia
 
 Propiedades, atributos y especificadores de campo
@@ -261,3 +262,4 @@ Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA
 --------------------------------------------------------------------------------------------------------
 
 - Se recomienda específicamente crear los nuevos atributos/especificadores del campo **Tesis/Trabajo de grado** según la codificación propuesta.
+
