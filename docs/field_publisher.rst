@@ -3,7 +3,7 @@
 Publisher (Editor) (MA)
 =======================
 
-``dc.publisher``
+``dc:publisher``
 
 Definición y alcance del campo
 ------------------------------
