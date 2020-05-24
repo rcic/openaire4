@@ -3,7 +3,7 @@
 Language (Idioma) (MA)
 ======================
 
-``dc.language``
+``dc:language``
 
 Definición y alcance del campo
 ------------------------------
