@@ -27,4 +27,3 @@ Hay tres elementos claves que se deben tener en cuenta como parte importante del
    contMeta
    compAgre
    estructuraDoc
-
