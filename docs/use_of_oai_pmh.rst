@@ -200,4 +200,3 @@ Los productos de investigación reconocidos en cada tipo según el modelo de med
    prodResAct2
    prodResAct3
    prodResAct4
-
