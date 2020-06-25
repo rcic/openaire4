@@ -2,14 +2,14 @@
    :scale: 35%
    :name: img_header
 
-###########################################################################################################################
-Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica (RedCol) 2020
-###########################################################################################################################
+########################################################################################################################
+Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica  - M701M02
+########################################################################################################################
 
 ..
 
-Documento Final - Versión oficial. (Publicado 01-09-2019 / Actualizado 01-05-2020)
-=================================================================
+Red Colombiana de Información Científica (RedCol) - M701M02
+===========================================================
 
 ..
 
@@ -27,6 +27,7 @@ Documento Final - Versión oficial. (Publicado 01-09-2019 / Actualizado 01-05-20
    glosario.rst
    anexos.rst
    bibliografia.rst
+   controlcambios.rst   
 
 .. image:: _static/logominciencias.png
    :scale: 60%
