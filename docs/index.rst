@@ -8,8 +8,8 @@ Directrices para repositorios institucionales de investigación de la Red Colomb
 
 ..
 
-Red Colombiana de Información Científica (RedCol) - M701M02
-===========================================================
+Red Colombiana de Información Científica (RedCol) - http://redcol.minciencias.gov.co/ 
+=====================================================================================
 
 ..
 
