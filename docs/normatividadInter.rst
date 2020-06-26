@@ -9,6 +9,6 @@ Se ha aplicado la normativa RDA en la descripción de metadatos para repositorio
 
 Para determinar las formas controladas de los nombres como puntos de acceso que permitan identificar inequívocamente una entidad y recuperar eficazmente la información del registro de metadatos, la normativa RDA se aplicará tanto en el formato bibliográfico como en los distintos registros de autoridad de nombre, entidades corporativas, series y puntos de acceso temáticos. 
 
-La aplicación de las RDA no sólo será seguir un principio de representación, sino una razón más práctica para fomentar la reutilización de los datos y la descarga de la descripción de los recursos. 
+La aplicación de las RDA no sólo implicará seguir un principio de representación, sino una razón más práctica para fomentar la reutilización de los datos y la descarga de la descripción de los recursos. 
 
-Por esta razón, se hace necesario aplicar las RDA como un componente fundamental de la descripción de los productos de investigación desarrollados por MinCiencias, y como lineamiento general para los Sistemas de información de investigación, Repositorios institucionales , Bibliotecas Digitales, y Sistemas de publicación monográficos/seriados.
+Por esta razón, se hace necesario aplicar las RDA como un componente fundamental de la descripción de los productos de investigación desarrollados por el Ministerio de Ciencia, Tecnología e Innovación, y como lineamiento general para los Sistemas de información de investigación, Repositorios institucionales , Bibliotecas Digitales, y Sistemas de publicación monográficos/seriados.
