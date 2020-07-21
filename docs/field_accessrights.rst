@@ -173,8 +173,8 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 | Driver / OpenAire 3    | dc.rights             | accessrights  | Derechos de acceso         |
 +------------------------+-----------------------+---------------+----------------------------+
 | OpenAire4              | dc.rights             | coar          | Equivalencia semántica con:|
-|                        |                       |               | -**oaire.accessrights**    |
-|                        |                       |               | -**datacite.rights**       |
+|                        |                       |               | - **oaire.accessrights**   |
+|                        |                       |               | - **datacite.rights**      |
 +------------------------+-----------------------+---------------+----------------------------+
 
 Recomendaciones de migración de Modelos anteriores (BDCOL, SNAAC, LA REFERENCIA, OPENAIRE 2, OPENAIRE 3)
