@@ -8,7 +8,7 @@ Control de Cambios
 +-----------+--------------+-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Versión   | Fecha        | Numerales   | Descripción de la Modificación                                                                                                                                                                                                                                                              |
 +===========+==============+=============+=============================================================================================================================================================================================================================================================================================+
-| 00        |              | Todos       | Se crea la versión 00 del documento de conformidad con los definido por la Ley 1951 de 2019, el artículo 215 de la Ley 1955 de 2019 y el decreto 2226 de 2019 "Por el cual se establece la estructura del Ministerio de Ciencia, Tecnología e Innovación y se dictan otras disposiciones"   |
+| 00        | 26/08/2020   | Todos       | Se crea la versión 00 del documento de conformidad con los definido por la Ley 1951 de 2019, el artículo 215 de la Ley 1955 de 2019 y el decreto 2226 de 2019 "Por el cual se establece la estructura del Ministerio de Ciencia, Tecnología e Innovación y se dictan otras disposiciones"   |
 +-----------+--------------+-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 +-------------------------------------------------------------------------+-----------------------------------------------------------------------------------+----------------------------------------------------------------+
@@ -16,10 +16,9 @@ Control de Cambios
 +=========================================================================+===================================================================================+================================================================+
 | **Nombre**: Equipo de la Red Colombiana de Información Científica -     |                                                                                   |                                                                |
 | Dirección de Capacidades y Divulgación de la CTeI                       |                                                                                   |                                                                |
-| en colaboración con Metabiblioteca S.A.S                                | **Nombre**: Laura Jimena Cuellar Sabogal                                          | **Nombre**:                                                    |
+| en colaboración con Metabiblioteca S.A.S                                | **Nombre**: Laura Jimena Cuellar Sabogal                                          | **Nombre**: Antonio Copete Villa                               |
 +-------------------------------------------------------------------------+-----------------------------------------------------------------------------------+----------------------------------------------------------------+
-| **Cargo**:                                                              | **Cargo**: Contratista oficina Asesora de Planeación e Innovación institucional   | **Cargo**:                                                     |
+| **Cargo**:                                                              | **Cargo**: Contratista oficina Asesora de Planeación e Innovación institucional   | **Cargo**: Director de Capacidades y Divulgación de la CTeI    |
 +-------------------------------------------------------------------------+-----------------------------------------------------------------------------------+----------------------------------------------------------------+
-
 
 
