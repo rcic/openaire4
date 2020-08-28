@@ -3,7 +3,7 @@
 Presentación
 ===============
 
-La Red Colombiana de Información Científica (RedCol) fue conformada por el entonces Colciencias, ahora Ministerio de Ciencia, Tecnología e Innovación a través de la Resolución 166 del 20 de febrero de 2019, con el objetivo de articular los esfuerzos de los actores del Sistema Nacional de Ciencia, Tecnología e Innovación, para potenciar la visibilidad, circulación y gestión de la información científica colombiana. 
+La Red Colombiana de Información Científica (RedCol) fue conformada por el entonces Colciencias, ahora Ministerio de Ciencia, Tecnología e Innovación en el 2019, con el objetivo de articular los esfuerzos de los actores del Sistema Nacional de Ciencia, Tecnología e Innovación, para potenciar la visibilidad, circulación y gestión de la información científica colombiana.
 
 La iniciativa pretende impulsar la producción en acceso abierto, principalmente la que se realiza con fondos públicos. Para ello, se requieren construir escenarios de discusión de acuerdos nacionales para gestionar, preservar y visibilizar la producción científica institucional, de tal manera que se disponga de un marco de estándares que permita la conformación de las colecciones científicas nacionales, el desarrollo de servicios de información científica y la formación de talento humano en documentación científica que atienda las necesidades del desarrollo y la apropiación de la ciencia, la tecnología y la innovación.
 
