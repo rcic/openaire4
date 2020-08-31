@@ -267,7 +267,7 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 |                                        |                       | - urn         | -                                                                              |
 |                                        |                       | - wos         | -                                                                              |
 +----------------------------------------+-----------------------+---------------+--------------------------------------------------------------------------------+
-| Identificador Alternativo, Texto libre | dc.identifier         | citation      | Equivalente a: dc.relation.bibliographicCitation/dcterms.bibliographicCitation |
+| Identificador Alternativo, Texto libre | dc.identifier         | citation      | Equivalente a: dc.relation.bibliographiccitation/dcterms.bibliographiccitation |
 +----------------------------------------+-----------------------+---------------+--------------------------------------------------------------------------------+
 | Otros Identificadores                  | dc.identifier         | other         | Texto Libre                                                                    |
 +----------------------------------------+-----------------------+---------------+--------------------------------------------------------------------------------+
