@@ -16,7 +16,7 @@ Este campo tiene varios usos dependiendo del contexto general de aplicación, lo
 
 	- **Tipología Documental Local (R,1):** Hace referencia al tipo de producción científica o contenido intelectual en el que se manifiesta el recurso, el cual es utilizado por el usuario (una persona) para identificar la categoría asociada al recurso que está mostrando.  Ejemplo: Libro, artículo, revista, etc. 
 
-	- **Tipología del Contenido del Recurso (O,1):** Hace referencia al tipo de contenido interno sobre el cual está construido el recurso de información basándose en un vocabulario controlado normalizado.
+	- **Tipología asociada a la Naturaleza del Contenido del Recurso (O,1):** Hace referencia al tipo de contenido interno sobre el cual está construido el recurso de información (Naturaleza del contenido) basándose en un vocabulario controlado normalizado.
 
 Niveles de persistencia (M/MA/R/O)
 ------------------------------------
