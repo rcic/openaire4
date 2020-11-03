@@ -83,7 +83,7 @@ Entidad que identifica cada uno de los colaboradores del recurso.
 +-------------------------+----------------------------------------------------------+------------------------+
 | Distributor             | Distribuidor                                             | datacite               |
 +-------------------------+----------------------------------------------------------+------------------------+
-| Editor                  | Editor                                                   | datacite/redcol/lom    |
+| Editor / Compilator     | Editor - Compilador                                      | datacite/redcol/lom    |
 +-------------------------+----------------------------------------------------------+------------------------+
 | EducationalValidator    |                                                          | redcol                 |
 +-------------------------+----------------------------------------------------------+------------------------+
@@ -242,7 +242,7 @@ Ejemplos y ayudas
 Ayudas
 ++++++
 
-- Colaborador Editor:
+- Colaborador Editor/Compilador de la obra):
 - Colaborador Traductor:
 
 Ejemplo en XML (Interoperabilidad OAI-PMH)
@@ -286,7 +286,7 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 	<element name="contributor">
 	<element name="editor">
 	<element name="spa">
-	<field name="value">Vivas Barrera, Tania Giovanna, editora</field>
+	<field name="value">Vivas Barrera, Tania Giovanna</field>
 	</element>
 	</element>
 	</element>
@@ -395,7 +395,8 @@ Se recomienda crear/modificar el componente de registro de metadatos (y sus corr
 +----------------------------------------+-----------------------+-----------------------+-----------------+
 | Distributor                            | dc.contributor        | distributor           |                 |
 +----------------------------------------+-----------------------+-----------------------+-----------------+
-| Editor                                 | dc.contributor        | editor                |                 |
+| Editor / Compilator                    | dc.contributor        | editor                |Incluye          |
+|                                        |                       |                       |Compilador       |
 +----------------------------------------+-----------------------+-----------------------+-----------------+
 | EducationalValidator                   | dc.contributor        | educationalvalidator  |                 |
 +----------------------------------------+-----------------------+-----------------------+-----------------+
