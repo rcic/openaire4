@@ -118,7 +118,9 @@ Ejemplo en XML (Interoperabilidad OAI-PMH)
 .. code-block:: xml
    :linenos:
 
-    <dim:field mdschema="dc" element="rights" qualifier="creativecommons" lang="spa">http://creativecommons.org/licenses/by-nc/4.0/</dim:field>
+    <dim:field mdschema="dc" element="rights" qualifier="uri" lang="spa">http://creativecommons.org/licenses/by-nc/4.0/</dim:field>
+    <dim:field mdschema="dc" element="rights" qualifier="creativecommons" lang="spa">Attribution 4.0 International (CC BY 4.0)</dim:field>
+
 
 
 Niveles de aplicación para productos de investigación de MinCiencias
