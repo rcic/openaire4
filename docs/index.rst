@@ -1,4 +1,4 @@
-.. image:: _static/piedepagina.png
+.. image:: _static/LogoRedColNaranja.png
    :scale: 35%
    :name: img_header
 
