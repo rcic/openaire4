@@ -11,7 +11,7 @@ Así mismo, se requiere diferenciar el entorno de utilización de los metadatos 
  
  * Metadatos de Salida: Corresponde con el conjunto de campos desplegados mediante  una interfaz de salida del sistema de información y que son transformados  (Distintos modelos de metatados) de acuerdo a los requerimientos del usuario (Humano / Maquina)
 
-El conjunto de directrices de RedCol ha tomado en cuenta los siguientes modelos de metadatos exiestentes con el fin de promover arquitecturas más abiertas que involucren nuevos alcances de campos, nuevas y distintas tipologías documentales y nuevos vocabularios especializados para la descripción estandarizada de los recursos de información:
+El conjunto de directrices de RedCol ha tomado en cuenta los siguientes modelos de metadatos existentes con el fin de promover arquitecturas más abiertas que involucren nuevos alcances de campos, nuevas y distintas tipologías documentales y nuevos vocabularios especializados para la descripción estandarizada de los recursos de información:
 
 .. tabularcolumns:: |\Y{0.4}|\Y{0.2}|\Y{0.4}|
 +-------------------------------------------------------------+------------------------------------------+--------------------------------------------------------------------------+
