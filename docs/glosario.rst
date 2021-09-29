@@ -42,8 +42,6 @@ Glosario
 * **Protocolo de Iniciativa de Archivos Abiertos para la Recolección de Metadatos (OAI-PMH):** Protocolo de recolección de registros de metadatos entre servicios y repositorios. 
 ..
 
-* **Protocolo de Iniciativa de Archivos Abiertos para la Recolección de Metadatos (OAI-PMH):** Protocolo de recolección de registros de metadatos entre servicios y repositorios.
-..
 
 * **Protocolo:** Conjunto de normas que definen la comunicación entre sistemas. FTP (Protocolo de Transferencia de Ficheros) y HTTP (Protocolo de Transferencia de Hipertexto) son ejemplos de otros protocolos. 
 ..
