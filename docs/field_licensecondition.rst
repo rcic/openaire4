@@ -8,7 +8,7 @@ License Condition (Condición de la licencia) (MA)
 Definición y alcance del campo
 ------------------------------
 Información sobre los derechos de la licencia. Está información deberá contener los derechos de autor y de propiedad intelectual definidos por la institución, de igual forma derechos de uso y reutilización del recurso. 
-Se recomienda se haga claridad entre la autorización dada por el autor del recurso de informaciónm a la institución que publica el recurso en el Repositorio y la autorización/licencia de uso brindada por la institución que gestiona el Repositorio institucional a todos los usuarios del mismo. Para el primer caso, se recomienda que se genere un documento anexo al recurso de información y no se gestione como un campo de metadatos.
+Se recomienda se haga claridad entre la autorización dada por el autor del recurso de información a la institución que publica el recurso en el Repositorio y la autorización/licencia de uso brindada por la institución que gestiona el Repositorio institucional a todos los usuarios del mismo. Para el primer caso, se recomienda que se genere un documento anexo al recurso de información y no se gestione como un campo de metadatos.
 
 Pueden utilizarse las licencias de Creative Commons. 
 
