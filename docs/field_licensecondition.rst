@@ -1,6 +1,6 @@
 .. _aire:licenseCondition:
 
-License Condition (Condición de la licencia) (R)
+License Condition (Condición de la licencia) (MA)
 ================================================
 
 ``oaire:licenseCondition``
@@ -14,7 +14,7 @@ Pueden utilizarse las licencias de Creative Commons.
 
 Niveles de persistencia (M/MA/R/O)
 ----------------------------------
-Obligatorio (M)
+Obligatorio cuando sea aplicable (MA)
 
 Niveles de ocurrencia (R / NR)
 ------------------------------
@@ -41,7 +41,7 @@ Revise la forma adecuada para ingresar la condición de licencia con su debida p
 Propiedades, atributos y especificadores de campo
 -------------------------------------------------
 
-Propiedad Principal Condiciones de licencia (licenseCondition ) (M, 1-n): 
+Propiedad Principal Condiciones de licencia (licenseCondition ) (MA, 0-n): 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Utilice el nombre de la licencia como valor.
