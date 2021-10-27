@@ -12,7 +12,7 @@ Este campo tiene varios usos dependiendo del contexto general de aplicación, lo
 
 	- **Tipología Documental Normalizada COAR (M,1):** Hace referencia al tipo de publicación basándose en un vocabulario controlado normalizado, el cual es utilizado por el usuario (una máquina) para identificar la categoría asociada al recurso que está mostrando.
 
-	- **Tipología Documental Normalizada RedCol (MA,1):** Hace referencia al tipo de recurso de investigación reconocido y avalado por MinCiencias basándose en un vocabulario controlado normalizado, el cual es utilizado por el usuario (una máquina) para identificar la categoría asociada al recurso que está mostrando.
+	- **Tipología Documental Normalizada MinCiencias (MA,1):** Hace referencia al tipo de recurso de investigación reconocido y avalado por MinCiencias basándose en un vocabulario controlado normalizado, el cual es utilizado por el usuario (una máquina) para identificar la categoría asociada al recurso que está mostrando.
 
 	- **Tipología Documental Local (R,1):** Hace referencia al tipo de producción científica o contenido intelectual en el que se manifiesta el recurso, el cual es utilizado por el usuario (una persona) para identificar la categoría asociada al recurso que está mostrando.  Ejemplo: Libro, artículo, revista, etc. 
 
@@ -22,7 +22,7 @@ Niveles de persistencia (M/MA/R/O)
 ------------------------------------
 
 	- Tipología Documental Normalizada COAR: Obligatorio (M,1)
-	- Tipología Documental Normalizada RedCol: Obligatorio si es aplicable (MA,1)
+	- Tipología Documental Normalizada MinCiencias: Obligatorio si es aplicable (MA,1)
 	- Tipología Documental Local: Recomendado (R,1)
 	- Tipología del Contenido del Recurso: Opcional (O,1)
 
