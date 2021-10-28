@@ -1,7 +1,7 @@
 .. _anexo3:
 
 Anexo 3. Hoja de trabajo para Productos de actividades relacionadas con la Formación de Recurso Humano en CTel
-=======================================================================================
+==============================================================================================================
 
 a. **Hoja de trabajo para Participación ciudadana en CTeI - Estrategias pedagógicas para el fomento de la CTeI y la creación - Estrategias de comunicación del conocimiento**
 
