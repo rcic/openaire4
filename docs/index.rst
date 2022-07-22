@@ -3,7 +3,7 @@
    :name: img_header
 
 ########################################################################################################################
-Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica  - M701M02
+Directrices para repositorios institucionales de investigación del Ministerio de Ciencia, Tecnología e Innovación - M701M02
 ########################################################################################################################
 
 ..
