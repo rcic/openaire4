@@ -57,7 +57,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica (RedCol) 2020'
+project = u'Directrices para repositorios institucionales de investigación de la Red Colombiana de Información Científica 2020'
 copyright = u'MinCiencias 2020'
 
 # The version info for the project you're documenting, acts as replacement for
