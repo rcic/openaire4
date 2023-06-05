@@ -8,7 +8,7 @@ Directrices para repositorios institucionales de investigación del Ministerio d
 
 ..
 
-Red Colombiana de Información Científica (RedCol) - http://redcol.minciencias.gov.co/ 
+Red Colombiana de Información Científica - http://redcol.minciencias.gov.co/ 
 =====================================================================================
 
 ..
