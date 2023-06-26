@@ -29,6 +29,11 @@ Red Colombiana de Información Científica - http://redcol.minciencias.gov.co/
    bibliografia.rst
    controlcambios.rst   
 
-.. image:: _static/logominciencias.png
-   :scale: 60%
-   :name: img_footer
+.. raw:: html
+
+   <div style="display: flex;">
+       <div style="flex: 100%;">
+           <img src="_static/logo_colombia_potencia_de_la_vida.png" alt="Logo 1">
+           <img src="_static/logo_minciencias_2.png" alt="Logo 2">
+       </div>
+   </div>
