@@ -8,6 +8,6 @@ La versión más actualizada de las "Directrices para repositorios institucional
 .. toctree::
    :maxdepth: 1
 
-   Directrices para repositorios institucionales de investigación v1.1: <https://redcol.minciencias.gov.co/vufind/Content/directrices>
+   Directrices para repositorios institucionales de investigación v1.1: <Enlace pendiente una vez lo enlace Elkin>
    Directrices para repositorios institucionales de investigación v1: <https://redcol.minciencias.gov.co/vufind/Content/directrices>
   
